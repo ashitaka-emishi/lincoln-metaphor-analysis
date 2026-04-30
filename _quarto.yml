@@ -74,6 +74,10 @@ website:
             contents:
               - href: analysis/document_notes/doc_001_notes.md
                 text: "doc_001 — Lyceum Address"
+              - href: analysis/document_notes/doc_002_notes.md
+                text: "doc_002 — Temperance Address"
+              - href: analysis/document_notes/doc_003_notes.md
+                text: "doc_003 — Clay Eulogy"
               - href: analysis/document_notes/doc_005_notes.md
                 text: "doc_005 — House Divided"
               - href: analysis/document_notes/doc_007_notes.md
@@ -82,12 +86,16 @@ website:
                 text: "doc_008 — Springfield Farewell"
               - href: analysis/document_notes/doc_009_notes.md
                 text: "doc_009 — First Inaugural"
+              - href: analysis/document_notes/doc_010_notes.md
+                text: "doc_010 — July 4 Message 1861"
               - href: analysis/document_notes/doc_011_notes.md
                 text: "doc_011 — Constitution Fragment"
               - href: analysis/document_notes/doc_012_notes.md
                 text: "doc_012 — Greeley Letter"
               - href: analysis/document_notes/doc_013_notes.md
                 text: "doc_013 — Prelim. Emancipation"
+              - href: analysis/document_notes/doc_014_notes.md
+                text: "doc_014 — Annual Message 1862"
               - href: analysis/document_notes/doc_015_notes.md
                 text: "doc_015 — Final Emancipation"
               - href: analysis/document_notes/doc_016_notes.md

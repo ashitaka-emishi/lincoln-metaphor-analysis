@@ -101,7 +101,7 @@ lincoln-analysis/
 | 4 | In progress | `corpus/annotated/` — 20/28 complete (doc_001, doc_002, doc_003, doc_005, doc_007, doc_008, doc_009, doc_010, doc_011, doc_012, doc_013, doc_014, doc_015, doc_016, doc_017, doc_018, doc_019, doc_020, doc_021, doc_022); `analysis/document_notes/` — findings written for each annotated doc |
 | 5–6 | Pending | Depends on Stage 4 completion |
 
-**Next step**: Continue Stage 4 annotation — 12 documents remain. For each document: annotate into `corpus/annotated/{id}_annotated.json`, then write key findings to `analysis/document_notes/{id}_notes.md`. When all 28 are done, run `npm run pipeline`.
+**Next step**: Continue Stage 4 annotation — 8 documents remain (doc_004, doc_006a–g). For each document: annotate into `corpus/annotated/{id}_annotated.json`, then write key findings to `analysis/document_notes/{id}_notes.md`. When all 28 are done, run `npm run pipeline`.
 
 ## How Stages 1–3 Were Built
 
