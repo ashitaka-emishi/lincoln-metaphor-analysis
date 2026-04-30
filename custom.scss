@@ -1,0 +1,159 @@
+/*-- scss:defaults --*/
+
+// — Palette —
+$body-bg:               #f5f5dc;   // cream
+$body-color:            #202020;   // near-black
+$primary:               #800000;   // maroon
+$link-color:            #800000;
+$link-hover-color:      #5a0000;
+$accent-blue:           #5a6878;   // slate blue — 4th accent: secondary text, scrollbar track
+
+// — Fonts —
+$font-family-base:      "Lato", "Segoe UI", Roboto, sans-serif;
+$headings-font-family:  "Catamaran", "Segoe UI", Roboto, sans-serif;
+$headings-font-weight:  600;
+$font-size-base:        1rem;
+$line-height-base:      1.75;
+
+// — Navbar —
+$navbar-bg:             #202020;
+$navbar-fg:             #f5f5dc;
+
+// — Sidebar —
+$sidebar-bg:            #ece8db;   // muted cream — distinguishes columns from body
+$sidebar-fg:            #202020;
+$sidebar-hl:            #800000;
+
+// — Code —
+$code-bg:               #e8e8c8;
+$code-color:            #202020;
+
+// — TOC —
+$toc-color:             #800000;
+$toc-active-border:     #800000;
+
+/*-- scss:rules --*/
+
+// Navbar brand: serif, larger, bold
+.navbar-brand,
+.navbar-title {
+  font-family: Georgia, "Times New Roman", "Book Antiqua", serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  letter-spacing: 0.015em;
+}
+
+// Left sidebar: label + top alignment
+#quarto-sidebar {
+  padding-top: 0;
+}
+
+#quarto-sidebar .sidebar-menu-container {
+  padding-top: 0;
+}
+
+#quarto-sidebar .sidebar-menu-container::before {
+  content: "Contents";
+  display: block;
+  font-family: "Catamaran", "Segoe UI", Roboto, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #5a6878;
+  padding: 0.85rem 0.75rem 0.5rem;
+  border-bottom: 1px solid rgba(128, 0, 0, 0.25);
+  margin-bottom: 0.4rem;
+}
+
+// Headings: near-black
+h1, h2, h3, h4, h5, h6 {
+  color: #202020;
+}
+
+// h2 section divider
+h2 {
+  border-bottom: 1px solid #800000;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+// Prose spacing
+p {
+  margin-bottom: 1.15rem;
+}
+
+// Horizontal rules: solid maroon
+hr {
+  border-color: #800000;
+  border-width: 1px;
+  opacity: 1;
+}
+
+// Slate blue (4th accent) — muted/secondary content
+.text-muted,
+figcaption,
+.quarto-categories,
+.listing-date,
+nav[role=doc-toc] > h2 {
+  color: #5a6878 !important;
+}
+
+// — Column separation: background shift + inward shadow —
+#quarto-sidebar {
+  background-color: #ece8db;
+  box-shadow: 3px 0 8px rgba(32, 32, 32, 0.07);
+}
+
+#quarto-margin-sidebar {
+  background-color: #ece8db;
+  box-shadow: -3px 0 8px rgba(32, 32, 32, 0.07);
+  padding-left: 1.25rem;
+}
+
+// — Scrollbars (webkit: Chrome, Safari, Edge) —
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #c8d4dc;   // slate blue lightened — scrollbar track
+}
+::-webkit-scrollbar-thumb {
+  background: #800000;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5a0000;
+}
+
+// — Scrollbars (Firefox) —
+html {
+  scrollbar-color: #800000 #c8d4dc;
+  scrollbar-width: thin;
+}
+
+// Sidebar active item
+.sidebar-item-container .active {
+  color: #800000;
+  font-weight: 600;
+  border-left: 3px solid #800000;
+  padding-left: 0.4rem;
+}
+
+// TOC active link
+nav[role=doc-toc] a.active {
+  color: #800000;
+  font-weight: 600;
+}
+
+// Table header
+thead {
+  background-color: rgba(90, 104, 120, 0.15);   // slate blue tint
+  color: #202020;
+}
+
+// Callout
+.callout {
+  border-left-color: #800000;
+}

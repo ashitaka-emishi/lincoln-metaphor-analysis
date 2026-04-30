@@ -21,3 +21,6 @@ __pycache__/
 # editor
 .venv/
 *.log
+
+/.quarto/
+**/*.quarto_ipynb
