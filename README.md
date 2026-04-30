@@ -137,7 +137,7 @@ Key public-facing guide pages:
 | 5 | ✓ Complete | `concordance/concordance.json` — 136 instances indexed; 51 high-confidence (≥0.90); 7 suppression instances; completed 2026-04-30 |
 | 6 | ✓ Complete | `analysis/analysis.json` — cluster_01: 34, cluster_02: 17, cluster_03: 20, cluster_04: 8, cluster_05: 35, cluster_06: 22; 144 absence flag instances; completed 2026-04-30 |
 
-**Next step**: Run `quarto render` to rebuild the research site with complete Stage 4–6 data.
+**All stages complete.** The research site rebuilds automatically on every push via GitHub Actions (`quarto render`).
 
 ## How Stages 1–3 Were Built
 

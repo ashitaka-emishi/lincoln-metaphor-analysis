@@ -2,7 +2,7 @@
 title: "Analysis Overview"
 ---
 
-The Analysis section gathers the project's close readings and corpus-level interpretive structures. Some pages are still marked Draft because the final numerical claims depend on completing Stage 4 annotation and running the Stage 5-6 pipeline.
+The Analysis section gathers the project's close readings and corpus-level interpretive structures. All pages reflect the complete 136-instance annotated corpus and the Stage 5–6 aggregate analysis.
 
 Use these pages in this order:
 

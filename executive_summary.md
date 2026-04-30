@@ -16,4 +16,4 @@ The project's significance for political pathology is methodological as well as 
 
 This project is the work of Andrew Hammer, a human engineer/researcher designing and directing an agentic AI-assisted scholarly analysis system. AI tools are used as instruments for corpus preparation, structured annotation, validation, synthesis support, and website generation. Interpretive responsibility, research design, and scholarly framing remain human-authored.
 
-The site is still in progress. Pages marked Draft are visible for review but should not yet be treated as final findings.
+The corpus annotation (136 instances across 28 documents) and corpus-wide analysis (Stages 5–6) are complete. All synthesis and analysis documents are finalized.

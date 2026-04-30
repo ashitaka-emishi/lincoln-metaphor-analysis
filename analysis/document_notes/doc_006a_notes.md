@@ -4,7 +4,7 @@ title: "First Lincoln-Douglas Debate, Ottawa, Illinois"
 date: 1858-08-21
 annotated: 2026-04-30
 instances: inst_00113–inst_00116 (4 total)
-extension_groups: ext_019 (cluster_05, p27 arc, 3 sentences: p27_s07, p27_s09, p27_s11)
+extension_groups: "ext_019 (cluster_05, p27 arc, 3 sentences: p27_s07, p27_s09, p27_s11)"
 ---
 
 # doc_006a — Ottawa Debate: Key Findings

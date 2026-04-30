@@ -24,4 +24,4 @@ The six metaphor clusters are the project's organizing map:
 
 The document notes are close readings of individual texts. The cluster profiles aggregate metaphor behavior across documents. The synthesis pages convert those patterns into broader claims about political violence, moral obligation, and systematic absence.
 
-Pages marked Draft are intentionally visible. They show the project's current analytical structure, but some claims still depend on completion of Stage 4 annotation and the Stage 5-6 corpus-wide runs.
+All pages are now finalized. Stage 4 annotation (136 instances across 28 documents) and the Stage 5–6 corpus-wide analysis are complete. All cluster profiles, synthesis findings, and the Koenigsberg comparison reflect the full corpus data.
