@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Cluster 05: Founding Fathers as Inheritance
 
 **Cluster ID**: `cluster_05_fathers_inheritance`

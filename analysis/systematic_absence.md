@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Systematic Absence Analysis
 
 *Required deliverable. See skills/absence_analysis.md for methodology.*

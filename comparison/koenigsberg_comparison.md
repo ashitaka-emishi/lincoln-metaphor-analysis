@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Koenigsberg Comparison — Lincoln vs. Hitler
 
 *See comparison/theoretical_framework.md for full methodological basis.*

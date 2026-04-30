@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Findings
 
 *Populate after Stage 6 analysis. Use the structure below for each finding.*

@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Diachronic Map — Metaphor Shift Across Lincoln's Corpus (1838–1865)
 
 *See skills/diachronic_tracking.md for methodology. All frequency claims require register-controlled verification.*

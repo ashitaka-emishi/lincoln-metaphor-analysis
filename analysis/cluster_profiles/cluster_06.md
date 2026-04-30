@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Cluster 06: Providence / Divine Will
 
 **Cluster ID**: `cluster_06_providence_theodicy`

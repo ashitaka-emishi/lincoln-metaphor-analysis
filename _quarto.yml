@@ -12,6 +12,7 @@ project:
 website:
   title: "Lincoln Metaphor Analysis"
   description: "Koenigsberg ideological fantasy analysis applied to Lincoln's corpus, 1838–1865"
+  draft-mode: visible
 
   navbar:
     background: primary
@@ -28,10 +29,16 @@ website:
     contents:
       - href: index.qmd
         text: Overview
+      - href: executive_summary.md
+        text: Executive Summary
+      - href: how_to_read.md
+        text: How To Read This Site
       - href: corpus_index.qmd
         text: Corpus
       - section: Methodology
         contents:
+          - href: methods_summary.md
+            text: Methods Summary
           - href: skills/koenigsberg_method.md
             text: Koenigsberg Method
           - href: skills/cmt_analysis.md
@@ -48,6 +55,8 @@ website:
             text: Schema Definitions
           - href: skills/close_reading.md
             text: Close Reading
+          - href: data_reproducibility.md
+            text: Data / Reproducibility
           - href: player_aids/metaphor_reference_cards.md
             text: Reference Cards
       - section: Analysis
@@ -122,6 +131,8 @@ website:
         contents:
           - href: synthesis/findings.md
             text: Findings
+          - href: synthesis/final_conclusions.md
+            text: Final Conclusions
           - href: synthesis/open_questions.md
             text: Open Questions
       - href: DECISIONS.md

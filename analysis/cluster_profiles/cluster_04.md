@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Cluster 04: War as Birth / New Creation
 
 **Cluster ID**: `cluster_04_birth_creation`
