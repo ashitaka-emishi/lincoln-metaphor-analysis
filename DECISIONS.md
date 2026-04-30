@@ -46,11 +46,6 @@
 **Current approach**: Option B (note variants in annotation_notes, apply −0.05 confidence adjustment).
 **Status**: Open. If variant divergences prove analytically significant (a metaphor present in one transcription, absent in another), escalate to Option C for those spans.
 
-### Player aids format
-**Question**: Should the player aids (metaphor_reference_cards.md) be formatted as printable cards, as a VSCode panel, or as a reference document?
-**Current approach**: Markdown reference document in player_aids/.
-**Status**: Open. The current format is functional for annotation work. Format upgrade (printable, interactive) deferred until analytical work is complete.
-
 ### Include Confederate rhetoric for comparison?
 **Question**: Should a parallel analysis of Confederate political rhetoric be added to make the Hitler comparison triangular (Lincoln / Confederacy / Hitler)?
 **Arguments for**: Confederate rhetoric provides a closer contemporary comparison than Hitler; Lincoln and Confederate leaders were arguing with each other.

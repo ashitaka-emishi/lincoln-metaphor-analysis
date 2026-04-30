@@ -25,10 +25,6 @@ Wide corpus by design — register field carries the methodological weight that 
 | `cluster_05_fathers_inheritance` | Founding fathers as inheritance |
 | `cluster_06_providence_theodicy` | Providence / divine will |
 
-Quick reference: `player_aids/metaphor_reference_cards.md`
-
----
-
 ## Subagents
 
 ### `lincoln_corpus_reader` (Stage 3 + 4)

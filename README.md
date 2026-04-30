@@ -4,6 +4,12 @@ A structured research project applying Richard Koenigsberg's ideological fantasy
 
 **[View the research site →](https://ashitaka-emishi.github.io/lincoln-metaphor-analysis/)** — a browsable HTML version of the full project, including the annotated corpus status, all methodology documentation, per-document annotation notes, cluster profiles, the Lincoln/Hitler structural comparison, and synthesis findings. The site is rebuilt automatically on every commit.
 
+## Authorship and AI-Assisted Method
+
+This project is the work of **Andrew Hammer**, a human engineer/researcher designing and directing an agentic AI-assisted scholarly analysis system. AI tools are used as instruments for corpus preparation, structured annotation, validation, synthesis support, and website generation. Interpretive responsibility, research design, and scholarly framing remain human-authored.
+
+The project should therefore be read as a human-directed scholarly and engineering work that uses AI agents as research infrastructure, not as autonomous authors. The agentic system helps make the workflow more systematic, reproducible, and inspectable; final responsibility for method, scope, interpretation, and presentation remains with the human researcher.
+
 ## Quick Start
 
 ```bash
@@ -11,6 +17,7 @@ node scripts/pipeline_status.js   # see S1-S4 completion per document
 node scripts/validate_schema.js   # validate all JSON files
 node scripts/build_concordance.js # Stage 5: build concordance from annotated docs
 node scripts/run_analysis.js      # Stage 6: compute cluster statistics
+quarto render                     # rebuild the static research site
 ```
 
 Or via npm:
@@ -19,6 +26,7 @@ Or via npm:
 npm run status
 npm run validate
 npm run pipeline    # validate → concordance → analysis
+npm run site        # quarto render
 ```
 
 ## What This Project Does
@@ -41,6 +49,12 @@ Output is structured JSON at every stage, enabling programmatic analysis and vis
 
 ```text
 lincoln-analysis/
+├── index.qmd                    # website overview
+├── executive_summary.md          # public-facing argument summary
+├── how_to_read.md                # guide to site structure and draft status
+├── methods_summary.md            # public-facing method summary
+├── analysis_overview.md          # analysis section landing page
+├── data_reproducibility.md       # data, scripts, and reproducibility notes
 ├── corpus/
 │   ├── corpus_manifest.json      # all 28 documents with full metadata
 │   ├── raw/                      # Stage 1: source files
@@ -56,18 +70,33 @@ lincoln-analysis/
 │   ├── document_notes/           # Stage 4 human-readable findings per document
 │   └── cluster_profiles/         # cluster_01.md through cluster_06.md
 ├── comparison/
-│   ├── theoretical_framework.md
-│   └── koenigsberg_comparison.md
+│   ├── theoretical_framework.md  # methodology: CMT + Koenigsberg integration
+│   └── koenigsberg_comparison.md # synthesis: Lincoln vs. Hitler structural comparison
 ├── synthesis/
 │   ├── findings.md
+│   ├── final_conclusions.md
 │   └── open_questions.md
 ├── skills/                       # methodology reference files
 ├── subagents/                    # TOML configs for annotation agents
-├── player_aids/                  # quick reference cards
 ├── scripts/                      # pipeline scripts (Python + Node.js)
 ├── PROMPT.md                     # master entry point for Claude Code
 └── DECISIONS.md                  # resolved and open design decisions
 ```
+
+## Quarto Research Site
+
+The repository builds a Quarto static website from the Markdown and QMD files. The top navigation exposes the major reader paths: **Home**, **Corpus**, **Methodology**, **Analysis**, and **Synthesis**. The sidebar preserves the full project structure, with Design Decisions placed under Methodology alongside the theoretical framework, reproducibility notes, protocols, and schema documentation.
+
+Draft pages are intentionally visible. The site uses `draft-mode: visible`, so unfinished analysis and synthesis pages remain browsable with a prominent Draft banner and draft-page styling. Draft pages show the current analytical scaffold, but they should not be cited as final findings until Stage 4 annotation and the Stage 5–6 aggregate analysis are complete.
+
+Key public-facing guide pages:
+
+- `executive_summary.md` — concise statement of argument, method, and attribution
+- `how_to_read.md` — reader guide to the site and draft status
+- `methods_summary.md` — accessible summary of the methodology
+- `analysis_overview.md` — landing page for the Analysis section
+- `data_reproducibility.md` — data pipeline and reproducibility notes
+- `synthesis/final_conclusions.md` — final synthesis endpoint, currently draft
 
 ## The Six Metaphor Clusters
 

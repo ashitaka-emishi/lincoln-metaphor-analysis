@@ -22,6 +22,12 @@ website:
         text: Home
       - href: corpus_index.qmd
         text: Corpus
+      - href: methods_summary.md
+        text: Methodology
+      - href: analysis_overview.md
+        text: Analysis
+      - href: synthesis/final_conclusions.md
+        text: Synthesis
 
   sidebar:
     style: docked
@@ -39,6 +45,8 @@ website:
         contents:
           - href: methods_summary.md
             text: Methods Summary
+          - href: comparison/theoretical_framework.md
+            text: Theoretical Framework
           - href: skills/koenigsberg_method.md
             text: Koenigsberg Method
           - href: skills/cmt_analysis.md
@@ -57,10 +65,12 @@ website:
             text: Close Reading
           - href: data_reproducibility.md
             text: Data / Reproducibility
-          - href: player_aids/metaphor_reference_cards.md
-            text: Reference Cards
+          - href: DECISIONS.md
+            text: Design Decisions
       - section: Analysis
         contents:
+          - href: analysis_overview.md
+            text: Analysis Overview
           - href: analysis/systematic_absence.md
             text: Systematic Absence
           - href: analysis/diachronic_map.md
@@ -121,22 +131,16 @@ website:
                 text: "doc_021 — Second Inaugural"
               - href: analysis/document_notes/doc_022_notes.md
                 text: "doc_022 — Last Address"
-      - section: Comparison
-        contents:
-          - href: comparison/theoretical_framework.md
-            text: Theoretical Framework
-          - href: comparison/koenigsberg_comparison.md
-            text: Lincoln vs. Hitler
       - section: Synthesis
         contents:
           - href: synthesis/findings.md
             text: Findings
           - href: synthesis/final_conclusions.md
             text: Final Conclusions
+          - href: comparison/koenigsberg_comparison.md
+            text: Lincoln vs. Hitler
           - href: synthesis/open_questions.md
             text: Open Questions
-      - href: DECISIONS.md
-        text: Design Decisions
 
 format:
   html:
@@ -148,3 +152,33 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          if (document.getElementById("quarto-draft-alert")) {
+            document.body.classList.add("draft-page");
+          }
+          const path = window.location.pathname.replace(/\/$/, "/index.html");
+          const sections = [
+            { text: "Home", match: p => /\/index\.html$/.test(p) },
+            { text: "Corpus", match: p => /\/corpus_index\.html$/.test(p) || p.includes("/corpus/") },
+            { text: "Methodology", match: p =>
+              /\/methods_summary\.html$/.test(p) ||
+              /\/data_reproducibility\.html$/.test(p) ||
+              /\/DECISIONS\.html$/.test(p) ||
+              p.includes("/skills/") ||
+              p.includes("/comparison/theoretical_framework.html")
+            },
+            { text: "Analysis", match: p => /\/analysis_overview\.html$/.test(p) || p.includes("/analysis/") },
+            { text: "Synthesis", match: p => p.includes("/synthesis/") || p.includes("/comparison/koenigsberg_comparison.html") }
+          ];
+          const active = sections.find(section => section.match(path));
+          if (!active) return;
+          document.querySelectorAll(".navbar-nav .nav-link").forEach(link => {
+            if (link.textContent.trim() === active.text) {
+              link.classList.add("section-active");
+            }
+          });
+        });
+        </script>

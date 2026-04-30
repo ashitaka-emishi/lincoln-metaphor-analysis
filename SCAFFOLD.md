@@ -366,8 +366,6 @@ lincoln-metaphor/
 │   ├── diachronic_tracking.md # how to track metaphor shift over time
 │   ├── close_reading.md       # sentence-level annotation workflow
 │   └── corpus_register.md     # register definitions and analytical implications
-├── player_aids/
-│   └── metaphor_reference_cards.md   # one card per cluster
 └── scripts/
     ├── pipeline_status.js     # shows S1-S4 tick per document
     ├── validate_schema.js     # validates all JSON against expected shapes
@@ -584,13 +582,6 @@ for reconciliation.
 Greeley letter reversal, Seward problem, audience problem, Black soldiers gap,
 corpus limits vs. Hitler comparison. Plus directions for further research.
 
-**player_aids/metaphor_reference_cards.md** — One reference card per cluster
-(name, source, target, violence logic, obligatory, what it hides, key instance,
-Lincoln-specific notes). Plus Valley Campaign cross-pollination table mapping
-each Shenandoah scenario to the dominant Lincoln cluster active in that period
-(note: all 6 Valley scenarios fall in Phase 3/early Phase 4 — the Greeley letter
-is the proximate rhetorical context).
-
 ### Step 9 — Write PROMPT.md, DECISIONS.md, README.md
 
 **PROMPT.md** — The master Codex/Claude Code entry point. Summarize: project goal,
@@ -600,7 +591,7 @@ skills first, corpus_manifest second, segment before annotate, etc.).
 
 **DECISIONS.md** — Resolved: wide corpus, CMT+Koenigsberg, structured JSON output,
 Lincoln diachronic axis, absence thread as central. Unresolved: add 1863/1864
-Annual Messages?, debate transcription variant strategy?, player aids format?
+Annual Messages?, debate transcription variant strategy?
 
 **README.md** — Project overview, quick start (npm run status / validate / pipeline),
 directory tree, cluster table, pipeline stage table, current status.

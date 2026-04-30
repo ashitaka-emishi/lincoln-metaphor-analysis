@@ -43,6 +43,15 @@ $toc-active-border:     #800000;
   letter-spacing: 0.015em;
 }
 
+.navbar-nav .nav-link.section-active {
+  color: #f5f5dc !important;
+  text-decoration: underline;
+  text-decoration-color: #800000;
+  text-decoration-thickness: 0.18rem;
+  text-underline-offset: 0.45rem;
+  font-weight: 700;
+}
+
 // Left sidebar: label + top alignment
 #quarto-sidebar {
   padding-top: 0;
@@ -156,4 +165,54 @@ thead {
 // Callout
 .callout {
   border-left-color: #800000;
+}
+
+// Draft pages: make Quarto's draft state unmistakable while preserving readability.
+body.draft-page #quarto-header,
+body:has(#quarto-draft-alert) #quarto-header {
+  transform: none !important;
+  top: 0 !important;
+  z-index: 1100;
+}
+
+body.draft-page #quarto-draft-alert,
+body:has(#quarto-draft-alert) #quarto-draft-alert {
+  background: repeating-linear-gradient(
+    135deg,
+    #800000 0,
+    #800000 14px,
+    #a61b1b 14px,
+    #a61b1b 28px
+  );
+  border: 0;
+  border-radius: 0;
+  color: #fff8e8;
+  font-family: "Catamaran", "Segoe UI", Roboto, sans-serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0;
+  padding: 0.85rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body.draft-page #quarto-draft-alert .bi,
+body:has(#quarto-draft-alert) #quarto-draft-alert .bi {
+  margin-right: 0.45rem;
+}
+
+body.draft-page main.content,
+body:has(#quarto-draft-alert) main.content {
+  background:
+    linear-gradient(rgba(245, 245, 220, 0.9), rgba(245, 245, 220, 0.9)),
+    repeating-linear-gradient(
+      135deg,
+      rgba(128, 0, 0, 0.1) 0,
+      rgba(128, 0, 0, 0.1) 12px,
+      rgba(128, 0, 0, 0.02) 12px,
+      rgba(128, 0, 0, 0.02) 24px
+    );
+  box-shadow: 0 0 0 1px rgba(128, 0, 0, 0.12);
+  padding: 1.5rem;
 }
