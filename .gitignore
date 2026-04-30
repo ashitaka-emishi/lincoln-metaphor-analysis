@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# quarto output and cache
+_site/
+.quarto/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# local claude settings (machine-specific permissions)
+.claude/settings.local.json
+
+# macos
+.DS_Store
+.DS_Store?
+._*
+
+# editor
+.venv/
+*.log

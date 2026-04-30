@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Pipeline Status",
+      "program": "${workspaceFolder}/scripts/pipeline_status.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Validate Schema",
+      "program": "${workspaceFolder}/scripts/validate_schema.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Build Concordance",
+      "program": "${workspaceFolder}/scripts/build_concordance.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Analysis",
+      "program": "${workspaceFolder}/scripts/run_analysis.js",
+      "console": "integratedTerminal"
+    }
+  ]
+}

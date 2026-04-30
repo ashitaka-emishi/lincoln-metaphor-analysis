@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Pipeline status",
+      "type": "shell",
+      "command": "node scripts/pipeline_status.js",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Validate all JSON",
+      "type": "shell",
+      "command": "node scripts/validate_schema.js",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build concordance",
+      "type": "shell",
+      "command": "node scripts/build_concordance.js",
+      "group": "build",
+      "dependsOn": "Validate all JSON",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run analysis",
+      "type": "shell",
+      "command": "node scripts/run_analysis.js",
+      "group": "build",
+      "dependsOn": "Build concordance",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

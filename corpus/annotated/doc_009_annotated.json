@@ -1,0 +1,1782 @@
+{
+  "document_id": "doc_009",
+  "meta": {
+    "id": "doc_009",
+    "title": "First Inaugural Address",
+    "short_title": "First Inaugural",
+    "date": "1861-03-04",
+    "date_precision": "exact",
+    "register": "formal_public_address",
+    "authorship": "lincoln_primary",
+    "authorship_confidence": 0.93,
+    "authorship_notes": "Seward drafted closing paragraphs ('mystic chords'). Tag seward_revised sentences. Run analysis twice: full and lincoln-sole-only. The closing paragraph beginning 'We are not enemies, but friends' incorporates Seward's suggestion, substantially revised by Lincoln.",
+    "source_text": "Collected Works vol.4 pp.262-271",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:60",
+    "risk_flags": [
+      "co_authored_seward"
+    ],
+    "analytical_priority": "critical",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "document_summary": {
+    "doc_id": "doc_009",
+    "total_instances": 6,
+    "clusters_activated": [
+      "cluster_01_body_organism",
+      "cluster_02_covenant_oath",
+      "cluster_06_providence_theodicy"
+    ],
+    "dominant_cluster": "cluster_02_covenant_oath",
+    "extension_groups": [],
+    "primary_finding": "The First Inaugural Address is Phase 1c \u2014 the document that activates cluster_02 for the first time as a dominant frame and pairs it with cluster_06 and, in the Seward-revised closing, cluster_01. Three clusters are now active where House Divided had one (cluster_01) and Cooper Union had one (cluster_05). The developmental arc continues toward the six-cluster system at Gettysburg. The critical cluster_02 instances span the document: p16_s05 presents the covenant frame in historical mode (the faith of the thirteen States 'plighted and engaged' in 1778), while p39_s04 presents it in its most theologically explicit form \u2014 Lincoln's presidential oath 'registered in heaven.' The registration of the oath in heaven is the First Inaugural's most significant cluster_02 innovation: it converts the presidential oath from a legal formality into a divine contract. The closing paragraph (p40, Seward-revised but Lincoln substantially rewrote) introduces cluster_01 via the 'mystic chords of memory' image \u2014 the nation as a living body connected by chords/nerves of memory that can be touched and made to resonate \u2014 and extends the covenant frame with 'bonds of affection.' Absent clusters tell the developmental story: cluster_03 (experiment/proposition) is not yet active \u2014 Lincoln has not yet framed the war as a logical proof; cluster_04 (birth/creation) is entirely absent \u2014 no nativity language; cluster_05 (fathers/inheritance) is notably absent despite being dominant at Cooper Union \u2014 the First Inaugural's register is covenantal (what we have sworn) not patrimonial (what the fathers gave us). Providence (cluster_06) appears twice in subordinate-clause mode \u2014 not yet the cosmic judge of the Second Inaugural but a gentle protector ('Him who has never yet forsaken this favored land') and the Almighty Ruler before whom both sides' claims will be adjudicated.",
+    "annotator_notes": "Stage 3 labeling error: all sentences in doc_009 carry authorship_note: 'douglas_speech' because the pipeline defaulted non-Lincoln-opening debate sections to 'douglas_speech'. Doc_009 is not a debate \u2014 it is Lincoln's sole inaugural address. The correct authorship_note for all body sentences should be null (Lincoln-authored), except p40_s05 which is seward_revised. This error does not affect annotation (Lincoln-authored text is correct; the authorship_note field is mislabeled). Flag for Stage 3 correction. p40_s04\u2013p40_s05: 'bonds of affection' (p40_s04, cluster_02) and 'mystic chords of memory' (p40_s05, cluster_01) are adjacent sentences in p40 but different clusters \u2014 not assigned to an extension group. p39_s04: the full sentence contrasts two oaths \u2014 the South has no oath registered in heaven to destroy the government; Lincoln has the most solemn one to preserve/protect/defend. The full contrast is the cluster_02 instance, but char span captures the registration-in-heaven formula (the key covenant innovation) rather than the full sentence. p40_s05 is Seward-revised; run analysis twice (full corpus and authorship_confidence \u2265 0.95 filter). p23_s01: 'our national fabric, with all its benefits, its memories, and its hopes' \u2014 'fabric' as an architectural/textile metaphor for the national structure. Evaluated for cluster_01: confidence 0.60, not annotated. The nation-as-fabric frame is not the organism/body variant of cluster_01 (it is architectural/textile); the confidence is below threshold. p34_s03: 'administer the present government, as it came to his hands, and to transmit it, unimpaired by him, to his successor' \u2014 evaluated for cluster_05 (government-as-inheritance transmitted hand to hand). The stewardship-of-inheritance formula is present but 'fathers' are not invoked explicitly. Confidence 0.65, not annotated. p31_s03: 'A husband and wife may be divorced' \u2014 marriage metaphor for the Union; evaluated for cluster_02. Confidence 0.55, not annotated. Lincoln uses this to argue physical impossibility of separation, not as a covenant frame."
+  },
+  "sections": [
+    {
+      "section_id": "doc_009_s01",
+      "section_label": "douglas_speech",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_009_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Fellow citizens of the United States:",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "In compliance with a custom as old as the government itself, I appear before you to address you briefly, and to take in your presence the oath prescribed by the Constitution of the United States to be taken by the President \"before he enters on the execution of his office.\"",
+              "word_offset_start": 6,
+              "word_offset_end": 56,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "I do not consider it necessary at present for me to discuss those matters of administration about which there is no special anxiety or excitement.",
+              "word_offset_start": 56,
+              "word_offset_end": 81,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Apprehension seems to exist among the people of the Southern States that by the accession of a Republican administration their property and their peace and personal security are to be endangered.",
+              "word_offset_start": 81,
+              "word_offset_end": 112,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "There has never been any reasonable cause for such apprehension.",
+              "word_offset_start": 112,
+              "word_offset_end": 122,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "Indeed, the most ample evidence to the contrary has all the while existed and been open to their inspection.",
+              "word_offset_start": 122,
+              "word_offset_end": 141,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "It is found in nearly all the published speeches of him who now addresses you.",
+              "word_offset_start": 141,
+              "word_offset_end": 156,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "I do but quote from one of those speeches when I declare that \"I have no purpose, directly or indirectly, to interfere with the institution of slavery in the States where it exists.",
+              "word_offset_start": 156,
+              "word_offset_end": 189,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "I believe I have no lawful right to do so, and I have no inclination to do so.\" Those who nominated and elected me did so with full knowledge that I had made this and many similar declarations, and had never recanted them.",
+              "word_offset_start": 189,
+              "word_offset_end": 232,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p04_s07",
+              "sentence_ordinal": 7,
+              "text": "And, more than this, they placed in the platform for my acceptance, and as a law to themselves and to me, the clear and emphatic resolution which I now read:",
+              "word_offset_start": 232,
+              "word_offset_end": 262,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Resolved, That the maintenance inviolate of the rights of the States, and especially the right of each State to order and control its own domestic institutions according to its own judgment exclusively, is essential to that balance of power on which the perfection and endurance of our political fabric depend, and we denounce the lawless invasion by armed force of the soil of any State or Territory, no matter under what pretext, as among the gravest of crimes.",
+              "word_offset_start": 262,
+              "word_offset_end": 340,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "I now reiterate these sentiments; and, in doing so, I only press upon the public attention the most conclusive evidence of which the case is susceptible, that the property, peace, and security of no section are to be in any wise endangered by the now incoming administration.",
+              "word_offset_start": 340,
+              "word_offset_end": 387,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "I add, too, that all the protection which, consistently with the Constitution and the laws, can be given, will be cheerfully given to all the States when lawfully demanded, for whatever cause\u2014as cheerfully to one section as to another.",
+              "word_offset_start": 387,
+              "word_offset_end": 426,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "There is much controversy about the delivering up of fugitives from service or labor.",
+              "word_offset_start": 426,
+              "word_offset_end": 440,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "The clause I now read is as plainly written in the Constitution as any other of its provisions:",
+              "word_offset_start": 440,
+              "word_offset_end": 458,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "No person held to service or labor in one State, under the laws thereof, escaping into another, shall in consequence of any law or regulation therein be discharged from such service or labor, but shall be delivered up on claim of the party to whom such service or labor may be due.",
+              "word_offset_start": 458,
+              "word_offset_end": 510,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "It is scarcely questioned that this provision was intended by those who made it for the reclaiming of what we call fugitive slaves; and the intention of the lawgiver is the law.",
+              "word_offset_start": 510,
+              "word_offset_end": 542,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "All members of Congress swear their support to the whole Constitution\u2014to this provision as much as to any other.",
+              "word_offset_start": 542,
+              "word_offset_end": 561,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "To the proposition, then, that slaves whose cases come within the terms of this clause \"shall be delivered up,\" their oaths are unanimous.",
+              "word_offset_start": 561,
+              "word_offset_end": 584,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "Now, if they would make the effort in good temper, could they not with nearly equal unanimity frame and pass a law by means of which to keep good that unanimous oath?",
+              "word_offset_start": 584,
+              "word_offset_end": 616,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "There is some difference of opinion whether this clause should be enforced by national or by State authority; but surely that difference is not a very material one.",
+              "word_offset_start": 616,
+              "word_offset_end": 644,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "If the slave is to be surrendered, it can be of but little consequence to him or to others by which authority it is done.",
+              "word_offset_start": 644,
+              "word_offset_end": 669,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "And should anyone in any case be content that his oath shall go unkept on a merely unsubstantial controversy as to how it shall be kept?",
+              "word_offset_start": 669,
+              "word_offset_end": 695,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Again, in any law upon this subject, ought not all the safeguards of liberty known in civilized and humane jurisprudence to be introduced, so that a free man be not, in any case, surrendered as a slave?",
+              "word_offset_start": 695,
+              "word_offset_end": 732,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "And might it not be well at the same time to provide by law for the enforcement of that clause in the Constitution which guarantees that \"the citizen of each State shall be entitled to all privileges and immunities of citizens in the several States.\"",
+              "word_offset_start": 732,
+              "word_offset_end": 777,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "I take the official oath to-day with no mental reservations, and with no purpose to construe the Constitution or laws by any hypercritical rules.",
+              "word_offset_start": 777,
+              "word_offset_end": 801,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "And while I do not choose now to specify particular acts of Congress as proper to be enforced, I do suggest that it will be much safer for all, both in official and private stations, to conform to and abide by all those acts which stand unrepealed, than to violate any of them, trusting to find impunity in having them held to be unconstitutional.",
+              "word_offset_start": 801,
+              "word_offset_end": 865,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "It is seventy-two years since the first inauguration of a President under our National Constitution.",
+              "word_offset_start": 865,
+              "word_offset_end": 880,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "During that period fifteen different and greatly distinguished citizens have, in succession, administered the executive branch of the government.",
+              "word_offset_start": 880,
+              "word_offset_end": 899,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p13_s03",
+              "sentence_ordinal": 3,
+              "text": "They have conducted it through many perils, and generally with great success.",
+              "word_offset_start": 899,
+              "word_offset_end": 911,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p13_s04",
+              "sentence_ordinal": 4,
+              "text": "Yet, with all this scope of precedent, I now enter upon the same task for the brief constitutional term of four years under great and peculiar difficulty.",
+              "word_offset_start": 911,
+              "word_offset_end": 938,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p13_s05",
+              "sentence_ordinal": 5,
+              "text": "A disruption of the Federal Union, heretofore only menaced, is now formidably attempted.",
+              "word_offset_start": 938,
+              "word_offset_end": 951,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "I hold that, in contemplation of universal law and of the Constitution, the Union of these States is perpetual.",
+              "word_offset_start": 951,
+              "word_offset_end": 970,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "Perpetuity is implied, if not expressed, in the fundamental law of all national governments.",
+              "word_offset_start": 970,
+              "word_offset_end": 984,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "It is safe to assert that no government proper ever had a provision in its organic law for its own termination.",
+              "word_offset_start": 984,
+              "word_offset_end": 1005,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p14_s04",
+              "sentence_ordinal": 4,
+              "text": "Continue to execute all the express provisions of our National Constitution, and the Union will endure forever\u2014it being impossible to destroy it except by some action not provided for in the instrument itself.",
+              "word_offset_start": 1005,
+              "word_offset_end": 1038,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Again, if the United States be not a government proper, but an association of States in the nature of contract merely, can it, as a contract, be peaceably unmade by less than all the parties who made it?",
+              "word_offset_start": 1038,
+              "word_offset_end": 1076,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "One party to a contract may violate it\u2014break it, so to speak; but does it not require all to lawfully rescind it?",
+              "word_offset_start": 1076,
+              "word_offset_end": 1098,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Descending from these general principles, we find the proposition that, in legal contemplation the Union is perpetual confirmed by the history of the Union itself.",
+              "word_offset_start": 1098,
+              "word_offset_end": 1123,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "The Union is much older than the Constitution.",
+              "word_offset_start": 1123,
+              "word_offset_end": 1131,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "It was formed, in fact, by the Articles of Association in 1774.",
+              "word_offset_start": 1131,
+              "word_offset_end": 1143,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p16_s04",
+              "sentence_ordinal": 4,
+              "text": "It was matured and continued by the Declaration of Independence in 1776.",
+              "word_offset_start": 1143,
+              "word_offset_end": 1155,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p16_s05",
+              "sentence_ordinal": 5,
+              "text": "It was further matured, and the faith of all the then thirteen States expressly plighted and engaged that it should be perpetual, by the Articles of Confederation in 1778.",
+              "word_offset_start": 1155,
+              "word_offset_end": 1184,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00072",
+                  "sentence_id": "doc_009_s01_p16_s05",
+                  "cluster_id": "cluster_02_covenant_oath",
+                  "linguistic_form": "the faith of all the then thirteen States expressly plighted and engaged that it should be perpetual",
+                  "source_domain": "Sacred oath / faith pledged \u2014 the covenant act of plighting faith as a binding engagement that creates perpetual obligation",
+                  "target_domain": "The Articles of Confederation as a covenant in which all thirteen States pledged their faith to the Union's perpetuity",
+                  "char_span_start": 28,
+                  "char_span_end": 127,
+                  "confidence": 0.72,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "faith plighted": "the act of pledging faith as a binding covenant \u2014 'plighting' is the oath-making gesture",
+                      "engaged": "formally committed \u2014 engaged is legal and covenant language for undertaking an obligation",
+                      "that it should be perpetual": "the content of the covenant \u2014 perpetuity is the specific promise pledged"
+                    },
+                    "entailments": [
+                      "The Union's perpetuity is not a legal conclusion but a covenanted promise \u2014 something the thirteen States swore",
+                      "The covenant frame makes secession not just unconstitutional but a breaking of a solemn oath",
+                      "'Plighting faith' is archaic covenant vocabulary, invoking the highest register of sworn commitment",
+                      "Lincoln is here reporting the historical covenant, not creating a new one \u2014 this is cluster_02 in historical-reference mode"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "covenant_integrity_obligation",
+                    "violence_logic": "oath_as_binding_law",
+                    "obligatory_frame": "The Union's perpetuity was sworn into existence by covenant \u2014 thirteen States plighted their faith that it should be perpetual. Secession is oath-breaking. The covenant frame makes the Union's preservation a moral and sacred obligation, not merely a legal one. Lincoln invokes the historical covenant to show that the obligation to the Union predates the Constitution itself.",
+                    "projected_entity": "The thirteen original States as covenant-parties who pledged faith to the Union's perpetuity",
+                    "guilt_distribution": "Those who secede break a faith plighted by the founding States; they violate not just law but a solemn covenant engagement",
+                    "sacrificial_economy": "None \u2014 at Phase 1c the covenant frame generates obligation without yet generating a sacrificial economy",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "Historical-reference mode of cluster_02: Lincoln is reporting what the founders did (Articles of Confederation 1778) rather than creating a new covenant himself. Contrast with p39_s04, where Lincoln's own presidential oath is framed as registered in heaven \u2014 that is Lincoln deploying the covenant frame in his own voice. This instance establishes the precedent for the covenant; p39_s04 is Lincoln's own participation in it."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_009_s01_p16_s06",
+              "sentence_ordinal": 6,
+              "text": "And, finally, in 1787 one of the declared objects for ordaining and establishing the Constitution was \"to form a more perfect Union.\"",
+              "word_offset_start": 1184,
+              "word_offset_end": 1206,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "But if the destruction of the Union by one or by a part only of the States be lawfully possible, the Union is less perfect than before the Constitution, having lost the vital element of perpetuity.",
+              "word_offset_start": 1206,
+              "word_offset_end": 1242,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "It follows from these views that no State upon its own mere motion can lawfully get out of the Union; that resolves and ordinances to that effect are legally void; and that acts of violence, within any State or States, against the authority of the United States, are insurrectionary or revolutionary, according to circumstances.",
+              "word_offset_start": 1242,
+              "word_offset_end": 1296,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "I therefore consider that, in view of the Constitution and the laws, the Union is unbroken; and to the extent of my ability I shall take care, as the Constitution itself expressly enjoins upon me, that the laws of the Union be faithfully executed in all the States.",
+              "word_offset_start": 1296,
+              "word_offset_end": 1344,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "Doing this I deem to be only a simple duty on my part; and I shall perform it so far as practicable, unless my rightful masters, the American people, shall withhold the requisite means, or in some authoritative manner direct the contrary.",
+              "word_offset_start": 1344,
+              "word_offset_end": 1386,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "I trust this will not be regarded as a menace, but only as the declared purpose of the Union that it will constitutionally defend and maintain itself.",
+              "word_offset_start": 1386,
+              "word_offset_end": 1413,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "In doing this there needs to be no bloodshed or violence; and there shall be none, unless it be forced upon the national authority.",
+              "word_offset_start": 1413,
+              "word_offset_end": 1437,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "The power confided to me will be used to hold, occupy, and possess the property and places belonging to the government, and to collect the duties and imposts; but beyond what may be necessary for these objects, there will be no invasion, no using of force against or among the people anywhere.",
+              "word_offset_start": 1437,
+              "word_offset_end": 1489,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p20_s03",
+              "sentence_ordinal": 3,
+              "text": "Where hostility to the United States, in any interior locality, shall be so great and universal as to prevent competent resident citizens from holding the Federal offices, there will be no attempt to force obnoxious strangers among the people for that object.",
+              "word_offset_start": 1489,
+              "word_offset_end": 1531,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p20_s04",
+              "sentence_ordinal": 4,
+              "text": "While the strict legal right may exist in the government to enforce the exercise of these offices, the attempt to do so would be so irritating, and so nearly impracticable withal, that I deem it better to forego for the time the uses of such offices.",
+              "word_offset_start": 1531,
+              "word_offset_end": 1577,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "The mails, unless repelled, will continue to be furnished in all parts of the Union.",
+              "word_offset_start": 1577,
+              "word_offset_end": 1592,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "So far as possible, the people everywhere shall have that sense of perfect security which is most favorable to calm thought and reflection.",
+              "word_offset_start": 1592,
+              "word_offset_end": 1615,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p21_s03",
+              "sentence_ordinal": 3,
+              "text": "The course here indicated will be followed unless current events and experience shall show a modification or change to be proper, and in every case and exigency my best discretion will be exercised according to circumstances actually existing, and with a view and a hope of a peaceful solution of the national troubles and the restoration of fraternal sympathies and affections.",
+              "word_offset_start": 1615,
+              "word_offset_end": 1676,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "That there are persons in one section or another who seek to destroy the Union at all events, and are glad of any pretext to do it, I will neither affirm nor deny; but if there be such, I need address no word to them.",
+              "word_offset_start": 1676,
+              "word_offset_end": 1721,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "To those, however, who really love the Union may I not speak?",
+              "word_offset_start": 1721,
+              "word_offset_end": 1733,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "Before entering upon so grave a matter as the destruction of our national fabric, with all its benefits, its memories, and its hopes, would it not be wise to ascertain precisely why we do it?",
+              "word_offset_start": 1733,
+              "word_offset_end": 1768,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "Will you hazard so desperate a step while there is any possibility that any portion of the ills you fly from have no real existence?",
+              "word_offset_start": 1768,
+              "word_offset_end": 1793,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p23_s03",
+              "sentence_ordinal": 3,
+              "text": "Will you, while the certain ills you fly to are greater than all the real ones you fly from\u2014will you risk the commission of so fearful a mistake?",
+              "word_offset_start": 1793,
+              "word_offset_end": 1821,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "All profess to be content in the Union if all constitutional rights can be maintained.",
+              "word_offset_start": 1821,
+              "word_offset_end": 1836,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "Is it true, then, that any right, plainly written in the Constitution, has been denied?",
+              "word_offset_start": 1836,
+              "word_offset_end": 1851,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s03",
+              "sentence_ordinal": 3,
+              "text": "I think not.",
+              "word_offset_start": 1851,
+              "word_offset_end": 1854,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s04",
+              "sentence_ordinal": 4,
+              "text": "Happily the human mind is so constituted that no party can reach to the audacity of doing this.",
+              "word_offset_start": 1854,
+              "word_offset_end": 1872,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s05",
+              "sentence_ordinal": 5,
+              "text": "Think, if you can, of a single instance in which a plainly written provision of the Constitution has ever been denied.",
+              "word_offset_start": 1872,
+              "word_offset_end": 1893,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s06",
+              "sentence_ordinal": 6,
+              "text": "If by the mere force of numbers a majority should deprive a minority of any clearly written constitutional right, it might, in a moral point of view, justify revolution\u2014certainly would if such a right were a vital one.",
+              "word_offset_start": 1893,
+              "word_offset_end": 1931,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s07",
+              "sentence_ordinal": 7,
+              "text": "But such is not our case.",
+              "word_offset_start": 1931,
+              "word_offset_end": 1937,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s08",
+              "sentence_ordinal": 8,
+              "text": "All the vital rights of minorities and of individuals are so plainly assured to them by affirmations and negations, guarantees and prohibitions, in the Constitution, that controversies never arise concerning them.",
+              "word_offset_start": 1937,
+              "word_offset_end": 1968,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s09",
+              "sentence_ordinal": 9,
+              "text": "But no organic law can ever be framed with a provision specifically applicable to every question which may occur in practical administration.",
+              "word_offset_start": 1968,
+              "word_offset_end": 1990,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s10",
+              "sentence_ordinal": 10,
+              "text": "No foresight can anticipate, nor any document of reasonable length contain, express provisions for all possible questions.",
+              "word_offset_start": 1990,
+              "word_offset_end": 2007,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s11",
+              "sentence_ordinal": 11,
+              "text": "Shall fugitives from labor be surrendered by national or by State authority?",
+              "word_offset_start": 2007,
+              "word_offset_end": 2019,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s12",
+              "sentence_ordinal": 12,
+              "text": "The Constitution does not expressly say.",
+              "word_offset_start": 2019,
+              "word_offset_end": 2025,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s13",
+              "sentence_ordinal": 13,
+              "text": "May Congress prohibit slavery in the Territories?",
+              "word_offset_start": 2025,
+              "word_offset_end": 2032,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s14",
+              "sentence_ordinal": 14,
+              "text": "The Constitution does not expressly say.",
+              "word_offset_start": 2032,
+              "word_offset_end": 2038,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s15",
+              "sentence_ordinal": 15,
+              "text": "Must Congress protect slavery in the Territories?",
+              "word_offset_start": 2038,
+              "word_offset_end": 2045,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p24_s16",
+              "sentence_ordinal": 16,
+              "text": "The Constitution does not expressly say.",
+              "word_offset_start": 2045,
+              "word_offset_end": 2051,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "From questions of this class spring all our constitutional controversies, and we divide upon them into majorities and minorities.",
+              "word_offset_start": 2051,
+              "word_offset_end": 2070,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "If the minority will not acquiesce, the majority must, or the government must cease.",
+              "word_offset_start": 2070,
+              "word_offset_end": 2084,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p25_s03",
+              "sentence_ordinal": 3,
+              "text": "There is no other alternative; for continuing the government is acquiescence on one side or the other.",
+              "word_offset_start": 2084,
+              "word_offset_end": 2101,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "If a minority in such case will secede rather than acquiesce, they make a precedent which in turn will divide and ruin them; for a minority of their own will secede from them whenever a majority refuses to be controlled by such minority.",
+              "word_offset_start": 2101,
+              "word_offset_end": 2144,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "For instance, why may not any portion of a new confederacy a year or two hence arbitrarily secede again, precisely as portions of the present Union now claim to secede from it?",
+              "word_offset_start": 2144,
+              "word_offset_end": 2176,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p26_s03",
+              "sentence_ordinal": 3,
+              "text": "All who cherish disunion sentiments are now being educated to the exact temper of doing this.",
+              "word_offset_start": 2176,
+              "word_offset_end": 2192,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "Is there such perfect identity of interests among the States to compose a new Union, as to produce harmony only, and prevent renewed secession?",
+              "word_offset_start": 2192,
+              "word_offset_end": 2216,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "Plainly, the central idea of secession is the essence of anarchy.",
+              "word_offset_start": 2216,
+              "word_offset_end": 2227,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "A majority held in restraint by constitutional checks and limitations, and always changing easily with deliberate changes of popular opinions and sentiments, is the only true sovereign of a free people.",
+              "word_offset_start": 2227,
+              "word_offset_end": 2258,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p28_s03",
+              "sentence_ordinal": 3,
+              "text": "Whoever rejects it does, of necessity, fly to anarchy or to despotism.",
+              "word_offset_start": 2258,
+              "word_offset_end": 2270,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p28_s04",
+              "sentence_ordinal": 4,
+              "text": "Unanimity is impossible; the rule of a minority, as a permanent arrangement, is wholly inadmissible; so that, rejecting the majority principle, anarchy or despotism in some form is all that is left.",
+              "word_offset_start": 2270,
+              "word_offset_end": 2302,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "I do not forget the position, assumed by some, that constitutional questions are to be decided by the Supreme Court; nor do I deny that such decisions must be binding, in any case, upon the parties to a suit, as to the object of that suit, while they are also entitled to very high respect and consideration in all parallel cases by all other departments of the government.",
+              "word_offset_start": 2302,
+              "word_offset_end": 2370,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "And while it is obviously possible that such decision may be erroneous in any given case, still the evil effect following it, being limited to that particular case, with the chance that it may be overruled and never become a precedent for other cases, can better be borne than could the evils of a different practice.",
+              "word_offset_start": 2370,
+              "word_offset_end": 2426,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p29_s03",
+              "sentence_ordinal": 3,
+              "text": "At the same time, the candid citizen must confess that if the policy of the government, upon vital questions affecting the whole people, is to be irrevocably fixed by decisions of the Supreme Court, the instant they are made, in ordinary litigation between parties in personal actions, the people will have ceased to be their own rulers, having to that extent practically resigned their government into the hands of that eminent tribunal.",
+              "word_offset_start": 2426,
+              "word_offset_end": 2498,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p29_s04",
+              "sentence_ordinal": 4,
+              "text": "Nor is there in this view any assault upon the court or the judges.",
+              "word_offset_start": 2498,
+              "word_offset_end": 2512,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p29_s05",
+              "sentence_ordinal": 5,
+              "text": "It is a duty from which they may not shrink to decide cases properly brought before them, and it is no fault of theirs if others seek to turn their decisions to political purposes.",
+              "word_offset_start": 2512,
+              "word_offset_end": 2546,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "One section of our country believes slavery is right, and ought to be extended, while the other believes it is wrong, and ought not to be extended.",
+              "word_offset_start": 2546,
+              "word_offset_end": 2573,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p30_s02",
+              "sentence_ordinal": 2,
+              "text": "This is the only substantial dispute.",
+              "word_offset_start": 2573,
+              "word_offset_end": 2579,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p30_s03",
+              "sentence_ordinal": 3,
+              "text": "The fugitive-slave clause of the Constitution, and the law for the suppression of the foreign slave-trade, are each as well enforced, perhaps, as any law can ever be in a community where the moral sense of the people imperfectly supports the law itself.",
+              "word_offset_start": 2579,
+              "word_offset_end": 2622,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p30_s04",
+              "sentence_ordinal": 4,
+              "text": "The great body of the people abide by the dry legal obligation in both cases, and a few break over in each.",
+              "word_offset_start": 2622,
+              "word_offset_end": 2644,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p30_s05",
+              "sentence_ordinal": 5,
+              "text": "This, I think, cannot be perfectly cured; and it would be worse in both cases after the separation of the sections than before.",
+              "word_offset_start": 2644,
+              "word_offset_end": 2667,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p30_s06",
+              "sentence_ordinal": 6,
+              "text": "The foreign slave-trade, now imperfectly suppressed, would be ultimately revived, without restriction, in one section, while fugitive slaves, now only partially surrendered, would not be surrendered at all by the other.",
+              "word_offset_start": 2667,
+              "word_offset_end": 2698,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "Physically speaking, we cannot separate.",
+              "word_offset_start": 2698,
+              "word_offset_end": 2703,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "We cannot remove our respective sections from each other, nor build an impassable wall between them.",
+              "word_offset_start": 2703,
+              "word_offset_end": 2719,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p31_s03",
+              "sentence_ordinal": 3,
+              "text": "A husband and wife may be divorced, and go out of the presence and beyond the reach of each other; but the different parts of our country cannot do this.",
+              "word_offset_start": 2719,
+              "word_offset_end": 2749,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p31_s04",
+              "sentence_ordinal": 4,
+              "text": "They cannot but remain face to face, and intercourse, either amicable or hostile, must continue between them.",
+              "word_offset_start": 2749,
+              "word_offset_end": 2766,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p31_s05",
+              "sentence_ordinal": 5,
+              "text": "Is it possible, then, to make that intercourse more advantageous or more satisfactory after separation than before?",
+              "word_offset_start": 2766,
+              "word_offset_end": 2783,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p31_s06",
+              "sentence_ordinal": 6,
+              "text": "Can aliens make treaties easier than friends can make laws?",
+              "word_offset_start": 2783,
+              "word_offset_end": 2793,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p31_s07",
+              "sentence_ordinal": 7,
+              "text": "Can treaties be more faithfully enforced between aliens than laws can among friends?",
+              "word_offset_start": 2793,
+              "word_offset_end": 2806,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p31_s08",
+              "sentence_ordinal": 8,
+              "text": "Suppose you go to war, you cannot fight always; and when, after much loss on both sides, and no gain on either, you cease fighting, the identical old questions as to terms of intercourse are again upon you.",
+              "word_offset_start": 2806,
+              "word_offset_end": 2844,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "This country, with its institutions, belongs to the people who inhabit it.",
+              "word_offset_start": 2844,
+              "word_offset_end": 2856,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "Whenever they shall grow weary of the existing government, they can exercise their constitutional right of amending it, or their revolutionary right to dismember or overthrow it.",
+              "word_offset_start": 2856,
+              "word_offset_end": 2883,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p32_s03",
+              "sentence_ordinal": 3,
+              "text": "I cannot be ignorant of the fact that many worthy and patriotic citizens are desirous of having the National Constitution amended.",
+              "word_offset_start": 2883,
+              "word_offset_end": 2904,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p32_s04",
+              "sentence_ordinal": 4,
+              "text": "While I make no recommendation of amendments, I fully recognize the rightful authority of the people over the whole subject, to be exercised in either of the modes prescribed in the instrument itself; and I should, under existing circumstances, favor rather than oppose a fair opportunity being afforded the people to act upon it.",
+              "word_offset_start": 2904,
+              "word_offset_end": 2958,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "I will venture to add that to me the convention mode seems preferable, in that it allows amendments to originate with the people themselves, instead of only permitting them to take or reject propositions originated by others not especially chosen for the purpose, and which might not be precisely such as they would wish to either accept or refuse.",
+              "word_offset_start": 2958,
+              "word_offset_end": 3017,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "I understand a proposed amendment to the Constitution\u2014which amendment, however, I have not seen\u2014has passed Congress, to the effect that the Federal Government shall never interfere with the domestic institutions of the States, including that of persons held to service.",
+              "word_offset_start": 3017,
+              "word_offset_end": 3057,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p33_s03",
+              "sentence_ordinal": 3,
+              "text": "To avoid misconstruction of what I have said, I depart from my purpose not to speak of particular amendments so far as to say that, holding such a provision to now be implied constitutional law, I have no objection to its being made express and irrevocable.",
+              "word_offset_start": 3057,
+              "word_offset_end": 3103,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "The chief magistrate derives all his authority from the people, and they have conferred none upon him to fix terms for the separation of the States.",
+              "word_offset_start": 3103,
+              "word_offset_end": 3129,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p34_s02",
+              "sentence_ordinal": 2,
+              "text": "The people themselves can do this also if they choose; but the executive, as such, has nothing to do with it.",
+              "word_offset_start": 3129,
+              "word_offset_end": 3150,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p34_s03",
+              "sentence_ordinal": 3,
+              "text": "His duty is to administer the present government, as it came to his hands, and to transmit it, unimpaired by him, to his successor.",
+              "word_offset_start": 3150,
+              "word_offset_end": 3174,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "Why should there not be a patient confidence in the ultimate justice of the people?",
+              "word_offset_start": 3174,
+              "word_offset_end": 3189,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p35_s02",
+              "sentence_ordinal": 2,
+              "text": "Is there any better or equal hope in the world?",
+              "word_offset_start": 3189,
+              "word_offset_end": 3199,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p35_s03",
+              "sentence_ordinal": 3,
+              "text": "In our present differences is either party without faith of being in the right?",
+              "word_offset_start": 3199,
+              "word_offset_end": 3213,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p35_s04",
+              "sentence_ordinal": 4,
+              "text": "If the Almighty Ruler of Nations, with his eternal truth and justice, be on your side of the North, or on yours of the South, that truth and that justice will surely prevail by the judgment of this great tribunal of the American people.",
+              "word_offset_start": 3213,
+              "word_offset_end": 3257,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00073",
+                  "sentence_id": "doc_009_s01_p35_s04",
+                  "cluster_id": "cluster_06_providence_theodicy",
+                  "linguistic_form": "the Almighty Ruler of Nations, with his eternal truth and justice",
+                  "source_domain": "Divine sovereignty \u2014 God as the supreme ruler of nations whose eternal truth and justice governs political outcomes",
+                  "target_domain": "The Civil War crisis as subject to divine adjudication \u2014 God's truth and justice will determine whose side prevails",
+                  "char_span_start": 3,
+                  "char_span_end": 67,
+                  "confidence": 0.82,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "the Almighty Ruler of Nations": "God as the sovereign political authority above all human governments",
+                      "his eternal truth and justice": "divine attributes that govern political outcomes \u2014 not human preference but divine adjudication",
+                      "will surely prevail by the judgment of this great tribunal of the American people": "Providence works through the American democratic process \u2014 God's truth prevails through the people's judgment"
+                    },
+                    "entailments": [
+                      "God's truth and justice will determine which side is right \u2014 both North and South are subject to this divine judgment",
+                      "The political crisis is framed as a divine adjudication, not just a human political dispute",
+                      "Lincoln characteristically presents Providence as bipartisan \u2014 'be on your side of the North, or on yours of the South' \u2014 refusing to claim divine sanction for the Union alone",
+                      "The American democratic process is the medium through which divine truth prevails \u2014 Providence and popular sovereignty are aligned"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "divine_judgment_deferred",
+                    "violence_logic": "providential_adjudication",
+                    "obligatory_frame": "The political crisis is subject to divine adjudication \u2014 the Almighty Ruler of Nations will ensure that truth and justice prevail. Lincoln frames this as bipartisan: he does not claim that God is on the Union's side, only that God's truth will prevail through the people's judgment. This is cluster_06's early mode: Providence as the ultimate adjudicator, not yet the cosmic punisher of the Second Inaugural.",
+                    "projected_entity": "God as the sovereign ruler of nations whose truth and justice governs political outcomes",
+                    "guilt_distribution": "Neither side is explicitly guilty \u2014 Lincoln's bipartisan framing defers guilt to divine judgment",
+                    "sacrificial_economy": "None \u2014 at Phase 1c Providence is the adjudicator, not yet the requirer of blood sacrifice",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "Phase 1c cluster_06 mode: the Almighty Ruler of Nations. Contrast with the Second Inaugural's 'the Almighty has His own purposes' \u2014 where God is revealed to have acted through the war's suffering as punishment for slavery. Here God is an anticipatory adjudicator; there God is the retrospective judge-executor. The bipartisan presentation ('be on your side of the North, or on yours of the South') is Lincoln's characteristic refusal to claim divine sanction for himself \u2014 a structural feature that will persist through all Phase 1\u20134 documents and only partially resolve in the Second Inaugural."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "By the frame of the government under which we live, this same people have wisely given their public servants but little power for mischief; and have, with equal wisdom, provided for the return of that little to their own hands at very short intervals.",
+              "word_offset_start": 3257,
+              "word_offset_end": 3301,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "While the people retain their virtue and vigilance, no administration, by any extreme of wickedness or folly, can very seriously injure the government in the short space of four years.",
+              "word_offset_start": 3301,
+              "word_offset_end": 3331,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "My countrymen, one and all, think calmly and well upon this whole subject.",
+              "word_offset_start": 3331,
+              "word_offset_end": 3344,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p38_s02",
+              "sentence_ordinal": 2,
+              "text": "Nothing valuable can be lost by taking time.",
+              "word_offset_start": 3344,
+              "word_offset_end": 3352,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p38_s03",
+              "sentence_ordinal": 3,
+              "text": "If there be an object to hurry any of you in hot haste to a step which you would never take deliberately, that object will be frustrated by taking time; but no good object can be frustrated by it.",
+              "word_offset_start": 3352,
+              "word_offset_end": 3391,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p38_s04",
+              "sentence_ordinal": 4,
+              "text": "Such of you as are now dissatisfied, still have the old Constitution unimpaired, and, on the sensitive point, the laws of your own framing under it; while the new administration will have no immediate power, if it would, to change either.",
+              "word_offset_start": 3391,
+              "word_offset_end": 3432,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p38_s05",
+              "sentence_ordinal": 5,
+              "text": "If it were admitted that you who are dissatisfied hold the right side in the dispute, there still is no single good reason for precipitate action.",
+              "word_offset_start": 3432,
+              "word_offset_end": 3458,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p38_s06",
+              "sentence_ordinal": 6,
+              "text": "Intelligence, patriotism, Christianity, and a firm reliance on Him who has never yet forsaken this favored land, are still competent to adjust in the best way all our present difficulty.",
+              "word_offset_start": 3458,
+              "word_offset_end": 3488,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00074",
+                  "sentence_id": "doc_009_s01_p38_s06",
+                  "cluster_id": "cluster_06_providence_theodicy",
+                  "linguistic_form": "a firm reliance on Him who has never yet forsaken this favored land",
+                  "source_domain": "Divine protection \u2014 God as the guardian who has never abandoned the republic, whose continued protection is available through reliance",
+                  "target_domain": "The present crisis as manageable through divine protection, which has always sustained the republic and remains available now",
+                  "char_span_start": 44,
+                  "char_span_end": 110,
+                  "confidence": 0.85,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "a firm reliance on Him": "Providence as a resource that can be drawn upon \u2014 reliance on God as an available support",
+                      "who has never yet forsaken this favored land": "the republic as God's favored land; the 'never yet' asserts continuity of divine protection throughout American history",
+                      "competent to adjust in the best way all our present difficulty": "Providence, combined with intelligence, patriotism, and Christianity, is sufficient to resolve the crisis"
+                    },
+                    "entailments": [
+                      "'Never yet forsaken' is an implied promise: God has not abandoned the republic before and presumably will not now",
+                      "The republic is a 'favored land' \u2014 a chosen-people frame underlies this instance",
+                      "Providence is here listed alongside human virtues (intelligence, patriotism, Christianity) as a resource, not the sole cause",
+                      "The optimism of 'still competent to adjust' suggests Lincoln believes the crisis is resolvable \u2014 this is pre-war confidence, not wartime theodicy"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "divine_protection_invoked",
+                    "violence_logic": "providential_sufficiency",
+                    "obligatory_frame": "God as the guarantor who has never forsaken the favored land \u2014 reliance on Providence, combined with human virtues, is sufficient to resolve the crisis. This is cluster_06's protective mode: Providence as the reliable guardian, not yet the inscrutable judge. The 'favored land' formula carries a chosen-people implication: America's special status under divine protection makes resolution possible.",
+                    "projected_entity": "God as the protector who has historically sustained the republic and whose continued protection is available",
+                    "guilt_distribution": "No guilt assigned \u2014 this is a hopeful appeal, not a judgment. The nation can still rely on divine protection if it combines reliance on God with human virtues.",
+                    "sacrificial_economy": "None \u2014 the protective mode does not require sacrifice; it requires reliance and virtue",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "This is cluster_06's optimistic mode \u2014 'Him who has never yet forsaken this favored land.' The 'never yet' is significant: it implies a historical record of divine protection that grounds confidence in continued protection. The 'favored land' formula is the chosen-nation underside of cluster_06. Contrast with the Second Inaugural where God's purposes are inscrutable and require suffering \u2014 here God is reliably protective and the crisis is manageable. Phase 1c vs. Phase 5 cluster_06 contrast: protective guardian (First Inaugural) \u2192 punishing judge (Second Inaugural)."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "In your hands, my dissatisfied fellow-countrymen, and not in mine, is the momentous issue of civil war.",
+              "word_offset_start": 3488,
+              "word_offset_end": 3505,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p39_s02",
+              "sentence_ordinal": 2,
+              "text": "The government will not assail you.",
+              "word_offset_start": 3505,
+              "word_offset_end": 3511,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p39_s03",
+              "sentence_ordinal": 3,
+              "text": "You can have no conflict without being yourselves the aggressors.",
+              "word_offset_start": 3511,
+              "word_offset_end": 3521,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p39_s04",
+              "sentence_ordinal": 4,
+              "text": "You have no oath registered in heaven to destroy the government, while I shall have the most solemn one to \"preserve, protect, and defend it.\"",
+              "word_offset_start": 3521,
+              "word_offset_end": 3546,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00075",
+                  "sentence_id": "doc_009_s01_p39_s04",
+                  "cluster_id": "cluster_02_covenant_oath",
+                  "linguistic_form": "oath registered in heaven",
+                  "source_domain": "Divine covenant \u2014 an oath formally recorded in heaven as a binding contract with God, creating obligations that override human legal decisions",
+                  "target_domain": "The presidential oath of office as a covenant with God to preserve, protect, and defend the Constitution \u2014 the most solemn imaginable obligation",
+                  "char_span_start": 12,
+                  "char_span_end": 36,
+                  "confidence": 0.9,
+                  "is_novel_metaphor": true,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "oath registered in heaven": "the oath as a divine contract \u2014 not just a legal formality but a covenant formally recorded in God's register",
+                      "You have no oath registered in heaven to destroy": "the absence of divine sanction for secession \u2014 the South has no covenant obligation to destroy",
+                      "I shall have the most solemn one to preserve, protect, and defend it": "Lincoln's presidential oath as the strongest imaginable covenant \u2014 registered in heaven, most solemn, active obligation"
+                    },
+                    "entailments": [
+                      "The presidential oath is not merely a legal formality but a covenant with God \u2014 registered in heaven means God is the witness and enforcer",
+                      "The contrast structure makes destruction-of-government an oath violation while preservation-of-government is an oath fulfillment",
+                      "Lincoln frames his use of force (if necessary) as covenant-keeping, not aggression \u2014 he is fulfilling his oath",
+                      "The 'registered in heaven' formula is the most explicit supernatural sanctification of the oath in the corpus \u2014 more explicit than Cooper Union's fathers-authority or the Gettysburg covenant frame"
+                    ],
+                    "conventional_or_novel": "novel"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "covenant_integrity_obligation",
+                    "violence_logic": "oath_as_divine_mandate",
+                    "obligatory_frame": "The presidential oath registered in heaven creates a divine mandate: Lincoln is bound by God's own register to preserve, protect, and defend the government. Any use of force to maintain the Union is not aggression but covenant-fulfillment. The Southern secessionists have no counter-oath \u2014 they are acting without divine sanction. Lincoln's military authority derives from his divinely registered oath, not from political preference.",
+                    "projected_entity": "Lincoln as the party to a divine covenant \u2014 oath-holder with God as witness and enforcer",
+                    "guilt_distribution": "The Confederate secessionists bear guilt for violating a constitutional order Lincoln is bound by God to preserve; Lincoln's enforcement is covenant-keeping",
+                    "sacrificial_economy": "None yet explicit \u2014 but the divine mandate structure creates the framework for later sacrificial logic: the lives spent preserving the covenant-government are costs of oath-fulfillment",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "This is the most theologically significant cluster_02 instance in the First Inaugural and one of the most significant in the corpus. The 'oath registered in heaven' formula is novel \u2014 it does not appear in standard constitutional rhetoric. By framing his presidential oath as a divine contract, Lincoln converts the question of using force against secessionists from a political choice to a covenant obligation. He has no discretion: God holds the register, and the oath is the most solemn imaginable. The contrast with the Southern position (no oath to destroy vs. solemn oath to preserve) makes the South's aggressor status structurally inevitable \u2014 they act without covenant, Lincoln acts from covenant obligation. The 'registered in heaven' formula is more theologically explicit than any cluster_02 instance in doc_016 (Conkling Letter) or doc_021 (Second Inaugural). It is the apex of the covenant frame's supernatural register."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_009_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "doc_009_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "I am loath to close.",
+              "word_offset_start": 3546,
+              "word_offset_end": 3551,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p40_s02",
+              "sentence_ordinal": 2,
+              "text": "We are not enemies, but friends.",
+              "word_offset_start": 3551,
+              "word_offset_end": 3557,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p40_s03",
+              "sentence_ordinal": 3,
+              "text": "We must not be enemies.",
+              "word_offset_start": 3557,
+              "word_offset_end": 3562,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_009_s01_p40_s04",
+              "sentence_ordinal": 4,
+              "text": "Though passion may have strained, it must not break our bonds of affection.",
+              "word_offset_start": 3562,
+              "word_offset_end": 3575,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00076",
+                  "sentence_id": "doc_009_s01_p40_s04",
+                  "cluster_id": "cluster_02_covenant_oath",
+                  "linguistic_form": "bonds of affection",
+                  "source_domain": "Covenant bonds \u2014 affective ties between people modeled as physical bonds or binding obligations that passion might strain but must not break",
+                  "target_domain": "The emotional and political ties between North and South as covenant bonds of the Union that must not be broken even by passion",
+                  "char_span_start": 56,
+                  "char_span_end": 73,
+                  "confidence": 0.78,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "bonds of affection": "the Union's emotional-covenantal ties \u2014 affection as a binding force, bonds as the physical-covenant metaphor for these ties",
+                      "passion may have strained": "political passion as a force that puts tension on the covenant bonds \u2014 strained is structural-stress language applied to covenant ties",
+                      "must not break": "the prohibition against violating the covenant \u2014 breaking bonds is the covenant-failure event"
+                    },
+                    "entailments": [
+                      "'Bonds' carries both physical (restraining bands) and covenantal (binding obligations) senses simultaneously",
+                      "'Affection' specifies that the bonds are not merely legal but emotional \u2014 the covenant is an affective community, not just a contract",
+                      "'Strained' implies the bonds are under pressure but have not yet failed \u2014 the crisis is a stress test of the covenant",
+                      "The appeal is to the South to honor the bonds rather than break them \u2014 the obligation runs both ways"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "covenant_integrity_obligation",
+                    "violence_logic": "covenant_preservation",
+                    "obligatory_frame": "The bonds of affection between sections must not be broken. Lincoln appeals to affective-covenantal ties that transcend legal obligation \u2014 not just the constitutional compact but the emotional bonds of shared history. The frame makes secession a rupture of affective community, not just legal violation. Passion has strained the bonds but has not broken them; Lincoln is asking the South to honor the affective covenant.",
+                    "projected_entity": "The Union as an affective covenant community bound by ties of shared history and feeling",
+                    "guilt_distribution": "Those who break the bonds of affection bear the guilt of rupturing an affective community \u2014 aggression is covenant-breaking at the emotional level",
+                    "sacrificial_economy": "None \u2014 the appeal is to preserve the covenant, not to sacrifice for it",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "Seward contributed the original 'bonds of affection' language; Lincoln revised and retained it. The phrase is the affective-covenantal complement to the legal-covenantal 'oath registered in heaven' of p39_s04. Together the two cluster_02 instances in p39-p40 span the full range of the covenant frame: from divine obligation (p39_s04) to affective community (p40_s04). Adjacent to p40_s05 (cluster_01, mystic chords) but different cluster \u2014 no extension group."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_009_s01_p40_s05",
+              "sentence_ordinal": 5,
+              "text": "The mystic chords of memory, stretching from every battle-field and patriot grave to every living heart and hearthstone all over this broad land, will yet swell the chorus of the Union when again touched, as surely they will be, by the better angels of our nature.",
+              "word_offset_start": 3575,
+              "word_offset_end": 3621,
+              "authorship_note": "douglas_speech",
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00077",
+                  "sentence_id": "doc_009_s01_p40_s05",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "The mystic chords of memory, stretching from every battle-field and patriot grave to every living heart and hearthstone all over this broad land, will yet swell the chorus of the Union",
+                  "source_domain": "Living organism / musical instrument \u2014 the nation as a body connected by memory-tissue (chords/nerves) that can be touched and made to resonate as one voice",
+                  "target_domain": "The American nation as a living body whose shared memory connects all citizens and whose collective voice (the chorus of the Union) can be summoned by appeal to better nature",
+                  "char_span_start": 0,
+                  "char_span_end": 183,
+                  "confidence": 0.82,
+                  "is_novel_metaphor": true,
+                  "ambiguity_flag": false,
+                  "suppression_flag": true,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "mystic chords of memory": "memory as the connective tissue of the national body \u2014 chords that carry feeling across the entire organism",
+                      "stretching from every battle-field and patriot grave to every living heart and hearthstone": "the national body's full extent \u2014 from dead to living, from battlefield to home \u2014 all connected by the memory-chords",
+                      "swell the chorus of the Union": "the national organism's unified voice \u2014 when touched, the chords produce resonance across all parts simultaneously",
+                      "touched...by the better angels of our nature": "the agent that activates the chords \u2014 the better angels are the positive impulses that can restore resonance"
+                    },
+                    "entailments": [
+                      "The nation is a living body connected by chords of memory \u2014 injury or division strains these chords but does not permanently sever them",
+                      "The dead (battle-fields, patriot graves) remain part of the living body through memory \u2014 the national organism includes its historical dead",
+                      "'Swell' suggests the chorus can grow larger \u2014 the Union's voice can increase in power when the chords are touched",
+                      "The 'better angels' are not external \u2014 they are 'of our nature,' meaning the national body carries within it the capacity for self-healing resonance"
+                    ],
+                    "conventional_or_novel": "novel"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "national_body_integrity",
+                    "violence_logic": "organic_reunion",
+                    "obligatory_frame": "The national body is connected by mystic chords of memory that can be restored to resonance by appeal to better nature. Division has strained the chords but not severed them. The chorus of the Union is the national organism's unified voice \u2014 it can swell again if touched by the better angels. This is cluster_01's most optimistic mode: the body is wounded but healable, the memory-chords persist, and reunion is organically possible through appeal to shared humanity.",
+                    "projected_entity": "The American nation as a living organism connected by chords of memory that carry feeling across all parts",
+                    "guilt_distribution": "No explicit guilt \u2014 this is an appeal to shared humanity rather than an assignment of blame. The better angels are available to all.",
+                    "sacrificial_economy": "None \u2014 the organic reunion frame does not require sacrifice; it requires touch and resonance. Contrast with the Second Inaugural's wound/blood sacrifice logic.",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "SUPPRESSION FLAG: This sentence is Seward-revised (substantial contribution from Seward's draft; Lincoln retained and revised). Run analysis twice: full corpus and authorship_confidence \u2265 0.95 subset. The 'mystic chords' image is Seward's conceptual contribution, significantly rewritten by Lincoln. Exclude from Lincoln-sole analysis. The sentence is the most novel cluster_01 instance in the pre-war documents \u2014 the organism-as-musical-instrument hybrid source domain does not appear elsewhere in the corpus. The 'patriot graves' as part of the living national body anticipates Gettysburg's 'those who gave their lives' as constitutive of the national organism. The 'better angels of our nature' is Lincoln's phrase (replacing Seward's more abstract phrasing), which introduces the agent of organic reunion \u2014 an internal force, not an external savior."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

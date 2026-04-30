@@ -1,0 +1,792 @@
+{
+  "document_id": "doc_019",
+  "meta": {
+    "id": "doc_019",
+    "title": "Letter to Albert G. Hodges",
+    "short_title": "Hodges Letter",
+    "date": "1864-04-04",
+    "date_precision": "exact",
+    "register": "semi_public_letter",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.7 pp.281-283",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:189",
+    "risk_flags": [],
+    "analytical_priority": "critical"
+  },
+  "document_summary": {
+    "doc_id": "doc_019",
+    "total_instances": 7,
+    "clusters_activated": ["cluster_01_body_organism", "cluster_06_providence_theodicy"],
+    "dominant_cluster": "cluster_01_body_organism",
+    "extension_groups": ["ext_006", "ext_007"],
+    "primary_finding": "The Hodges Letter contains the most explicit cluster_01 (body/organism) reasoning in the corpus: the amputation analogy (ext_006, inst_00031–00032). Lincoln directly states that the constitution is a limb and the nation is the life — amputating the limb (suspending strict constitutional reading) is necessary to save the life (preserve the nation). This is the only document where the body metaphor is theorized rather than deployed rhetorically. The letter also contains the theodicy arc (ext_007, inst_00034–00036) that pre-figures the Second Inaugural: 'events have controlled me' → 'God alone can claim it' → 'God now wills the removal of a great wrong...pay fairly for our complicity.' The guilt is distributed to both North and South eleven months before the Second Inaugural states it fully. Clusters 02, 03, 04, and 05 are absent — the letter is deliberately stripped of the founding-fathers, covenant, and birth framings, using only body logic and Providence to justify emancipation.",
+    "annotator_notes": "Two extension groups: ext_006 spans the amputation metaphor across p06_s13 and p06_s14 (two-sentence medical logic); ext_007 spans the theodicy culmination across p08_s03, p08_s05, p08_s07. The pattern of 'events have controlled me' (inst_00034) followed by 'God alone can claim it' (inst_00035) is the secular-to-divine translation that the Second Inaugural compresses into 'the war came.' Black soldiers appear explicitly in p06_s25 ('a gain of quite a hundred and thirty thousand soldiers, seamen, and laborers') — the most literal acknowledgment of USCT contribution in the corpus so far, but framed entirely as a military arithmetic gain, not as persons with agency or moral standing."
+  },
+  "sections": [
+    {
+      "section_id": "doc_019_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_019_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Executive Mansion,",
+              "word_offset_start": 0,
+              "word_offset_end": 2,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Washington, April 4, 1864.",
+              "word_offset_start": 2,
+              "word_offset_end": 6,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "A.G. Hodges, Esq",
+              "word_offset_start": 6,
+              "word_offset_end": 9,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Frankfort, Ky.",
+              "word_offset_start": 9,
+              "word_offset_end": 11,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "My dear Sir: You ask me to put in writing the substance of what I verbally said the other day, in your presence, to Governor Bramlette and Senator Dixon.",
+              "word_offset_start": 11,
+              "word_offset_end": 40,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "It was about as follows:",
+              "word_offset_start": 40,
+              "word_offset_end": 45,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "\"I am naturally anti-slavery.",
+              "word_offset_start": 45,
+              "word_offset_end": 49,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "If slavery is not wrong, nothing is wrong.",
+              "word_offset_start": 49,
+              "word_offset_end": 57,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "I can not remember when I did not so think, and feel.",
+              "word_offset_start": 57,
+              "word_offset_end": 69,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "And yet I have never understood that the Presidency conferred upon me an unrestricted right to act officially upon this judgment and feeling.",
+              "word_offset_start": 69,
+              "word_offset_end": 92,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "It was in the oath I took that I would, to the best of my ability, preserve, protect, and defend the Constitution of the United States.",
+              "word_offset_start": 92,
+              "word_offset_end": 118,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s06",
+              "sentence_ordinal": 6,
+              "text": "I could not take the office without taking the oath.",
+              "word_offset_start": 118,
+              "word_offset_end": 128,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s07",
+              "sentence_ordinal": 7,
+              "text": "Nor was it my view that I might take an oath to get power, and break the oath in using the power.",
+              "word_offset_start": 128,
+              "word_offset_end": 150,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s08",
+              "sentence_ordinal": 8,
+              "text": "I understood, too, that in ordinary civil administration this oath even forbade me to practically indulge my primary abstract judgment on the moral question of slavery.",
+              "word_offset_start": 150,
+              "word_offset_end": 176,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s09",
+              "sentence_ordinal": 9,
+              "text": "I had publicly declared this many times, and in many ways.",
+              "word_offset_start": 176,
+              "word_offset_end": 187,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s10",
+              "sentence_ordinal": 10,
+              "text": "And I aver that, to this day, I have done no official act in mere deference to my abstract judgment and feeling on slavery.",
+              "word_offset_start": 187,
+              "word_offset_end": 211,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s11",
+              "sentence_ordinal": 11,
+              "text": "I did understand however, that my oath to preserve the constitution to the best of my ability, imposed upon me the duty of preserving, by every indispensable means, that government -- that nation -- of which that constitution was the organic law.",
+              "word_offset_start": 211,
+              "word_offset_end": 253,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00030",
+                  "sentence_id": "doc_019_s01_p06_s11",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "the organic law",
+                  "source_domain": "biological organism and its constitutive principles",
+                  "target_domain": "the constitutional compact as the nation's founding life-law",
+                  "char_span_start": 230,
+                  "char_span_end": 245,
+                  "confidence": 0.80,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": true,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "constitution": "the organic law — the life-giving principle of the national organism",
+                      "nation": "a living organism constituted by this law",
+                      "preservation of nation": "keeping the organism alive"
+                    },
+                    "entailments": [
+                      "The nation is an organism — it can die",
+                      "The constitution is not merely a legal document but the organism's life-principle",
+                      "Preserving the nation means preserving what generates its organic existence"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": "The 'organic law' framing imposes duty: one cannot allow the organic life-principle to be destroyed. The duty to preserve the nation is as fundamental as the duty to keep a body alive.",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [
+                      "enslaved_people_non_agent"
+                    ],
+                    "annotator_notes": "ambiguity_flag: 'organic law' is also a legal term of art (foundational constitutional law) without biological content. The biological resonance is real but the term has been partly conventionalized in American constitutional discourse. Coded cluster_01 because the surrounding argument (p06_s13 amputation metaphor) makes the organism logic explicit, confirming that 'organic' here carries its biological sense."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s12",
+              "sentence_ordinal": 12,
+              "text": "Was it possible to lose the nation, and yet preserve the constitution?",
+              "word_offset_start": 253,
+              "word_offset_end": 265,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s13",
+              "sentence_ordinal": 13,
+              "text": "By general law life and limb must be protected; yet often a limb must be amputated to save a life; but a life is never wisely given to save a limb.",
+              "word_offset_start": 265,
+              "word_offset_end": 296,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00031",
+                  "sentence_id": "doc_019_s01_p06_s13",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "a limb must be amputated to save a life",
+                  "source_domain": "medical amputation — sacrificing a limb to preserve the body's life",
+                  "target_domain": "suspending strict constitutional interpretation to preserve the nation",
+                  "char_span_start": 58,
+                  "char_span_end": 97,
+                  "confidence": 0.97,
+                  "is_novel_metaphor": true,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": "ext_006",
+                  "cmt": {
+                    "mapping": {
+                      "limb": "the constitution's strict reading — valuable but not the whole organism",
+                      "life": "the nation as living organism",
+                      "amputation": "emergency suspension of constitutional constraints",
+                      "surgeon": "the president acting under necessity",
+                      "general law": "the normal rule (protect both life and limb)"
+                    },
+                    "entailments": [
+                      "The constitution and the nation are separable — you can lose one without losing the other",
+                      "Preserving the nation outranks preserving constitutional strictness",
+                      "Emergency action (emancipation) is medical necessity, not political choice",
+                      "A surgeon who refuses to amputate when necessary is culpable for the death",
+                      "The measure is irreversible but was obligatory"
+                    ],
+                    "conventional_or_novel": "novel"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": "The surgeon analogy makes emancipation obligatory: a surgeon who fails to amputate when amputation is necessary commits malpractice. Lincoln is the surgeon; the war is the emergency; emancipation is the amputation. This is the most explicit statement of the obligatory frame in any Lincoln document analyzed so far.",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": "The constitution (limb) is sacrificed — suspended — to save the nation (life). The sacrifice is the constitutional principle itself, not soldiers. This is the only instance in the corpus where the sacrificed entity is a legal norm rather than human lives.",
+                    "absence_flags": [
+                      "enslaved_people_non_agent"
+                    ],
+                    "annotator_notes": "Marked is_novel_metaphor: true. The amputation analogy is Lincoln's own theorization — he is not borrowing a stock phrase but constructing an explicit analogy to justify emancipation. This is the closest Lincoln comes anywhere in the corpus to openly theorizing his own metaphor system. The analogy is reversible (a life is never wisely given to save a limb) — which closes off the counter-argument: you cannot sacrifice the nation to save strict constitutionalism."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s14",
+              "sentence_ordinal": 14,
+              "text": "I felt that measures, otherwise unconstitutional, might become lawful, by becoming indispensable to the preservation of the constitution, through the preservation of the nation.",
+              "word_offset_start": 296,
+              "word_offset_end": 320,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00032",
+                  "sentence_id": "doc_019_s01_p06_s14",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "preservation of the constitution, through the preservation of the nation",
+                  "source_domain": "preserving the body's organ by preserving the body",
+                  "target_domain": "constitutional integrity secured through national survival",
+                  "char_span_start": 104,
+                  "char_span_end": 176,
+                  "confidence": 0.90,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": "ext_006",
+                  "cmt": {
+                    "mapping": {
+                      "preservation of the nation": "keeping the organism alive",
+                      "preservation of the constitution": "keeping the organ functional — but only possible if the organism survives",
+                      "unconstitutional measures": "the amputation procedure — technically damaging but necessary"
+                    },
+                    "entailments": [
+                      "You cannot preserve the constitution by destroying what it constitutes",
+                      "Emergency necessity can transform an illegal act into a lawful one",
+                      "The temporal order matters: nation first, then constitution — not simultaneously"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": "Extends inst_00031's obligation: if the amputation is the only way to save the life, and saving the constitution requires first saving the nation, then the unconstitutional measure was not merely permitted but required.",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [
+                      "enslaved_people_non_agent"
+                    ],
+                    "annotator_notes": "Extension of the amputation metaphor (ext_006). This sentence is the logical conclusion: if the amputation is necessary to save the life, and the constitution is the organism's limb, then the 'unconstitutional' measure was actually constitutional at a higher level — preserving what the constitution was designed to protect. Lincoln is theorizing necessity doctrine through body metaphor."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s15",
+              "sentence_ordinal": 15,
+              "text": "Right or wrong, I assumed this ground, and now avow it.",
+              "word_offset_start": 320,
+              "word_offset_end": 331,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s16",
+              "sentence_ordinal": 16,
+              "text": "I could not feel that, to the best of my ability, I had even tried to preserve the constitution, if, to save slavery, or any minor matter, I should permit the wreck of government, country, and Constitution all together.",
+              "word_offset_start": 331,
+              "word_offset_end": 370,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00033",
+                  "sentence_id": "doc_019_s01_p06_s16",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "wreck of government, country, and Constitution all together",
+                  "source_domain": "shipwreck — the total destruction of a vessel",
+                  "target_domain": "the simultaneous collapse of all three structures of American political order",
+                  "char_span_start": 159,
+                  "char_span_end": 218,
+                  "confidence": 0.82,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "wreck": "total structural catastrophe — not damage but complete destruction",
+                      "government, country, and Constitution": "the three-part political vessel",
+                      "slavery": "the minor matter that, if prioritized, causes the wreck"
+                    },
+                    "entailments": [
+                      "Government, country, and Constitution can all be lost simultaneously",
+                      "Slavery is explicitly labeled 'a minor matter' relative to these",
+                      "The priority inversion (saving slavery at cost of all three) is constructed as obviously absurd"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": "The 'wreck' scenario is presented as an obviously prohibited outcome — Lincoln could not have done his duty if he allowed it. This frames inaction (not doing emancipation) as the unacceptable choice.",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [
+                      "enslaved_people_non_agent"
+                    ],
+                    "annotator_notes": "The explicit labeling of slavery as 'any minor matter' is the most striking move in the sentence. Lincoln is not arguing against slavery's wrongness (he states that in p06_s02) but asserting that slavery's preservation is categorically subordinate to the three-part political structure. This is the pragmatic version of the Greeley Letter's utility calculus, but now framed as an obvious moral priority rather than a contingent calculation."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s17",
+              "sentence_ordinal": 17,
+              "text": "When, early in the war, Gen. Fremont attempted military emancipation, I forbade it, because I did not then think it an indispensable necessity.",
+              "word_offset_start": 370,
+              "word_offset_end": 393,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s18",
+              "sentence_ordinal": 18,
+              "text": "When a little later, Gen. Cameron, then Secretary of War, suggested the arming of the blacks, I objected, because I did not yet think it an indispensable necessity.",
+              "word_offset_start": 393,
+              "word_offset_end": 421,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s19",
+              "sentence_ordinal": 19,
+              "text": "When, still later, Gen. Hunter attempted military emancipation, I again forbade it, because I did not yet think the indispensable necessity had come.",
+              "word_offset_start": 421,
+              "word_offset_end": 444,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s20",
+              "sentence_ordinal": 20,
+              "text": "When, in March, and May, and July 1862 I made earnest, and successive appeals to the border states to favor compensated emancipation, I believed the indispensable necessity for military emancipation, and arming the blacks would come, unless averted by that measure.",
+              "word_offset_start": 444,
+              "word_offset_end": 485,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s21",
+              "sentence_ordinal": 21,
+              "text": "They declined the proposition; and I was, in my best judgment, driven to the alternative of either surrendering the Union, and with it, the Constitution, or of laying strong hand upon the colored element.",
+              "word_offset_start": 485,
+              "word_offset_end": 519,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s22",
+              "sentence_ordinal": 22,
+              "text": "I chose the latter.",
+              "word_offset_start": 519,
+              "word_offset_end": 523,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s23",
+              "sentence_ordinal": 23,
+              "text": "In choosing it, I hoped for greater gain than loss; but of this, I was not entirely confident.",
+              "word_offset_start": 523,
+              "word_offset_end": 541,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s24",
+              "sentence_ordinal": 24,
+              "text": "More than a year of trial now shows no loss by it in our foreign relations, none in our home popular sentiment, none in our white military force, -- no loss by it any how or any where.",
+              "word_offset_start": 541,
+              "word_offset_end": 579,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s25",
+              "sentence_ordinal": 25,
+              "text": "On the contrary, it shows a gain of quite a hundred and thirty thousand soldiers, seamen, and laborers.",
+              "word_offset_start": 579,
+              "word_offset_end": 597,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s26",
+              "sentence_ordinal": 26,
+              "text": "These are palpable facts, about which, as facts, there can be no cavilling.",
+              "word_offset_start": 597,
+              "word_offset_end": 610,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s27",
+              "sentence_ordinal": 27,
+              "text": "We have the men; and we could not have had them without the measure.",
+              "word_offset_start": 610,
+              "word_offset_end": 624,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "\"And now let any Union man who complains of the measure, test himself by writing down in one line that he is for subduing the rebellion by force of arms; and in the next, that he is for taking these hundred and thirty thousand men from the Union side, and placing them where they would be but for the measure he condemns.",
+              "word_offset_start": 624,
+              "word_offset_end": 686,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "If he can not face his case so stated, it is only because he can not face the truth.\"",
+              "word_offset_start": 686,
+              "word_offset_end": 705,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "I add a word which was not in the verbal conversation.",
+              "word_offset_start": 705,
+              "word_offset_end": 716,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "In telling this tale I attempt no compliment to my own sagacity.",
+              "word_offset_start": 716,
+              "word_offset_end": 728,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "I claim not to have controlled events, but confess plainly that events have controlled me.",
+              "word_offset_start": 728,
+              "word_offset_end": 743,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00034",
+                  "sentence_id": "doc_019_s01_p08_s03",
+                  "cluster_id": "cluster_06_providence_theodicy",
+                  "linguistic_form": "events have controlled me",
+                  "source_domain": "external force controlling a passive agent",
+                  "target_domain": "providential history directing Lincoln's actions",
+                  "char_span_start": 64,
+                  "char_span_end": 89,
+                  "confidence": 0.85,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": "ext_007",
+                  "cmt": {
+                    "mapping": {
+                      "events": "the providential force directing history",
+                      "controlled me": "Lincoln as passive instrument rather than active agent",
+                      "claim not to have controlled events": "explicit denial of autonomous agency"
+                    },
+                    "entailments": [
+                      "Lincoln is an instrument, not an author — he cannot be blamed or credited for outcomes",
+                      "Events (Providence) have their own intentionality",
+                      "The war's outcome is not of human devising"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "obligatory",
+                    "obligatory_frame": "If events controlled Lincoln rather than the reverse, then Lincoln's decisions were obligatory responses to Providence rather than chosen policies. This is the secular version of 'the war came' (Second Inaugural, inst_00018).",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "distributed",
+                    "sacrificial_economy": null,
+                    "absence_flags": [
+                      "lincoln_non_agent"
+                    ],
+                    "annotator_notes": "This sentence is the hinge of the theodicy arc (ext_007) — the transition from the body/organism frame (p06) to the Providence frame (p08). The secular phrasing ('events') immediately yields to explicitly theological language in p08_s05 and p08_s07, confirming that 'events' = Providence. guilt_distribution coded 'distributed' because the framing removes Lincoln from culpability while not yet assigning it to North/South specifically — that distribution comes in inst_00036."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "Now, at the end of three years struggle the nation's condition is not what either party, or any man devised, or expected.",
+              "word_offset_start": 743,
+              "word_offset_end": 765,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "God alone can claim it.",
+              "word_offset_start": 765,
+              "word_offset_end": 770,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00035",
+                  "sentence_id": "doc_019_s01_p08_s05",
+                  "cluster_id": "cluster_06_providence_theodicy",
+                  "linguistic_form": "God alone can claim it",
+                  "source_domain": "divine ownership and authorship",
+                  "target_domain": "God as sole agent of the war's current condition",
+                  "char_span_start": 0,
+                  "char_span_end": 22,
+                  "confidence": 0.92,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": "ext_007",
+                  "cmt": {
+                    "mapping": {
+                      "God": "the sole agent of the war's outcome",
+                      "claim it": "authorship — God owns the result because God caused it",
+                      "nation's condition": "what has been made — the artifact of Providence"
+                    },
+                    "entailments": [
+                      "Human agency cannot claim credit or blame for outcomes that exceed human design",
+                      "God is an active author of political history",
+                      "The war's present condition is a divine product, not a human one"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "obligatory",
+                    "obligatory_frame": "God claiming the outcome removes it from the domain of political accountability. If God is the author, the war is not Lincoln's policy — it is Providence's unfolding.",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "distributed",
+                    "sacrificial_economy": null,
+                    "absence_flags": [
+                      "lincoln_non_agent",
+                      "confederates_depersonalized"
+                    ],
+                    "annotator_notes": "The three-word sentence is rhetorically concentrated — it follows 'Now, at the end of three years struggle the nation's condition is not what either party, or any man devised, or expected' (p08_s04), which evacuates all human agency from the outcome. 'God alone can claim it' then fills the causal vacuum. This is the theological move that licenses 'malice toward none' in the Second Inaugural: if God authored the outcome, retribution against human actors is theologically incoherent."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "Whither it is tending seems plain.",
+              "word_offset_start": 770,
+              "word_offset_end": 776,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s07",
+              "sentence_ordinal": 7,
+              "text": "If God now wills the removal of a great wrong, and wills also that we of the North as well as you of the South, shall pay fairly for our complicity in that wrong, impartial history will find therein new cause to attest and revere the justice and goodness of God.",
+              "word_offset_start": 776,
+              "word_offset_end": 827,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00036",
+                  "sentence_id": "doc_019_s01_p08_s07",
+                  "cluster_id": "cluster_06_providence_theodicy",
+                  "linguistic_form": "God now wills the removal of a great wrong",
+                  "source_domain": "divine will directing historical events as punishment and correction",
+                  "target_domain": "God using the war to remove slavery and exact payment for national complicity",
+                  "char_span_start": 3,
+                  "char_span_end": 45,
+                  "confidence": 0.95,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": "ext_007",
+                  "cmt": {
+                    "mapping": {
+                      "God wills": "active divine causation of historical events",
+                      "removal of a great wrong": "God as surgeon removing the national pathogen — but note: removal, not purification; the distinction from disease_and_purification logic holds",
+                      "pay fairly for our complicity": "debt-payment economy — guilt creates obligation; the war is the payment mechanism",
+                      "North as well as South": "distributed guilt — both sections are complicit"
+                    },
+                    "entailments": [
+                      "Slavery is 'a great wrong' — moral fact, not merely political fact",
+                      "Both North and South are guilty of complicity in it",
+                      "The war is the payment mechanism for this shared guilt",
+                      "Payment must be 'fair' — proportionate to complicity",
+                      "God administers the accounting, not Lincoln, not the Union Army"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "punitive",
+                    "obligatory_frame": "God's will is not negotiable. If God wills the removal and wills payment, the war must continue until the account is settled — Lincoln's will is irrelevant.",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "distributed",
+                    "sacrificial_economy": "The payment frame: guilt (complicity in slavery) creates a debt; the war is the currency of payment; God administers the exchange. This is the direct precursor to the Second Inaugural's 'every drop of blood drawn with the lash / paid by another drawn with the sword' (inst_00024).",
+                    "absence_flags": [
+                      "enslaved_people_non_agent"
+                    ],
+                    "annotator_notes": "This sentence is the earliest full draft of the Second Inaugural's theodicy. Comparing: Hodges Letter (April 1864) says 'God now wills the removal of a great wrong...pay fairly for our complicity'; Second Inaugural (March 1865) says 'He now wills to remove [slavery]...every drop of blood drawn with the lash shall be paid by another drawn with the sword.' The Second Inaugural adds the lash-sword specificity (naming slavery's physical violence for the first time) and the cosmic guilt frame (both sides as God's willed participants). But the theological structure is already complete here. Note the absence flag: enslaved people are 'the great wrong' — not the wronged, but the wrong itself. They are objectified as the moral problem God is solving, not as persons whose suffering created the debt."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s08",
+              "sentence_ordinal": 8,
+              "text": "Yours truly,",
+              "word_offset_start": 827,
+              "word_offset_end": 829,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "A. Lincoln",
+              "word_offset_start": 829,
+              "word_offset_end": 831,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
+    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+  ]
+}

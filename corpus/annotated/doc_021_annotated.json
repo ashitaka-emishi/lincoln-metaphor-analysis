@@ -1,0 +1,1044 @@
+{
+  "document_id": "doc_021",
+  "meta": {
+    "id": "doc_021",
+    "title": "Second Inaugural Address",
+    "short_title": "Second Inaugural",
+    "date": "1865-03-04",
+    "date_precision": "exact",
+    "register": "formal_public_address",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.8 pp.332-333",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211",
+    "risk_flags": [],
+    "analytical_priority": "critical"
+  },
+  "document_summary": {
+    "total_sentences": 25,
+    "annotated_sentences": 13,
+    "total_instances": 13,
+    "high_confidence_instances": 13,
+    "suppression_instances": 0,
+    "cluster_distribution": {
+      "cluster_01_body_organism": 6,
+      "cluster_02_covenant_oath": 1,
+      "cluster_03_experiment_proposition": 0,
+      "cluster_04_birth_creation": 1,
+      "cluster_05_fathers_inheritance": 0,
+      "cluster_06_providence_theodicy": 5
+    },
+    "dominant_fantasy_type": "punishment_and_theodicy",
+    "dominant_violence_logic": "punitive",
+    "obligatory_frame_rate": 0.85,
+    "sacrificial_economy_rate": 0.46,
+    "absence_flag_counts": {
+      "enslaved_people_non_agent": 4,
+      "black_soldiers_erased": 2,
+      "lincoln_non_agent": 5,
+      "confederates_depersonalized": 2,
+      "death_abstracted": 3,
+      "women_absent": 1
+    },
+    "primary_finding": "The Second Inaugural is the diachronic terminus of Lincoln's guilt_distribution arc: it reaches 'cosmic' guilt, distributing the war's moral weight to both North and South and ultimately to God's purposes. The address is structurally organized around the collapse of agency — 'and the war came' is its pivot sentence — and culminates in the blood-debt economy of S24, where slavery's violence (lash drawing blood) is repaid in kind by war's violence (sword drawing blood), mediated by divine will. Cluster_06 (providence/theodicy) dominates the second half; cluster_01 (body/organism) provides the material substrate throughout. Cluster_03 (experiment/proposition) is nearly absent — the testing frame of Gettysburg is replaced by the judgment frame of the Second Inaugural. This register shift marks the diachronic end of the evidentiary violence logic and its replacement by punitive/cosmic violence logic.",
+    "annotator_notes": "S24 ('every drop of blood drawn with the lash shall be paid by another drawn with the sword') is the most analytically significant sentence in the corpus for the guilt_distribution arc. It is the only moment where Lincoln explicitly names the violence of slavery as the causal antecedent of the war's violence, and frames that relationship as a providential debt-payment. The 'lash' is among the most direct acknowledgments of slavery's physical violence in Lincoln's public rhetoric. The sentence also activates a suppressed sacrificial economy: the enslaved person's blood (lash) funds the economy in which soldier blood (sword) pays the debt — but the enslaved person is not named as the creditor. The 'war came' construction in S10 should be tracked as a corpus-wide marker of the obligatory/non-agent frame: Lincoln uses agentless constructions for war's arrival at multiple points (compare the July 4 Message and Peoria).",
+    "pipeline_log_entry": {"stage": 4, "agent": "lincoln_corpus_reader", "date": "2026-04-28"}
+  },
+  "sections": [
+    {
+      "section_id": "doc_021_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_021_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Fellow-Countrymen:",
+              "word_offset_start": 0,
+              "word_offset_end": 2,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_021_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "At this second appearing to take the oath of the Presidential office there is less occasion for an extended address than there was at the first.",
+              "word_offset_start": 2,
+              "word_offset_end": 28,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "Then a statement somewhat in detail of a course to be pursued seemed fitting and proper.",
+              "word_offset_start": 28,
+              "word_offset_end": 44,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p02_s03",
+              "sentence_ordinal": 3,
+              "text": "Now, at the expiration of four years, during which public declarations have been constantly called forth on every point and phase of the great contest which still absorbs the attention and engrosses the energies of the nation, little that is new could be presented.",
+              "word_offset_start": 44,
+              "word_offset_end": 90,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00014",
+                  "sentence_id": "doc_021_s01_p02_s03",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "absorbs the attention and engrosses the energies of the nation",
+                  "span_char_start": 163,
+                  "span_char_end": 225,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "organic_consumption",
+                    "target_domain": "war_dominating_national_life",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "the_nation_has_attention_and_energy_as_organic_resources",
+                      "the_war_consumes_those_resources_like_a_parasite_or_disease",
+                      "a_consumed_organism_has_no_resources_left_for_other_things",
+                      "the_exhaustion_is_involuntary"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Conventional but active — 'absorbs' and 'engrosses' both treat the nation's attention and energy as finite organic resources being consumed by the war. The nation is an organism whose capacities are being depleted. Mild instance, included because the entailments (resource depletion, involuntary consumption) contribute to the organic-nation frame that cluster_01 builds throughout."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": false,
+                    "obligatory_frame_notes": null,
+                    "agent_of_violence": "the_war",
+                    "agent_is_abstract": true,
+                    "object_of_violence": "the_national_body",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
+                    "absence_flags": [],
+                    "absence_notes": null
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.80,
+                    "ambiguity_flag": true,
+                    "ambiguity_notes": "Conventional language that may or may not activate CMT mapping consciously; included because the organic-consumption entailments are analytically relevant to the cluster_01 arc.",
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_021_s01_p02_s04",
+              "sentence_ordinal": 4,
+              "text": "The progress of our arms, upon which all else chiefly depends, is as well known to the public as to myself, and it is, I trust, reasonably satisfactory and encouraging to all.",
+              "word_offset_start": 90,
+              "word_offset_end": 120,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p02_s05",
+              "sentence_ordinal": 5,
+              "text": "With high hope for the future, no prediction in regard to it is ventured.",
+              "word_offset_start": 120,
+              "word_offset_end": 133,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_021_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "On the occasion corresponding to this four years ago all thoughts were anxiously directed to an impending civil war.",
+              "word_offset_start": 133,
+              "word_offset_end": 153,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "All dreaded it, all sought to avert it.",
+              "word_offset_start": 153,
+              "word_offset_end": 161,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "While the inaugural address was being delivered from this place, devoted altogether to saving the Union without war, insurgent agents were in the city seeking to destroy it without war—seeking to dissolve the Union and divide effects by negotiation.",
+              "word_offset_start": 161,
+              "word_offset_end": 203,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00015",
+                  "sentence_id": "doc_021_s01_p03_s03",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "dissolve the Union",
+                  "span_char_start": 196,
+                  "span_char_end": 214,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "chemical_dissolution",
+                    "target_domain": "destruction_of_the_Union",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "the_Union_is_a_substance_with_structural_integrity",
+                      "dissolution_breaks_down_the_structure_at_the_molecular_level",
+                      "the_dissolved_substance_cannot_be_reassembled",
+                      "dissolution_is_a_chemical_process_not_a_violent_rupture"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Paired with 'destroy' earlier in the sentence: the insurgents first 'destroy' (violent) and then 'dissolve' (chemical). 'Dissolve' carries specific political weight from the Declaration of Independence ('dissolve the political bands') — Lincoln may be activating that allusion here to implicitly invoke the Founders' frame (cluster_05) while describing the Confederacy's project."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": false,
+                    "obligatory_frame_notes": null,
+                    "agent_of_violence": "the_insurgents",
+                    "agent_is_abstract": false,
+                    "object_of_violence": "the_national_body",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "external",
+                    "guilt_distribution_notes": "One of the few external guilt-distribution moments in the Second Inaugural — the insurgents are named as agents seeking dissolution. But this will give way to distributed/cosmic guilt by S10.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
+                    "absence_flags": ["confederates_depersonalized"],
+                    "absence_notes": "The Confederate leadership and their human agency is present here ('insurgent agents') — this is one of the rare moments where the Confederacy has agents. By S10, even this agency will dissolve into 'the war came.'"
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.92,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_021_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish, and the war came.",
+              "word_offset_start": 203,
+              "word_offset_end": 233,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00016",
+                  "sentence_id": "doc_021_s01_p03_s04",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "let the nation survive",
+                  "span_char_start": 72,
+                  "span_char_end": 94,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "organic_survival",
+                    "target_domain": "national_political_continuity",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "the_nation_is_a_living_organism",
+                      "it_can_survive_or_fail_to_survive",
+                      "survival_is_the_condition_of_all_other_national_purposes",
+                      "the_nation_can_be_killed"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_004",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Paired with 'let it perish' three clauses later — the survive/perish couplet frames the war as literally a life-or-death matter for the national organism. Assigning ext_004 to the organism-survival arc in the Second Inaugural (survive → perish → wounds → bound)."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "If the nation's survival is at stake, resistance is obligatory — you cannot choose to let an organism die. The survival frame removes choice from the Union's war prosecution.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": true,
+                    "object_of_violence": "the_national_body",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "external",
+                    "guilt_distribution_notes": "The one party 'would make war' — external guilt assignment still present, transitioning to distributed.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
+                    "absence_flags": ["lincoln_non_agent"],
+                    "absence_notes": "Lincoln is not present as an agent in this sentence — 'one of them' and 'the other' are the parties, and Lincoln positions himself as narrator of events rather than participant."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.95,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00017",
+                  "sentence_id": "doc_021_s01_p03_s04",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "let it perish",
+                  "span_char_start": 139,
+                  "span_char_end": 152,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "organic_death",
+                    "target_domain": "collapse_of_the_Union",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "the_nation_can_die_not_merely_fail",
+                      "perishing_is_absolute_irreversible_extinction",
+                      "preventing_perishing_is_an_absolute_imperative",
+                      "the_Union_is_alive_and_mortal"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_004",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The echo of Gettysburg's 'shall not perish from the earth' is deliberate. Lincoln is completing the arc: at Gettysburg the resolve was that government shall not perish; here he describes the frame in which the Union side chose war rather than allow that perishing. The extinction metaphor generates the strongest possible obligatory frame."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "Same frame as the paired survive instance — the organism cannot be allowed to perish; this makes war the only option.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": true,
+                    "object_of_violence": "the_national_body",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "distributed",
+                    "guilt_distribution_notes": "The sentence distributes action across both parties: 'one of them would make war... the other would accept war.' Neither side is solely guilty; both faced the same terminal choice.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
+                    "absence_flags": ["lincoln_non_agent"],
+                    "absence_notes": "Lincoln is again absent as agent — the two parties made choices; Lincoln is not among them in this framing."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.95,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00018",
+                  "sentence_id": "doc_021_s01_p03_s04",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "the war came",
+                  "span_char_start": 158,
+                  "span_char_end": 170,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "natural_event_arrival",
+                    "target_domain": "outbreak_of_civil_war",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "the_war_is_an_entity_that_moves_and_arrives",
+                      "it_came_from_somewhere_outside_human_will",
+                      "no_human_agent_caused_it_to_come",
+                      "arrival_events_are_not_chosen_by_those_to_whom_they_arrive"
+                    ],
+                    "is_novel_metaphor": true,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": ["cluster_06_providence_theodicy"],
+                    "annotation_notes": "Three words that perform the most radical removal of human agency in Lincoln's corpus. After describing how both parties deprecated war, one would make war rather than allow secession, the other would accept war rather than allow dissolution — Lincoln could have written 'and war broke out' or 'and the fighting began.' Instead: 'and the war came.' The war is an entity with autonomous motion. No one chose it; it arrived. This is the pivot on which the entire address's guilt distribution turns: if the war came (was not caused by human will), then the question of blame is replaced by the question of meaning. The co-activation of cluster_06 is latent here and will be explicit in S22: if the war came, then it was sent — and by whom?"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "punitive",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "A war that 'comes' rather than being started cannot be resisted or negotiated with in the same way as a war with a human aggressor. Its obligatory character is cosmological: you do not debate whether to accept a storm.",
+                    "agent_of_violence": "the_war_itself",
+                    "agent_is_abstract": true,
+                    "object_of_violence": "both_parties",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "cosmic",
+                    "guilt_distribution_notes": "The agentless construction is the pivot to cosmic guilt distribution. The war has no human cause that can be assigned as guilt. It came — implying it was sent. By what or whom will be answered in S22.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "displacement",
+                    "psychic_defense_notes": "The agency of both parties (one made war, the other accepted war) is displaced onto an intransitive arrival event. This displacement is not evasion but a genuine theological claim: the war's ultimate cause is not human will.",
+                    "absence_flags": ["lincoln_non_agent", "confederates_depersonalized", "enslaved_people_non_agent"],
+                    "absence_notes": "Lincoln_non_agent: Lincoln is nowhere in this sentence. Confederates_depersonalized: the Confederate choice to make war is dissolved into the war's autonomous arrival. Enslaved_people_non_agent: slavery is the cause of the war; enslaved people's condition is what the war is about; but 'the war came' removes all agents from the moment of causation."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.97,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_021_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "One-eighth of the whole population were colored slaves, not distributed generally over the Union, but localized in the southern part of it.",
+              "word_offset_start": 233,
+              "word_offset_end": 257,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "These slaves constituted a peculiar and powerful interest.",
+              "word_offset_start": 257,
+              "word_offset_end": 267,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "All knew that this interest was somehow the cause of the war.",
+              "word_offset_start": 267,
+              "word_offset_end": 279,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "To strengthen, perpetuate, and extend this interest was the object for which the insurgents would rend the Union even by war, while the Government claimed no right to do more than to restrict the territorial enlargement of it.",
+              "word_offset_start": 279,
+              "word_offset_end": 318,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00019",
+                  "sentence_id": "doc_021_s01_p04_s04",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "rend the Union",
+                  "span_char_start": 98,
+                  "span_char_end": 112,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "tearing_flesh",
+                    "target_domain": "Confederate_destruction_of_the_Union",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "the_Union_is_a_body_or_fabric_with_physical_integrity",
+                      "rending_is_violent_tearing_of_connected_material",
+                      "the_torn_thing_bleeds_or_suffers",
+                      "rending_is_irreparable_without_binding"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_004",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "'Rend' is a precise and violent verb — to tear apart, especially flesh or cloth. In biblical usage, rending garments is a sign of grief or outrage. Lincoln's choice of 'rend' over 'break' or 'split' or 'divide' loads the Confederate act with physical violence against a living body. The wound that must be 'bound up' in S25 is the wound created by this rending in S14."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": false,
+                    "obligatory_frame_notes": null,
+                    "agent_of_violence": "the_insurgents",
+                    "agent_is_abstract": false,
+                    "object_of_violence": "the_national_body",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "external",
+                    "guilt_distribution_notes": "One of the clearest external guilt-distribution sentences in the address — the insurgents are the agents who would rend. This is the wound-creation event that the address will then transcend through cosmic guilt.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
+                    "absence_flags": [],
+                    "absence_notes": null
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.96,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "Neither party expected for the war the magnitude or the duration which it has already attained.",
+              "word_offset_start": 318,
+              "word_offset_end": 335,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "Neither anticipated that the cause of the conflict might cease with or even before the conflict itself should cease.",
+              "word_offset_start": 335,
+              "word_offset_end": 355,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s07",
+              "sentence_ordinal": 7,
+              "text": "Each looked for an easier triumph, and a result less fundamental and astounding.",
+              "word_offset_start": 355,
+              "word_offset_end": 370,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s08",
+              "sentence_ordinal": 8,
+              "text": "Both read the same Bible and pray to the same God, and each invokes His aid against the other.",
+              "word_offset_start": 370,
+              "word_offset_end": 387,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s09",
+              "sentence_ordinal": 9,
+              "text": "It may seem strange that any men should dare to ask a just God's assistance in wringing their bread from the sweat of other men's faces, but let us judge not, that we be not judged.",
+              "word_offset_start": 387,
+              "word_offset_end": 420,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s10",
+              "sentence_ordinal": 10,
+              "text": "The prayers of both could not be answered.",
+              "word_offset_start": 420,
+              "word_offset_end": 429,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s11",
+              "sentence_ordinal": 11,
+              "text": "That of neither has been answered fully.",
+              "word_offset_start": 429,
+              "word_offset_end": 437,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s12",
+              "sentence_ordinal": 12,
+              "text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+              "word_offset_start": 437,
+              "word_offset_end": 535,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00020",
+                  "sentence_id": "doc_021_s01_p04_s12",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "The Almighty has His own purposes",
+                  "span_char_start": 0,
+                  "span_char_end": 33,
+                  "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "divine_intentionality",
+                    "target_domain": "the_wars_ultimate_cause_and_meaning",
+                    "linguistic_form": "sentence",
+                    "entailments": [
+                      "God_is_an_agent_with_intentions",
+                      "those_intentions_are_not_identical_to_human_intentions",
+                      "human_purposes_are_therefore_insufficient_explanations_of_events",
+                      "discerning_Gods_purposes_is_necessary_to_understanding_the_war"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_005",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The pivot sentence of the address. Everything before this — both parties, both prayers, both expectations — has been shown to be insufficient. Now Lincoln introduces the only adequate explanatory agent: the Almighty's own purposes. The sentence is short, declarative, and unanswerable. Assigning ext_005 to the theodicy arc of the Second Inaugural's fourth paragraph."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "punitive",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "If the Almighty has His own purposes, then the war is obligatory in a cosmic sense: it cannot be stopped by human will since it was not started by human will. Ending the war requires God's will, not human negotiation.",
+                    "agent_of_violence": "the_almighty",
+                    "agent_is_abstract": true,
+                    "object_of_violence": "both_parties",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "cosmic",
+                    "guilt_distribution_notes": "The ultimate guilt distribution: neither party is adequately explained as cause; God's purposes are the real causal agent. This is the culmination of the drift from external → distributed → cosmic across Lincoln's diachronic arc.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "displacement",
+                    "psychic_defense_notes": "Human moral agency — including the Confederate choice to secede and Lincoln's choice to fight — is displaced onto divine intentionality. This is not evasion in Lincoln's framework but a genuine theological position: the war is larger than any human purpose.",
+                    "absence_flags": ["lincoln_non_agent", "enslaved_people_non_agent"],
+                    "absence_notes": "Lincoln_non_agent: Lincoln's own agency in the war is subsumed into the Almighty's purposes — he is not a chooser but an instrument. Enslaved_people_non_agent: slavery is constructed as God's 'offense' — a category of divine-human relation — rather than as a system maintained by human choices that victimized specific human beings."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.98,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00021",
+                  "sentence_id": "doc_021_s01_p04_s12",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove",
+                  "span_char_start": 240,
+                  "span_char_end": 361,
+                  "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "divine_temporal_administration",
+                    "target_domain": "slavery_as_providential_offense_with_appointed_end",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "God_administers_historical_time",
+                      "slavery_had_a_divinely_appointed_duration",
+                      "God_now_wills_its_removal",
+                      "the_war_is_the_instrument_of_that_removal",
+                      "human_abolition_efforts_are_secondary_to_divine_will"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_005",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The most theologically specific claim in Lincoln's public rhetoric: slavery was divinely permitted for an appointed time, and God now wills its removal. This claim makes abolition a providential event rather than a moral or political choice. The entailment that makes this analytically critical: if God wills slavery's removal, then human abolitionists (Black and white), enslaved people's resistance, and Lincoln's own actions are all subordinate instruments of divine will — none of them the primary agent."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "punitive",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "God's will to remove slavery through war makes the war obligatory at the cosmic level. Lincoln cannot stop a war God is prosecuting.",
+                    "agent_of_violence": "the_almighty",
+                    "agent_is_abstract": true,
+                    "object_of_violence": "slavery_and_slaveholders",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "cosmic",
+                    "guilt_distribution_notes": "Slavery's existence and removal are both attributed to God's will — this distributes any guilt for slavery's perpetuation to the cosmic level ('must needs come') rather than to specific human actors.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "displacement",
+                    "psychic_defense_notes": "The cause of the war (human slavery, human secession) is displaced onto divine temporal administration. This displacement is Lincoln's most consistent and most analytically significant psychic move.",
+                    "absence_flags": ["lincoln_non_agent", "enslaved_people_non_agent"],
+                    "absence_notes": "Enslaved_people_non_agent: their two hundred and fifty years of suffering and resistance is here administered by God's appointed time — they are not agents of their own liberation but subjects of divine scheduling. Lincoln_non_agent: Lincoln's Emancipation Proclamation is subsumed into 'He now wills to remove.'"
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.98,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00022",
+                  "sentence_id": "doc_021_s01_p04_s12",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "He gives to both North and South this terrible war as the woe due to those by whom the offense came",
+                  "span_char_start": 372,
+                  "span_char_end": 471,
+                  "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "divine_punishment_distribution",
+                    "target_domain": "the_war_as_Gods_judgment_on_both_sides",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "God_gives_the_war_as_a_gift_of_punishment",
+                      "both_sides_receive_the_punishment",
+                      "the_punishment_is_proportionate_to_the_offense",
+                      "the_offense_is_slavery",
+                      "both_sides_participated_in_the_offense"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_005",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The culmination of the guilt_distribution arc across Lincoln's entire corpus: God gives the war to BOTH North and South. The North is not exempt from culpability. 'By whom the offense came' applies to both sections — the North participated in slavery through the constitutional compact, through commerce, through enforcement of the Fugitive Slave Act. This is distributed guilt elevated to cosmic distribution: God is the distributor, both parties are the recipients."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "punitive",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "A war given by God as due punishment cannot be stopped by human negotiation — it must run its course until the divine purpose is satisfied.",
+                    "agent_of_violence": "the_almighty",
+                    "agent_is_abstract": true,
+                    "object_of_violence": "both_north_and_south",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "distributed",
+                    "guilt_distribution_notes": "The most explicit distributed guilt statement in the corpus, and the most theologically grounded: both parties receive the punishment because both participated in the offense. This is the Second Inaugural's central moral claim.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "reparation",
+                    "psychic_defense_notes": "The reparative structure: by accepting shared guilt, Lincoln gestures toward a post-war reconciliation that does not require the South's permanent humiliation. This is the theological foundation of 'malice toward none' — if both sides earned the punishment, neither side can be uniquely condemned.",
+                    "absence_flags": ["enslaved_people_non_agent"],
+                    "absence_notes": "Enslaved people are the victims of the offense (slavery) but they are not among 'those by whom the offense came' — they did not bring the offense. Yet they are also absent as a distinct category of those who suffered the war's punishment. They gave the most (their labor, their blood under the lash) and are absent from the divine accounting."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.99,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s13",
+              "sentence_ordinal": 13,
+              "text": "Fondly do we hope, fervently do we pray, that this mighty scourge of war may speedily pass away.",
+              "word_offset_start": 535,
+              "word_offset_end": 553,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00023",
+                  "sentence_id": "doc_021_s01_p04_s13",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "this mighty scourge of war",
+                  "span_char_start": 46,
+                  "span_char_end": 72,
+                  "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "divine_instrument_of_punishment",
+                    "target_domain": "the_civil_war",
+                    "linguistic_form": "nominal_phrase",
+                    "entailments": [
+                      "the_war_is_a_whip_wielded_by_a_divine_hand",
+                      "the_scourge_is_applied_to_punish_not_to_purify",
+                      "the_scourge_passes_when_the_punishment_is_complete",
+                      "humans_can_pray_for_its_passing_but_not_command_it"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_005",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "CRITICAL: 'Scourge' is the closest Lincoln comes to disease_and_purification language in the corpus. A scourge can mean a whip (divine punishment instrument) or a plague/pestilence. The distinction matters enormously: if scourge = divine whip (punishment), the violence logic is punitive/restorative (cluster_06, fantasy_type=punishment_and_theodicy); if scourge = plague (purification), it would approach disease_and_purification logic. The context (paired with 'God wills that it continue' and 'the judgments of the Lord are righteous') firmly establishes this as divine-punishment logic, not disease-purification logic. The war is the whip in God's hand, not a pathogen to be expelled. This distinction is the key structural finding: Lincoln never constructs the war as a purifying agent that removes a contaminating social group. The Confederacy is not a pathogen; it is a party that also deserves punishment. The exit condition (scourge passes when punishment is complete) is confirmed."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "punitive",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The scourge continues until God wills otherwise — it cannot be put down by human decision. Lincoln and his audience are under the scourge, not wielding it.",
+                    "agent_of_violence": "the_almighty",
+                    "agent_is_abstract": true,
+                    "object_of_violence": "both_north_and_south",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "cosmic",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
+                    "absence_flags": ["lincoln_non_agent"],
+                    "absence_notes": "Lincoln prays that the scourge may pass — he is a supplicant under it, not the one wielding it. This is the most explicit lincoln_non_agent moment in the address."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.97,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s14",
+              "sentence_ordinal": 14,
+              "text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn with the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said \"the judgments of the Lord are true and righteous altogether.\"",
+              "word_offset_start": 553,
+              "word_offset_end": 614,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00024",
+                  "sentence_id": "doc_021_s01_p04_s14",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "every drop of blood drawn with the lash shall be paid by another drawn with the sword",
+                  "span_char_start": 152,
+                  "span_char_end": 237,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "blood_as_economic_currency",
+                    "target_domain": "the_providential_equivalence_of_slavery_violence_and_war_violence",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "blood_is_a_quantifiable_substance_that_can_be_drawn_and_paid",
+                      "a_debt_in_blood_requires_repayment_in_blood",
+                      "the_lash_drew_blood_from_enslaved_people",
+                      "the_sword_draws_blood_from_soldiers",
+                      "the_economy_is_divinely_administered",
+                      "the_debt_must_be_paid_in_full_before_the_war_ends"
+                    ],
+                    "is_novel_metaphor": true,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": ["cluster_06_providence_theodicy"],
+                    "annotation_notes": "The most analytically significant sentence in the Second Inaugural and one of the most important in the corpus. The blood economy operates as follows: (1) the lash draws blood from enslaved bodies — this is the debt; (2) the sword draws blood from soldiers' bodies — this is the payment. The payment is structurally commensurate: drop for drop, lash for sword. God administers the exchange. The implications are extraordinary: Lincoln is saying that soldiers' deaths in the war are the precise equivalent of enslaved people's suffering under slavery. This is the closest Lincoln comes to explicitly making the enslaved people's bodily suffering the moral cause of the war. But the framing is also the most problematic: enslaved people are the creditors of this debt (their blood was drawn first) but they are absent as agents in the repayment. Soldiers pay; enslaved people were paid upon. The blood economy converts their suffering into the material of a divine accounting that does not name them as its beneficiaries."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "punitive",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The debt must be paid in full — 'every drop... shall be paid.' This is a total obligation with no discretionary element. The war cannot end until the debt is settled.",
+                    "agent_of_violence": "the_almighty",
+                    "agent_is_abstract": true,
+                    "object_of_violence": "both_slaveholders_and_soldiers",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "distributed",
+                    "guilt_distribution_notes": "Both slaveholders (whose lash drew blood) and the nation that tolerated them (whose sons now pay in sword-blood) bear the debt. The distribution is not equal — slavery's perpetrators drew blood first — but both parties pay.",
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "debt_payment_enabling_war_end",
+                    "psychic_defense": "reparation",
+                    "psychic_defense_notes": "The blood economy is a reparative structure at the cosmic level: the debt created by slavery is being repaid through soldier deaths. The reparation is not to enslaved people (they do not receive the payment) but to divine justice.",
+                    "absence_flags": ["enslaved_people_non_agent", "black_soldiers_erased", "death_abstracted"],
+                    "absence_notes": "Enslaved_people_non_agent: the entire blood economy is about their suffering (lash drawing blood) but they are not named, not present as agents, not identified as the creditors whose debt is being repaid. Their blood is the premise; soldiers' blood is the conclusion; enslaved people themselves are absent from the transaction. Black_soldiers_erased: Black Union soldiers' blood is drawn with the sword in payment of the debt — they are doubly erased: as enslaved people (who paid first) and as soldiers (who now pay again). Death_abstracted: soldier deaths are converted into blood-currency in a divine payment scheme."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.99,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_021_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+              "word_offset_start": 614,
+              "word_offset_end": 677,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00025",
+                  "sentence_id": "doc_021_s01_p05_s01",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "finish the work we are in",
+                  "span_char_start": 128,
+                  "span_char_end": 153,
+                  "cmt": {
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "votive_labor_completion",
+                    "target_domain": "obligation_to_conclude_the_war_and_its_purposes",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "the_war_is_a_work_in_progress",
+                      "works_have_completion_conditions",
+                      "those_engaged_in_the_work_are_obligated_to_finish_it",
+                      "leaving_work_unfinished_dishonors_those_who_began_it"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": ["cluster_04_birth_creation"],
+                    "annotation_notes": "Echoes Gettysburg's 'the unfinished work which they who fought here have thus far so nobly advanced.' The same labor frame: the war is a work with an incomplete state that requires completion. The oath/obligation frame (cluster_02) is primary — 'let us strive on' is a votive commitment. The birth-labor frame (cluster_04) is co-activated: finishing the work = completing the labor that will produce the new birth."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "oath_and_obligation",
+                    "violence_logic": "obligatory",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "'Let us strive on to finish' — the obligation to complete is absolute. The work cannot be abandoned mid-process.",
+                    "agent_of_violence": "the_obligation_itself",
+                    "agent_is_abstract": true,
+                    "object_of_violence": null,
+                    "projected_entity": "covenant_bond",
+                    "guilt_distribution": "distributed",
+                    "guilt_distribution_notes": "'We are in' — the first person plural includes Lincoln and his audience in the obligation equally.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
+                    "absence_flags": ["enslaved_people_non_agent"],
+                    "absence_notes": "The 'work we are in' is the war and its purposes, which include emancipation. Enslaved people are the primary beneficiaries of this work but are not among 'us' who are striving to finish it."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.93,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00026",
+                  "sentence_id": "doc_021_s01_p05_s01",
+                  "document_id": "doc_021",
+                  "document_date": "1865-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "bind up the nation's wounds",
+                  "span_char_start": 158,
+                  "span_char_end": 185,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "wound_dressing_and_healing",
+                    "target_domain": "national_reconciliation_after_war",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "the_nation_has_wounds_from_the_war",
+                      "wounds_require_binding_to_begin_healing",
+                      "the_binder_is_physician_to_the_national_body",
+                      "healing_is_possible_but_requires_active_care",
+                      "binding_is_restorative_not_punitive"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_004",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The canonical cluster_01 instance — arguably the most important wound-healing metaphor in the corpus and in American political rhetoric. Placed at the climax of an address that has just described the war as God's punishment, it pivots from cosmic/punitive logic back to restorative logic. After distributing guilt cosmically (both sides earned the scourge), Lincoln calls for restorative action (bind the wounds). The sequence is theologically coherent: punishment completes → wounds can be bound. This is the structural difference from disease_and_purification: wounds have a binding phase; disease requires expulsion of the pathogen. The absence of any expulsion logic in this sentence is the key finding: the physician binds the wound of both sides, not the wound of one side. 'Malice toward none' is the clinical stance of a physician who treats all patients regardless of how they were wounded."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The wound exists; the wound requires binding; therefore binding is obligatory. The wound logic generates the same necessity as the sword logic — you do not leave wounds unbound.",
+                    "agent_of_violence": "the_wound",
+                    "agent_is_abstract": true,
+                    "object_of_violence": "the_national_body",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "distributed",
+                    "guilt_distribution_notes": "Binding up 'the nation's wounds' — not the South's wounds — distributes the healing requirement across the whole nation. Both sides are wounded; both need binding.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "reparation",
+                    "psychic_defense_notes": "The physician-nation relationship is a reparative structure: guilt acknowledged (distributed/cosmic), now converted into restorative action. This is the address's resolution of its own theological argument.",
+                    "absence_flags": ["enslaved_people_non_agent", "black_soldiers_erased"],
+                    "absence_notes": "Enslaved_people_non_agent: the nation's wounds include slavery's wound to enslaved people — but they are absent as patients who need binding. The wounds to be bound are the war's wounds to the national body, not slavery's wounds to Black bodies. Black_soldiers_erased: those who fought and died, including 180,000 Black soldiers, are represented by 'him who shall have borne the battle and for his widow and his orphan' — an abstract figure. The Black soldier's widow and orphan are invisible."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.99,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
+    {"stage": 4, "agent": "lincoln_corpus_reader", "date": "2026-04-28"}
+  ]
+}

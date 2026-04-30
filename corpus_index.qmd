@@ -1,0 +1,92 @@
+---
+title: "Corpus"
+subtitle: "28 documents, 1838–1865"
+---
+
+The corpus spans Lincoln's public career from the Lyceum Address (1838) to the Last Public Address (1865), drawn from the University of Michigan *Collected Works of Abraham Lincoln* digital edition.
+
+Register, authorship confidence, and analytical priority are the three primary corpus-control variables. All frequency claims in the analysis must be register-controlled before publication. See [Corpus Register](skills/corpus_register.md) for register definitions and [Annotation Protocol](skills/annotation_protocol.md) for the confidence scoring procedure.
+
+Source texts (Stage 2 markdown) are rendered at `corpus/text/{id}.html` and are linked in the table below.
+
+```{ojs}
+manifest = await FileAttachment("corpus/corpus_manifest.json").json()
+docs = manifest.documents
+```
+
+## Filter
+
+```{ojs}
+viewof reg = Inputs.select(
+  ["All", ...manifest.register_enum],
+  {label: "Register", value: "All"}
+)
+
+viewof pri = Inputs.select(
+  ["All", "critical", "high", "medium"],
+  {label: "Priority", value: "All"}
+)
+```
+
+## Documents
+
+```{ojs}
+filtered = docs.filter(d =>
+  (reg === "All" || d.register === reg) &&
+  (pri === "All" || d.analytical_priority === pri)
+)
+
+Inputs.table(
+  filtered.map(d => ({
+    id: d.id,
+    title: d.short_title,
+    date: d.date,
+    register: d.register,
+    authorship: d.authorship,
+    conf: d.authorship_confidence,
+    priority: d.analytical_priority,
+    stage: d.pipeline_stage_completed,
+    risk: d.risk_flags.length > 0 ? d.risk_flags.join(", ") : "—"
+  })),
+  {
+    columns: ["id", "title", "date", "register", "authorship", "conf", "priority", "stage", "risk"],
+    header: {
+      id: "ID",
+      title: "Document",
+      date: "Date",
+      register: "Register",
+      authorship: "Authorship",
+      conf: "Auth. Conf.",
+      priority: "Priority",
+      stage: "Stage",
+      risk: "Risk Flags"
+    },
+    format: {
+      conf: x => x.toFixed(2),
+      id: id => htl.html`<a href="corpus/text/${id}.html">${id}</a>`
+    },
+    rows: 30
+  }
+)
+```
+
+## Register Distribution
+
+```{ojs}
+reg_counts = d3.rollup(docs, v => v.length, d => d.register)
+reg_rows = Array.from(reg_counts, ([register, count]) => ({register, count}))
+  .sort((a, b) => b.count - a.count)
+
+Inputs.table(reg_rows, {
+  columns: ["register", "count"],
+  header: {register: "Register", count: "Documents"}
+})
+```
+
+## Authorship Notes
+
+All documents are authored by Lincoln (`lincoln_sole`) or primarily by Lincoln (`lincoln_primary`). Documents with `authorship_confidence < 0.90` have transcription variants or co-authorship complications; all frequency analyses must be run twice — once for the full corpus and once for the `authorship_confidence ≥ 0.95` subset.
+
+The Lincoln-Douglas debate transcriptions (doc_006a–g, confidence 0.82–0.83) have the lowest confidence in the corpus due to newspaper transcription noise. They are annotated with a −0.05 confidence adjustment applied to all Lincoln turns. See [Annotation Protocol](skills/annotation_protocol.md) for the full special-document protocol.
+
+The First Inaugural (doc_009, confidence 0.93) contains Seward-drafted passages; statistical runs for that document must be computed twice: full document and Lincoln-sole sentences only.

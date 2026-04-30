@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "generated": "2026-04-28",
+  "corpus_version": "1.0",
+  "status": "stub",
+  "total_documents": 0,
+  "total_sentences": 0,
+  "total_instances": 0,
+  "instances": [],
+  "indexes": {
+    "by_cluster": {
+      "cluster_01_body_organism": [],
+      "cluster_02_covenant_oath": [],
+      "cluster_03_experiment_proposition": [],
+      "cluster_04_birth_creation": [],
+      "cluster_05_fathers_inheritance": [],
+      "cluster_06_providence_theodicy": []
+    },
+    "by_document": {},
+    "by_register": {},
+    "by_fantasy_type": {},
+    "by_violence_logic": {},
+    "by_absence_flag": {
+      "enslaved_people_non_agent": [],
+      "black_soldiers_erased": [],
+      "lincoln_non_agent": [],
+      "confederates_depersonalized": [],
+      "death_abstracted": [],
+      "women_absent": []
+    },
+    "high_confidence_only": [],
+    "suppression_instances": []
+  },
+  "pipeline_log": []
+}

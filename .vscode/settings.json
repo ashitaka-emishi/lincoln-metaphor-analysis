@@ -1,0 +1,27 @@
+{
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.associations": {
+    "*.toml": "toml"
+  },
+  "json.maxItemsComputed": 50000,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "PROMPT.md": "DECISIONS.md",
+    "corpus_manifest.json": "instance_counter.json",
+    "concordance.json": "concordance.json.bak",
+    "analysis.json": "analysis.json.bak"
+  },
+  "markdown.preview.breaks": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  },
+  "search.exclude": {
+    "**/corpus/raw/**": false,
+    "**/node_modules": true
+  }
+}

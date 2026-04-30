@@ -1,0 +1,1020 @@
+{
+  "document_id": "doc_016",
+  "meta": {
+    "id": "doc_016",
+    "title": "Letter to James C. Conkling",
+    "short_title": "Conkling Letter",
+    "date": "1863-08-26",
+    "date_precision": "exact",
+    "register": "semi_public_letter",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.6 pp.406-410",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln6/1:284",
+    "risk_flags": [],
+    "analytical_priority": "high",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "doc_016_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_016_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Executive Mansion,",
+              "word_offset_start": 0,
+              "word_offset_end": 2,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Washington, August 26, 1863.",
+              "word_offset_start": 2,
+              "word_offset_end": 6,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Hon. James C. Conkling",
+              "word_offset_start": 6,
+              "word_offset_end": 10,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "My Dear Sir.",
+              "word_offset_start": 10,
+              "word_offset_end": 13,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Your letter inviting me to attend a mass-meeting of unconditional Union-men, to be held at the Capitol of Illinois, on the 3d day of September, has been received.",
+              "word_offset_start": 13,
+              "word_offset_end": 41,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "It would be very agreeable to me, to thus meet my old friends, at my own home; but I can not, just now, be absent from here, so long as a visit there, would require.",
+              "word_offset_start": 41,
+              "word_offset_end": 76,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "The meeting is to be of all those who maintain unconditional devotion to the Union; and I am sure my old political friends will thank me for tendering, as I do, the nation's gratitude to those other noble men, whom no partizan malice, or partizan hope, can make false to the nation's life.",
+              "word_offset_start": 76,
+              "word_offset_end": 129,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "There are those who are dissatisfied with me.",
+              "word_offset_start": 129,
+              "word_offset_end": 137,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "To such I would say: You desire peace; and you blame me that we do not have it.",
+              "word_offset_start": 137,
+              "word_offset_end": 155,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "But how can we attain it?",
+              "word_offset_start": 155,
+              "word_offset_end": 161,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "There are but three conceivable ways.",
+              "word_offset_start": 161,
+              "word_offset_end": 167,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "First, to suppress the rebellion by force of arms.",
+              "word_offset_start": 167,
+              "word_offset_end": 176,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "This I am trying to do.",
+              "word_offset_start": 176,
+              "word_offset_end": 182,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s07",
+              "sentence_ordinal": 7,
+              "text": "Are you for it?",
+              "word_offset_start": 182,
+              "word_offset_end": 186,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s08",
+              "sentence_ordinal": 8,
+              "text": "If you are, so far we are agreed.",
+              "word_offset_start": 186,
+              "word_offset_end": 194,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s09",
+              "sentence_ordinal": 9,
+              "text": "If you are not for it, a second way is to give up the Union.",
+              "word_offset_start": 194,
+              "word_offset_end": 209,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s10",
+              "sentence_ordinal": 10,
+              "text": "I am against this.",
+              "word_offset_start": 209,
+              "word_offset_end": 213,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s11",
+              "sentence_ordinal": 11,
+              "text": "Are you for it?",
+              "word_offset_start": 213,
+              "word_offset_end": 217,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s12",
+              "sentence_ordinal": 12,
+              "text": "If you are, you should say so plainly.",
+              "word_offset_start": 217,
+              "word_offset_end": 225,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s13",
+              "sentence_ordinal": 13,
+              "text": "If you are not for _force_, nor yet for _dissolution,_ there only remains some imaginable _compromise_.",
+              "word_offset_start": 225,
+              "word_offset_end": 241,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s14",
+              "sentence_ordinal": 14,
+              "text": "I do not believe any compromise, embracing the maintenance of the Union, is now possible.",
+              "word_offset_start": 241,
+              "word_offset_end": 256,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s15",
+              "sentence_ordinal": 15,
+              "text": "All I learn, leads to a directly opposite belief.",
+              "word_offset_start": 256,
+              "word_offset_end": 265,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s16",
+              "sentence_ordinal": 16,
+              "text": "The strength of the rebellion, is its military--its army.",
+              "word_offset_start": 265,
+              "word_offset_end": 274,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s17",
+              "sentence_ordinal": 17,
+              "text": "That army dominates all the country, and all the people, within its range.",
+              "word_offset_start": 274,
+              "word_offset_end": 287,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s18",
+              "sentence_ordinal": 18,
+              "text": "Any offer of terms made by any man or men within that range, in opposition to that army, is simply nothing for the present; because such man or men, have no power whatever to enforce their side of a compromise, if one were made with them.",
+              "word_offset_start": 287,
+              "word_offset_end": 333,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s19",
+              "sentence_ordinal": 19,
+              "text": "To illustrate.",
+              "word_offset_start": 333,
+              "word_offset_end": 335,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s20",
+              "sentence_ordinal": 20,
+              "text": "Suppose refugees from the South, and peace men of the North, get together in convention, and frame and proclaim a compromise embracing a restoration of the Union; in what way can that compromise be used to keep Lee's army out of Pennsylvania?",
+              "word_offset_start": 335,
+              "word_offset_end": 377,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s21",
+              "sentence_ordinal": 21,
+              "text": "Meade's army can keep Lee's army out of Pennsylvania; and I think, can ultimately drive it out of existence.",
+              "word_offset_start": 377,
+              "word_offset_end": 396,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s22",
+              "sentence_ordinal": 22,
+              "text": "But no paper compromise, to which the controllers of Lee's army are not agreed, can at all affect that army.",
+              "word_offset_start": 396,
+              "word_offset_end": 416,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s23",
+              "sentence_ordinal": 23,
+              "text": "In an effort at such compromise we should waste time, which the enemy would improve to our disadvantage; and that would be all.",
+              "word_offset_start": 416,
+              "word_offset_end": 439,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s24",
+              "sentence_ordinal": 24,
+              "text": "A compromise, to be effective, must be made either with those who control the rebel army, or with the people first liberated from the domination of that army, by the success of our own army.",
+              "word_offset_start": 439,
+              "word_offset_end": 474,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s25",
+              "sentence_ordinal": 25,
+              "text": "Now allow me to assure you, that no word or intimation, from that rebel army, or from any of the men controlling it, in relation to any peace compromise, has ever come to my knowledge or belief.",
+              "word_offset_start": 474,
+              "word_offset_end": 511,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s26",
+              "sentence_ordinal": 26,
+              "text": "All charges and insinuations to the contrary, are deceptive and groundless.",
+              "word_offset_start": 511,
+              "word_offset_end": 522,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s27",
+              "sentence_ordinal": 27,
+              "text": "And I promise you, that if any such proposition shall hereafter come, it shall not be rejected, and kept a secret from you.",
+              "word_offset_start": 522,
+              "word_offset_end": 545,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p08_s28",
+              "sentence_ordinal": 28,
+              "text": "I freely acknowledge myself the servant of the people, according to the bond of service--the United States Constitution; and that, as such, I am responsible to them.",
+              "word_offset_start": 545,
+              "word_offset_end": 572,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "But to be plain, you are dissatisfied with me about the negro.",
+              "word_offset_start": 572,
+              "word_offset_end": 584,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "Quite likely there is a difference of opinion between you and myself upon that subject.",
+              "word_offset_start": 584,
+              "word_offset_end": 599,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "I certainly wish that all men could be free, while I suppose you do not.",
+              "word_offset_start": 599,
+              "word_offset_end": 614,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "Yet I have neither adopted, nor proposed any measure, which is not consistent with even your view, provided you are for the Union.",
+              "word_offset_start": 614,
+              "word_offset_end": 637,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p09_s05",
+              "sentence_ordinal": 5,
+              "text": "I suggested compensated emancipation; to which you replied you wished not to be taxed to buy negroes.",
+              "word_offset_start": 637,
+              "word_offset_end": 654,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p09_s06",
+              "sentence_ordinal": 6,
+              "text": "But I had not asked you to be taxed to buy negroes, except in such way, as to save you from greater taxation to save the Union exclusively by other means.",
+              "word_offset_start": 654,
+              "word_offset_end": 685,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "You dislike the emancipation proclamation; and, perhaps, would have it retracted.",
+              "word_offset_start": 685,
+              "word_offset_end": 696,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "You say it is unconstitutional--I think differently.",
+              "word_offset_start": 696,
+              "word_offset_end": 703,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "I think the constitution invests its Commander-in-chief, with the law of war, in time of war.",
+              "word_offset_start": 703,
+              "word_offset_end": 719,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p10_s04",
+              "sentence_ordinal": 4,
+              "text": "The most that can be said, if so much, is, that slaves are property.",
+              "word_offset_start": 719,
+              "word_offset_end": 733,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p10_s05",
+              "sentence_ordinal": 5,
+              "text": "Is there--has there ever been--any question that by the law of war, property, both of enemies and friends, may be taken when needed?",
+              "word_offset_start": 733,
+              "word_offset_end": 756,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p10_s06",
+              "sentence_ordinal": 6,
+              "text": "And is it not needed whenever taking it, helps us, or hurts the enemy?",
+              "word_offset_start": 756,
+              "word_offset_end": 770,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p10_s07",
+              "sentence_ordinal": 7,
+              "text": "Armies, the world over, destroy enemies' property when they can not use it; and even destroy their own to keep it from the enemy.",
+              "word_offset_start": 770,
+              "word_offset_end": 794,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p10_s08",
+              "sentence_ordinal": 8,
+              "text": "Civilized belligerents do all in their power to help themselves, or hurt the enemy, except a few things regarded as barbarous or cruel.",
+              "word_offset_start": 794,
+              "word_offset_end": 817,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p10_s09",
+              "sentence_ordinal": 9,
+              "text": "Among the exceptions are the massacre of vanquished foes, and non-combatants, male and female.",
+              "word_offset_start": 817,
+              "word_offset_end": 831,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "But the proclamation, as law, either is valid, or is not valid.",
+              "word_offset_start": 831,
+              "word_offset_end": 843,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "If it is not valid, it needs no retraction.",
+              "word_offset_start": 843,
+              "word_offset_end": 852,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p11_s03",
+              "sentence_ordinal": 3,
+              "text": "If it is valid, it can not be retracted, any more than the dead can be brought to life.",
+              "word_offset_start": 852,
+              "word_offset_end": 871,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p11_s04",
+              "sentence_ordinal": 4,
+              "text": "Some of you profess to think its retraction would operate favorably for the Union.",
+              "word_offset_start": 871,
+              "word_offset_end": 885,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p11_s05",
+              "sentence_ordinal": 5,
+              "text": "Why better _after_ the retraction, than _before_ the issue?",
+              "word_offset_start": 885,
+              "word_offset_end": 894,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p11_s06",
+              "sentence_ordinal": 6,
+              "text": "There was more than a year and a half of trial to suppress the rebellion before the proclamation issued, the last one hundred days of which passed under an explicit notice that it was coming, unless averted by those in revolt, returning to their allegiance.",
+              "word_offset_start": 894,
+              "word_offset_end": 939,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p11_s07",
+              "sentence_ordinal": 7,
+              "text": "The war has certainly progressed as favorably for us, since the issue of proclamation as before.",
+              "word_offset_start": 939,
+              "word_offset_end": 955,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p11_s08",
+              "sentence_ordinal": 8,
+              "text": "I know, as fully as one can know the opinions of others, that some of the commanders of our armies in the field who have given us our most important successes believe the emancipation policy and the use of the colored troops constitute the heaviest blow yet dealt to the Rebellion, and that at least one of these important successes could not have been achieved when it was but for the aid of black soldiers.",
+              "word_offset_start": 955,
+              "word_offset_end": 1030,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p11_s09",
+              "sentence_ordinal": 9,
+              "text": "Among the commanders holding these views are some who have never had any affinity with what is called abolitionism or with the Republican party policies but who held them purely as military opinions.",
+              "word_offset_start": 1030,
+              "word_offset_end": 1063,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p11_s10",
+              "sentence_ordinal": 10,
+              "text": "I submit these opinions as being entitled to some weight against the objections often urged that emancipation and arming the blacks are unwise as military measures and were not adopted as such in good faith.",
+              "word_offset_start": 1063,
+              "word_offset_end": 1098,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "You say you will not fight to free negroes.",
+              "word_offset_start": 1098,
+              "word_offset_end": 1107,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "Some of them seem willing to fight for you; but, no matter.",
+              "word_offset_start": 1107,
+              "word_offset_end": 1119,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "Fight you, then exclusively to save the Union.",
+              "word_offset_start": 1119,
+              "word_offset_end": 1127,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p12_s04",
+              "sentence_ordinal": 4,
+              "text": "I issued the proclamation on purpose to aid you in saving the Union.",
+              "word_offset_start": 1127,
+              "word_offset_end": 1140,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p12_s05",
+              "sentence_ordinal": 5,
+              "text": "Whenever you shall have conquered all resistence to the Union, if I shall urge you to continue fighting, it will be an apt time, then, for you to declare you will not fight to free negroes.",
+              "word_offset_start": 1140,
+              "word_offset_end": 1176,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "I thought that in your struggle for the Union, to whatever extent the negroes should cease helping the enemy, to that extent it weakened the enemy in his resistence to you.",
+              "word_offset_start": 1176,
+              "word_offset_end": 1207,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "Do you think differently?",
+              "word_offset_start": 1207,
+              "word_offset_end": 1211,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p13_s03",
+              "sentence_ordinal": 3,
+              "text": "I thought that whatever negroes can be got to do as soldiers, leaves just so much less for white soldiers to do, in saving the Union.",
+              "word_offset_start": 1211,
+              "word_offset_end": 1237,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p13_s04",
+              "sentence_ordinal": 4,
+              "text": "Does it appear otherwise to you?",
+              "word_offset_start": 1237,
+              "word_offset_end": 1243,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p13_s05",
+              "sentence_ordinal": 5,
+              "text": "But negroes, like other people, act upon motives.",
+              "word_offset_start": 1243,
+              "word_offset_end": 1251,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p13_s06",
+              "sentence_ordinal": 6,
+              "text": "Why should they do any thing for us, if we will do nothing for them?",
+              "word_offset_start": 1251,
+              "word_offset_end": 1266,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p13_s07",
+              "sentence_ordinal": 7,
+              "text": "If they stake their lives for us, they must be prompted by the strongest motive--even the promise of freedom.",
+              "word_offset_start": 1266,
+              "word_offset_end": 1285,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p13_s08",
+              "sentence_ordinal": 8,
+              "text": "And the promise being made, must be kept.",
+              "word_offset_start": 1285,
+              "word_offset_end": 1293,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "The signs look better.",
+              "word_offset_start": 1293,
+              "word_offset_end": 1297,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "The Father of Waters again goes unvexed to the sea.",
+              "word_offset_start": 1297,
+              "word_offset_end": 1307,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "Thanks to the great Northwest for it.",
+              "word_offset_start": 1307,
+              "word_offset_end": 1314,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s04",
+              "sentence_ordinal": 4,
+              "text": "Nor yet wholly to them.",
+              "word_offset_start": 1314,
+              "word_offset_end": 1319,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s05",
+              "sentence_ordinal": 5,
+              "text": "Three hundred miles up, they met New England, Empire, Key-stone, and Jersey, hewing their way right and left.",
+              "word_offset_start": 1319,
+              "word_offset_end": 1337,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s06",
+              "sentence_ordinal": 6,
+              "text": "The Sunny South too, in more colors than one, also lent a hand.",
+              "word_offset_start": 1337,
+              "word_offset_end": 1350,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s07",
+              "sentence_ordinal": 7,
+              "text": "On the spot, their part of the history was jotted down in black and white.",
+              "word_offset_start": 1350,
+              "word_offset_end": 1365,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s08",
+              "sentence_ordinal": 8,
+              "text": "The job was a great national one; and let none be banned who bore an honorable part in it.",
+              "word_offset_start": 1365,
+              "word_offset_end": 1384,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s09",
+              "sentence_ordinal": 9,
+              "text": "And while those who have cleared the great river may well be proud, even that is not all.",
+              "word_offset_start": 1384,
+              "word_offset_end": 1402,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s10",
+              "sentence_ordinal": 10,
+              "text": "It is hard to say that anything has been more bravely, and well done, than at Antietam, Murfreesboro, Gettysburg, and on many fields of lesser note.",
+              "word_offset_start": 1402,
+              "word_offset_end": 1428,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s11",
+              "sentence_ordinal": 11,
+              "text": "Nor must Uncle Sam's web-feet be forgotten.",
+              "word_offset_start": 1428,
+              "word_offset_end": 1435,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s12",
+              "sentence_ordinal": 12,
+              "text": "At all the watery margins they have been present.",
+              "word_offset_start": 1435,
+              "word_offset_end": 1444,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s13",
+              "sentence_ordinal": 13,
+              "text": "Not only on the deep sea, the broad bay, and the rapid river, but also up the narrow muddy bayou, and wherever the ground was a little damp, they have been, and made their tracks.",
+              "word_offset_start": 1444,
+              "word_offset_end": 1479,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s14",
+              "sentence_ordinal": 14,
+              "text": "Thanks to all.",
+              "word_offset_start": 1479,
+              "word_offset_end": 1482,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p14_s15",
+              "sentence_ordinal": 15,
+              "text": "For the great republic--for the principle it lives by, and keeps alive--for man's vast future--thanks to all.",
+              "word_offset_start": 1482,
+              "word_offset_end": 1499,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Peace does not appear so distant as it did.",
+              "word_offset_start": 1499,
+              "word_offset_end": 1508,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "I hope it will come soon, and come to stay; and so come as to be worth the keeping in all future time.",
+              "word_offset_start": 1508,
+              "word_offset_end": 1531,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p15_s03",
+              "sentence_ordinal": 3,
+              "text": "It will then have been proved that, among free men, there can be no successful appeal from the ballot to the bullet; and that they who take such appeal are sure to lose their case, and pay the cost.",
+              "word_offset_start": 1531,
+              "word_offset_end": 1570,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p15_s04",
+              "sentence_ordinal": 4,
+              "text": "And then, there will be some black men who can remember that, with silent tongue, and clenched teeth, and steady eye, and well-poised bayonnet, they have helped mankind on to this great consummation; while, I fear, there will be some white ones, unable to forget that, with malignant heart, and deceitful speech, they strove to hinder it.",
+              "word_offset_start": 1570,
+              "word_offset_end": 1627,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Still, let us not be over-sanguine of a speedy final triumph.",
+              "word_offset_start": 1627,
+              "word_offset_end": 1638,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "Let us be quite sober.",
+              "word_offset_start": 1638,
+              "word_offset_end": 1643,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_016_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "Let us diligently apply the means, never doubting that a just God, in his own good time, will give us the rightful result.",
+              "word_offset_start": 1643,
+              "word_offset_end": 1666,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "Yours very truly",
+              "word_offset_start": 1666,
+              "word_offset_end": 1669,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_016_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_016_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "A. Lincoln",
+              "word_offset_start": 1669,
+              "word_offset_end": 1671,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    }
+  ]
+}

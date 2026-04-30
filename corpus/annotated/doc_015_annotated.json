@@ -1,0 +1,393 @@
+{
+  "document_id": "doc_015",
+  "meta": {
+    "id": "doc_015",
+    "title": "Emancipation Proclamation",
+    "short_title": "Final Emancipation",
+    "date": "1863-01-01",
+    "date_precision": "exact",
+    "register": "legal_document",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.9,
+    "authorship_notes": "Body of the proclamation in Lincoln's handwriting per editorial apparatus. Superscription ('By the President...') in clerk's hand. Paragraphs p05 and p06 are clippings from the State Department circular printing of the Preliminary Proclamation with quotation marks added by Lincoln. Formal close ('In witness whereof') in clerk's hand.",
+    "source_text": "Collected Works vol.6 pp.28-31",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln6",
+    "risk_flags": [],
+    "analytical_priority": "medium"
+  },
+  "document_summary": {
+    "doc_id": "doc_015",
+    "total_instances": 1,
+    "clusters_activated": ["cluster_06_providence_theodicy"],
+    "dominant_cluster": "cluster_06_providence_theodicy",
+    "extension_groups": [],
+    "primary_finding": "The Final Emancipation Proclamation is more stripped than the Preliminary. One instance annotated (inst_00054, cluster_06, 'the gracious favor of Almighty God', confidence 0.78), found only in the closing invocation. The Preliminary's cluster_02 formula ('restoring the constitutional relation') is entirely absent — the Final drops even that residue. The only surviving metaphor is the legal-closing invocation of divine favor, which in Lincoln's theological register carries slightly more weight than mere convention. The document that makes emancipation operative — the most consequential legal act of Lincoln's presidency — is the most metaphorically minimalist document in the corpus. The Black soldiers authorization (p12) frames their service in purely administrative language ('garrison forts, positions, stations... man vessels'). The instruction to the newly freed (p11) is to abstain from violence and labor for wages — the moment of emancipation narrated as behavioral instruction, not moral transformation. The apple of gold (Liberty, from doc_011) is again absent; the picture of silver (constitutional framework) is implied but not named.",
+    "annotator_notes": "Paragraphs p05 and p06 are Lincoln quoting the Preliminary Proclamation (doc_013) verbatim — confirmed by editorial apparatus (pasted clippings with quotation marks added by Lincoln). Not re-annotated here; see doc_013 inst_00052 for the relevant covenant-formula annotation in that document's original context. Paragraph p13 is the only Lincoln-authored prose that rises above pure legal enumeration. 'The considerate judgment of mankind' (p13) was evaluated for cluster_03 (republic as experiment submitted to world judgment) — below threshold at 0.60; noted below. 'Warranted by the Constitution' (p13) was evaluated for cluster_02 — 'warranted' functions as a legal term of art here rather than covenant metaphor; not annotated."
+  },
+  "sections": [
+    {
+      "section_id": "doc_015_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_015_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Emancipation ProclamationJanuary 1, 1863",
+              "word_offset_start": 0,
+              "word_offset_end": 4,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "By the President of the United States of America:",
+              "word_offset_start": 4,
+              "word_offset_end": 13,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "A Proclamation.",
+              "word_offset_start": 13,
+              "word_offset_end": 15,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Whereas, on the twentysecond day of September, in the year of our Lord one thousand eight hundred and sixty two, a proclamation was issued by the President of the United States, containing, among other things, the following, towit:",
+              "word_offset_start": 15,
+              "word_offset_end": 53,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "``That on the first day of January, in the year of our Lord one thousand eight hundred and sixty-three, all persons held as slaves within any State or designated part of a State, the people whereof shall then be in rebellion against the United States, shall be then, thenceforward, and forever free; and the Executive Government of the United States, including the military and naval authority thereof, will recognize and maintain the freedom of such persons, and will do no act or acts to repress such persons, or any of them, in any efforts they may make for their actual freedom.",
+              "word_offset_start": 53,
+              "word_offset_end": 154,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "``That the Executive will, on the first day of January aforesaid, by proclamation, designate the States and parts of States, if any, in which the people thereof, respectively, shall then be in rebellion against the United States; and the fact that any State, or the people thereof, shall on that day be, in good faith, represented in the Congress of the United States by members chosen thereto at elections wherein a majority of the qualified voters of such State shall have participated, shall, in the absence of strong countervailing testimony, be deemed conclusive evidence that such State, and the people thereof, are not then in rebellion against the United States.''",
+              "word_offset_start": 154,
+              "word_offset_end": 264,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "Now, therefore I, Abraham Lincoln, President of the United States, by virtue of the power in me vested as Commander-in-Chief, of the Army and Navy of the United States in time of actual armed rebellion against authority and government of the United States, and as a fit and necessary war measure for suppressing said rebellion, do, on this first day of January, in the year of our Lord one thousand eight hundred and sixty three, and in accordance with my purpose so to do publicly proclaimed for the full period of one hundred days, from the day first above mentioned, order and designate as the States and parts of States wherein the people thereof respectively, are this day in rebellion against the United States, the following, towit:",
+              "word_offset_start": 264,
+              "word_offset_end": 391,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "Arkansas, Texas, Louisiana, (except the Parishes of St. Bernard, Plaquemines, Jefferson, St. Johns, St. Charles, St. James[,] Ascension, Assumption, Terrebonne, Lafourche, St. Mary, St. Martin, and Orleans, including the City of New-Orleans) Mississippi, Alabama, Florida, Georgia, South-Carolina, North-Carolina, and Virginia, (except the fortyeight counties designated as West Virginia, and also the counties of Berkley, Accomac, Northampton, Elizabeth-City, York, Princess Ann, and Norfolk, including the cities of Norfolk & Portsmouth [)]; and which excepted parts are, for the present, left precisely as if this proclamation were not issued.",
+              "word_offset_start": 391,
+              "word_offset_end": 478,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "And by virtue of the power, and for the purpose aforesaid, I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be",
+              "word_offset_start": 478,
+              "word_offset_end": 513,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "free; and that the Executive government of the United States, including the military and naval authorities thereof, will recognize and maintain the freedom of said persons.",
+              "word_offset_start": 513,
+              "word_offset_end": 539,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "And I hereby enjoin upon the people so declared to be free to abstain from all violence, unless in necessary self-defence; and I recommend to them that, in all cases when allowed, they labor faithfully for reasonable wages.",
+              "word_offset_start": 539,
+              "word_offset_end": 577,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "And I further declare and make known, that such persons of suitable condition, will be received into the armed service of the United States to garrison forts, positions, stations, and other places, and to man vessels of all sorts in said service.",
+              "word_offset_start": 577,
+              "word_offset_end": 619,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "And upon this act, sincerely believed to be an act of justice, warranted by the Constitution, upon military necessity, I invoke the considerate judgment of mankind, and the gracious favor of Almighty God.",
+              "word_offset_start": 619,
+              "word_offset_end": 652,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00054",
+                  "sentence_id": "doc_015_s01_p13_s01",
+                  "cluster_id": "cluster_06_providence_theodicy",
+                  "linguistic_form": "the gracious favor of Almighty God",
+                  "source_domain": "God as patron/benefactor whose favor is sought — a personal relationship with a divine sovereign",
+                  "target_domain": "divine endorsement of the emancipation act — Providence as witness and approver",
+                  "char_span_start": 169,
+                  "char_span_end": 202,
+                  "confidence": 0.78,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": true,
+                  "suppression_notes": "The five other clusters are entirely absent from the document. This is the sole metaphor residue in the most consequential legal document in the corpus. The legal_document register has suppressed everything except this single closing invocation. 'Gracious favor' is partly conventional (19th-century legal/formal closings often invoke God) but Lincoln's consistent cluster_06 theology makes it more than formulaic — he is genuinely submitting the act to divine judgment. Compare: Springfield Farewell (doc_008) invokes Providence as companion-attendant; this invocation asks for God's favor on a specific act, moving toward the endorsement frame.",
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "gracious favor": "divine benevolence extended toward a petitioner — God as sovereign granting approval",
+                      "Almighty God": "the ultimate moral and historical authority whose endorsement legitimates human action",
+                      "I invoke": "Lincoln as petitioner, placing the act before God for judgment"
+                    },
+                    "entailments": [
+                      "The act requires divine endorsement to be fully legitimate — legal and constitutional warrant alone are insufficient",
+                      "Lincoln is positioned as petitioner, not as God's instrument — he asks for favor rather than claiming divine command",
+                      "The act is submitted to God's judgment alongside 'the considerate judgment of mankind' — double validation: historical and divine"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "divine_sanction",
+                    "violence_logic": "divinely_endorsed",
+                    "obligatory_frame": "The closing invocation frames emancipation as an act submitted to God's review. Lincoln does not claim God commanded emancipation (as abolitionist theologians did); he requests God's 'gracious favor' — endorsement, not mandate. This is the most theologically modest cluster_06 frame in the corpus: Providence as potential endorser rather than as commander or judge.",
+                    "projected_entity": "God_as_patron_endorser",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [
+                      "enslaved_people_non_agent",
+                      "black_soldiers_absent"
+                    ],
+                    "annotator_notes": "p11: The instruction to newly freed people — 'abstain from all violence' and 'labor faithfully for reasonable wages' — is the moment of emancipation narrated as behavioral instruction. Freed people are addressed as recipients of orders, not as agents of their own liberation. enslaved_people_non_agent applies. p12: Black soldiers authorized for service ('garrison forts, positions, stations... man vessels') — framed as functional military assets assigned to infrastructure tasks. The language of 'suitable condition' and 'received into' treats Black enlistment as administrative intake, not moral recognition. black_soldiers_absent applies (present as labor assets, absent as agents with moral standing). p13: 'The considerate judgment of mankind' was evaluated for cluster_03 (republic as experiment submitted to world judgment, mankind as jury) — confidence 0.60, below threshold. 'Warranted by the Constitution' evaluated for cluster_02 — 'warranted' is a legal term of art here, not covenant metaphor; confidence 0.55, not annotated."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "In witness whereof, I have hereunto set my hand and caused the seal of the United States to be affixed.",
+              "word_offset_start": 652,
+              "word_offset_end": 672,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "Done at the City of Washington, this first day of January, in the year of our Lord one thousand eight hundred and sixty three, and of the Independence of the United States of America the eighty-seventh.",
+              "word_offset_start": 672,
+              "word_offset_end": 708,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "[L.S.]",
+              "word_offset_start": 708,
+              "word_offset_end": 709,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "By the President: ABRAHAM LINCOLN",
+              "word_offset_start": 709,
+              "word_offset_end": 714,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_015_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "WILLIAM H. SEWARD, Secretary of State.",
+              "word_offset_start": 714,
+              "word_offset_end": 720,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_015_s02",
+      "section_label": "annotation",
+      "section_ordinal": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_015_s02_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {"sentence_id": "doc_015_s02_p01_s01", "sentence_ordinal": 1, "text": "[1]   ADS-P, DLC-RTL; DS, DNA FS RG 11, Proclamations.", "word_offset_start": 720, "word_offset_end": 729, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p01_s02", "sentence_ordinal": 2, "text": "Lincoln's original autograph of the proclamation was sold in 1863 (see Lincoln's letter to Ladies in charge of North Western Fair, October 26, infra), at the Chicago North-western Sanitary Fair, to Thomas B. Bryan, who presented it to the Soldiers' Home in Chicago.", "word_offset_start": 729, "word_offset_end": 772, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p01_s03", "sentence_ordinal": 3, "text": "It was lithographed ``and thousands [of dollars] were realized by the Chicago Soldiers Home from the sale of copies. . . .'' (Charles Bryan, son, to Nicolay, November 24, 1886, DLC-Nicolay Papers.", "word_offset_start": 772, "word_offset_end": 804, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p01_s04", "sentence_ordinal": 4, "text": "See also Lincoln to Bryan, January 18, 1864, infra.) In 1871 the original was burned in the Chicago Fire.", "word_offset_start": 804, "word_offset_end": 823, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p01_s05", "sentence_ordinal": 5, "text": "Prior to the Chicago Fair in 1863 the historian Benson J. Lossing also had prevailed upon Lincoln to allow him to have a facsimile made for use in his Pictorial History of the Civil War.", "word_offset_start": 823, "word_offset_end": 858, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p01_s06", "sentence_ordinal": 6, "text": "On October 29, 1863, John Hay forwarded to Lossing a photograph made at Lincoln's direction, with apologies for ``blots on the edges'' which were ``incidental to the copying, and are not in the original'' (ALS, RPB).", "word_offset_start": 858, "word_offset_end": 894, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p01_s07", "sentence_ordinal": 7, "text": "Three photographic copies of the original preserved in the Lincoln Papers, presumably made at the same time as the copy sent to Lossing, have provided the present text.", "word_offset_start": 894, "word_offset_end": 922, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p01_s08", "sentence_ordinal": 8, "text": "The official engrossed document in The National Archives follows Lincoln's original. (For a detailed study of the various printings of the proclamation, see Charles Eberstadt, ``Lincoln's Emancipation Proclamation,'' The New Colophon, 1950, pp. 312-56.)Lincoln's final proclamation was not completed until January 1 after consultation with the cabinet and study of the suggestions for revision submitted by the several members on December 31.", "word_offset_start": 922, "word_offset_end": 984, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p01_s09", "sentence_ordinal": 9, "text": "Nicolay telegraphed Horace Greeley and Henry J. Raymond on the afternoon of December 31 that ``The Proclamation cannot be telegraphed to you until during the day tomorrow (telegrams, RPB).", "word_offset_start": 984, "word_offset_end": 1013, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p01_s10", "sentence_ordinal": 10, "text": "Telegrams from John A. Dix and Michael Hahn on December 31 defined the", "word_offset_start": 1013, "word_offset_end": 1026, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s02_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {"sentence_id": "doc_015_s02_p02_s01", "sentence_ordinal": 1, "text": "parts of Virginia and Louisiana not then in rebellion which were to be exempted by the proclamation (DLC-RTL).", "word_offset_start": 1026, "word_offset_end": 1044, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_015_s02_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {"sentence_id": "doc_015_s02_p03_s01", "sentence_ordinal": 1, "text": "The photographic copies of the original autograph show the superscription ``By the President of the United States of America: A Proclamation.'' to be in the hand of a clerk.", "word_offset_start": 1044, "word_offset_end": 1073, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p03_s02", "sentence_ordinal": 2, "text": "The excerpt from the preliminary proclamation of September 22, which appears as paragraphs two and three in the final proclamation, is in the form of a clipping from the State Department circular printing of the preliminary proclamation, with quotation marks added by Lincoln.", "word_offset_start": 1073, "word_offset_end": 1116, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p03_s03", "sentence_ordinal": 3, "text": "The formal close, ``In witness whereof,'' etc., is also added in the handwriting of a clerk.", "word_offset_start": 1116, "word_offset_end": 1132, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_015_s02_p03_s04", "sentence_ordinal": 4, "text": "Otherwise the body of the proclamation is in Lincoln's handwriting.", "word_offset_start": 1132, "word_offset_end": 1142, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
+    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+  ]
+}

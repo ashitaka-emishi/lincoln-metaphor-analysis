@@ -1,0 +1,21 @@
+{
+  "name": "lincoln-metaphor",
+  "version": "1.0.0",
+  "description": "Koenigsberg ideological fantasy analysis on Lincoln's corpus",
+  "scripts": {
+    "status": "node scripts/pipeline_status.js",
+    "validate": "node scripts/validate_schema.js",
+    "concordance": "node scripts/build_concordance.js",
+    "analysis": "node scripts/run_analysis.js",
+    "pipeline": "npm run validate && npm run concordance && npm run analysis",
+    "site": "quarto render",
+    "site:preview": "quarto preview",
+    "check:quarto": "quarto --version || (echo 'Quarto not found. Install from https://quarto.org/docs/get-started/ or: brew install quarto' && exit 1)"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "playwright": "^1.59.1"
+  }
+}

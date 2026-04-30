@@ -1,0 +1,489 @@
+{
+  "document_id": "doc_019",
+  "meta": {
+    "id": "doc_019",
+    "title": "Letter to Albert G. Hodges",
+    "short_title": "Hodges Letter",
+    "date": "1864-04-04",
+    "date_precision": "exact",
+    "register": "semi_public_letter",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.7 pp.281-283",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:189",
+    "risk_flags": [],
+    "analytical_priority": "critical",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "doc_019_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_019_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Executive Mansion,",
+              "word_offset_start": 0,
+              "word_offset_end": 2,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Washington, April 4, 1864.",
+              "word_offset_start": 2,
+              "word_offset_end": 6,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "A.G. Hodges, Esq",
+              "word_offset_start": 6,
+              "word_offset_end": 9,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Frankfort, Ky.",
+              "word_offset_start": 9,
+              "word_offset_end": 11,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "My dear Sir: You ask me to put in writing the substance of what I verbally said the other day, in your presence, to Governor Bramlette and Senator Dixon.",
+              "word_offset_start": 11,
+              "word_offset_end": 40,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "It was about as follows:",
+              "word_offset_start": 40,
+              "word_offset_end": 45,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "\"I am naturally anti-slavery.",
+              "word_offset_start": 45,
+              "word_offset_end": 49,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "If slavery is not wrong, nothing is wrong.",
+              "word_offset_start": 49,
+              "word_offset_end": 57,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "I can not remember when I did not so think, and feel.",
+              "word_offset_start": 57,
+              "word_offset_end": 69,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "And yet I have never understood that the Presidency conferred upon me an unrestricted right to act officially upon this judgment and feeling.",
+              "word_offset_start": 69,
+              "word_offset_end": 92,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "It was in the oath I took that I would, to the best of my ability, preserve, protect, and defend the Constitution of the United States.",
+              "word_offset_start": 92,
+              "word_offset_end": 118,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s06",
+              "sentence_ordinal": 6,
+              "text": "I could not take the office without taking the oath.",
+              "word_offset_start": 118,
+              "word_offset_end": 128,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s07",
+              "sentence_ordinal": 7,
+              "text": "Nor was it my view that I might take an oath to get power, and break the oath in using the power.",
+              "word_offset_start": 128,
+              "word_offset_end": 150,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s08",
+              "sentence_ordinal": 8,
+              "text": "I understood, too, that in ordinary civil administration this oath even forbade me to practically indulge my primary abstract judgment on the moral question of slavery.",
+              "word_offset_start": 150,
+              "word_offset_end": 176,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s09",
+              "sentence_ordinal": 9,
+              "text": "I had publicly declared this many times, and in many ways.",
+              "word_offset_start": 176,
+              "word_offset_end": 187,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s10",
+              "sentence_ordinal": 10,
+              "text": "And I aver that, to this day, I have done no official act in mere deference to my abstract judgment and feeling on slavery.",
+              "word_offset_start": 187,
+              "word_offset_end": 211,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s11",
+              "sentence_ordinal": 11,
+              "text": "I did understand however, that my oath to preserve the constitution to the best of my ability, imposed upon me the duty of preserving, by every indispensable means, that government -- that nation -- of which that constitution was the organic law.",
+              "word_offset_start": 211,
+              "word_offset_end": 253,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s12",
+              "sentence_ordinal": 12,
+              "text": "Was it possible to lose the nation, and yet preserve the constitution?",
+              "word_offset_start": 253,
+              "word_offset_end": 265,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s13",
+              "sentence_ordinal": 13,
+              "text": "By general law life and limb must be protected; yet often a limb must be amputated to save a life; but a life is never wisely given to save a limb.",
+              "word_offset_start": 265,
+              "word_offset_end": 296,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s14",
+              "sentence_ordinal": 14,
+              "text": "I felt that measures, otherwise unconstitutional, might become lawful, by becoming indispensable to the preservation of the constitution, through the preservation of the nation.",
+              "word_offset_start": 296,
+              "word_offset_end": 320,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s15",
+              "sentence_ordinal": 15,
+              "text": "Right or wrong, I assumed this ground, and now avow it.",
+              "word_offset_start": 320,
+              "word_offset_end": 331,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s16",
+              "sentence_ordinal": 16,
+              "text": "I could not feel that, to the best of my ability, I had even tried to preserve the constitution, if, to save slavery, or any minor matter, I should permit the wreck of government, country, and Constitution all together.",
+              "word_offset_start": 331,
+              "word_offset_end": 370,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s17",
+              "sentence_ordinal": 17,
+              "text": "When, early in the war, Gen. Fremont attempted military emancipation, I forbade it, because I did not then think it an indispensable necessity.",
+              "word_offset_start": 370,
+              "word_offset_end": 393,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s18",
+              "sentence_ordinal": 18,
+              "text": "When a little later, Gen. Cameron, then Secretary of War, suggested the arming of the blacks, I objected, because I did not yet think it an indispensable necessity.",
+              "word_offset_start": 393,
+              "word_offset_end": 421,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s19",
+              "sentence_ordinal": 19,
+              "text": "When, still later, Gen. Hunter attempted military emancipation, I again forbade it, because I did not yet think the indispensable necessity had come.",
+              "word_offset_start": 421,
+              "word_offset_end": 444,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s20",
+              "sentence_ordinal": 20,
+              "text": "When, in March, and May, and July 1862 I made earnest, and successive appeals to the border states to favor compensated emancipation, I believed the indispensable necessity for military emancipation, and arming the blacks would come, unless averted by that measure.",
+              "word_offset_start": 444,
+              "word_offset_end": 485,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s21",
+              "sentence_ordinal": 21,
+              "text": "They declined the proposition; and I was, in my best judgment, driven to the alternative of either surrendering the Union, and with it, the Constitution, or of laying strong hand upon the colored element.",
+              "word_offset_start": 485,
+              "word_offset_end": 519,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s22",
+              "sentence_ordinal": 22,
+              "text": "I chose the latter.",
+              "word_offset_start": 519,
+              "word_offset_end": 523,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s23",
+              "sentence_ordinal": 23,
+              "text": "In choosing it, I hoped for greater gain than loss; but of this, I was not entirely confident.",
+              "word_offset_start": 523,
+              "word_offset_end": 541,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s24",
+              "sentence_ordinal": 24,
+              "text": "More than a year of trial now shows no loss by it in our foreign relations, none in our home popular sentiment, none in our white military force, -- no loss by it any how or any where.",
+              "word_offset_start": 541,
+              "word_offset_end": 579,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s25",
+              "sentence_ordinal": 25,
+              "text": "On the contrary, it shows a gain of quite a hundred and thirty thousand soldiers, seamen, and laborers.",
+              "word_offset_start": 579,
+              "word_offset_end": 597,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s26",
+              "sentence_ordinal": 26,
+              "text": "These are palpable facts, about which, as facts, there can be no cavilling.",
+              "word_offset_start": 597,
+              "word_offset_end": 610,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p06_s27",
+              "sentence_ordinal": 27,
+              "text": "We have the men; and we could not have had them without the measure.",
+              "word_offset_start": 610,
+              "word_offset_end": 624,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "\"And now let any Union man who complains of the measure, test himself by writing down in one line that he is for subduing the rebellion by force of arms; and in the next, that he is for taking these hundred and thirty thousand men from the Union side, and placing them where they would be but for the measure he condemns.",
+              "word_offset_start": 624,
+              "word_offset_end": 686,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "If he can not face his case so stated, it is only because he can not face the truth.\"",
+              "word_offset_start": 686,
+              "word_offset_end": 705,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "I add a word which was not in the verbal conversation.",
+              "word_offset_start": 705,
+              "word_offset_end": 716,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "In telling this tale I attempt no compliment to my own sagacity.",
+              "word_offset_start": 716,
+              "word_offset_end": 728,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "I claim not to have controlled events, but confess plainly that events have controlled me.",
+              "word_offset_start": 728,
+              "word_offset_end": 743,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "Now, at the end of three years struggle the nation's condition is not what either party, or any man devised, or expected.",
+              "word_offset_start": 743,
+              "word_offset_end": 765,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "God alone can claim it.",
+              "word_offset_start": 765,
+              "word_offset_end": 770,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "Whither it is tending seems plain.",
+              "word_offset_start": 770,
+              "word_offset_end": 776,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s07",
+              "sentence_ordinal": 7,
+              "text": "If God now wills the removal of a great wrong, and wills also that we of the North as well as you of the South, shall pay fairly for our complicity in that wrong, impartial history will find therein new cause to attest and revere the justice and goodness of God.",
+              "word_offset_start": 776,
+              "word_offset_end": 827,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_019_s01_p08_s08",
+              "sentence_ordinal": 8,
+              "text": "Yours truly,",
+              "word_offset_start": 827,
+              "word_offset_end": 829,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_019_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_019_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "A. Lincoln",
+              "word_offset_start": 829,
+              "word_offset_end": 831,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    }
+  ]
+}

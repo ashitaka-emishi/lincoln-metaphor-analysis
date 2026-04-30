@@ -1,0 +1,294 @@
+{
+  "document_id": "doc_021",
+  "meta": {
+    "id": "doc_021",
+    "title": "Second Inaugural Address",
+    "short_title": "Second Inaugural",
+    "date": "1865-03-04",
+    "date_precision": "exact",
+    "register": "formal_public_address",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.8 pp.332-333",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211",
+    "risk_flags": [],
+    "analytical_priority": "critical",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "doc_021_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_021_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Fellow-Countrymen:",
+              "word_offset_start": 0,
+              "word_offset_end": 1,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_021_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "At this second appearing to take the oath of the Presidential office there is less occasion for an extended address than there was at the first.",
+              "word_offset_start": 1,
+              "word_offset_end": 27,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "Then a statement somewhat in detail of a course to be pursued seemed fitting and proper.",
+              "word_offset_start": 27,
+              "word_offset_end": 43,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p02_s03",
+              "sentence_ordinal": 3,
+              "text": "Now, at the expiration of four years, during which public declarations have been constantly called forth on every point and phase of the great contest which still absorbs the attention and engrosses the energies of the nation, little that is new could be presented.",
+              "word_offset_start": 43,
+              "word_offset_end": 87,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p02_s04",
+              "sentence_ordinal": 4,
+              "text": "The progress of our arms, upon which all else chiefly depends, is as well known to the public as to myself, and it is, I trust, reasonably satisfactory and encouraging to all.",
+              "word_offset_start": 87,
+              "word_offset_end": 119,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p02_s05",
+              "sentence_ordinal": 5,
+              "text": "With high hope for the future, no prediction in regard to it is ventured.",
+              "word_offset_start": 119,
+              "word_offset_end": 133,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_021_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "On the occasion corresponding to this four years ago all thoughts were anxiously directed to an impending civil war.",
+              "word_offset_start": 133,
+              "word_offset_end": 152,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "All dreaded it, all sought to avert it.",
+              "word_offset_start": 152,
+              "word_offset_end": 160,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "While the inaugural address was being delivered from this place, devoted altogether to saving the Union without war, insurgent agents were in the city seeking to destroy it without war—seeking to dissolve the Union and divide effects by negotiation.",
+              "word_offset_start": 160,
+              "word_offset_end": 199,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish, and the war came.",
+              "word_offset_start": 199,
+              "word_offset_end": 231,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_021_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "One-eighth of the whole population were colored slaves, not distributed generally over the Union, but localized in the southern part of it.",
+              "word_offset_start": 231,
+              "word_offset_end": 253,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "These slaves constituted a peculiar and powerful interest.",
+              "word_offset_start": 253,
+              "word_offset_end": 261,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "All knew that this interest was somehow the cause of the war.",
+              "word_offset_start": 261,
+              "word_offset_end": 273,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "To strengthen, perpetuate, and extend this interest was the object for which the insurgents would rend the Union even by war, while the Government claimed no right to do more than to restrict the territorial enlargement of it.",
+              "word_offset_start": 273,
+              "word_offset_end": 311,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "Neither party expected for the war the magnitude or the duration which it has already attained.",
+              "word_offset_start": 311,
+              "word_offset_end": 327,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "Neither anticipated that the cause of the conflict might cease with or even before the conflict itself should cease.",
+              "word_offset_start": 327,
+              "word_offset_end": 346,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s07",
+              "sentence_ordinal": 7,
+              "text": "Each looked for an easier triumph, and a result less fundamental and astounding.",
+              "word_offset_start": 346,
+              "word_offset_end": 359,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s08",
+              "sentence_ordinal": 8,
+              "text": "Both read the same Bible and pray to the same God, and each invokes His aid against the other.",
+              "word_offset_start": 359,
+              "word_offset_end": 378,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s09",
+              "sentence_ordinal": 9,
+              "text": "It may seem strange that any men should dare to ask a just God's assistance in wringing their bread from the sweat of other men's faces, but let us judge not, that we be not judged.",
+              "word_offset_start": 378,
+              "word_offset_end": 414,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s10",
+              "sentence_ordinal": 10,
+              "text": "The prayers of both could not be answered.",
+              "word_offset_start": 414,
+              "word_offset_end": 422,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s11",
+              "sentence_ordinal": 11,
+              "text": "That of neither has been answered fully.",
+              "word_offset_start": 422,
+              "word_offset_end": 429,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s12",
+              "sentence_ordinal": 12,
+              "text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+              "word_offset_start": 429,
+              "word_offset_end": 538,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s13",
+              "sentence_ordinal": 13,
+              "text": "Fondly do we hope, fervently do we pray, that this mighty scourge of war may speedily pass away.",
+              "word_offset_start": 538,
+              "word_offset_end": 556,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_021_s01_p04_s14",
+              "sentence_ordinal": 14,
+              "text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn with the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said \"the judgments of the Lord are true and righteous altogether.\"",
+              "word_offset_start": 556,
+              "word_offset_end": 624,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_021_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_021_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+              "word_offset_start": 624,
+              "word_offset_end": 698,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    }
+  ]
+}

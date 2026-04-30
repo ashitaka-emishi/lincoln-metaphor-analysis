@@ -1,0 +1,897 @@
+{
+  "document_id": "doc_017",
+  "meta": {
+    "id": "doc_017",
+    "title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+    "short_title": "Gettysburg",
+    "date": "1863-11-19",
+    "date_precision": "exact",
+    "register": "formal_public_address",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": "Use Bliss copy as authoritative text. Five manuscript versions exist; Bliss is the only one Lincoln signed and dated.",
+    "source_text": "Collected Works vol.7 pp.22-23",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16",
+    "risk_flags": ["manuscript_variants"],
+    "analytical_priority": "critical"
+  },
+  "document_summary": {
+    "total_sentences": 10,
+    "annotated_sentences": 8,
+    "total_instances": 13,
+    "high_confidence_instances": 13,
+    "suppression_instances": 0,
+    "cluster_distribution": {
+      "cluster_01_body_organism": 2,
+      "cluster_02_covenant_oath": 2,
+      "cluster_03_experiment_proposition": 3,
+      "cluster_04_birth_creation": 4,
+      "cluster_05_fathers_inheritance": 1,
+      "cluster_06_providence_theodicy": 2
+    },
+    "dominant_fantasy_type": "sacrifice_and_redemption",
+    "dominant_violence_logic": "generative",
+    "obligatory_frame_rate": 0.77,
+    "sacrificial_economy_rate": 0.54,
+    "absence_flag_counts": {
+      "enslaved_people_non_agent": 6,
+      "black_soldiers_erased": 5,
+      "lincoln_non_agent": 3,
+      "confederates_depersonalized": 2,
+      "death_abstracted": 7,
+      "women_absent": 1
+    },
+    "primary_finding": "The address is a sustained, architecturally unified extended metaphor (ext_001) tracing a single arc: the nation was born (S01), is being tested unto death (S02–S04), is consecrated by that death (S06–S07), and must be reborn through it (S10). The sacrificial economy is total — soldier deaths are not mourned but converted into the logical proof that democracy works and the material of national rebirth. The tension between cluster_03 (experiment/proof) and cluster_04 (birth/creation) resolves in S10's 'new birth of freedom': the proposition is proven AND the nation is reborn, simultaneously. Systematic absence: enslaved people and Black soldiers are structurally absent from the redemptive arc despite emancipation having occurred 10 months earlier.",
+    "annotator_notes": "S02 'so conceived' echoes S01's birth language — the repetition is deliberate and extends the birth arc into the testing frame. S10 is the densest sentence in the corpus: it carries four distinct subordinate clauses, each activating a different cluster, and the logical structure mirrors the rhetorical structure (the argument IS the address's form). The three-part parallelism of 'we can not dedicate / consecrate / hallow' (S06) performs its own argument — the verbal list establishes that human speech-acts are categorically insufficient, which is the condition that makes the soldiers' physical act (death as consecration) legible as something more than human.",
+    "pipeline_log_entry": {"stage": 4, "agent": "lincoln_corpus_reader", "date": "2026-04-28"}
+  },
+  "sections": [
+    {
+      "section_id": "doc_017_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_017_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_017_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
+              "word_offset_start": 0,
+              "word_offset_end": 30,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00001",
+                  "sentence_id": "doc_017_s01_p01_s01",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "our fathers",
+                  "span_char_start": 31,
+                  "span_char_end": 42,
+                  "cmt": {
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "paternal_lineage",
+                    "target_domain": "founding_generation",
+                    "linguistic_form": "nominal_phrase",
+                    "entailments": [
+                      "founders_are_ancestors",
+                      "citizens_are_descendants",
+                      "founding_act_creates_intergenerational_obligation",
+                      "children_owe_fathers_fidelity_to_their_project"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_001",
+                    "co_activated_clusters": ["cluster_04_birth_creation"],
+                    "annotation_notes": "The paternal framing in 'our fathers' immediately establishes the intergenerational debt logic that runs through the address. Combined with 'brought forth' it fuses the lineage metaphor with the birth metaphor: fathers who give birth to a nation that their children must now preserve."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "ancestral_debt",
+                    "violence_logic": "obligatory",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "Calling the founders 'our fathers' activates an intergenerational obligation before any argument is made: children do not choose whether to honor their fathers' work. The frame is obligatory from the address's first clause.",
+                    "agent_of_violence": "historical_necessity",
+                    "agent_is_abstract": true,
+                    "object_of_violence": null,
+                    "projected_entity": "ancestral_lineage",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": "This sentence assigns no guilt; it establishes the founding covenant as a gift and obligation.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "idealization",
+                    "psychic_defense_notes": "The founders are idealized as fathers; their actual compromises on slavery — including the three-fifths clause and the 20-year extension of the slave trade — are structurally absent from 'our fathers brought forth a new nation... dedicated to the proposition that all men are created equal.'",
+                    "absence_flags": ["enslaved_people_non_agent"],
+                    "absence_notes": "Enslaved people are absent from the founding paternal gift. The proposition 'all men are created equal' was not applied to them at founding; the paternal lineage metaphor renders them non-heirs of the founding promise even as the address will claim to be fulfilling that promise."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.97,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00002",
+                  "sentence_id": "doc_017_s01_p01_s01",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "brought forth on this continent, a new nation, conceived in Liberty",
+                  "span_char_start": 43,
+                  "span_char_end": 110,
+                  "cmt": {
+                    "cluster_id": "cluster_04_birth_creation",
+                    "source_domain": "birth_generation",
+                    "target_domain": "national_founding",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "the_founding_is_a_birth_act",
+                      "founders_are_parents",
+                      "the_nation_is_a_child",
+                      "liberty_is_the_medium_of_conception",
+                      "birth_requires_labor",
+                      "a_born_entity_can_die"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_001",
+                    "co_activated_clusters": ["cluster_05_fathers_inheritance"],
+                    "annotation_notes": "The double birth metaphor — 'brought forth' (obstetric) and 'conceived' (gestational) — is deliberate and dense. 'Conceived in Liberty' fuses the ideological (conceived in the idea of liberty) with the biological (literally conceived). This entails that the nation is a living organism capable of dying, which the rest of the address will require."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "birth_and_creation",
+                    "violence_logic": "generative",
+                    "obligatory_frame": false,
+                    "obligatory_frame_notes": "No obligatory frame here; this sentence establishes the fact of birth, not obligation.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "idealization",
+                    "psychic_defense_notes": "The founding-as-birth metaphor idealizes the founding moment as pure generative act, suppressing the violence and compromise involved. Slavery is constitutive of the founding; the birth metaphor renders it invisible.",
+                    "absence_flags": ["enslaved_people_non_agent"],
+                    "absence_notes": "The nation 'conceived in Liberty' was conceived by men who enslaved approximately 700,000 people. The birth metaphor structures the founding as a pure creative act and structurally cannot accommodate enslaved people as co-participants in the birth."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.99,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00003",
+                  "sentence_id": "doc_017_s01_p01_s01",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "dedicated to the proposition that all men are created equal",
+                  "span_char_start": 116,
+                  "span_char_end": 175,
+                  "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
+                    "source_domain": "logical_proposition",
+                    "target_domain": "founding_commitment_to_equality",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "equality_is_a_proposition_not_yet_proven",
+                      "the_nation_exists_to_demonstrate_the_proposition",
+                      "dedication_to_a_proposition_is_a_logical_commitment",
+                      "a_proposition_can_be_refuted_by_evidence",
+                      "war_can_serve_as_a_test_of_the_proposition"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_003",
+                    "co_activated_clusters": ["cluster_02_covenant_oath"],
+                    "annotation_notes": "'Dedicated to the proposition' — using the term 'proposition' (a logical claim awaiting proof) rather than 'truth' or 'principle' is Lincoln's deliberate choice. It activates the experiment/proof frame that will culminate in S02 ('testing') and S10 ('shall not have died in vain' + 'shall not perish'). The dedication is simultaneously a covenant act (cluster_02) and a logical commitment (cluster_03)."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "evidentiary",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "Dedication to a proposition is total: you cannot be partially dedicated to a logical claim. The choice is already made at founding; the present generation inherits the dedication as obligation.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": true,
+                    "object_of_violence": null,
+                    "projected_entity": "founding_proposition",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "displacement",
+                    "psychic_defense_notes": "The cause of the war (slavery) is displaced onto an abstract logical proposition (equality). This displacement is structurally required by the experiment metaphor: you cannot test the proposition 'all men are created equal' while naming slavery as the thing being fought about.",
+                    "absence_flags": ["enslaved_people_non_agent"],
+                    "absence_notes": "The proposition 'all men are created equal' was the founding formula precisely not applied to enslaved people. Framing the war as a test of this proposition makes enslaved people the object of the test (their freedom is what would prove it) without making them agents of the test."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.97,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_017_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_017_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.",
+              "word_offset_start": 30,
+              "word_offset_end": 53,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00004",
+                  "sentence_id": "doc_017_s01_p02_s01",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "testing whether that nation, or any nation so conceived and so dedicated, can long endure",
+                  "span_char_start": 41,
+                  "span_char_end": 130,
+                  "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
+                    "source_domain": "scientific_empirical_test",
+                    "target_domain": "democratic_self_government_under_pressure",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "the_war_is_an_empirical_test",
+                      "national_survival_is_the_dependent_variable",
+                      "the_proposition_of_democracy_is_being_measured",
+                      "the_result_will_constitute_evidence_for_or_against_democracy",
+                      "the_test_is_universal_any_such_nation"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_003",
+                    "co_activated_clusters": ["cluster_01_body_organism"],
+                    "annotation_notes": "'Can long endure' imports cluster_01 (the nation as organism that can endure or fail to endure = survive or die). The testing frame (cluster_03) and the organism frame (cluster_01) are fused: the test's result is whether the organism survives. This co-activation is the structural engine of the address."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "evidentiary",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The test is being conducted whether the Union chooses it or not. The war is not a choice Lincoln is making; it is happening TO the proposition. This framing removes Lincoln's agency from the war's conduct entirely.",
+                    "agent_of_violence": "the_test_itself",
+                    "agent_is_abstract": true,
+                    "object_of_violence": "the_national_body",
+                    "projected_entity": "founding_proposition",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": "The experiment frame suppresses guilt entirely: the war is not caused by anyone, it is a test that is occurring.",
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "displacement",
+                    "psychic_defense_notes": "War-as-test displaces the question of causation. Who started the war, why, over what — these are not questions a test asks. The test frame makes the war's cause (slavery, secession) irrelevant to its meaning (democratic proof).",
+                    "absence_flags": ["lincoln_non_agent", "confederates_depersonalized", "enslaved_people_non_agent"],
+                    "absence_notes": "Lincoln is absent as agent — he is not conducting the test, the test is happening. The Confederacy is absent as agent — they are not attacking the Union, they are providing the pressure of the test. Enslaved people are absent — they are the subject of the proposition being tested, not participants in the test."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.99,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00005",
+                  "sentence_id": "doc_017_s01_p02_s01",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "so conceived and so dedicated",
+                  "span_char_start": 84,
+                  "span_char_end": 113,
+                  "cmt": {
+                    "cluster_id": "cluster_04_birth_creation",
+                    "source_domain": "birth_generation",
+                    "target_domain": "national_founding_and_purpose",
+                    "linguistic_form": "adjectival",
+                    "entailments": [
+                      "the_nation_carries_its_birth_character_into_the_present",
+                      "a_conceived_thing_can_be_destroyed_before_it_reaches_maturity",
+                      "the_birth_origin_defines_what_is_being_tested"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_001",
+                    "co_activated_clusters": ["cluster_03_experiment_proposition"],
+                    "annotation_notes": "The echo of S01's 'conceived' and 'dedicated' three sentences later is deliberate. Lincoln's repetition ties the testing frame (cluster_03) back to the birth frame (cluster_04): what is being tested is the infant nation, the born thing. This is the pivot between the founding paragraph and the war paragraph."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "birth_and_creation",
+                    "violence_logic": "generative",
+                    "obligatory_frame": false,
+                    "obligatory_frame_notes": null,
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": "the_national_body",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
+                    "absence_flags": [],
+                    "absence_notes": null
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.95,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_017_s01_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "We are met on a great battle-field of that war.",
+              "word_offset_start": 53,
+              "word_offset_end": 62,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_017_s01_p02_s03",
+              "sentence_ordinal": 3,
+              "text": "We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live.",
+              "word_offset_start": 62,
+              "word_offset_end": 86,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00006",
+                  "sentence_id": "doc_017_s01_p02_s03",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "gave their lives that that nation might live",
+                  "span_char_start": 94,
+                  "span_char_end": 138,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "organic_life_and_death",
+                    "target_domain": "national_survival_through_sacrifice",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "the_nation_has_life_that_can_be_sustained_or_extinguished",
+                      "individual_lives_can_be_exchanged_for_national_life",
+                      "the_exchange_is_purposive_and_voluntary",
+                      "national_life_requires_individual_death_as_input"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_001",
+                    "co_activated_clusters": ["cluster_04_birth_creation"],
+                    "annotation_notes": "The exchange logic — individual lives for national life — is the first explicit statement of the sacrificial economy. The nation lives because soldiers died. The purposive 'that' clause ('gave their lives THAT the nation might live') makes the exchange explicit and intentional, converting death into a transaction."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "sacrifice_and_redemption",
+                    "violence_logic": "generative",
+                    "obligatory_frame": false,
+                    "obligatory_frame_notes": "The soldiers chose to give their lives; the frame honors the voluntariness of the sacrifice rather than imposing obligation.",
+                    "agent_of_violence": "the_soldiers",
+                    "agent_is_abstract": false,
+                    "object_of_violence": "the_soldiers_themselves",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": "No guilt assigned; the framing is the honor of sacrifice, not the cause or blame.",
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "national_life",
+                    "psychic_defense": "manic_defense",
+                    "psychic_defense_notes": "The purposive 'that' clause converts grief into economy: the deaths were not waste (manic defense against the sheer horror of battlefield death) because they produced something — national survival.",
+                    "absence_flags": ["death_abstracted", "black_soldiers_erased", "enslaved_people_non_agent"],
+                    "absence_notes": "Individual deaths are converted into a single economic transaction ('gave their lives that the nation might live') — the named dead, their particular wounds, their particular bodies, are abstracted away. Black soldiers who were among those dying for Union and emancipation by November 1863 are absent from 'those who here gave their lives.' Enslaved people whose freedom is what the nation's life now formally includes (post-Emancipation Proclamation) are absent as beneficiaries."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.98,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_017_s01_p02_s04",
+              "sentence_ordinal": 4,
+              "text": "It is altogether fitting and proper that we should do this.",
+              "word_offset_start": 86,
+              "word_offset_end": 97,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_017_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_017_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "But, in a larger sense, we can not dedicate—we can not consecrate—we can not hallow—this ground.",
+              "word_offset_start": 97,
+              "word_offset_end": 116,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00007",
+                  "sentence_id": "doc_017_s01_p03_s01",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "we can not dedicate—we can not consecrate—we can not hallow—this ground",
+                  "span_char_start": 24,
+                  "span_char_end": 95,
+                  "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "priestly_consecration",
+                    "target_domain": "human_capacity_to_honor_sacrifice",
+                    "linguistic_form": "sentence",
+                    "entailments": [
+                      "sacred_ground_requires_priestly_speech_acts",
+                      "human_speakers_normally_possess_this_power",
+                      "the_claim_here_is_that_soldiers_sacrifice_has_already_performed_consecration",
+                      "divine_sanction_has_already_acted_through_the_soldiers"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_001",
+                    "co_activated_clusters": ["cluster_02_covenant_oath"],
+                    "annotation_notes": "The three-part anaphora ('we can not dedicate / consecrate / hallow') is itself a speech act — a ritual refusal that performs its own form of consecration. The argument is that soldiers' deaths have done what human speech cannot: made the ground sacred. This is a theological claim (cluster_06) and a covenant-renunciation claim (cluster_02): the ceremony of dedication Lincoln has been asked to perform is declared insufficient before he performs it."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "sacrifice_and_redemption",
+                    "violence_logic": "generative",
+                    "obligatory_frame": false,
+                    "obligatory_frame_notes": null,
+                    "agent_of_violence": null,
+                    "agent_is_abstract": true,
+                    "object_of_violence": null,
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "sacred_ground",
+                    "psychic_defense": "reparation",
+                    "psychic_defense_notes": "The claim that human ceremony is insufficient is a form of reparation: Lincoln is not claiming to honor the dead adequately (manic defense) but acknowledging the limits of language in the face of sacrifice. Paradoxically, this acknowledgment is the address's most powerful rhetorical move.",
+                    "absence_flags": ["lincoln_non_agent", "death_abstracted"],
+                    "absence_notes": "Lincoln positions himself (and all speakers) as categorically incapable of the act that has already been performed by soldier deaths. This is the most explicit lincoln_non_agent moment in the address: the speaker's role is formally collapsed. Death is abstracted from bodies to an act of consecration."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.97,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_017_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract.",
+              "word_offset_start": 116,
+              "word_offset_end": 136,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00008",
+                  "sentence_id": "doc_017_s01_p03_s02",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "have consecrated it, far above our poor power to add or detract",
+                  "span_char_start": 52,
+                  "span_char_end": 115,
+                  "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "priestly_consecration",
+                    "target_domain": "soldier_sacrifice_as_sanctifying_act",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "soldier_struggle_performs_the_function_of_priestly_consecration",
+                      "death_in_battle_is_a_sacred_act_not_a_secular_one",
+                      "human_speech_is_ontologically_inferior_to_soldier_action",
+                      "the_ground_is_already_sacred_before_any_ceremony"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_001",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The completed action ('have consecrated') places the sanctifying act in the past — it is done, by the soldiers, before Lincoln speaks. This retroactive consecration by death is the theological heart of the address: the soldiers have acted as priests, and Lincoln as civilian orator can only receive and transmit their act."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "sacrifice_and_redemption",
+                    "violence_logic": "generative",
+                    "obligatory_frame": false,
+                    "obligatory_frame_notes": null,
+                    "agent_of_violence": "the_soldiers",
+                    "agent_is_abstract": false,
+                    "object_of_violence": "the_soldiers_themselves",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "sacred_ground",
+                    "psychic_defense": "reparation",
+                    "psychic_defense_notes": "Lincoln continues to diminish his own power ('our poor power to add or detract') — this is reparative humility in the face of loss, not manic inflation of sacrifice.",
+                    "absence_flags": ["lincoln_non_agent", "death_abstracted", "black_soldiers_erased"],
+                    "absence_notes": "Lincoln_non_agent: 'our poor power to add or detract' explicitly diminishes the speaker's role. Death_abstracted: the soldiers' deaths are converted into the act of consecration — an aesthetic and theological product. Black_soldiers_erased: 'the brave men, living and dead, who struggled here' — Black Union soldiers who fought and died at this stage of the war are structurally present in this description but conventionally invisible; the universal 'brave men' erases their specific historical presence and the specific meaning of Black men dying for the emancipation proposition."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.96,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_017_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "The world will little note, nor long remember what we say here, but it can never forget what they did here.",
+              "word_offset_start": 136,
+              "word_offset_end": 156,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_017_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced.",
+              "word_offset_start": 156,
+              "word_offset_end": 181,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00009",
+                  "sentence_id": "doc_017_s01_p03_s04",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "dedicated here to the unfinished work which they who fought here have thus far so nobly advanced",
+                  "span_char_start": 39,
+                  "span_char_end": 135,
+                  "cmt": {
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "votive_dedication",
+                    "target_domain": "obligation_to_complete_soldiers_work",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "dedication_is_a_binding_vow",
+                      "the_soldiers_work_is_unfinished_and_requires_completion",
+                      "the_living_inherit_the_obligation_from_the_dead",
+                      "failure_to_complete_would_dishonor_the_dead"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_002",
+                    "co_activated_clusters": ["cluster_05_fathers_inheritance"],
+                    "annotation_notes": "'Unfinished work' positions the war as an ongoing project with an incomplete deliverable. The dedication is an oath: it is for US (mandatory assignment) to be dedicated (bound by vow). This is the moment where the sacrificial economy converts to obligation: soldier deaths create a debt that the living must repay by completing the work."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "oath_and_obligation",
+                    "violence_logic": "obligatory",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "'It is for us the living' — the obligation is assigned, not chosen. Lincoln uses 'it is for us... to' rather than 'we choose to' or 'we will.' The obligation flows from the fact of the soldiers' deaths, not from any act of will by the living.",
+                    "agent_of_violence": "the_obligation_itself",
+                    "agent_is_abstract": true,
+                    "object_of_violence": null,
+                    "projected_entity": "covenant_bond",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "obligation_transferred_to_living",
+                    "psychic_defense": "reparation",
+                    "psychic_defense_notes": "The reparative structure: soldier deaths produce obligation in the living. The living's action (completing the work) repays the debt created by the deaths. This converts grief into ethical program.",
+                    "absence_flags": ["lincoln_non_agent", "death_abstracted", "enslaved_people_non_agent"],
+                    "absence_notes": "Lincoln_non_agent: 'it is for us the living... to be dedicated' — Lincoln receives the obligation rather than choosing it. Death_abstracted: the soldiers' deaths are converted into the 'work' they have advanced — the deaths become productive acts rather than losses. Enslaved_people_non_agent: the 'unfinished work' is the war's prosecution, with emancipation as one of its elements, but enslaved people are not among 'us the living' who are obligated to complete the work."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.97,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_017_s01_p03_s05",
+              "sentence_ordinal": 5,
+              "text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+              "word_offset_start": 181,
+              "word_offset_end": 256,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00010",
+                  "sentence_id": "doc_017_s01_p03_s05",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "the last full measure of devotion",
+                  "span_char_start": 169,
+                  "span_char_end": 202,
+                  "cmt": {
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "quantified_votive_resource",
+                    "target_domain": "soldiers_total_self_sacrifice",
+                    "linguistic_form": "nominal_phrase",
+                    "entailments": [
+                      "devotion_is_a_quantifiable_resource",
+                      "the_soldiers_gave_all_of_it",
+                      "the_living_are_implicitly_called_to_give_more_of_their_own_devotion",
+                      "partial_devotion_would_dishonor_the_total_sacrifice"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_002",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The quantification metaphor ('full measure') converts devotion into a substance that can be exhausted. 'Last full measure' is the total depletion of a resource — the soldiers gave everything. This sets up the implicit obligation on the living to give 'increased devotion,' which is a lesser quantity but in the same economy."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "sacrifice_and_redemption",
+                    "violence_logic": "obligatory",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "If the soldiers gave the last full measure, the living's devotion — which is measured against that total — is implicitly demanded. You cannot receive total sacrifice and respond with partial commitment.",
+                    "agent_of_violence": "the_soldiers",
+                    "agent_is_abstract": false,
+                    "object_of_violence": "the_soldiers_themselves",
+                    "projected_entity": "covenant_bond",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "devotion_transferred_to_living",
+                    "psychic_defense": "manic_defense",
+                    "psychic_defense_notes": "Converting death into 'the last full measure of devotion' is manic defense against the reality of bodily destruction: soldiers did not give a 'measure' of something, they were killed. The economic-quantitative metaphor transforms slaughter into gift.",
+                    "absence_flags": ["death_abstracted", "black_soldiers_erased"],
+                    "absence_notes": "Death_abstracted: individual deaths become 'the last full measure of devotion' — an abstract economic unit. Black_soldiers_erased: present among the honored dead but not distinguished; their sacrifice carried additional weight (proof that Black men would fight and die for freedom) that is erased by universalization."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.96,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00011",
+                  "sentence_id": "doc_017_s01_p03_s05",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "these dead shall not have died in vain",
+                  "span_char_start": 236,
+                  "span_char_end": 274,
+                  "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
+                    "source_domain": "logical_proof_and_evidence",
+                    "target_domain": "soldier_deaths_as_evidence_for_democracy",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "deaths_are_evidence_in_the_test_of_democracy",
+                      "to_die_in_vain_would_mean_the_test_failed",
+                      "the_resolve_to_complete_the_work_prevents_logical_failure",
+                      "the_living_must_supply_the_conclusion_that_makes_the_deaths_evidence"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_003",
+                    "co_activated_clusters": ["cluster_04_birth_creation"],
+                    "annotation_notes": "'Died in vain' is the experiment's failure condition: if democracy collapses, the deaths were waste, not proof. The resolve ('we here highly resolve') is the act that will prevent logical failure — it is the living's commitment to supply the conclusion that the deaths were meaningful. This converts a vow into a logical operation."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "evidentiary",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The resolve is mandatory: if the deaths would otherwise be 'vain' (wasted, null), then the living must ensure they are not. The logical form of the obligation is: premises (deaths) require a valid conclusion (the nation endures); the living must supply that conclusion.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": true,
+                    "object_of_violence": null,
+                    "projected_entity": "founding_proposition",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "propositional_proof",
+                    "psychic_defense": "manic_defense",
+                    "psychic_defense_notes": "The resolve that deaths shall not be 'in vain' is the purest expression of the manic defense in the address: it converts the terror that the deaths MIGHT be vain (purposeless, wasteful) into a determination to make them meaningful. The horror is acknowledged in the subjunctive ('shall not have died in vain') and immediately converted into resolve.",
+                    "absence_flags": ["death_abstracted", "enslaved_people_non_agent", "black_soldiers_erased"],
+                    "absence_notes": "Death_abstracted: individual deaths are converted into logical units in an argument — they are premisses, not losses. Enslaved_people_non_agent: the proposition being proven ('that all men are created equal') concerns their status, but they are absent from the argument's dramaturgy. Black_soldiers_erased: present in the 'honored dead' but erased as a specific population whose deaths carry a specific and additional meaning."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.98,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00012",
+                  "sentence_id": "doc_017_s01_p03_s05",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "a new birth of freedom",
+                  "span_char_start": 315,
+                  "span_char_end": 337,
+                  "cmt": {
+                    "cluster_id": "cluster_04_birth_creation",
+                    "source_domain": "birth_generation",
+                    "target_domain": "post_war_freedom_and_national_renewal",
+                    "linguistic_form": "nominal_phrase",
+                    "entailments": [
+                      "freedom_is_born_not_restored",
+                      "war_is_the_labor_that_produces_the_birth",
+                      "soldier_deaths_are_the_cost_of_labor",
+                      "the_birth_produces_something_genuinely_new_not_a_restoration",
+                      "the_new_freedom_is_a_child_of_the_war",
+                      "birth_implies_life_that_can_grow_and_be_protected"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_001",
+                    "co_activated_clusters": ["cluster_01_body_organism", "cluster_03_experiment_proposition"],
+                    "annotation_notes": "This is the address's climactic metaphor and among the most important in the corpus. 'New birth' closes the arc that 'brought forth... conceived' opened in S01. The nation was born in 1776; it is being reborn through war. The word 'new' is critical: this is not restoration (cluster_01's wound logic) but genuine generation (cluster_04). The birth resolves the test (cluster_03): democracy is not just surviving, it is reproducing. The three clusters co-activate simultaneously in four words."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "birth_and_creation",
+                    "violence_logic": "generative",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "If this birth is what the war produces, then the war must be won for the birth to occur. The birth logic makes victory obligatory — you cannot abandon the birth.",
+                    "agent_of_violence": "the_war_itself",
+                    "agent_is_abstract": true,
+                    "object_of_violence": null,
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "new_birth_of_freedom",
+                    "psychic_defense": "manic_defense",
+                    "psychic_defense_notes": "The conversion of mass death into birth is the ultimate manic defense: the war that kills thousands is the labor that produces freedom. The horror of the killing is absorbed into the metaphor of nativity, which is culturally coded as hope, not horror.",
+                    "absence_flags": ["enslaved_people_non_agent", "black_soldiers_erased", "death_abstracted", "women_absent"],
+                    "absence_notes": "Enslaved_people_non_agent: the 'new birth of freedom' is most directly about emancipation — it is enslaved people's freedom being born. But they are not named, not present, not agents of their own birth. Their freedom is something born for them and through soldiers' deaths. Black_soldiers_erased: 180,000 Black Union soldiers are among those whose deaths are the labor of this birth; they are absent as a named group. Death_abstracted: deaths become birth-labor, converted from loss into generative act. Women_absent: birth metaphors conventionally erase women as the actual laborers of birth — the birth here happens without mothers."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.99,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                },
+                {
+                  "instance_id": "inst_00013",
+                  "sentence_id": "doc_017_s01_p03_s05",
+                  "document_id": "doc_017",
+                  "document_date": "1863-11-19",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "shall not perish from the earth",
+                  "span_char_start": 404,
+                  "span_char_end": 435,
+                  "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "organic_death_and_survival",
+                    "target_domain": "democratic_government_persistence",
+                    "linguistic_form": "verbal_phrase",
+                    "entailments": [
+                      "democratic_government_is_a_living_organism",
+                      "it_can_die_perish",
+                      "its_death_would_be_biological_extinction_not_political_failure",
+                      "the_resolve_is_to_keep_it_alive",
+                      "government_of_by_for_the_people_is_the_species_being_preserved"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_001",
+                    "co_activated_clusters": ["cluster_03_experiment_proposition"],
+                    "annotation_notes": "The address closes with an organism metaphor — government that might 'perish from the earth.' This echoes and resolves the 'endure' of S02: the organism that was under test (S02, 'can long endure') is now affirmed in its survival. 'Perish from the earth' is extinction language — the species (democratic self-government) must not go extinct. This is cluster_01 at maximum extension: the organism is now not the Union but the entire project of democratic governance, globally."
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "evidentiary",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "If democratic government perishing would be a catastrophe equivalent to extinction, then preventing it is an absolute obligation — there is no price too high to pay for survival. The extinction frame maximizes the obligatory logic.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": true,
+                    "object_of_violence": "democratic_government",
+                    "projected_entity": "founding_proposition",
+                    "guilt_distribution": "absent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": "displacement",
+                    "psychic_defense_notes": "The scale of the projected entity expands to 'government of the people, by the people, for the people' — not the Union specifically, not the question of slavery, but all democratic self-government everywhere. This displacement converts a civil war about slavery into a defense of a universal principle, which is both Lincoln's genuine belief and a displacement of the specific cause.",
+                    "absence_flags": ["enslaved_people_non_agent", "confederates_depersonalized"],
+                    "absence_notes": "Enslaved_people_non_agent: government 'of the people, by the people, for the people' — enslaved people are not among 'the people' with political standing in this formulation; the universal claim of the address does not extend to them as political agents. Confederates_depersonalized: the threat to democratic government is abstract (it might perish) rather than the Confederacy specifically."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.97,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
+    {"stage": 4, "agent": "lincoln_corpus_reader", "date": "2026-04-28"}
+  ]
+}

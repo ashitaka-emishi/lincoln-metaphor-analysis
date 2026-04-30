@@ -1,0 +1,328 @@
+{
+  "document_id": "doc_012",
+  "meta": {
+    "id": "doc_012",
+    "title": "Letter to Horace Greeley",
+    "short_title": "Greeley Letter",
+    "date": "1862-08-22",
+    "date_precision": "exact",
+    "register": "semi_public_letter",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.5 pp.388-389",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln5/1:305",
+    "risk_flags": [],
+    "analytical_priority": "critical"
+  },
+  "document_summary": {
+    "doc_id": "doc_012",
+    "total_instances": 2,
+    "clusters_activated": ["cluster_02_covenant_oath"],
+    "dominant_cluster": "cluster_02_covenant_oath",
+    "extension_groups": [],
+    "primary_finding": "The Greeley Letter is the primary suppression document in the corpus. Lincoln deploys 'save the Union' eight or more times in a single paragraph but strips every entailment that normally follows from the cluster_01 (body/organism) and cluster_02 (covenant) metaphors. No wound, no healing, no body, no birth, no fathers, no Providence. The letter positions Union-preservation as a purely pragmatic executive calculation — the rhetorical effect depends on the absence of the metaphor architecture Lincoln uses everywhere else. Clusters 01, 03, 04, 05, and 06 are entirely absent. Written one month before the Preliminary Emancipation Proclamation, this is Lincoln clearing the public record of ideological commitment on slavery so that emancipation can be framed as a military measure rather than a moral one.",
+    "annotator_notes": "Only 2 instances annotated — the floor of annotation for a critical-priority document. Both are in p05 (the central policy statement paragraph). The repeated 'save' usages in p05_s02, s03, s04, s06, s07, s08 are noted in suppression_notes on inst_00027 but not separately annotated; they activate the same mapping at lower and lower figurative intensity with each repetition. The letter deliberately uses 'save' in exact parallel with 'save or destroy slavery' — treating the Union and slavery as grammatically equivalent objects of the same verb, which functions to depoliticize both."
+  },
+  "sections": [
+    {
+      "section_id": "doc_012_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_012_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_012_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Executive Mansion, Washington, August 22, 1862.",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_012_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_012_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Hon. Horace Greeley: Dear Sir.",
+              "word_offset_start": 6,
+              "word_offset_end": 11,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_012_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_012_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "I have just read yours of the 19th. addressed to myself through the New-York Tribune.",
+              "word_offset_start": 11,
+              "word_offset_end": 26,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_012_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "If there be in it any statements, or assumptions of fact, which I may know to be erroneous, I do not, now and here, controvert them.",
+              "word_offset_start": 26,
+              "word_offset_end": 52,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_012_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "If there be in it any inferences which I may believe to be falsely drawn, I do not now and here, argue against them.",
+              "word_offset_start": 52,
+              "word_offset_end": 76,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_012_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "If there be perceptable in it an impatient and dictatorial tone, I waive it in deference to an old friend, whose heart I have always supposed to be right.",
+              "word_offset_start": 76,
+              "word_offset_end": 105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_012_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_012_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "As to the policy I \"seem to be pursuing\" as you say, I have not meant to leave any one in doubt.",
+              "word_offset_start": 105,
+              "word_offset_end": 127,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_012_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_012_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "I would save the Union.",
+              "word_offset_start": 127,
+              "word_offset_end": 132,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00027",
+                  "sentence_id": "doc_012_s01_p05_s01",
+                  "cluster_id": "cluster_02_covenant_oath",
+                  "linguistic_form": "save the Union",
+                  "source_domain": "rescue / preservation of an endangered entity",
+                  "target_domain": "the constitutional compact",
+                  "char_span_start": 8,
+                  "char_span_end": 22,
+                  "confidence": 0.70,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": true,
+                  "suppression_flag": true,
+                  "suppression_notes": "This is the first of eight or more deployments of 'save the Union' in this letter. The repetition evacuates rather than intensifies the metaphor: with each recurrence, the entailments that normally follow (wound, patient, physician, urgency, obligation to heal) are withheld. The same 'save' verb is applied to the Union, to slavery (save slavery), and to its opposite (destroy slavery), treating all three as grammatically parallel — a rhetorical move that systematically strips the covenant framing Lincoln deploys in every public address. Suppressed clusters: cluster_01 (no body, no wound, no organism), cluster_03 (no proposition under test), cluster_04 (no birth or creation), cluster_05 (no founding fathers, no ancestral debt), cluster_06 (no Providence, no divine sanction). The full suppression is the primary analytical finding of this document.",
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "Union": "entity in danger of destruction",
+                      "Lincoln's paramount object": "duty of preservation",
+                      "saving": "preventing destruction of what must persist"
+                    },
+                    "entailments": [
+                      "The Union is endangered and could be lost",
+                      "Preservation is the president's duty, not a choice",
+                      "The Union has a prior intact state worth recovering"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "oath_and_obligation",
+                    "violence_logic": "obligatory",
+                    "obligatory_frame": "Lincoln frames Union-preservation as his 'paramount object' — not a policy preference but a constitutional obligation. The war follows from this obligation as instrument, not as choice.",
+                    "projected_entity": "covenant_bond",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [
+                      "enslaved_people_non_agent"
+                    ],
+                    "annotator_notes": "The ambiguity_flag reflects genuine uncertainty about whether 'save' retains its figurative force at all here — it may be fully dead language by 1862. Coded cluster_02 over cluster_01 because the surrounding context is about constitutional duty and the compact, not the body/organism frame. Co-activation with cluster_01 is possible."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_012_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "I would save it the shortest way under the Constitution.",
+              "word_offset_start": 132,
+              "word_offset_end": 142,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_012_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "The sooner the national authority can be restored; the nearer the Union will be \"the Union as it was.\" If there be those who would not save the Union, unless they could at the same time save slavery, I do not agree with them.",
+              "word_offset_start": 142,
+              "word_offset_end": 186,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00028",
+                  "sentence_id": "doc_012_s01_p05_s03",
+                  "cluster_id": "cluster_02_covenant_oath",
+                  "linguistic_form": "national authority can be restored",
+                  "source_domain": "restoration of a prior state of wholeness",
+                  "target_domain": "the constitutional compact and its governing authority",
+                  "char_span_start": 15,
+                  "char_span_end": 49,
+                  "confidence": 0.75,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": true,
+                  "suppression_notes": "The 'restored' frame implies the Union had an original intact state — the covenant bond before secession. This is the only moment in the letter where the metaphor has clear entailments (prior wholeness → damage → restoration = restorative logic). But the entailment chain is cut short: Lincoln does not develop what restoration means, who bears the wound, or what the restoration requires. Contrast with the First Inaugural and Second Inaugural where the restoration frame is elaborated.",
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "national authority": "the covenant compact in its authoritative state",
+                      "restored": "returned to prior intact condition",
+                      "the Union as it was": "the covenant's original form as the restoration target"
+                    },
+                    "entailments": [
+                      "The Union had an authentic prior state (before secession damaged it)",
+                      "The goal of the war is recovery, not creation of something new — restorative, not generative",
+                      "Speed of restoration reduces the deviation from the prior covenant state"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "oath_and_obligation",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": "The 'sooner…nearer' construction creates urgency: delay in restoration is a deviation from the covenant that increases with time.",
+                    "projected_entity": "covenant_bond",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [
+                      "enslaved_people_non_agent"
+                    ],
+                    "annotator_notes": "The phrase 'the Union as it was' is analytically significant: it specifies the restoration target as the pre-secession covenant, not a reformed or improved Union. This is the conservative reading of the war's goal — restore, not transform. This framing is directly in tension with what Lincoln is about to do (Emancipation Proclamation, Sept 22) and may explain why the letter is so metaphorically stripped — any richer framing would foreclose the transformative option."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_012_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "If there be those who would not save the Union unless they could at the same time destroy slavery, I do not agree with them.",
+              "word_offset_start": 186,
+              "word_offset_end": 211,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_012_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "My paramount object in this struggle is to save the Union, and is not either to save or to destroy slavery.",
+              "word_offset_start": 211,
+              "word_offset_end": 232,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_012_s01_p05_s06",
+              "sentence_ordinal": 6,
+              "text": "If I could save the Union without freeing any slave I would do it, and if I could save it by freeing all the slaves I would do it; and if I could save it by freeing some and leaving others alone I would also do that.",
+              "word_offset_start": 232,
+              "word_offset_end": 279,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_012_s01_p05_s07",
+              "sentence_ordinal": 7,
+              "text": "What I do about slavery, and the colored race, I do because I believe it helps to save the Union; and what I forbear, I forbear because I do not believe it would help to save the Union.",
+              "word_offset_start": 279,
+              "word_offset_end": 317,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_012_s01_p05_s08",
+              "sentence_ordinal": 8,
+              "text": "I shall do less whenever I shall believe what I am doing hurts the cause, and I shall do more whenever I shall believe doing more will help the cause.",
+              "word_offset_start": 317,
+              "word_offset_end": 347,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_012_s01_p05_s09",
+              "sentence_ordinal": 9,
+              "text": "I shall try to correct errors when shown to be errors; and I shall adopt new views so fast as they shall appear to be true views.",
+              "word_offset_start": 347,
+              "word_offset_end": 374,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_012_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_012_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "I have here stated my purpose according to my view of official duty; and I intend no modification of my oft-expressed personal wish that all men every where could be free.",
+              "word_offset_start": 374,
+              "word_offset_end": 405,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_012_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_012_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "Yours, A. Lincoln.",
+              "word_offset_start": 405,
+              "word_offset_end": 408,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
+    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+  ]
+}

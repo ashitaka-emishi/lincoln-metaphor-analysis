@@ -1,0 +1,96 @@
+---
+title: "Lincoln Metaphor Analysis"
+subtitle: "Koenigsberg ideological fantasy analysis applied to Lincoln's corpus, 1838–1865"
+---
+
+## Project Overview
+
+This project applies two theoretical frameworks simultaneously to Abraham Lincoln's 28-document corpus (1838–1865):
+
+1. **Conceptual Metaphor Theory** (Lakoff & Johnson 1980) — maps source→target domain, entailments, and linguistic forms for each metaphor instance
+2. **Koenigsberg's ideological fantasy analysis** — identifies the psychological constructs (fantasy type, violence logic, obligatory frame, sacrificial economy, systematic absence) that made the Civil War feel obligatory rather than chosen
+
+Output is structured JSON at every pipeline stage, enabling programmatic analysis of metaphor frequency, diachronic change, and systematic absence.
+
+## Research Questions
+
+- What conceptual metaphors structured Lincoln's understanding of the Civil War?
+- How did his metaphor system make the war feel necessary rather than chosen?
+- What entities does his metaphor system systematically erase — enslaved people, Black soldiers?
+- What is the structural difference between Lincoln's rhetoric and Hitler's that explains why Lincoln could say "malice toward none" and Hitler could not?
+
+## Pipeline Status
+
+```{ojs}
+manifest = await FileAttachment("corpus/corpus_manifest.json").json()
+docs = manifest.documents
+annotated = docs.filter(d => d.pipeline_stage_completed >= 4).length
+```
+
+```{ojs}
+md`**Stage 4 (Annotation): ${annotated} of ${docs.length} documents complete.**
+Stages 5–6 (concordance, analysis) run after all ${docs.length} are annotated.`
+```
+
+```{ojs}
+Inputs.table(
+  docs.map(d => ({
+    id: d.id,
+    document: d.short_title,
+    date: d.date,
+    priority: d.analytical_priority,
+    stage: d.pipeline_stage_completed,
+    status: d.pipeline_stage_completed >= 4 ? "✓ annotated" : "pending"
+  })),
+  {
+    columns: ["id", "document", "date", "priority", "stage", "status"],
+    header: {
+      id: "ID",
+      document: "Document",
+      date: "Date",
+      priority: "Priority",
+      stage: "Stage",
+      status: "Annotation"
+    },
+    rows: 28
+  }
+)
+```
+
+## Six Metaphor Clusters
+
+| ID | Cluster | Source Domain |
+|----|---------|---------------|
+| cluster_01 | Nation as organism / body | wound, healing, birth, severance |
+| cluster_02 | Union as covenant / oath | sworn oath, contract, sacred bond |
+| cluster_03 | Republic as experiment / proposition | logical proof, scientific test |
+| cluster_04 | War as birth / new creation | labor, nativity, generative act |
+| cluster_05 | Founding fathers as inheritance | patrimony, lineage, ancestral debt |
+| cluster_06 | Providence / divine will | God's judgment, punishment, theodicy |
+
+## Pipeline Stages
+
+| Stage | Description | Output |
+|-------|-------------|--------|
+| 1 | Source text acquisition | `corpus/raw/` |
+| 2 | Markdown + YAML frontmatter | `corpus/text/` |
+| 3 | Segmented JSON (sections / paragraphs / sentences) | `corpus/segmented/` |
+| 4 | Annotated JSON (metaphor instances embedded) | `corpus/annotated/` |
+| 5 | Concordance (corpus-wide index) | `concordance/` |
+| 6 | Analysis (cluster statistics) | `analysis/` |
+
+Stages 1–3 are complete across all 28 documents. Stage 4 is in progress. Stages 5–6 run automatically via `npm run pipeline` once Stage 4 is complete.
+
+## Key Analytical Constraints
+
+- Sentence IDs are permanent after Stage 3 — never renumber
+- All frequency claims must have register-controlled versions
+- Run all analyses twice: full corpus and `authorship_confidence ≥ 0.95` subset
+- `disease_and_purification` must be tracked exhaustively; its absence is a central structural finding
+- Legal document metaphor flatness is a positive finding, not a null result
+
+## Theoretical References
+
+- Lakoff, G. & Johnson, M. (1980). *Metaphors We Live By*. University of Chicago Press.
+- Koenigsberg, R. (2009). *Nations Have the Right to Kill*. Library of Social Science.
+- Koenigsberg, R. (2014). *Psychological Sources of War and Genocide*. Library of Social Science.

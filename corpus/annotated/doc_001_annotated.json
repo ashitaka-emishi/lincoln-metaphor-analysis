@@ -1,0 +1,1517 @@
+{
+  "document_id": "doc_001",
+  "meta": {
+    "id": "doc_001",
+    "title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+    "short_title": "Lyceum Address",
+    "date": "1838-01-27",
+    "date_precision": "exact",
+    "register": "formal_public_address",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.98,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.1 pp.108-115",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:144",
+    "risk_flags": [],
+    "analytical_priority": "high",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "document_summary": {
+    "doc_id": "doc_001",
+    "total_instances": 8,
+    "clusters_activated": [
+      "cluster_01_body_organism",
+      "cluster_03_experiment_proposition",
+      "cluster_05_fathers_inheritance"
+    ],
+    "dominant_cluster": "cluster_05_fathers_inheritance",
+    "extension_groups": [
+      "ext_014",
+      "ext_015"
+    ],
+    "primary_finding": "The Lyceum Address (1838) is the earliest document in the corpus and the only pre-1858 document. It shows the first appearance of cluster_03 (experiment/proposition) in the corpus \u2014 25 years before Gettysburg \u2014 and the first appearance of cluster_05 (fathers/inheritance) in an explicit patrimony mode. The 1838 document also contains the earliest cluster_01 instance: 'As a nation of freemen, we must live through all time, or die by suicide' (p04_s05). Clusters 02, 04, and 06 are entirely absent. The Lyceum Address is remarkable for what it already contains: cluster_03 appears three times in p17, forming the ext_014 arc (undecided experiment \u2192 practical demonstration of a proposition \u2192 experiment successful). The republic-as-proposition logic, which will be compressed into Gettysburg's 'testing whether' formula, is here stated at length: the founding generation staked its all on demonstrating that self-governance was possible; they succeeded; the proof is complete. Cluster_05 appears four times across the speech, ranging from legal inheritance (p02_s03), to legacy bequeathed by departed ancestors (p02_s04), to the blood-of-the-father inheritance (p12_s03), to the foundational pillar-replacement obligation (p23_s01). The Lyceum Address establishes the patrimonial frame 20 years before the slavery crisis will make it politically charged. The absence of cluster_02 (covenant/oath) is notable: Lincoln in 1838 argues that the republic must be preserved through 'political religion' and law-reverence but does not deploy the oath/covenant frame \u2014 that register will emerge at the First Inaugural (1861). The absence of cluster_06 (Providence) is also notable: the Lyceum Address is secular throughout. The address establishes two of the six clusters in their earliest corpus forms and anticipates the full six-cluster system that will not be complete until Gettysburg (1863).",
+    "annotator_notes": "p09_s05: 'If they were annually swept, from the stage of existence, by the plague or small pox, honest men would, perhaps, be much profited, by the operation.' \u2014 disease language appears here, applied to gamblers being swept away. Not disease_and_purification in Koenigsberg's sense: the target is not the national body being purified of an enemy population, but an ironic observation about the gamblers' deaths by natural causes vs. mob violence. This is the earliest disease-language appearance in the corpus, but it is descriptive/ironic, not ideological. Not annotated; noted for secondary metaphor tracking. p12_s05: 'let it become the _political religion_ of the nation; and let...sacrifice unceasingly upon its altars' \u2014 civic religion frame applied to law-reverence. Evaluated for cluster_02 and cluster_06: confidence \u2264 0.62 for either. The 'political religion / sacrificial altars' frame is a distinct source domain not captured in the six-cluster taxonomy (it maps civic law-reverence to religious cult practice, with sacrifice at altars). Not annotated. p22_s07: 'They _were_ a fortress of strength; but, what invading foeman could _never do_, the silent artillery of time _has done_; the leveling of its walls.' \u2014 founding generation's living memory as a fortress leveled by time. Not cluster_01 (the fortress/walls are not the national body but the founders' influence). Not annotated. p22_s08: 'They _were_ a forest of giant oaks...the all-resistless hurricane has swept over them...only, here and there, a lonely trunk, despoiled of its verdure, shorn of its foliage.' \u2014 founding generation as a forest of giant oaks devastated by time. Evaluated for cluster_01 (organism) and cluster_05 (fathers): confidence 0.65 for cluster_05, 0.62 for cluster_01. The organism/tree metaphor applied to the founding generation rather than the nation itself falls below threshold. Not annotated; noted. p24_s01: 'the proud fabric of freedom...as the rock of its basis; and...the gates of hell shall not prevail against it' \u2014 fabric of freedom as architectural structure built on rock, with biblical allusion (Matthew 16:18). Evaluated for cluster_01 (architectural/body frame): confidence 0.58. Not annotated."
+  },
+  "sections": [
+    {
+      "section_id": "doc_001_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_001_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "As a subject for the remarks of the evening, _the perpetuation of our political institutions,_ is selected.",
+              "word_offset_start": 0,
+              "word_offset_end": 17,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "In the great journal of things happening under the sun, we, the American People, find our account running, under date of the nineteenth century of the Christian era.--We find ourselves in the peaceful possession, of the fairest portion of the earth, as regards extent of territory, fertility of soil, and salubrity of climate.",
+              "word_offset_start": 17,
+              "word_offset_end": 70,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "We find ourselves under the government of a system of political institutions, conducing more essentially to the ends of civil and religious liberty, than any of which the history of former times tells us.",
+              "word_offset_start": 70,
+              "word_offset_end": 104,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p02_s03",
+              "sentence_ordinal": 3,
+              "text": "We, when mounting the stage of existence, found ourselves the legal inheritors of these fundamental blessings.",
+              "word_offset_start": 104,
+              "word_offset_end": 120,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00078",
+                  "sentence_id": "doc_001_s01_p02_s03",
+                  "cluster_id": "cluster_05_fathers_inheritance",
+                  "linguistic_form": "the legal inheritors of these fundamental blessings",
+                  "source_domain": "Legal inheritance \u2014 the present generation as the legal heirs to property and rights established by ancestors",
+                  "target_domain": "The American political institutions as a legal inheritance received from the founding generation without effort",
+                  "char_span_start": 58,
+                  "char_span_end": 108,
+                  "confidence": 0.88,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_015",
+                  "cmt": {
+                    "mapping": {
+                      "the legal inheritors": "the present generation as heirs \u2014 with 'legal' specifying that the inheritance is a matter of right, not gift",
+                      "these fundamental blessings": "the political institutions and freedoms that constitute the inheritance \u2014 blessings frames them as valuable gifts",
+                      "found ourselves": "the discovery that one is already in possession of an inheritance \u2014 the current generation did not earn it but simply arrived into it"
+                    },
+                    "entailments": [
+                      "The present generation did not earn the political institutions \u2014 they arrived as legal heirs to a completed inheritance",
+                      "Legal inheritance creates obligation: heirs have a duty to maintain what they have received",
+                      "'Fundamental blessings' frames the inheritance as both practically important and morally valuable",
+                      "The inheritance frame sets up the corresponding duty frame that follows in subsequent sentences"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "founding_authority_as_rule",
+                    "violence_logic": "inherited_obligation",
+                    "obligatory_frame": "The present generation found itself in legal possession of an inheritance it did not earn \u2014 political institutions bequeathed by the founding generation. Legal inheritance creates obligation to maintain and transmit what has been received. This is cluster_05's earliest corpus instantiation: the inheritance frame in its simplest legal form, before it will become the blood-covenant and the patrimonial debt of later documents.",
+                    "projected_entity": "The founding generation as the original owners who bequeathed legal institutions to their descendants",
+                    "guilt_distribution": "Those who violate or fail to preserve the inheritance violate their legal obligations as heirs",
+                    "sacrificial_economy": "None \u2014 at this stage the inheritance frame is legal/property-based, not yet blood-soaked",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "ext_015 member: this sentence (legal inheritors) and p02_s04 (legacy bequeathed by departed ancestors) form the inheritance-claim arc in p02. inst_00078 establishes the inheritance status (we are the heirs); inst_00079 specifies the bequeathing act (the legacy given by the departed ancestors). The two together constitute the foundational cluster_05 claim of the Lyceum Address."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_001_s01_p02_s04",
+              "sentence_ordinal": 4,
+              "text": "We toiled not in the acquirement or establishment of them--they are a legacy bequeathed us, by a _once_ hardy, brave, and patriotic, but _now_ lamented and departed race of ancestors.",
+              "word_offset_start": 120,
+              "word_offset_end": 150,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00079",
+                  "sentence_id": "doc_001_s01_p02_s04",
+                  "cluster_id": "cluster_05_fathers_inheritance",
+                  "linguistic_form": "a legacy bequeathed us, by a _once_ hardy, brave, and patriotic, but _now_ lamented and departed race of ancestors",
+                  "source_domain": "Testamentary legacy \u2014 ancestors bequeathing their achievements as a legacy to descendants; the founding generation as a departed testator",
+                  "target_domain": "The political institutions and freedoms as a legacy bequeathed by the founding generation who are now dead \u2014 their achievements constitute the present generation's patrimony",
+                  "char_span_start": 68,
+                  "char_span_end": 181,
+                  "confidence": 0.92,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_015",
+                  "cmt": {
+                    "mapping": {
+                      "a legacy bequeathed us": "the founding generation's achievements as a testamentary bequest \u2014 bequeathed (legal term for inheritance transfer) frames it as a formal inheritance act",
+                      "a _once_ hardy, brave, and patriotic...race of ancestors": "the founding generation as a distinct people, now dead \u2014 their heroic qualities make the legacy precious",
+                      "_now_ lamented and departed": "the founding generation as departed testators \u2014 they are dead; we are their inheritors. 'Lamented' frames their departure as a loss"
+                    },
+                    "entailments": [
+                      "'Bequeathed' is testamentary language \u2014 the founding generation formally left us their achievements as an inheritance",
+                      "The once/now contrast (hardy, brave, patriotic vs. lamented and departed) frames the founding generation as a race that has ceased to exist \u2014 their deaths make the legacy both precious and fragile",
+                      "We toiled not \u2014 the present generation received the inheritance without effort; this creates the obligation to preserve what we did not earn",
+                      "The 'departed race' formula frames the founding generation as a distinct people, not just historical predecessors \u2014 their extinction is a loss that creates urgency"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "founding_authority_as_rule",
+                    "violence_logic": "inherited_obligation",
+                    "obligatory_frame": "The founding generation bequeathed the political institutions as a legacy \u2014 and they are now dead. The present generation toiled not in the acquirement; they received it freely. This creates an obligation of stewardship: we must preserve what was given to us by a race of ancestors who earned it through hardship. The departed founders' death makes the inheritance both precious and obligating \u2014 if it is lost, there is no second chance to receive it.",
+                    "projected_entity": "The founding generation as departed testators whose legacy \u2014 political institutions \u2014 constitutes the present generation's patrimony",
+                    "guilt_distribution": "Those who fail to preserve the bequest violate the obligation of grateful stewardship \u2014 they dishonor the legacy of the 'lamented and departed race'",
+                    "sacrificial_economy": "None yet explicit \u2014 but the obligation-without-earning frame creates the structure for later sacrificial logic: if we received the inheritance without cost, we may owe a cost to preserve it",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "ext_015 member paired with inst_00078. This is the most explicit cluster_05 instance in the Lyceum Address \u2014 the foundational patrimony claim stated in testamentary language. 'Legacy bequeathed' is the inheritance frame's most precise legal formulation. The 'once...now' structure (hardy, brave, patriotic \u2192 lamented and departed) performs the elegiac function that will recur in cluster_05 throughout the corpus: the founders were great; they are gone; we must prove worthy of what they left us. This is cluster_05's earliest full deployment in the corpus."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_001_s01_p02_s05",
+              "sentence_ordinal": 5,
+              "text": "Their's was the task (and nobly they performed it) to possess themselves, and through themselves, us, of this goodly land; and to uprear upon its hills and its valleys, a political edifice of liberty and equal rights; 'tis ours only, to transmit these, the former, unprofaned by the foot of an invader; the latter, undecayed by the lapse of time and untorn by usurpation, to the latest generation that fate shall permit the world to know.",
+              "word_offset_start": 150,
+              "word_offset_end": 226,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p02_s06",
+              "sentence_ordinal": 6,
+              "text": "This task of gratitude to our fathers, justice to ourselves, duty to posterity, and love for our species in general, all imperatively require us faithfully to perform.",
+              "word_offset_start": 226,
+              "word_offset_end": 253,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "How then shall we perform it?--At what point shall we expect the approach of danger?",
+              "word_offset_start": 253,
+              "word_offset_end": 268,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "By what means shall we fortify against it?-- Shall we expect some transatlantic military giant, to step the Ocean, and crush us at a blow?",
+              "word_offset_start": 268,
+              "word_offset_end": 293,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "Never!--All the armies of Europe, Asia and Africa combined, with all the treasure of the earth (our own excepted) in their military chest; with a Buonaparte for a commander, could not by force, take a drink from the Ohio, or make a track on the Blue Ridge, in a trial of a thousand years.",
+              "word_offset_start": 293,
+              "word_offset_end": 347,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "At what point then is the approach of danger to be expected?",
+              "word_offset_start": 347,
+              "word_offset_end": 359,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "I answer, if it ever reach us, it must spring up amongst us.",
+              "word_offset_start": 359,
+              "word_offset_end": 372,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "It cannot come from abroad.",
+              "word_offset_start": 372,
+              "word_offset_end": 377,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "If destruction be our lot, we must ourselves be its author and finisher.",
+              "word_offset_start": 377,
+              "word_offset_end": 390,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "As a nation of freemen, we must live through all time, or die by suicide.",
+              "word_offset_start": 390,
+              "word_offset_end": 405,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00080",
+                  "sentence_id": "doc_001_s01_p04_s05",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "live through all time, or die by suicide",
+                  "source_domain": "Organism life and death \u2014 a nation as a living being that can live indefinitely or kill itself through self-inflicted destruction",
+                  "target_domain": "The American republic as a living organism whose only mortal danger is internal self-destruction (mob violence, disregard for law), not external attack",
+                  "char_span_start": 32,
+                  "char_span_end": 71,
+                  "confidence": 0.85,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "live through all time": "the nation as organism with indefinite lifespan \u2014 it need not die; it can persist eternally",
+                      "die by suicide": "self-destruction as the only available death mode \u2014 the national organism cannot be killed from outside, only from within",
+                      "As a nation of freemen": "the qualifier that gives the organism its unique property \u2014 because it is free, it cannot be destroyed by external force"
+                    },
+                    "entailments": [
+                      "The republic's only mortal threat is internal \u2014 foreign armies cannot kill it; only Americans can",
+                      "'Suicide' frames internal self-destruction as a freely chosen death \u2014 the national organism kills itself",
+                      "The nation-as-organism frame makes institutional decay a form of physiological deterioration",
+                      "This is the earliest nation-as-organism instance in the corpus \u2014 1838, 20 years before the House Divided Speech"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "national_integrity_threat",
+                    "violence_logic": "internal_self_destruction",
+                    "obligatory_frame": "The republic as a living organism can only die by its own hand. External threats \u2014 foreign armies, tyrants \u2014 cannot destroy it. Only internal breakdown (mob violence, disregard for law, attachment to an ambitious tyrant) can. The suicide frame makes the preservation of the republic's life a matter of internal discipline rather than external defense. The organism must be protected from itself.",
+                    "projected_entity": "The American republic as a living organism uniquely immune to external destruction but vulnerable to internal self-murder",
+                    "guilt_distribution": "Those who contribute to mob violence, disregard for law, or attachment to a Caesar-figure are participating in national suicide",
+                    "sacrificial_economy": "None \u2014 the suicide frame is a warning, not a call to sacrifice",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "This is the earliest cluster_01 instance in the corpus (1838). The organism frame here is existential: the national body has infinite lifespan unless it kills itself. The 'suicide' variant is the most internally focused form of cluster_01 \u2014 the threat is not wound, disease, or external attack but self-inflicted death. Contrast with the House Divided Speech (1858) where the architectural/structural frame makes the threat division-as-collapse rather than self-murder. The Lyceum Address's organism-suicide is a distinct early variant of cluster_01: life/death rather than stand/fall."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "I hope I am over wary; but if I am not, there is, even now, something of ill-omen, amongst us.",
+              "word_offset_start": 405,
+              "word_offset_end": 425,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "I mean the increasing disregard for law which pervades the country; the growing disposition to substitute the wild and furious passions, in lieu of the sober judgment of Courts; and the worse than savage mobs, for the executive ministers of justice.",
+              "word_offset_start": 425,
+              "word_offset_end": 466,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "This disposition is awfully fearful in any community; and that it now exists in ours, though grating to our feelings to admit, it would be a violation of truth, and an insult to our intelligence, to deny.",
+              "word_offset_start": 466,
+              "word_offset_end": 503,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Accounts of outrages committed by mobs, form the every-day news of the times.",
+              "word_offset_start": 503,
+              "word_offset_end": 516,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "They have pervaded the country, from New England to Louisiana;--they are neither peculiar to the eternal snows of the former, nor the burning suns of the latter;--they are not the creature of climate-- neither are they confined to the slave-holding, or the non-slave-holding States.",
+              "word_offset_start": 516,
+              "word_offset_end": 560,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p05_s06",
+              "sentence_ordinal": 6,
+              "text": "Alike, they spring up among the pleasure hunting masters of Southern slaves, and the order loving citizens of the land of steady habits.--Whatever, then, their cause may be, it is common to the whole country.",
+              "word_offset_start": 560,
+              "word_offset_end": 595,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "It would be tedious, as well as useless, to recount the horrors of all of them.",
+              "word_offset_start": 595,
+              "word_offset_end": 611,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Those happening in the State of Mississippi, and at St. Louis, are, perhaps, the most dangerous in example and revolting to humanity.",
+              "word_offset_start": 611,
+              "word_offset_end": 633,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "In the Mississippi case, they first commenced by hanging the regular gamblers; a set of men, certainly not following for a livelihood, a very useful, or very honest occupation; but one which, so far from being forbidden by the laws, was actually licensed by an act of the Legislature, passed but a single year before.",
+              "word_offset_start": 633,
+              "word_offset_end": 688,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "Next, negroes, suspected of conspiring to raise an insurrection, were caught up and hanged in all parts of the State: then, white men, supposed to be leagued with the negroes; and finally, strangers, from neighboring States, going thither on business, were, in many instances subjected to the same fate.",
+              "word_offset_start": 688,
+              "word_offset_end": 737,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "Thus went on this process of hanging, from gamblers to negroes, from negroes to white citizens, and from these to strangers; till, dead men were seen literally dangling from the boughs of trees upon every road side; and in numbers almost sufficient, to rival the native Spanish moss of the country, as a drapery of the forest.",
+              "word_offset_start": 737,
+              "word_offset_end": 794,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "Turn, then, to that horror-striking scene at St. Louis.",
+              "word_offset_start": 794,
+              "word_offset_end": 803,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "A single victim was only sacrificed there.",
+              "word_offset_start": 803,
+              "word_offset_end": 810,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "His story is very short; and is, perhaps, the most highly tragic, if anything of its length, that has ever been witnessed in real life.",
+              "word_offset_start": 810,
+              "word_offset_end": 835,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "A mulatto man, by the name of McIntosh, was seized in the street, dragged to the suburbs of the city, chained to a tree, and actually burned to death; and all within a single hour from the time he had been a freeman, attending to his own business, and at peace with the world.",
+              "word_offset_start": 835,
+              "word_offset_end": 889,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "Such are the effects of mob law; and such as the scenes, becoming more and more frequent in this land so lately famed for love of law and order; and the stories of which, have even now grown too familiar, to attract any thing more, than an idle remark.",
+              "word_offset_start": 889,
+              "word_offset_end": 938,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "But you are, perhaps, ready to ask, \"What has this to do with the perpetuation of our political institutions?\" I answer, it has much to do with it.",
+              "word_offset_start": 938,
+              "word_offset_end": 966,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "Its direct consequences are, comparatively speaking, but a small evil; and much of its danger consists, in the proneness of our minds, to regard its direct, as its only consequences.",
+              "word_offset_start": 966,
+              "word_offset_end": 996,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "Abstractly considered, the hanging of the gamblers at Vicksburg, was of but little consequence.",
+              "word_offset_start": 996,
+              "word_offset_end": 1010,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "They constitute a portion of population, that is worse than useless in any community; and their death, if no pernicious example be set by it, is never matter of reasonable regret with any one.",
+              "word_offset_start": 1010,
+              "word_offset_end": 1044,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s05",
+              "sentence_ordinal": 5,
+              "text": "If they were annually swept, from the stage of existence, by the plague or small pox, honest men would, perhaps, be much profited, by the operation.--Similar too, is the correct reasoning, in regard to the burning of the negro at St. Louis.",
+              "word_offset_start": 1044,
+              "word_offset_end": 1086,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s06",
+              "sentence_ordinal": 6,
+              "text": "He had forfeited his life, by the perpetration of an outrageous murder, upon one of the most worthy and respectable citizens of the city; and had not he died as he did, he must have died by the sentence of the law, in a very short time afterwards.",
+              "word_offset_start": 1086,
+              "word_offset_end": 1134,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s07",
+              "sentence_ordinal": 7,
+              "text": "As to him alone, it was as well the way it was, as it could otherwise have been.--But the example in either case, was fearful.--When men take it in their heads to day, to hang gamblers, or burn murderers, they should recollect, that, in the confusion usually attending such transactions, they will be as likely to hang or burn some one who is neither a gambler nor a murderer as one who is; and that, acting upon the example they set, the mob of to-morrow, may, and probably will, hang or burn some of them by the very same mistake.",
+              "word_offset_start": 1134,
+              "word_offset_end": 1234,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s08",
+              "sentence_ordinal": 8,
+              "text": "And not only so; the innocent, those who have ever set their faces against violations of law in every shape, alike with the guilty, fall victims to the ravages of mob law; and thus it goes on, step by step, till all the walls erected for the defense of the persons and property of individuals, are trodden down, and disregarded.",
+              "word_offset_start": 1234,
+              "word_offset_end": 1294,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s09",
+              "sentence_ordinal": 9,
+              "text": "But all this even, is not the full extent of the evil.--By such examples, by instances of the perpetrators of such acts going unpunished, the lawless in spirit, are encouraged to become lawless in practice; and having been used to no restraint, but dread of punishment, they thus become, absolutely unrestrained.--Having ever regarded Government as their deadliest bane, they make a jubilee of the suspension of its operations; and pray for nothing so much, as its total annihilation.",
+              "word_offset_start": 1294,
+              "word_offset_end": 1372,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s10",
+              "sentence_ordinal": 10,
+              "text": "While, on the other hand, good men, men who love tranquility, who desire to abide by the laws, and enjoy their benefits, who would gladly spill their blood in the defense of their country; seeing their property destroyed; their families insulted, and their lives endangered; their persons injured; and seeing nothing in prospect that forebodes a change for the better; become tired of, and disgusted with, a Government that offers them no protection; and are not much averse to a change in which they imagine they have nothing to lose.",
+              "word_offset_start": 1372,
+              "word_offset_end": 1462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s11",
+              "sentence_ordinal": 11,
+              "text": "Thus, then, by the operation of this mobocractic spirit, which all must admit, is now abroad in the land, the strongest bulwark of any Government, and particularly of those constituted like ours, may effectually be broken down and destroyed--I mean the _attachment_ of the People.",
+              "word_offset_start": 1462,
+              "word_offset_end": 1507,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s12",
+              "sentence_ordinal": 12,
+              "text": "Whenever this effect shall be produced among us; whenever the vicious portion of population shall be permitted to gather in bands of hundreds and thousands, and burn churches, ravage and rob provision-stores, throw printing presses into rivers, shoot editors, and hang and burn obnoxious persons at pleasure, and with impunity; depend on it, this Government cannot last.",
+              "word_offset_start": 1507,
+              "word_offset_end": 1564,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s13",
+              "sentence_ordinal": 13,
+              "text": "By such things, the feelings of the best citizens will become more or less alienated from it; and thus it will be left without friends, or with too few, and those few too weak, to make their friendship effectual.",
+              "word_offset_start": 1564,
+              "word_offset_end": 1603,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p09_s14",
+              "sentence_ordinal": 14,
+              "text": "At such a time and under such circumstances, men of sufficient talent and ambition will not be wanting to seize the opportunity, strike the blow, and overturn that fair fabric, which for the last half century, has been the fondest hope, of the lovers of freedom, throughout the world.",
+              "word_offset_start": 1603,
+              "word_offset_end": 1652,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "I know the American People are _much_ attached to their Government;--I know they would suffer _much_ for its sake;--I know they would endure evils long and patiently, before they would ever think of exchanging it for another.",
+              "word_offset_start": 1652,
+              "word_offset_end": 1689,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "Yet, notwithstanding all this, if the laws be continually despised and disregarded, if their rights to be secure in their persons and property, are held by no better tenure than the caprice of a mob, the alienation of their affections from the Government is the natural consequence; and to that, sooner or later, it must come.",
+              "word_offset_start": 1689,
+              "word_offset_end": 1745,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "Here then, is one point at which danger may be expected.",
+              "word_offset_start": 1745,
+              "word_offset_end": 1756,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "The question recurs, \"how shall we fortify against it?\" The answer is simple.",
+              "word_offset_start": 1756,
+              "word_offset_end": 1769,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "Let every American, every lover of liberty, every well wisher to his posterity, swear by the blood of the Revolution, never to violate in the least particular, the laws of the country; and never to tolerate their violation by others.",
+              "word_offset_start": 1769,
+              "word_offset_end": 1809,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "As the patriots of seventy-six did to the support of the Declaration of Independence, so to the support of the Constitution and Laws, let every American pledge his life, his property, and his sacred honor;--let every man remember that to violate the law, is to trample on the blood of his father, and to tear the character of his own, and his children's liberty.",
+              "word_offset_start": 1809,
+              "word_offset_end": 1873,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00081",
+                  "sentence_id": "doc_001_s01_p12_s03",
+                  "cluster_id": "cluster_05_fathers_inheritance",
+                  "linguistic_form": "trample on the blood of his father",
+                  "source_domain": "Blood inheritance \u2014 the founding generation's sacrifice as a blood-covenant; violating the law is desecrating the blood of the fathers who fought for it",
+                  "target_domain": "The obligation to revere the laws as inherited from the founding generation whose blood paid for them \u2014 law-violation is blood-desecration",
+                  "char_span_start": 261,
+                  "char_span_end": 294,
+                  "confidence": 0.88,
+                  "is_novel_metaphor": true,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "trample on the blood of his father": "violating the law = desecrating the blood the founding generation shed to establish it. Blood is the inheritance medium \u2014 the founding sacrifice.",
+                      "the blood of his father": "the founding generation's sacrifice literalized as blood \u2014 the material cost of establishing the inherited institutions",
+                      "swear by the blood of the Revolution": "the oath sworn on the founders' blood (p12_s02 preceding context) \u2014 the inheritance is blood-consecrated"
+                    },
+                    "entailments": [
+                      "The laws are blood-consecrated \u2014 established by the founders' sacrifice, the laws partake of their blood",
+                      "Violating the law is an act of literal desecration \u2014 trampling on something sacred",
+                      "The blood-inheritance frame makes law-reverence not just a civic duty but a moral obligation derived from the founding sacrifice",
+                      "This is cluster_05's most visceral form \u2014 not legal inheritance or testamentary legacy but blood-covenant inheritance"
+                    ],
+                    "conventional_or_novel": "novel"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "founding_authority_as_rule",
+                    "violence_logic": "blood_covenant_obligation",
+                    "obligatory_frame": "The laws are consecrated by the blood the founding generation shed to establish them. To violate the law is to trample on the blood of the father \u2014 an act of desecration and ingratitude. This is cluster_05's blood-covenant variant: the inheritance is not testamentary (legacy bequeathed) or juridical (precedent decided) but sacrificial. The founders' blood becomes the sacred material that consecrates the political institutions, and the obligation to preserve them becomes a duty not to desecrate the blood of the fathers.",
+                    "projected_entity": "The founding generation as blood-sacrificers whose shed blood consecrates the political institutions",
+                    "guilt_distribution": "Those who violate the law trample on the fathers' blood \u2014 they desecrate the sacred sacrifice of the founding generation",
+                    "sacrificial_economy": "The founding generation's blood is the original sacrifice that establishes the covenant. The present generation's obligation is to honor that sacrifice by law-reverence. This is the earliest sacrificial economy in the corpus \u2014 but it is retrospective (the founding sacrifice already paid) rather than prospective (new sacrifices required).",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "This is the most novel cluster_05 instance in the Lyceum Address \u2014 the blood-covenant inheritance variant. 'Trample on the blood of his father' is marked novel because the blood-as-inheritance-medium is not a conventional inheritance metaphor. The preceding sentence (p12_s02) has each American 'swear by the blood of the Revolution' \u2014 so the oath is sworn on blood, and violating it is trampling on blood. This blood-covenant structure will recur in different forms throughout the corpus (Gettysburg's honored dead, Second Inaugural's blood drawn by the sword) but here appears in its earliest and most direct form: the founding sacrifice as the consecrating material of the political covenant."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_001_s01_p12_s04",
+              "sentence_ordinal": 4,
+              "text": "Let reverence for the laws, be breathed by every American mother, to the lisping babe, that prattles on her lap--let it be taught in schools, in seminaries, and in colleges; let it be written in Primers, spelling books, and in Almanacs;--let it be preached from the pulpit, proclaimed in legislative halls, and enforced in courts of justice.",
+              "word_offset_start": 1873,
+              "word_offset_end": 1930,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p12_s05",
+              "sentence_ordinal": 5,
+              "text": "And, in short, let it become the _political religion_ of the nation; and let the old and the young, the rich and the poor, the grave and the gay, of all sexes and tongues, and colors and conditions, sacrifice unceasingly upon its altars.",
+              "word_offset_start": 1930,
+              "word_offset_end": 1973,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "While ever a state of feeling, such as this, shall universally, or even, very generally prevail throughout the nation, vain will be every effort, and fruitless every attempt, to subvert our national freedom.",
+              "word_offset_start": 1973,
+              "word_offset_end": 2006,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "When I so pressingly urge a strict observance of all the laws, let me not be understood as saying there are no bad laws, nor that grievances may not arise, for the redress of which, no legal provisions have been made.--I mean to say no such thing.",
+              "word_offset_start": 2006,
+              "word_offset_end": 2053,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "But I do mean to say, that, although bad laws, if they exist, should be repealed as soon as possible, still while they continue in force, for the sake of example, they should be religiously observed.",
+              "word_offset_start": 2053,
+              "word_offset_end": 2089,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "So also in unprovided cases.",
+              "word_offset_start": 2089,
+              "word_offset_end": 2094,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p14_s04",
+              "sentence_ordinal": 4,
+              "text": "If such arise, let proper legal provisions be made for them with the least possible delay; but, till then, let them, if not too intolerable, be borne with.",
+              "word_offset_start": 2094,
+              "word_offset_end": 2122,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "There is no grievance that is a fit object of redress by mob law.",
+              "word_offset_start": 2122,
+              "word_offset_end": 2136,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "In any case that arises, as for instance, the promulgation of abolitionism, one of two positions is necessarily true; that is, the thing is right within itself, and therefore deserves the protection of all law and all good citizens; or, it is wrong, and therefore proper to be prohibited by legal enactments; and in neither case, is the interposition of mob law, either necessary, justifiable, or excusable.",
+              "word_offset_start": 2136,
+              "word_offset_end": 2203,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "But, it may be asked, why suppose danger to our political institutions?",
+              "word_offset_start": 2203,
+              "word_offset_end": 2215,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "Have we not preserved them for more than fifty years?",
+              "word_offset_start": 2215,
+              "word_offset_end": 2225,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "And why may we not for fifty times as long?",
+              "word_offset_start": 2225,
+              "word_offset_end": 2235,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "We hope there is _no sufficient_ reason.",
+              "word_offset_start": 2235,
+              "word_offset_end": 2242,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s02",
+              "sentence_ordinal": 2,
+              "text": "We hope all dangers may be overcome; but to conclude that no danger may ever arise, would itself be extremely dangerous.",
+              "word_offset_start": 2242,
+              "word_offset_end": 2263,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s03",
+              "sentence_ordinal": 3,
+              "text": "There are now, and will hereafter be, many causes, dangerous in their tendency, which have not existed heretofore; and which are not too insignificant to merit attention.",
+              "word_offset_start": 2263,
+              "word_offset_end": 2290,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s04",
+              "sentence_ordinal": 4,
+              "text": "That our government should have been maintained in its original form from its establishment until now, is not much to be wondered at.",
+              "word_offset_start": 2290,
+              "word_offset_end": 2313,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s05",
+              "sentence_ordinal": 5,
+              "text": "It had many props to support it through that period, which now are decayed, and crumbled away.",
+              "word_offset_start": 2313,
+              "word_offset_end": 2330,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s06",
+              "sentence_ordinal": 6,
+              "text": "Through that period, it was felt by all, to be an undecided experiment; now, it is understood to be a successful one.--Then, all that sought celebrity and fame, and distinction, expected to find them in the success of that experiment.",
+              "word_offset_start": 2330,
+              "word_offset_end": 2370,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00082",
+                  "sentence_id": "doc_001_s01_p17_s06",
+                  "cluster_id": "cluster_03_experiment_proposition",
+                  "linguistic_form": "an undecided experiment; now, it is understood to be a successful one",
+                  "source_domain": "Scientific experiment \u2014 a test whose outcome was uncertain but has now been determined by results",
+                  "target_domain": "The American republic as an experiment in self-governance that was once undecided but has now been proved successful by historical demonstration",
+                  "char_span_start": 47,
+                  "char_span_end": 115,
+                  "confidence": 0.92,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_014",
+                  "cmt": {
+                    "mapping": {
+                      "an undecided experiment": "the republic during the founding period as a test whose outcome was uncertain \u2014 could it work? Was it possible?",
+                      "now, it is understood to be a successful one": "the present assessment \u2014 the experiment has been run, the results are in, the republic has been proved viable"
+                    },
+                    "entailments": [
+                      "The founding generation was running the experiment \u2014 they were the scientists who designed and executed the test",
+                      "The 'undecided' status was genuine uncertainty \u2014 the outcome was not predetermined but depended on whether the republic could sustain itself",
+                      "The experiment is now complete \u2014 'successful' in the past tense means the proof has been made",
+                      "This creates the subsequent problem: if the experiment is done, what motivates the next generation to maintain what was already proved?"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "republic_as_proposition_under_test",
+                    "violence_logic": "experimental_proof",
+                    "obligatory_frame": "The republic was an undecided experiment that has now been proved successful. The founding generation's task was to run the experiment; they succeeded. But with success comes a new problem: the proof is complete, and new ambitious men will not find satisfaction in maintaining what others proved. The experiment frame generates an obligation to preserve the proof \u2014 not to let a successfully completed experiment be destroyed by internal ambition or mob violence.",
+                    "projected_entity": "The American republic as a completed scientific experiment whose positive result must be preserved",
+                    "guilt_distribution": "Those who destroy the republic undermine a successful proof \u2014 they negate the experiment's result",
+                    "sacrificial_economy": "None \u2014 the experiment frame is epistemic, not sacrificial",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "ext_014 member: the first of three cluster_03 instances in p17. This sentence presents the temporal arc: the republic was once undecided (experiment uncertain) and is now understood as successful. The arc from undecided to successful is the core of the cluster_03 logic \u2014 the republic as proof. Contrast with Gettysburg's 'testing whether' formula (1863), which reopens the experimental uncertainty that the Lyceum Address declares closed in 1838. The Civil War will make the experiment undecided again."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s07",
+              "sentence_ordinal": 7,
+              "text": "Their _all_ was staked upon it:-- their destiny was _inseparably_ linked with it.",
+              "word_offset_start": 2370,
+              "word_offset_end": 2383,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s08",
+              "sentence_ordinal": 8,
+              "text": "Their ambition aspired to display before an admiring world, a practical demonstration of the truth of a proposition, which had hitherto been considered, at best no better, than problematical; namely, _the capability of a people to govern themselves_.",
+              "word_offset_start": 2383,
+              "word_offset_end": 2421,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00083",
+                  "sentence_id": "doc_001_s01_p17_s08",
+                  "cluster_id": "cluster_03_experiment_proposition",
+                  "linguistic_form": "a practical demonstration of the truth of a proposition, which had hitherto been considered, at best no better, than problematical; namely, _the capability of a people to govern themselves_",
+                  "source_domain": "Logical proof / scientific demonstration \u2014 proving the truth of a proposition by practical demonstration rather than theoretical argument",
+                  "target_domain": "The American republic as a practical demonstration of the proposition that self-governance is possible \u2014 a truth that had been theoretically doubted and required practical proof",
+                  "char_span_start": 60,
+                  "char_span_end": 248,
+                  "confidence": 0.9,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_014",
+                  "cmt": {
+                    "mapping": {
+                      "a practical demonstration of the truth of a proposition": "the republic as a proof-by-demonstration: not arguing theoretically but showing by doing",
+                      "which had hitherto been considered...no better, than problematical": "the proposition's prior epistemic status \u2014 doubted, uncertain, not yet proved",
+                      "the capability of a people to govern themselves": "the specific proposition being tested \u2014 self-governance as an open empirical question"
+                    },
+                    "entailments": [
+                      "The founding generation did not argue for self-governance's possibility \u2014 they demonstrated it",
+                      "The republic is itself the proof: its existence and success is the demonstration",
+                      "'Problematical' means genuinely uncertain before demonstration \u2014 the experiment was not predetermined to succeed",
+                      "The founding generation's 'ambition' was to demonstrate the proposition \u2014 political success was their experimental result"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "republic_as_proposition_under_test",
+                    "violence_logic": "experimental_proof",
+                    "obligatory_frame": "The founding generation's ambition was to demonstrate the truth of a proposition \u2014 that self-governance is possible. They succeeded, and their success constitutes the republic's foundational claim. Destroying the republic destroys the demonstration. The obligation to preserve it is the obligation not to invalidate a completed proof.",
+                    "projected_entity": "The American republic as the demonstration of the proposition that self-governance is possible",
+                    "guilt_distribution": "Those who destroy the republic invalidate the demonstration \u2014 they prove the proposition false by destroying the evidence that it was true",
+                    "sacrificial_economy": "None",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "ext_014 member: the fullest articulation of cluster_03 in the Lyceum Address. Where p17_s06 presents the experiment/success summary, this sentence presents the logical-proposition variant: the republic is a 'practical demonstration of the truth of a proposition.' The founding generation were not builders or warriors but demonstrators of a logical proof. This is cluster_03's most explicit early formulation in the corpus \u2014 more explicit than Gettysburg's compressed 'testing whether' because Lincoln in 1838 states the proposition directly ('the capability of a people to govern themselves') and names the prior epistemic status ('problematical'). The Gettysburg version will compress this into a four-word subordinate clause."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s09",
+              "sentence_ordinal": 9,
+              "text": "If they succeeded, they were to be immortalized; their names were to be transferred to counties and cities, and rivers and mountains; and to be revered and sung, and toasted through all time.",
+              "word_offset_start": 2421,
+              "word_offset_end": 2454,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s10",
+              "sentence_ordinal": 10,
+              "text": "If they failed, they were to be called knaves and fools, and fanatics for a fleeting hour; then to sink and be forgotten.",
+              "word_offset_start": 2454,
+              "word_offset_end": 2477,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s11",
+              "sentence_ordinal": 11,
+              "text": "They succeeded.",
+              "word_offset_start": 2477,
+              "word_offset_end": 2479,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s12",
+              "sentence_ordinal": 12,
+              "text": "The experiment is successful; and thousands have won their deathless names in making it so.",
+              "word_offset_start": 2479,
+              "word_offset_end": 2494,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00084",
+                  "sentence_id": "doc_001_s01_p17_s12",
+                  "cluster_id": "cluster_03_experiment_proposition",
+                  "linguistic_form": "The experiment is successful",
+                  "source_domain": "Scientific experiment \u2014 the conclusive assessment that an experimental test has produced a positive result",
+                  "target_domain": "The American republic as a concluded experiment whose positive result is now established fact",
+                  "char_span_start": 0,
+                  "char_span_end": 27,
+                  "confidence": 0.88,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_014",
+                  "cmt": {
+                    "mapping": {
+                      "The experiment is successful": "the verdict \u2014 the republic-as-experiment has produced a positive result. This is cluster_03's conclusion statement.",
+                      "thousands have won their deathless names in making it so": "the founding generation's experimental success is credited to specific individuals \u2014 the scientists who made the demonstration work"
+                    },
+                    "entailments": [
+                      "'Is successful' is a verdict statement \u2014 the experiment has been evaluated and found positive",
+                      "The present tense ('is') rather than past ('was') treats the success as an ongoing condition",
+                      "Thousands won deathless names in making it so \u2014 the experimental success required human cost, and that cost created immortal credit",
+                      "The 'harvested field of glory' language that follows frames the experiment's completion as the end of an opportunity cycle"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "republic_as_proposition_under_test",
+                    "violence_logic": "experimental_proof",
+                    "obligatory_frame": "The experiment is successful \u2014 the proof is complete. This concludes the ext_014 arc: from undecided experiment (p17_s06) through practical demonstration (p17_s08) to conclusive verdict (p17_s12). The problem the Lyceum Address now confronts is: what happens after the proof is complete? The ambitious men of the next generation cannot find satisfaction in maintaining a completed proof. They must seek new experiments \u2014 and those new experiments are dangerous to the republic.",
+                    "projected_entity": "The American republic as an experiment whose positive result is now established",
+                    "guilt_distribution": "Those who seek to overturn the republic for personal ambition are undermining a completed and successful experiment",
+                    "sacrificial_economy": "Thousands won deathless names in making the experiment successful \u2014 their sacrifice is acknowledged but not required again. The founding sacrifice is complete.",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "ext_014 member: the capstone of the three-sentence cluster_03 arc in p17. The arc: undecided \u2192 demonstrated proposition \u2192 successful. This sentence is the verdict. Immediately following this, Lincoln notes that 'the game is caught' and 'this field of glory is harvested' \u2014 the experiment's completion creates a new danger (ambitious men with no experiment to run). The problem of ambitious genius is the Lyceum Address's distinctive contribution to the cluster_03 logic: what happens when the republic's proof is complete and there are still ambitious men who need experiments to run?"
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s13",
+              "sentence_ordinal": 13,
+              "text": "But the game is caught; and I believe it is true, that with the catching, end the pleasures of the chase.",
+              "word_offset_start": 2494,
+              "word_offset_end": 2515,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s14",
+              "sentence_ordinal": 14,
+              "text": "This field of glory is harvested, and the crop is already appropriated.",
+              "word_offset_start": 2515,
+              "word_offset_end": 2527,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s15",
+              "sentence_ordinal": 15,
+              "text": "But new reapers will arise, and _they_, too, will seek a field.",
+              "word_offset_start": 2527,
+              "word_offset_end": 2539,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s16",
+              "sentence_ordinal": 16,
+              "text": "It is to deny, what the history of the world tells us is true, to suppose that men of ambition and talents will not continue to spring up amongst us.",
+              "word_offset_start": 2539,
+              "word_offset_end": 2569,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s17",
+              "sentence_ordinal": 17,
+              "text": "And, when they do, they will as naturally seek the gratification of their ruling passion, as others have so done before them.",
+              "word_offset_start": 2569,
+              "word_offset_end": 2591,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s18",
+              "sentence_ordinal": 18,
+              "text": "The question then, is, can that gratification be found in supporting and maintaining an edifice that has been erected by others?",
+              "word_offset_start": 2591,
+              "word_offset_end": 2612,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s19",
+              "sentence_ordinal": 19,
+              "text": "Most certainly it cannot.",
+              "word_offset_start": 2612,
+              "word_offset_end": 2616,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s20",
+              "sentence_ordinal": 20,
+              "text": "Many great and good men sufficiently qualified for any task they should undertake, may ever be found, whose ambition would inspire to nothing beyond a seat in Congress, a gubernatorial or a presidential chair; _but such belong not to the family of the lion, or the tribe of the eagle._ What! think you these places would satisfy an Alexander, a Caesar, or a Napoleon?--Never!",
+              "word_offset_start": 2616,
+              "word_offset_end": 2680,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s21",
+              "sentence_ordinal": 21,
+              "text": "Towering genius distains a beaten path.",
+              "word_offset_start": 2680,
+              "word_offset_end": 2686,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s22",
+              "sentence_ordinal": 22,
+              "text": "It seeks regions hitherto unexplored.--It sees _no distinction_ in adding story to story, upon the monuments of fame, erected to the memory of others.",
+              "word_offset_start": 2686,
+              "word_offset_end": 2710,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s23",
+              "sentence_ordinal": 23,
+              "text": "It _denies_ that it is glory enough to serve under any chief.",
+              "word_offset_start": 2710,
+              "word_offset_end": 2722,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s24",
+              "sentence_ordinal": 24,
+              "text": "It _scorns_ to tread in the footsteps of _any_ predecessor, however illustrious.",
+              "word_offset_start": 2722,
+              "word_offset_end": 2734,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s25",
+              "sentence_ordinal": 25,
+              "text": "It thirsts and burns for distinction; and, if possible, it will have it, whether at the expense of emancipating slaves, or enslaving freemen.",
+              "word_offset_start": 2734,
+              "word_offset_end": 2757,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s26",
+              "sentence_ordinal": 26,
+              "text": "Is it unreasonable then to expect, that some man possessed of the loftiest genius, coupled with ambition sufficient to push it to its utmost stretch, will at some time, spring up among us?",
+              "word_offset_start": 2757,
+              "word_offset_end": 2790,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p17_s27",
+              "sentence_ordinal": 27,
+              "text": "And when such a one does, it will require the people to be united with each other, attached to the government and laws, and generally intelligent, to successfully frustrate his designs.",
+              "word_offset_start": 2790,
+              "word_offset_end": 2821,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "Distinction will be his paramount object, and although he would as willingly, perhaps more so, acquire it by doing good as harm; yet, that opportunity being past, and nothing left to be done in the way of building up, he would set boldly to the task of pulling down.",
+              "word_offset_start": 2821,
+              "word_offset_end": 2870,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Here, then, is a probable case, highly dangerous, and such a one as could not have well existed heretofore.",
+              "word_offset_start": 2870,
+              "word_offset_end": 2889,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "Another reason which _once was_; but which, to the same extent, is _now no more_, has done much in maintaining our institutions thus far.",
+              "word_offset_start": 2889,
+              "word_offset_end": 2913,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "I mean the powerful influence which the interesting scenes of the revolution had upon the _passions_ of the people as distinguished from their judgment.",
+              "word_offset_start": 2913,
+              "word_offset_end": 2937,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p20_s03",
+              "sentence_ordinal": 3,
+              "text": "By this influence, the jealousy, envy, and avarice, incident to our nature, and so common to a state of peace, prosperity, and conscious strength, were, for the time, in a great measure smothered and rendered inactive; while the deep-rooted principles of _hate_, and the powerful motive of _revenge_, instead of being turned against each other, were directed exclusively against the British nation.",
+              "word_offset_start": 2937,
+              "word_offset_end": 2999,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p20_s04",
+              "sentence_ordinal": 4,
+              "text": "And thus, from the force of circumstances, the basest principles of our nature, were either made to lie dormant, or to become the active agents in the advancement of the noblest cause--that of establishing and maintaining civil and religious liberty.",
+              "word_offset_start": 2999,
+              "word_offset_end": 3039,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "But this state of feeling _must fade, is fading, has faded_, with the circumstances that produced it.",
+              "word_offset_start": 3039,
+              "word_offset_end": 3056,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "I do not mean to say, that the scenes of the revolution _are now_ or _ever will_ be entirely forgotten; but that like every thing else, they must fade upon the memory of the world, and grow more and more dim by the lapse of time.",
+              "word_offset_start": 3056,
+              "word_offset_end": 3102,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "In history, we hope, they will be read of, and recounted, so long as the bible shall be read;-- but even granting that they will, their influence _cannot be_ what it heretofore has been.",
+              "word_offset_start": 3102,
+              "word_offset_end": 3136,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "Even then, they _cannot be_ so universally known, nor so vividly felt, as they were by the generation just gone to rest.",
+              "word_offset_start": 3136,
+              "word_offset_end": 3158,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p22_s04",
+              "sentence_ordinal": 4,
+              "text": "At the close of that struggle, nearly every adult male had been a participator in some of its scenes.",
+              "word_offset_start": 3158,
+              "word_offset_end": 3177,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p22_s05",
+              "sentence_ordinal": 5,
+              "text": "The consequence was, that of those scenes, in the form of a husband, a father, a son or brother, a _living history_ was to be found in every family-- a history bearing the indubitable testimonies of its own authenticity, in the limbs mangled, in the scars of wounds received, in the midst of the very scenes related--a history, too, that could be read and understood alike by all, the wise and the ignorant, the learned and the unlearned.--But _those_ histories are gone.",
+              "word_offset_start": 3177,
+              "word_offset_end": 3259,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p22_s06",
+              "sentence_ordinal": 6,
+              "text": "They _can_ be read no more forever.",
+              "word_offset_start": 3259,
+              "word_offset_end": 3266,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p22_s07",
+              "sentence_ordinal": 7,
+              "text": "They _were_ a fortress of strength; but, what invading foeman could _never do_, the silent artillery of time _has done_; the leveling of its walls.",
+              "word_offset_start": 3266,
+              "word_offset_end": 3291,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p22_s08",
+              "sentence_ordinal": 8,
+              "text": "They are gone.--They _were_ a forest of giant oaks; but the all-resistless hurricane has swept over them, and left only, here and there, a lonely trunk, despoiled of its verdure, shorn of its foliage; unshading and unshaded, to murmur in a few gentle breezes, and to combat with its mutilated limbs, a few more ruder storms, then to sink, and be no more.",
+              "word_offset_start": 3291,
+              "word_offset_end": 3354,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "They _were_ the pillars of the temple of liberty; and now, that they have crumbled away, that temple must fall, unless we, their descendants, supply their places with other pillars, hewn from the solid quarry of sober reason.",
+              "word_offset_start": 3354,
+              "word_offset_end": 3392,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00085",
+                  "sentence_id": "doc_001_s01_p23_s01",
+                  "cluster_id": "cluster_05_fathers_inheritance",
+                  "linguistic_form": "the pillars of the temple of liberty; and now, that they have crumbled away, that temple must fall, unless we, their descendants, supply their places with other pillars",
+                  "source_domain": "Architectural inheritance \u2014 the founding generation as the structural pillars of a temple; their death as the crumbling of those pillars; the present generation's obligation to supply replacement pillars hewn from reason",
+                  "target_domain": "The obligation of the present generation to replace the founding generation's function as structural supports of the republic \u2014 the fathers were the pillars; we must be their replacements",
+                  "char_span_start": 12,
+                  "char_span_end": 179,
+                  "confidence": 0.85,
+                  "is_novel_metaphor": true,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "the pillars of the temple of liberty": "the founding generation as structural supports \u2014 without them the temple cannot stand",
+                      "that they have crumbled away, that temple must fall": "the founding generation's death as structural failure \u2014 the temple loses its pillars and must collapse",
+                      "unless we, their descendants, supply their places with other pillars": "the inheritance obligation: the present generation must replace the founding pillars with new ones",
+                      "hewn from the solid quarry of sober reason": "the material for the replacement pillars \u2014 reason rather than passion. The source of the new structural supports"
+                    },
+                    "entailments": [
+                      "The founding generation's function was structural, not just inspirational \u2014 they were pillars that actually held up the temple",
+                      "Their deaths create a structural deficiency \u2014 the temple cannot stand on crumbled pillars",
+                      "The inheritance obligation is architectural: we must supply new pillars, not just preserve the old ones",
+                      "The shift from passion-based pillars (the founders' revolutionary fervor) to reason-based pillars (sober reason) is the Lyceum Address's political argument in compressed form"
+                    ],
+                    "conventional_or_novel": "novel"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "founding_authority_as_rule",
+                    "violence_logic": "architectural_inheritance_obligation",
+                    "obligatory_frame": "The founding generation were the pillars of the temple of liberty. They have crumbled. The temple must fall unless we \u2014 their descendants \u2014 supply replacement pillars. This is cluster_05's architectural-inheritance variant: the obligation is not to receive a legacy (legal inheritance) or honor a blood-covenant (blood of the father) but to actively replace structural elements that have been lost. The inheritance is not property to be stewarded but a structural role to be filled.",
+                    "projected_entity": "The founding generation as the structural pillars of the republic \u2014 architectural supports whose loss threatens collapse",
+                    "guilt_distribution": "Those who fail to supply replacement pillars allow the temple to fall \u2014 they are responsible for the collapse through inaction",
+                    "sacrificial_economy": "None \u2014 the architectural inheritance frame demands construction, not sacrifice",
+                    "absence_flags": [
+                      "disease_and_purification"
+                    ],
+                    "annotator_notes": "The most architecturally explicit cluster_05 instance in the corpus. The 'pillars of the temple of liberty' frame is novel \u2014 treating the founding generation not as ancestors or legal testators but as architectural structural elements. This creates an unusual inheritance obligation: we must not preserve the pillars (they have crumbled) but replace them with new ones. The material specification ('hewn from the solid quarry of sober reason') anticipates the Lyceum Address's concluding argument: the next generation must substitute reason for passion as the basis of civic attachment. The founding generation's passion-based patriotism cannot be replicated; reason-based patriotism must take its place."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_001_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "Passion has helped us; but can do so no more.",
+              "word_offset_start": 3392,
+              "word_offset_end": 3402,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p23_s03",
+              "sentence_ordinal": 3,
+              "text": "It will in future be our enemy.",
+              "word_offset_start": 3402,
+              "word_offset_end": 3409,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_001_s01_p23_s04",
+              "sentence_ordinal": 4,
+              "text": "Reason, cold, calculating, unimpassioned reason, must furnish all the materials for our future support and defence.--Let those materials be moulded into _general intelligence, sound morality_, and in particular, _a reverence for the constitution and laws_: and, that we improved to the last; that we remained free to the last; that we revered his name to the last; that, during his long sleep, we permitted no hostile foot to pass over or desecrate his resting place; shall be that which to learn the last trump shall awaken our WASHINGTON.",
+              "word_offset_start": 3409,
+              "word_offset_end": 3497,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_001_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "doc_001_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "Upon these let the proud fabric of freedom rest, as the rock of its basis; and as truly as has been said of the only greater institution, \"_the gates of hell shall not prevail against it_.\"",
+              "word_offset_start": 3497,
+              "word_offset_end": 3533,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "**/*.md"
+    - "!SCAFFOLD.md"
+    - "!PROMPT.md"
+    - "!README.md"
+    - "!QUARTO.md"
+
+website:
+  title: "Lincoln Metaphor Analysis"
+  description: "Koenigsberg ideological fantasy analysis applied to Lincoln's corpus, 1838–1865"
+
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: corpus_index.qmd
+        text: Corpus
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - href: index.qmd
+        text: Overview
+      - href: corpus_index.qmd
+        text: Corpus
+      - section: Methodology
+        contents:
+          - href: skills/koenigsberg_method.md
+            text: Koenigsberg Method
+          - href: skills/cmt_analysis.md
+            text: CMT Analysis
+          - href: skills/annotation_protocol.md
+            text: Annotation Protocol
+          - href: skills/absence_analysis.md
+            text: Absence Analysis
+          - href: skills/diachronic_tracking.md
+            text: Diachronic Tracking
+          - href: skills/corpus_register.md
+            text: Corpus Register
+          - href: skills/schema_definitions.md
+            text: Schema Definitions
+          - href: skills/close_reading.md
+            text: Close Reading
+          - href: player_aids/metaphor_reference_cards.md
+            text: Reference Cards
+      - section: Analysis
+        contents:
+          - href: analysis/systematic_absence.md
+            text: Systematic Absence
+          - href: analysis/diachronic_map.md
+            text: Diachronic Map
+          - section: Cluster Profiles
+            contents:
+              - href: analysis/cluster_profiles/cluster_01.md
+                text: "01 — Body / Organism"
+              - href: analysis/cluster_profiles/cluster_02.md
+                text: "02 — Covenant / Oath"
+              - href: analysis/cluster_profiles/cluster_03.md
+                text: "03 — Experiment / Proposition"
+              - href: analysis/cluster_profiles/cluster_04.md
+                text: "04 — Birth / Creation"
+              - href: analysis/cluster_profiles/cluster_05.md
+                text: "05 — Fathers / Inheritance"
+              - href: analysis/cluster_profiles/cluster_06.md
+                text: "06 — Providence / Theodicy"
+          - section: Document Notes
+            contents:
+              - href: analysis/document_notes/doc_001_notes.md
+                text: "doc_001 — Lyceum Address"
+              - href: analysis/document_notes/doc_005_notes.md
+                text: "doc_005 — House Divided"
+              - href: analysis/document_notes/doc_007_notes.md
+                text: "doc_007 — Cooper Union"
+              - href: analysis/document_notes/doc_008_notes.md
+                text: "doc_008 — Springfield Farewell"
+              - href: analysis/document_notes/doc_009_notes.md
+                text: "doc_009 — First Inaugural"
+              - href: analysis/document_notes/doc_011_notes.md
+                text: "doc_011 — Constitution Fragment"
+              - href: analysis/document_notes/doc_012_notes.md
+                text: "doc_012 — Greeley Letter"
+              - href: analysis/document_notes/doc_013_notes.md
+                text: "doc_013 — Prelim. Emancipation"
+              - href: analysis/document_notes/doc_015_notes.md
+                text: "doc_015 — Final Emancipation"
+              - href: analysis/document_notes/doc_016_notes.md
+                text: "doc_016 — Conkling Letter"
+              - href: analysis/document_notes/doc_017_notes.md
+                text: "doc_017 — Gettysburg"
+              - href: analysis/document_notes/doc_018_notes.md
+                text: "doc_018 — Blind Memorandum"
+              - href: analysis/document_notes/doc_019_notes.md
+                text: "doc_019 — Hodges Letter"
+              - href: analysis/document_notes/doc_020_notes.md
+                text: "doc_020 — Re-election Serenade"
+              - href: analysis/document_notes/doc_021_notes.md
+                text: "doc_021 — Second Inaugural"
+              - href: analysis/document_notes/doc_022_notes.md
+                text: "doc_022 — Last Address"
+      - section: Comparison
+        contents:
+          - href: comparison/theoretical_framework.md
+            text: Theoretical Framework
+          - href: comparison/koenigsberg_comparison.md
+            text: Lincoln vs. Hitler
+      - section: Synthesis
+        contents:
+          - href: synthesis/findings.md
+            text: Findings
+          - href: synthesis/open_questions.md
+            text: Open Questions
+      - href: DECISIONS.md
+        text: Design Decisions
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3

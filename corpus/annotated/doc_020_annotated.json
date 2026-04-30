@@ -1,0 +1,591 @@
+{
+  "document_id": "doc_020",
+  "meta": {
+    "id": "doc_020",
+    "title": "Response to a Serenade",
+    "short_title": "Re-election Serenade",
+    "date": "1864-11-10",
+    "date_precision": "exact",
+    "register": "campaign_speech",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.88,
+    "authorship_notes": "Extemporaneous response following Lincoln's re-election on November 8, 1864. Experiment/proof frame unguarded — election result as empirical evidence that democratic government can survive a major election in wartime.",
+    "source_text": "Collected Works vol.8 pp.96-101",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8",
+    "risk_flags": ["transcription_noise"],
+    "analytical_priority": "medium"
+  },
+  "document_summary": {
+    "doc_id": "doc_020",
+    "total_instances": 5,
+    "clusters_activated": ["cluster_03_experiment_proposition", "cluster_01_body_organism", "cluster_06_providence_theodicy"],
+    "dominant_cluster": "cluster_03_experiment_proposition",
+    "extension_groups": ["ext_010"],
+    "primary_finding": "The Re-election Serenade is the corpus's clearest deployment of cluster_03 (experiment/proposition) as explicit epistemological argument. Lincoln treats the election not as a political victory but as a scientific demonstration: the republic had a 'grave question' (hypothesis), the wartime election was a 'severe test' (experiment), and the result 'demonstrated' that democratic government can survive (proof). The three-stage experiment arc (ext_010) is unguarded — this is an extemporaneous speech to supporters, not a carefully crafted formal address, which means the cluster_03 frame is closest to Lincoln's actual cognitive structure. The document also contains a brief cluster_06 instance (God directed the election result) and a cluster_01 health-check ('sound and strong we still are') — in 350 words, three clusters are activated without extended metaphor, which is characteristic of the campaign_speech register.",
+    "annotator_notes": "Five instances, three forming ext_010 (the experiment arc). The campaign_speech register means authorship_confidence is adjusted to 0.88 (transcription_noise flag), applied as −0.05 to all instance confidence scores. The speech is extemporaneous but Lincoln wrote out a version the same night (per Hay's diary in the annotation section). Text annotated is Lincoln's written version. Note: p06_s04 ('how sound, and how strong we still are') uses 'sound' in the medical/organism sense — a doctor pronouncing a patient healthy. This is the cluster_01 health-check pattern: not wound/healing but organism-soundness verification."
+  },
+  "sections": [
+    {
+      "section_id": "doc_020_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_020_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Response to a SerenadeNovember 10, 1864",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "It has long been a grave question whether any government, not too strong for the liberties of its people, can be strong enough to maintain its own existence, in great emergencies.",
+              "word_offset_start": 6,
+              "word_offset_end": 37,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00047",
+                  "sentence_id": "doc_020_s01_p02_s01",
+                  "cluster_id": "cluster_03_experiment_proposition",
+                  "linguistic_form": "maintain its own existence",
+                  "source_domain": "scientific hypothesis — the unresolved question of whether a proposition holds",
+                  "target_domain": "whether democratic government can survive great emergencies",
+                  "char_span_start": 130,
+                  "char_span_end": 156,
+                  "confidence": 0.77,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": true,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": "ext_010",
+                  "cmt": {
+                    "mapping": {
+                      "grave question": "the scientific hypothesis not yet resolved",
+                      "government...maintain its own existence": "the republic as an organism whose survival is the proposition being tested",
+                      "great emergencies": "the experimental conditions — extreme stress that will determine whether the proposition holds"
+                    },
+                    "entailments": [
+                      "Democratic government's survival is not guaranteed — it is a hypothesis",
+                      "Wartime is the testing condition — the emergency that reveals whether the proposition holds",
+                      "The republic is simultaneously an organism (can maintain existence) and an experiment (proposition under test)"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "evidentiary",
+                    "obligatory_frame": "If the republic's survival is a hypothesis not yet proven, then everything required to prove it is obligatory. The war continues because the experiment is not yet complete.",
+                    "projected_entity": "founding_proposition",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [],
+                    "annotator_notes": "ambiguity_flag: 'maintain its own existence' activates both cluster_01 (organism surviving) and cluster_03 (proposition being tested). Coded cluster_03 as primary because the sentence opens with 'grave question' — the scientific-hypothesis framing is explicit. Cluster_01 co-activation noted. Confidence adjusted down to 0.77 (0.82 base − 0.05 campaign_speech register)."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "On this point the present rebellion brought our republic to a severe test; and a presidential election occurring in regular course during the rebellion added not a little to the strain.",
+              "word_offset_start": 37,
+              "word_offset_end": 68,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00048",
+                  "sentence_id": "doc_020_s01_p03_s01",
+                  "cluster_id": "cluster_03_experiment_proposition",
+                  "linguistic_form": "brought our republic to a severe test",
+                  "source_domain": "scientific testing — a controlled trial that stresses a subject to determine its limits",
+                  "target_domain": "the Civil War as the experimental condition testing whether democratic self-government can survive",
+                  "char_span_start": 36,
+                  "char_span_end": 73,
+                  "confidence": 0.88,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": "ext_010",
+                  "cmt": {
+                    "mapping": {
+                      "republic": "the experimental subject — the proposition made institutional",
+                      "severe test": "the experimental trial — maximum stress conditions",
+                      "added not a little to the strain": "the wartime election increased the experimental load"
+                    },
+                    "entailments": [
+                      "The republic is under controlled stress — the experiment is happening now",
+                      "The strain is quantifiable — the election added measurable additional stress",
+                      "A 'severe test' implies expected difficulty before proof is established"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "evidentiary",
+                    "obligatory_frame": "The republic must survive the severe test to demonstrate the proposition. Failing the test — allowing the election to be cancelled — would disprove the proposition and effectively end the experiment. This makes surviving the test obligatory.",
+                    "projected_entity": "founding_proposition",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [],
+                    "annotator_notes": "The campaign_speech register makes this cluster_03 activation particularly significant: Lincoln is using the experiment frame with a celebratory audience, not in a formal address. This suggests cluster_03 is not reserved for high-rhetoric occasions — it is Lincoln's default epistemic frame for the war's purpose."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_020_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "If the loyal people, united, were put to the utmost of their strength by the rebellion, must they not fail when divided, and partially paralized, by a political war among themselves?",
+              "word_offset_start": 68,
+              "word_offset_end": 99,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "But the election was a necessity.",
+              "word_offset_start": 99,
+              "word_offset_end": 105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "We can not have free government without elections; and if the rebellion could force us to forego, or postpone a national election, it might fairly claim to have already conquered and ruined us.",
+              "word_offset_start": 105,
+              "word_offset_end": 138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "The strife of the election is but human-nature practically applied to the facts of the case.",
+              "word_offset_start": 138,
+              "word_offset_end": 154,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "What has occurred in this case, must ever recur in similar cases.",
+              "word_offset_start": 154,
+              "word_offset_end": 166,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Human-nature will not change.",
+              "word_offset_start": 166,
+              "word_offset_end": 170,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "In any future great national trial, compared with the men of this, we shall have as weak, and as strong; as silly and as wise; as bad and good.",
+              "word_offset_start": 170,
+              "word_offset_end": 199,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s06",
+              "sentence_ordinal": 6,
+              "text": "Let us, therefore, study the incidents of this, as philosophy to learn wisdom from, and none of them as wrongs to be revenged.",
+              "word_offset_start": 199,
+              "word_offset_end": 222,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "But the election, along with its incidental, and undesirable strife, has done good too.",
+              "word_offset_start": 222,
+              "word_offset_end": 236,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "It has demonstrated that a people's government can sustain a national election, in the midst of a great civil war.",
+              "word_offset_start": 236,
+              "word_offset_end": 256,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00049",
+                  "sentence_id": "doc_020_s01_p06_s02",
+                  "cluster_id": "cluster_03_experiment_proposition",
+                  "linguistic_form": "demonstrated that a people's government can sustain a national election",
+                  "source_domain": "scientific demonstration — empirical evidence proving a proposition",
+                  "target_domain": "the election result as proof that democratic government can survive wartime",
+                  "char_span_start": 7,
+                  "char_span_end": 78,
+                  "confidence": 0.92,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": "ext_010",
+                  "cmt": {
+                    "mapping": {
+                      "demonstrated": "empirical proof — the election produced evidence that resolves the prior question",
+                      "a people's government can sustain": "the proposition is confirmed — the experimental subject survived the trial",
+                      "in the midst of a great civil war": "the testing conditions — maximum stress — under which the demonstration was valid"
+                    },
+                    "entailments": [
+                      "The election result is data, not just politics — it proves a previously unproven proposition",
+                      "The demonstration is valid because conditions were maximally stressful",
+                      "Until this demonstration, the proposition was unproven — 'Until now it has not been known to the world'"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "evidentiary",
+                    "obligatory_frame": "The demonstration closes the experiment: the proposition is now proven. But the war that created the experimental conditions must continue until the proof is complete (the rebellion crushed). The evidentiary logic requires seeing the experiment through.",
+                    "projected_entity": "founding_proposition",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [],
+                    "annotator_notes": "This sentence completes the ext_010 arc: hypothesis (p02) → test (p03) → demonstration (p06). The word 'demonstrated' is precise: not 'showed,' not 'suggested,' but 'demonstrated' — the register of scientific proof. This is cluster_03 at its most explicit and unguarded. The subsequent sentence ('Until now it has not been known to the world that this was a possibility') confirms that the demonstration has global epistemic significance — it is not just an American election but a proof for the world."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "Until now it has not been known to the world that this was a possibility.",
+              "word_offset_start": 256,
+              "word_offset_end": 271,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "It shows also how sound, and how strong we still are.",
+              "word_offset_start": 271,
+              "word_offset_end": 282,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00050",
+                  "sentence_id": "doc_020_s01_p06_s04",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "how sound, and how strong we still are",
+                  "source_domain": "medical evaluation of an organism's health — soundness as the absence of disease or structural damage",
+                  "target_domain": "the republic's continued vitality after surviving the wartime election",
+                  "char_span_start": 14,
+                  "char_span_end": 52,
+                  "confidence": 0.82,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "sound": "the medical/structural assessment — no internal damage, no disease",
+                      "strong": "physical vitality — the organism's capacity to resist further stress",
+                      "still are": "the adverb of survival — still sound despite what was feared"
+                    },
+                    "entailments": [
+                      "The republic is a body that could have been damaged by the wartime election",
+                      "The election tested the body and found it healthy — no wounds, no fractures",
+                      "The 'still' implies a feared alternative: the body could have been weakened"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "wound_and_healing",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": "The health-check confirms the organism is intact. If the body is still sound, it can continue fighting — the war's continuation is medically authorized by the republic's resilience.",
+                    "projected_entity": "national_body",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [],
+                    "annotator_notes": "'Sound' is the key word: in medical usage, a 'sound' body is one free of internal disease or structural damage. The republic being 'sound' after the election stress is the cluster_01 health-check that complements the cluster_03 experimental proof. The two clusters work together: the experiment proved the proposition (cluster_03); the health check confirmed no damage was sustained (cluster_01)."
+                  }
+                }
+              ]
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "It shows that, even among candidates of the same party, he who is most devoted to the Union, and most opposed to treason, can receive most of the people's votes.",
+              "word_offset_start": 282,
+              "word_offset_end": 312,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s06",
+              "sentence_ordinal": 6,
+              "text": "It shows also, to the extent yet known, that we have more men now, than we had when the war began.",
+              "word_offset_start": 312,
+              "word_offset_end": 333,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s07",
+              "sentence_ordinal": 7,
+              "text": "Gold is good in its place; but living, brave, patriotic men, are better than gold.",
+              "word_offset_start": 333,
+              "word_offset_end": 348,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "But the rebellion continues; and now that the election is over, may not all, having a common interest, re-unite in a common effort, to save our common country?",
+              "word_offset_start": 348,
+              "word_offset_end": 376,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "For my own part I have striven, and shall strive to avoid placing any obstacle in the way.",
+              "word_offset_start": 376,
+              "word_offset_end": 394,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "So long as I have been here I have not willingly planted a thorn in any man's bosom.",
+              "word_offset_start": 394,
+              "word_offset_end": 412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "While I am deeply sensible to the high compliment of a re-election; and duly grateful, as I trust, to Almighty God for having directed my countrymen to a right conclusion, as I think, for their own good, it adds nothing to my satisfaction that any other man may be disappointed or pained by the result.",
+              "word_offset_start": 412,
+              "word_offset_end": 467,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00051",
+                  "sentence_id": "doc_020_s01_p08_s01",
+                  "cluster_id": "cluster_06_providence_theodicy",
+                  "linguistic_form": "Almighty God for having directed my countrymen to a right conclusion",
+                  "source_domain": "divine direction — God steering human decision-making toward a predetermined correct outcome",
+                  "target_domain": "Providence guiding the electorate to re-elect Lincoln",
+                  "char_span_start": 102,
+                  "char_span_end": 170,
+                  "confidence": 0.87,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "suppression_notes": null,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "Almighty God...directed": "Providence as active steerer of human electoral decision",
+                      "my countrymen": "the electorate as the directed object",
+                      "right conclusion": "the divinely sanctioned outcome — correctness is God's judgment, not merely Lincoln's preference"
+                    },
+                    "entailments": [
+                      "The election result is not merely a popular vote but a divine verdict",
+                      "God's direction makes the result epistemically authoritative — it is 'right'",
+                      "Lincoln attributes the victory to God rather than claiming it as personal achievement"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "obligatory",
+                    "obligatory_frame": "If God directed the election to a right conclusion, then the war's continuation under Lincoln's leadership is divinely sanctioned. The political mandate is also a theological mandate.",
+                    "projected_entity": "divine_instrument",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [
+                      "lincoln_non_agent"
+                    ],
+                    "annotator_notes": "lincoln_non_agent: Lincoln attributes the election result to God's direction, not to his own merit or his voters' judgment. This is the same non-agent positioning as the Springfield Farewell (God must attend him) and the Hodges Letter (events controlled him). In the campaign_speech register, this framing also functions to defuse post-election bitterness: if God chose Lincoln, opposing him is opposing God."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "May I ask those who have not differed with me, to join with me, in this same spirit towards those who have?",
+              "word_offset_start": 467,
+              "word_offset_end": 489,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "And now, let me close by asking three hearty cheers for our brave soldiers and seamen and their gallant and skilful commanders.",
+              "word_offset_start": 489,
+              "word_offset_end": 511,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_020_s02",
+      "section_label": "annotation",
+      "section_ordinal": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_020_s02_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s02_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "[1]   AD, NDry.",
+              "word_offset_start": 511,
+              "word_offset_end": 514,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s02_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "Concerning this speech and Lincoln's response to a serenade on November 8 (supra), John Hay's Diary records under date of November 11: ``The speeches of the President at the two last serenades are very highly spoken of.",
+              "word_offset_start": 514,
+              "word_offset_end": 551,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s02_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "The first I wrote after the fact to prevent the `loyal Pennsylvanians' getting a swing at it themselves.",
+              "word_offset_start": 551,
+              "word_offset_end": 569,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s02_p01_s04",
+              "sentence_ordinal": 4,
+              "text": "The second one, last night, the President himself",
+              "word_offset_start": 569,
+              "word_offset_end": 577,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s02_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s02_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "wrote late in the evening and read it from the window.",
+              "word_offset_start": 577,
+              "word_offset_end": 588,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s02_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "`Not very graceful,' he said, `but I am growing old enough not to care much for the manner of doing things.'''",
+              "word_offset_start": 588,
+              "word_offset_end": 609,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
+    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+  ]
+}

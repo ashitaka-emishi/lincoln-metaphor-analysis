@@ -1,0 +1,348 @@
+{
+  "version": "1.0",
+  "generated": "2026-04-28",
+  "status": "stub",
+  "cluster_analyses": [
+    {
+      "cluster_id": "cluster_01_body_organism",
+      "cluster_name": "Nation as organism / body",
+      "source_domain": "wound, healing, birth, severance, disease",
+      "target_domain": "the American Union",
+      "instance_count": null,
+      "instance_ids": [],
+      "diachronic": {
+        "first_attested": null,
+        "last_attested": null,
+        "by_year": {},
+        "by_document": {},
+        "trend_notes": null
+      },
+      "cmt_profile": {
+        "dominant_linguistic_forms": [],
+        "dominant_entailments": [],
+        "novel_instances": [],
+        "extended_metaphor_groups": []
+      },
+      "koenigsberg_profile": {
+        "dominant_fantasy_types": [],
+        "dominant_violence_logic": [],
+        "obligatory_frame_rate": null,
+        "dominant_projected_entity": null,
+        "dominant_guilt_distribution": null,
+        "sacrificial_economy_rate": null,
+        "dominant_psychic_defense": null,
+        "absence_flags_distribution": {}
+      },
+      "political_moral_work": null,
+      "what_metaphor_conceals": null,
+      "hitler_comparison": {
+        "hitler_parallel_cluster": "Volksgemeinschaft as racial body",
+        "structural_similarity": null,
+        "structural_divergence": "Hitler adds disease_and_purification logic absent from Lincoln; Lincoln's body metaphor has restorative exit condition; Hitler's does not",
+        "shared_fantasy_types": ["wound_and_healing"],
+        "shared_violence_logic": ["restorative"],
+        "lincoln_specific_constructs": ["reparation psychic defense", "distributed guilt"],
+        "hitler_specific_constructs": ["disease_and_purification", "ethnic exclusion", "purifying violence"],
+        "analytically_significant_absences": ["disease_and_purification absent from Lincoln corpus"]
+      },
+      "register_distribution": {
+        "formal_public_address": 0,
+        "campaign_speech": 0,
+        "congressional_message": 0,
+        "semi_public_letter": 0,
+        "legal_document": 0,
+        "fragment_private": 0
+      },
+      "suppression_instances": [],
+      "analyst_notes": null
+    },
+    {
+      "cluster_id": "cluster_02_covenant_oath",
+      "cluster_name": "Union as covenant / oath",
+      "source_domain": "sworn oath, contract, sacred bond",
+      "target_domain": "the constitutional compact",
+      "instance_count": null,
+      "instance_ids": [],
+      "diachronic": {
+        "first_attested": null,
+        "last_attested": null,
+        "by_year": {},
+        "by_document": {},
+        "trend_notes": null
+      },
+      "cmt_profile": {
+        "dominant_linguistic_forms": [],
+        "dominant_entailments": [],
+        "novel_instances": [],
+        "extended_metaphor_groups": []
+      },
+      "koenigsberg_profile": {
+        "dominant_fantasy_types": [],
+        "dominant_violence_logic": [],
+        "obligatory_frame_rate": null,
+        "dominant_projected_entity": null,
+        "dominant_guilt_distribution": null,
+        "sacrificial_economy_rate": null,
+        "dominant_psychic_defense": null,
+        "absence_flags_distribution": {}
+      },
+      "political_moral_work": null,
+      "what_metaphor_conceals": null,
+      "hitler_comparison": {
+        "hitler_parallel_cluster": null,
+        "structural_similarity": null,
+        "structural_divergence": "Covenant logic has no direct Hitler parallel; Hitler uses racial blood-bond (Blutgemeinschaft) rather than contractual oath",
+        "shared_fantasy_types": ["oath_and_obligation"],
+        "shared_violence_logic": ["obligatory"],
+        "lincoln_specific_constructs": ["constitutional covenant", "biracial republic implicit", "oath as rational obligation"],
+        "hitler_specific_constructs": ["racial blood-bond", "organic ethnic community"],
+        "analytically_significant_absences": []
+      },
+      "register_distribution": {
+        "formal_public_address": 0,
+        "campaign_speech": 0,
+        "congressional_message": 0,
+        "semi_public_letter": 0,
+        "legal_document": 0,
+        "fragment_private": 0
+      },
+      "suppression_instances": [],
+      "analyst_notes": "Key suppression event: Greeley Letter (doc_012) deploys covenant cluster to argue against emancipation. Track the cluster's political flexibility."
+    },
+    {
+      "cluster_id": "cluster_03_experiment_proposition",
+      "cluster_name": "Republic as experiment / proposition",
+      "source_domain": "logical proof, scientific test",
+      "target_domain": "democratic self-government",
+      "instance_count": null,
+      "instance_ids": [],
+      "diachronic": {
+        "first_attested": null,
+        "last_attested": null,
+        "by_year": {},
+        "by_document": {},
+        "trend_notes": null
+      },
+      "cmt_profile": {
+        "dominant_linguistic_forms": [],
+        "dominant_entailments": [],
+        "novel_instances": [],
+        "extended_metaphor_groups": []
+      },
+      "koenigsberg_profile": {
+        "dominant_fantasy_types": [],
+        "dominant_violence_logic": [],
+        "obligatory_frame_rate": null,
+        "dominant_projected_entity": null,
+        "dominant_guilt_distribution": null,
+        "sacrificial_economy_rate": null,
+        "dominant_psychic_defense": null,
+        "absence_flags_distribution": {}
+      },
+      "political_moral_work": null,
+      "what_metaphor_conceals": null,
+      "hitler_comparison": {
+        "hitler_parallel_cluster": null,
+        "structural_similarity": null,
+        "structural_divergence": "Lincoln-specific; no Hitler parallel. Hitler does not construct violence as evidentiary proof of a proposition.",
+        "shared_fantasy_types": [],
+        "shared_violence_logic": ["evidentiary"],
+        "lincoln_specific_constructs": ["experiment_and_proof", "democratic proposition", "war as decisive test"],
+        "hitler_specific_constructs": [],
+        "analytically_significant_absences": ["enslaved_people_non_agent — they are the object of the proposition being tested, not the agents proving it"]
+      },
+      "register_distribution": {
+        "formal_public_address": 0,
+        "campaign_speech": 0,
+        "congressional_message": 0,
+        "semi_public_letter": 0,
+        "legal_document": 0,
+        "fragment_private": 0
+      },
+      "suppression_instances": [],
+      "analyst_notes": null
+    },
+    {
+      "cluster_id": "cluster_04_birth_creation",
+      "cluster_name": "War as birth / new creation",
+      "source_domain": "labor, nativity, generative act",
+      "target_domain": "the refounding of the nation",
+      "instance_count": null,
+      "instance_ids": [],
+      "diachronic": {
+        "first_attested": null,
+        "last_attested": null,
+        "by_year": {},
+        "by_document": {},
+        "trend_notes": null
+      },
+      "cmt_profile": {
+        "dominant_linguistic_forms": [],
+        "dominant_entailments": [],
+        "novel_instances": [],
+        "extended_metaphor_groups": []
+      },
+      "koenigsberg_profile": {
+        "dominant_fantasy_types": [],
+        "dominant_violence_logic": [],
+        "obligatory_frame_rate": null,
+        "dominant_projected_entity": null,
+        "dominant_guilt_distribution": null,
+        "sacrificial_economy_rate": null,
+        "dominant_psychic_defense": null,
+        "absence_flags_distribution": {}
+      },
+      "political_moral_work": null,
+      "what_metaphor_conceals": null,
+      "hitler_comparison": {
+        "hitler_parallel_cluster": "Aryan rebirth / Third Reich as new creation",
+        "structural_similarity": "Both use generative violence logic; death produces new national form",
+        "structural_divergence": "Lincoln's birth is inclusive (new birth of freedom); Hitler's rebirth is ethnically exclusive. Lincoln's has a logical terminus; Hitler's requires perpetual purification.",
+        "shared_fantasy_types": ["birth_and_creation"],
+        "shared_violence_logic": ["generative"],
+        "lincoln_specific_constructs": ["new birth of freedom", "proposition-grounded rebirth"],
+        "hitler_specific_constructs": ["racial rebirth", "blood-and-soil nativity"],
+        "analytically_significant_absences": ["black_soldiers_erased — most literal embodiment of the birth/sacrifice cluster post-1863"]
+      },
+      "register_distribution": {
+        "formal_public_address": 0,
+        "campaign_speech": 0,
+        "congressional_message": 0,
+        "semi_public_letter": 0,
+        "legal_document": 0,
+        "fragment_private": 0
+      },
+      "suppression_instances": [],
+      "analyst_notes": null
+    },
+    {
+      "cluster_id": "cluster_05_fathers_inheritance",
+      "cluster_name": "Founding fathers as inheritance",
+      "source_domain": "patrimony, lineage, ancestral debt",
+      "target_domain": "obligation to the founders",
+      "instance_count": null,
+      "instance_ids": [],
+      "diachronic": {
+        "first_attested": null,
+        "last_attested": null,
+        "by_year": {},
+        "by_document": {},
+        "trend_notes": null
+      },
+      "cmt_profile": {
+        "dominant_linguistic_forms": [],
+        "dominant_entailments": [],
+        "novel_instances": [],
+        "extended_metaphor_groups": []
+      },
+      "koenigsberg_profile": {
+        "dominant_fantasy_types": [],
+        "dominant_violence_logic": [],
+        "obligatory_frame_rate": null,
+        "dominant_projected_entity": null,
+        "dominant_guilt_distribution": null,
+        "sacrificial_economy_rate": null,
+        "dominant_psychic_defense": null,
+        "absence_flags_distribution": {}
+      },
+      "political_moral_work": null,
+      "what_metaphor_conceals": null,
+      "hitler_comparison": {
+        "hitler_parallel_cluster": "Germanic ancestors / Aryan heritage",
+        "structural_similarity": "Both use ancestral debt logic; both invoke idealized founding generation",
+        "structural_divergence": "Lincoln's fathers are civic-rational (Declaration signers, logical propositions); Hitler's are racial-biological (blood ancestors, genetic heritage). Lincoln's idealization conceals founders' ambivalence on slavery; Hitler's conceals historical reality of racial mixing.",
+        "shared_fantasy_types": ["ancestral_debt"],
+        "shared_violence_logic": ["obligatory"],
+        "lincoln_specific_constructs": ["civic inheritance", "propositional patrimony"],
+        "hitler_specific_constructs": ["racial lineage", "blood inheritance"],
+        "analytically_significant_absences": ["enslaved_people_non_agent — they cannot inherit the founders' legacy in Lincoln's framework despite being most affected by it"]
+      },
+      "register_distribution": {
+        "formal_public_address": 0,
+        "campaign_speech": 0,
+        "congressional_message": 0,
+        "semi_public_letter": 0,
+        "legal_document": 0,
+        "fragment_private": 0
+      },
+      "suppression_instances": [],
+      "analyst_notes": null
+    },
+    {
+      "cluster_id": "cluster_06_providence_theodicy",
+      "cluster_name": "Providence / divine will",
+      "source_domain": "God's judgment, punishment, theodicy",
+      "target_domain": "the war's cause and meaning",
+      "instance_count": null,
+      "instance_ids": [],
+      "diachronic": {
+        "first_attested": null,
+        "last_attested": null,
+        "by_year": {},
+        "by_document": {},
+        "trend_notes": null
+      },
+      "cmt_profile": {
+        "dominant_linguistic_forms": [],
+        "dominant_entailments": [],
+        "novel_instances": [],
+        "extended_metaphor_groups": []
+      },
+      "koenigsberg_profile": {
+        "dominant_fantasy_types": [],
+        "dominant_violence_logic": [],
+        "obligatory_frame_rate": null,
+        "dominant_projected_entity": null,
+        "dominant_guilt_distribution": null,
+        "sacrificial_economy_rate": null,
+        "dominant_psychic_defense": null,
+        "absence_flags_distribution": {}
+      },
+      "political_moral_work": null,
+      "what_metaphor_conceals": null,
+      "hitler_comparison": {
+        "hitler_parallel_cluster": "Providence / historical destiny",
+        "structural_similarity": "Both use providential logic; both position themselves as instruments of historical/divine forces beyond their control",
+        "structural_divergence": "Lincoln's Providence distributes guilt and opens toward reconciliation; Hitler's Providence selects and excludes. Lincoln's theodicy is shared punishment (both sides suffer for shared sin); Hitler's is chosen-people triumph.",
+        "shared_fantasy_types": ["punishment_and_theodicy"],
+        "shared_violence_logic": ["punitive", "obligatory"],
+        "lincoln_specific_constructs": ["distributed-guilt theodicy", "lincoln_non_agent", "malice toward none as structural implication"],
+        "hitler_specific_constructs": ["chosen-people destiny", "enemy as providential obstacle"],
+        "analytically_significant_absences": ["lincoln_non_agent at maximum — Second Inaugural positions Lincoln as pure instrument"]
+      },
+      "register_distribution": {
+        "formal_public_address": 0,
+        "campaign_speech": 0,
+        "congressional_message": 0,
+        "semi_public_letter": 0,
+        "legal_document": 0,
+        "fragment_private": 0
+      },
+      "suppression_instances": [],
+      "analyst_notes": "Key test: does Blind Memorandum (doc_018, fragment_private) show same providence rhetoric as public addresses? Epistemic test of public/private consistency."
+    }
+  ],
+  "systematic_absence": {
+    "primary_absent_entity": "enslaved_people",
+    "total_absence_flag_instances": null,
+    "absence_totals_by_flag": {},
+    "absence_by_cluster": {},
+    "absence_by_register": {},
+    "absence_by_year": {},
+    "key_findings": [],
+    "analyst_notes": null
+  },
+  "cross_cluster": {
+    "co_activation_matrix": {},
+    "metaphor_hierarchy_evidence": [],
+    "cluster_shift_events": []
+  },
+  "koenigsberg_master_comparison": {
+    "lincoln_unique_constructs": ["experiment_and_proof", "oath_and_obligation"],
+    "hitler_unique_constructs": ["disease_and_purification"],
+    "shared_structural_logic": ["sacrificial_economy", "obligatory_frame", "body_politic_projection"],
+    "primary_structural_divergence": null,
+    "significance": null
+  },
+  "pipeline_log": []
+}

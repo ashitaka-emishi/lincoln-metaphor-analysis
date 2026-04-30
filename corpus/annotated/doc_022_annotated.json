@@ -1,0 +1,359 @@
+{
+  "document_id": "doc_022",
+  "meta": {
+    "id": "doc_022",
+    "title": "Last Public Address",
+    "short_title": "Last Address",
+    "date": "1865-04-11",
+    "date_precision": "exact",
+    "register": "formal_public_address",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.8 pp.399-405",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:252",
+    "risk_flags": [],
+    "analytical_priority": "high"
+  },
+  "document_summary": {
+    "doc_id": "doc_022",
+    "total_instances": 4,
+    "clusters_activated": [
+      "cluster_02_covenant_oath",
+      "cluster_04_birth_creation",
+      "cluster_06_providence_theodicy"
+    ],
+    "dominant_cluster": "cluster_04_birth_creation",
+    "extension_groups": ["ext_011"],
+    "primary_finding": "The Last Address, delivered three days before Lincoln's assassination, is organized around the problem of Reconstruction — specifically Louisiana. The cluster_04 arc (ext_011) is the document's analytical centerpiece: the Louisiana government is described first as something to be fed, grown, and ripened (p07_s07), then explicitly compared to an egg that must be hatched rather than smashed (p07_s10). The egg-to-fowl metaphor (inst_00064) is the most novel cluster_04 instance in the corpus — a domestic agricultural metaphor for political development that makes nurture rather than force the governing logic of Reconstruction. The cluster_06 opening (p01_s03, 'He from whom all blessings flow') frames all subsequent political discussion within a providential horizon — victory belongs to God before it belongs to Grant. The cluster_02 instance (p05_s01) uses the 'proper relation' formula that echoes the Emancipation Proclamations but applies it to the Reconstruction political question rather than the war aim. Clusters absent: cluster_01 (no body/wound language — the nation is not injured here, it is reconstructing), cluster_03 (no experiment-proof frame), cluster_05 (no founding fathers). The absence of cluster_01 wound language in this postwar address is notable: the body-politic is not being healed; it is being rebuilt.",
+    "annotator_notes": "p07_s05: 'This cup of liberty which these, your old masters, hold to your lips, we will dash from you, and leave you to the chances of gathering the spilled and scattered contents in some vague and undefined when, where, and how.' — cup-of-liberty metaphor evaluated. Source domain: cup of liquid (liberty as drinkable substance that can be dashed away). Does not clearly map to any of the six clusters. Not annotated; noted for systematic absence analysis — liberty appears here as a physical substance that can be withheld or spilled, a frame Lincoln uses nowhere else in the corpus. p06_s03: Lincoln expresses preference for Black suffrage for 'the very intelligent, and...those who serve our cause as soldiers.' This is the most explicit recognition of Black soldiers' political standing in the corpus — more advanced than the Conkling Letter's military attribution. Not a CMT annotation but critical for absence analysis."
+  },
+  "sections": [
+    {
+      "section_id": "doc_022_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_022_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {"sentence_id": "doc_022_s01_p01_s01", "sentence_ordinal": 1, "text": "We meet this evening, not in sorrow, but in gladness of heart.", "word_offset_start": 0, "word_offset_end": 12, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p01_s02", "sentence_ordinal": 2, "text": "The evacuation of Petersburg and Richmond, and the surrender of the principal insurgent army, give hope of a righteous and speedy peace whose joyous expression can not be restrained.", "word_offset_start": 12, "word_offset_end": 41, "authorship_note": null, "metaphor_instances": []},
+            {
+              "sentence_id": "doc_022_s01_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "In the midst of this, however, He from whom all blessings flow, must not be forgotten.",
+              "word_offset_start": 41,
+              "word_offset_end": 57,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00061",
+                  "sentence_id": "doc_022_s01_p01_s03",
+                  "cluster_id": "cluster_06_providence_theodicy",
+                  "linguistic_form": "He from whom all blessings flow",
+                  "source_domain": "God as the source from which all good things emanate — a fountainhead or wellspring of blessings",
+                  "target_domain": "Providence as the origin of military victory and the peace it brings",
+                  "char_span_start": 31,
+                  "char_span_end": 61,
+                  "confidence": 0.87,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "He from whom all blessings flow": "God as the origin-point of all good — victory and peace are blessings that flow from God, not achievements of human effort alone",
+                      "must not be forgotten": "the human tendency is to credit military commanders; Lincoln redirects to the divine source"
+                    },
+                    "entailments": [
+                      "Military victory is a blessing from God, not primarily a human achievement",
+                      "Grant and the army are instruments; God is the source",
+                      "Gratitude is owed to the divine source before it is owed to human actors"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "divine_sanction",
+                    "violence_logic": "divinely_sourced",
+                    "obligatory_frame": "Victory flows from God — the Union's military success is a divine blessing, not a human accomplishment. The cluster_06 frame appears in the opening sentence of the last address, ensuring the entire subsequent political discussion (Reconstruction) occurs within a providential frame.",
+                    "projected_entity": "God_as_fountainhead",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": ["lincoln_non_agent"],
+                    "annotator_notes": "lincoln_non_agent: Lincoln explicitly disclaims credit for military victory (p01_s07: 'no part of the honor, for plan or execution, is mine'). The cluster_06 opening reinforces this — God is the source of victory, Grant and the army are the instruments, Lincoln is the transmitter of good news. The final address opens with the most complete subordination of human agency to divine source in the corpus."
+                  }
+                }
+              ]
+            },
+            {"sentence_id": "doc_022_s01_p01_s04", "sentence_ordinal": 4, "text": "A call for a national thanksgiving is being prepared, and will be duly promulgated.", "word_offset_start": 57, "word_offset_end": 71, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p01_s05", "sentence_ordinal": 5, "text": "Nor must those whose harder part gives us the cause of rejoicing, be overlooked.", "word_offset_start": 71, "word_offset_end": 85, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p01_s06", "sentence_ordinal": 6, "text": "Their honors must not be parcelled out with others.", "word_offset_start": 85, "word_offset_end": 94, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p01_s07", "sentence_ordinal": 7, "text": "I myself was near the front, and had the high pleasure of transmitting much of the good news to you; but no part of the honor, for plan or execution, is mine.", "word_offset_start": 94, "word_offset_end": 126, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p01_s08", "sentence_ordinal": 8, "text": "To Gen. Grant, his skilful officers, and brave men, all belongs.", "word_offset_start": 126, "word_offset_end": 137, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p01_s09", "sentence_ordinal": 9, "text": "The gallant Navy stood ready, but was not in reach to take active part.", "word_offset_start": 137, "word_offset_end": 151, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_022_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {"sentence_id": "doc_022_s01_p02_s01", "sentence_ordinal": 1, "text": "By these recent successes the re-inauguration of the national authority -- reconstruction -- which has had a large share of thought from the first, is pressed much more closely upon our attention.", "word_offset_start": 151, "word_offset_end": 183, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p02_s02", "sentence_ordinal": 2, "text": "It is fraught with great difficulty.", "word_offset_start": 183, "word_offset_end": 189, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p02_s03", "sentence_ordinal": 3, "text": "Unlike a case of a war between independent nations, there is no authorized organ for us to treat with.", "word_offset_start": 189, "word_offset_end": 208, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p02_s04", "sentence_ordinal": 4, "text": "No one man has authority to give up the rebellion for any other man.", "word_offset_start": 208, "word_offset_end": 222, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p02_s05", "sentence_ordinal": 5, "text": "We simply must begin with, and mould from, disorganized and discordant elements.", "word_offset_start": 222, "word_offset_end": 234, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p02_s06", "sentence_ordinal": 6, "text": "Nor is it a small additional embarrassment that we, the loyal people, differ among ourselves as to the mode, manner, and means of reconstruction.", "word_offset_start": 234, "word_offset_end": 258, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_022_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {"sentence_id": "doc_022_s01_p03_s01", "sentence_ordinal": 1, "text": "As a general rule, I abstain from reading the reports of attacks upon myself, wishing not to be provoked by that to which I can not properly offer an answer.", "word_offset_start": 258, "word_offset_end": 288, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s02", "sentence_ordinal": 2, "text": "In spite of this precaution, however, it comes to my knowledge that I am much censured for some supposed agency in setting up, and seeking to sustain, the new State government of Louisiana.", "word_offset_start": 288, "word_offset_end": 321, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s03", "sentence_ordinal": 3, "text": "In this I have done just so much as, and no more than, the public knows.", "word_offset_start": 321, "word_offset_end": 337, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s04", "sentence_ordinal": 4, "text": "In the Annual Message of Dec. 1863 and accompanying Proclamation, I presented a plan of re-construction (as the phrase goes) which, I promised, if adopted by any State, should be acceptable to, and sustained by, the Executive government of the nation.", "word_offset_start": 337, "word_offset_end": 378, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s05", "sentence_ordinal": 5, "text": "I distinctly stated that this was not the only plan which might possibly be acceptable; and I also distinctly protested that the Executive claimed no right to say when, or whether members should be admitted to seats in Congress from such States.", "word_offset_start": 378, "word_offset_end": 420, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s06", "sentence_ordinal": 6, "text": "This plan was, in advance, submitted to the then Cabinet, and distinctly approved by every member of it.", "word_offset_start": 420, "word_offset_end": 438, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s07", "sentence_ordinal": 7, "text": "One of them suggested that I should then, and in that connection, apply the Emancipation Proclamation to the theretofore excepted parts of Virginia and Louisiana; that I should drop the suggestion about apprenticeship for freed-people, and that I should omit the protest against my own power, in regard to the admission of members to Congress; but even he approved every part and parcel of the plan which has since been employed or touched by the action of Louisiana.", "word_offset_start": 438, "word_offset_end": 516, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s08", "sentence_ordinal": 8, "text": "The new constitution of Louisiana, declaring emancipation for the whole State, practically applies the Proclamation to the part previously excepted.", "word_offset_start": 516, "word_offset_end": 536, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s09", "sentence_ordinal": 9, "text": "It does not adopt apprenticeship for freed-people; and it is silent, as it could not well be otherwise, about the admission of members to Congress.", "word_offset_start": 536, "word_offset_end": 561, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s10", "sentence_ordinal": 10, "text": "So that, as it applies to Louisiana, every member of the Cabinet fully approved the plan.", "word_offset_start": 561, "word_offset_end": 577, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s11", "sentence_ordinal": 11, "text": "The message went to Congress, and I received many commendations of the plan, written and verbal; and not a single objection to it, from any professed emancipationist, came to my knowledge, until after the news reached Washington that the people of Louisiana had begun to move in accordance with it.", "word_offset_start": 577, "word_offset_end": 627, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s12", "sentence_ordinal": 12, "text": "From about July 1862, I had corresponded with different persons, supposed to be interested, seeking a reconstruction of a State government for Louisiana.", "word_offset_start": 627, "word_offset_end": 650, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s13", "sentence_ordinal": 13, "text": "When the message of 1863, with the plan before mentioned, reached New-Orleans, Gen. Banks wrote me that he was confident the people, with his military co-operation, would reconstruct, substantially on that plan.", "word_offset_start": 650, "word_offset_end": 682, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s14", "sentence_ordinal": 14, "text": "I wrote him, and some of them to try it; they tried it, and the result is known.", "word_offset_start": 682, "word_offset_end": 700, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s15", "sentence_ordinal": 15, "text": "Such only has been my agency in getting up the Louisiana government.", "word_offset_start": 700, "word_offset_end": 712, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s16", "sentence_ordinal": 16, "text": "As to sustaining it, my promise is out, as before stated.", "word_offset_start": 712, "word_offset_end": 723, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s17", "sentence_ordinal": 17, "text": "But, as bad promises are better broken than kept, I shall treat this as a bad promise, and break it, whenever I shall be convinced that keeping it is adverse to the public interest.", "word_offset_start": 723, "word_offset_end": 757, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p03_s18", "sentence_ordinal": 18, "text": "But I have not yet been so convinced.", "word_offset_start": 757, "word_offset_end": 765, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_022_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {"sentence_id": "doc_022_s01_p04_s01", "sentence_ordinal": 1, "text": "I have been shown a letter on this subject, supposed to be an able one, in which the writer expresses regret that my mind has not seemed to be definitely fixed on the question whether the seceding States, so called, are in the Union or out of it.", "word_offset_start": 765, "word_offset_end": 813, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p04_s02", "sentence_ordinal": 2, "text": "It would perhaps, add astonishment to his regret, were he to learn that since I have found professed Union men endeavoring to make that question, I have purposely forborne any public expression upon it.", "word_offset_start": 813, "word_offset_end": 847, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p04_s03", "sentence_ordinal": 3, "text": "As appears to me that question has not been, nor yet is, a practically material one, and that any discussion of it, while it thus remains practically immaterial, could have no effect other than the mischievous one of dividing our friends.", "word_offset_start": 847, "word_offset_end": 888, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p04_s04", "sentence_ordinal": 4, "text": "As yet, whatever it may hereafter become, that question is bad, as the basis of a controversy, and good for nothing at all--a merely pernicious abstraction.", "word_offset_start": 888, "word_offset_end": 914, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_022_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_022_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "We all agree that the seceded States, so called, are out of their proper relation with the Union; and that the sole object of the government, civil and military, in regard to those States is to again get them into that proper practical relation.",
+              "word_offset_start": 914,
+              "word_offset_end": 958,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00062",
+                  "sentence_id": "doc_022_s01_p05_s01",
+                  "cluster_id": "cluster_02_covenant_oath",
+                  "linguistic_form": "out of their proper relation with the Union...into that proper practical relation",
+                  "source_domain": "a covenant or relational bond that defines proper standing — states have a proper relation to the Union that can be disrupted and restored",
+                  "target_domain": "the political-constitutional relationship between seceded states and the federal Union",
+                  "char_span_start": 53,
+                  "char_span_end": 242,
+                  "confidence": 0.80,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": null,
+                  "cmt": {
+                    "mapping": {
+                      "proper relation": "the covenant-defined standing of states within the Union — a relational position with normative force",
+                      "out of their proper relation": "breach of the covenant position — dislocation from the covenanted relationship",
+                      "get them into that proper practical relation": "restoration — returning to the covenanted standing"
+                    },
+                    "entailments": [
+                      "States have a proper relation to the Union — a normative position defined by the covenant",
+                      "Secession is a breach of that proper relation, not an exit from it",
+                      "Reconstruction is restoration to proper relation, not creation of a new relation"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "oath_and_obligation",
+                    "violence_logic": "restorative",
+                    "obligatory_frame": "The 'proper relation' formula carries the same restorative logic as the Emancipation Proclamations' 'restoring the constitutional relation.' Here it is applied to the postwar political question: Reconstruction is not building something new but restoring what was proper. The covenant frame makes the end-state already defined — proper relation — rather than open to political invention.",
+                    "projected_entity": "covenant_bond",
+                    "guilt_distribution": "external",
+                    "sacrificial_economy": null,
+                    "absence_flags": [],
+                    "annotator_notes": "The 'proper relation' formula appears here for the third time (after doc_013 p06_s01 and doc_015 p05 quoted passage). In the Proclamation context it was 'restoring the constitutional relation'; here it is 'proper practical relation.' The shift from 'constitutional' to 'practical' reflects Lincoln's deliberate sidestepping of the constitutional question (in or out of the Union) — he argues the practical relation is what matters, regardless of the constitutional answer."
+                  }
+                }
+              ]
+            },
+            {"sentence_id": "doc_022_s01_p05_s02", "sentence_ordinal": 2, "text": "I believe it is not only possible, but in fact, easier to do this, without deciding, or even considering, whether these States have ever been out of the Union, than with it.", "word_offset_start": 958, "word_offset_end": 990, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p05_s03", "sentence_ordinal": 3, "text": "Finding themselves safely at home, it would be utterly immaterial whether they had ever been abroad.", "word_offset_start": 990, "word_offset_end": 1006, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p05_s04", "sentence_ordinal": 4, "text": "Let us all join in doing the acts necessary to restoring the proper practical relations between these States and the Union; and each forever after, innocently indulge his own opinion whether, in doing the acts, he brought the States from without, into the Union, or only gave them proper assistance, they never having been out of it.", "word_offset_start": 1006, "word_offset_end": 1063, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_022_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {"sentence_id": "doc_022_s01_p06_s01", "sentence_ordinal": 1, "text": "The amount of constituency, so to speak, on which the new Louisiana government rests, would be more satisfactory to all, if it contained fifty, thirty, or even twenty thousand, instead of only about twelve thousand, as it does.", "word_offset_start": 1063, "word_offset_end": 1101, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p06_s02", "sentence_ordinal": 2, "text": "It is also unsatisfactory to some that the elective franchise is not given to the colored man.", "word_offset_start": 1101, "word_offset_end": 1118, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p06_s03", "sentence_ordinal": 3, "text": "I would myself prefer that it were now conferred on the very intelligent, and on those who serve our cause as soldiers.", "word_offset_start": 1118, "word_offset_end": 1140, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p06_s04", "sentence_ordinal": 4, "text": "Still the question is not whether the Louisiana government, as it stands, is quite all that is desirable.", "word_offset_start": 1140, "word_offset_end": 1158, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p06_s05", "sentence_ordinal": 5, "text": "The question is, \"Will it be wiser to take it as it is, and help to improve it; or to reject, and disperse it?\" \"Can Louisiana be brought into proper practical relation with the Union sooner by sustaining, or by discarding her new State government?\"", "word_offset_start": 1158, "word_offset_end": 1203, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_022_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {"sentence_id": "doc_022_s01_p07_s01", "sentence_ordinal": 1, "text": "Some twelve thousand voters in the heretofore slave-state of Louisiana have sworn allegiance to the Union, assumed to be the rightful political power of the State, held elections, organized a State government, adopted a free-state constitution, giving the benefit of public schools equally to black and white, and empowering the Legislature to confer the elective franchise upon the colored man.", "word_offset_start": 1203, "word_offset_end": 1263, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p07_s02", "sentence_ordinal": 2, "text": "Their Legislature has already voted to ratify the constitutional amendment recently passed by Congress, abolishing slavery throughout the nation.", "word_offset_start": 1263, "word_offset_end": 1282, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p07_s03", "sentence_ordinal": 3, "text": "These twelve thousand persons are thus fully committed to the Union, and to perpetual freedom in the state--committed to the very things, and nearly all the things the nation wants--and they ask the nations recognition and it's assistance to make good their committal.", "word_offset_start": 1282, "word_offset_end": 1325, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p07_s04", "sentence_ordinal": 4, "text": "Now, if we reject, and spurn them, we do our utmost to disorganize and disperse them.", "word_offset_start": 1325, "word_offset_end": 1341, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p07_s05", "sentence_ordinal": 5, "text": "We in effect say to the white men \"You are worthless, or worse--we will neither help you, nor be helped by you.\" To the blacks we say \"This cup of liberty which these, your old masters, hold to your lips, we will dash from you, and leave you to the chances of gathering the spilled and scattered contents in some vague and undefined when, where, and how.\" If this course, discouraging and paralyzing both white and black, has any tendency to bring Louisiana into proper practical relations with the Union, I have, so far, been unable to perceive it.", "word_offset_start": 1341, "word_offset_end": 1440, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p07_s06", "sentence_ordinal": 6, "text": "If, on the contrary, we recognize, and sustain the new government of Louisiana the converse of all this is made true.", "word_offset_start": 1440, "word_offset_end": 1461, "authorship_note": null, "metaphor_instances": []},
+            {
+              "sentence_id": "doc_022_s01_p07_s07",
+              "sentence_ordinal": 7,
+              "text": "We encourage the hearts, and nerve the arms of the twelve thousand to adhere to their work, and argue for it, and proselyte for it, and fight for it, and feed it, and grow it, and ripen it to a complete success.",
+              "word_offset_start": 1461,
+              "word_offset_end": 1503,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00063",
+                  "sentence_id": "doc_022_s01_p07_s07",
+                  "cluster_id": "cluster_04_birth_creation",
+                  "linguistic_form": "feed it, and grow it, and ripen it to a complete success",
+                  "source_domain": "agricultural cultivation — feeding, growing, and ripening a plant to full maturity",
+                  "target_domain": "the Louisiana government as a living thing that must be nurtured to its full realized form",
+                  "char_span_start": 154,
+                  "char_span_end": 209,
+                  "confidence": 0.82,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_011",
+                  "cmt": {
+                    "mapping": {
+                      "feed it": "provide the resources needed for the government's growth — as a plant needs water and nutrients",
+                      "grow it": "allow the government to develop its full form — as a plant grows toward maturity",
+                      "ripen it to a complete success": "the government reaching its mature realized form — ripeness as the moment of full actualization"
+                    },
+                    "entailments": [
+                      "The Louisiana government is a living thing in early development, not a finished structure",
+                      "Nurture (feeding, growing) is the right relationship to an immature living thing",
+                      "Ripeness is achievable — the government can reach full success if properly sustained"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "generative_creation",
+                    "violence_logic": "generative",
+                    "obligatory_frame": "The Reconstruction government must be nurtured rather than abandoned — the agricultural/birth frame makes rejection (smashing, dispersing) an act of violence against a living thing. The obligation to support Louisiana flows from the fact that it is alive and growing.",
+                    "projected_entity": "new_government_as_growing_organism",
+                    "guilt_distribution": "internal_divided",
+                    "sacrificial_economy": null,
+                    "absence_flags": [],
+                    "annotator_notes": "Part of ext_011 (cultivation/birth arc): inst_00063 establishes the cultivation frame; inst_00064 makes it explicit with the egg-to-fowl metaphor. The accumulation of verbs ('feed...grow...ripen') builds the agricultural analogy progressively before the egg metaphor names it directly."
+                  }
+                }
+              ]
+            },
+            {"sentence_id": "doc_022_s01_p07_s08", "sentence_ordinal": 8, "text": "The colored man too, in seeing all united for him, is inspired with vigilance, and energy, and daring, to the same end.", "word_offset_start": 1503, "word_offset_end": 1525, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p07_s09", "sentence_ordinal": 9, "text": "Grant that he desires the elective franchise, will he not attain it sooner by saving the already advanced steps toward it, than by running backward over them?", "word_offset_start": 1525, "word_offset_end": 1552, "authorship_note": null, "metaphor_instances": []},
+            {
+              "sentence_id": "doc_022_s01_p07_s10",
+              "sentence_ordinal": 10,
+              "text": "Concede that the new government of Louisiana is only to what it should be as the egg is to the fowl, we shall sooner have the fowl by hatching the egg than by smashing it?",
+              "word_offset_start": 1552,
+              "word_offset_end": 1587,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00064",
+                  "sentence_id": "doc_022_s01_p07_s10",
+                  "cluster_id": "cluster_04_birth_creation",
+                  "linguistic_form": "as the egg is to the fowl, we shall sooner have the fowl by hatching the egg than by smashing it",
+                  "source_domain": "egg hatching — a living thing in developmental incubation that must be brought to birth through patience, not destroyed",
+                  "target_domain": "the Louisiana Reconstruction government as an immature form that will become its full self if allowed to develop",
+                  "char_span_start": 74,
+                  "char_span_end": 169,
+                  "confidence": 0.92,
+                  "is_novel_metaphor": true,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_011",
+                  "cmt": {
+                    "mapping": {
+                      "the egg": "the Louisiana government in its current immature form — alive but not yet fully realized",
+                      "the fowl": "the mature realized Louisiana government — what it will become",
+                      "hatching the egg": "the patient process of supporting development until the government reaches its full form",
+                      "smashing it": "destroying the egg before it can hatch — rejecting the Louisiana government destroys the possibility of the mature form"
+                    },
+                    "entailments": [
+                      "The Louisiana government is alive in its current form, even if imperfect",
+                      "Patience and support (hatching) will produce the desired full form",
+                      "Rejection (smashing) destroys not just the current form but all future possibility",
+                      "The hatched fowl is already implicit in the egg — the final form is the current form's natural destination"
+                    ],
+                    "conventional_or_novel": "novel"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "generative_creation",
+                    "violence_logic": "generative",
+                    "obligatory_frame": "The egg-to-fowl metaphor reframes the Reconstruction debate: the question is not whether the Louisiana government is good enough (the egg is not the fowl) but whether it can become what it should be (the egg can hatch). Smashing the egg — rejecting Louisiana — is an act of violence against a nascent living thing. The birth frame makes nurture the moral default and rejection a form of destruction. This is the inverse of the war's violence logic: in reconstruction, violence (smashing) destroys what nonviolence (hatching) creates.",
+                    "projected_entity": "new_government_as_nascent_life",
+                    "guilt_distribution": "internal_divided",
+                    "sacrificial_economy": null,
+                    "absence_flags": [],
+                    "annotator_notes": "Marked novel: the egg-to-fowl ratio is a specific and original analogical form. Lincoln is not using a conventional egg metaphor but constructing a precise structural analogy: current government : ideal government :: egg : fowl. The conditional structure ('Concede that...as the egg is to the fowl') makes the analogy explicit and self-aware — Lincoln acknowledges the gap between current and ideal while using the developmental frame to argue for patience over rejection."
+                  }
+                }
+              ]
+            },
+            {"sentence_id": "doc_022_s01_p07_s11", "sentence_ordinal": 11, "text": "Again, if we reject Louisiana, we also reject one vote in favor of the proposed amendment to the national Constitution.", "word_offset_start": 1587, "word_offset_end": 1607, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p07_s12", "sentence_ordinal": 12, "text": "To meet this proposition, it has been argued that no more than three fourths of those States which have not attempted secession are necessary to validly ratify the amendment.", "word_offset_start": 1607, "word_offset_end": 1636, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p07_s13", "sentence_ordinal": 13, "text": "I do not commit myself against this, further than to say that such a ratification would be questionable, and sure to be persistently questioned; while a ratification by three-fourths of all the States would be unquestioned and unquestionable.", "word_offset_start": 1636, "word_offset_end": 1674, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_022_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {"sentence_id": "doc_022_s01_p08_s01", "sentence_ordinal": 1, "text": "I repeat the question, \"Can Louisiana be brought into proper practical relation with the Union sooner by sustaining or by discarding her new State Government?", "word_offset_start": 1674, "word_offset_end": 1699, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_022_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {"sentence_id": "doc_022_s01_p09_s01", "sentence_ordinal": 1, "text": "What has been said of Louisiana will apply generally to other States.", "word_offset_start": 1699, "word_offset_end": 1711, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p09_s02", "sentence_ordinal": 2, "text": "And yet so great peculiarities pertain to each state, and such important and sudden changes occur in the same state; and withal, so new and unprecedented is the whole case, that no exclusive, and inflexible plan can be safely prescribed as to details and colatterals [sic].", "word_offset_start": 1711, "word_offset_end": 1757, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p09_s03", "sentence_ordinal": 3, "text": "Such exclusive, and inflexible plan, would surely become a new entanglement.", "word_offset_start": 1757, "word_offset_end": 1768, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p09_s04", "sentence_ordinal": 4, "text": "Important principles may, and must, be inflexible.", "word_offset_start": 1768, "word_offset_end": 1775, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_022_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {"sentence_id": "doc_022_s01_p10_s01", "sentence_ordinal": 1, "text": "In the present \"situation\" as the phrase goes, it may be my duty to make some new announcement to the people of the South.", "word_offset_start": 1775, "word_offset_end": 1799, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_022_s01_p10_s02", "sentence_ordinal": 2, "text": "I am considering, and shall not fail to act, when satisfied that action will be proper.", "word_offset_start": 1799, "word_offset_end": 1815, "authorship_note": null, "metaphor_instances": []}
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
+    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+  ]
+}

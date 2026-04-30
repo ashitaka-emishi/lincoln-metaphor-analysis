@@ -1,0 +1,845 @@
+{
+  "document_id": "doc_005",
+  "meta": {
+    "id": "doc_005",
+    "title": "\"A House Divided\": Speech at Springfield, Illinois",
+    "short_title": "House Divided",
+    "date": "1858-06-16",
+    "date_precision": "exact",
+    "register": "formal_public_address",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.2 pp.461-469",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln2",
+    "risk_flags": [],
+    "analytical_priority": "critical"
+  },
+  "document_summary": {
+    "doc_id": "doc_005",
+    "total_instances": 3,
+    "clusters_activated": [
+      "cluster_01_body_organism"
+    ],
+    "dominant_cluster": "cluster_01_body_organism",
+    "extension_groups": ["ext_012"],
+    "primary_finding": "The House Divided Speech is the Phase 1 baseline document for the corpus. Only cluster_01 is active — three instances across p07, p08, and p09, all in extension group ext_012 — and the remaining five clusters are entirely absent. This is the most cluster-restricted major address in the Lincoln corpus. The architectural/structural source domain (a house that must be whole to stand) maps the nation's integrity to a built structure: division is structural failure, not moral corruption, not disease, not political betrayal. There is no covenant language (cluster_02 oath) even though the Constitution is the implicit frame; no experiment language (cluster_03) even though Lincoln will deploy the proposition frame two years later at Cooper Union; no birth language (cluster_04); no founding-fathers inheritance (cluster_05) even though the threat to the republic is the explicit theme; no Providence language (cluster_06). The full six-cluster system does not yet exist in 1858. The developmental contrast between this speech and the Gettysburg Address (1863, all six clusters in 10 sentences) is the sharpest metaphor activation arc in the corpus. The absence of cluster_05 is particularly notable: Lincoln argues that the republic faces an existential threat from the slave-power conspiracy without invoking the fathers as the authorizing inheritance. He argues constitutionally and logically — the house-metaphor provides the structural logic — but not yet within the patrimony frame.",
+    "annotator_notes": "p14_s01–p14_s02: 'almost complete legal combination---piece of machinery so to speak' — machinery/mechanism source domain evaluated for cluster_03 (republic as experiment). This is a conspiracy metaphor, not the republic-as-scientific-demonstration frame. The machinery is the slave-power apparatus, not the republic itself. Confidence 0.55, not annotated. p53_s02 and p54_s01: 'framed timbers...tenons and mortices exactly fitting...frame of a house or a mill' — architectural metaphor for the slave-power conspiracy evaluated. Extended timber-frame metaphor, distinct from the house-divided frame in p07–p09. The target is the conspiracy (Douglas, Pierce, Taney, Buchanan working from a common plan), not the national body. Does not map clearly to cluster_01 (which maps the nation to a body/structure) — this maps political actors to carpenters and their conspiracy to a building plan. Confidence 0.58, not annotated; noted for secondary metaphor tracking. p35_s04: 'squatter sovereignty squatted out of existence, tumbled down like temporary scaffolding' — scaffolding collapse metaphor for a failed political doctrine. Evaluated for cluster_01: target domain is a political doctrine, not the national body or the union. Confidence 0.52, not annotated."
+  },
+  "sections": [
+    {
+      "section_id": "doc_005_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_005_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p01_s01", "sentence_ordinal": 1, "text": "``A House Divided'': Speech at Springfield, IllinoisJune 16, 1858", "word_offset_start": 0, "word_offset_end": 9, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p02_s01", "sentence_ordinal": 1, "text": "The Speech, immediately succeeding, was delivered, June 16, 1858 at Springfield Illinois, at the close of the Republican State convention held at that time and place; and by which convention Mr. Lincoln had been named as their candidate for U. S. Senator.", "word_offset_start": 9, "word_offset_end": 51, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p03_s01", "sentence_ordinal": 1, "text": "Senator Douglas was not present.Mr. PRESIDENT and Gentlemen of the Convention.If we could first know where we are, and whither we are tending, we could then better judge what to do, and how to do it.", "word_offset_start": 51, "word_offset_end": 87, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p04_s01", "sentence_ordinal": 1, "text": "We are now far into the fifth year, since a policy was initiated, with the avowed object, and confident promise, of putting an end to slavery agitation.", "word_offset_start": 87, "word_offset_end": 114, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p05_s01", "sentence_ordinal": 1, "text": "Under the operation of that policy, that agitation has not only, not ceased, but has constantly augmented.", "word_offset_start": 114, "word_offset_end": 131, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p06_s01", "sentence_ordinal": 1, "text": "In my opinion, it will not cease, until a crisis shall have been reached, and passed.", "word_offset_start": 131, "word_offset_end": 147, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_005_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "``A house divided against itself cannot stand.''",
+              "word_offset_start": 147,
+              "word_offset_end": 154,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00065",
+                  "sentence_id": "doc_005_s01_p07_s01",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "A house divided against itself cannot stand",
+                  "source_domain": "Architectural structure (a house) that requires internal unity to remain standing — division produces collapse",
+                  "target_domain": "The American nation as a structure that cannot endure permanent internal division between slave and free",
+                  "char_span_start": 2,
+                  "char_span_end": 44,
+                  "confidence": 0.88,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_012",
+                  "cmt": {
+                    "mapping": {
+                      "house": "the American nation",
+                      "divided against itself": "half slave and half free — irreconcilable internal division",
+                      "cannot stand": "cannot endure as a stable polity; structural failure is inevitable"
+                    },
+                    "entailments": [
+                      "Division is not a stable equilibrium — a house divided must either reunify or collapse",
+                      "The resolution of the crisis is structurally determined, not merely political",
+                      "The nation is a built structure that requires internal coherence to remain standing",
+                      "Lincoln is quoting scripture (Mark 3:25) and applying it to the constitutional order"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "national_integrity_threat",
+                    "violence_logic": "structural_necessity",
+                    "obligatory_frame": "The nation as a house that cannot stand divided makes the resolution of the slavery question structurally obligatory — not a political choice but a structural necessity. The house metaphor removes agency: the house does not choose to fall, it falls. The crisis is not chosen by Lincoln or the Republicans; it is produced by the structure itself.",
+                    "projected_entity": "The American nation as a unified architectural structure",
+                    "guilt_distribution": "The slave power is responsible for dividing the house; those who would keep it divided are agents of structural collapse",
+                    "sacrificial_economy": "None explicit at Phase 1 — the house metaphor describes the crisis without prescribing sacrifice. The sacrificial economy will develop across later documents (cluster_04, cluster_06).",
+                    "absence_flags": ["disease_and_purification"],
+                    "annotator_notes": "This is the thesis sentence of the speech — a biblical quotation (Mark 3:25) that Lincoln immediately applies to the political situation. The architectural frame is cluster_01's earliest instantiation in the corpus. Unlike later cluster_01 instances that map the nation to an organic body (wound, healing, life), here the source domain is structural/architectural rather than biological. This is the building-as-body variant of cluster_01, not the organism variant. The nation cannot stand (structural) rather than cannot live (biological). The distinction matters for the Koenigsberg analysis: architectural collapse is not disease; it is stress failure. The absence of disease_and_purification is confirmed."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_005_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "I believe this government cannot endure, permanently half slave and half free.",
+              "word_offset_start": 154,
+              "word_offset_end": 166,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00066",
+                  "sentence_id": "doc_005_s01_p08_s01",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "this government cannot endure, permanently half slave and half free",
+                  "source_domain": "Architectural/structural endurance — a structure that cannot endure is one that will collapse under internal stress",
+                  "target_domain": "The American government as a structure that cannot sustain permanent contradictory internal states",
+                  "char_span_start": 10,
+                  "char_span_end": 76,
+                  "confidence": 0.85,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_012",
+                  "cmt": {
+                    "mapping": {
+                      "this government": "the house of p07 now named as the American government",
+                      "cannot endure": "structural failure is coming — endure maps onto stand from p07",
+                      "permanently half slave and half free": "the division that produces structural failure — the crack in the house"
+                    },
+                    "entailments": [
+                      "'Endure' carries both temporal (last forever) and structural (bear stress) senses simultaneously",
+                      "The government is mapped to the house of the previous sentence — this sentence applies the metaphor to the political entity directly",
+                      "'Permanently' is the key modifier: not that it cannot exist divided, but that it cannot exist permanently divided — crisis is inevitable",
+                      "The sentence makes the duality (half slave / half free) the structural flaw"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "national_integrity_threat",
+                    "violence_logic": "structural_necessity",
+                    "obligatory_frame": "Lincoln applies the house metaphor from scripture to the constitutional order directly: the government cannot endure permanently divided. This converts the biblical observation into a political prediction — and a structural one. The resolution is not chosen; it is structurally compelled.",
+                    "projected_entity": "The American government as the house-structure from p07",
+                    "guilt_distribution": "Those who would maintain the division are working against structural stability",
+                    "sacrificial_economy": "None explicit — the structural frame does not yet generate a sacrificial economy",
+                    "absence_flags": ["disease_and_purification"],
+                    "annotator_notes": "This sentence is Lincoln's own application of the biblical quote to the political situation. The quote (p07_s01) and the application (p08_s01) form the first two members of the ext_012 arc. The third (p09_s01) elaborates the expected resolution. The three together constitute the speech's argument in compressed form: (1) a house divided cannot stand; (2) this government cannot endure half slave and half free; (3) it will cease to be divided — not fall, but unify under one principle."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_005_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "I do not expect the Union to be dissolved---I do not expect the house to fall---but I do expect it will cease to be divided.",
+              "word_offset_start": 166,
+              "word_offset_end": 191,
+              "authorship_note": null,
+              "metaphor_instances": [
+                {
+                  "instance_id": "inst_00067",
+                  "sentence_id": "doc_005_s01_p09_s01",
+                  "cluster_id": "cluster_01_body_organism",
+                  "linguistic_form": "the house to fall",
+                  "source_domain": "Architectural collapse — the house standing or falling as the measure of national integrity",
+                  "target_domain": "The Union's dissolution or survival as the architectural fate of the divided house",
+                  "char_span_start": 60,
+                  "char_span_end": 76,
+                  "confidence": 0.83,
+                  "is_novel_metaphor": false,
+                  "ambiguity_flag": false,
+                  "suppression_flag": false,
+                  "extension_group_id": "ext_012",
+                  "cmt": {
+                    "mapping": {
+                      "the house to fall": "dissolution of the Union — the architectural metaphor for national collapse",
+                      "dissolved": "paired with fall — the Union is both a legal contract (dissolved) and a house (fallen)",
+                      "cease to be divided": "the predicted resolution — not collapse but unification under one principle"
+                    },
+                    "entailments": [
+                      "Lincoln explicitly predicts the house will not fall (dissolved), it will cease to be divided",
+                      "The resolution is not collapse but forced unification — all slave or all free",
+                      "The house metaphor here reaches its logical conclusion: the structure's integrity will be restored by eliminating the division",
+                      "Lincoln's confidence is structural, not hopeful — the house cannot stand divided, therefore division will end"
+                    ],
+                    "conventional_or_novel": "conventional"
+                  },
+                  "koenigsberg": {
+                    "fantasy_type": "national_integrity_threat",
+                    "violence_logic": "structural_necessity",
+                    "obligatory_frame": "This sentence completes the ext_012 arc by naming the expected resolution: not dissolution (the house falls) but unification (division ceases). Lincoln is predicting that the structural logic will force a resolution. The house will become all one thing. The obligatory frame here is the structural logic itself — the house cannot stand divided, therefore it will cease to be divided.",
+                    "projected_entity": "The Union as the architectural structure — 'the house' now named alongside 'the Union' as interchangeable terms",
+                    "guilt_distribution": "Lincoln does not assign guilt here; the structural logic assigns inevitability. The resolution will happen regardless of who wills it.",
+                    "sacrificial_economy": "None explicit at Phase 1 — Lincoln in 1858 predicts the crisis will resolve without prescribing how. The sacrificial economy (lives paid for union) will not appear until Phase 2–5.",
+                    "absence_flags": ["disease_and_purification"],
+                    "annotator_notes": "The sentence pairs 'the Union to be dissolved' (legal frame) with 'the house to fall' (architectural/cluster_01 frame). The pairing makes explicit that the house metaphor equals the Union. The predicted resolution — 'cease to be divided' — does not specify how. Lincoln in 1858 has not yet committed to war as the mechanism of resolution. The ext_012 arc closes with structural prediction, not martial obligation. Contrast with the Second Inaugural (doc_021) where the same structural crisis is resolved through sacrifice and divine judgment."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p10_s01", "sentence_ordinal": 1, "text": "It will become all one thing, or all the other.", "word_offset_start": 191, "word_offset_end": 201, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p11_s01", "sentence_ordinal": 1, "text": "Either the opponents of slavery, will arrest the further spread of it, and place it where the public mind shall rest in the belief that it is in course of ultimate extinction; or its advocates will push", "word_offset_start": 201, "word_offset_end": 238, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p12_s01", "sentence_ordinal": 1, "text": "it forward, till it shall become alike lawful in all the States, old as well as new---North as well as South.", "word_offset_start": 238, "word_offset_end": 259, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p13_s01", "sentence_ordinal": 1, "text": "Have we no tendency to the latter condition?", "word_offset_start": 259, "word_offset_end": 267, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p14_s01", "sentence_ordinal": 1, "text": "Let any one who doubts, carefully contemplate that now almost complete legal combination---piece of machinery so to speak---compounded of the Nebraska doctrine, and the Dred Scott decision.", "word_offset_start": 267, "word_offset_end": 294, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p14_s02", "sentence_ordinal": 2, "text": "Let him consider not only what work the machinery is adapted to do, and how well adapted; but also, let him study the history of its construction, and trace, if he can, or rather fail, if he can, to trace the evidences of design, and concert of action, among its chief bosses, from the beginning.", "word_offset_start": 294, "word_offset_end": 349, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p15_s01", "sentence_ordinal": 1, "text": "But, so far, Congress only, had acted; and an indorsement by the people, real or apparent, was indispensable, to save the point already gained, and give chance for more.", "word_offset_start": 349, "word_offset_end": 378, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p16_s01", "sentence_ordinal": 1, "text": "The new year of 1854 found slavery excluded from more than half the States by State Constitutions, and from most of the national territory by Congressional prohibition.", "word_offset_start": 378, "word_offset_end": 405, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p17_s01", "sentence_ordinal": 1, "text": "Four days later, commenced the struggle, which ended in repealing that Congressional prohibition.", "word_offset_start": 405, "word_offset_end": 418, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p18_s01", "sentence_ordinal": 1, "text": "This opened all the national territory to slavery; and was the first point gained.", "word_offset_start": 418, "word_offset_end": 432, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p19_s01", "sentence_ordinal": 1, "text": "This necessity had not been overlooked; but had been provided for, as well as might be, in the notable argument of ``squatter sovereignty,'' otherwise called ``sacred right of self government,'' which latter phrase, though expressive of the only rightful basis of any government, was so perverted in this attempted use of it as to amount to just this: That if any one man, choose to enslave another, no third man shall be allowed to object.", "word_offset_start": 432, "word_offset_end": 507, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p20_s01", "sentence_ordinal": 1, "text": "That argument was incorporated into the Nebraska bill itself, in the language which follows: ``It being the true intent and meaning of this act not to legislate slavery into any Territory or state, nor to exclude it therefrom; but to leave the people thereof perfectly free to form and regulate their domestic institutions in their own way, subject only to the Constitution of the United States.''", "word_offset_start": 507, "word_offset_end": 573, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p21_s01", "sentence_ordinal": 1, "text": "Then opened the roar of loose declamation in favor of ``Squatter Sovereignty,'' and ``Sacred right of self government.''", "word_offset_start": 573, "word_offset_end": 591, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p22_s01", "sentence_ordinal": 1, "text": "``But,'' said opposition members, ``let us be more specific---let us amend the bill so as to expressly declare that the people of the territory may exclude slavery.'' ``Not we,'' said the friends of the measure; and down they voted the amendment.", "word_offset_start": 591, "word_offset_end": 632, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p23_s01", "sentence_ordinal": 1, "text": "While the Nebraska bill was passing through congress, a law case, involving the question of a negroe's freedom, by reason of his owner having voluntarily taken him first into a free state and", "word_offset_start": 632, "word_offset_end": 665, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p24_s01", "sentence_ordinal": 1, "text": "then a territory covered by the congressional prohibition, and held him as a slave, for a long time in each, was passing through the U.S. Circuit Court for the District of Missouri; and both Nebraska bill and law suit were brought to a decision in the same month of May, 1854.", "word_offset_start": 665, "word_offset_end": 716, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p24_s02", "sentence_ordinal": 2, "text": "The negroe's name was ``Dred Scott,'' which name now designates the decision finally made in the case.", "word_offset_start": 716, "word_offset_end": 733, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p25_s01", "sentence_ordinal": 1, "text": "Before the then next Presidential election, the law case came to, and was argued in the Supreme Court of the United States; but the decision of it was deferred until after the election.", "word_offset_start": 733, "word_offset_end": 766, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p25_s02", "sentence_ordinal": 2, "text": "Still, before the election, Senator Trumbull, on the floor of the Senate, requests the leading advocate of the Nebraska bill to state his opinion whether the people of a territory can constitutionally exclude slavery from their limits; and the latter answers, ``That is a question for the Supreme Court.''", "word_offset_start": 766, "word_offset_end": 815, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p26_s01", "sentence_ordinal": 1, "text": "The election came.", "word_offset_start": 815, "word_offset_end": 818, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p26_s02", "sentence_ordinal": 2, "text": "Mr. Buchanan was elected, and the indorsement, such as it was, secured.", "word_offset_start": 818, "word_offset_end": 830, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p26_s03", "sentence_ordinal": 3, "text": "That was the second point gained.", "word_offset_start": 830, "word_offset_end": 836, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p26_s04", "sentence_ordinal": 4, "text": "The indorsement, however, fell short of a clear popular majority by nearly four hundred thousand votes, and so, perhaps, was not overwhelmingly reliable and satisfactory.", "word_offset_start": 836, "word_offset_end": 861, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p27_s01", "sentence_ordinal": 1, "text": "The outgoing President, in his last annual message, as impressively as possible echoed back upon the people the weight and authority of the indorsement.", "word_offset_start": 861, "word_offset_end": 885, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p28_s01", "sentence_ordinal": 1, "text": "The Supreme Court met again; did not announce their decision, but ordered a re-argument.", "word_offset_start": 885, "word_offset_end": 899, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p29_s01", "sentence_ordinal": 1, "text": "The Presidential inauguration came, and still no decision of the court; but the incoming President, in his inaugural address, fervently exhorted the people to abide by the forthcoming decision, whatever it might be.", "word_offset_start": 899, "word_offset_end": 932, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p30_s01", "sentence_ordinal": 1, "text": "Then, in a few days, came the decision.", "word_offset_start": 932, "word_offset_end": 940, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p31_s01", "sentence_ordinal": 1, "text": "The reputed author of the Nebraska bill finds an early occasion to make a speech at this capitol indorsing the Dred Scott Decision, and vehemently denouncing all opposition to it.", "word_offset_start": 940, "word_offset_end": 970, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p32_s01", "sentence_ordinal": 1, "text": "The new President, too, seizes the early occasion of the Silliman letter to indorse and strongly construe that decision, and to express his astonishment that any different view had ever been entertained.", "word_offset_start": 970, "word_offset_end": 1002, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p33_s01", "sentence_ordinal": 1, "text": "At length a squabble springs up between the President and the author of the Nebraska bill, on the mere question of fact, whether the Lecompton constitution was or was not, in any just sense, made by the people of Kansas; and in that squabble the latter declares that all he wants is a fair vote for the people, and that he cares not whether slavery be voted down or voted up.", "word_offset_start": 1002, "word_offset_end": 1073, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p33_s02", "sentence_ordinal": 2, "text": "I do not understand his declaration that he cares not whether slavery be voted down or", "word_offset_start": 1073, "word_offset_end": 1089, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p34_s01", "sentence_ordinal": 1, "text": "voted up, to be intended by him other than as an apt definition of the policy he would impress upon the public mind---the principle for which he declares he has suffered much, and is ready to suffer to the end.", "word_offset_start": 1089, "word_offset_end": 1129, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p35_s01", "sentence_ordinal": 1, "text": "And well may he cling to that principle.", "word_offset_start": 1129, "word_offset_end": 1137, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p35_s02", "sentence_ordinal": 2, "text": "If he has any parental feeling, well may he cling to it.", "word_offset_start": 1137, "word_offset_end": 1149, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p35_s03", "sentence_ordinal": 3, "text": "That principle, is the only shred left of his original Nebraska doctrine.", "word_offset_start": 1149, "word_offset_end": 1161, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p35_s04", "sentence_ordinal": 4, "text": "Under the Dred Scott decision, ``squatter sovereignty'' squatted out of existence, tumbled down like temporary scaffolding---like the mould at the foundry served through one blast and fell back into loose sand---helped to carry an election, and then was kicked to the winds.", "word_offset_start": 1161, "word_offset_end": 1203, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p35_s05", "sentence_ordinal": 5, "text": "His late joint struggle with the Republicans, against the Lecompton Constitution, involves nothing of the original Nebraska doctrine.", "word_offset_start": 1203, "word_offset_end": 1221, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p35_s06", "sentence_ordinal": 6, "text": "That struggle was made on a point, the right of a people to make their own constitution, upon which he and the Republicans have never differed.", "word_offset_start": 1221, "word_offset_end": 1247, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p36_s01", "sentence_ordinal": 1, "text": "The several points of the Dred Scott decision, in connection with Senator Douglas' ``care not'' policy, constitute the piece of machinery, in its present state of advancement.", "word_offset_start": 1247, "word_offset_end": 1274, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p36_s02", "sentence_ordinal": 2, "text": "This was the third point gained.The working points of that machinery are:", "word_offset_start": 1274, "word_offset_end": 1286, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p37_s01", "sentence_ordinal": 1, "text": "First, that no negro slave, imported as such from Africa, and no descendant of such slave can ever be a citizen of any State, in the sense of that term as used in the Constitution of the United States.", "word_offset_start": 1286, "word_offset_end": 1325, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p38_s01", "sentence_ordinal": 1, "text": "This point is made in order to deprive the negro, in every possible event, of the benefit of this provision of the United States Constitution, which declares that---", "word_offset_start": 1325, "word_offset_end": 1353, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p39_s01", "sentence_ordinal": 1, "text": "``The citizens of each State shall be entitled  to all privileges and immunities of citizens in the several States.''", "word_offset_start": 1353, "word_offset_end": 1372, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p40_s01", "sentence_ordinal": 1, "text": "Secondly, that ``subject to the Constitution of the United States,'' neither Congress nor a Territorial Legislature can exclude slavery from any United States territory.", "word_offset_start": 1372, "word_offset_end": 1396, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p41_s01", "sentence_ordinal": 1, "text": "This point is made in order that individual men may fill up the territories with slaves, without danger of losing them as property, and thus to enhance the chances of permanency to the institution through all the future.", "word_offset_start": 1396, "word_offset_end": 1434, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p42_s01", "sentence_ordinal": 1, "text": "Thirdly, that whether the holding a negro in actual slavery in a free State, makes him free, as against the holder, the United States courts will not decide, but will leave to be decided by the courts of any slave State the negro may be forced into by the master.", "word_offset_start": 1434, "word_offset_end": 1484, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p43_s01", "sentence_ordinal": 1, "text": "This point is made, not to be pressed immediately; but, if acquiesced in for a while, and apparently indorsed by the people at an election, then to sustain the logical conclusion that what Dred", "word_offset_start": 1484, "word_offset_end": 1518, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p44_s01", "sentence_ordinal": 1, "text": "Scott's master might lawfully do with Dred Scott, in the free State of Illinois, every other master may lawfully do with any other one, or one thousand slaves, in Illinois, or in any other free State.", "word_offset_start": 1518, "word_offset_end": 1554, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p45_s01", "sentence_ordinal": 1, "text": "Auxiliary to all this, and working hand in hand with it, the Nebraska doctrine, or what is left of it, is to educate and mould public opinion, at least Northern public opinion, to not care whether slavery is voted down or voted up.", "word_offset_start": 1554, "word_offset_end": 1597, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p46_s01", "sentence_ordinal": 1, "text": "This shows exactly where we now are; and partially also, whither we are tending.", "word_offset_start": 1597, "word_offset_end": 1611, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p47_s01", "sentence_ordinal": 1, "text": "It will throw additional light on the latter, to go back, and run the mind over the string of historical facts already stated.", "word_offset_start": 1611, "word_offset_end": 1634, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p47_s02", "sentence_ordinal": 2, "text": "Several things will now appear less dark and mysterious than they did when they were transpiring.", "word_offset_start": 1634, "word_offset_end": 1650, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p47_s03", "sentence_ordinal": 3, "text": "The people were to be left ``perfectly free'' ``subject only to the Constitution.'' What the Constitution had to do with it, outsiders could not then see.", "word_offset_start": 1650, "word_offset_end": 1676, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p47_s04", "sentence_ordinal": 4, "text": "Plainly enough now, it was an exactly fitted niche, for the Dred Scott decision to afterwards come in, and declare the perfect freedom of the people, to be just no freedom at all.", "word_offset_start": 1676, "word_offset_end": 1709, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p48_s01", "sentence_ordinal": 1, "text": "Why was the amendment, expressly declaring the right of the people to exclude slavery, voted down?", "word_offset_start": 1709, "word_offset_end": 1725, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p48_s02", "sentence_ordinal": 2, "text": "Plainly enough now, the adoption of it, would have spoiled the niche for the Dred Scott decision.", "word_offset_start": 1725, "word_offset_end": 1742, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p49_s01", "sentence_ordinal": 1, "text": "Why was the court decision held up?", "word_offset_start": 1742, "word_offset_end": 1749, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p49_s02", "sentence_ordinal": 2, "text": "Why, even a Senator's individual opinion withheld, till after the Presidential election?", "word_offset_start": 1749, "word_offset_end": 1761, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p49_s03", "sentence_ordinal": 3, "text": "Plainly enough now, the speaking out then would have damaged the ``perfectly free'' argument upon which the election was to be carried.", "word_offset_start": 1761, "word_offset_end": 1783, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p50_s01", "sentence_ordinal": 1, "text": "Why the outgoing President's felicitation on the indorsement?", "word_offset_start": 1783, "word_offset_end": 1791, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p50_s02", "sentence_ordinal": 2, "text": "Why the delay of a reargument?", "word_offset_start": 1791, "word_offset_end": 1797, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p50_s03", "sentence_ordinal": 3, "text": "Why the incoming President's advance exhortation in favor of the decision?", "word_offset_start": 1797, "word_offset_end": 1808, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p51_s01", "sentence_ordinal": 1, "text": "These things look like the cautious patting and petting a spirited horse, preparatory to mounting him, when it is dreaded that he may give the rider a fall.", "word_offset_start": 1808, "word_offset_end": 1836, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p52_s01", "sentence_ordinal": 1, "text": "And why the hasty after indorsements of the decision by the President and others?", "word_offset_start": 1836, "word_offset_end": 1850, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p53",
+          "paragraph_ordinal": 53,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p53_s01", "sentence_ordinal": 1, "text": "We can not absolutely know that all these exact adaptations are the result of preconcert.", "word_offset_start": 1850, "word_offset_end": 1865, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p53_s02", "sentence_ordinal": 2, "text": "But when we see a lot of framed timbers, different portions of which we know have been gotten out at different times and places and by different workmen---Stephen, Franklin, Roger and James, for instance---and when we see these timbers joined together, and see they exactly make the frame of a house or a mill, all the tenons and mortices exactly fitting, and all", "word_offset_start": 1865, "word_offset_end": 1928, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p54",
+          "paragraph_ordinal": 54,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p54_s01", "sentence_ordinal": 1, "text": "the lengths and proportions of the different pieces exactly adapted to their respective places, and not a piece too many or too few---not omitting even scaffolding---or, if a single piece be lacking, we can see the place in the frame exactly fitted and prepared to yet bring such piece in---in such a case, we find it impossible to not believe that Stephen and Franklin and Roger and James all understood one another from the beginning, and all worked upon a common plan or draft drawn up before the first lick was struck.", "word_offset_start": 1928, "word_offset_end": 2020, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p55",
+          "paragraph_ordinal": 55,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p55_s01", "sentence_ordinal": 1, "text": "It should not be overlooked that, by the Nebraska bill, the people of a State as well as Territory, were to be left ``perfectly free'' ``subject only to the Constitution.''", "word_offset_start": 2020, "word_offset_end": 2050, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p56",
+          "paragraph_ordinal": 56,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p56_s01", "sentence_ordinal": 1, "text": "Why mention a State?", "word_offset_start": 2050, "word_offset_end": 2054, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p56_s02", "sentence_ordinal": 2, "text": "They were legislating for territories, and not for or about States.", "word_offset_start": 2054, "word_offset_end": 2065, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p56_s03", "sentence_ordinal": 3, "text": "Certainly the people of a State are and ought to be subject to the Constitution of the United States; but why is mention of this lugged into this merely territorial law?", "word_offset_start": 2065, "word_offset_end": 2096, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p56_s04", "sentence_ordinal": 4, "text": "Why are the people of a territory and the people of a state therein lumped together, and their relation to the Constitution therein treated as being precisely the same?", "word_offset_start": 2096, "word_offset_end": 2125, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p57",
+          "paragraph_ordinal": 57,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p57_s01", "sentence_ordinal": 1, "text": "While the opinion of the Court, by Chief Justice Taney, in the Dred Scott case, and the separate opinions of all the concurring Judges, expressly declare that the Constitution of the United States neither permits Congress nor a Territorial legislature to exclude slavery from any United States territory, they all omit to declare whether or not the same Constitution permits a state, or the people of a State, to exclude it.", "word_offset_start": 2125, "word_offset_end": 2196, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p58",
+          "paragraph_ordinal": 58,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p58_s01", "sentence_ordinal": 1, "text": "Possibly, this was a mere omission; but who can be quite sure, if McLean or Curtis had sought to get into the opinion a declaration of unlimited power in the people of a state to exclude slavery from their limits, just as Chase and Macy sought to get such declaration, in behalf of the people of a territory, into the Nebraska bill---I ask, who can be quite sure that it would not have been voted down, in the one case, as it had been in the other.", "word_offset_start": 2196, "word_offset_end": 2283, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p59",
+          "paragraph_ordinal": 59,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p59_s01", "sentence_ordinal": 1, "text": "The nearest approach to the point of declaring the power of a State over slavery, is made by Judge Nelson.", "word_offset_start": 2283, "word_offset_end": 2303, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p59_s02", "sentence_ordinal": 2, "text": "He approaches it more than once, using the precise idea, and almost the language too, of the Nebraska act.", "word_offset_start": 2303, "word_offset_end": 2322, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p59_s03", "sentence_ordinal": 3, "text": "On one occasion his exact language is, ``except in cases where the power is restrained by the Constitution of the United States, the law of the State is supreme over the subject of slavery within its jurisdiction.''", "word_offset_start": 2322, "word_offset_end": 2359, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p60",
+          "paragraph_ordinal": 60,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p60_s01", "sentence_ordinal": 1, "text": "In what cases the power of the states is so restrained by the U.S.", "word_offset_start": 2359, "word_offset_end": 2373, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p61",
+          "paragraph_ordinal": 61,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p61_s01", "sentence_ordinal": 1, "text": "Constitution, is left an open question, precisely as the same question, as to the restraint on the power of the territories was left open in the Nebraska act.", "word_offset_start": 2373, "word_offset_end": 2401, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p61_s02", "sentence_ordinal": 2, "text": "Put that and that together, and we have another nice little niche, which we may, ere long, see filled with another Supreme Court decision, declaring that the Constitution of the United States does not permit a state to exclude slavery from its limits.", "word_offset_start": 2401, "word_offset_end": 2444, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p62",
+          "paragraph_ordinal": 62,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p62_s01", "sentence_ordinal": 1, "text": "And this may especially be expected if the doctrine of ``care not whether slavery be voted down or voted up,'' shall gain upon the public mind sufficiently to give promise that such a decision can be maintained when made.", "word_offset_start": 2444, "word_offset_end": 2483, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p63",
+          "paragraph_ordinal": 63,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p63_s01", "sentence_ordinal": 1, "text": "Such a decision is all that slavery now lacks of being alike lawful in all the States.", "word_offset_start": 2483, "word_offset_end": 2500, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p64",
+          "paragraph_ordinal": 64,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p64_s01", "sentence_ordinal": 1, "text": "Welcome or unwelcome, such decision is probably coming, and will soon be upon us, unless the power of the present political dynasty shall be met and overthrown.", "word_offset_start": 2500, "word_offset_end": 2527, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p65",
+          "paragraph_ordinal": 65,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p65_s01", "sentence_ordinal": 1, "text": "We shall lie down pleasantly dreaming that the people of Missouri are on the verge of making their State free; and we shall awake to the reality, instead, that the Supreme Court has made Illinois a slave State.", "word_offset_start": 2527, "word_offset_end": 2565, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p66",
+          "paragraph_ordinal": 66,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p66_s01", "sentence_ordinal": 1, "text": "To meet and overthrow the power of that dynasty, is the work now before  all those who would prevent that consummation.", "word_offset_start": 2565, "word_offset_end": 2586, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p67",
+          "paragraph_ordinal": 67,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p67_s01", "sentence_ordinal": 1, "text": "That is what we have to do.", "word_offset_start": 2586, "word_offset_end": 2593, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p68",
+          "paragraph_ordinal": 68,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p68_s01", "sentence_ordinal": 1, "text": "But how can we best do it?", "word_offset_start": 2593, "word_offset_end": 2600, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p69",
+          "paragraph_ordinal": 69,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p69_s01", "sentence_ordinal": 1, "text": "There are those who denounce us openly to their own friends, and yet whisper us softly, that Senator Douglas is the aptest instrument there is, with which to effect that object.", "word_offset_start": 2600, "word_offset_end": 2631, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p69_s02", "sentence_ordinal": 2, "text": "They do not tell us, nor has he told us, that he wishes any such object to be effected.", "word_offset_start": 2631, "word_offset_end": 2650, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p69_s03", "sentence_ordinal": 3, "text": "They wish us to infer all, from the facts, that he now has a little quarrel with the present head of the dynasty; and that he has regularly voted with us, on a single point, upon which, he and we, have never differed.", "word_offset_start": 2650, "word_offset_end": 2693, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p70",
+          "paragraph_ordinal": 70,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p70_s01", "sentence_ordinal": 1, "text": "They remind us that he is a very great man, and that the largest of us are very small ones.", "word_offset_start": 2693, "word_offset_end": 2713, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p70_s02", "sentence_ordinal": 2, "text": "Let this be granted.", "word_offset_start": 2713, "word_offset_end": 2717, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p70_s03", "sentence_ordinal": 3, "text": "But ``a living dog is better than a dead lion.'' Judge Douglas, if not a dead lion for this work, is at least a caged and toothless one.", "word_offset_start": 2717, "word_offset_end": 2745, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p70_s04", "sentence_ordinal": 4, "text": "How can he oppose the advances of slavery?", "word_offset_start": 2745, "word_offset_end": 2753, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p70_s05", "sentence_ordinal": 5, "text": "He don't care anything about it.", "word_offset_start": 2753, "word_offset_end": 2759, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p70_s06", "sentence_ordinal": 6, "text": "His avowed mission is impressing the ``public heart'' to care nothing about it.", "word_offset_start": 2759, "word_offset_end": 2772, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p71",
+          "paragraph_ordinal": 71,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p71_s01", "sentence_ordinal": 1, "text": "A leading Douglas Democratic newspaper thinks Douglas' superior talent will be needed to resist the revival of the African slave trade.", "word_offset_start": 2772, "word_offset_end": 2793, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p72",
+          "paragraph_ordinal": 72,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p72_s01", "sentence_ordinal": 1, "text": "Does Douglas believe an effort to revive that trade is approaching?", "word_offset_start": 2793, "word_offset_end": 2804, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p72_s02", "sentence_ordinal": 2, "text": "He has not said so.", "word_offset_start": 2804, "word_offset_end": 2809, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p72_s03", "sentence_ordinal": 3, "text": "Does he really think so?", "word_offset_start": 2809, "word_offset_end": 2814, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p72_s04", "sentence_ordinal": 4, "text": "But if it is, how", "word_offset_start": 2814, "word_offset_end": 2819, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p73",
+          "paragraph_ordinal": 73,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p73_s01", "sentence_ordinal": 1, "text": "can he resist it?", "word_offset_start": 2819, "word_offset_end": 2823, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p73_s02", "sentence_ordinal": 2, "text": "For years he has labored to prove it a sacred right of white men to take negro slaves into the new territories.", "word_offset_start": 2823, "word_offset_end": 2845, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p73_s03", "sentence_ordinal": 3, "text": "Can he possibly show that it is less a sacred right to buy them where they can be bought cheapest?", "word_offset_start": 2845, "word_offset_end": 2865, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p73_s04", "sentence_ordinal": 4, "text": "And, unquestionably they can be bought cheaper in Africa than in Virginia.", "word_offset_start": 2865, "word_offset_end": 2877, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p74",
+          "paragraph_ordinal": 74,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p74_s01", "sentence_ordinal": 1, "text": "He has done all in his power to reduce the whole question of slavery to one of a mere right of property; and as such, how can he oppose the foreign slave trade---how can he refuse that trade in that ``property'' shall be ``perfectly free''---unless he does it as a protection to the home production?", "word_offset_start": 2877, "word_offset_end": 2932, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p74_s02", "sentence_ordinal": 2, "text": "And as the home producers will probably not ask the protection, he will be wholly without a ground of opposition.", "word_offset_start": 2932, "word_offset_end": 2952, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p75",
+          "paragraph_ordinal": 75,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p75_s01", "sentence_ordinal": 1, "text": "Senator Douglas holds, we know, that a man may rightfully be wiser to-day than he was yesterday---that he may rightfully change when he finds himself wrong.", "word_offset_start": 2952, "word_offset_end": 2978, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p76",
+          "paragraph_ordinal": 76,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p76_s01", "sentence_ordinal": 1, "text": "But, can we for that reason, run ahead, and infer that he will make any particular change, of which he, himself, has given no intimation?", "word_offset_start": 2978, "word_offset_end": 3003, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p76_s02", "sentence_ordinal": 2, "text": "Can we safely base our action upon any such vague  inference?", "word_offset_start": 3003, "word_offset_end": 3014, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p77",
+          "paragraph_ordinal": 77,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p77_s01", "sentence_ordinal": 1, "text": "Now, as ever, I wish to not misrepresent Judge Douglas' position, question his motives, or do ought that can be personally offensive to him.", "word_offset_start": 3014, "word_offset_end": 3038, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p78",
+          "paragraph_ordinal": 78,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p78_s01", "sentence_ordinal": 1, "text": "Whenever, if ever, he and we can come together on principle so that our great cause  may have assistance from his great ability, I hope to have interposed no adventitious obstacle.", "word_offset_start": 3038, "word_offset_end": 3069, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p79",
+          "paragraph_ordinal": 79,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p79_s01", "sentence_ordinal": 1, "text": "But clearly, he is not now with us---he does not pretend to be---he does not promise to ever be.", "word_offset_start": 3069, "word_offset_end": 3088, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p80",
+          "paragraph_ordinal": 80,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p80_s01", "sentence_ordinal": 1, "text": "Our cause, then, must be intrusted to, and conducted by its own undoubted friends---those whose hands are free, whose hearts are in the work---who do care for the result.", "word_offset_start": 3088, "word_offset_end": 3117, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p81",
+          "paragraph_ordinal": 81,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p81_s01", "sentence_ordinal": 1, "text": "Two years ago the Republicans of the nation mustered over thirteen hundred thousand strong.", "word_offset_start": 3117, "word_offset_end": 3131, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p82",
+          "paragraph_ordinal": 82,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p82_s01", "sentence_ordinal": 1, "text": "We did this under the single impulse of resistance to a common danger, with every external circumstance against us.", "word_offset_start": 3131, "word_offset_end": 3150, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p83",
+          "paragraph_ordinal": 83,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p83_s01", "sentence_ordinal": 1, "text": "Of strange, discordant, and even, hostile elements, we gathered from the four winds, and formed and fought the battle through, under the constant hot fire of a disciplined, proud, and pampered enemy.", "word_offset_start": 3150, "word_offset_end": 3182, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p84",
+          "paragraph_ordinal": 84,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p84_s01", "sentence_ordinal": 1, "text": "Did we brave all then, to falter now?---now---when that same enemy is  wavering, dissevered and belligerent?", "word_offset_start": 3182, "word_offset_end": 3198, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p85",
+          "paragraph_ordinal": 85,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p85_s01", "sentence_ordinal": 1, "text": "The result is not doubtful.", "word_offset_start": 3198, "word_offset_end": 3203, "authorship_note": null, "metaphor_instances": []},
+            {"sentence_id": "doc_005_s01_p85_s02", "sentence_ordinal": 2, "text": "We shall not fail---if we stand firm, we shall not fail.", "word_offset_start": 3203, "word_offset_end": 3214, "authorship_note": null, "metaphor_instances": []}
+          ]
+        },
+        {
+          "paragraph_id": "doc_005_s01_p86",
+          "paragraph_ordinal": 86,
+          "sentences": [
+            {"sentence_id": "doc_005_s01_p86_s01", "sentence_ordinal": 1, "text": "Wise councils may accelerate or mistakes delay it, but, sooner or later the victory is sure to come.", "word_offset_start": 3214, "word_offset_end": 3232, "authorship_note": null, "metaphor_instances": []}
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_005_s02",
+      "section_label": "annotation",
+      "section_ordinal": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_005_s02_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {"sentence_id": "doc_005_s02_p01_s01", "sentence_ordinal": 1, "text": "[1]   Illinois State Journal, June 18, 1858, and Debates Scrapbook, ORB.", "word_offset_start": 3232, "word_offset_end": 3243, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_005_s02_p01_s02", "sentence_ordinal": 2, "text": "The basic Journal text, which followed Lincoln's original manuscript in paragraphing and use of italics and received his passing attention at least in proof, has been collated with the Chicago Daily Tribune text (June 19, 1858) chosen by Lincoln for inclusion in the debates scrapbook which he sent to George M. Parsons of the Republican Central Executive Committee (see Lincoln to Parsons, December 19, 1859) for use in preparing the Follett, Foster and Company edition of the Debates.", "word_offset_start": 3243, "word_offset_end": 3321, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_005_s02_p01_s03", "sentence_ordinal": 3, "text": "The debates scrapbook, in the Barrett Collection, is a large folio into which Lincoln pasted clippings of the several speeches made by himself and by Stephen A. Douglas which were to make up the Debates.", "word_offset_start": 3321, "word_offset_end": 3356, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
+            {"sentence_id": "doc_005_s02_p01_s04", "sentence_ordinal": 4, "text": "Corrections appear in the margins in Lincoln's handwriting, and a prefatory statement, also in Lincoln's hand, precedes the text of the speech.", "word_offset_start": 3356, "word_offset_end": 3378, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+          ]
+        }
+      ]
+    }
+  ]
+}
