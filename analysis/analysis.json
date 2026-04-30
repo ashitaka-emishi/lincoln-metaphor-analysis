@@ -8,13 +8,22 @@
       "cluster_name": "Nation as organism / body",
       "source_domain": "wound, healing, birth, severance, disease",
       "target_domain": "the American Union",
-      "instance_count": 25,
+      "instance_count": 34,
       "instance_ids": [
         "inst_00080",
         "inst_00102",
+        "inst_00108",
+        "inst_00111",
         "inst_00065",
         "inst_00066",
         "inst_00067",
+        "inst_00117",
+        "inst_00118",
+        "inst_00119",
+        "inst_00129",
+        "inst_00130",
+        "inst_00131",
+        "inst_00132",
         "inst_00077",
         "inst_00042",
         "inst_00055",
@@ -42,7 +51,8 @@
         "by_year": {
           "1838": 1,
           "1852": 1,
-          "1858": 3,
+          "1854": 2,
+          "1858": 10,
           "1861": 2,
           "1863": 5,
           "1864": 5,
@@ -51,7 +61,11 @@
         "by_document": {
           "doc_001": 1,
           "doc_003": 1,
+          "doc_004": 2,
           "doc_005": 3,
+          "doc_006b": 1,
+          "doc_006c": 2,
+          "doc_006g": 4,
           "doc_009": 1,
           "doc_011": 1,
           "doc_016": 3,
@@ -65,7 +79,8 @@
       "cmt_profile": {
         "dominant_linguistic_forms": [
           "clause",
-          "verbal_phrase"
+          "verbal_phrase",
+          "noun_phrase"
         ],
         "dominant_entailments": [
           "The republic's only mortal threat is internal — foreign armies cannot kill it; only Americans can",
@@ -75,6 +90,9 @@
           "the nation and Clay grew up together — their life-courses are parallel"
         ],
         "novel_instances": [
+          "inst_00108",
+          "inst_00111",
+          "inst_00132",
           "inst_00077",
           "inst_00031",
           "inst_00018",
@@ -82,6 +100,8 @@
         ],
         "extended_metaphor_groups": [
           "ext_012",
+          "ext_020",
+          "ext_023",
           "ext_008",
           "ext_001",
           "ext_006",
@@ -91,18 +111,18 @@
       "koenigsberg_profile": {
         "dominant_fantasy_types": [
           "wound_and_healing",
-          "punishment_and_theodicy",
-          "sacrifice_and_redemption"
+          "sacrifice_and_redemption",
+          "punishment_and_theodicy"
         ],
         "dominant_violence_logic": [
           "restorative",
           "structural_necessity",
           "punitive"
         ],
-        "obligatory_frame_rate": 0.84,
+        "obligatory_frame_rate": 0.882,
         "dominant_projected_entity": "national_body",
         "dominant_guilt_distribution": "external",
-        "sacrificial_economy_rate": 0.16,
+        "sacrificial_economy_rate": 0.206,
         "dominant_psychic_defense": "displacement",
         "absence_flags_distribution": {
           "enslaved_people_non_agent": 10,
@@ -111,7 +131,7 @@
           "confederates_depersonalized": 3,
           "death_abstracted": 2,
           "women_absent": 0,
-          "disease_purification_absent": 6
+          "disease_purification_absent": 15
         }
       },
       "political_moral_work": null,
@@ -140,7 +160,7 @@
         ]
       },
       "register_distribution": {
-        "formal_public_address": 16,
+        "formal_public_address": 18,
         "campaign_speech": 1,
         "congressional_message": 0,
         "semi_public_letter": 7,
@@ -536,12 +556,34 @@
       "cluster_name": "Founding fathers as inheritance",
       "source_domain": "patrimony, lineage, ancestral debt",
       "target_domain": "obligation to the founders",
-      "instance_count": 13,
+      "instance_count": 35,
       "instance_ids": [
         "inst_00078",
         "inst_00079",
         "inst_00081",
         "inst_00085",
+        "inst_00106",
+        "inst_00107",
+        "inst_00109",
+        "inst_00110",
+        "inst_00112",
+        "inst_00113",
+        "inst_00114",
+        "inst_00115",
+        "inst_00116",
+        "inst_00120",
+        "inst_00121",
+        "inst_00122",
+        "inst_00123",
+        "inst_00124",
+        "inst_00125",
+        "inst_00126",
+        "inst_00127",
+        "inst_00128",
+        "inst_00133",
+        "inst_00134",
+        "inst_00135",
+        "inst_00136",
         "inst_00068",
         "inst_00069",
         "inst_00070",
@@ -557,12 +599,20 @@
         "last_attested": "1863-11-19",
         "by_year": {
           "1838": 4,
+          "1854": 5,
+          "1858": 17,
           "1860": 4,
           "1861": 4,
           "1863": 1
         },
         "by_document": {
           "doc_001": 4,
+          "doc_004": 5,
+          "doc_006a": 4,
+          "doc_006c": 4,
+          "doc_006e": 1,
+          "doc_006f": 4,
+          "doc_006g": 4,
           "doc_007": 4,
           "doc_008": 1,
           "doc_010": 2,
@@ -574,6 +624,7 @@
       "cmt_profile": {
         "dominant_linguistic_forms": [
           "clause",
+          "noun_phrase",
           "nominal_phrase"
         ],
         "dominant_entailments": [
@@ -589,13 +640,18 @@
         ],
         "extended_metaphor_groups": [
           "ext_015",
+          "ext_019",
+          "ext_021",
+          "ext_022",
+          "ext_024",
           "ext_013",
           "ext_001"
         ]
       },
       "koenigsberg_profile": {
         "dominant_fantasy_types": [
-          "ancestral_debt"
+          "ancestral_debt",
+          "punishment_and_theodicy"
         ],
         "dominant_violence_logic": [
           "inherited_obligation",
@@ -605,16 +661,16 @@
         "obligatory_frame_rate": 1,
         "dominant_projected_entity": "ancestral_lineage",
         "dominant_guilt_distribution": "external",
-        "sacrificial_economy_rate": 0.308,
+        "sacrificial_economy_rate": 0.114,
         "dominant_psychic_defense": "idealization",
         "absence_flags_distribution": {
-          "enslaved_people_non_agent": 2,
+          "enslaved_people_non_agent": 16,
           "black_soldiers_erased": 0,
           "lincoln_non_agent": 0,
           "confederates_depersonalized": 0,
           "death_abstracted": 0,
           "women_absent": 0,
-          "disease_purification_absent": 10
+          "disease_purification_absent": 16
         }
       },
       "political_moral_work": null,
@@ -642,7 +698,7 @@
         ]
       },
       "register_distribution": {
-        "formal_public_address": 10,
+        "formal_public_address": 15,
         "campaign_speech": 0,
         "congressional_message": 2,
         "semi_public_letter": 0,
@@ -798,38 +854,38 @@
   ],
   "systematic_absence": {
     "primary_absent_entity": "enslaved_people",
-    "total_absence_flag_instances": 115,
+    "total_absence_flag_instances": 144,
     "absence_totals_by_flag": {
-      "enslaved_people_non_agent": 33,
+      "enslaved_people_non_agent": 47,
       "black_soldiers_erased": 8,
       "lincoln_non_agent": 19,
       "confederates_depersonalized": 5,
       "death_abstracted": 8,
       "women_absent": 1,
-      "disease_purification_absent": 41
+      "disease_purification_absent": 56
     },
     "absence_by_cluster": {
       "disease_purification_absent": {
-        "cluster_05_fathers_inheritance": 10,
-        "cluster_01_body_organism": 6,
+        "cluster_05_fathers_inheritance": 16,
+        "cluster_01_body_organism": 15,
         "cluster_03_experiment_proposition": 12,
         "cluster_04_birth_creation": 3,
         "cluster_06_providence_theodicy": 6,
         "cluster_02_covenant_oath": 4
+      },
+      "enslaved_people_non_agent": {
+        "cluster_05_fathers_inheritance": 16,
+        "cluster_03_experiment_proposition": 4,
+        "cluster_02_covenant_oath": 10,
+        "cluster_01_body_organism": 10,
+        "cluster_06_providence_theodicy": 5,
+        "cluster_04_birth_creation": 2
       },
       "lincoln_non_agent": {
         "cluster_06_providence_theodicy": 12,
         "cluster_02_covenant_oath": 3,
         "cluster_03_experiment_proposition": 1,
         "cluster_01_body_organism": 3
-      },
-      "enslaved_people_non_agent": {
-        "cluster_05_fathers_inheritance": 2,
-        "cluster_03_experiment_proposition": 4,
-        "cluster_02_covenant_oath": 10,
-        "cluster_01_body_organism": 10,
-        "cluster_06_providence_theodicy": 5,
-        "cluster_04_birth_creation": 2
       },
       "black_soldiers_erased": {
         "cluster_06_providence_theodicy": 2,
@@ -856,20 +912,22 @@
     },
     "absence_by_register": {
       "disease_purification_absent": {
-        "formal_public_address": 29,
+        "formal_public_address": 35,
+        "debate_speech": 9,
         "congressional_message": 12
+      },
+      "enslaved_people_non_agent": {
+        "formal_public_address": 17,
+        "debate_speech": 13,
+        "fragment_private": 7,
+        "semi_public_letter": 7,
+        "legal_document": 3
       },
       "lincoln_non_agent": {
         "formal_public_address": 13,
         "semi_public_letter": 4,
         "fragment_private": 1,
         "campaign_speech": 1
-      },
-      "enslaved_people_non_agent": {
-        "fragment_private": 7,
-        "semi_public_letter": 7,
-        "legal_document": 3,
-        "formal_public_address": 16
       },
       "black_soldiers_erased": {
         "legal_document": 1,
@@ -891,22 +949,25 @@
         "1838": 8,
         "1842": 4,
         "1852": 4,
-        "1858": 3,
+        "1854": 6,
+        "1858": 12,
         "1860": 4,
         "1861": 15,
         "1862": 3
+      },
+      "enslaved_people_non_agent": {
+        "1854": 1,
+        "1858": 13,
+        "1861": 6,
+        "1862": 4,
+        "1863": 10,
+        "1864": 6,
+        "1865": 7
       },
       "lincoln_non_agent": {
         "1861": 2,
         "1863": 6,
         "1864": 4,
-        "1865": 7
-      },
-      "enslaved_people_non_agent": {
-        "1861": 6,
-        "1862": 4,
-        "1863": 10,
-        "1864": 6,
         "1865": 7
       },
       "black_soldiers_erased": {
@@ -969,7 +1030,7 @@
         "cluster_03_experiment_proposition": 0,
         "cluster_04_birth_creation": 1,
         "cluster_05_fathers_inheritance": 0,
-        "cluster_06_providence_theodicy": 0
+        "cluster_06_providence_theodicy": 1
       },
       "cluster_06_providence_theodicy": {
         "cluster_01_body_organism": 0,
@@ -1011,6 +1072,12 @@
       "agent": "run_analysis.js",
       "date": "2026-04-30",
       "total_instances_analyzed": 105
+    },
+    {
+      "stage": 6,
+      "agent": "run_analysis.js",
+      "date": "2026-04-30",
+      "total_instances_analyzed": 136
     }
   ]
 }

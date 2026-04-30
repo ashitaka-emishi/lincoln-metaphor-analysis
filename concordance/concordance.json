@@ -3,9 +3,9 @@
   "generated": "2026-04-30",
   "corpus_version": "1.0",
   "status": "complete",
-  "total_documents": 20,
-  "total_sentences": 2229,
-  "total_instances": 105,
+  "total_documents": 28,
+  "total_sentences": 7642,
+  "total_instances": 136,
   "instances": [
     {
       "instance_id": "inst_00078",
@@ -975,6 +975,412 @@
       }
     },
     {
+      "instance_id": "inst_00106",
+      "sentence_id": "doc_004_s02_p87_s01",
+      "document_id": "doc_004",
+      "document_date": "1854-10-16",
+      "document_register": "formal_public_address",
+      "authorship_confidence": 0.97,
+      "span_text": "who declared this principle",
+      "span_char_start": 80,
+      "span_char_end": 106,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_generation_legislative_record",
+        "target_domain": "binding_precedent_for_current_slavery_policy",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the founding generation restricted slavery while establishing the republic; successors are obligated to maintain that restriction",
+          "the founding legislative record (not just words) is a binding bequest",
+          "Douglas's claim that the founders endorsed popular sovereignty is refuted by their own legislative actions"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "The anaphoric catalogue ('who declared this principle---who declared independence---who fought the war of the revolution through---who afterwards made the constitution under which we still live---these same men passed the ordinance of '87') enumerates the founding generation's complete portfolio. This is Lincoln's direct rebuttal to Douglas's invocation of founding-father authority for popular sovereignty. The span_text captures the opening of the anaphoric chain; the full clause extends to 'these same men passed the ordinance of '87' at char 80-291 but the anchor phrase 'who declared this principle' initiates the catalogue.",
+        "mapping": "the founding generation's complete legislative portfolio (declared the principle, declared independence, fought the revolution, made the constitution, passed the Northwest Ordinance) maps onto an authoritative multi-part inheritance that binds the present; the anaphoric catalogue enumerates what was bequeathed",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "the founding legislative record converts resistance to slavery expansion from ideological preference into inherited obligation; Lincoln is defending the patrimony the founders bequeathed",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founding generation's actions (not just words) bind the present; their legislative record is the inherited floor",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding generation as unified authoritative legislative precedent",
+        "guilt_distribution": "those who support the Kansas-Nebraska Act violate the founding inheritance",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "disease_and_purification systematically absent from Lincoln's system against human groups; founding-generation frame targets an institution"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.92,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00107",
+      "sentence_id": "doc_004_s02_p116_s04",
+      "document_id": "doc_004",
+      "document_date": "1854-10-16",
+      "document_register": "formal_public_address",
+      "authorship_confidence": 0.97,
+      "span_text": "the fathers of the republic eschewed, and rejected it",
+      "span_char_start": 23,
+      "span_char_end": 75,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_proprietary_standard_of_avoidance",
+        "target_domain": "slavery_naming_in_constitution",
+        "linguistic_form": "clause",
+        "entailments": [
+          "Lincoln's objection is grounded in the inherited standard, not personal preference",
+          "the fathers' deliberate avoidance (eschewing) creates an obligation for successors to maintain that avoidance",
+          "naming slavery explicitly in the constitution would violate the inherited standard the fathers set"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "Adjacent in p116 to the cancer/wen metaphor (p116_s11, inst_00108). The three sentences p116_s04 (fathers rejected naming it), p116_s11 (they hid the cancer), p116_s12 (less than this they could not do) form a thematic arc: the founders' strategy was to avoid naming slavery, hide it in the constitutional body as a cancer, with the promise of future removal. All three are annotated separately because p116_s11 is cluster_01 and p116_s04/s12 are cluster_05.",
+        "mapping": "the fathers' active rejection of slavery language in the Constitution is the inherited standard; their eschewing and rejecting is the precedent that binds Lincoln's own objection to naming slavery in the document",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "the fathers' rejection converts Lincoln's objection to slavery in the constitution into defense of inherited propriety rather than personal preference",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "what the fathers rejected must remain rejected — their eschewing is binding on successors",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founders' deliberate silence on slavery as inherited proprietary standard",
+        "guilt_distribution": "those who would name slavery explicitly violate the inherited standard the founders set",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "disease_and_purification absent; the avoidance frame targets naming of an institution, not elimination of a people"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00108",
+      "sentence_id": "doc_004_s02_p116_s11",
+      "document_id": "doc_004",
+      "document_date": "1854-10-16",
+      "document_register": "formal_public_address",
+      "authorship_confidence": 0.97,
+      "span_text": "an afflicted man hides away a wen or a cancer, which he dares not cut out at once, lest he bleed to death",
+      "span_char_start": 58,
+      "span_char_end": 162,
+      "cmt": {
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "human_organism_disease_and_surgery",
+        "target_domain": "constitution_containing_slavery",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the political body has a disease (slavery) that cannot be safely removed immediately without destroying the body",
+          "the founders' strategy was medical deferral — hide the cancer, promise future surgery",
+          "the Kansas-Nebraska Act breaks the promise of eventual surgery by legitimizing the cancer instead"
+        ],
+        "is_novel_metaphor": true,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "Most medically explicit cluster_01 instance in the pre-war corpus. The cancer/surgery frame maps SLAVERY (not a human group) to the disease. The afflicted body is the CONSTITUTION (not a racial body). This is NOT disease_and_purification in Koenigsberg's sense: the contaminant is an institution, not a people; the cure is surgical deferral and eventual removal, not elimination of a human group. Compare Cooper Union (doc_010) where Lincoln reports the Southern demand for 'disinfection from all taint of opposition to slavery' — that IS disease_and_purification but reported as adversary position. Here Lincoln himself deploys a disease frame, but targets an institution. is_novel_metaphor=true: no other document in the corpus uses the wen/cancer/surgery formula for the constitutional body.",
+        "mapping": "the constitution = an afflicted body; slavery = cancer/wen hidden within it; the founders = an afflicted man who defers surgery because immediate cutting would cause fatal bleeding; the deferred cutting = the promise that slavery would eventually be removed",
+        "conventional_or_novel": "novel"
+      },
+      "koenigsberg": {
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "the body-politic cannot survive immediate removal of the disease — the surgery must be deferred; this converts the founders' compromise into medical necessity, not moral weakness; the Kansas-Nebraska Act repudiates the deferred cure",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the deferred surgery must eventually be performed; the promise of the cutting cannot be repudiated",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "slavery as a cancer/wen in the constitutional body requiring deferred surgical removal",
+        "guilt_distribution": "the Kansas-Nebraska Act breaks the surgical promise — those who support it repudiate the deferred cure",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": true,
+        "sacrificial_yield": "latent — the eventual surgery will cost blood ('lest he bleed to death' is inverted: it explains why surgery was deferred, but the surgery must still come)",
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "the disease frame targets an institution (slavery in the constitutional body), not a human group; disease_and_purification absent from Lincoln's system against people"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.9,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00109",
+      "sentence_id": "doc_004_s02_p116_s12",
+      "document_id": "doc_004",
+      "document_date": "1854-10-16",
+      "document_register": "formal_public_address",
+      "authorship_confidence": 0.97,
+      "span_text": "our fathers COULD not do; and NOW [MORE?] they WOULD not do",
+      "span_char_start": 15,
+      "span_char_end": 73,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_constraint_as_floor_and_ceiling",
+        "target_domain": "slavery_compromise_as_inherited_bound",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the founding compromise was the minimum the founders could do given historical constraints",
+          "the founding compromise was also the maximum the founders would do given their moral principles",
+          "the Kansas-Nebraska Act exceeds the founders' maximum by legitimizing what they were not willing to legitimize"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "Third sentence of the p116 cluster (with p116_s04 and p116_s11). The COULD/WOULD distinction is Lincoln's parsing of the founding compromise: COULD is historical constraint (they couldn't do more in 1787); WOULD is moral principle (they wouldn't do more than toleration). Together they define the inherited constraint as both structurally obligatory and morally bounded.",
+        "mapping": "the founders' compromise on slavery = an inherited floor (minimum they COULD do given political constraints) and ceiling (maximum they WOULD do given moral principles); current policy must operate within those bounds",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "exceeding the founders' maximum (by legitimizing slavery expansion) violates the inherited constraint; the Kansas-Nebraska Act is a double transgression — exceeding both the structural floor and the moral ceiling",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "current policy must operate within the bounds the founders set — their COULD defines the floor, their WOULD defines the ceiling",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding generation as the setters of the minimum/maximum constraint",
+        "guilt_distribution": "Douglas's Nebraska bill exceeds the founders' WOULD — it legitimizes what they would not legitimize",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "disease_and_purification absent; the founding-constraint frame targets an institution"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00110",
+      "sentence_id": "doc_004_s02_p124_s03",
+      "document_id": "doc_004",
+      "document_date": "1854-10-16",
+      "document_register": "formal_public_address",
+      "authorship_confidence": 0.97,
+      "span_text": "Near eighty years ago we began by declaring",
+      "span_char_start": 0,
+      "span_char_end": 42,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_as_inherited_starting_point",
+        "target_domain": "eighty_year_trajectory_from_declaration_to_kansas_nebraska",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the Declaration of Independence is the inherited starting point, not merely a historical document",
+          "the eighty-year trajectory measures the distance from the founding standard",
+          "Kansas-Nebraska represents a departure from the inherited starting point"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "The 'near eighty years' formula is the Peoria Speech's departure-from-beginning variant of cluster_05: the founding is measured as a temporal distance, not just a juridical precedent. The contrast ('we began by declaring...now run down to the other declaration') makes the Kansas-Nebraska Act a degradation from the founding starting point.",
+        "mapping": "'we began by declaring' = the founding declaration is the inherited starting point from which all subsequent policy departs or returns; the eighty-year temporal frame makes the departure measurable",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "the Kansas-Nebraska Act represents a measurable departure from the inherited starting point; restoration to the founding declaration is obligatory",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founding declaration is the inherited starting point to which policy must return",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding generation as the originators of the starting point from which policy has departed",
+        "guilt_distribution": "those responsible for Kansas-Nebraska have led the nation 'down' from the founding starting point",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are discussed as the object of the slavery policy debate, not as agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.85,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00111",
+      "sentence_id": "doc_004_s02_p127_s03",
+      "document_id": "doc_004",
+      "document_date": "1854-10-16",
+      "document_register": "formal_public_address",
+      "authorship_confidence": 0.97,
+      "span_text": "wash it white, in the spirit, if not the blood, of the Revolution",
+      "span_char_start": 16,
+      "span_char_end": 80,
+      "cmt": {
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "bodily_stain_requiring_blood_to_wash_clean",
+        "target_domain": "national_sin_of_slavery_expansion_requiring_revolutionary_purification",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the nation has incurred a stain (the sin of departing from the founding) that requires cleansing",
+          "the primary washing agent is the spirit of the Revolution (returning to founding principles)",
+          "blood may be required if the spirit is insufficient — the first suggestion of sacrificial necessity"
+        ],
+        "is_novel_metaphor": true,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "First suggestion in the corpus that national purification may require blood. The structure 'in the spirit, if not the blood, of the Revolution' introduces the logic that will develop into Gettysburg's 'last full measure of devotion' and the Second Inaugural's 'terrible war.' The 'wash it white' is NOT disease_and_purification: the stain is the national sin of slavery expansion, not a human group. The national body's guilt (for departing from the founding) is what requires cleansing. The washing agent (revolutionary spirit/blood) is the founding inheritance.",
+        "mapping": "the national stain (departure from founding principles on slavery) = a bodily stain that must be washed white; the washing agents are the revolutionary spirit and, if necessary, the blood of the Revolution",
+        "conventional_or_novel": "novel"
+      },
+      "koenigsberg": {
+        "fantasy_type": "sacrifice_and_redemption",
+        "violence_logic": "the national stain may require blood to wash clean — the sacrificial logic is proto-war even in 1854",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the nation must wash away the stain of having departed from the founding; the spirit of the Revolution is the minimum, blood is the maximum",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the nation as a body that has incurred a stain requiring cleansing",
+        "guilt_distribution": "those responsible for the Kansas-Nebraska departure from the founding have stained the nation",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": true,
+        "sacrificial_yield": "proto-sacrificial: the blood of the Revolution is named as a possible washing agent; the full sacrificial logic is not yet developed",
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "the stain is the national sin of slavery expansion, not a human group; disease_and_purification absent from Lincoln's system against people"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.8,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00112",
+      "sentence_id": "doc_004_s02_p127_s05",
+      "document_id": "doc_004",
+      "document_date": "1854-10-16",
+      "document_register": "formal_public_address",
+      "authorship_confidence": 0.97,
+      "span_text": "re-adopt the Declaration of Independence, and with it, the practices, and policy",
+      "span_char_start": 7,
+      "span_char_end": 86,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_declaration_as_recoverable_inherited_standard",
+        "target_domain": "current_policy_restored_to_founding_standard",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the Declaration of Independence is not merely historical but is a recoverable standard",
+          "re-adopting it means restoring both the principle and the practices that accompanied it",
+          "the inheritance is not permanently lost — it can be reclaimed"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "Final cluster_05 instance in the Peoria Speech. 'Re-adopt' is the Peoria Speech's restorative terminus: what was adopted (the Declaration) and then departed from (by Kansas-Nebraska) can be re-adopted. 'With it, the practices, and policy' extends the inheritance from the document (Declaration) to the practices that accompanied it (restricting slavery expansion).",
+        "mapping": "the Declaration of Independence + the founders' practices and policy = an inherited standard that was adopted, has been departed from, and can be re-adopted; the inheritance is recoverable",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "re-adoption of the Declaration (and its accompanying practices) is the restorative act that undoes the Kansas-Nebraska departure",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the Declaration and its accompanying practices are recoverable — re-adoption is both possible and obligatory",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding Declaration as an inheritance that can be reclaimed",
+        "guilt_distribution": "those who departed from the Declaration bear the responsibility; re-adoption restores the inheritance",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "disease_and_purification absent; re-adoption frame targets restoration of a standard, not elimination of a group"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.87,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
       "instance_id": "inst_00065",
       "sentence_id": "doc_005_s01_p07_s01",
       "document_id": "doc_005",
@@ -1156,6 +1562,1396 @@
       "meta": {
         "annotator": "lincoln_corpus_reader",
         "confidence": 0.83,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00113",
+      "sentence_id": "doc_006a_s02_p23_s07",
+      "document_id": "doc_006a",
+      "document_date": "1858-08-21",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "Washington, and Jefferson, and Madison placed it",
+      "span_char_start": 65,
+      "span_char_end": 112,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_generation_legislative_acts",
+        "target_domain": "authoritative_placement_of_slavery_policy",
+        "linguistic_form": "clause",
+        "entailments": [
+          "where the founders placed slavery is where it belongs",
+          "the Kansas-Nebraska Act violates the founders' placement",
+          "restoring the founders' placement would put slavery on the course of ultimate extinction"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "The founding triad 'Washington, and Jefferson, and Madison' deploys bipartisan authority — one Federalist (Washington), one Democratic-Republican (Jefferson), one framer (Madison) — to show the Nebraska bill violated founders across all factions. The phrase 'placed it' converts the founding position on slavery into a spatial act with authoritative weight. Most direct cluster_05 invocation in the Ottawa debate.",
+        "mapping": "the founders' deliberate positioning of slavery (tolerating it, restricting its spread) maps onto the authoritative standard for current policy; Lincoln's goal is to return to that placement",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "deviation from the founding placement (via Kansas-Nebraska) generates the crisis; restoration of the founding position is the obligatory response",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "Lincoln is obligated to return slavery to the course the founders set; failing to do so betrays the founding inheritance",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "Washington, Jefferson, Madison — the founding triad as bipartisan authority",
+        "guilt_distribution": "Douglas bears guilt for departing from the founding placement",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "disease_and_purification systematically absent from Lincoln's system against human groups; here the founding placement targets an institution"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.92,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00114",
+      "sentence_id": "doc_006a_s02_p27_s07",
+      "document_id": "doc_006a",
+      "document_date": "1858-08-21",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the basis upon which our fathers placed it",
+      "span_char_start": 76,
+      "span_char_end": 117,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "architectural_foundation_laid_by_founders",
+        "target_domain": "founding_position_on_slavery_as_structural_base",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "returning to the original basis is restoring the foundation",
+          "the original basis is structurally stable; departing from it creates instability",
+          "Douglas's Nebraska bill removes the foundation rather than building on it"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_019",
+        "co_activated_clusters": [],
+        "annotation_notes": "Anchor sentence of the p27 arc (ext_019). The 'original basis---the basis upon which our fathers placed it' formula uses architectural language (basis/foundation) to make the founding precedent structurally load-bearing. The em-dash repetition ('the original basis---the basis upon which') is emphatic apposition.",
+        "mapping": "the founders' position on slavery = the original foundation upon which subsequent policy is built; the 'original basis' is load-bearing — deviation from it undermines the whole structure",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "removing the founding foundation (via popular sovereignty) destabilizes the republic; restoration is the obligatory response",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founding basis must be preserved or restored; it is the structural floor for legitimate policy",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the fathers collectively as the originators of the structural foundation",
+        "guilt_distribution": "Douglas violated the foundation",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "slavery as the institution placed by the fathers; enslaved people are the object of slavery policy, not agents in this argument"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00115",
+      "sentence_id": "doc_006a_s02_p27_s09",
+      "document_id": "doc_006a",
+      "document_date": "1858-08-21",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the plan of the founders of government",
+      "span_char_start": 43,
+      "span_char_end": 80,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founders_intentional_design_for_government",
+        "target_domain": "current_political_strategy_legitimated_by_founding_plan",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "the founders had an intentional design (not accidental) for managing slavery",
+          "working 'on the plan of the founders' is the only legitimate political strategy",
+          "Douglas cannot claim founding authority for the Nebraska bill"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_019",
+        "co_activated_clusters": [],
+        "annotation_notes": "Middle sentence of the p27 arc (ext_019). Lincoln turns Douglas's claim to 'original principles' back on Douglas: does the Judge actually claim to be working on the founders' plan? The rhetorical question exposes the gap between Douglas's claim and the founders' actual design. 'The plan of the founders of government' treats the founding as a deliberate architectural blueprint.",
+        "mapping": "the founders had a deliberate plan → Douglas claims to follow it → Lincoln contests the claim → the founding plan is the legitimating standard for judging current policy",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "false claims to founding authority are exposed; authentic founding authority legitimates only Lincoln's position",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founders' plan is the authoritative template; departures must be exposed and corrected",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founders collectively as intentional designers of government",
+        "guilt_distribution": "Douglas falsely claims founding authority for an innovation that departs from the founding plan",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [],
+        "absence_notes": null
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.85,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00116",
+      "sentence_id": "doc_006a_s02_p27_s11",
+      "document_id": "doc_006a",
+      "document_date": "1858-08-21",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the Jeffersonian, Washingtonian, and Madisonian fashion",
+      "span_char_start": 69,
+      "span_char_end": 123,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founders_distinctive_method_for_handling_slavery",
+        "target_domain": "lincolns_political_strategy_as_continuous_with_founding_method",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "the founders had a recognizable method (fashion) for dealing with slavery",
+          "Lincoln's resistance to the Nebraska bill follows that method",
+          "the founders' fashion is the authoritative model for current political action"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_019",
+        "co_activated_clusters": [],
+        "annotation_notes": "Concluding sentence of the p27 arc (ext_019). The adjectival form 'Jeffersonian, Washingtonian, and Madisonian fashion' converts the founding fathers' names into methodological descriptors — a rhetorically compressed inheritance claim. Compare inst_00113 where the same triad appears as a noun catalogue ('Washington, and Jefferson, and Madison placed it'). The adjectival conversion makes the founders into an inherited style.",
+        "mapping": "fighting the Nebraska bill 'in the Jeffersonian, Washingtonian, and Madisonian fashion' = inheriting the founders' method as the legitimate mode of resistance; Lincoln's strategy is continuous with, not innovative beyond, the founding",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "resistance to Nebraska is not political innovation but restoration of the founders' own method; Lincoln positions himself as inheritor, not innovator",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "inheriting the founders' fashion obligates Lincoln to fight the Nebraska bill in the same way; the method is as inherited as the principle",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "Jefferson, Washington, Madison as method-providers converted to adjectival authority",
+        "guilt_distribution": "Douglas departs from the founders' fashion; Lincoln continues it",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [],
+        "absence_notes": null
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.9,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00117",
+      "sentence_id": "doc_006b_s04_p10_s02",
+      "document_id": "doc_006b",
+      "document_date": "1858-08-27",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "this Government can endure permanently half slave and half free",
+      "span_char_start": 31,
+      "span_char_end": 93,
+      "cmt": {
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "living_organism_that_must_survive_whole",
+        "target_domain": "american_government_divided_by_slavery",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the Government is a living entity that must endure over time to fulfill its purpose",
+          "being half slave and half free is a condition of division that prevents endurance",
+          "the Government must eventually become all one thing or all the other to survive"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "Debate-floor restatement of the House Divided thesis from the June 17, 1858 House Divided speech. The original speech uses the architectural metaphor ('a house divided against itself cannot stand'); here Lincoln restates it in biological terms ('cannot endure permanently'). 'Endure' carries the organism-survival sense: the Government is a living entity that must survive over time. At the threshold confidence (0.72): the organism frame is less explicit than in the House Divided speech proper, but 'endure' is distinctly organic rather than architectural.",
+        "mapping": "the Government is a living entity (organism) that must endure = survive; 'half slave and half free' is a divided/diseased condition that makes endurance impossible; the organism must be whole to survive",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "the divided condition (half slave/half free) is the wound that prevents the Government from enduring; resolution requires the nation becoming all one thing or all the other",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the Government's survival (endurance) is obligatory; the divided condition cannot be allowed to persist",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the American Government as a living entity that must survive whole",
+        "guilt_distribution": "those who perpetuate the divided condition bear responsibility for the Government's inability to endure",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "the divided condition targets a political/institutional arrangement, not a human group; disease_and_purification absent from Lincoln's system against people"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.72,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00120",
+      "sentence_id": "doc_006c_s03_p04_s04",
+      "document_id": "doc_006c",
+      "document_date": "1858-09-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the position in which our fathers originally placed it",
+      "span_char_start": 64,
+      "span_char_end": 117,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_generation_spatial_placement_of_slavery",
+        "target_domain": "inherited_policy_position_requiring_restoration",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "the founders' position on slavery is the authoritative inherited standard",
+          "Douglas and his friends changed that position — they are the deviators from the inheritance",
+          "restoration to the founders' position is the obligation"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_021",
+        "co_activated_clusters": [],
+        "annotation_notes": "Anchor of the ext_021 founding-fathers arc (p04). Lincoln is responding to Douglas's question 'Why can't we let it stand as our fathers placed it?' (p04_s03) — Lincoln's answer is that Douglas changed it. The 'position' language converts the founding precedent into a spatial location: there is a place where slavery was (restricted, on course of extinction) and Douglas moved it.",
+        "mapping": "the founding generation's handling of slavery = a spatial position; departing from that position = a deviation from the inherited standard; Lincoln's goal is restoration of that position",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "departure from the founding position is the violation; restoration is the obligatory response",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the position the fathers originally placed slavery must be restored; departure from it is a violation of the inherited standard",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding generation as the authoritative position-setters for slavery policy",
+        "guilt_distribution": "Douglas and his friends changed the founding position — they bear the guilt of the departure",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of slavery policy throughout; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00121",
+      "sentence_id": "doc_006c_s03_p04_s06",
+      "document_id": "doc_006c",
+      "document_date": "1858-09-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the policy of its founders to prohibit the spread of slavery into the new Territories",
+      "span_char_start": 56,
+      "span_char_end": 140,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founders_deliberate_policy_as_inherited_obligation",
+        "target_domain": "current_territorial_policy_bound_by_founding_precedent",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "the founders had a deliberate policy (not just a vague hope) of prohibiting slavery's spread",
+          "this policy is the inheritance that current legislation must honor",
+          "the Kansas-Nebraska Act violates the founders' explicit policy"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_021",
+        "co_activated_clusters": [],
+        "annotation_notes": "Central sentence of the ext_021 arc. 'Policy of its founders' is more explicitly procedural than 'position' (p04_s04): the founders had a policy, not just a stance. 'To prohibit the spread of slavery into the new Territories' is the specific inherited obligation. The government's foundational policy is the inheritance; the Kansas-Nebraska Act repudiates it.",
+        "mapping": "the founders' deliberate policy of prohibiting slavery from new territories = the binding inheritance for current territorial legislation; 'policy of its founders' converts founding precedent from historical fact into obligatory guide",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "repealing the founding prohibition on slavery's spread is the violation of the inherited policy; restoration of the prohibition is obligatory",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founders' policy of prohibition is the binding standard; it must be restored",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding generation as policy-makers whose deliberate prohibition binds current legislation",
+        "guilt_distribution": "the Kansas-Nebraska Act repudiates the founders' policy; Douglas bears the guilt of the repudiation",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of the policy debate; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.9,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00122",
+      "sentence_id": "doc_006c_s03_p04_s08",
+      "document_id": "doc_006c",
+      "document_date": "1858-09-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the basis that the fathers of our government originally placed it upon",
+      "span_char_start": 81,
+      "span_char_end": 150,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "architectural_foundation_laid_by_founders",
+        "target_domain": "founding_standard_as_structural_base_for_policy",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "the fathers' founding settlement on slavery = an architectural foundation",
+          "Lincoln's position is to restore slavery to that foundation",
+          "the foundation is the authoritative structural base — departure from it is instability"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_021",
+        "co_activated_clusters": [],
+        "annotation_notes": "Conclusion of the ext_021 arc. 'Basis...originally placed it upon' uses architectural foundation language (same as Ottawa's ext_019: 'the basis upon which our fathers placed it'). The restorative imperative is explicit: 'placed BACK AGAIN upon' signals that the foundation exists and must be restored, not created anew. Compare Ottawa inst_00114 — the Jonesboro version is more explicitly restorative ('back again').",
+        "mapping": "the founding standard = the original basis/foundation laid by the fathers; Lincoln's goal is to 'place it back again upon' that foundation — a restorative architectural act",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "the founding foundation must be restored; departing from it destabilizes the political structure",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "slavery must be placed back on the founding basis — the restoration is both possible and obligatory",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the fathers of government as the original foundation-layers",
+        "guilt_distribution": "Douglas departed from the founding basis; Lincoln seeks its restoration",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object throughout; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00123",
+      "sentence_id": "doc_006c_s03_p05_s06",
+      "document_id": "doc_006c",
+      "document_date": "1858-09-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the basis upon which the Fathers of the Government left it",
+      "span_char_start": 52,
+      "span_char_end": 109,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_basis_as_inherited_departure_point",
+        "target_domain": "slavery_policy_departed_from_founding_basis",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "the Fathers of the Government left slavery on a specific basis — that basis is the inherited standard",
+          "Douglas insisted on changing it from that basis to the basis of perpetuation and nationalization",
+          "the departure from the founding basis is what Douglas is responsible for"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "Individual instance in p05 (outside the p04 ext_021 arc). Lincoln is paraphrasing Douglas's own reasoning: Douglas said the framers lacked knowledge about cotton gin, therefore their founding basis should be updated. Lincoln's counter is that Douglas 'changed from the basis upon which the Fathers left it' — which makes Douglas the deviator and the Fathers the authority. The 'Fathers of the Government' capitalization (present in the original) underscores the institutional weight of the founding.",
+        "mapping": "the founding settlement on slavery = the basis upon which the Fathers left it; departing from that basis = nationalization and perpetuation; Lincoln is defending the basis against Douglas's departure",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "changing from the founding basis to the basis of perpetuation and nationalization is the violation; the founding basis must be restored",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the basis the Fathers left must not be changed; Douglas's change from that basis to perpetuation is the violation",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the Fathers of the Government as the authoritative basis-setters",
+        "guilt_distribution": "Douglas bears the guilt of having changed from the founding basis",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of the policy basis debate; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.87,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00118",
+      "sentence_id": "doc_006c_s03_p15_s02",
+      "document_id": "doc_006c",
+      "document_date": "1858-09-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the house a house divided against itself",
+      "span_char_start": 16,
+      "span_char_end": 55,
+      "cmt": {
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "house_as_structural_unity_requiring_wholeness",
+        "target_domain": "american_union_divided_by_slavery",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "the Union is like a house that requires structural integrity to stand",
+          "regional variety (sugar, flour) does not divide the house — these are props that sustain it",
+          "slavery alone is what makes the house divided against itself"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_020",
+        "co_activated_clusters": [],
+        "annotation_notes": "Anchor of the ext_020 house arc. Lincoln is rebutting Douglas's argument that regional variety (sugar in Louisiana, flour in Illinois) creates the division. Lincoln's counter: regional variety does NOT make the house divided — these differences are the cement and props of the Union. Only slavery makes the house divided. The explicit 'house a house divided against itself' phrase echoes Matthew 12:25 and Lincoln's own June 1858 House Divided speech. Context: p14 lists regional economic differences; p15 argues these are props, not dividers.",
+        "mapping": "the Union = a house that must remain undivided to stand; regional economic differences = the props/cements that sustain the house; slavery = the force that divides the house against itself",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "slavery is the dividing force that makes the house/union unable to stand; restoring unity requires resolving the slavery question",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the house must remain whole to stand; the dividing force (slavery) must be resolved",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the American Union as a house requiring structural wholeness",
+        "guilt_distribution": "slavery expansion is the force dividing the house; those who spread slavery bear responsibility",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "the architectural/structural metaphor targets slavery as an institution, not a human group"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00119",
+      "sentence_id": "doc_006c_s03_p15_s03",
+      "document_id": "doc_006c",
+      "document_date": "1858-09-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the props that hold up the house and sustain the Union",
+      "span_char_start": 9,
+      "span_char_end": 62,
+      "cmt": {
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "house_structural_supports",
+        "target_domain": "regional_economic_differences_as_union_sustaining_forces",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "regional differences (sugar, flour) are structural supports that hold the house of Union together",
+          "props sustain the house — they are forces of unity, not division",
+          "the house metaphor extends: not just one unified building, but one with multiple supporting pillars"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_020",
+        "co_activated_clusters": [],
+        "annotation_notes": "Continuation of the ext_020 house arc (p15_s02). Lincoln extends the house metaphor to identify what props it up: the regional differences that Douglas claims create division are actually the structural supports. The contrast is sharp: slavery divides the house (p15_s02); regional variety holds it up (p15_s03). The parallel structure 'hold up the house AND sustain the Union' equates the architectural metaphor with its referent.",
+        "mapping": "regional economic differences (sugar/flour production) = the props/structural supports that hold up the house of Union; these forces sustain the structure, contrasting with slavery which divides it",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "the props sustaining the house are threatened by slavery expansion; protecting the props means containing slavery",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the props that hold up the house must be protected; they represent the legitimate diversity of a whole Union",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "regional economic differences as structural supports of the Union-as-house",
+        "guilt_distribution": "those who spread slavery threaten the structural supports of the Union",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "architectural metaphor targets institutional forces, not human groups"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.85,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00124",
+      "sentence_id": "doc_006e_s02_p04_s05",
+      "document_id": "doc_006e",
+      "document_date": "1858-10-07",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "he trembled for his country when he remembered that God was just",
+      "span_char_start": 218,
+      "span_char_end": 281,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "jefferson_as_founding_authority_invoking_divine_judgment",
+        "target_domain": "slavery_as_violation_subject_to_gods_justice",
+        "linguistic_form": "clause",
+        "entailments": [
+          "Jefferson, the founding father who owned slaves, nonetheless trembled before God's justice regarding slavery",
+          "the founding generation's own anxiety about divine judgment on slavery is the inherited standard",
+          "Douglas has never uttered anything like Jefferson's statement — he falls below the founding standard"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [
+          "cluster_06_providence_theodicy"
+        ],
+        "annotation_notes": "Lincoln cites Jefferson's own words from 'Notes on the State of Virginia': 'he trembled for his country when he remembered that God was just.' This is a dual-cluster instance: cluster_05 (Jefferson as founding authority) is primary; cluster_06 (divine justice as the ground of Jefferson's anxiety) is co-activated. Lincoln uses Jefferson's own acknowledgment of divine judgment to demonstrate that the founders understood slavery as a moral liability before God — something Douglas has never approached. The challenge ('offer the highest premium') underscores that no one in Douglas's camp has ever matched the founding generation's moral seriousness about slavery and God.",
+        "mapping": "Jefferson = the founding authority (cluster_05) whose words carry inherited weight; his trembling before God's justice (cluster_06) is the inherited standard against which Douglas is measured and found wanting",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "punishment_and_theodicy",
+        "violence_logic": "God's justice is the ultimate sanction — the founding generation trembled before it; those who do not share that anxiety are below the founding moral standard",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founders' acknowledgment of divine judgment on slavery is part of the inherited standard; Lincoln's obligation is to uphold that standard",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "Jefferson as founding moral authority invoking divine justice on slavery",
+        "guilt_distribution": "Douglas never trembled as Jefferson trembled — he falls below the founding standard on the moral severity of slavery",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "divine judgment targets the institution/national sin of slavery, not a human group; disease_and_purification absent"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.85,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00125",
+      "sentence_id": "doc_006f_s03_p04_s06",
+      "document_id": "doc_006f",
+      "document_date": "1858-10-13",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the fathers of the government made this nation part slave and part free",
+      "span_char_start": 103,
+      "span_char_end": 173,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founders_as_intentional_authors_of_national_character",
+        "target_domain": "national_condition_of_part_slave_part_free_attributed_to_founders",
+        "linguistic_form": "clause",
+        "entailments": [
+          "Douglas claims the founders CHOSE to make the nation part slave and part free",
+          "Lincoln contests this: the founders did not choose this as an ideal — they left it because they knew no other way",
+          "the founding inheritance is not endorsement of the divided state but acknowledgment of a temporary constraint"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_022",
+        "co_activated_clusters": [],
+        "annotation_notes": "Anchor of the ext_022 arc (p04_s06 + p04_s07). Lincoln is contesting Douglas's premise: Douglas says the founders CHOSE to make the nation part slave and part free. Lincoln's rebuttal: this is 'historically a falsehood' — they left it so because they knew no way to get rid of it. The cluster_05 frame is contested: Lincoln contests who correctly inherits the founding position.",
+        "mapping": "the founders as agents who 'made' the national character — Lincoln contests Douglas's attribution, showing the founders' action was constraint-driven, not choice-driven",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "misrepresenting the founding fathers' intent is a falsification of the inheritance; Lincoln's obligation is to contest the false attribution",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founding record must be correctly represented; falsifying it (claiming they chose the divided state) violates the inherited standard",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founders as constrained actors, not endorsers of the divided state",
+        "guilt_distribution": "Douglas falsely attributes endorsement to the founders — a falsification of the founding inheritance",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of the founding policy debate; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00126",
+      "sentence_id": "doc_006f_s03_p04_s07",
+      "document_id": "doc_006f",
+      "document_date": "1858-10-13",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the fathers of the government cut off the source of slavery by the abolition of the slave trade",
+      "span_char_start": 48,
+      "span_char_end": 142,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founders_as_active_cutters_of_slaverys_source",
+        "target_domain": "slave_trade_abolition_as_founding_inheritance",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the founders actively cut off the source of slavery (abolished the slave trade)",
+          "adopted a system of restricting it from new Territories — this is the inherited policy",
+          "they placed it where it was understood to be in the course of ultimate extinction"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_022",
+        "co_activated_clusters": [],
+        "annotation_notes": "Conclusion of the ext_022 arc. The 'cut off the source' language introduces a pruning/severing sub-metaphor within cluster_05: the founders did not merely tolerate slavery but actively cut off its source (abolition of the international slave trade, 1808). This is the most active founding-generation cluster_05 instance in the corpus — the founders are not passive inheriters of a colonial condition but active cutters of slavery's supply line.",
+        "mapping": "the founders = active agents who 'cut off the source of slavery'; their action (abolishing the slave trade, restricting it from territories) = the inherited policy for managing slavery; 'cut off the source' uses a pruning/severing metaphor for the founding legislative act",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "the founders cut off the source; Douglas reopened it (via Nebraska Act); the obligation is to restore the founders' active pruning policy",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founding policy of cutting off slavery's source and restricting it is the inherited obligation",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding generation as active agents who cut off the source of slavery and placed it on the course of extinction",
+        "guilt_distribution": "Douglas reopened the source the founders cut off; he inverted the founding inheritance",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of the policy Lincoln defends; not agents in this argument"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.92,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00127",
+      "sentence_id": "doc_006f_s03_p05_s03",
+      "document_id": "doc_006f",
+      "document_date": "1858-10-13",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the basis upon which our fathers placed it",
+      "span_char_start": 42,
+      "span_char_end": 83,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_architectural_basis_for_slavery_policy",
+        "target_domain": "founding_settlement_as_structural_base_departed_from_by_douglas",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "the founders placed slavery on a specific basis — restriction on course of extinction",
+          "Douglas moved it from that basis to the cotton gin basis — technological necessity replacing moral constraint",
+          "the founding basis and the cotton gin basis are mutually exclusive foundations"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "The 'cotton gin basis' contrast (p05_s03 full sentence: 'Judge Douglas could not let it stand upon the basis upon which our fathers placed it, but removed it and put it upon the cotton gin basis') is analytically significant: Douglas is said to have replaced the moral/political founding basis with a technological-economic basis. The architectural foundation language ('basis') makes this a structural argument: which foundation does the nation's slavery policy rest on?",
+        "mapping": "the founding settlement on slavery = the original basis/foundation; Douglas's innovation = substituting a new basis (cotton gin necessity) for the founding one; Lincoln defends the founding basis",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "Douglas removed the founding basis and substituted a technological one; the founding basis must be restored",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founding basis is the only legitimate foundation for slavery policy; Douglas's substitution violates the inheritance",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founders as the authoritative basis-setters whose foundation Douglas removed",
+        "guilt_distribution": "Douglas removed the founding basis — this is the Quincy debate's core guilt attribution",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of the basis debate; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00128",
+      "sentence_id": "doc_006f_s03_p15_s08",
+      "document_id": "doc_006f",
+      "document_date": "1858-10-13",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the sentiments that Henry Clay used to hold",
+      "span_char_start": 97,
+      "span_char_end": 139,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "henry_clay_as_inherited_authority_for_declaration_position",
+        "target_domain": "lincolns_position_on_declaration_validated_by_clay_inheritance",
+        "linguistic_form": "noun_phrase",
+        "entailments": [
+          "Lincoln's use of the Declaration of Independence ('all men are created equal') is not heretical but inherited",
+          "Henry Clay held the same sentiments — Clay is the inherited authority for this position",
+          "Douglas's charge of heresy against Lincoln is simultaneously a charge of heresy against Clay"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "Threshold annotation (conf 0.72). Lincoln invokes Henry Clay (1777-1852) as a near-founding authority — Clay bridges the founding generation and the antebellum era, and was the political hero of the Whig tradition Lincoln inherited. 'The sentiments that Henry Clay used to hold' frames Lincoln's position as inherited rather than invented. The charge of 'heretical statement' (p15_s07) is deflected by Clay's authority: if Lincoln is a heretic, so was Clay.",
+        "mapping": "Henry Clay's prior position on the Declaration = the inherited precedent that legitimates Lincoln's current position; citing Clay converts Lincoln's stance from innovation to inheritance",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "Douglas charges Lincoln with heresy for adopting the Declaration's equality principle; Lincoln contests by showing Clay held the same sentiments",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "Clay's inherited position legitimates Lincoln's current one; the charge of heresy cannot stand against inherited precedent",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "Henry Clay as the near-founding authority who transmitted the Declaration's equality principle",
+        "guilt_distribution": "Douglas's charge of heresy, if sustained, would condemn Clay — which Douglas cannot accept",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of the Declaration/equality debate; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.72,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00129",
+      "sentence_id": "doc_006g_s02_p33_s04",
+      "document_id": "doc_006g",
+      "document_date": "1858-10-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "A house divided against itself cannot stand",
+      "span_char_start": 2,
+      "span_char_end": 44,
+      "cmt": {
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "house_as_structural_unity_requiring_wholeness_to_stand",
+        "target_domain": "american_government_unable_to_endure_divided_by_slavery",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the government is a house — a structural entity requiring internal wholeness to stand",
+          "being divided against itself (half slave, half free) is the condition that prevents standing",
+          "the house cannot stand in the divided condition — it must become all one or all the other"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_023",
+        "co_activated_clusters": [],
+        "annotation_notes": "Anchor of the ext_023 arc (p33_s04/s05/s06). Lincoln quotes his own Springfield speech (June 1858) directly: '``A house divided against itself cannot stand.'' I believe this government cannot endure permanently half Slave and half Free.' The dual structure — explicit quotation + restatement in biological terms ('endure permanently') — is the fullest statement of the House Divided cluster_01 frame across all 28 documents. The architectural metaphor (house/stand) and the biological metaphor (endure) are fused: the house as a living structure that must survive.",
+        "mapping": "the American government = a house; the divided condition (half slave, half free) = structural division against itself; the house-divided condition = structural impossibility of standing; resolution = becoming all one thing or all the other",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "the divided condition is the structural wound that prevents the house from standing; the wound must be healed by resolution (all slave or all free)",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the house must become whole to stand; the divided condition is structurally unsustainable",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the American government as a house that cannot stand divided",
+        "guilt_distribution": "those who perpetuate the divided condition (by spreading slavery) prevent the house from standing",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "architectural/structural division targets an institutional condition, not a human group"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.93,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00130",
+      "sentence_id": "doc_006g_s02_p33_s05",
+      "document_id": "doc_006g",
+      "document_date": "1858-10-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the house to fall---but I do expect it will cease to be divided",
+      "span_char_start": 16,
+      "span_char_end": 78,
+      "cmt": {
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "house_ceasing_division_rather_than_falling",
+        "target_domain": "union_becoming_all_slave_or_all_free_without_collapse",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the house will not fall — it will survive the crisis",
+          "but it will cease to be divided — it must become all one thing or all the other",
+          "resolution (not collapse) is the expected outcome"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_023",
+        "co_activated_clusters": [],
+        "annotation_notes": "Second sentence of the ext_023 arc. This sentence directly rebuts the charge that 'a house divided cannot stand' implies Lincoln wants disunion/dissolution. Lincoln's correction: not fall = not collapse; but cease to be divided = become all slave or all free. The arc moves from crisis (p33_s04: cannot stand) to reassurance (p33_s05: will not fall) to resolution (p33_s06: all one or all the other).",
+        "mapping": "the house (government) will not fall (collapse/die) but will cease to be divided — this refutes the charge that Lincoln seeks disunion; the house will survive by becoming whole",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "the house will not fall — the wound is not fatal; but the division must heal into wholeness",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the house must cease to be divided — not collapse but resolution into wholeness is obligatory",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the American government as a house that will survive the crisis by becoming whole",
+        "guilt_distribution": "those who charge Lincoln with seeking disunion misread the metaphor; the house will endure",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "architectural resolution targets institutional division, not a human group"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00131",
+      "sentence_id": "doc_006g_s02_p33_s06",
+      "document_id": "doc_006g",
+      "document_date": "1858-10-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "become all one thing, or all the other",
+      "span_char_start": 8,
+      "span_char_end": 45,
+      "cmt": {
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "house_becoming_whole_by_becoming_uniform",
+        "target_domain": "union_resolving_to_all_slave_or_all_free",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the divided house must become internally uniform to stand",
+          "the two possible resolutions are: all slave or all free",
+          "partial divisions cannot endure — only uniformity can"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_023",
+        "co_activated_clusters": [],
+        "annotation_notes": "Conclusion of the ext_023 arc. The resolution formula 'all one thing, or all the other' is Lincoln's most explicit statement that the divided condition cannot persist — but does not specify which resolution will prevail. The ambiguity is intentional: Lincoln is not predicting slavery's triumph but stating structural necessity. In 1858 this is a structural prediction; by 1863 (Second Inaugural) Lincoln knows the answer: freedom.",
+        "mapping": "the house (government) must become 'all one thing' (either all slave or all free) to resolve the structural division; uniformity = wholeness = ability to stand",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "the wound of division heals only by becoming uniform; the structural logic of the house metaphor demands resolution",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the house cannot remain divided — it must become all one thing or all the other",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the American government as a house that must become internally uniform to stand",
+        "guilt_distribution": "slavery expansion perpetuates the divided condition; those who spread slavery prevent resolution",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "the uniformity required is political/institutional, not racial; disease_and_purification absent"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.85,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00133",
+      "sentence_id": "doc_006g_s02_p38_s04",
+      "document_id": "doc_006g",
+      "document_date": "1858-10-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "placing it where the fathers originally placed it",
+      "span_char_start": 52,
+      "span_char_end": 100,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_spatial_placement_of_slavery",
+        "target_domain": "restoration_to_founding_position_as_path_to_extinction",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the fathers originally placed slavery in a specific position (restricted, on course of extinction)",
+          "returning it to that position is how the public mind would believe in ultimate extinction",
+          "the alternative (spreading it) prevents the public mind from resting"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_024",
+        "co_activated_clusters": [],
+        "annotation_notes": "Anchor of the ext_024 arc (p38_s04 + p38_s09). Same 'fathers originally placed it' formula as Jonesboro (inst_00120) and Ottawa (inst_00113). At Alton, the placement formula is tied explicitly to the 'public mind resting in the belief of ultimate extinction' — the founding position does not just constrain policy but creates the psychological-political conditions for the nation's peace.",
+        "mapping": "the founding position on slavery = a spatial placement that must be restored; 'placing it where the fathers originally placed it' is the restorative act that restores the course of ultimate extinction",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "restoring the founding placement would restore the public mind's belief in ultimate extinction; failure to restore it produces agitation",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founding placement must be restored to put the public mind at rest",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding fathers as the authoritative original placers of slavery policy",
+        "guilt_distribution": "Douglas's departure from the founding placement created the current agitation",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of the policy placement; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00134",
+      "sentence_id": "doc_006g_s02_p38_s09",
+      "document_id": "doc_006g",
+      "document_date": "1858-10-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the fathers of this Government placed that institution where the public mind did rest in the belief that it was in the course of ultimate extinction",
+      "span_char_start": 66,
+      "span_char_end": 213,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_placement_creating_public_mind_rest",
+        "target_domain": "founding_position_on_slavery_as_the_psychological_political_settlement",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the fathers placed slavery such that the public mind believed it was in the course of ultimate extinction",
+          "this public-mind effect is the full consequence of the founding placement",
+          "the Kansas-Nebraska Act disturbed the public mind by disturbing the founding placement"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": true,
+        "extension_group_id": "ext_024",
+        "co_activated_clusters": [],
+        "annotation_notes": "Conclusion of the ext_024 arc. This is the fullest statement of the founding-placement = public-mind-settlement connection in the corpus. Lincoln argues that the founding placement did not just legally restrict slavery but created the public mind's BELIEF in ultimate extinction — a psychological-political inheritance. The Kansas-Nebraska Act disturbed that belief by disturbing the placement. The inheritance includes both the policy and the public psychological peace it produced.",
+        "mapping": "the founding placement = the source of the public mind's rest/belief; the fathers' placement produced not just a legal condition but a psychological one (public belief in ultimate extinction); the psychological settlement is part of the founding inheritance",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "the public mind's rest was the full inheritance of the founding placement; its disturbance by Kansas-Nebraska is the full scope of the violation",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "restoring the founding placement restores not just policy but the public mind's belief in ultimate extinction",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding fathers of this Government as the setters of both the policy placement and the public mind's peace",
+        "guilt_distribution": "Douglas's departure from the founding placement disturbed the public mind that the fathers had settled",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of the founding policy; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.9,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00135",
+      "sentence_id": "doc_006g_s02_p43_s05",
+      "document_id": "doc_006g",
+      "document_date": "1858-10-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "the fathers of the Government expected and intended the institution of slavery to come to an end",
+      "span_char_start": 59,
+      "span_char_end": 153,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_expectation_and_intention_as_inherited_teleology",
+        "target_domain": "slavery_extinction_as_the_founding_intended_outcome",
+        "linguistic_form": "clause",
+        "entailments": [
+          "the founding fathers not only hoped but expected and intended slavery to end",
+          "the covert constitutional language (avoiding naming slavery) was evidence of their expectation",
+          "current policy must honor the founding intention, not subvert it"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "This instance introduces the intentionality claim: not just that the founders placed slavery on the course of extinction (policy), but that they EXPECTED and INTENDED it to end (teleology). The evidence Lincoln cites is the constitutional covert language (p43_s04): avoiding naming slavery in the Constitution was deliberate, so that when slavery was gone, the charter would show no trace of it. The founders' intention creates a stronger inherited obligation than their placement alone.",
+        "mapping": "the founding expectation and intention = the inherited teleology that obligates current policy; the fathers intended the extinction of slavery — that intention is the binding inheritance",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "subverting the founders' intention (by nationalizing and perpetuating slavery) violates the teleological inheritance",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founding intention to end slavery is the inherited teleological obligation; policy must work toward the intended outcome",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding fathers as the setters of the intended teleological outcome for slavery",
+        "guilt_distribution": "Douglas perpetuates and nationalizes slavery — he subverts the founding intention",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the intended beneficiaries of the founding teleology; not agents in this argument"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.88,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00136",
+      "sentence_id": "doc_006g_s02_p44_s04",
+      "document_id": "doc_006g",
+      "document_date": "1858-10-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "our fathers, as Judge Douglas assumes, made this government part slave and part free",
+      "span_char_start": 20,
+      "span_char_end": 103,
+      "cmt": {
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founders_as_authors_of_national_character_contested",
+        "target_domain": "founding_settlement_disputed_not_endorsement",
+        "linguistic_form": "clause",
+        "entailments": [
+          "Douglas assumes the fathers deliberately chose a part-slave/part-free government",
+          "Lincoln denies this: the fathers did not make it so by choice — they left it so under constraint",
+          "correctly reading the founding inheritance is the key to the slavery argument"
+        ],
+        "is_novel_metaphor": false,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "Companion to the Quincy inst_00125 (same argument). The Alton version is more direct: 'It is not true that our fathers...made this government part slave and part free.' The dispute over what the fathers 'made' is the core of the cluster_05 inheritance argument across the debates: if they 'made' it by choice, Douglas can perpetuate it; if they left it under constraint with the intention of extinction, Lincoln must restore the founding trajectory.",
+        "mapping": "the fathers as the authors of the government's character — Lincoln contests Douglas's reading: 'made' implies choice; Lincoln argues constraint; correctly attributing the founding action is the inheritance dispute",
+        "conventional_or_novel": "conventional"
+      },
+      "koenigsberg": {
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "falsely attributing the divided-government condition to the founders' choice perverts the inheritance; Lincoln's obligation is to contest the false attribution",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "the founding action must be correctly understood: constraint, not choice; the correct reading obligates the restorative policy",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "the founding fathers as constrained actors whose limitation Douglas falsely converts into endorsement",
+        "guilt_distribution": "Douglas's false attribution of choice to the founders falsifies the founding inheritance",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": false,
+        "sacrificial_yield": null,
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "absence_notes": "enslaved people are the object of the founding policy dispute; not agents"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.87,
+        "ambiguity_flag": false,
+        "ambiguity_notes": null,
+        "irony_flag": false,
+        "suppression_flag": false,
+        "suppression_notes": null
+      }
+    },
+    {
+      "instance_id": "inst_00132",
+      "sentence_id": "doc_006g_s02_p56_s07",
+      "document_id": "doc_006g",
+      "document_date": "1858-10-15",
+      "document_register": "debate_speech",
+      "authorship_confidence": 0.97,
+      "span_text": "a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body",
+      "span_char_start": 13,
+      "span_char_end": 186,
+      "cmt": {
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "cancer_spreading_as_anti_cure",
+        "target_domain": "slavery_expansion_as_the_wrong_treatment_for_the_disease",
+        "linguistic_form": "clause",
+        "entailments": [
+          "slavery is a cancer/wen on the body politic — same as Peoria (inst_00108)",
+          "immediate surgery (cutting it out) may be impossible without fatal bleeding",
+          "but spreading the cancer over the whole body (expanding slavery) is not a cure — it is the opposite of a cure"
+        ],
+        "is_novel_metaphor": true,
+        "is_extended_metaphor": false,
+        "extension_group_id": null,
+        "co_activated_clusters": [],
+        "annotation_notes": "Novel variant of the Peoria cancer/wen metaphor (inst_00108, doc_004). At Peoria (1854) the cancer is hidden in the constitutional body and deferred surgery is promised. At Alton (1858) the argument is different: even if immediate surgery is impossible, SPREADING the cancer is not a cure. The logical target is the pro-slavery argument that slavery must expand to survive — Lincoln contests this with the cancer metaphor: you don't cure a cancer by spreading it. The 'engraft it and spread it over your whole body' language introduces the grafting/spreading variant of the disease frame — novel in the corpus. NOT disease_and_purification: the cancer is an institution (slavery), not a human group.",
+        "mapping": "slavery = a cancer/wen on the body; the person (nation) cannot always cut it out immediately; but spreading the cancer over the whole body (expanding slavery to all territories) is not a cure — it is a deliberate worsening of the disease",
+        "conventional_or_novel": "novel"
+      },
+      "koenigsberg": {
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "spreading the disease (slavery expansion) is not a cure but a worsening of the wound; the body cannot survive the cancer spread to the whole body",
+        "obligatory_frame": true,
+        "obligatory_frame_notes": "if the cancer cannot be immediately removed, it must at least not be spread; non-expansion is the minimum treatment obligation",
+        "agent_of_violence": null,
+        "agent_is_abstract": true,
+        "object_of_violence": null,
+        "projected_entity": "slavery as a cancer on the body of the nation requiring containment if not yet removal",
+        "guilt_distribution": "those who advocate slavery expansion (spreading the cancer) are choosing to worsen the disease rather than treat it",
+        "guilt_distribution_notes": null,
+        "sacrificial_economy": true,
+        "sacrificial_yield": "latent — 'cut it out lest you bleed to death' acknowledges eventual surgery will cost blood; the spreading variant defers but does not eliminate the ultimate surgical necessity",
+        "psychic_defense": null,
+        "psychic_defense_notes": null,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "absence_notes": "the cancer is an institution (slavery), not a human group; disease_and_purification systematically absent from Lincoln's system against people"
+      },
+      "meta": {
+        "annotator": "claude-sonnet-4-6",
+        "confidence": 0.92,
         "ambiguity_flag": false,
         "ambiguity_notes": null,
         "irony_flag": false,
@@ -6368,9 +8164,18 @@
       "cluster_01_body_organism": [
         "inst_00080",
         "inst_00102",
+        "inst_00108",
+        "inst_00111",
         "inst_00065",
         "inst_00066",
         "inst_00067",
+        "inst_00117",
+        "inst_00118",
+        "inst_00119",
+        "inst_00129",
+        "inst_00130",
+        "inst_00131",
+        "inst_00132",
         "inst_00077",
         "inst_00042",
         "inst_00055",
@@ -6448,6 +8253,28 @@
         "inst_00079",
         "inst_00081",
         "inst_00085",
+        "inst_00106",
+        "inst_00107",
+        "inst_00109",
+        "inst_00110",
+        "inst_00112",
+        "inst_00113",
+        "inst_00114",
+        "inst_00115",
+        "inst_00116",
+        "inst_00120",
+        "inst_00121",
+        "inst_00122",
+        "inst_00123",
+        "inst_00124",
+        "inst_00125",
+        "inst_00126",
+        "inst_00127",
+        "inst_00128",
+        "inst_00133",
+        "inst_00134",
+        "inst_00135",
+        "inst_00136",
         "inst_00068",
         "inst_00069",
         "inst_00070",
@@ -6506,10 +8333,55 @@
         "inst_00104",
         "inst_00105"
       ],
+      "doc_004": [
+        "inst_00106",
+        "inst_00107",
+        "inst_00108",
+        "inst_00109",
+        "inst_00110",
+        "inst_00111",
+        "inst_00112"
+      ],
       "doc_005": [
         "inst_00065",
         "inst_00066",
         "inst_00067"
+      ],
+      "doc_006a": [
+        "inst_00113",
+        "inst_00114",
+        "inst_00115",
+        "inst_00116"
+      ],
+      "doc_006b": [
+        "inst_00117"
+      ],
+      "doc_006c": [
+        "inst_00120",
+        "inst_00121",
+        "inst_00122",
+        "inst_00123",
+        "inst_00118",
+        "inst_00119"
+      ],
+      "doc_006e": [
+        "inst_00124"
+      ],
+      "doc_006f": [
+        "inst_00125",
+        "inst_00126",
+        "inst_00127",
+        "inst_00128"
+      ],
+      "doc_006g": [
+        "inst_00129",
+        "inst_00130",
+        "inst_00131",
+        "inst_00133",
+        "inst_00134",
+        "inst_00135",
+        "inst_00136",
+        "inst_00132"
       ],
       "doc_007": [
         "inst_00068",
@@ -6696,6 +8568,44 @@
         "inst_00063",
         "inst_00064"
       ],
+      "campaign_speech": [
+        "inst_00106",
+        "inst_00107",
+        "inst_00108",
+        "inst_00109",
+        "inst_00110",
+        "inst_00111",
+        "inst_00112",
+        "inst_00113",
+        "inst_00114",
+        "inst_00115",
+        "inst_00116",
+        "inst_00117",
+        "inst_00120",
+        "inst_00121",
+        "inst_00122",
+        "inst_00123",
+        "inst_00118",
+        "inst_00119",
+        "inst_00124",
+        "inst_00125",
+        "inst_00126",
+        "inst_00127",
+        "inst_00128",
+        "inst_00129",
+        "inst_00130",
+        "inst_00131",
+        "inst_00133",
+        "inst_00134",
+        "inst_00135",
+        "inst_00136",
+        "inst_00132",
+        "inst_00047",
+        "inst_00048",
+        "inst_00049",
+        "inst_00050",
+        "inst_00051"
+      ],
       "congressional_message": [
         "inst_00087",
         "inst_00086",
@@ -6740,13 +8650,6 @@
         "inst_00052",
         "inst_00053",
         "inst_00054"
-      ],
-      "campaign_speech": [
-        "inst_00047",
-        "inst_00048",
-        "inst_00049",
-        "inst_00050",
-        "inst_00051"
       ]
     },
     "by_fantasy_type": {
@@ -6755,6 +8658,27 @@
         "inst_00079",
         "inst_00081",
         "inst_00085",
+        "inst_00106",
+        "inst_00107",
+        "inst_00109",
+        "inst_00110",
+        "inst_00112",
+        "inst_00113",
+        "inst_00114",
+        "inst_00115",
+        "inst_00116",
+        "inst_00120",
+        "inst_00121",
+        "inst_00122",
+        "inst_00123",
+        "inst_00125",
+        "inst_00126",
+        "inst_00127",
+        "inst_00128",
+        "inst_00133",
+        "inst_00134",
+        "inst_00135",
+        "inst_00136",
         "inst_00068",
         "inst_00069",
         "inst_00070",
@@ -6768,9 +8692,17 @@
       "wound_and_healing": [
         "inst_00080",
         "inst_00102",
+        "inst_00108",
         "inst_00065",
         "inst_00066",
         "inst_00067",
+        "inst_00117",
+        "inst_00118",
+        "inst_00119",
+        "inst_00129",
+        "inst_00130",
+        "inst_00131",
+        "inst_00132",
         "inst_00077",
         "inst_00042",
         "inst_00055",
@@ -6825,6 +8757,7 @@
       "punishment_and_theodicy": [
         "inst_00104",
         "inst_00105",
+        "inst_00124",
         "inst_00044",
         "inst_00045",
         "inst_00046",
@@ -6846,6 +8779,13 @@
         "inst_00024",
         "inst_00061"
       ],
+      "sacrifice_and_redemption": [
+        "inst_00111",
+        "inst_00006",
+        "inst_00007",
+        "inst_00008",
+        "inst_00010"
+      ],
       "oath_and_obligation": [
         "inst_00072",
         "inst_00075",
@@ -6862,12 +8802,6 @@
         "inst_00029",
         "inst_00025",
         "inst_00062"
-      ],
-      "sacrifice_and_redemption": [
-        "inst_00006",
-        "inst_00007",
-        "inst_00008",
-        "inst_00010"
       ]
     },
     "by_violence_logic": {
@@ -6917,10 +8851,103 @@
       "Providence will provide safety instruments in 'future national emergencies' — divine provision converts crisis into opportunity for providential demonstration": [
         "inst_00105"
       ],
+      "the founding legislative record converts resistance to slavery expansion from ideological preference into inherited obligation; Lincoln is defending the patrimony the founders bequeathed": [
+        "inst_00106"
+      ],
+      "the fathers' rejection converts Lincoln's objection to slavery in the constitution into defense of inherited propriety rather than personal preference": [
+        "inst_00107"
+      ],
+      "the body-politic cannot survive immediate removal of the disease — the surgery must be deferred; this converts the founders' compromise into medical necessity, not moral weakness; the Kansas-Nebraska Act repudiates the deferred cure": [
+        "inst_00108"
+      ],
+      "exceeding the founders' maximum (by legitimizing slavery expansion) violates the inherited constraint; the Kansas-Nebraska Act is a double transgression — exceeding both the structural floor and the moral ceiling": [
+        "inst_00109"
+      ],
+      "the Kansas-Nebraska Act represents a measurable departure from the inherited starting point; restoration to the founding declaration is obligatory": [
+        "inst_00110"
+      ],
+      "the national stain may require blood to wash clean — the sacrificial logic is proto-war even in 1854": [
+        "inst_00111"
+      ],
+      "re-adoption of the Declaration (and its accompanying practices) is the restorative act that undoes the Kansas-Nebraska departure": [
+        "inst_00112"
+      ],
       "structural_necessity": [
         "inst_00065",
         "inst_00066",
         "inst_00067"
+      ],
+      "deviation from the founding placement (via Kansas-Nebraska) generates the crisis; restoration of the founding position is the obligatory response": [
+        "inst_00113"
+      ],
+      "removing the founding foundation (via popular sovereignty) destabilizes the republic; restoration is the obligatory response": [
+        "inst_00114"
+      ],
+      "false claims to founding authority are exposed; authentic founding authority legitimates only Lincoln's position": [
+        "inst_00115"
+      ],
+      "resistance to Nebraska is not political innovation but restoration of the founders' own method; Lincoln positions himself as inheritor, not innovator": [
+        "inst_00116"
+      ],
+      "the divided condition (half slave/half free) is the wound that prevents the Government from enduring; resolution requires the nation becoming all one thing or all the other": [
+        "inst_00117"
+      ],
+      "departure from the founding position is the violation; restoration is the obligatory response": [
+        "inst_00120"
+      ],
+      "repealing the founding prohibition on slavery's spread is the violation of the inherited policy; restoration of the prohibition is obligatory": [
+        "inst_00121"
+      ],
+      "the founding foundation must be restored; departing from it destabilizes the political structure": [
+        "inst_00122"
+      ],
+      "changing from the founding basis to the basis of perpetuation and nationalization is the violation; the founding basis must be restored": [
+        "inst_00123"
+      ],
+      "slavery is the dividing force that makes the house/union unable to stand; restoring unity requires resolving the slavery question": [
+        "inst_00118"
+      ],
+      "the props sustaining the house are threatened by slavery expansion; protecting the props means containing slavery": [
+        "inst_00119"
+      ],
+      "God's justice is the ultimate sanction — the founding generation trembled before it; those who do not share that anxiety are below the founding moral standard": [
+        "inst_00124"
+      ],
+      "misrepresenting the founding fathers' intent is a falsification of the inheritance; Lincoln's obligation is to contest the false attribution": [
+        "inst_00125"
+      ],
+      "the founders cut off the source; Douglas reopened it (via Nebraska Act); the obligation is to restore the founders' active pruning policy": [
+        "inst_00126"
+      ],
+      "Douglas removed the founding basis and substituted a technological one; the founding basis must be restored": [
+        "inst_00127"
+      ],
+      "Douglas charges Lincoln with heresy for adopting the Declaration's equality principle; Lincoln contests by showing Clay held the same sentiments": [
+        "inst_00128"
+      ],
+      "the divided condition is the structural wound that prevents the house from standing; the wound must be healed by resolution (all slave or all free)": [
+        "inst_00129"
+      ],
+      "the house will not fall — the wound is not fatal; but the division must heal into wholeness": [
+        "inst_00130"
+      ],
+      "the wound of division heals only by becoming uniform; the structural logic of the house metaphor demands resolution": [
+        "inst_00131"
+      ],
+      "restoring the founding placement would restore the public mind's belief in ultimate extinction; failure to restore it produces agitation": [
+        "inst_00133"
+      ],
+      "the public mind's rest was the full inheritance of the founding placement; its disturbance by Kansas-Nebraska is the full scope of the violation": [
+        "inst_00134"
+      ],
+      "subverting the founders' intention (by nationalizing and perpetuating slavery) violates the teleological inheritance": [
+        "inst_00135"
+      ],
+      "falsely attributing the divided-government condition to the founders' choice perverts the inheritance; Lincoln's obligation is to contest the false attribution": [
+        "inst_00136"
+      ],
+      "spreading the disease (slavery expansion) is not a cure but a worsening of the wound; the body cannot survive the cancer spread to the whole body": [
+        "inst_00132"
       ],
       "obligatory": [
         "inst_00043",
@@ -7069,6 +9096,20 @@
     },
     "by_absence_flag": {
       "enslaved_people_non_agent": [
+        "inst_00110",
+        "inst_00114",
+        "inst_00120",
+        "inst_00121",
+        "inst_00122",
+        "inst_00123",
+        "inst_00125",
+        "inst_00126",
+        "inst_00127",
+        "inst_00128",
+        "inst_00133",
+        "inst_00134",
+        "inst_00135",
+        "inst_00136",
         "inst_00037",
         "inst_00038",
         "inst_00039",
@@ -7171,9 +9212,24 @@
         "inst_00103",
         "inst_00104",
         "inst_00105",
+        "inst_00106",
+        "inst_00107",
+        "inst_00108",
+        "inst_00109",
+        "inst_00111",
+        "inst_00112",
         "inst_00065",
         "inst_00066",
         "inst_00067",
+        "inst_00113",
+        "inst_00117",
+        "inst_00118",
+        "inst_00119",
+        "inst_00124",
+        "inst_00129",
+        "inst_00130",
+        "inst_00131",
+        "inst_00132",
         "inst_00068",
         "inst_00069",
         "inst_00070",
@@ -7202,6 +9258,15 @@
       "inst_00079",
       "inst_00082",
       "inst_00083",
+      "inst_00106",
+      "inst_00108",
+      "inst_00113",
+      "inst_00116",
+      "inst_00121",
+      "inst_00126",
+      "inst_00129",
+      "inst_00134",
+      "inst_00132",
       "inst_00069",
       "inst_00075",
       "inst_00090",
@@ -7266,6 +9331,13 @@
       "date": "2026-04-30",
       "total_instances": 105,
       "documents_processed": 20
+    },
+    {
+      "stage": 5,
+      "agent": "build_concordance.js",
+      "date": "2026-04-30",
+      "total_instances": 136,
+      "documents_processed": 28
     }
   ]
 }

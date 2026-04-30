@@ -126,17 +126,18 @@ Key public-facing guide pages:
 
 ## Current Status
 
-**Stages 1–3 complete** across all 28 documents.
+**Stages 1–6 complete** across all 28 documents.
 
 | Stage | Status | Notes |
 | ----- | ------ | ----- |
 | 1 | ✓ Complete | 28 raw `.txt` files in `corpus/raw/` |
 | 2 | ✓ Complete | 28 `.md` files with YAML frontmatter in `corpus/text/` |
 | 3 | ✓ Complete | 28 `.json` files in `corpus/segmented/` — 7,644 sentences, 5,198 Lincoln-authored |
-| 4 | In progress | `corpus/annotated/` — 20/28 complete (doc_001, doc_002, doc_003, doc_005, doc_007, doc_008, doc_009, doc_010, doc_011, doc_012, doc_013, doc_014, doc_015, doc_016, doc_017, doc_018, doc_019, doc_020, doc_021, doc_022); all current Stage 4 files were normalized to the canonical schema on 2026-04-30; `analysis/document_notes/` — findings written for each annotated doc |
-| 5–6 | Pending | Depends on Stage 4 completion |
+| 4 | ✓ Complete | `corpus/annotated/` — 28/28 complete; 136 instances (inst_00001–inst_00136) across 24 extension groups; all files pass canonical schema validation; `analysis/document_notes/` — findings written for all 28 docs; completed 2026-04-30 |
+| 5 | ✓ Complete | `concordance/concordance.json` — 136 instances indexed; 51 high-confidence (≥0.90); 7 suppression instances; completed 2026-04-30 |
+| 6 | ✓ Complete | `analysis/analysis.json` — cluster_01: 34, cluster_02: 17, cluster_03: 20, cluster_04: 8, cluster_05: 35, cluster_06: 22; 144 absence flag instances; completed 2026-04-30 |
 
-**Next step**: Continue Stage 4 annotation — 8 documents remain (doc_004, doc_006a–g). For each document: annotate into `corpus/annotated/{id}_annotated.json`, run `npm run validate:annotation -- {id}` immediately after creation, then write key findings to `analysis/document_notes/{id}_notes.md`. When all 28 are done, run `npm run pipeline`.
+**Next step**: Run `quarto render` to rebuild the research site with complete Stage 4–6 data.
 
 ## How Stages 1–3 Were Built
 
