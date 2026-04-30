@@ -38,18 +38,18 @@
       "cluster_06_providence_theodicy"
     ],
     "dominant_cluster": "cluster_04_birth_creation",
-    "instance_range": "inst_00098\u2013inst_00101",
+    "instance_range": "inst_00098–inst_00101",
     "extension_groups": [
       "ext_017"
     ],
-    "koenigsberg_summary": "Phase 0 temperance address: cluster_03 appears in its earliest cultivation-of-liberty form (p28_s04: the Revolution proved self-governance); cluster_04 appears for the first time in the corpus (p28_s05, p31_s01\u2013p31_s02) as the germ/cradle/planting frame applied to political and moral revolution. The document's most significant feature for the Koenigsberg analysis is its explicit disease/contamination rhetoric (the 'demon of intemperance,' 'sucking the blood of genius,' 'moral death') deployed against ALCOHOL not against a group of people. This is the clearest demonstration in the corpus that Lincoln can use contamination language freely \u2014 but targets it at a substance, treating drinkers as victims rather than as contaminants to be eliminated. disease_and_purification absent from Lincoln's metaphor system against people; present as Lincoln's frame against alcohol.",
+    "koenigsberg_summary": "Phase 0 temperance address: cluster_03 appears in its earliest cultivation-of-liberty form (p28_s04: the Revolution proved self-governance); cluster_04 appears for the first time in the corpus (p28_s05, p31_s01–p31_s02) as the germ/cradle/planting frame applied to political and moral revolution. The document's most significant feature for the Koenigsberg analysis is its explicit disease/contamination rhetoric (the 'demon of intemperance,' 'sucking the blood of genius,' 'moral death') deployed against ALCOHOL not against a group of people. This is the clearest demonstration in the corpus that Lincoln can use contamination language freely — but targets it at a substance, treating drinkers as victims rather than as contaminants to be eliminated. disease_and_purification absent from Lincoln's metaphor system against people; present as Lincoln's frame against alcohol.",
     "absence_flags": {
       "enslaved_people_non_agent": false,
       "black_soldiers_absent": true,
       "disease_and_purification": false,
       "lincoln_non_agent": false
     },
-    "annotator_notes": "DISEASE/PURIFICATION ANALYSIS: The Temperance Address contains the most explicit demon/contamination/death language in Lincoln's early corpus: 'the demon of intemperance ever seems to have delighted in sucking the blood of genius' (p27_s04); 'he keeps our fathers, our brothers, our sons, and our friends, prostrate in the chains of moral death' (p27_s09); 'Drunken devils are cast out by ones, by sevens, and by legions' (p22_s03). However, the target of all contamination language is ALCOHOL/INTEMPERANCE \u2014 an inanimate substance \u2014 not a group of people. Drinkers are consistently treated as VICTIMS of the demon, not as the demon itself. This is structurally opposite to the Hitlerian deployment where disease/purification language targets a human group as the contamination to be eliminated. Lincoln's temperance rhetoric is charitable toward the afflicted and hostile toward the afflicting substance. enslaved_people_non_agent: p30_s02 ('In it, we shall find a stronger bondage broken; a viler slavery, manumitted; a greater tyrant deposed') \u2014 the temperance revolution is compared to slavery/manumission as a rhetorical intensification. Enslaved people are not agents; the comparison uses slavery as a reference point for the severity of alcohol's bondage. The flag is noted but the register (temperance address) explains the non-agent framing."
+    "annotator_notes": "DISEASE/PURIFICATION ANALYSIS: The Temperance Address contains the most explicit demon/contamination/death language in Lincoln's early corpus: 'the demon of intemperance ever seems to have delighted in sucking the blood of genius' (p27_s04); 'he keeps our fathers, our brothers, our sons, and our friends, prostrate in the chains of moral death' (p27_s09); 'Drunken devils are cast out by ones, by sevens, and by legions' (p22_s03). However, the target of all contamination language is ALCOHOL/INTEMPERANCE — an inanimate substance — not a group of people. Drinkers are consistently treated as VICTIMS of the demon, not as the demon itself. This is structurally opposite to the Hitlerian deployment where disease/purification language targets a human group as the contamination to be eliminated. Lincoln's temperance rhetoric is charitable toward the afflicted and hostile toward the afflicting substance. enslaved_people_non_agent: p30_s02 ('In it, we shall find a stronger bondage broken; a viler slavery, manumitted; a greater tyrant deposed') — the temperance revolution is compared to slavery/manumission as a rhetorical intensification. Enslaved people are not agents; the comparison uses slavery as a reference point for the severity of alcohol's bondage. The flag is noted but the register (temperance address) explains the non-agent framing."
   },
   "sections": [
     {
@@ -1412,36 +1412,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00098",
-                  "cluster": "cluster_03_experiment_proposition",
-                  "linguistic_form": "solution of the long mooted problem, as to the capability of man to govern himself",
-                  "char_span_start": 28,
-                  "char_span_end": 109,
-                  "confidence": 0.88,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_002_s01_p28_s04",
+                  "document_id": "doc_002",
+                  "document_date": "1842-02-22",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.97,
+                  "span_text": "solution of the long mooted problem, as to the capability of man to govern himself",
+                  "span_char_start": 28,
+                  "span_char_end": 109,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
                     "source_domain": "logical_proposition_proof",
                     "target_domain": "american_revolution",
-                    "mapping": "the Revolution resolved the 'long mooted problem' of self-governance \u2014 it was a proposition long debated and finally proven by the existence of the republic; the republic is the solution to a logical problem",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the republic's existence is a proven answer to a longstanding question",
                       "the question of self-governance was in doubt until the Revolution settled it",
                       "subsequent events (temperance revolution) continue the proof"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Earliest cluster_03 instance in temporal sequence after the Lyceum Address (doc_001, 1838). In the Lyceum Address, Lincoln said 'the experiment is successful' (inst_00084). Here (1842) he says the Revolution 'found a solution to the long mooted problem.' Same frame, different vocabulary. p29_s02 immediately follows with the costs of the Revolution ('swam in blood'), establishing the sacrificial economy latently: the solution had a price paid in suffering. This is the earliest cluster_03 + sacrificial cost pairing in the corpus. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'ideological_proof' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the Revolution resolved the 'long mooted problem' of self-governance — it was a proposition long debated and finally proven by the existence of the republic; the republic is the solution to a logical problem",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "ideological_proof",
+                    "fantasy_type": "experiment_and_proof",
                     "violence_logic": "not yet applicable (pre-war) but the proof-frame is established: political change is framed as solving a logical problem",
-                    "obligatory_frame": "the solved problem must be maintained and extended",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "the solved problem must be maintained and extended",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "American democracy as the solution to the self-governance problem",
                     "guilt_distribution": "not applicable (temperance context)",
-                    "sacrificial_economy": "latent \u2014 p29_s02 immediately describes the Revolution's cost: 'breathed forth famine, swam in blood and rode in fire'",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — p29_s02 immediately describes the Revolution's cost: 'breathed forth famine, swam in blood and rode in fire'",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Earliest cluster_03 instance in temporal sequence after the Lyceum Address (doc_001, 1838). In the Lyceum Address, Lincoln said 'the experiment is successful' (inst_00084). Here (1842) he says the Revolution 'found a solution to the long mooted problem.' Same frame, different vocabulary. p29_s02 immediately follows with the costs of the Revolution ('swam in blood'), establishing the sacrificial economy latently: the solution had a price paid in suffering. This is the earliest cluster_03 + sacrificial cost pairing in the corpus."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.88,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1456,36 +1480,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00099",
-                  "cluster": "cluster_04_birth_creation",
-                  "linguistic_form": "germ which has vegetated, and still is to grow and expand into the universal liberty of mankind",
-                  "char_span_start": 14,
-                  "char_span_end": 108,
-                  "confidence": 0.82,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_002_s01_p28_s05",
+                  "document_id": "doc_002",
+                  "document_date": "1842-02-22",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.97,
+                  "span_text": "germ which has vegetated, and still is to grow and expand into the universal liberty of mankind",
+                  "span_char_start": 14,
+                  "span_char_end": 108,
                   "cmt": {
+                    "cluster_id": "cluster_04_birth_creation",
                     "source_domain": "botanical_growth_generation",
                     "target_domain": "revolution_liberty_principle",
-                    "mapping": "the Revolution contained a germ \u2014 a biological seed \u2014 that has already germinated and is still growing toward universal liberty; political liberty is an organic generative principle",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "liberty is not a static achievement but a living, growing organism",
                       "the Revolution was not the end but the planting of a seed",
-                      "the germ's growth is universal \u2014 it expands beyond America to all mankind"
-                    ]
+                      "the germ's growth is universal — it expands beyond America to all mankind"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "First cluster_04 instance in the corpus (1842, Phase 0). The cultivation variant of cluster_04 (germ/vegetate/grow) is distinct from the obstetric variant (labor/birth/nativity) that will appear later. In 1842, Liberty is a germinating seed; at Gettysburg (1863), the nation undergoes a 'new birth of freedom' — from cultivation to obstetric metaphor. The target 'universal liberty of mankind' anticipates the 'whole family of man' audience of the July 4 Message (doc_010) and the Gettysburg Address. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'generative_creation' to canonical 'birth_and_creation'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the Revolution contained a germ — a biological seed — that has already germinated and is still growing toward universal liberty; political liberty is an organic generative principle",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "generative_creation",
+                    "fantasy_type": "birth_and_creation",
                     "violence_logic": "the revolutionary violence was the generative act that planted the germ; subsequent cultivation maintains its growth",
-                    "obligatory_frame": "a planted germ must be tended \u2014 the living principle requires ongoing nurture",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "a planted germ must be tended — the living principle requires ongoing nurture",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "the liberty-germ as a living generative force",
                     "guilt_distribution": "those who threaten the growing liberty threaten the universal germ",
-                    "sacrificial_economy": "latent \u2014 the germ was planted through revolutionary sacrifice",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — the germ was planted through revolutionary sacrifice",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "First cluster_04 instance in the corpus (1842, Phase 0). The cultivation variant of cluster_04 (germ/vegetate/grow) is distinct from the obstetric variant (labor/birth/nativity) that will appear later. In 1842, Liberty is a germinating seed; at Gettysburg (1863), the nation undergoes a 'new birth of freedom' \u2014 from cultivation to obstetric metaphor. The target 'universal liberty of mankind' anticipates the 'whole family of man' audience of the July 4 Message (doc_010) and the Gettysburg Address."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.82,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1653,36 +1701,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00100",
-                  "cluster": "cluster_04_birth_creation",
-                  "linguistic_form": "birth-place and the cradle of both those revolutions",
-                  "char_span_start": 175,
-                  "char_span_end": 226,
-                  "confidence": 0.75,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": "ext_017",
-                  "suppression_flag": false,
+                  "sentence_id": "doc_002_s01_p31_s01",
+                  "document_id": "doc_002",
+                  "document_date": "1842-02-22",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.97,
+                  "span_text": "birth-place and the cradle of both those revolutions",
+                  "span_char_start": 175,
+                  "span_char_end": 226,
                   "cmt": {
+                    "cluster_id": "cluster_04_birth_creation",
                     "source_domain": "natal_origin_nurture",
                     "target_domain": "america_as_origin_of_revolutions",
-                    "mapping": "America is the birthplace and cradle \u2014 the place of birth and early nurture \u2014 of both the political revolution (1776) and the temperance revolution; political and moral transformation are newborns born and cradled in American soil",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "revolutions are births: they require a specific place of origin",
-                      "the cradle implies post-birth nurture \u2014 the revolutions need ongoing tending",
+                      "the cradle implies post-birth nurture — the revolutions need ongoing tending",
                       "America's identity is defined by what it has given birth to and nurtured"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_017",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_017 with p31_s02. The 'neither a slave nor a drunkard on the earth' goal in p31_s01 is significant: Lincoln pairs the abolition of slavery with the abolition of drunkenness as dual victories of the dual revolution. The framing treats slavery as parallel to alcoholism — both are bondages, both require revolutionary liberation. This anticipates the later framing of the Civil War as liberation, though in 1842 Lincoln treats them as equivalent moral evils rather than as the primary political cause. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'generative_creation' to canonical 'birth_and_creation'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "America is the birthplace and cradle — the place of birth and early nurture — of both the political revolution (1776) and the temperance revolution; political and moral transformation are newborns born and cradled in American soil",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "generative_creation",
+                    "fantasy_type": "birth_and_creation",
                     "violence_logic": "not yet applicable (temperance context)",
-                    "obligatory_frame": "the birthplace of revolutions must maintain and complete them",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "the birthplace of revolutions must maintain and complete them",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "America as natal origin of universal liberty",
                     "guilt_distribution": "not applicable",
-                    "sacrificial_economy": "latent \u2014 both revolutions have their costs ('those revolutions, that shall have ended in that victory')",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — both revolutions have their costs ('those revolutions, that shall have ended in that victory')",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_017 with p31_s02. The 'neither a slave nor a drunkard on the earth' goal in p31_s01 is significant: Lincoln pairs the abolition of slavery with the abolition of drunkenness as dual victories of the dual revolution. The framing treats slavery as parallel to alcoholism \u2014 both are bondages, both require revolutionary liberation. This anticipates the later framing of the Civil War as liberation, though in 1842 Lincoln treats them as equivalent moral evils rather than as the primary political cause."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.75,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1697,36 +1769,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00101",
-                  "cluster": "cluster_04_birth_creation",
-                  "linguistic_form": "planted, and nurtured to maturity, both the political and moral freedom of their species",
-                  "char_span_start": 52,
-                  "char_span_end": 139,
-                  "confidence": 0.8,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": "ext_017",
-                  "suppression_flag": false,
+                  "sentence_id": "doc_002_s01_p31_s02",
+                  "document_id": "doc_002",
+                  "document_date": "1842-02-22",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.97,
+                  "span_text": "planted, and nurtured to maturity, both the political and moral freedom of their species",
+                  "span_char_start": 52,
+                  "span_char_end": 139,
                   "cmt": {
+                    "cluster_id": "cluster_04_birth_creation",
                     "source_domain": "botanical_cultivation_growth",
                     "target_domain": "political_and_moral_liberty",
-                    "mapping": "political and moral freedom are plants: they must be planted (deliberately introduced) and nurtured to maturity (carefully tended over time) by the people",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "liberty is not self-sustaining \u2014 it requires human cultivation",
+                      "liberty is not self-sustaining — it requires human cultivation",
                       "the cultivation is generational: planting is followed by nurture until maturity",
                       "the species (all humanity) is the beneficiary of the cultivation"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_017",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_017 climax. The 'planted and nurtured to maturity' formula in 1842 anticipates the Gettysburg 'new birth of freedom' (1863) — both deploy generative/cultivation metaphors for political liberty. In 1842, the planting is presented as a completed act whose nurture is ongoing; at Gettysburg, the birth is a future event to be achieved through the war. The arc from cultivation (1842) to obstetric birth (1863) is cluster_04's diachronic development in the corpus. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'generative_creation' to canonical 'birth_and_creation'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "political and moral freedom are plants: they must be planted (deliberately introduced) and nurtured to maturity (carefully tended over time) by the people",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "generative_creation",
+                    "fantasy_type": "birth_and_creation",
                     "violence_logic": "cultivation converts revolutionary change from destruction to planting and growth",
-                    "obligatory_frame": "a people who have planted liberty are obligated to nurture it to maturity \u2014 the planting creates an obligation to tend",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "a people who have planted liberty are obligated to nurture it to maturity — the planting creates an obligation to tend",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "political and moral liberty as cultivated plants requiring ongoing human care",
                     "guilt_distribution": "those who neglect the cultivation allow the plants to wither",
-                    "sacrificial_economy": "latent \u2014 cultivation requires sustained labor over generations",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — cultivation requires sustained labor over generations",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_017 climax. The 'planted and nurtured to maturity' formula in 1842 anticipates the Gettysburg 'new birth of freedom' (1863) \u2014 both deploy generative/cultivation metaphors for political liberty. In 1842, the planting is presented as a completed act whose nurture is ongoing; at Gettysburg, the birth is a future event to be achieved through the war. The arc from cultivation (1842) to obstetric birth (1863) is cluster_04's diachronic development in the corpus."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.8,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1819,6 +1915,12 @@
       "stage": 3,
       "agent": "scaffold",
       "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
     }
   ]
 }

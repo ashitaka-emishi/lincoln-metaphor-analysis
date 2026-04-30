@@ -18,7 +18,9 @@
   "document_summary": {
     "doc_id": "doc_015",
     "total_instances": 1,
-    "clusters_activated": ["cluster_06_providence_theodicy"],
+    "clusters_activated": [
+      "cluster_06_providence_theodicy"
+    ],
     "dominant_cluster": "cluster_06_providence_theodicy",
     "extension_groups": [],
     "primary_finding": "The Final Emancipation Proclamation is more stripped than the Preliminary. One instance annotated (inst_00054, cluster_06, 'the gracious favor of Almighty God', confidence 0.78), found only in the closing invocation. The Preliminary's cluster_02 formula ('restoring the constitutional relation') is entirely absent — the Final drops even that residue. The only surviving metaphor is the legal-closing invocation of divine favor, which in Lincoln's theological register carries slightly more weight than mere convention. The document that makes emancipation operative — the most consequential legal act of Lincoln's presidency — is the most metaphorically minimalist document in the corpus. The Black soldiers authorization (p12) frames their service in purely administrative language ('garrison forts, positions, stations... man vessels'). The instruction to the newly freed (p11) is to abstain from violence and labor for wages — the moment of emancipation narrated as behavioral instruction, not moral transformation. The apple of gold (Liberty, from doc_011) is again absent; the picture of silver (constitutional framework) is implied but not named.",
@@ -225,43 +227,64 @@
                 {
                   "instance_id": "inst_00054",
                   "sentence_id": "doc_015_s01_p13_s01",
-                  "cluster_id": "cluster_06_providence_theodicy",
-                  "linguistic_form": "the gracious favor of Almighty God",
-                  "source_domain": "God as patron/benefactor whose favor is sought — a personal relationship with a divine sovereign",
-                  "target_domain": "divine endorsement of the emancipation act — Providence as witness and approver",
-                  "char_span_start": 169,
-                  "char_span_end": 202,
-                  "confidence": 0.78,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": true,
-                  "suppression_notes": "The five other clusters are entirely absent from the document. This is the sole metaphor residue in the most consequential legal document in the corpus. The legal_document register has suppressed everything except this single closing invocation. 'Gracious favor' is partly conventional (19th-century legal/formal closings often invoke God) but Lincoln's consistent cluster_06 theology makes it more than formulaic — he is genuinely submitting the act to divine judgment. Compare: Springfield Farewell (doc_008) invokes Providence as companion-attendant; this invocation asks for God's favor on a specific act, moving toward the endorsement frame.",
-                  "extension_group_id": null,
+                  "document_id": "doc_015",
+                  "document_date": "1863-01-01",
+                  "document_register": "legal_document",
+                  "authorship_confidence": 0.9,
+                  "span_text": "the gracious favor of Almighty God",
+                  "span_char_start": 169,
+                  "span_char_end": 202,
                   "cmt": {
-                    "mapping": {
-                      "gracious favor": "divine benevolence extended toward a petitioner — God as sovereign granting approval",
-                      "Almighty God": "the ultimate moral and historical authority whose endorsement legitimates human action",
-                      "I invoke": "Lincoln as petitioner, placing the act before God for judgment"
-                    },
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "God as patron/benefactor whose favor is sought — a personal relationship with a divine sovereign",
+                    "target_domain": "divine endorsement of the emancipation act — Providence as witness and approver",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The act requires divine endorsement to be fully legitimate — legal and constitutional warrant alone are insufficient",
                       "Lincoln is positioned as petitioner, not as God's instrument — he asks for favor rather than claiming divine command",
                       "The act is submitted to God's judgment alongside 'the considerate judgment of mankind' — double validation: historical and divine"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "p11: The instruction to newly freed people — 'abstain from all violence' and 'labor faithfully for reasonable wages' — is the moment of emancipation narrated as behavioral instruction. Freed people are addressed as recipients of orders, not as agents of their own liberation. enslaved_people_non_agent applies. p12: Black soldiers authorized for service ('garrison forts, positions, stations... man vessels') — framed as functional military assets assigned to infrastructure tasks. The language of 'suitable condition' and 'received into' treats Black enlistment as administrative intake, not moral recognition. black_soldiers_absent applies (present as labor assets, absent as agents with moral standing). p13: 'The considerate judgment of mankind' was evaluated for cluster_03 (republic as experiment submitted to world judgment, mankind as jury) — confidence 0.60, below threshold. 'Warranted by the Constitution' evaluated for cluster_02 — 'warranted' is a legal term of art here, not covenant metaphor; confidence 0.55, not annotated. Migrated legacy fantasy_type 'divine_sanction' to canonical 'punishment_and_theodicy'. Migrated legacy absence_flag 'black_soldiers_absent' to canonical 'black_soldiers_erased'.",
+                    "mapping": {
+                      "gracious favor": "divine benevolence extended toward a petitioner — God as sovereign granting approval",
+                      "Almighty God": "the ultimate moral and historical authority whose endorsement legitimates human action",
+                      "I invoke": "Lincoln as petitioner, placing the act before God for judgment"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "divine_sanction",
+                    "fantasy_type": "punishment_and_theodicy",
                     "violence_logic": "divinely_endorsed",
-                    "obligatory_frame": "The closing invocation frames emancipation as an act submitted to God's review. Lincoln does not claim God commanded emancipation (as abolitionist theologians did); he requests God's 'gracious favor' — endorsement, not mandate. This is the most theologically modest cluster_06 frame in the corpus: Providence as potential endorser rather than as commander or judge.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The closing invocation frames emancipation as an act submitted to God's review. Lincoln does not claim God commanded emancipation (as abolitionist theologians did); he requests God's 'gracious favor' — endorsement, not mandate. This is the most theologically modest cluster_06 frame in the corpus: Providence as potential endorser rather than as commander or judge.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "God_as_patron_endorser",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent",
-                      "black_soldiers_absent"
+                      "black_soldiers_erased"
                     ],
-                    "annotator_notes": "p11: The instruction to newly freed people — 'abstain from all violence' and 'labor faithfully for reasonable wages' — is the moment of emancipation narrated as behavioral instruction. Freed people are addressed as recipients of orders, not as agents of their own liberation. enslaved_people_non_agent applies. p12: Black soldiers authorized for service ('garrison forts, positions, stations... man vessels') — framed as functional military assets assigned to infrastructure tasks. The language of 'suitable condition' and 'received into' treats Black enlistment as administrative intake, not moral recognition. black_soldiers_absent applies (present as labor assets, absent as agents with moral standing). p13: 'The considerate judgment of mankind' was evaluated for cluster_03 (republic as experiment submitted to world judgment, mankind as jury) — confidence 0.60, below threshold. 'Warranted by the Constitution' evaluated for cluster_02 — 'warranted' is a legal term of art here, not covenant metaphor; confidence 0.55, not annotated."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.78,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": true,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -354,40 +377,174 @@
           "paragraph_id": "doc_015_s02_p01",
           "paragraph_ordinal": 1,
           "sentences": [
-            {"sentence_id": "doc_015_s02_p01_s01", "sentence_ordinal": 1, "text": "[1]   ADS-P, DLC-RTL; DS, DNA FS RG 11, Proclamations.", "word_offset_start": 720, "word_offset_end": 729, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p01_s02", "sentence_ordinal": 2, "text": "Lincoln's original autograph of the proclamation was sold in 1863 (see Lincoln's letter to Ladies in charge of North Western Fair, October 26, infra), at the Chicago North-western Sanitary Fair, to Thomas B. Bryan, who presented it to the Soldiers' Home in Chicago.", "word_offset_start": 729, "word_offset_end": 772, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p01_s03", "sentence_ordinal": 3, "text": "It was lithographed ``and thousands [of dollars] were realized by the Chicago Soldiers Home from the sale of copies. . . .'' (Charles Bryan, son, to Nicolay, November 24, 1886, DLC-Nicolay Papers.", "word_offset_start": 772, "word_offset_end": 804, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p01_s04", "sentence_ordinal": 4, "text": "See also Lincoln to Bryan, January 18, 1864, infra.) In 1871 the original was burned in the Chicago Fire.", "word_offset_start": 804, "word_offset_end": 823, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p01_s05", "sentence_ordinal": 5, "text": "Prior to the Chicago Fair in 1863 the historian Benson J. Lossing also had prevailed upon Lincoln to allow him to have a facsimile made for use in his Pictorial History of the Civil War.", "word_offset_start": 823, "word_offset_end": 858, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p01_s06", "sentence_ordinal": 6, "text": "On October 29, 1863, John Hay forwarded to Lossing a photograph made at Lincoln's direction, with apologies for ``blots on the edges'' which were ``incidental to the copying, and are not in the original'' (ALS, RPB).", "word_offset_start": 858, "word_offset_end": 894, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p01_s07", "sentence_ordinal": 7, "text": "Three photographic copies of the original preserved in the Lincoln Papers, presumably made at the same time as the copy sent to Lossing, have provided the present text.", "word_offset_start": 894, "word_offset_end": 922, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p01_s08", "sentence_ordinal": 8, "text": "The official engrossed document in The National Archives follows Lincoln's original. (For a detailed study of the various printings of the proclamation, see Charles Eberstadt, ``Lincoln's Emancipation Proclamation,'' The New Colophon, 1950, pp. 312-56.)Lincoln's final proclamation was not completed until January 1 after consultation with the cabinet and study of the suggestions for revision submitted by the several members on December 31.", "word_offset_start": 922, "word_offset_end": 984, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p01_s09", "sentence_ordinal": 9, "text": "Nicolay telegraphed Horace Greeley and Henry J. Raymond on the afternoon of December 31 that ``The Proclamation cannot be telegraphed to you until during the day tomorrow (telegrams, RPB).", "word_offset_start": 984, "word_offset_end": 1013, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p01_s10", "sentence_ordinal": 10, "text": "Telegrams from John A. Dix and Michael Hahn on December 31 defined the", "word_offset_start": 1013, "word_offset_end": 1026, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_015_s02_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "[1]   ADS-P, DLC-RTL; DS, DNA FS RG 11, Proclamations.",
+              "word_offset_start": 720,
+              "word_offset_end": 729,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "Lincoln's original autograph of the proclamation was sold in 1863 (see Lincoln's letter to Ladies in charge of North Western Fair, October 26, infra), at the Chicago North-western Sanitary Fair, to Thomas B. Bryan, who presented it to the Soldiers' Home in Chicago.",
+              "word_offset_start": 729,
+              "word_offset_end": 772,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "It was lithographed ``and thousands [of dollars] were realized by the Chicago Soldiers Home from the sale of copies. . . .'' (Charles Bryan, son, to Nicolay, November 24, 1886, DLC-Nicolay Papers.",
+              "word_offset_start": 772,
+              "word_offset_end": 804,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p01_s04",
+              "sentence_ordinal": 4,
+              "text": "See also Lincoln to Bryan, January 18, 1864, infra.) In 1871 the original was burned in the Chicago Fire.",
+              "word_offset_start": 804,
+              "word_offset_end": 823,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p01_s05",
+              "sentence_ordinal": 5,
+              "text": "Prior to the Chicago Fair in 1863 the historian Benson J. Lossing also had prevailed upon Lincoln to allow him to have a facsimile made for use in his Pictorial History of the Civil War.",
+              "word_offset_start": 823,
+              "word_offset_end": 858,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p01_s06",
+              "sentence_ordinal": 6,
+              "text": "On October 29, 1863, John Hay forwarded to Lossing a photograph made at Lincoln's direction, with apologies for ``blots on the edges'' which were ``incidental to the copying, and are not in the original'' (ALS, RPB).",
+              "word_offset_start": 858,
+              "word_offset_end": 894,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p01_s07",
+              "sentence_ordinal": 7,
+              "text": "Three photographic copies of the original preserved in the Lincoln Papers, presumably made at the same time as the copy sent to Lossing, have provided the present text.",
+              "word_offset_start": 894,
+              "word_offset_end": 922,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p01_s08",
+              "sentence_ordinal": 8,
+              "text": "The official engrossed document in The National Archives follows Lincoln's original. (For a detailed study of the various printings of the proclamation, see Charles Eberstadt, ``Lincoln's Emancipation Proclamation,'' The New Colophon, 1950, pp. 312-56.)Lincoln's final proclamation was not completed until January 1 after consultation with the cabinet and study of the suggestions for revision submitted by the several members on December 31.",
+              "word_offset_start": 922,
+              "word_offset_end": 984,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p01_s09",
+              "sentence_ordinal": 9,
+              "text": "Nicolay telegraphed Horace Greeley and Henry J. Raymond on the afternoon of December 31 that ``The Proclamation cannot be telegraphed to you until during the day tomorrow (telegrams, RPB).",
+              "word_offset_start": 984,
+              "word_offset_end": 1013,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p01_s10",
+              "sentence_ordinal": 10,
+              "text": "Telegrams from John A. Dix and Michael Hahn on December 31 defined the",
+              "word_offset_start": 1013,
+              "word_offset_end": 1026,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_015_s02_p02",
           "paragraph_ordinal": 2,
           "sentences": [
-            {"sentence_id": "doc_015_s02_p02_s01", "sentence_ordinal": 1, "text": "parts of Virginia and Louisiana not then in rebellion which were to be exempted by the proclamation (DLC-RTL).", "word_offset_start": 1026, "word_offset_end": 1044, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_015_s02_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "parts of Virginia and Louisiana not then in rebellion which were to be exempted by the proclamation (DLC-RTL).",
+              "word_offset_start": 1026,
+              "word_offset_end": 1044,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_015_s02_p03",
           "paragraph_ordinal": 3,
           "sentences": [
-            {"sentence_id": "doc_015_s02_p03_s01", "sentence_ordinal": 1, "text": "The photographic copies of the original autograph show the superscription ``By the President of the United States of America: A Proclamation.'' to be in the hand of a clerk.", "word_offset_start": 1044, "word_offset_end": 1073, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p03_s02", "sentence_ordinal": 2, "text": "The excerpt from the preliminary proclamation of September 22, which appears as paragraphs two and three in the final proclamation, is in the form of a clipping from the State Department circular printing of the preliminary proclamation, with quotation marks added by Lincoln.", "word_offset_start": 1073, "word_offset_end": 1116, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p03_s03", "sentence_ordinal": 3, "text": "The formal close, ``In witness whereof,'' etc., is also added in the handwriting of a clerk.", "word_offset_start": 1116, "word_offset_end": 1132, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_015_s02_p03_s04", "sentence_ordinal": 4, "text": "Otherwise the body of the proclamation is in Lincoln's handwriting.", "word_offset_start": 1132, "word_offset_end": 1142, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_015_s02_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "The photographic copies of the original autograph show the superscription ``By the President of the United States of America: A Proclamation.'' to be in the hand of a clerk.",
+              "word_offset_start": 1044,
+              "word_offset_end": 1073,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "The excerpt from the preliminary proclamation of September 22, which appears as paragraphs two and three in the final proclamation, is in the form of a clipping from the State Department circular printing of the preliminary proclamation, with quotation marks added by Lincoln.",
+              "word_offset_start": 1073,
+              "word_offset_end": 1116,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "The formal close, ``In witness whereof,'' etc., is also added in the handwriting of a clerk.",
+              "word_offset_start": 1116,
+              "word_offset_end": 1132,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_015_s02_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "Otherwise the body of the proclamation is in Lincoln's handwriting.",
+              "word_offset_start": 1132,
+              "word_offset_end": 1142,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         }
       ]
     }
   ],
   "pipeline_log": [
-    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
-    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "claude-sonnet-4-6",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
+    }
   ]
 }

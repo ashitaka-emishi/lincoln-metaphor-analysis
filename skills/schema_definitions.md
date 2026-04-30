@@ -204,7 +204,7 @@ Same structure as Stage 3, with `metaphor_instances` arrays populated. Each elem
 
 **psychic_defense**: `splitting` | `projection` | `manic_defense` | `reparation` | `idealization` | `displacement` | `null`
 
-**absence_flags** (array): `enslaved_people_non_agent` | `black_soldiers_erased` | `lincoln_non_agent` | `confederates_depersonalized` | `death_abstracted` | `women_absent`
+**absence_flags** (array): `enslaved_people_non_agent` | `black_soldiers_erased` | `lincoln_non_agent` | `confederates_depersonalized` | `death_abstracted` | `women_absent` | `disease_purification_absent`
 
 ---
 
@@ -230,14 +230,15 @@ See `concordance.json` for the full stub. Key shape:
     "by_register": {},
     "by_fantasy_type": {},
     "by_violence_logic": {},
-    "by_absence_flag": {
-      "enslaved_people_non_agent": [],
-      "black_soldiers_erased": [],
-      "lincoln_non_agent": [],
-      "death_abstracted": [],
-      "confederates_depersonalized": [],
-      "women_absent": []
-    },
+      "by_absence_flag": {
+        "enslaved_people_non_agent": [],
+        "black_soldiers_erased": [],
+        "lincoln_non_agent": [],
+        "death_abstracted": [],
+        "confederates_depersonalized": [],
+        "women_absent": [],
+        "disease_purification_absent": []
+      },
     "high_confidence_only": [],
     "suppression_instances": []
   },

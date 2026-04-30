@@ -30,8 +30,8 @@
     "extension_groups": [
       "ext_013"
     ],
-    "primary_finding": "The Cooper Union Address is the most cluster_05-concentrated major document in the corpus. Only one cluster is active across the entire 7,700-word speech \u2014 four instances of cluster_05_fathers_inheritance, with clusters 01, 02, 03, 04, and 06 entirely absent. This is the Phase 1b document that establishes the fathers-inheritance frame as the argumentative backbone of Lincoln's constitutional case before the war begins. The speech's entire structure is a historical enumeration: of the thirty-nine signers of the Constitution, twenty-one voted in contexts that authorized federal control of slavery in the territories; the remaining eighteen left no evidence to the contrary. The fathers are not invoked as inspirational figures (cluster_05's later mode) but as legal precedents \u2014 their votes are evidence, their authority is a ruling, their policy is binding. The inheritance obligation is juridical: what the fathers decided governs what we must decide. The speech's Phase 1b position explains the cluster profile: cluster_02 (covenant/oath) is absent because the Constitution is treated as historical precedent, not a sacred bond; cluster_03 (experiment/proposition) is absent even though the republic-as-proof logic is nearby \u2014 Lincoln's argument is evidentiary, not experimental; cluster_04 (birth/creation) is absent \u2014 no nativity language appears; cluster_06 (Providence) is entirely absent \u2014 the speech is secular-historical. The document contains a critical Koenigsberg finding: p77_s05 ('The whole atmosphere must be disinfected from all taint of opposition to slavery') \u2014 Lincoln quotes this as the Southern demand, not as his own frame. He perceives and articulates the disease_and_purification logic but uses it to characterize Southern extremism. This is the key structural finding for the Koenigsberg comparison: Lincoln can describe the purification frame from outside it; he never deploys it as his own governing logic.",
-    "annotator_notes": "p77_s05: 'The whole atmosphere must be disinfected from all taint of opposition to slavery' \u2014 Lincoln reporting the Southern demand sarcastically. Evaluated for disease_and_purification: this is the most explicit disease/purification language in the Cooper Union address. However, Lincoln is characterizing the Southern position, not expressing his own ideological logic. The purification frame is being attributed to the adversary, not deployed. This is the critical distinction for the Koenigsberg comparison: Lincoln perceives the ideological structure of the Southern demand \u2014 he articulates it precisely \u2014 but does not inhabit it. disease_and_purification is absent from Lincoln's own metaphor system throughout the corpus; its clearest near-appearance is here, as a quoted adversary frame. p83_s02: 'LET US HAVE FAITH THAT RIGHT MAKES MIGHT' \u2014 evaluated for cluster_03 (experiment/proposition). This is a moral-epistemic frame, not the scientific-demonstration frame of cluster_03. 'Right makes might' asserts a causal relation between moral correctness and political power; it does not frame the republic as a logical proposition under test. Not annotated. The 'our fathers, who framed the Government under which we live' formula appears more than 10 times in the speech. Four instances selected for annotation: p37_s03 (fathers' authority as override condition), p39_s02 (behavioral inheritance imperative), p39_s04 (policy inheritance marking), p69_s01 (constitutional precedent ruling). Remaining occurrences are threshold mentions or repetitions of the evidentiary argument without adding new cluster_05 mapping. Extension group ext_013 assigned to p39_s02 and p39_s04, which form a two-sentence inheritance-imperative arc within p39."
+    "primary_finding": "The Cooper Union Address is the most cluster_05-concentrated major document in the corpus. Only one cluster is active across the entire 7,700-word speech — four instances of cluster_05_fathers_inheritance, with clusters 01, 02, 03, 04, and 06 entirely absent. This is the Phase 1b document that establishes the fathers-inheritance frame as the argumentative backbone of Lincoln's constitutional case before the war begins. The speech's entire structure is a historical enumeration: of the thirty-nine signers of the Constitution, twenty-one voted in contexts that authorized federal control of slavery in the territories; the remaining eighteen left no evidence to the contrary. The fathers are not invoked as inspirational figures (cluster_05's later mode) but as legal precedents — their votes are evidence, their authority is a ruling, their policy is binding. The inheritance obligation is juridical: what the fathers decided governs what we must decide. The speech's Phase 1b position explains the cluster profile: cluster_02 (covenant/oath) is absent because the Constitution is treated as historical precedent, not a sacred bond; cluster_03 (experiment/proposition) is absent even though the republic-as-proof logic is nearby — Lincoln's argument is evidentiary, not experimental; cluster_04 (birth/creation) is absent — no nativity language appears; cluster_06 (Providence) is entirely absent — the speech is secular-historical. The document contains a critical Koenigsberg finding: p77_s05 ('The whole atmosphere must be disinfected from all taint of opposition to slavery') — Lincoln quotes this as the Southern demand, not as his own frame. He perceives and articulates the disease_and_purification logic but uses it to characterize Southern extremism. This is the key structural finding for the Koenigsberg comparison: Lincoln can describe the purification frame from outside it; he never deploys it as his own governing logic.",
+    "annotator_notes": "p77_s05: 'The whole atmosphere must be disinfected from all taint of opposition to slavery' — Lincoln reporting the Southern demand sarcastically. Evaluated for disease_and_purification: this is the most explicit disease/purification language in the Cooper Union address. However, Lincoln is characterizing the Southern position, not expressing his own ideological logic. The purification frame is being attributed to the adversary, not deployed. This is the critical distinction for the Koenigsberg comparison: Lincoln perceives the ideological structure of the Southern demand — he articulates it precisely — but does not inhabit it. disease_and_purification is absent from Lincoln's own metaphor system throughout the corpus; its clearest near-appearance is here, as a quoted adversary frame. p83_s02: 'LET US HAVE FAITH THAT RIGHT MAKES MIGHT' — evaluated for cluster_03 (experiment/proposition). This is a moral-epistemic frame, not the scientific-demonstration frame of cluster_03. 'Right makes might' asserts a causal relation between moral correctness and political power; it does not frame the republic as a logical proposition under test. Not annotated. The 'our fathers, who framed the Government under which we live' formula appears more than 10 times in the speech. Four instances selected for annotation: p37_s03 (fathers' authority as override condition), p39_s02 (behavioral inheritance imperative), p39_s04 (policy inheritance marking), p69_s01 (constitutional precedent ruling). Remaining occurrences are threshold mentions or repetitions of the evidentiary argument without adding new cluster_05 mapping. Extension group ext_013 assigned to p39_s02 and p39_s04, which form a two-sentence inheritance-imperative arc within p39."
   },
   "sections": [
     {
@@ -1197,42 +1197,64 @@
                 {
                   "instance_id": "inst_00068",
                   "sentence_id": "doc_007_s01_p37_s03",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "opinions and policy of our fathers",
-                  "source_domain": "Ancestral authority \u2014 the fathers' opinions and policy as a binding inheritance that governs present decisions",
-                  "target_domain": "The Republican position on federal control of slavery in the territories as the inherited policy of the founding generation",
-                  "char_span_start": 48,
-                  "char_span_end": 81,
-                  "confidence": 0.87,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_007",
+                  "document_date": "1860-02-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "opinions and policy of our fathers",
+                  "span_char_start": 48,
+                  "span_char_end": 81,
                   "cmt": {
-                    "mapping": {
-                      "opinions and policy of our fathers": "the founding generation's historical positions as authoritative precedent",
-                      "supplant": "override or displace \u2014 treating the fathers' authority as an obstacle that requires overwhelming evidence to overcome",
-                      "their great authority, fairly considered and weighed, cannot stand": "the threshold condition: the fathers' inheritance is binding unless evidence is conclusive enough to overturn it"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "Ancestral authority — the fathers' opinions and policy as a binding inheritance that governs present decisions",
+                    "target_domain": "The Republican position on federal control of slavery in the territories as the inherited policy of the founding generation",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The fathers' opinions and policy are the default \u2014 they govern unless overwhelming evidence warrants departure",
+                      "The fathers' opinions and policy are the default — they govern unless overwhelming evidence warrants departure",
                       "The inheritance obligation runs in reverse: those who would depart from the fathers bear the burden of proof",
                       "Lincoln frames constitutional interpretation as an evidentiary contest in which the fathers' authority is the presumptive winner",
                       "The phrase 'most surely not in a case whereof we ourselves declare they understood the question better than we' makes the inheritance obligation self-referential: if you concede they understood it better, you cannot override them"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is cluster_05's evidentiary mode: the fathers are not invoked as inspirational ancestors but as legal precedents. 'Their great authority, fairly considered and weighed, cannot stand' frames the founders' decisions as a ruling that requires conclusive counter-evidence to overturn. The inheritance obligation is judicial — it sets a standard of proof — not emotional or covenantal. This is the juridical variant of cluster_05, distinct from the later patrimony/debt mode that will appear at Gettysburg and the Second Inaugural. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'founding_authority_as_rule' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "opinions and policy of our fathers": "the founding generation's historical positions as authoritative precedent",
+                      "supplant": "override or displace — treating the fathers' authority as an obstacle that requires overwhelming evidence to overcome",
+                      "their great authority, fairly considered and weighed, cannot stand": "the threshold condition: the fathers' inheritance is binding unless evidence is conclusive enough to overturn it"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "founding_authority_as_rule",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "inherited_obligation",
-                    "obligatory_frame": "The fathers' authority as an override threshold: policy inherited from the founding generation is binding unless evidence is so conclusive that even their authority cannot stand. Lincoln uses the inheritance frame to set an asymmetric burden of proof. Those who would change the fathers' policy bear a near-impossible evidentiary standard. The fathers' authority is the governing default.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The fathers' authority as an override threshold: policy inherited from the founding generation is binding unless evidence is so conclusive that even their authority cannot stand. Lincoln uses the inheritance frame to set an asymmetric burden of proof. Those who would change the fathers' policy bear a near-impossible evidentiary standard. The fathers' authority is the governing default.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The founding fathers as authoritative legal predecessors whose opinions govern present constitutional questions",
                     "guilt_distribution": "Those who would supplant the fathers' policy without conclusive evidence bear the guilt of departing from the authoritative inheritance",
-                    "sacrificial_economy": "None \u2014 at Phase 1b, the inheritance frame is juridical rather than sacrificial. The fathers are legal precedents, not martyrs to be honored by sacrifice.",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "This is cluster_05's evidentiary mode: the fathers are not invoked as inspirational ancestors but as legal precedents. 'Their great authority, fairly considered and weighed, cannot stand' frames the founders' decisions as a ruling that requires conclusive counter-evidence to overturn. The inheritance obligation is judicial \u2014 it sets a standard of proof \u2014 not emotional or covenantal. This is the juridical variant of cluster_05, distinct from the later patrimony/debt mode that will appear at Gettysburg and the Second Inaugural."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.87,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1305,42 +1327,64 @@
                 {
                   "instance_id": "inst_00069",
                   "sentence_id": "doc_007_s01_p39_s02",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "speak as they spoke, and act as they acted upon it",
-                  "source_domain": "Behavioral inheritance \u2014 the obligation to replicate the founding generation's speech acts and policy acts",
-                  "target_domain": "Republican policy on slavery as the behavioral inheritance of the founders' own practice",
-                  "char_span_start": 161,
-                  "char_span_end": 210,
-                  "confidence": 0.9,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": "ext_013",
+                  "document_id": "doc_007",
+                  "document_date": "1860-02-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "speak as they spoke, and act as they acted upon it",
+                  "span_char_start": 161,
+                  "span_char_end": 210,
                   "cmt": {
-                    "mapping": {
-                      "speak as they spoke": "use the same constitutional language the founders used \u2014 adopt their speech acts",
-                      "act as they acted upon it": "implement the same policies the founders implemented \u2014 adopt their policy acts",
-                      "Let all who believe that 'our fathers...understood this question just as well, and even better, than we do now'": "the condition that activates the obligation \u2014 belief in the fathers' superior understanding generates the behavioral imperative"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "Behavioral inheritance — the obligation to replicate the founding generation's speech acts and policy acts",
+                    "target_domain": "Republican policy on slavery as the behavioral inheritance of the founders' own practice",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The inheritance obligation is behavioral: it requires replication of speech acts and policy acts, not just assent to principles",
                       "The conditional structure ('Let all who believe...speak as they spoke') makes the behavioral obligation follow from epistemic deference to the fathers",
-                      "Lincoln is turning Douglas's formula against him: if you concede the fathers understood it better, you must act as they acted \u2014 and they authorized federal control of slavery in the territories",
+                      "Lincoln is turning Douglas's formula against him: if you concede the fathers understood it better, you must act as they acted — and they authorized federal control of slavery in the territories",
                       "The parallel structure (speak/spoke, act/acted) emphasizes temporal continuity: the inheritance is an ongoing practice, not a one-time deference"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_013",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is the most rhetorical and rhetorically elegant instance of cluster_05 in the corpus. Lincoln takes Douglas's own formula ('our fathers...understood this question just as well, and even better, than we do now') and converts it into a behavioral imperative: if you believe this, you must act as the fathers acted. The trap is complete: Douglas and the South have repeatedly invoked the founders' authority; Lincoln shows that the founders' practice supports the Republican position. The inheritance obligation functions as a logical judo move — the opponents' appeal to founding authority generates an obligation they cannot fulfill without conceding Lincoln's point. ext_013 member: this sentence (speak/act as they did) and p39_s04 (as those fathers marked it, so let it be again marked) form a two-sentence inheritance-imperative arc. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'founding_authority_as_rule' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "speak as they spoke": "use the same constitutional language the founders used — adopt their speech acts",
+                      "act as they acted upon it": "implement the same policies the founders implemented — adopt their policy acts",
+                      "Let all who believe that 'our fathers...understood this question just as well, and even better, than we do now'": "the condition that activates the obligation — belief in the fathers' superior understanding generates the behavioral imperative"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "founding_authority_as_rule",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "inherited_obligation",
-                    "obligatory_frame": "The behavioral inheritance imperative: if you believe the fathers understood the question better than we do, you are obligated to speak as they spoke and act as they acted. Lincoln converts epistemic deference (they knew better) into behavioral obligation (therefore replicate their actions). The imperative is self-enforcing: any Republican who accepts Douglas's formula about the fathers' superior understanding has already committed to the Republican policy, because that is what the fathers practiced.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The behavioral inheritance imperative: if you believe the fathers understood the question better than we do, you are obligated to speak as they spoke and act as they acted. Lincoln converts epistemic deference (they knew better) into behavioral obligation (therefore replicate their actions). The imperative is self-enforcing: any Republican who accepts Douglas's formula about the fathers' superior understanding has already committed to the Republican policy, because that is what the fathers practiced.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The founding fathers as behavioral models whose speech acts and policy acts bind the present generation",
                     "guilt_distribution": "Those who invoke the fathers' authority but depart from the fathers' practice are guilty of invoking the inheritance without honoring it",
-                    "sacrificial_economy": "None \u2014 the behavioral inheritance frame is juridical and rhetorical, not sacrificial",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "This is the most rhetorical and rhetorically elegant instance of cluster_05 in the corpus. Lincoln takes Douglas's own formula ('our fathers...understood this question just as well, and even better, than we do now') and converts it into a behavioral imperative: if you believe this, you must act as the fathers acted. The trap is complete: Douglas and the South have repeatedly invoked the founders' authority; Lincoln shows that the founders' practice supports the Republican position. The inheritance obligation functions as a logical judo move \u2014 the opponents' appeal to founding authority generates an obligation they cannot fulfill without conceding Lincoln's point. ext_013 member: this sentence (speak/act as they did) and p39_s04 (as those fathers marked it, so let it be again marked) form a two-sentence inheritance-imperative arc."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.9,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1365,42 +1409,64 @@
                 {
                   "instance_id": "inst_00070",
                   "sentence_id": "doc_007_s01_p39_s04",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "As those fathers marked it, so let it be again marked",
-                  "source_domain": "Ancestral marking \u2014 the founders designating slavery's status as an inherited designation that must be maintained",
-                  "target_domain": "The Republican policy of marking slavery as a tolerated evil not to be extended, as the inherited designation from the founding generation",
-                  "char_span_start": 0,
-                  "char_span_end": 52,
-                  "confidence": 0.88,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": "ext_013",
+                  "document_id": "doc_007",
+                  "document_date": "1860-02-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "As those fathers marked it, so let it be again marked",
+                  "span_char_start": 0,
+                  "span_char_end": 52,
                   "cmt": {
-                    "mapping": {
-                      "those fathers marked it": "the founding generation designated slavery's status \u2014 marked it as an evil to be tolerated but not extended",
-                      "so let it be again marked": "the inheritance imperative \u2014 the present generation must replicate the founders' designation",
-                      "as an evil not to be extended, but to be tolerated and protected only because of...necessity": "the specific content of the founders' marking \u2014 the inherited policy position Lincoln is claiming as the Republican position"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "Ancestral marking — the founders designating slavery's status as an inherited designation that must be maintained",
+                    "target_domain": "The Republican policy of marking slavery as a tolerated evil not to be extended, as the inherited designation from the founding generation",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The marking metaphor treats the founders' policy designation as a physical mark \u2014 a label applied to slavery that must be preserved",
-                      "The 'again' is critical: 'again marked' implies the mark was made originally by the fathers and must be re-applied \u2014 the inheritance requires active maintenance, not passive receipt",
+                      "The marking metaphor treats the founders' policy designation as a physical mark — a label applied to slavery that must be preserved",
+                      "The 'again' is critical: 'again marked' implies the mark was made originally by the fathers and must be re-applied — the inheritance requires active maintenance, not passive receipt",
                       "The toleration-not-extension formula is Lincoln's policy position, but presented as the fathers' policy inherited by the Republicans",
                       "The inheritance frame makes the Republican position conservative rather than radical: they are maintaining the founding designation, not innovating"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_013",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_013 member: paired with p39_s02 (speak as they spoke, act as they acted). Together the two sentences constitute the inheritance-imperative arc: first behavioral obligation (speak/act as they did), then policy-specific obligation (as they marked it, mark it again). p39_s04 is the most specific cluster_05 instance in the speech — it names the inherited policy content (evil not to be extended, to be tolerated only by necessity), not just the fathers' authority in the abstract. The 'again marked' formula is cluster_05's marking variant: the inheritance is a designation that must be actively re-applied by each generation. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'founding_authority_as_rule' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "those fathers marked it": "the founding generation designated slavery's status — marked it as an evil to be tolerated but not extended",
+                      "so let it be again marked": "the inheritance imperative — the present generation must replicate the founders' designation",
+                      "as an evil not to be extended, but to be tolerated and protected only because of...necessity": "the specific content of the founders' marking — the inherited policy position Lincoln is claiming as the Republican position"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "founding_authority_as_rule",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "inherited_obligation",
-                    "obligatory_frame": "The policy inheritance imperative: as the fathers marked slavery's status, so must it be marked again. Lincoln claims the Republican tolerate-not-extend policy as the inherited designation from the founding generation. The inheritance obligation is policy-specific: not just general deference to founders but adherence to the specific content of their policy. This makes departure from the Republican position a violation of the founding inheritance.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The policy inheritance imperative: as the fathers marked slavery's status, so must it be marked again. Lincoln claims the Republican tolerate-not-extend policy as the inherited designation from the founding generation. The inheritance obligation is policy-specific: not just general deference to founders but adherence to the specific content of their policy. This makes departure from the Republican position a violation of the founding inheritance.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The founding fathers as the original policy-makers whose designations bind subsequent generations",
                     "guilt_distribution": "Those who would extend slavery beyond the founders' toleration formula violate the founding inheritance; the Republicans who maintain the tolerate-not-extend formula are the legitimate inheritors",
-                    "sacrificial_economy": "None at Phase 1b \u2014 the inheritance frame is political and juridical, not yet sacrificial",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_013 member: paired with p39_s02 (speak as they spoke, act as they acted). Together the two sentences constitute the inheritance-imperative arc: first behavioral obligation (speak/act as they did), then policy-specific obligation (as they marked it, mark it again). p39_s04 is the most specific cluster_05 instance in the speech \u2014 it names the inherited policy content (evil not to be extended, to be tolerated only by necessity), not just the fathers' authority in the abstract. The 'again marked' formula is cluster_05's marking variant: the inheritance is a designation that must be actively re-applied by each generation."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.88,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2766,43 +2832,65 @@
                 {
                   "instance_id": "inst_00071",
                   "sentence_id": "doc_007_s01_p69_s01",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "our fathers, who framed the Government under which we live...decided this same Constitutional question in our favor",
-                  "source_domain": "Ancestral judicial precedent \u2014 the founding generation's constitutional decision as a binding ruling that favors the present generation's position",
-                  "target_domain": "The constitutional question of federal authority over slavery in the territories as already decided by the founders in the Republican direction",
-                  "char_span_start": 37,
-                  "char_span_end": 192,
-                  "confidence": 0.85,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_007",
+                  "document_date": "1860-02-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.99,
+                  "span_text": "our fathers, who framed the Government under which we live...decided this same Constitutional question in our favor",
+                  "span_char_start": 37,
+                  "span_char_end": 192,
                   "cmt": {
-                    "mapping": {
-                      "our fathers, who framed the Government under which we live": "the founding generation as the authoritative framers \u2014 their authority derives from having made the constitutional framework itself",
-                      "decided this same Constitutional question in our favor": "the inheritance frame at its most juridical \u2014 the fathers issued a ruling, and the ruling favors the Republican position",
-                      "decided it without division among themselves": "the ruling's authority is unanimous \u2014 no dissent undermines its precedential weight",
-                      "without basing it upon any mistaken statement of facts": "the ruling's factual basis is sound \u2014 it cannot be overturned on grounds of factual error"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "Ancestral judicial precedent — the founding generation's constitutional decision as a binding ruling that favors the present generation's position",
+                    "target_domain": "The constitutional question of federal authority over slavery in the territories as already decided by the founders in the Republican direction",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The founding generation's constitutional decision is framed as a judicial precedent that binds the present generation",
-                      "The precedent is in the Republicans' favor \u2014 the inheritance goes to them, not to the South",
+                      "The precedent is in the Republicans' favor — the inheritance goes to them, not to the South",
                       "The three-fold 'without division' / 'without division about meaning' / 'without basing on mistaken facts' systematically forecloses every possible avenue for contesting the precedent",
                       "The inheritance is juridical: what the fathers decided is binding; the question is only who correctly claims to inherit their decision"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is the speech's climactic cluster_05 instance — the capstone of the historical enumeration argument. After 30+ paragraphs establishing what each of the thirty-nine founding signers did or did not do regarding federal control of slavery in the territories, Lincoln arrives here: the founders decided the question in our favor. The three-fold qualification (without division, without division about meaning, without mistaken facts) systematically closes every avenue for contesting the precedent. The inheritance frame here reaches its most precise juridical formulation in the corpus: the fathers did not just hold opinions (p37_s03) or mark a policy (p39_s04) — they decided a constitutional question. Their decision is a ruling. The ruling favors the Republicans. The inheritance is theirs to claim. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'founding_authority_as_rule' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "our fathers, who framed the Government under which we live": "the founding generation as the authoritative framers — their authority derives from having made the constitutional framework itself",
+                      "decided this same Constitutional question in our favor": "the inheritance frame at its most juridical — the fathers issued a ruling, and the ruling favors the Republican position",
+                      "decided it without division among themselves": "the ruling's authority is unanimous — no dissent undermines its precedential weight",
+                      "without basing it upon any mistaken statement of facts": "the ruling's factual basis is sound — it cannot be overturned on grounds of factual error"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "founding_authority_as_rule",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "inherited_obligation",
-                    "obligatory_frame": "The Constitutional precedent inheritance: the fathers decided this same question in our favor. Lincoln converts the founding fathers' historical practice into a judicial ruling \u2014 unanimous, uncontested on meaning, factually sound \u2014 that the present generation must honor. The inheritance obligation is juridical: the precedent is binding, the ruling is clear, the Republicans are the legitimate claimants. The South cannot invoke founding authority against a decision the founders made against them.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The Constitutional precedent inheritance: the fathers decided this same question in our favor. Lincoln converts the founding fathers' historical practice into a judicial ruling — unanimous, uncontested on meaning, factually sound — that the present generation must honor. The inheritance obligation is juridical: the precedent is binding, the ruling is clear, the Republicans are the legitimate claimants. The South cannot invoke founding authority against a decision the founders made against them.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The founding fathers as the original constitutional tribunal whose unanimous decisions are binding precedents",
                     "guilt_distribution": "The South, which invokes founding authority, bears the guilt of defying a ruling the founders made against the Southern position; the Republicans who honor the founding decision are the legitimate inheritors",
-                    "sacrificial_economy": "None \u2014 the juridical inheritance frame does not generate a sacrificial economy at Phase 1b",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "This is the speech's climactic cluster_05 instance \u2014 the capstone of the historical enumeration argument. After 30+ paragraphs establishing what each of the thirty-nine founding signers did or did not do regarding federal control of slavery in the territories, Lincoln arrives here: the founders decided the question in our favor. The three-fold qualification (without division, without division about meaning, without mistaken facts) systematically closes every avenue for contesting the precedent. The inheritance frame here reaches its most precise juridical formulation in the corpus: the fathers did not just hold opinions (p37_s03) or mark a policy (p39_s04) \u2014 they decided a constitutional question. Their decision is a ruling. The ruling favors the Republicans. The inheritance is theirs to claim."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.85,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -3420,7 +3508,7 @@
             {
               "sentence_id": "doc_007_s02_p01_s01",
               "sentence_ordinal": 1,
-              "text": "[1]\u00a0\u00a0 The Address of the Hon. Abraham Lincoln, in [V] indication of the Policy of the Framers of the Constitution and the Principles of the Republican Party, Delivered at Cooper Institute, February 27th, 1860, Issued by the Young Men's Republican Union, (659 Broadway, New-York,) with Notes by Charles C. Nott & Cephas Brainerd, Members of the Board of Control.",
+              "text": "[1]   The Address of the Hon. Abraham Lincoln, in [V] indication of the Policy of the Framers of the Constitution and the Principles of the Republican Party, Delivered at Cooper Institute, February 27th, 1860, Issued by the Young Men's Republican Union, (659 Broadway, New-York,) with Notes by Charles C. Nott & Cephas Brainerd, Members of the Board of Control.",
               "word_offset_start": 7588,
               "word_offset_end": 7647,
               "authorship_note": "editorial_apparatus",
@@ -3465,7 +3553,7 @@
             {
               "sentence_id": "doc_007_s02_p01_s06",
               "sentence_ordinal": 6,
-              "text": "The extensive annotation prepared by Nott and Brainerd, which Lincoln thought ``exceedingly valuable,'' has also been reproduced from the source in the succeeding footnotes.[2]\u00a0\u00a0 The Constitution is attested September 17, 1787.",
+              "text": "The extensive annotation prepared by Nott and Brainerd, which Lincoln thought ``exceedingly valuable,'' has also been reproduced from the source in the succeeding footnotes.[2]   The Constitution is attested September 17, 1787.",
               "word_offset_start": 7768,
               "word_offset_end": 7799,
               "authorship_note": "editorial_apparatus",
@@ -3519,7 +3607,7 @@
             {
               "sentence_id": "doc_007_s02_p01_s12",
               "sentence_ordinal": 12,
-              "text": "Vide Message of President Monroe, Feb. 4, 1818.[3]\u00a0\u00a0 The Convention consisted of sixty-five members.",
+              "text": "Vide Message of President Monroe, Feb. 4, 1818.[3]   The Convention consisted of sixty-five members.",
               "word_offset_start": 7906,
               "word_offset_end": 7920,
               "authorship_note": "editorial_apparatus",
@@ -3555,7 +3643,7 @@
             {
               "sentence_id": "doc_007_s02_p01_s16",
               "sentence_ordinal": 16,
-              "text": "The names of the ``thirty-nine,'' and the States which they represented are subsequently given.[4]\u00a0\u00a0 The cession of territory was authorized by New-York, Feb. 19, 1780; by Virginia, January 2, 1781, and again, (without certain conditions at first imposed,) ``at their sessions, begun on the 20th day of October, 1783;'' by Mass., Nov. 13, 1784; by Conn., May ---, 1786; by S. Carolina, March 8, 1787; by N. Carolina, Dec. ---, 1789; and by Georgia at some time prior to April, 1802.The deeds of cession were executed by New-York, March 1, 1781; by Virginia, March 1, 1784; by Mass., April 19, 1785; by Conn., Sept. 13, 1786; by S. Carolina, August 9, 1787; by N. Carolina, Feb. 25, 1790; and by Georgia, April 24, 1802.",
+              "text": "The names of the ``thirty-nine,'' and the States which they represented are subsequently given.[4]   The cession of territory was authorized by New-York, Feb. 19, 1780; by Virginia, January 2, 1781, and again, (without certain conditions at first imposed,) ``at their sessions, begun on the 20th day of October, 1783;'' by Mass., Nov. 13, 1784; by Conn., May ---, 1786; by S. Carolina, March 8, 1787; by N. Carolina, Dec. ---, 1789; and by Georgia at some time prior to April, 1802.The deeds of cession were executed by New-York, March 1, 1781; by Virginia, March 1, 1784; by Mass., April 19, 1785; by Conn., Sept. 13, 1786; by S. Carolina, August 9, 1787; by N. Carolina, Feb. 25, 1790; and by Georgia, April 24, 1802.",
               "word_offset_start": 7988,
               "word_offset_end": 8112,
               "authorship_note": "editorial_apparatus",
@@ -3588,7 +3676,7 @@
             {
               "sentence_id": "doc_007_s02_p02_s01",
               "sentence_ordinal": 1,
-              "text": "These dates are also interesting in connection with the extraordinary assertions of Chief Justice Taney, (19 How, page 434.,) that ``the example of Virginia was soon afterwards followed by other States,'' and that (p. 436) the power in the Constitution ``to dispose of and make all needful rules and regulations respecting the Territory or other property belonging to the United States,'' was intended only ``to transfer to the new Government the property then held in common,'' ``and has no reference whatever to any Territory or other property, which the new sovereignty might afterwards itself acquire.'' On this subject, vide Federalist, No. 43, sub. 4 and 5.[5]\u00a0\u00a0 Sherman was from Connecticut; Mifflin from Penn.; Williamson from North Carolina, and M'Henry from Maryland.[6]\u00a0\u00a0 What Mr. M'Henry's views were, it seems impossible to ascertain.",
+              "text": "These dates are also interesting in connection with the extraordinary assertions of Chief Justice Taney, (19 How, page 434.,) that ``the example of Virginia was soon afterwards followed by other States,'' and that (p. 436) the power in the Constitution ``to dispose of and make all needful rules and regulations respecting the Territory or other property belonging to the United States,'' was intended only ``to transfer to the new Government the property then held in common,'' ``and has no reference whatever to any Territory or other property, which the new sovereignty might afterwards itself acquire.'' On this subject, vide Federalist, No. 43, sub. 4 and 5.[5]   Sherman was from Connecticut; Mifflin from Penn.; Williamson from North Carolina, and M'Henry from Maryland.[6]   What Mr. M'Henry's views were, it seems impossible to ascertain.",
               "word_offset_start": 8181,
               "word_offset_end": 8312,
               "authorship_note": "editorial_apparatus",
@@ -3624,7 +3712,7 @@
             {
               "sentence_id": "doc_007_s02_p02_s05",
               "sentence_ordinal": 5,
-              "text": "He would give no strength to the Administration, but he would not disgrace the office; his views are good.''[7]\u00a0\u00a0 William Blount was from North Carolina, and William Few, from Georgia---the two States which afterward ceded their territory to the United States.",
+              "text": "He would give no strength to the Administration, but he would not disgrace the office; his views are good.''[7]   William Blount was from North Carolina, and William Few, from Georgia---the two States which afterward ceded their territory to the United States.",
               "word_offset_start": 8399,
               "word_offset_end": 8440,
               "authorship_note": "editorial_apparatus",
@@ -3651,7 +3739,7 @@
             {
               "sentence_id": "doc_007_s02_p02_s08",
               "sentence_ordinal": 8,
-              "text": "Without the votes of these States the Ordinance could not have been passed; and there is no recollection of an opposition from any of these States to the act of confirmation passed under the actual Constitution.''[8]\u00a0\u00a0 ``The famous ordinance of Congress of the 13th July, 1787, which has ever since constituted, in most respects, the model of all our territorial governments, and is equally remarkable for the brevity and exactness of its text, and for its masterly display of the fundamental principles of civil and religious liberty.''---Justice Story, 1 Commentaries, section1312.``It is well known that the Ordinance of 1787 was drawn by the Hon. Nathan Dane, of Massachusetts, and adopted with scarcely a verbal alteration by Congress.",
+              "text": "Without the votes of these States the Ordinance could not have been passed; and there is no recollection of an opposition from any of these States to the act of confirmation passed under the actual Constitution.''[8]   ``The famous ordinance of Congress of the 13th July, 1787, which has ever since constituted, in most respects, the model of all our territorial governments, and is equally remarkable for the brevity and exactness of its text, and for its masterly display of the fundamental principles of civil and religious liberty.''---Justice Story, 1 Commentaries, section1312.``It is well known that the Ordinance of 1787 was drawn by the Hon. Nathan Dane, of Massachusetts, and adopted with scarcely a verbal alteration by Congress.",
               "word_offset_start": 8539,
               "word_offset_end": 8656,
               "authorship_note": "editorial_apparatus",
@@ -3813,7 +3901,7 @@
             {
               "sentence_id": "doc_007_s02_p08_s01",
               "sentence_ordinal": 1,
-              "text": "When, therefore, the ordinance of '87 came before Congress, on its final passage, the subject of slavery prohibition had been ``agitated'' for nearly three years; and the deliberate and almost unanimous vote of that body upon that question leaves no room to doubt what the fathers believed, and how, in that belief, they acted.[9]\u00a0\u00a0 It singularly and fortunately happens that one of the ``thirty-nine,'' ``while engaged on that instrument,'' viz., while advocating its ratification before the Pennsylvania Convention, did express an opinion upon this ``precise question,'' which opinion was never disputed or doubted, in that or any other Convention, and was accepted by the opponents of the Constitution, as an indisputable fact.",
+              "text": "When, therefore, the ordinance of '87 came before Congress, on its final passage, the subject of slavery prohibition had been ``agitated'' for nearly three years; and the deliberate and almost unanimous vote of that body upon that question leaves no room to doubt what the fathers believed, and how, in that belief, they acted.[9]   It singularly and fortunately happens that one of the ``thirty-nine,'' ``while engaged on that instrument,'' viz., while advocating its ratification before the Pennsylvania Convention, did express an opinion upon this ``precise question,'' which opinion was never disputed or doubted, in that or any other Convention, and was accepted by the opponents of the Constitution, as an indisputable fact.",
               "word_offset_start": 9059,
               "word_offset_end": 9171,
               "authorship_note": "editorial_apparatus",
@@ -4155,7 +4243,7 @@
             {
               "sentence_id": "doc_007_s02_p14_s05",
               "sentence_ordinal": 5,
-              "text": "They are communicable to the emancipated slave, (for in the new State of Ohio, slavery is altogether prohibited), to the copper-colored native, and all other human beings who, after a competent residence and degree of civilization, are capable of enjoying the blessings of regular government.''[10]\u00a0\u00a0 The Act of 1789, as reported by the Committee, was received and read Thursday, July 16th.",
+              "text": "They are communicable to the emancipated slave, (for in the new State of Ohio, slavery is altogether prohibited), to the copper-colored native, and all other human beings who, after a competent residence and degree of civilization, are capable of enjoying the blessings of regular government.''[10]   The Act of 1789, as reported by the Committee, was received and read Thursday, July 16th.",
               "word_offset_start": 9864,
               "word_offset_end": 9925,
               "authorship_note": "editorial_apparatus",
@@ -4173,7 +4261,7 @@
             {
               "sentence_id": "doc_007_s02_p14_s07",
               "sentence_ordinal": 7,
-              "text": "In the Senate it had its first reading on the same day, and was ordered to a second reading on the following day, (July 22d,) and on the 4th August it passed, and on the 7th was approved by the President.[11]\u00a0\u00a0 The ``sixteen'' represented these States:---Langdon and Gilman, New Hampshire; Sherman and Johnson, Connecticut; Morris, Fitzsimmons and Clymer, Pennsylvania; King, Massachusetts; Paterson, New Jersey; Few and Baldwin, Georgia; Bassett and Read, Delaware; Butler, South Carolina; Carroll, Maryland; and Madison, Virginia.[12]\u00a0\u00a0 Vide note 4, ante.[13]\u00a0\u00a0 Chap. 28, section 7, U.S. Statutes, 5th Congress, 2d Session.[14]\u00a0\u00a0 Langdon was from New Hampshire, Read from Delaware, and Baldwin from Georgia.[15]\u00a0\u00a0 Chap. 38, section 10, U.S. Statutes, 8th Congress, 1st Session.[16]\u00a0\u00a0 Baldwin was from Georgia, and Dayton from New Jersey.[17]\u00a0\u00a0 Rufus King, who sat in the old Congress, and also in the Convention as the representative of Massachusetts, removed to New-York and was sent by that State to the U.S. Senate of the first Congress.",
+              "text": "In the Senate it had its first reading on the same day, and was ordered to a second reading on the following day, (July 22d,) and on the 4th August it passed, and on the 7th was approved by the President.[11]   The ``sixteen'' represented these States:---Langdon and Gilman, New Hampshire; Sherman and Johnson, Connecticut; Morris, Fitzsimmons and Clymer, Pennsylvania; King, Massachusetts; Paterson, New Jersey; Few and Baldwin, Georgia; Bassett and Read, Delaware; Butler, South Carolina; Carroll, Maryland; and Madison, Virginia.[12]   Vide note 4, ante.[13]   Chap. 28, section 7, U.S. Statutes, 5th Congress, 2d Session.[14]   Langdon was from New Hampshire, Read from Delaware, and Baldwin from Georgia.[15]   Chap. 38, section 10, U.S. Statutes, 8th Congress, 1st Session.[16]   Baldwin was from Georgia, and Dayton from New Jersey.[17]   Rufus King, who sat in the old Congress, and also in the Convention as the representative of Massachusetts, removed to New-York and was sent by that State to the U.S. Senate of the first Congress.",
               "word_offset_start": 9982,
               "word_offset_end": 10142,
               "authorship_note": "editorial_apparatus",
@@ -4182,7 +4270,7 @@
             {
               "sentence_id": "doc_007_s02_p14_s08",
               "sentence_ordinal": 8,
-              "text": "Charles Pinckney was in the House, as a representative of South Carolina.[18]\u00a0\u00a0 Although Mr. Pinckney opposed ``slavery prohibition'' in 1820, yet his views, with regard to the powers of the general government, may be better judged by his actions in the Convention:FRIDAY, June 8th, 1787.---``Mr. Pinckney moved `that the National Legislature shall have the power of negativing all laws to be passed by the State Legislatures, which they may judge improper,' in the room of the clause as it stood reported.",
+              "text": "Charles Pinckney was in the House, as a representative of South Carolina.[18]   Although Mr. Pinckney opposed ``slavery prohibition'' in 1820, yet his views, with regard to the powers of the general government, may be better judged by his actions in the Convention:FRIDAY, June 8th, 1787.---``Mr. Pinckney moved `that the National Legislature shall have the power of negativing all laws to be passed by the State Legislatures, which they may judge improper,' in the room of the clause as it stood reported.",
               "word_offset_start": 10142,
               "word_offset_end": 10223,
               "authorship_note": "editorial_apparatus",
@@ -4374,7 +4462,7 @@
             {
               "sentence_id": "doc_007_s02_p22_s05",
               "sentence_ordinal": 5,
-              "text": "When the ordinance came up for its final passage, Mr. Pinckney was sitting in the Convention, and did not take part in the proceedings of Congress.[19]\u00a0\u00a0 By reference to notes 5, 7, 11, 14, 16, and 17, it will be seen that, of the twenty-three who acted upon the question of prohibition, twelve were from the present slaveholding States.[20]\u00a0\u00a0 Vide notes 6 and 18, ante.[21]\u00a0\u00a0 ``The remaining sixteen'' were Nathaniel Gorham, Mass.; Alex.",
+              "text": "When the ordinance came up for its final passage, Mr. Pinckney was sitting in the Convention, and did not take part in the proceedings of Congress.[19]   By reference to notes 5, 7, 11, 14, 16, and 17, it will be seen that, of the twenty-three who acted upon the question of prohibition, twelve were from the present slaveholding States.[20]   Vide notes 6 and 18, ante.[21]   ``The remaining sixteen'' were Nathaniel Gorham, Mass.; Alex.",
               "word_offset_start": 10558,
               "word_offset_end": 10631,
               "authorship_note": "editorial_apparatus",
@@ -4383,7 +4471,7 @@
             {
               "sentence_id": "doc_007_s02_p22_s06",
               "sentence_ordinal": 6,
-              "text": "Hamilton, New-York; William Livingston and David Brearly, New Jersey; Benjamin Franklin, Jared Ingersoll, James Wilson and Gouverneur Morris, Penn.; Gunning Bedford, John Dickinson and Jacob Broom, Delaware; Daniel, of St. Thomas, Jenifer, Maryland; John Blair, Virginia; Richard Dobbs Spaight, North Carolina; and John Rutledge and Charles Cotesworth Pinckney, South Carolina.[22]\u00a0\u00a0 ``The only distinction between freedom and slavery consists in this: in the former state, a man is governed by the laws to which he has given his consent, either in person or by his representative; in the latter, he is governed by the will of another.",
+              "text": "Hamilton, New-York; William Livingston and David Brearly, New Jersey; Benjamin Franklin, Jared Ingersoll, James Wilson and Gouverneur Morris, Penn.; Gunning Bedford, John Dickinson and Jacob Broom, Delaware; Daniel, of St. Thomas, Jenifer, Maryland; John Blair, Virginia; Richard Dobbs Spaight, North Carolina; and John Rutledge and Charles Cotesworth Pinckney, South Carolina.[22]   ``The only distinction between freedom and slavery consists in this: in the former state, a man is governed by the laws to which he has given his consent, either in person or by his representative; in the latter, he is governed by the will of another.",
               "word_offset_start": 10631,
               "word_offset_end": 10727,
               "authorship_note": "editorial_apparatus",
@@ -4470,7 +4558,7 @@
             {
               "sentence_id": "doc_007_s02_p23_s03",
               "sentence_ordinal": 3,
-              "text": "It was the curse of heaven on the States where it prevailed. * * * The admission of slavery into the representation, when fairly explained, comes to this---that the inhabitant of South Carolina or Georgia, who goes to the coast of Africa, and, in defiance of the most sacred laws of humanity, tears away his fellow-creatures from their dearest connections, and damns them to the most cruel bondage, shall have more votes, in a government instituted for the protection of the rights of mankind, than the citizen of Pennsylvania or New Jersey, who views, with a laudable horror, so nefarious a practice. * * * * * * * He would sooner submit himself to a tax for paying for all the negroes in the United States than saddle posterity with such a constitution.''---Debate on Slave Representation in the Convention.---Madison Papers.[23]\u00a0\u00a0 An eminent jurist (Chancellor Walworth) has said that ``The preamble which was prefixed to these amendments, as adopted by Congress, is important to show in what light that body considered them.'' (8 Wend.",
+              "text": "It was the curse of heaven on the States where it prevailed. * * * The admission of slavery into the representation, when fairly explained, comes to this---that the inhabitant of South Carolina or Georgia, who goes to the coast of Africa, and, in defiance of the most sacred laws of humanity, tears away his fellow-creatures from their dearest connections, and damns them to the most cruel bondage, shall have more votes, in a government instituted for the protection of the rights of mankind, than the citizen of Pennsylvania or New Jersey, who views, with a laudable horror, so nefarious a practice. * * * * * * * He would sooner submit himself to a tax for paying for all the negroes in the United States than saddle posterity with such a constitution.''---Debate on Slave Representation in the Convention.---Madison Papers.[23]   An eminent jurist (Chancellor Walworth) has said that ``The preamble which was prefixed to these amendments, as adopted by Congress, is important to show in what light that body considered them.'' (8 Wend.",
               "word_offset_start": 11004,
               "word_offset_end": 11178,
               "authorship_note": "editorial_apparatus",
@@ -4521,7 +4609,7 @@
             {
               "sentence_id": "doc_007_s02_p24_s03",
               "sentence_ordinal": 3,
-              "text": "Thus, these two amendments sought to be used for slavery, originated in the two great anti-slavery States, New-York and Massachusetts.[24]\u00a0\u00a0 The amendments were proposed by Mr. Madison in the House of Representatives, June 8, 1789.",
+              "text": "Thus, these two amendments sought to be used for slavery, originated in the two great anti-slavery States, New-York and Massachusetts.[24]   The amendments were proposed by Mr. Madison in the House of Representatives, June 8, 1789.",
               "word_offset_start": 11332,
               "word_offset_end": 11367,
               "authorship_note": "editorial_apparatus",
@@ -4548,7 +4636,7 @@
             {
               "sentence_id": "doc_007_s02_p24_s06",
               "sentence_ordinal": 6,
-              "text": "The date of the introduction and passage of the act enforcing the ordinance of '87, will be found at note 10, ante.[25]\u00a0\u00a0 It is singular that while two of the ``thirty-nine'' were in that Congress of 1819, there was but one (besides Mr. King) of the ``seventy-six.'' The one was William Smith, of South Carolina.",
+              "text": "The date of the introduction and passage of the act enforcing the ordinance of '87, will be found at note 10, ante.[25]   It is singular that while two of the ``thirty-nine'' were in that Congress of 1819, there was but one (besides Mr. King) of the ``seventy-six.'' The one was William Smith, of South Carolina.",
               "word_offset_start": 11430,
               "word_offset_end": 11485,
               "authorship_note": "editorial_apparatus",
@@ -4557,7 +4645,7 @@
             {
               "sentence_id": "doc_007_s02_p24_s07",
               "sentence_ordinal": 7,
-              "text": "He was then a Senator, and, like Mr. Pinckney, occupied extreme Southern ground.[26]\u00a0\u00a0 The following is an extract from the letter referred to:---``I agree with you cordially in your views in regard to negro slavery.",
+              "text": "He was then a Senator, and, like Mr. Pinckney, occupied extreme Southern ground.[26]   The following is an extract from the letter referred to:---``I agree with you cordially in your views in regard to negro slavery.",
               "word_offset_start": 11485,
               "word_offset_end": 11520,
               "authorship_note": "editorial_apparatus",
@@ -4617,7 +4705,7 @@
             {
               "sentence_id": "doc_007_s02_p25_s01",
               "sentence_ordinal": 1,
-              "text": "The following extract from a letter of Washington to Robert Morris, April 12th, 1786, shows how strong were his views, and how clearly he deemed emancipation a subject for legislative enactment:---``I can only say that there is no man living who wishes more sincerely than I do to see a plan adopted for the abolition of it; but there is but one proper and effective mode by which it can be accomplished, and that is, BY LEGISLATIVE AUTHORITY, and that, as far as my suffrage will go, shall never be wanting.''[27]\u00a0\u00a0 A Committee of five, consisting of Messrs.",
+              "text": "The following extract from a letter of Washington to Robert Morris, April 12th, 1786, shows how strong were his views, and how clearly he deemed emancipation a subject for legislative enactment:---``I can only say that there is no man living who wishes more sincerely than I do to see a plan adopted for the abolition of it; but there is but one proper and effective mode by which it can be accomplished, and that is, BY LEGISLATIVE AUTHORITY, and that, as far as my suffrage will go, shall never be wanting.''[27]   A Committee of five, consisting of Messrs.",
               "word_offset_start": 11620,
               "word_offset_end": 11718,
               "authorship_note": "editorial_apparatus",
@@ -4740,7 +4828,7 @@
             {
               "sentence_id": "doc_007_s02_p29_s01",
               "sentence_ordinal": 1,
-              "text": "[28]\u00a0\u00a0 The Southampton insurrection, August, 1831, was induced by the remarkable ability of a slave calling himself General Nat Turner.",
+              "text": "[28]   The Southampton insurrection, August, 1831, was induced by the remarkable ability of a slave calling himself General Nat Turner.",
               "word_offset_start": 12141,
               "word_offset_end": 12161,
               "authorship_note": "editorial_apparatus",
@@ -4776,7 +4864,7 @@
             {
               "sentence_id": "doc_007_s02_p29_s05",
               "sentence_ordinal": 5,
-              "text": "The Southampton was the eleventh large insurrection in the Southern States, besides numerous attempts and revolts.[29]\u00a0\u00a0 In March, 1790, the General Assembly of France, on the petition of the free people of color in St. Domingo, many of whom were intelligent and wealthy, passed a decree intended to be in their favor, but so ambiguous as to be construed in favor of both the whites and the blacks.",
+              "text": "The Southampton was the eleventh large insurrection in the Southern States, besides numerous attempts and revolts.[29]   In March, 1790, the General Assembly of France, on the petition of the free people of color in St. Domingo, many of whom were intelligent and wealthy, passed a decree intended to be in their favor, but so ambiguous as to be construed in favor of both the whites and the blacks.",
               "word_offset_start": 12228,
               "word_offset_end": 12296,
               "authorship_note": "editorial_apparatus",
@@ -4857,7 +4945,7 @@
             {
               "sentence_id": "doc_007_s02_p29_s14",
               "sentence_ordinal": 14,
-              "text": "Some years afterward the French Government sought, with an army of 60,000 men to reinstate slavery, but were unsuccessful, and then the white planters were driven from the Island.[30]\u00a0\u00a0 Vide Jefferson's Autobiography, commenced January 6th, 1821.",
+              "text": "Some years afterward the French Government sought, with an army of 60,000 men to reinstate slavery, but were unsuccessful, and then the white planters were driven from the Island.[30]   Vide Jefferson's Autobiography, commenced January 6th, 1821.",
               "word_offset_start": 12463,
               "word_offset_end": 12499,
               "authorship_note": "editorial_apparatus",
@@ -4866,7 +4954,7 @@
             {
               "sentence_id": "doc_007_s02_p29_s15",
               "sentence_ordinal": 15,
-              "text": "Jefferson's Works, vol. 1, page 49.[31]\u00a0\u00a0 ``I am not ashamed or afraid publicly to avow, that the election of William H. Seward or Salmon P. Chase, or any such representative of the Republican party, upon a sectional platform, ought to be resisted to the disruption of every tie that binds this Confederacy together. (Applause on the Democratic side of the House.)''---Mr. Curry, of Alabama, in the House of Representatives.``Just so sure as the Republican party succeed in electing a sectional man, upon their sectional, anti-slavery platform, breathing destruction and death to the rights of my people, just so sure, in my judgment, the time will have come when the South must and will take an unmistakable and decided action, and then he who dallies is a dastard, and he who doubts is damned!",
+              "text": "Jefferson's Works, vol. 1, page 49.[31]   ``I am not ashamed or afraid publicly to avow, that the election of William H. Seward or Salmon P. Chase, or any such representative of the Republican party, upon a sectional platform, ought to be resisted to the disruption of every tie that binds this Confederacy together. (Applause on the Democratic side of the House.)''---Mr. Curry, of Alabama, in the House of Representatives.``Just so sure as the Republican party succeed in electing a sectional man, upon their sectional, anti-slavery platform, breathing destruction and death to the rights of my people, just so sure, in my judgment, the time will have come when the South must and will take an unmistakable and decided action, and then he who dallies is a dastard, and he who doubts is damned!",
               "word_offset_start": 12499,
               "word_offset_end": 12632,
               "authorship_note": "editorial_apparatus",
@@ -5007,7 +5095,7 @@
             {
               "sentence_id": "doc_007_s02_p33_s04",
               "sentence_ordinal": 4,
-              "text": "If Georgia, Alabama and Mississippi alone---giving us a portion of the Atlantic and Gulf coasts---would unite with this State in a common secession upon the election of a Black Republican, I would give my assent to the policy.''---Letter of Hon. James L. Orr, of S.C., to John Martin and others, July 23, 1860.[32]\u00a0\u00a0 The Hon. John A. Andrew, of the Boston Bar, made the following analysis of the Dred Scott case in the Massachusetts legislature.",
+              "text": "If Georgia, Alabama and Mississippi alone---giving us a portion of the Atlantic and Gulf coasts---would unite with this State in a common secession upon the election of a Black Republican, I would give my assent to the policy.''---Letter of Hon. James L. Orr, of S.C., to John Martin and others, July 23, 1860.[32]   The Hon. John A. Andrew, of the Boston Bar, made the following analysis of the Dred Scott case in the Massachusetts legislature.",
               "word_offset_start": 13165,
               "word_offset_end": 13240,
               "authorship_note": "editorial_apparatus",
@@ -5178,7 +5266,7 @@
             {
               "sentence_id": "doc_007_s02_p36_s03",
               "sentence_ordinal": 3,
-              "text": "Grier concurred in set terms with Nelson on all `the questions discussed by him.' Campbell says, `The claim of the plaintiff to freedom depends upon the effect to be given to his absence from Missouri, in company with his master in Illinois and Minnesota, and this effect is to be ascertained by reference to the laws of Missouri.' Five of the Justices, then, (if no more of them,) regard the law of Missouri as decisive of the plaintiff's rights.''[33]\u00a0\u00a0 ``Now, as we have already said in an earlier part of this opinion upon a different point, the right of property in a slave is distinctly and expressly affirmed in the Constitution.",
+              "text": "Grier concurred in set terms with Nelson on all `the questions discussed by him.' Campbell says, `The claim of the plaintiff to freedom depends upon the effect to be given to his absence from Missouri, in company with his master in Illinois and Minnesota, and this effect is to be ascertained by reference to the laws of Missouri.' Five of the Justices, then, (if no more of them,) regard the law of Missouri as decisive of the plaintiff's rights.''[33]   ``Now, as we have already said in an earlier part of this opinion upon a different point, the right of property in a slave is distinctly and expressly affirmed in the Constitution.",
               "word_offset_start": 13816,
               "word_offset_end": 13927,
               "authorship_note": "editorial_apparatus",
@@ -5214,7 +5302,7 @@
             {
               "sentence_id": "doc_007_s02_p36_s07",
               "sentence_ordinal": 7,
-              "text": "Vide language of Mr. Madison, note 35, as to ``merchandise.''[34]\u00a0\u00a0 Not only was the right of property not intended to be ``distinctly and expressly affirmed in the Constitution;'' but the following extract from Mr. Madison demonstrates that the utmost care was taken to avoid so doing:---``The clause as originally offered [respecting fugitive slaves] read `If any person LEGALLY bound to service or labor in any of the United States shall escape into another State,'' etc., etc. (Vol. 3, p. 1456.) In regard to this, Mr. Madison says, ``The term `legally' was struck out, and the words `under the laws thereof,' inserted after the word State, in compliance with the wish of some who thought the term `legally' equivocal and favoring the idea that slavery was legal in a moral point of view.''---Ib., p. 1589.[35]\u00a0\u00a0 We subjoin a portion of the history alluded to by Mr. Lincoln.",
+              "text": "Vide language of Mr. Madison, note 35, as to ``merchandise.''[34]   Not only was the right of property not intended to be ``distinctly and expressly affirmed in the Constitution;'' but the following extract from Mr. Madison demonstrates that the utmost care was taken to avoid so doing:---``The clause as originally offered [respecting fugitive slaves] read `If any person LEGALLY bound to service or labor in any of the United States shall escape into another State,'' etc., etc. (Vol. 3, p. 1456.) In regard to this, Mr. Madison says, ``The term `legally' was struck out, and the words `under the laws thereof,' inserted after the word State, in compliance with the wish of some who thought the term `legally' equivocal and favoring the idea that slavery was legal in a moral point of view.''---Ib., p. 1589.[35]   We subjoin a portion of the history alluded to by Mr. Lincoln.",
               "word_offset_start": 13967,
               "word_offset_end": 14113,
               "authorship_note": "editorial_apparatus",
@@ -5589,7 +5677,7 @@
             {
               "sentence_id": "doc_007_s02_p58_s01",
               "sentence_ordinal": 1,
-              "text": "``But a tax or duty may be imposed on such importation, not exceeding ten dollars for each PERSON.''---Madison Papers, Aug. 25, 1787.[36]\u00a0\u00a0 Compare this noble passage and that at page 18 [i.e., p. 535, supra], with the twaddle of Mr. Orr, (note 31,) and the slang of Mr. Douglas, (note 38.)[37]\u00a0\u00a0 That demand has since been made.",
+              "text": "``But a tax or duty may be imposed on such importation, not exceeding ten dollars for each PERSON.''---Madison Papers, Aug. 25, 1787.[36]   Compare this noble passage and that at page 18 [i.e., p. 535, supra], with the twaddle of Mr. Orr, (note 31,) and the slang of Mr. Douglas, (note 38.)[37]   That demand has since been made.",
               "word_offset_start": 14625,
               "word_offset_end": 14682,
               "authorship_note": "editorial_apparatus",
@@ -5637,7 +5725,7 @@
             {
               "sentence_id": "doc_007_s02_p60_s01",
               "sentence_ordinal": 1,
-              "text": "Senator Toombs, of Georgia, has claimed in the Senate, that laws of Connecticut, Maine, Massachusetts, Michigan, New Hampshire, Ohio, Rhode Island, Vermont, and Wisconsin, for the exclusion of slavery, conceded to be warranted by the State Constitutions, are contrary to the Constitution of the United States, and has asked for the enactment of laws by the General Government which shall override the laws of those States and the Constitutions which authorize them.[38]\u00a0\u00a0 ``Policy, humanity, and Christianity, alike forbid the extension of the evils of free society to new people and coming generations.''---Richmond Enquirer, Jan. 22, 1856.``I am satisfied that the mind of the South has undergone a change to this great extent, that it is now the almost universal belief in the South, not only that the condition of African slavery in their midst, is the best condition to which the African race has ever been subjected, but that it has the effect of ennobling both races, the white and the black.''---Senator Mason, of Virginia.",
+              "text": "Senator Toombs, of Georgia, has claimed in the Senate, that laws of Connecticut, Maine, Massachusetts, Michigan, New Hampshire, Ohio, Rhode Island, Vermont, and Wisconsin, for the exclusion of slavery, conceded to be warranted by the State Constitutions, are contrary to the Constitution of the United States, and has asked for the enactment of laws by the General Government which shall override the laws of those States and the Constitutions which authorize them.[38]   ``Policy, humanity, and Christianity, alike forbid the extension of the evils of free society to new people and coming generations.''---Richmond Enquirer, Jan. 22, 1856.``I am satisfied that the mind of the South has undergone a change to this great extent, that it is now the almost universal belief in the South, not only that the condition of African slavery in their midst, is the best condition to which the African race has ever been subjected, but that it has the effect of ennobling both races, the white and the black.''---Senator Mason, of Virginia.",
               "word_offset_start": 14907,
               "word_offset_end": 15072,
               "authorship_note": "editorial_apparatus",
@@ -5769,7 +5857,7 @@
             {
               "sentence_id": "doc_007_s02_p64_s07",
               "sentence_ordinal": 7,
-              "text": "But every man to his taste.''---Hon. Stephen A. Douglas's Address at Rocky Point, R. I., Aug. 2, 1860.[39]\u00a0\u00a0 It is interesting to observe how two profoundly logical minds, though holding extreme, opposite views, have deduced this common conclusion.",
+              "text": "But every man to his taste.''---Hon. Stephen A. Douglas's Address at Rocky Point, R. I., Aug. 2, 1860.[39]   It is interesting to observe how two profoundly logical minds, though holding extreme, opposite views, have deduced this common conclusion.",
               "word_offset_start": 15288,
               "word_offset_end": 15326,
               "authorship_note": "editorial_apparatus",
@@ -5805,6 +5893,14 @@
           ]
         }
       ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
     }
   ]
 }

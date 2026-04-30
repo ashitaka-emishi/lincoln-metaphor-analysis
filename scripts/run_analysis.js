@@ -64,7 +64,15 @@ function main() {
     { id: 'cluster_06_providence_theodicy', name: 'Providence / divine will', source: "God's judgment, punishment, theodicy", target: "the war's cause and meaning" }
   ];
 
-  const ABSENCE_FLAGS = ['enslaved_people_non_agent', 'black_soldiers_erased', 'lincoln_non_agent', 'confederates_depersonalized', 'death_abstracted', 'women_absent'];
+  const ABSENCE_FLAGS = [
+    'enslaved_people_non_agent',
+    'black_soldiers_erased',
+    'lincoln_non_agent',
+    'confederates_depersonalized',
+    'death_abstracted',
+    'women_absent',
+    'disease_purification_absent'
+  ];
 
   const clusterAnalyses = [];
 

@@ -32,8 +32,8 @@
     ],
     "dominant_cluster": "cluster_02_covenant_oath",
     "extension_groups": [],
-    "primary_finding": "The First Inaugural Address is Phase 1c \u2014 the document that activates cluster_02 for the first time as a dominant frame and pairs it with cluster_06 and, in the Seward-revised closing, cluster_01. Three clusters are now active where House Divided had one (cluster_01) and Cooper Union had one (cluster_05). The developmental arc continues toward the six-cluster system at Gettysburg. The critical cluster_02 instances span the document: p16_s05 presents the covenant frame in historical mode (the faith of the thirteen States 'plighted and engaged' in 1778), while p39_s04 presents it in its most theologically explicit form \u2014 Lincoln's presidential oath 'registered in heaven.' The registration of the oath in heaven is the First Inaugural's most significant cluster_02 innovation: it converts the presidential oath from a legal formality into a divine contract. The closing paragraph (p40, Seward-revised but Lincoln substantially rewrote) introduces cluster_01 via the 'mystic chords of memory' image \u2014 the nation as a living body connected by chords/nerves of memory that can be touched and made to resonate \u2014 and extends the covenant frame with 'bonds of affection.' Absent clusters tell the developmental story: cluster_03 (experiment/proposition) is not yet active \u2014 Lincoln has not yet framed the war as a logical proof; cluster_04 (birth/creation) is entirely absent \u2014 no nativity language; cluster_05 (fathers/inheritance) is notably absent despite being dominant at Cooper Union \u2014 the First Inaugural's register is covenantal (what we have sworn) not patrimonial (what the fathers gave us). Providence (cluster_06) appears twice in subordinate-clause mode \u2014 not yet the cosmic judge of the Second Inaugural but a gentle protector ('Him who has never yet forsaken this favored land') and the Almighty Ruler before whom both sides' claims will be adjudicated.",
-    "annotator_notes": "Stage 3 labeling error: all sentences in doc_009 carry authorship_note: 'douglas_speech' because the pipeline defaulted non-Lincoln-opening debate sections to 'douglas_speech'. Doc_009 is not a debate \u2014 it is Lincoln's sole inaugural address. The correct authorship_note for all body sentences should be null (Lincoln-authored), except p40_s05 which is seward_revised. This error does not affect annotation (Lincoln-authored text is correct; the authorship_note field is mislabeled). Flag for Stage 3 correction. p40_s04\u2013p40_s05: 'bonds of affection' (p40_s04, cluster_02) and 'mystic chords of memory' (p40_s05, cluster_01) are adjacent sentences in p40 but different clusters \u2014 not assigned to an extension group. p39_s04: the full sentence contrasts two oaths \u2014 the South has no oath registered in heaven to destroy the government; Lincoln has the most solemn one to preserve/protect/defend. The full contrast is the cluster_02 instance, but char span captures the registration-in-heaven formula (the key covenant innovation) rather than the full sentence. p40_s05 is Seward-revised; run analysis twice (full corpus and authorship_confidence \u2265 0.95 filter). p23_s01: 'our national fabric, with all its benefits, its memories, and its hopes' \u2014 'fabric' as an architectural/textile metaphor for the national structure. Evaluated for cluster_01: confidence 0.60, not annotated. The nation-as-fabric frame is not the organism/body variant of cluster_01 (it is architectural/textile); the confidence is below threshold. p34_s03: 'administer the present government, as it came to his hands, and to transmit it, unimpaired by him, to his successor' \u2014 evaluated for cluster_05 (government-as-inheritance transmitted hand to hand). The stewardship-of-inheritance formula is present but 'fathers' are not invoked explicitly. Confidence 0.65, not annotated. p31_s03: 'A husband and wife may be divorced' \u2014 marriage metaphor for the Union; evaluated for cluster_02. Confidence 0.55, not annotated. Lincoln uses this to argue physical impossibility of separation, not as a covenant frame."
+    "primary_finding": "The First Inaugural Address is Phase 1c — the document that activates cluster_02 for the first time as a dominant frame and pairs it with cluster_06 and, in the Seward-revised closing, cluster_01. Three clusters are now active where House Divided had one (cluster_01) and Cooper Union had one (cluster_05). The developmental arc continues toward the six-cluster system at Gettysburg. The critical cluster_02 instances span the document: p16_s05 presents the covenant frame in historical mode (the faith of the thirteen States 'plighted and engaged' in 1778), while p39_s04 presents it in its most theologically explicit form — Lincoln's presidential oath 'registered in heaven.' The registration of the oath in heaven is the First Inaugural's most significant cluster_02 innovation: it converts the presidential oath from a legal formality into a divine contract. The closing paragraph (p40, Seward-revised but Lincoln substantially rewrote) introduces cluster_01 via the 'mystic chords of memory' image — the nation as a living body connected by chords/nerves of memory that can be touched and made to resonate — and extends the covenant frame with 'bonds of affection.' Absent clusters tell the developmental story: cluster_03 (experiment/proposition) is not yet active — Lincoln has not yet framed the war as a logical proof; cluster_04 (birth/creation) is entirely absent — no nativity language; cluster_05 (fathers/inheritance) is notably absent despite being dominant at Cooper Union — the First Inaugural's register is covenantal (what we have sworn) not patrimonial (what the fathers gave us). Providence (cluster_06) appears twice in subordinate-clause mode — not yet the cosmic judge of the Second Inaugural but a gentle protector ('Him who has never yet forsaken this favored land') and the Almighty Ruler before whom both sides' claims will be adjudicated.",
+    "annotator_notes": "Stage 3 labeling error: all sentences in doc_009 carry authorship_note: 'douglas_speech' because the pipeline defaulted non-Lincoln-opening debate sections to 'douglas_speech'. Doc_009 is not a debate — it is Lincoln's sole inaugural address. The correct authorship_note for all body sentences should be null (Lincoln-authored), except p40_s05 which is seward_revised. This error does not affect annotation (Lincoln-authored text is correct; the authorship_note field is mislabeled). Flag for Stage 3 correction. p40_s04–p40_s05: 'bonds of affection' (p40_s04, cluster_02) and 'mystic chords of memory' (p40_s05, cluster_01) are adjacent sentences in p40 but different clusters — not assigned to an extension group. p39_s04: the full sentence contrasts two oaths — the South has no oath registered in heaven to destroy the government; Lincoln has the most solemn one to preserve/protect/defend. The full contrast is the cluster_02 instance, but char span captures the registration-in-heaven formula (the key covenant innovation) rather than the full sentence. p40_s05 is Seward-revised; run analysis twice (full corpus and authorship_confidence ≥ 0.95 filter). p23_s01: 'our national fabric, with all its benefits, its memories, and its hopes' — 'fabric' as an architectural/textile metaphor for the national structure. Evaluated for cluster_01: confidence 0.60, not annotated. The nation-as-fabric frame is not the organism/body variant of cluster_01 (it is architectural/textile); the confidence is below threshold. p34_s03: 'administer the present government, as it came to his hands, and to transmit it, unimpaired by him, to his successor' — evaluated for cluster_05 (government-as-inheritance transmitted hand to hand). The stewardship-of-inheritance formula is present but 'fathers' are not invoked explicitly. Confidence 0.65, not annotated. p31_s03: 'A husband and wife may be divorced' — marriage metaphor for the Union; evaluated for cluster_02. Confidence 0.55, not annotated. Lincoln uses this to argue physical impossibility of separation, not as a covenant frame."
   },
   "sections": [
     {
@@ -186,7 +186,7 @@
             {
               "sentence_id": "doc_009_s01_p06_s02",
               "sentence_ordinal": 2,
-              "text": "I add, too, that all the protection which, consistently with the Constitution and the laws, can be given, will be cheerfully given to all the States when lawfully demanded, for whatever cause\u2014as cheerfully to one section as to another.",
+              "text": "I add, too, that all the protection which, consistently with the Constitution and the laws, can be given, will be cheerfully given to all the States when lawfully demanded, for whatever cause—as cheerfully to one section as to another.",
               "word_offset_start": 387,
               "word_offset_end": 426,
               "authorship_note": "douglas_speech",
@@ -249,7 +249,7 @@
             {
               "sentence_id": "doc_009_s01_p09_s02",
               "sentence_ordinal": 2,
-              "text": "All members of Congress swear their support to the whole Constitution\u2014to this provision as much as to any other.",
+              "text": "All members of Congress swear their support to the whole Constitution—to this provision as much as to any other.",
               "word_offset_start": 542,
               "word_offset_end": 561,
               "authorship_note": "douglas_speech",
@@ -441,7 +441,7 @@
             {
               "sentence_id": "doc_009_s01_p14_s04",
               "sentence_ordinal": 4,
-              "text": "Continue to execute all the express provisions of our National Constitution, and the Union will endure forever\u2014it being impossible to destroy it except by some action not provided for in the instrument itself.",
+              "text": "Continue to execute all the express provisions of our National Constitution, and the Union will endure forever—it being impossible to destroy it except by some action not provided for in the instrument itself.",
               "word_offset_start": 1005,
               "word_offset_end": 1038,
               "authorship_note": "douglas_speech",
@@ -465,7 +465,7 @@
             {
               "sentence_id": "doc_009_s01_p15_s02",
               "sentence_ordinal": 2,
-              "text": "One party to a contract may violate it\u2014break it, so to speak; but does it not require all to lawfully rescind it?",
+              "text": "One party to a contract may violate it—break it, so to speak; but does it not require all to lawfully rescind it?",
               "word_offset_start": 1076,
               "word_offset_end": 1098,
               "authorship_note": "douglas_speech",
@@ -524,42 +524,64 @@
                 {
                   "instance_id": "inst_00072",
                   "sentence_id": "doc_009_s01_p16_s05",
-                  "cluster_id": "cluster_02_covenant_oath",
-                  "linguistic_form": "the faith of all the then thirteen States expressly plighted and engaged that it should be perpetual",
-                  "source_domain": "Sacred oath / faith pledged \u2014 the covenant act of plighting faith as a binding engagement that creates perpetual obligation",
-                  "target_domain": "The Articles of Confederation as a covenant in which all thirteen States pledged their faith to the Union's perpetuity",
-                  "char_span_start": 28,
-                  "char_span_end": 127,
-                  "confidence": 0.72,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_009",
+                  "document_date": "1861-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.93,
+                  "span_text": "the faith of all the then thirteen States expressly plighted and engaged that it should be perpetual",
+                  "span_char_start": 28,
+                  "span_char_end": 127,
                   "cmt": {
-                    "mapping": {
-                      "faith plighted": "the act of pledging faith as a binding covenant \u2014 'plighting' is the oath-making gesture",
-                      "engaged": "formally committed \u2014 engaged is legal and covenant language for undertaking an obligation",
-                      "that it should be perpetual": "the content of the covenant \u2014 perpetuity is the specific promise pledged"
-                    },
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "Sacred oath / faith pledged — the covenant act of plighting faith as a binding engagement that creates perpetual obligation",
+                    "target_domain": "The Articles of Confederation as a covenant in which all thirteen States pledged their faith to the Union's perpetuity",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The Union's perpetuity is not a legal conclusion but a covenanted promise \u2014 something the thirteen States swore",
+                      "The Union's perpetuity is not a legal conclusion but a covenanted promise — something the thirteen States swore",
                       "The covenant frame makes secession not just unconstitutional but a breaking of a solemn oath",
                       "'Plighting faith' is archaic covenant vocabulary, invoking the highest register of sworn commitment",
-                      "Lincoln is here reporting the historical covenant, not creating a new one \u2014 this is cluster_02 in historical-reference mode"
+                      "Lincoln is here reporting the historical covenant, not creating a new one — this is cluster_02 in historical-reference mode"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Historical-reference mode of cluster_02: Lincoln is reporting what the founders did (Articles of Confederation 1778) rather than creating a new covenant himself. Contrast with p39_s04, where Lincoln's own presidential oath is framed as registered in heaven — that is Lincoln deploying the covenant frame in his own voice. This instance establishes the precedent for the covenant; p39_s04 is Lincoln's own participation in it. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'covenant_integrity_obligation' to canonical 'oath_and_obligation'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "faith plighted": "the act of pledging faith as a binding covenant — 'plighting' is the oath-making gesture",
+                      "engaged": "formally committed — engaged is legal and covenant language for undertaking an obligation",
+                      "that it should be perpetual": "the content of the covenant — perpetuity is the specific promise pledged"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "covenant_integrity_obligation",
+                    "fantasy_type": "oath_and_obligation",
                     "violence_logic": "oath_as_binding_law",
-                    "obligatory_frame": "The Union's perpetuity was sworn into existence by covenant \u2014 thirteen States plighted their faith that it should be perpetual. Secession is oath-breaking. The covenant frame makes the Union's preservation a moral and sacred obligation, not merely a legal one. Lincoln invokes the historical covenant to show that the obligation to the Union predates the Constitution itself.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The Union's perpetuity was sworn into existence by covenant — thirteen States plighted their faith that it should be perpetual. Secession is oath-breaking. The covenant frame makes the Union's preservation a moral and sacred obligation, not merely a legal one. Lincoln invokes the historical covenant to show that the obligation to the Union predates the Constitution itself.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The thirteen original States as covenant-parties who pledged faith to the Union's perpetuity",
                     "guilt_distribution": "Those who secede break a faith plighted by the founding States; they violate not just law but a solemn covenant engagement",
-                    "sacrificial_economy": "None \u2014 at Phase 1c the covenant frame generates obligation without yet generating a sacrificial economy",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Historical-reference mode of cluster_02: Lincoln is reporting what the founders did (Articles of Confederation 1778) rather than creating a new covenant himself. Contrast with p39_s04, where Lincoln's own presidential oath is framed as registered in heaven \u2014 that is Lincoln deploying the covenant frame in his own voice. This instance establishes the precedent for the covenant; p39_s04 is Lincoln's own participation in it."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.72,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -762,7 +784,7 @@
             {
               "sentence_id": "doc_009_s01_p23_s03",
               "sentence_ordinal": 3,
-              "text": "Will you, while the certain ills you fly to are greater than all the real ones you fly from\u2014will you risk the commission of so fearful a mistake?",
+              "text": "Will you, while the certain ills you fly to are greater than all the real ones you fly from—will you risk the commission of so fearful a mistake?",
               "word_offset_start": 1793,
               "word_offset_end": 1821,
               "authorship_note": "douglas_speech",
@@ -822,7 +844,7 @@
             {
               "sentence_id": "doc_009_s01_p24_s06",
               "sentence_ordinal": 6,
-              "text": "If by the mere force of numbers a majority should deprive a minority of any clearly written constitutional right, it might, in a moral point of view, justify revolution\u2014certainly would if such a right were a vital one.",
+              "text": "If by the mere force of numbers a majority should deprive a minority of any clearly written constitutional right, it might, in a moral point of view, justify revolution—certainly would if such a right were a vital one.",
               "word_offset_start": 1893,
               "word_offset_end": 1931,
               "authorship_note": "douglas_speech",
@@ -1290,7 +1312,7 @@
             {
               "sentence_id": "doc_009_s01_p33_s02",
               "sentence_ordinal": 2,
-              "text": "I understand a proposed amendment to the Constitution\u2014which amendment, however, I have not seen\u2014has passed Congress, to the effect that the Federal Government shall never interfere with the domestic institutions of the States, including that of persons held to service.",
+              "text": "I understand a proposed amendment to the Constitution—which amendment, however, I have not seen—has passed Congress, to the effect that the Federal Government shall never interfere with the domestic institutions of the States, including that of persons held to service.",
               "word_offset_start": 3017,
               "word_offset_end": 3057,
               "authorship_note": "douglas_speech",
@@ -1382,42 +1404,64 @@
                 {
                   "instance_id": "inst_00073",
                   "sentence_id": "doc_009_s01_p35_s04",
-                  "cluster_id": "cluster_06_providence_theodicy",
-                  "linguistic_form": "the Almighty Ruler of Nations, with his eternal truth and justice",
-                  "source_domain": "Divine sovereignty \u2014 God as the supreme ruler of nations whose eternal truth and justice governs political outcomes",
-                  "target_domain": "The Civil War crisis as subject to divine adjudication \u2014 God's truth and justice will determine whose side prevails",
-                  "char_span_start": 3,
-                  "char_span_end": 67,
-                  "confidence": 0.82,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_009",
+                  "document_date": "1861-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.93,
+                  "span_text": "the Almighty Ruler of Nations, with his eternal truth and justice",
+                  "span_char_start": 3,
+                  "span_char_end": 67,
                   "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "Divine sovereignty — God as the supreme ruler of nations whose eternal truth and justice governs political outcomes",
+                    "target_domain": "The Civil War crisis as subject to divine adjudication — God's truth and justice will determine whose side prevails",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "God's truth and justice will determine which side is right — both North and South are subject to this divine judgment",
+                      "The political crisis is framed as a divine adjudication, not just a human political dispute",
+                      "Lincoln characteristically presents Providence as bipartisan — 'be on your side of the North, or on yours of the South' — refusing to claim divine sanction for the Union alone",
+                      "The American democratic process is the medium through which divine truth prevails — Providence and popular sovereignty are aligned"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Phase 1c cluster_06 mode: the Almighty Ruler of Nations. Contrast with the Second Inaugural's 'the Almighty has His own purposes' — where God is revealed to have acted through the war's suffering as punishment for slavery. Here God is an anticipatory adjudicator; there God is the retrospective judge-executor. The bipartisan presentation ('be on your side of the North, or on yours of the South') is Lincoln's characteristic refusal to claim divine sanction for himself — a structural feature that will persist through all Phase 1–4 documents and only partially resolve in the Second Inaugural. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'divine_judgment_deferred' to canonical 'punishment_and_theodicy'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
                     "mapping": {
                       "the Almighty Ruler of Nations": "God as the sovereign political authority above all human governments",
-                      "his eternal truth and justice": "divine attributes that govern political outcomes \u2014 not human preference but divine adjudication",
-                      "will surely prevail by the judgment of this great tribunal of the American people": "Providence works through the American democratic process \u2014 God's truth prevails through the people's judgment"
+                      "his eternal truth and justice": "divine attributes that govern political outcomes — not human preference but divine adjudication",
+                      "will surely prevail by the judgment of this great tribunal of the American people": "Providence works through the American democratic process — God's truth prevails through the people's judgment"
                     },
-                    "entailments": [
-                      "God's truth and justice will determine which side is right \u2014 both North and South are subject to this divine judgment",
-                      "The political crisis is framed as a divine adjudication, not just a human political dispute",
-                      "Lincoln characteristically presents Providence as bipartisan \u2014 'be on your side of the North, or on yours of the South' \u2014 refusing to claim divine sanction for the Union alone",
-                      "The American democratic process is the medium through which divine truth prevails \u2014 Providence and popular sovereignty are aligned"
-                    ],
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "divine_judgment_deferred",
+                    "fantasy_type": "punishment_and_theodicy",
                     "violence_logic": "providential_adjudication",
-                    "obligatory_frame": "The political crisis is subject to divine adjudication \u2014 the Almighty Ruler of Nations will ensure that truth and justice prevail. Lincoln frames this as bipartisan: he does not claim that God is on the Union's side, only that God's truth will prevail through the people's judgment. This is cluster_06's early mode: Providence as the ultimate adjudicator, not yet the cosmic punisher of the Second Inaugural.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The political crisis is subject to divine adjudication — the Almighty Ruler of Nations will ensure that truth and justice prevail. Lincoln frames this as bipartisan: he does not claim that God is on the Union's side, only that God's truth will prevail through the people's judgment. This is cluster_06's early mode: Providence as the ultimate adjudicator, not yet the cosmic punisher of the Second Inaugural.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "God as the sovereign ruler of nations whose truth and justice governs political outcomes",
-                    "guilt_distribution": "Neither side is explicitly guilty \u2014 Lincoln's bipartisan framing defers guilt to divine judgment",
-                    "sacrificial_economy": "None \u2014 at Phase 1c Providence is the adjudicator, not yet the requirer of blood sacrifice",
+                    "guilt_distribution": "Neither side is explicitly guilty — Lincoln's bipartisan framing defers guilt to divine judgment",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Phase 1c cluster_06 mode: the Almighty Ruler of Nations. Contrast with the Second Inaugural's 'the Almighty has His own purposes' \u2014 where God is revealed to have acted through the war's suffering as punishment for slavery. Here God is an anticipatory adjudicator; there God is the retrospective judge-executor. The bipartisan presentation ('be on your side of the North, or on yours of the South') is Lincoln's characteristic refusal to claim divine sanction for himself \u2014 a structural feature that will persist through all Phase 1\u20134 documents and only partially resolve in the Second Inaugural."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.82,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1514,42 +1558,64 @@
                 {
                   "instance_id": "inst_00074",
                   "sentence_id": "doc_009_s01_p38_s06",
-                  "cluster_id": "cluster_06_providence_theodicy",
-                  "linguistic_form": "a firm reliance on Him who has never yet forsaken this favored land",
-                  "source_domain": "Divine protection \u2014 God as the guardian who has never abandoned the republic, whose continued protection is available through reliance",
-                  "target_domain": "The present crisis as manageable through divine protection, which has always sustained the republic and remains available now",
-                  "char_span_start": 44,
-                  "char_span_end": 110,
-                  "confidence": 0.85,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_009",
+                  "document_date": "1861-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.93,
+                  "span_text": "a firm reliance on Him who has never yet forsaken this favored land",
+                  "span_char_start": 44,
+                  "span_char_end": 110,
                   "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "Divine protection — God as the guardian who has never abandoned the republic, whose continued protection is available through reliance",
+                    "target_domain": "The present crisis as manageable through divine protection, which has always sustained the republic and remains available now",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "'Never yet forsaken' is an implied promise: God has not abandoned the republic before and presumably will not now",
+                      "The republic is a 'favored land' — a chosen-people frame underlies this instance",
+                      "Providence is here listed alongside human virtues (intelligence, patriotism, Christianity) as a resource, not the sole cause",
+                      "The optimism of 'still competent to adjust' suggests Lincoln believes the crisis is resolvable — this is pre-war confidence, not wartime theodicy"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is cluster_06's optimistic mode — 'Him who has never yet forsaken this favored land.' The 'never yet' is significant: it implies a historical record of divine protection that grounds confidence in continued protection. The 'favored land' formula is the chosen-nation underside of cluster_06. Contrast with the Second Inaugural where God's purposes are inscrutable and require suffering — here God is reliably protective and the crisis is manageable. Phase 1c vs. Phase 5 cluster_06 contrast: protective guardian (First Inaugural) → punishing judge (Second Inaugural). Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'divine_protection_invoked' to canonical 'punishment_and_theodicy'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
                     "mapping": {
-                      "a firm reliance on Him": "Providence as a resource that can be drawn upon \u2014 reliance on God as an available support",
+                      "a firm reliance on Him": "Providence as a resource that can be drawn upon — reliance on God as an available support",
                       "who has never yet forsaken this favored land": "the republic as God's favored land; the 'never yet' asserts continuity of divine protection throughout American history",
                       "competent to adjust in the best way all our present difficulty": "Providence, combined with intelligence, patriotism, and Christianity, is sufficient to resolve the crisis"
                     },
-                    "entailments": [
-                      "'Never yet forsaken' is an implied promise: God has not abandoned the republic before and presumably will not now",
-                      "The republic is a 'favored land' \u2014 a chosen-people frame underlies this instance",
-                      "Providence is here listed alongside human virtues (intelligence, patriotism, Christianity) as a resource, not the sole cause",
-                      "The optimism of 'still competent to adjust' suggests Lincoln believes the crisis is resolvable \u2014 this is pre-war confidence, not wartime theodicy"
-                    ],
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "divine_protection_invoked",
+                    "fantasy_type": "punishment_and_theodicy",
                     "violence_logic": "providential_sufficiency",
-                    "obligatory_frame": "God as the guarantor who has never forsaken the favored land \u2014 reliance on Providence, combined with human virtues, is sufficient to resolve the crisis. This is cluster_06's protective mode: Providence as the reliable guardian, not yet the inscrutable judge. The 'favored land' formula carries a chosen-people implication: America's special status under divine protection makes resolution possible.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "God as the guarantor who has never forsaken the favored land — reliance on Providence, combined with human virtues, is sufficient to resolve the crisis. This is cluster_06's protective mode: Providence as the reliable guardian, not yet the inscrutable judge. The 'favored land' formula carries a chosen-people implication: America's special status under divine protection makes resolution possible.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "God as the protector who has historically sustained the republic and whose continued protection is available",
-                    "guilt_distribution": "No guilt assigned \u2014 this is a hopeful appeal, not a judgment. The nation can still rely on divine protection if it combines reliance on God with human virtues.",
-                    "sacrificial_economy": "None \u2014 the protective mode does not require sacrifice; it requires reliance and virtue",
+                    "guilt_distribution": "No guilt assigned — this is a hopeful appeal, not a judgment. The nation can still rely on divine protection if it combines reliance on God with human virtues.",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "This is cluster_06's optimistic mode \u2014 'Him who has never yet forsaken this favored land.' The 'never yet' is significant: it implies a historical record of divine protection that grounds confidence in continued protection. The 'favored land' formula is the chosen-nation underside of cluster_06. Contrast with the Second Inaugural where God's purposes are inscrutable and require suffering \u2014 here God is reliably protective and the crisis is manageable. Phase 1c vs. Phase 5 cluster_06 contrast: protective guardian (First Inaugural) \u2192 punishing judge (Second Inaugural)."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.85,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1598,42 +1664,64 @@
                 {
                   "instance_id": "inst_00075",
                   "sentence_id": "doc_009_s01_p39_s04",
-                  "cluster_id": "cluster_02_covenant_oath",
-                  "linguistic_form": "oath registered in heaven",
-                  "source_domain": "Divine covenant \u2014 an oath formally recorded in heaven as a binding contract with God, creating obligations that override human legal decisions",
-                  "target_domain": "The presidential oath of office as a covenant with God to preserve, protect, and defend the Constitution \u2014 the most solemn imaginable obligation",
-                  "char_span_start": 12,
-                  "char_span_end": 36,
-                  "confidence": 0.9,
-                  "is_novel_metaphor": true,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_009",
+                  "document_date": "1861-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.93,
+                  "span_text": "oath registered in heaven",
+                  "span_char_start": 12,
+                  "span_char_end": 36,
                   "cmt": {
-                    "mapping": {
-                      "oath registered in heaven": "the oath as a divine contract \u2014 not just a legal formality but a covenant formally recorded in God's register",
-                      "You have no oath registered in heaven to destroy": "the absence of divine sanction for secession \u2014 the South has no covenant obligation to destroy",
-                      "I shall have the most solemn one to preserve, protect, and defend it": "Lincoln's presidential oath as the strongest imaginable covenant \u2014 registered in heaven, most solemn, active obligation"
-                    },
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "Divine covenant — an oath formally recorded in heaven as a binding contract with God, creating obligations that override human legal decisions",
+                    "target_domain": "The presidential oath of office as a covenant with God to preserve, protect, and defend the Constitution — the most solemn imaginable obligation",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The presidential oath is not merely a legal formality but a covenant with God \u2014 registered in heaven means God is the witness and enforcer",
+                      "The presidential oath is not merely a legal formality but a covenant with God — registered in heaven means God is the witness and enforcer",
                       "The contrast structure makes destruction-of-government an oath violation while preservation-of-government is an oath fulfillment",
-                      "Lincoln frames his use of force (if necessary) as covenant-keeping, not aggression \u2014 he is fulfilling his oath",
-                      "The 'registered in heaven' formula is the most explicit supernatural sanctification of the oath in the corpus \u2014 more explicit than Cooper Union's fathers-authority or the Gettysburg covenant frame"
+                      "Lincoln frames his use of force (if necessary) as covenant-keeping, not aggression — he is fulfilling his oath",
+                      "The 'registered in heaven' formula is the most explicit supernatural sanctification of the oath in the corpus — more explicit than Cooper Union's fathers-authority or the Gettysburg covenant frame"
                     ],
+                    "is_novel_metaphor": true,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is the most theologically significant cluster_02 instance in the First Inaugural and one of the most significant in the corpus. The 'oath registered in heaven' formula is novel — it does not appear in standard constitutional rhetoric. By framing his presidential oath as a divine contract, Lincoln converts the question of using force against secessionists from a political choice to a covenant obligation. He has no discretion: God holds the register, and the oath is the most solemn imaginable. The contrast with the Southern position (no oath to destroy vs. solemn oath to preserve) makes the South's aggressor status structurally inevitable — they act without covenant, Lincoln acts from covenant obligation. The 'registered in heaven' formula is more theologically explicit than any cluster_02 instance in doc_016 (Conkling Letter) or doc_021 (Second Inaugural). It is the apex of the covenant frame's supernatural register. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'covenant_integrity_obligation' to canonical 'oath_and_obligation'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "oath registered in heaven": "the oath as a divine contract — not just a legal formality but a covenant formally recorded in God's register",
+                      "You have no oath registered in heaven to destroy": "the absence of divine sanction for secession — the South has no covenant obligation to destroy",
+                      "I shall have the most solemn one to preserve, protect, and defend it": "Lincoln's presidential oath as the strongest imaginable covenant — registered in heaven, most solemn, active obligation"
+                    },
                     "conventional_or_novel": "novel"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "covenant_integrity_obligation",
+                    "fantasy_type": "oath_and_obligation",
                     "violence_logic": "oath_as_divine_mandate",
-                    "obligatory_frame": "The presidential oath registered in heaven creates a divine mandate: Lincoln is bound by God's own register to preserve, protect, and defend the government. Any use of force to maintain the Union is not aggression but covenant-fulfillment. The Southern secessionists have no counter-oath \u2014 they are acting without divine sanction. Lincoln's military authority derives from his divinely registered oath, not from political preference.",
-                    "projected_entity": "Lincoln as the party to a divine covenant \u2014 oath-holder with God as witness and enforcer",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The presidential oath registered in heaven creates a divine mandate: Lincoln is bound by God's own register to preserve, protect, and defend the government. Any use of force to maintain the Union is not aggression but covenant-fulfillment. The Southern secessionists have no counter-oath — they are acting without divine sanction. Lincoln's military authority derives from his divinely registered oath, not from political preference.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
+                    "projected_entity": "Lincoln as the party to a divine covenant — oath-holder with God as witness and enforcer",
                     "guilt_distribution": "The Confederate secessionists bear guilt for violating a constitutional order Lincoln is bound by God to preserve; Lincoln's enforcement is covenant-keeping",
-                    "sacrificial_economy": "None yet explicit \u2014 but the divine mandate structure creates the framework for later sacrificial logic: the lives spent preserving the covenant-government are costs of oath-fulfillment",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "This is the most theologically significant cluster_02 instance in the First Inaugural and one of the most significant in the corpus. The 'oath registered in heaven' formula is novel \u2014 it does not appear in standard constitutional rhetoric. By framing his presidential oath as a divine contract, Lincoln converts the question of using force against secessionists from a political choice to a covenant obligation. He has no discretion: God holds the register, and the oath is the most solemn imaginable. The contrast with the Southern position (no oath to destroy vs. solemn oath to preserve) makes the South's aggressor status structurally inevitable \u2014 they act without covenant, Lincoln acts from covenant obligation. The 'registered in heaven' formula is more theologically explicit than any cluster_02 instance in doc_016 (Conkling Letter) or doc_021 (Second Inaugural). It is the apex of the covenant frame's supernatural register."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.9,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1682,42 +1770,64 @@
                 {
                   "instance_id": "inst_00076",
                   "sentence_id": "doc_009_s01_p40_s04",
-                  "cluster_id": "cluster_02_covenant_oath",
-                  "linguistic_form": "bonds of affection",
-                  "source_domain": "Covenant bonds \u2014 affective ties between people modeled as physical bonds or binding obligations that passion might strain but must not break",
-                  "target_domain": "The emotional and political ties between North and South as covenant bonds of the Union that must not be broken even by passion",
-                  "char_span_start": 56,
-                  "char_span_end": 73,
-                  "confidence": 0.78,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_009",
+                  "document_date": "1861-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.93,
+                  "span_text": "bonds of affection",
+                  "span_char_start": 56,
+                  "span_char_end": 73,
                   "cmt": {
-                    "mapping": {
-                      "bonds of affection": "the Union's emotional-covenantal ties \u2014 affection as a binding force, bonds as the physical-covenant metaphor for these ties",
-                      "passion may have strained": "political passion as a force that puts tension on the covenant bonds \u2014 strained is structural-stress language applied to covenant ties",
-                      "must not break": "the prohibition against violating the covenant \u2014 breaking bonds is the covenant-failure event"
-                    },
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "Covenant bonds — affective ties between people modeled as physical bonds or binding obligations that passion might strain but must not break",
+                    "target_domain": "The emotional and political ties between North and South as covenant bonds of the Union that must not be broken even by passion",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "'Bonds' carries both physical (restraining bands) and covenantal (binding obligations) senses simultaneously",
-                      "'Affection' specifies that the bonds are not merely legal but emotional \u2014 the covenant is an affective community, not just a contract",
-                      "'Strained' implies the bonds are under pressure but have not yet failed \u2014 the crisis is a stress test of the covenant",
-                      "The appeal is to the South to honor the bonds rather than break them \u2014 the obligation runs both ways"
+                      "'Affection' specifies that the bonds are not merely legal but emotional — the covenant is an affective community, not just a contract",
+                      "'Strained' implies the bonds are under pressure but have not yet failed — the crisis is a stress test of the covenant",
+                      "The appeal is to the South to honor the bonds rather than break them — the obligation runs both ways"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Seward contributed the original 'bonds of affection' language; Lincoln revised and retained it. The phrase is the affective-covenantal complement to the legal-covenantal 'oath registered in heaven' of p39_s04. Together the two cluster_02 instances in p39-p40 span the full range of the covenant frame: from divine obligation (p39_s04) to affective community (p40_s04). Adjacent to p40_s05 (cluster_01, mystic chords) but different cluster — no extension group. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'covenant_integrity_obligation' to canonical 'oath_and_obligation'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "bonds of affection": "the Union's emotional-covenantal ties — affection as a binding force, bonds as the physical-covenant metaphor for these ties",
+                      "passion may have strained": "political passion as a force that puts tension on the covenant bonds — strained is structural-stress language applied to covenant ties",
+                      "must not break": "the prohibition against violating the covenant — breaking bonds is the covenant-failure event"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "covenant_integrity_obligation",
+                    "fantasy_type": "oath_and_obligation",
                     "violence_logic": "covenant_preservation",
-                    "obligatory_frame": "The bonds of affection between sections must not be broken. Lincoln appeals to affective-covenantal ties that transcend legal obligation \u2014 not just the constitutional compact but the emotional bonds of shared history. The frame makes secession a rupture of affective community, not just legal violation. Passion has strained the bonds but has not broken them; Lincoln is asking the South to honor the affective covenant.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The bonds of affection between sections must not be broken. Lincoln appeals to affective-covenantal ties that transcend legal obligation — not just the constitutional compact but the emotional bonds of shared history. The frame makes secession a rupture of affective community, not just legal violation. Passion has strained the bonds but has not broken them; Lincoln is asking the South to honor the affective covenant.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The Union as an affective covenant community bound by ties of shared history and feeling",
-                    "guilt_distribution": "Those who break the bonds of affection bear the guilt of rupturing an affective community \u2014 aggression is covenant-breaking at the emotional level",
-                    "sacrificial_economy": "None \u2014 the appeal is to preserve the covenant, not to sacrifice for it",
+                    "guilt_distribution": "Those who break the bonds of affection bear the guilt of rupturing an affective community — aggression is covenant-breaking at the emotional level",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Seward contributed the original 'bonds of affection' language; Lincoln revised and retained it. The phrase is the affective-covenantal complement to the legal-covenantal 'oath registered in heaven' of p39_s04. Together the two cluster_02 instances in p39-p40 span the full range of the covenant frame: from divine obligation (p39_s04) to affective community (p40_s04). Adjacent to p40_s05 (cluster_01, mystic chords) but different cluster \u2014 no extension group."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.78,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1733,43 +1843,65 @@
                 {
                   "instance_id": "inst_00077",
                   "sentence_id": "doc_009_s01_p40_s05",
-                  "cluster_id": "cluster_01_body_organism",
-                  "linguistic_form": "The mystic chords of memory, stretching from every battle-field and patriot grave to every living heart and hearthstone all over this broad land, will yet swell the chorus of the Union",
-                  "source_domain": "Living organism / musical instrument \u2014 the nation as a body connected by memory-tissue (chords/nerves) that can be touched and made to resonate as one voice",
-                  "target_domain": "The American nation as a living body whose shared memory connects all citizens and whose collective voice (the chorus of the Union) can be summoned by appeal to better nature",
-                  "char_span_start": 0,
-                  "char_span_end": 183,
-                  "confidence": 0.82,
-                  "is_novel_metaphor": true,
-                  "ambiguity_flag": false,
-                  "suppression_flag": true,
-                  "extension_group_id": null,
+                  "document_id": "doc_009",
+                  "document_date": "1861-03-04",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.93,
+                  "span_text": "The mystic chords of memory, stretching from every battle-field and patriot grave to every living heart and hearthstone all over this broad land, will yet swell the chorus of the Union",
+                  "span_char_start": 0,
+                  "span_char_end": 183,
                   "cmt": {
-                    "mapping": {
-                      "mystic chords of memory": "memory as the connective tissue of the national body \u2014 chords that carry feeling across the entire organism",
-                      "stretching from every battle-field and patriot grave to every living heart and hearthstone": "the national body's full extent \u2014 from dead to living, from battlefield to home \u2014 all connected by the memory-chords",
-                      "swell the chorus of the Union": "the national organism's unified voice \u2014 when touched, the chords produce resonance across all parts simultaneously",
-                      "touched...by the better angels of our nature": "the agent that activates the chords \u2014 the better angels are the positive impulses that can restore resonance"
-                    },
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "Living organism / musical instrument — the nation as a body connected by memory-tissue (chords/nerves) that can be touched and made to resonate as one voice",
+                    "target_domain": "The American nation as a living body whose shared memory connects all citizens and whose collective voice (the chorus of the Union) can be summoned by appeal to better nature",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The nation is a living body connected by chords of memory \u2014 injury or division strains these chords but does not permanently sever them",
-                      "The dead (battle-fields, patriot graves) remain part of the living body through memory \u2014 the national organism includes its historical dead",
-                      "'Swell' suggests the chorus can grow larger \u2014 the Union's voice can increase in power when the chords are touched",
-                      "The 'better angels' are not external \u2014 they are 'of our nature,' meaning the national body carries within it the capacity for self-healing resonance"
+                      "The nation is a living body connected by chords of memory — injury or division strains these chords but does not permanently sever them",
+                      "The dead (battle-fields, patriot graves) remain part of the living body through memory — the national organism includes its historical dead",
+                      "'Swell' suggests the chorus can grow larger — the Union's voice can increase in power when the chords are touched",
+                      "The 'better angels' are not external — they are 'of our nature,' meaning the national body carries within it the capacity for self-healing resonance"
                     ],
+                    "is_novel_metaphor": true,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "SUPPRESSION FLAG: This sentence is Seward-revised (substantial contribution from Seward's draft; Lincoln retained and revised). Run analysis twice: full corpus and authorship_confidence ≥ 0.95 subset. The 'mystic chords' image is Seward's conceptual contribution, significantly rewritten by Lincoln. Exclude from Lincoln-sole analysis. The sentence is the most novel cluster_01 instance in the pre-war documents — the organism-as-musical-instrument hybrid source domain does not appear elsewhere in the corpus. The 'patriot graves' as part of the living national body anticipates Gettysburg's 'those who gave their lives' as constitutive of the national organism. The 'better angels of our nature' is Lincoln's phrase (replacing Seward's more abstract phrasing), which introduces the agent of organic reunion — an internal force, not an external savior. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'national_body_integrity' to canonical 'wound_and_healing'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "mystic chords of memory": "memory as the connective tissue of the national body — chords that carry feeling across the entire organism",
+                      "stretching from every battle-field and patriot grave to every living heart and hearthstone": "the national body's full extent — from dead to living, from battlefield to home — all connected by the memory-chords",
+                      "swell the chorus of the Union": "the national organism's unified voice — when touched, the chords produce resonance across all parts simultaneously",
+                      "touched...by the better angels of our nature": "the agent that activates the chords — the better angels are the positive impulses that can restore resonance"
+                    },
                     "conventional_or_novel": "novel"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "national_body_integrity",
+                    "fantasy_type": "wound_and_healing",
                     "violence_logic": "organic_reunion",
-                    "obligatory_frame": "The national body is connected by mystic chords of memory that can be restored to resonance by appeal to better nature. Division has strained the chords but not severed them. The chorus of the Union is the national organism's unified voice \u2014 it can swell again if touched by the better angels. This is cluster_01's most optimistic mode: the body is wounded but healable, the memory-chords persist, and reunion is organically possible through appeal to shared humanity.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The national body is connected by mystic chords of memory that can be restored to resonance by appeal to better nature. Division has strained the chords but not severed them. The chorus of the Union is the national organism's unified voice — it can swell again if touched by the better angels. This is cluster_01's most optimistic mode: the body is wounded but healable, the memory-chords persist, and reunion is organically possible through appeal to shared humanity.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The American nation as a living organism connected by chords of memory that carry feeling across all parts",
-                    "guilt_distribution": "No explicit guilt \u2014 this is an appeal to shared humanity rather than an assignment of blame. The better angels are available to all.",
-                    "sacrificial_economy": "None \u2014 the organic reunion frame does not require sacrifice; it requires touch and resonance. Contrast with the Second Inaugural's wound/blood sacrifice logic.",
+                    "guilt_distribution": "No explicit guilt — this is an appeal to shared humanity rather than an assignment of blame. The better angels are available to all.",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "SUPPRESSION FLAG: This sentence is Seward-revised (substantial contribution from Seward's draft; Lincoln retained and revised). Run analysis twice: full corpus and authorship_confidence \u2265 0.95 subset. The 'mystic chords' image is Seward's conceptual contribution, significantly rewritten by Lincoln. Exclude from Lincoln-sole analysis. The sentence is the most novel cluster_01 instance in the pre-war documents \u2014 the organism-as-musical-instrument hybrid source domain does not appear elsewhere in the corpus. The 'patriot graves' as part of the living national body anticipates Gettysburg's 'those who gave their lives' as constitutive of the national organism. The 'better angels of our nature' is Lincoln's phrase (replacing Seward's more abstract phrasing), which introduces the agent of organic reunion \u2014 an internal force, not an external savior."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.82,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": true,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1777,6 +1909,14 @@
           ]
         }
       ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
     }
   ]
 }

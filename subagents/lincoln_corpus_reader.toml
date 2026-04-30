@@ -79,13 +79,18 @@ instruction = "Compute and attach document_summary object as specified in annota
 
 [[agent.task.steps]]
 step = 7
+name = "Validate immediately after file creation"
+instruction = "As soon as corpus/annotated/{doc_id}_annotated.json is written, run: node scripts/validate_annotation_output.js {doc_id}. If validation fails, stop and ask the user whether to fix the schema errors now, show the errors only, or leave the file as-is and stop."
+
+[[agent.task.steps]]
+step = 8
 name = "Update instance counter"
 instruction = "Update corpus/annotated/instance_counter.json with the last instance_id used."
 
 [[agent.task.steps]]
-step = 8
+step = 9
 name = "Validate Stage 4 output"
-instruction = "Run: node scripts/validate_schema.js. Fix all errors. Output: corpus/annotated/{doc_id}_annotated.json"
+instruction = "Run: node scripts/validate_annotation_output.js {doc_id}. If validation fails, stop and ask the user whether to fix the schema errors now, show the errors only, or leave the file as-is and stop."
 
 [agent.special_handling]
 

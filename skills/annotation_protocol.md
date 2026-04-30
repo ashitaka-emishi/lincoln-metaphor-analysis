@@ -133,7 +133,9 @@ Run through this checklist before finalizing any annotated JSON:
 - [ ] Special document protocols applied (Seward tagging, Lincoln-only debate turns, legal flatness noted)
 - [ ] Document-level summary computed and included
 - [ ] pipeline_log entry appended with stage, agent, date
-- [ ] Run `node scripts/validate_schema.js` and confirm zero errors before submitting
+- [ ] Immediately after writing `corpus/annotated/{doc_id}_annotated.json`, run `node scripts/validate_annotation_output.js {doc_id}`
+- [ ] If validation fails, stop and ask the user whether to fix the schema errors now, show the errors only, or leave the file as-is and stop
+- [ ] Confirm zero validation errors before submitting
 
 ---
 

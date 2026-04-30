@@ -39,16 +39,16 @@
       "cluster_05_fathers_inheritance"
     ],
     "dominant_cluster": "cluster_03_experiment_proposition",
-    "instance_range": "inst_00095\u2013inst_00097",
+    "instance_range": "inst_00095–inst_00097",
     "extension_groups": [],
-    "koenigsberg_summary": "Phase 2 congressional message: only clusters 03 and 06 active, both in minimal form. The document is administrative enumeration \u2014 appropriations, navy, army, judiciary, territories, labor/capital. The cluster_03 activation at p76 and p84 frames the insurrection as a war on the principle of popular government and the 70-year census data as the experiment's results. The closing Providence invocation (p84_s06) is the sole cluster_06 instance. The labor/capital passage (p78\u2013p83) is the document's most analytically significant content for Koenigsberg: Lincoln frames the free-labor system as the opposite of slavery's capital-over-labor hierarchy, explicitly rejecting the assumption that all laborers are slaves or permanently fixed in hired status. This is not cluster metaphor but is the ideological architecture underlying why Lincoln can frame the war as defense of free institutions without naming enslaved people as agents.",
+    "koenigsberg_summary": "Phase 2 congressional message: only clusters 03 and 06 active, both in minimal form. The document is administrative enumeration — appropriations, navy, army, judiciary, territories, labor/capital. The cluster_03 activation at p76 and p84 frames the insurrection as a war on the principle of popular government and the 70-year census data as the experiment's results. The closing Providence invocation (p84_s06) is the sole cluster_06 instance. The labor/capital passage (p78–p83) is the document's most analytically significant content for Koenigsberg: Lincoln frames the free-labor system as the opposite of slavery's capital-over-labor hierarchy, explicitly rejecting the assumption that all laborers are slaves or permanently fixed in hired status. This is not cluster metaphor but is the ideological architecture underlying why Lincoln can frame the war as defense of free institutions without naming enslaved people as agents.",
     "absence_flags": {
       "enslaved_people_non_agent": true,
       "black_soldiers_absent": true,
       "disease_and_purification": false,
       "lincoln_non_agent": false
     },
-    "annotator_notes": "METADATA DISCREPANCY: doc_014 metadata date is 1862-12-01 but body text explicitly reads 'December 3, 1861' and content confirms 1861 (Scott retirement in p71, Maryland/Kentucky/Missouri analysis consistent with year-one-of-war, no mention of Emancipation Proclamation). Annotation uses December 3, 1861 as authoritative date (Phase 2). The December 1, 1862 Annual Message (Phase 3) \u2014 which contained the famous 'we cannot escape history' passage and the compensated emancipation amendment proposal \u2014 is likely another document in the corpus. cluster_01 absent despite war ongoing: register produces administrative/legal argument not organic-body rhetoric. cluster_05 minimal: no founding-fathers inheritance frame despite constitutional arguments \u2014 the register doesn't require patrimonial authorization. The labor/capital passage (p78\u2013p83) is not annotated as cluster metaphor but documents Lincoln's free-labor ideological framework."
+    "annotator_notes": "METADATA DISCREPANCY: doc_014 metadata date is 1862-12-01 but body text explicitly reads 'December 3, 1861' and content confirms 1861 (Scott retirement in p71, Maryland/Kentucky/Missouri analysis consistent with year-one-of-war, no mention of Emancipation Proclamation). Annotation uses December 3, 1861 as authoritative date (Phase 2). The December 1, 1862 Annual Message (Phase 3) — which contained the famous 'we cannot escape history' passage and the compensated emancipation amendment proposal — is likely another document in the corpus. cluster_01 absent despite war ongoing: register produces administrative/legal argument not organic-body rhetoric. cluster_05 minimal: no founding-fathers inheritance frame despite constitutional arguments — the register doesn't require patrimonial authorization. The labor/capital passage (p78–p83) is not annotated as cluster metaphor but documents Lincoln's free-labor ideological framework."
   },
   "sections": [
     {
@@ -2176,36 +2176,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00095",
-                  "cluster": "cluster_03_experiment_proposition",
-                  "linguistic_form": "a war upon the first principle of popular government---the rights of the people",
-                  "char_span_start": 78,
-                  "char_span_end": 156,
-                  "confidence": 0.82,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_014_s01_p76_s01",
+                  "document_id": "doc_014",
+                  "document_date": "1862-12-01",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.87,
+                  "span_text": "a war upon the first principle of popular government---the rights of the people",
+                  "span_char_start": 78,
+                  "span_char_end": 156,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
                     "source_domain": "logical_proposition_test",
                     "target_domain": "insurrection_target",
-                    "mapping": "the insurrection is framed as an assault on a logical proposition \u2014 the first principle of popular government; what is under attack is not merely territory but a foundational propositional claim",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "if the insurrection is a war on a principle, suppressing it is defending the principle's truth",
                       "the insurrection is not merely political rebellion but an empirical refutation attempt against democratic self-government",
                       "the war outcome proves or disproves the proposition"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Continues the cluster_03 arc established in July 4 Message (doc_010, inst_00087, inst_00090–inst_00093). The framing of the insurrection as 'a war upon the first principle' converts Confederate secession from political disagreement into a logical attack on democratic self-government's foundational proposition. Compare inst_00087 (doc_010, p16_s02): 'whether a constitutional republic...can, or cannot, maintain its territorial integrity, against its own domestic foes.' Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'ideological_proof' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the insurrection is framed as an assault on a logical proposition — the first principle of popular government; what is under attack is not merely territory but a foundational propositional claim",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "ideological_proof",
+                    "fantasy_type": "experiment_and_proof",
                     "violence_logic": "the war is framed as defense of a logical principle, not aggression; military force defends the proposition's truth",
-                    "obligatory_frame": "if popular government rests on a first principle, allowing that principle to be overthrown by violence would disprove democracy universally",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "if popular government rests on a first principle, allowing that principle to be overthrown by violence would disprove democracy universally",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "the first principle of popular government (rights of the people) as proposition under attack",
                     "guilt_distribution": "insurgents are aggressors against the principle; Union actors are defenders of the proposition's truth",
-                    "sacrificial_economy": "latent \u2014 defending the principle may require sacrifice, which is cost of proof",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — defending the principle may require sacrifice, which is cost of proof",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Continues the cluster_03 arc established in July 4 Message (doc_010, inst_00087, inst_00090\u2013inst_00093). The framing of the insurrection as 'a war upon the first principle' converts Confederate secession from political disagreement into a logical attack on democratic self-government's foundational proposition. Compare inst_00087 (doc_010, p16_s02): 'whether a constitutional republic...can, or cannot, maintain its territorial integrity, against its own domestic foes.'"
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.82,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2574,36 +2598,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00096",
-                  "cluster": "cluster_03_experiment_proposition",
-                  "linguistic_form": "the popular principle applied to government, through the machinery of the States and the Union, has produced in a given time",
-                  "char_span_start": 31,
-                  "char_span_end": 154,
-                  "confidence": 0.78,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_014_s01_p84_s03",
+                  "document_id": "doc_014",
+                  "document_date": "1862-12-01",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.87,
+                  "span_text": "the popular principle applied to government, through the machinery of the States and the Union, has produced in a given time",
+                  "span_char_start": 31,
+                  "span_char_end": 154,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
                     "source_domain": "scientific_experiment_proof",
                     "target_domain": "democratic_governance_results",
-                    "mapping": "the 70-year growth record (census data) is the experimental result of 'the popular principle applied to government'; democratic governance is an experiment whose outputs are measurable over time",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the census data is the experimental proof of democracy's productive capacity",
                       "the experiment has a measurable record (70 years, 8x population growth)",
                       "the past results promise future results 'if firmly maintained'"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This instance completes the p84 statistical demonstration: Lincoln presents 70 years of census growth data, then characterizes it as what 'the popular principle applied to government...has produced in a given time.' The scientific-measurement language ('produced in a given time') converts census statistics into experimental results. This is the most data-grounded cluster_03 activation in the corpus. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'ideological_proof' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the 70-year growth record (census data) is the experimental result of 'the popular principle applied to government'; democratic governance is an experiment whose outputs are measurable over time",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "ideological_proof",
-                    "violence_logic": "the 70-year experimental record makes the current war a defense of a proven proposition \u2014 not a gamble but a defense of demonstrated results",
-                    "obligatory_frame": "an experiment that has produced 70 years of measurable results cannot be abandoned midway",
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "the 70-year experimental record makes the current war a defense of a proven proposition — not a gamble but a defense of demonstrated results",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "an experiment that has produced 70 years of measurable results cannot be abandoned midway",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "the census record as experimental output of the democratic proposition",
                     "guilt_distribution": "those who threaten 'if firmly maintained' are threatening to falsify results that are already documented",
-                    "sacrificial_economy": "latent \u2014 maintaining the experiment requires the current struggle",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — maintaining the experiment requires the current struggle",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "This instance completes the p84 statistical demonstration: Lincoln presents 70 years of census growth data, then characterizes it as what 'the popular principle applied to government...has produced in a given time.' The scientific-measurement language ('produced in a given time') converts census statistics into experimental results. This is the most data-grounded cluster_03 activation in the corpus."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.78,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2636,36 +2684,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00097",
-                  "cluster": "cluster_06_providence_theodicy",
-                  "linguistic_form": "reliance on Providence",
-                  "char_span_start": 7,
-                  "char_span_end": 28,
-                  "confidence": 0.85,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_014_s01_p84_s06",
+                  "document_id": "doc_014",
+                  "document_date": "1862-12-01",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.87,
+                  "span_text": "reliance on Providence",
+                  "span_char_start": 7,
+                  "span_char_end": 28,
                   "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
                     "source_domain": "divine_providence",
                     "target_domain": "union_war_effort",
-                    "mapping": "Providence is the reliable authority upon which the Union's course rests; reliance on Providence is more firm and earnest because the 'great task' is demanding \u2014 the divine support scales with the difficulty",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "the task is 'great' \u2014 not routine \u2014 requiring heightened providential reliance",
+                      "the task is 'great' — not routine — requiring heightened providential reliance",
                       "the course is sanctioned by divine will; going forward is proceeding under divine authority",
-                      "events are providentially shaped ('events have devolved upon us') \u2014 the task was assigned, not chosen"
-                    ]
+                      "events are providentially shaped ('events have devolved upon us') — the task was assigned, not chosen"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Closing cluster_06 instance. Phase 2 mode: Providence as sanctioning and assigning authority, not yet as inscrutable judge. 'Events have devolved upon us' is the key formulation — the passive construction transfers agency from Lincoln to Providence-via-events. Compare July 4 Message (doc_010) inst_00094 ('renew our trust in God, and go forward without fear') — same protective/sanctioning mode, same closing position in the document. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'providential_sanction' to canonical 'punishment_and_theodicy'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "Providence is the reliable authority upon which the Union's course rests; reliance on Providence is more firm and earnest because the 'great task' is demanding — the divine support scales with the difficulty",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "providential_sanction",
+                    "fantasy_type": "punishment_and_theodicy",
                     "violence_logic": "the war is a 'great task' that events have assigned, not a choice; Providence sanctions proceeding",
-                    "obligatory_frame": "if events (Providence) have devolved the task upon us, we cannot decline it without refusing divine assignment",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "if events (Providence) have devolved the task upon us, we cannot decline it without refusing divine assignment",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "Providence as the assigning authority that has devolved the 'great task'",
                     "guilt_distribution": "the task was assigned by events/Providence, not chosen by Lincoln; responsibility for the war's necessity lies with those who created the events",
-                    "sacrificial_economy": "latent \u2014 'great task' language implies cost; reliance on Providence makes that cost bearable",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — 'great task' language implies cost; reliance on Providence makes that cost bearable",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Closing cluster_06 instance. Phase 2 mode: Providence as sanctioning and assigning authority, not yet as inscrutable judge. 'Events have devolved upon us' is the key formulation \u2014 the passive construction transfers agency from Lincoln to Providence-via-events. Compare July 4 Message (doc_010) inst_00094 ('renew our trust in God, and go forward without fear') \u2014 same protective/sanctioning mode, same closing position in the document."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.85,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2701,7 +2773,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s01",
               "sentence_ordinal": 1,
-              "text": "[1]\u00a0\u00a0 DS, DNA RG 233, Thirty-seventh Congress, Second Session, Original Annual Message of the President---Interior.",
+              "text": "[1]   DS, DNA RG 233, Thirty-seventh Congress, Second Session, Original Annual Message of the President---Interior.",
               "word_offset_start": 7120,
               "word_offset_end": 7135,
               "authorship_note": "editorial_apparatus",
@@ -2746,7 +2818,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s06",
               "sentence_ordinal": 6,
-              "text": "No trace of Lincoln's original manuscript has been found.[2]\u00a0\u00a0 See Thirty-seventh Congress, Second Session, Senate Executive Document No. 1, I, 21-441.[3]\u00a0\u00a0 Ibid., II, 8: ``It is of great importance that immediate attention should be given to the condition of our Fortifications upon the seaboard and the Lakes, and upon our exposed frontiers.",
+              "text": "No trace of Lincoln's original manuscript has been found.[2]   See Thirty-seventh Congress, Second Session, Senate Executive Document No. 1, I, 21-441.[3]   Ibid., II, 8: ``It is of great importance that immediate attention should be given to the condition of our Fortifications upon the seaboard and the Lakes, and upon our exposed frontiers.",
               "word_offset_start": 7177,
               "word_offset_end": 7229,
               "authorship_note": "editorial_apparatus",
@@ -2764,7 +2836,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s08",
               "sentence_ordinal": 8,
-              "text": "Aggressions are seldom made upon a nation ever ready to defend its honor and to repel insults; and we should show to the world, that while engaged in quelling disturbances at home we are able to protect ourselves against attacks from abroad. . . .''[4]\u00a0\u00a0 Ibid., I, 177-81.",
+              "text": "Aggressions are seldom made upon a nation ever ready to defend its honor and to repel insults; and we should show to the world, that while engaged in quelling disturbances at home we are able to protect ourselves against attacks from abroad. . . .''[4]   Ibid., I, 177-81.",
               "word_offset_start": 7241,
               "word_offset_end": 7289,
               "authorship_note": "editorial_apparatus",
@@ -2791,7 +2863,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s11",
               "sentence_ordinal": 11,
-              "text": "On June 9, she was seized and boarded by the U.S.S. Massachusetts off Pensacola, but was released on June 12, 1861.[5]\u00a0\u00a0 Under the convention with China of November 8, 1858, settlement of claims of U.S. citizens was to come from one-fifth of the receipts for tonnage and export and import duties levied on American vessels at Canton, Shanghai, and Foochow.",
+              "text": "On June 9, she was seized and boarded by the U.S.S. Massachusetts off Pensacola, but was released on June 12, 1861.[5]   Under the convention with China of November 8, 1858, settlement of claims of U.S. citizens was to come from one-fifth of the receipts for tonnage and export and import duties levied on American vessels at Canton, Shanghai, and Foochow.",
               "word_offset_start": 7312,
               "word_offset_end": 7372,
               "authorship_note": "editorial_apparatus",
@@ -2800,7 +2872,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s12",
               "sentence_ordinal": 12,
-              "text": "Buchanan's Annual Message of December 4, 1860, suggested that the surplus of more than $200,000, remaining after the awards and belonging in equity to China, should be appropriated to ``some benevolent object in which the Chinese may be specially interested.''[6]\u00a0\u00a0 See Authorization for the Pembroke, October 28, supra.[7]\u00a0\u00a0 Senator Charles Sumner of the committee on Foreign Affairs on February 4, 1862, reported a bill, authorizing appointment of diplomatic representatives to Haiti and Liberia, which was approved and signed by Lincoln on June 5.[8]\u00a0\u00a0 From this point to footnote 12 the text is taken from Senate Executive Document No. 1.[9]\u00a0\u00a0 See Senate Executive Document No. 1, II, 3-4, 15-56.[10]\u00a0\u00a0 Vide infra.[11]\u00a0\u00a0 See Senate Executive Document No. 1, III.[12]\u00a0\u00a0 At this point the manuscript resumes.[13]\u00a0\u00a0 An act approved July 15, 1862, created nine circuits including all the states except California and Oregon and repealed all acts giving District Courts the power of circuit courts.",
+              "text": "Buchanan's Annual Message of December 4, 1860, suggested that the surplus of more than $200,000, remaining after the awards and belonging in equity to China, should be appropriated to ``some benevolent object in which the Chinese may be specially interested.''[6]   See Authorization for the Pembroke, October 28, supra.[7]   Senator Charles Sumner of the committee on Foreign Affairs on February 4, 1862, reported a bill, authorizing appointment of diplomatic representatives to Haiti and Liberia, which was approved and signed by Lincoln on June 5.[8]   From this point to footnote 12 the text is taken from Senate Executive Document No. 1.[9]   See Senate Executive Document No. 1, II, 3-4, 15-56.[10]   Vide infra.[11]   See Senate Executive Document No. 1, III.[12]   At this point the manuscript resumes.[13]   An act approved July 15, 1862, created nine circuits including all the states except California and Oregon and repealed all acts giving District Courts the power of circuit courts.",
               "word_offset_start": 7372,
               "word_offset_end": 7524,
               "authorship_note": "editorial_apparatus",
@@ -2809,7 +2881,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s13",
               "sentence_ordinal": 13,
-              "text": "Further changes were brought about by the act approved March 3, 1863, which fixed the number of justices of the Supreme Court at nine plus the chief justice, and created the Tenth Circuit consisting of California and Oregon.[14]\u00a0\u00a0 Senator Charles Sumner introduced a resolution on December 12, asking that the Committee on the Judiciary consider establishing by law a commission to revise, correct, arrange, and simplify the public statutes, and on January 28, 1862, introduced a bill (S. 174) to effect the object.",
+              "text": "Further changes were brought about by the act approved March 3, 1863, which fixed the number of justices of the Supreme Court at nine plus the chief justice, and created the Tenth Circuit consisting of California and Oregon.[14]   Senator Charles Sumner introduced a resolution on December 12, asking that the Committee on the Judiciary consider establishing by law a commission to revise, correct, arrange, and simplify the public statutes, and on January 28, 1862, introduced a bill (S. 174) to effect the object.",
               "word_offset_start": 7524,
               "word_offset_end": 7607,
               "authorship_note": "editorial_apparatus",
@@ -2836,7 +2908,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s16",
               "sentence_ordinal": 16,
-              "text": "Not until June 27, 1866, was a law approved giving the president authority to appoint three commissioners to accomplish the revision.[15]\u00a0\u00a0 Page twenty-seven of the manuscript is missing at this point.",
+              "text": "Not until June 27, 1866, was a law approved giving the president authority to appoint three commissioners to accomplish the revision.[15]   Page twenty-seven of the manuscript is missing at this point.",
               "word_offset_start": 7654,
               "word_offset_end": 7685,
               "authorship_note": "editorial_apparatus",
@@ -2845,7 +2917,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s17",
               "sentence_ordinal": 17,
-              "text": "The text here follows Senate Executive Document No. 1.[16]\u00a0\u00a0 A bill introduced on January 9, 1862, by Senator Daniel Clark to amend the Act of February 24, 1855, in accord with Lincoln's suggestion, was not finally approved and signed by the president until March 3, 1863.[17]\u00a0\u00a0 The manuscript resumes with this paragraph.[18]\u00a0\u00a0 The regaining of that portion of the District of Columbia retroceded to Virginia by act of Congress, July 9, 1846, was the subject of a bill introduced in the House by Representative Charles H. Upton of Virginia, December 4, 1861, but nothing came of it.[19]\u00a0\u00a0 See Senate Executive Document No. 1, I.[20]\u00a0\u00a0 The bill establishing the Department of Agriculture was approved and signed by Lincoln on May 15, 1862.[21]\u00a0\u00a0 The vessels and dates of seizure are listed as follows: Nightingale, June 20, 1861; Augusta, June 19, 1861; Falmouth, August 2, 1861; Triton, July 12, 1861; Augusta, November 11, 1861.",
+              "text": "The text here follows Senate Executive Document No. 1.[16]   A bill introduced on January 9, 1862, by Senator Daniel Clark to amend the Act of February 24, 1855, in accord with Lincoln's suggestion, was not finally approved and signed by the president until March 3, 1863.[17]   The manuscript resumes with this paragraph.[18]   The regaining of that portion of the District of Columbia retroceded to Virginia by act of Congress, July 9, 1846, was the subject of a bill introduced in the House by Representative Charles H. Upton of Virginia, December 4, 1861, but nothing came of it.[19]   See Senate Executive Document No. 1, I.[20]   The bill establishing the Department of Agriculture was approved and signed by Lincoln on May 15, 1862.[21]   The vessels and dates of seizure are listed as follows: Nightingale, June 20, 1861; Augusta, June 19, 1861; Falmouth, August 2, 1861; Triton, July 12, 1861; Augusta, November 11, 1861.",
               "word_offset_start": 7685,
               "word_offset_end": 7836,
               "authorship_note": "editorial_apparatus",
@@ -2854,7 +2926,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s18",
               "sentence_ordinal": 18,
-              "text": "The Augusta had been released and reseized (Senate Executive Document No. 53, May 29, 1862).[22]\u00a0\u00a0 Captain Nathaniel Gordon of the Erie, convicted November 30, 1861, and hanged February 21, 1862.",
+              "text": "The Augusta had been released and reseized (Senate Executive Document No. 53, May 29, 1862).[22]   Captain Nathaniel Gordon of the Erie, convicted November 30, 1861, and hanged February 21, 1862.",
               "word_offset_start": 7836,
               "word_offset_end": 7866,
               "authorship_note": "editorial_apparatus",
@@ -2863,7 +2935,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s19",
               "sentence_ordinal": 19,
-              "text": "See Stay of Execution, February 4, 1862, infra.[23]\u00a0\u00a0 See Lincoln's Message of December 20, infra.[24]\u00a0\u00a0 Lincoln probably had the Chiriqui project in mind (see Lincoln to Caleb B. Smith, October 23 and 24, supra).",
+              "text": "See Stay of Execution, February 4, 1862, infra.[23]   See Lincoln's Message of December 20, infra.[24]   Lincoln probably had the Chiriqui project in mind (see Lincoln to Caleb B. Smith, October 23 and 24, supra).",
               "word_offset_start": 7866,
               "word_offset_end": 7900,
               "authorship_note": "editorial_apparatus",
@@ -2872,7 +2944,7 @@
             {
               "sentence_id": "doc_014_s02_p01_s20",
               "sentence_ordinal": 20,
-              "text": "Smith's ``Report on the Transportation, Settlement, and Colonization of Persons of the African Race,'' May 9, 1862, may be found in Thirty-ninth Congress, First Session, Senate Executive Document No. 55.[25]\u00a0\u00a0 The Act of July 13, 1861, had provided that if the duties could not be collected in any district the president was empowered to close such ports and give notice by proclamation.",
+              "text": "Smith's ``Report on the Transportation, Settlement, and Colonization of Persons of the African Race,'' May 9, 1862, may be found in Thirty-ninth Congress, First Session, Senate Executive Document No. 55.[25]   The Act of July 13, 1861, had provided that if the duties could not be collected in any district the president was empowered to close such ports and give notice by proclamation.",
               "word_offset_start": 7900,
               "word_offset_end": 7962,
               "authorship_note": "editorial_apparatus",
@@ -2888,6 +2960,12 @@
       "stage": 3,
       "agent": "scaffold",
       "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
     }
   ]
 }

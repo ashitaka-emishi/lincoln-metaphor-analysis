@@ -125,3 +125,5 @@ Never reuse instance IDs. Never assign IDs without consulting the counter. Never
 After completing Stage 4 for a document, compute and attach the `document_summary` object described in `annotation_protocol.md`. This is required for every document before the annotated JSON is considered complete.
 
 The summary is the document's contribution to corpus-level analysis. The Stage 5 concordance builder reads these summaries to construct cross-document indexes.
+
+Immediately after writing the annotated JSON, run `node scripts/validate_annotation_output.js {doc_id}`. If validation fails, pause and ask the user whether to fix the schema errors now, show the errors only, or leave the file as-is and stop.

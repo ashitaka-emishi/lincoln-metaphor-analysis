@@ -1,37 +1,118 @@
 {
   "version": "1.0",
-  "generated": "2026-04-28",
-  "status": "stub",
+  "generated": "2026-04-30",
+  "status": "complete",
   "cluster_analyses": [
     {
       "cluster_id": "cluster_01_body_organism",
       "cluster_name": "Nation as organism / body",
       "source_domain": "wound, healing, birth, severance, disease",
       "target_domain": "the American Union",
-      "instance_count": null,
-      "instance_ids": [],
+      "instance_count": 25,
+      "instance_ids": [
+        "inst_00080",
+        "inst_00102",
+        "inst_00065",
+        "inst_00066",
+        "inst_00067",
+        "inst_00077",
+        "inst_00042",
+        "inst_00055",
+        "inst_00057",
+        "inst_00058",
+        "inst_00006",
+        "inst_00013",
+        "inst_00030",
+        "inst_00031",
+        "inst_00032",
+        "inst_00033",
+        "inst_00050",
+        "inst_00014",
+        "inst_00015",
+        "inst_00016",
+        "inst_00017",
+        "inst_00018",
+        "inst_00019",
+        "inst_00024",
+        "inst_00026"
+      ],
       "diachronic": {
-        "first_attested": null,
-        "last_attested": null,
-        "by_year": {},
-        "by_document": {},
+        "first_attested": "1838-01-27",
+        "last_attested": "1865-03-04",
+        "by_year": {
+          "1838": 1,
+          "1852": 1,
+          "1858": 3,
+          "1861": 2,
+          "1863": 5,
+          "1864": 5,
+          "1865": 8
+        },
+        "by_document": {
+          "doc_001": 1,
+          "doc_003": 1,
+          "doc_005": 3,
+          "doc_009": 1,
+          "doc_011": 1,
+          "doc_016": 3,
+          "doc_017": 2,
+          "doc_019": 4,
+          "doc_020": 1,
+          "doc_021": 8
+        },
         "trend_notes": null
       },
       "cmt_profile": {
-        "dominant_linguistic_forms": [],
-        "dominant_entailments": [],
-        "novel_instances": [],
-        "extended_metaphor_groups": []
+        "dominant_linguistic_forms": [
+          "clause",
+          "verbal_phrase"
+        ],
+        "dominant_entailments": [
+          "The republic's only mortal threat is internal — foreign armies cannot kill it; only Americans can",
+          "'Suicide' frames internal self-destruction as a freely chosen death — the national organism kills itself",
+          "The nation-as-organism frame makes institutional decay a form of physiological deterioration",
+          "This is the earliest nation-as-organism instance in the corpus — 1838, 20 years before the House Divided Speech",
+          "the nation and Clay grew up together — their life-courses are parallel"
+        ],
+        "novel_instances": [
+          "inst_00077",
+          "inst_00031",
+          "inst_00018",
+          "inst_00024"
+        ],
+        "extended_metaphor_groups": [
+          "ext_012",
+          "ext_008",
+          "ext_001",
+          "ext_006",
+          "ext_004"
+        ]
       },
       "koenigsberg_profile": {
-        "dominant_fantasy_types": [],
-        "dominant_violence_logic": [],
-        "obligatory_frame_rate": null,
-        "dominant_projected_entity": null,
-        "dominant_guilt_distribution": null,
-        "sacrificial_economy_rate": null,
-        "dominant_psychic_defense": null,
-        "absence_flags_distribution": {}
+        "dominant_fantasy_types": [
+          "wound_and_healing",
+          "punishment_and_theodicy",
+          "sacrifice_and_redemption"
+        ],
+        "dominant_violence_logic": [
+          "restorative",
+          "structural_necessity",
+          "punitive"
+        ],
+        "obligatory_frame_rate": 0.84,
+        "dominant_projected_entity": "national_body",
+        "dominant_guilt_distribution": "external",
+        "sacrificial_economy_rate": 0.16,
+        "dominant_psychic_defense": "displacement",
+        "absence_flags_distribution": {
+          "enslaved_people_non_agent": 10,
+          "black_soldiers_erased": 3,
+          "lincoln_non_agent": 3,
+          "confederates_depersonalized": 3,
+          "death_abstracted": 2,
+          "women_absent": 0,
+          "disease_purification_absent": 6
+        }
       },
       "political_moral_work": null,
       "what_metaphor_conceals": null,
@@ -39,21 +120,36 @@
         "hitler_parallel_cluster": "Volksgemeinschaft as racial body",
         "structural_similarity": null,
         "structural_divergence": "Hitler adds disease_and_purification logic absent from Lincoln; Lincoln's body metaphor has restorative exit condition; Hitler's does not",
-        "shared_fantasy_types": ["wound_and_healing"],
-        "shared_violence_logic": ["restorative"],
-        "lincoln_specific_constructs": ["reparation psychic defense", "distributed guilt"],
-        "hitler_specific_constructs": ["disease_and_purification", "ethnic exclusion", "purifying violence"],
-        "analytically_significant_absences": ["disease_and_purification absent from Lincoln corpus"]
+        "shared_fantasy_types": [
+          "wound_and_healing"
+        ],
+        "shared_violence_logic": [
+          "restorative"
+        ],
+        "lincoln_specific_constructs": [
+          "reparation psychic defense",
+          "distributed guilt"
+        ],
+        "hitler_specific_constructs": [
+          "disease_and_purification",
+          "ethnic exclusion",
+          "purifying violence"
+        ],
+        "analytically_significant_absences": [
+          "disease_and_purification absent from Lincoln corpus"
+        ]
       },
       "register_distribution": {
-        "formal_public_address": 0,
-        "campaign_speech": 0,
+        "formal_public_address": 16,
+        "campaign_speech": 1,
         "congressional_message": 0,
-        "semi_public_letter": 0,
+        "semi_public_letter": 7,
         "legal_document": 0,
-        "fragment_private": 0
+        "fragment_private": 1
       },
-      "suppression_instances": [],
+      "suppression_instances": [
+        "inst_00077"
+      ],
       "analyst_notes": null
     },
     {
@@ -61,30 +157,97 @@
       "cluster_name": "Union as covenant / oath",
       "source_domain": "sworn oath, contract, sacred bond",
       "target_domain": "the constitutional compact",
-      "instance_count": null,
-      "instance_ids": [],
+      "instance_count": 17,
+      "instance_ids": [
+        "inst_00072",
+        "inst_00075",
+        "inst_00076",
+        "inst_00086",
+        "inst_00039",
+        "inst_00040",
+        "inst_00041",
+        "inst_00027",
+        "inst_00028",
+        "inst_00052",
+        "inst_00053",
+        "inst_00056",
+        "inst_00009",
+        "inst_00010",
+        "inst_00029",
+        "inst_00025",
+        "inst_00062"
+      ],
       "diachronic": {
-        "first_attested": null,
-        "last_attested": null,
-        "by_year": {},
-        "by_document": {},
+        "first_attested": "1861-01-01",
+        "last_attested": "1865-04-11",
+        "by_year": {
+          "1861": 7,
+          "1862": 4,
+          "1863": 3,
+          "1864": 1,
+          "1865": 2
+        },
+        "by_document": {
+          "doc_009": 3,
+          "doc_010": 1,
+          "doc_011": 3,
+          "doc_012": 2,
+          "doc_013": 2,
+          "doc_016": 1,
+          "doc_017": 2,
+          "doc_018": 1,
+          "doc_021": 1,
+          "doc_022": 1
+        },
         "trend_notes": null
       },
       "cmt_profile": {
-        "dominant_linguistic_forms": [],
-        "dominant_entailments": [],
-        "novel_instances": [],
-        "extended_metaphor_groups": []
+        "dominant_linguistic_forms": [
+          "clause",
+          "nominal_phrase",
+          "verbal_phrase"
+        ],
+        "dominant_entailments": [
+          "The Union's perpetuity is not a legal conclusion but a covenanted promise — something the thirteen States swore",
+          "The covenant frame makes secession not just unconstitutional but a breaking of a solemn oath",
+          "'Plighting faith' is archaic covenant vocabulary, invoking the highest register of sworn commitment",
+          "Lincoln is here reporting the historical covenant, not creating a new one — this is cluster_02 in historical-reference mode",
+          "The presidential oath is not merely a legal formality but a covenant with God — registered in heaven means God is the witness and enforcer"
+        ],
+        "novel_instances": [
+          "inst_00075",
+          "inst_00039"
+        ],
+        "extended_metaphor_groups": [
+          "ext_008",
+          "ext_002"
+        ]
       },
       "koenigsberg_profile": {
-        "dominant_fantasy_types": [],
-        "dominant_violence_logic": [],
-        "obligatory_frame_rate": null,
-        "dominant_projected_entity": null,
-        "dominant_guilt_distribution": null,
-        "sacrificial_economy_rate": null,
-        "dominant_psychic_defense": null,
-        "absence_flags_distribution": {}
+        "dominant_fantasy_types": [
+          "oath_and_obligation",
+          "experiment_and_proof",
+          "sacrifice_and_redemption"
+        ],
+        "dominant_violence_logic": [
+          "obligatory",
+          "restorative",
+          "oath_as_binding_law"
+        ],
+        "obligatory_frame_rate": 1,
+        "dominant_projected_entity": "covenant_bond",
+        "dominant_guilt_distribution": "external",
+        "sacrificial_economy_rate": 0.176,
+        "dominant_psychic_defense": "reparation",
+        "absence_flags_distribution": {
+          "enslaved_people_non_agent": 10,
+          "black_soldiers_erased": 1,
+          "lincoln_non_agent": 3,
+          "confederates_depersonalized": 0,
+          "death_abstracted": 2,
+          "women_absent": 0,
+          "disease_purification_absent": 4
+        }
       },
       "political_moral_work": null,
       "what_metaphor_conceals": null,
@@ -92,21 +255,38 @@
         "hitler_parallel_cluster": null,
         "structural_similarity": null,
         "structural_divergence": "Covenant logic has no direct Hitler parallel; Hitler uses racial blood-bond (Blutgemeinschaft) rather than contractual oath",
-        "shared_fantasy_types": ["oath_and_obligation"],
-        "shared_violence_logic": ["obligatory"],
-        "lincoln_specific_constructs": ["constitutional covenant", "biracial republic implicit", "oath as rational obligation"],
-        "hitler_specific_constructs": ["racial blood-bond", "organic ethnic community"],
+        "shared_fantasy_types": [
+          "oath_and_obligation"
+        ],
+        "shared_violence_logic": [
+          "obligatory"
+        ],
+        "lincoln_specific_constructs": [
+          "constitutional covenant",
+          "biracial republic implicit",
+          "oath as rational obligation"
+        ],
+        "hitler_specific_constructs": [
+          "racial blood-bond",
+          "organic ethnic community"
+        ],
         "analytically_significant_absences": []
       },
       "register_distribution": {
-        "formal_public_address": 0,
+        "formal_public_address": 7,
         "campaign_speech": 0,
-        "congressional_message": 0,
-        "semi_public_letter": 0,
-        "legal_document": 0,
-        "fragment_private": 0
+        "congressional_message": 1,
+        "semi_public_letter": 3,
+        "legal_document": 2,
+        "fragment_private": 4
       },
-      "suppression_instances": [],
+      "suppression_instances": [
+        "inst_00027",
+        "inst_00028",
+        "inst_00052",
+        "inst_00053",
+        "inst_00029"
+      ],
       "analyst_notes": "Key suppression event: Greeley Letter (doc_012) deploys covenant cluster to argue against emancipation. Track the cluster's political flexibility."
     },
     {
@@ -114,30 +294,99 @@
       "cluster_name": "Republic as experiment / proposition",
       "source_domain": "logical proof, scientific test",
       "target_domain": "democratic self-government",
-      "instance_count": null,
-      "instance_ids": [],
+      "instance_count": 20,
+      "instance_ids": [
+        "inst_00082",
+        "inst_00083",
+        "inst_00084",
+        "inst_00098",
+        "inst_00103",
+        "inst_00087",
+        "inst_00090",
+        "inst_00091",
+        "inst_00092",
+        "inst_00093",
+        "inst_00038",
+        "inst_00095",
+        "inst_00096",
+        "inst_00059",
+        "inst_00003",
+        "inst_00004",
+        "inst_00011",
+        "inst_00047",
+        "inst_00048",
+        "inst_00049"
+      ],
       "diachronic": {
-        "first_attested": null,
-        "last_attested": null,
-        "by_year": {},
-        "by_document": {},
+        "first_attested": "1838-01-27",
+        "last_attested": "1864-11-10",
+        "by_year": {
+          "1838": 3,
+          "1842": 1,
+          "1852": 1,
+          "1861": 6,
+          "1862": 2,
+          "1863": 4,
+          "1864": 3
+        },
+        "by_document": {
+          "doc_001": 3,
+          "doc_002": 1,
+          "doc_003": 1,
+          "doc_010": 5,
+          "doc_011": 1,
+          "doc_014": 2,
+          "doc_016": 1,
+          "doc_017": 3,
+          "doc_020": 3
+        },
         "trend_notes": null
       },
       "cmt_profile": {
-        "dominant_linguistic_forms": [],
-        "dominant_entailments": [],
-        "novel_instances": [],
-        "extended_metaphor_groups": []
+        "dominant_linguistic_forms": [
+          "clause"
+        ],
+        "dominant_entailments": [
+          "The founding generation was running the experiment — they were the scientists who designed and executed the test",
+          "The 'undecided' status was genuine uncertainty — the outcome was not predetermined but depended on whether the republic could sustain itself",
+          "The experiment is now complete — 'successful' in the past tense means the proof has been made",
+          "This creates the subsequent problem: if the experiment is done, what motivates the next generation to maintain what was already proved?",
+          "The founding generation did not argue for self-governance's possibility — they demonstrated it"
+        ],
+        "novel_instances": [
+          "inst_00038"
+        ],
+        "extended_metaphor_groups": [
+          "ext_014",
+          "ext_016",
+          "ext_008",
+          "ext_003",
+          "ext_010"
+        ]
       },
       "koenigsberg_profile": {
-        "dominant_fantasy_types": [],
-        "dominant_violence_logic": [],
-        "obligatory_frame_rate": null,
-        "dominant_projected_entity": null,
-        "dominant_guilt_distribution": null,
-        "sacrificial_economy_rate": null,
-        "dominant_psychic_defense": null,
-        "absence_flags_distribution": {}
+        "dominant_fantasy_types": [
+          "experiment_and_proof"
+        ],
+        "dominant_violence_logic": [
+          "evidentiary",
+          "experimental_proof",
+          "not yet applicable (pre-war) but the proof-frame is established: political change is framed as solving a logical problem"
+        ],
+        "obligatory_frame_rate": 1,
+        "dominant_projected_entity": "founding_proposition",
+        "dominant_guilt_distribution": "external",
+        "sacrificial_economy_rate": 0.55,
+        "dominant_psychic_defense": "displacement",
+        "absence_flags_distribution": {
+          "enslaved_people_non_agent": 4,
+          "black_soldiers_erased": 1,
+          "lincoln_non_agent": 1,
+          "confederates_depersonalized": 1,
+          "death_abstracted": 1,
+          "women_absent": 0,
+          "disease_purification_absent": 12
+        }
       },
       "political_moral_work": null,
       "what_metaphor_conceals": null,
@@ -146,18 +395,26 @@
         "structural_similarity": null,
         "structural_divergence": "Lincoln-specific; no Hitler parallel. Hitler does not construct violence as evidentiary proof of a proposition.",
         "shared_fantasy_types": [],
-        "shared_violence_logic": ["evidentiary"],
-        "lincoln_specific_constructs": ["experiment_and_proof", "democratic proposition", "war as decisive test"],
+        "shared_violence_logic": [
+          "evidentiary"
+        ],
+        "lincoln_specific_constructs": [
+          "experiment_and_proof",
+          "democratic proposition",
+          "war as decisive test"
+        ],
         "hitler_specific_constructs": [],
-        "analytically_significant_absences": ["enslaved_people_non_agent — they are the object of the proposition being tested, not the agents proving it"]
+        "analytically_significant_absences": [
+          "enslaved_people_non_agent — they are the object of the proposition being tested, not the agents proving it"
+        ]
       },
       "register_distribution": {
-        "formal_public_address": 0,
-        "campaign_speech": 0,
-        "congressional_message": 0,
-        "semi_public_letter": 0,
+        "formal_public_address": 8,
+        "campaign_speech": 3,
+        "congressional_message": 7,
+        "semi_public_letter": 1,
         "legal_document": 0,
-        "fragment_private": 0
+        "fragment_private": 1
       },
       "suppression_instances": [],
       "analyst_notes": null
@@ -167,30 +424,77 @@
       "cluster_name": "War as birth / new creation",
       "source_domain": "labor, nativity, generative act",
       "target_domain": "the refounding of the nation",
-      "instance_count": null,
-      "instance_ids": [],
+      "instance_count": 8,
+      "instance_ids": [
+        "inst_00099",
+        "inst_00100",
+        "inst_00101",
+        "inst_00002",
+        "inst_00005",
+        "inst_00012",
+        "inst_00063",
+        "inst_00064"
+      ],
       "diachronic": {
-        "first_attested": null,
-        "last_attested": null,
-        "by_year": {},
-        "by_document": {},
+        "first_attested": "1842-02-22",
+        "last_attested": "1865-04-11",
+        "by_year": {
+          "1842": 3,
+          "1863": 3,
+          "1865": 2
+        },
+        "by_document": {
+          "doc_002": 3,
+          "doc_017": 3,
+          "doc_022": 2
+        },
         "trend_notes": null
       },
       "cmt_profile": {
-        "dominant_linguistic_forms": [],
-        "dominant_entailments": [],
-        "novel_instances": [],
-        "extended_metaphor_groups": []
+        "dominant_linguistic_forms": [
+          "clause",
+          "verbal_phrase",
+          "adjectival"
+        ],
+        "dominant_entailments": [
+          "liberty is not a static achievement but a living, growing organism",
+          "the Revolution was not the end but the planting of a seed",
+          "the germ's growth is universal — it expands beyond America to all mankind",
+          "revolutions are births: they require a specific place of origin",
+          "the cradle implies post-birth nurture — the revolutions need ongoing tending"
+        ],
+        "novel_instances": [
+          "inst_00064"
+        ],
+        "extended_metaphor_groups": [
+          "ext_017",
+          "ext_001",
+          "ext_011"
+        ]
       },
       "koenigsberg_profile": {
-        "dominant_fantasy_types": [],
-        "dominant_violence_logic": [],
-        "obligatory_frame_rate": null,
-        "dominant_projected_entity": null,
-        "dominant_guilt_distribution": null,
-        "sacrificial_economy_rate": null,
-        "dominant_psychic_defense": null,
-        "absence_flags_distribution": {}
+        "dominant_fantasy_types": [
+          "birth_and_creation"
+        ],
+        "dominant_violence_logic": [
+          "generative",
+          "the revolutionary violence was the generative act that planted the germ; subsequent cultivation maintains its growth",
+          "not yet applicable (temperance context)"
+        ],
+        "obligatory_frame_rate": 0.75,
+        "dominant_projected_entity": "national_body",
+        "dominant_guilt_distribution": "absent",
+        "sacrificial_economy_rate": 0.5,
+        "dominant_psychic_defense": "idealization",
+        "absence_flags_distribution": {
+          "enslaved_people_non_agent": 2,
+          "black_soldiers_erased": 1,
+          "lincoln_non_agent": 0,
+          "confederates_depersonalized": 0,
+          "death_abstracted": 1,
+          "women_absent": 1,
+          "disease_purification_absent": 3
+        }
       },
       "political_moral_work": null,
       "what_metaphor_conceals": null,
@@ -198,14 +502,26 @@
         "hitler_parallel_cluster": "Aryan rebirth / Third Reich as new creation",
         "structural_similarity": "Both use generative violence logic; death produces new national form",
         "structural_divergence": "Lincoln's birth is inclusive (new birth of freedom); Hitler's rebirth is ethnically exclusive. Lincoln's has a logical terminus; Hitler's requires perpetual purification.",
-        "shared_fantasy_types": ["birth_and_creation"],
-        "shared_violence_logic": ["generative"],
-        "lincoln_specific_constructs": ["new birth of freedom", "proposition-grounded rebirth"],
-        "hitler_specific_constructs": ["racial rebirth", "blood-and-soil nativity"],
-        "analytically_significant_absences": ["black_soldiers_erased — most literal embodiment of the birth/sacrifice cluster post-1863"]
+        "shared_fantasy_types": [
+          "birth_and_creation"
+        ],
+        "shared_violence_logic": [
+          "generative"
+        ],
+        "lincoln_specific_constructs": [
+          "new birth of freedom",
+          "proposition-grounded rebirth"
+        ],
+        "hitler_specific_constructs": [
+          "racial rebirth",
+          "blood-and-soil nativity"
+        ],
+        "analytically_significant_absences": [
+          "black_soldiers_erased — most literal embodiment of the birth/sacrifice cluster post-1863"
+        ]
       },
       "register_distribution": {
-        "formal_public_address": 0,
+        "formal_public_address": 8,
         "campaign_speech": 0,
         "congressional_message": 0,
         "semi_public_letter": 0,
@@ -220,30 +536,86 @@
       "cluster_name": "Founding fathers as inheritance",
       "source_domain": "patrimony, lineage, ancestral debt",
       "target_domain": "obligation to the founders",
-      "instance_count": null,
-      "instance_ids": [],
+      "instance_count": 13,
+      "instance_ids": [
+        "inst_00078",
+        "inst_00079",
+        "inst_00081",
+        "inst_00085",
+        "inst_00068",
+        "inst_00069",
+        "inst_00070",
+        "inst_00071",
+        "inst_00043",
+        "inst_00088",
+        "inst_00089",
+        "inst_00037",
+        "inst_00001"
+      ],
       "diachronic": {
-        "first_attested": null,
-        "last_attested": null,
-        "by_year": {},
-        "by_document": {},
+        "first_attested": "1838-01-27",
+        "last_attested": "1863-11-19",
+        "by_year": {
+          "1838": 4,
+          "1860": 4,
+          "1861": 4,
+          "1863": 1
+        },
+        "by_document": {
+          "doc_001": 4,
+          "doc_007": 4,
+          "doc_008": 1,
+          "doc_010": 2,
+          "doc_011": 1,
+          "doc_017": 1
+        },
         "trend_notes": null
       },
       "cmt_profile": {
-        "dominant_linguistic_forms": [],
-        "dominant_entailments": [],
-        "novel_instances": [],
-        "extended_metaphor_groups": []
+        "dominant_linguistic_forms": [
+          "clause",
+          "nominal_phrase"
+        ],
+        "dominant_entailments": [
+          "The present generation did not earn the political institutions — they arrived as legal heirs to a completed inheritance",
+          "Legal inheritance creates obligation: heirs have a duty to maintain what they have received",
+          "'Fundamental blessings' frames the inheritance as both practically important and morally valuable",
+          "The inheritance frame sets up the corresponding duty frame that follows in subsequent sentences",
+          "'Bequeathed' is testamentary language — the founding generation formally left us their achievements as an inheritance"
+        ],
+        "novel_instances": [
+          "inst_00081",
+          "inst_00085"
+        ],
+        "extended_metaphor_groups": [
+          "ext_015",
+          "ext_013",
+          "ext_001"
+        ]
       },
       "koenigsberg_profile": {
-        "dominant_fantasy_types": [],
-        "dominant_violence_logic": [],
-        "obligatory_frame_rate": null,
-        "dominant_projected_entity": null,
-        "dominant_guilt_distribution": null,
-        "sacrificial_economy_rate": null,
-        "dominant_psychic_defense": null,
-        "absence_flags_distribution": {}
+        "dominant_fantasy_types": [
+          "ancestral_debt"
+        ],
+        "dominant_violence_logic": [
+          "inherited_obligation",
+          "obligatory",
+          "blood_covenant_obligation"
+        ],
+        "obligatory_frame_rate": 1,
+        "dominant_projected_entity": "ancestral_lineage",
+        "dominant_guilt_distribution": "external",
+        "sacrificial_economy_rate": 0.308,
+        "dominant_psychic_defense": "idealization",
+        "absence_flags_distribution": {
+          "enslaved_people_non_agent": 2,
+          "black_soldiers_erased": 0,
+          "lincoln_non_agent": 0,
+          "confederates_depersonalized": 0,
+          "death_abstracted": 0,
+          "women_absent": 0,
+          "disease_purification_absent": 10
+        }
       },
       "political_moral_work": null,
       "what_metaphor_conceals": null,
@@ -251,19 +623,31 @@
         "hitler_parallel_cluster": "Germanic ancestors / Aryan heritage",
         "structural_similarity": "Both use ancestral debt logic; both invoke idealized founding generation",
         "structural_divergence": "Lincoln's fathers are civic-rational (Declaration signers, logical propositions); Hitler's are racial-biological (blood ancestors, genetic heritage). Lincoln's idealization conceals founders' ambivalence on slavery; Hitler's conceals historical reality of racial mixing.",
-        "shared_fantasy_types": ["ancestral_debt"],
-        "shared_violence_logic": ["obligatory"],
-        "lincoln_specific_constructs": ["civic inheritance", "propositional patrimony"],
-        "hitler_specific_constructs": ["racial lineage", "blood inheritance"],
-        "analytically_significant_absences": ["enslaved_people_non_agent — they cannot inherit the founders' legacy in Lincoln's framework despite being most affected by it"]
+        "shared_fantasy_types": [
+          "ancestral_debt"
+        ],
+        "shared_violence_logic": [
+          "obligatory"
+        ],
+        "lincoln_specific_constructs": [
+          "civic inheritance",
+          "propositional patrimony"
+        ],
+        "hitler_specific_constructs": [
+          "racial lineage",
+          "blood inheritance"
+        ],
+        "analytically_significant_absences": [
+          "enslaved_people_non_agent — they cannot inherit the founders' legacy in Lincoln's framework despite being most affected by it"
+        ]
       },
       "register_distribution": {
-        "formal_public_address": 0,
+        "formal_public_address": 10,
         "campaign_speech": 0,
-        "congressional_message": 0,
+        "congressional_message": 2,
         "semi_public_letter": 0,
         "legal_document": 0,
-        "fragment_private": 0
+        "fragment_private": 1
       },
       "suppression_instances": [],
       "analyst_notes": null
@@ -273,30 +657,104 @@
       "cluster_name": "Providence / divine will",
       "source_domain": "God's judgment, punishment, theodicy",
       "target_domain": "the war's cause and meaning",
-      "instance_count": null,
-      "instance_ids": [],
+      "instance_count": 22,
+      "instance_ids": [
+        "inst_00104",
+        "inst_00105",
+        "inst_00044",
+        "inst_00045",
+        "inst_00046",
+        "inst_00073",
+        "inst_00074",
+        "inst_00094",
+        "inst_00097",
+        "inst_00054",
+        "inst_00060",
+        "inst_00007",
+        "inst_00008",
+        "inst_00034",
+        "inst_00035",
+        "inst_00036",
+        "inst_00051",
+        "inst_00020",
+        "inst_00021",
+        "inst_00022",
+        "inst_00023",
+        "inst_00061"
+      ],
       "diachronic": {
-        "first_attested": null,
-        "last_attested": null,
-        "by_year": {},
-        "by_document": {},
+        "first_attested": "1852-07-06",
+        "last_attested": "1865-04-11",
+        "by_year": {
+          "1852": 2,
+          "1861": 6,
+          "1862": 1,
+          "1863": 4,
+          "1864": 4,
+          "1865": 5
+        },
+        "by_document": {
+          "doc_003": 2,
+          "doc_008": 3,
+          "doc_009": 2,
+          "doc_010": 1,
+          "doc_014": 1,
+          "doc_015": 1,
+          "doc_016": 1,
+          "doc_017": 2,
+          "doc_019": 3,
+          "doc_020": 1,
+          "doc_021": 4,
+          "doc_022": 1
+        },
         "trend_notes": null
       },
       "cmt_profile": {
-        "dominant_linguistic_forms": [],
-        "dominant_entailments": [],
+        "dominant_linguistic_forms": [
+          "clause",
+          "sentence",
+          "verbal_phrase"
+        ],
+        "dominant_entailments": [
+          "the nation's needs ('what the times have demanded') are met by God's providential provision",
+          "great men are instruments of Providence, not accidents of history",
+          "the nation can trust that Providence will provide again in future crises",
+          "Providence's care is conditional — the nation must deserve it",
+          "future national emergencies will be met by providentially provided instruments"
+        ],
         "novel_instances": [],
-        "extended_metaphor_groups": []
+        "extended_metaphor_groups": [
+          "ext_018",
+          "ext_009",
+          "ext_001",
+          "ext_007",
+          "ext_005"
+        ]
       },
       "koenigsberg_profile": {
-        "dominant_fantasy_types": [],
-        "dominant_violence_logic": [],
-        "obligatory_frame_rate": null,
-        "dominant_projected_entity": null,
-        "dominant_guilt_distribution": null,
-        "sacrificial_economy_rate": null,
-        "dominant_psychic_defense": null,
-        "absence_flags_distribution": {}
+        "dominant_fantasy_types": [
+          "punishment_and_theodicy",
+          "sacrifice_and_redemption"
+        ],
+        "dominant_violence_logic": [
+          "obligatory",
+          "punitive",
+          "generative"
+        ],
+        "obligatory_frame_rate": 0.909,
+        "dominant_projected_entity": "divine_instrument",
+        "dominant_guilt_distribution": "external",
+        "sacrificial_economy_rate": 0.318,
+        "dominant_psychic_defense": "reparation",
+        "absence_flags_distribution": {
+          "enslaved_people_non_agent": 5,
+          "black_soldiers_erased": 2,
+          "lincoln_non_agent": 12,
+          "confederates_depersonalized": 1,
+          "death_abstracted": 2,
+          "women_absent": 0,
+          "disease_purification_absent": 6
+        }
       },
       "political_moral_work": null,
       "what_metaphor_conceals": null,
@@ -304,45 +762,255 @@
         "hitler_parallel_cluster": "Providence / historical destiny",
         "structural_similarity": "Both use providential logic; both position themselves as instruments of historical/divine forces beyond their control",
         "structural_divergence": "Lincoln's Providence distributes guilt and opens toward reconciliation; Hitler's Providence selects and excludes. Lincoln's theodicy is shared punishment (both sides suffer for shared sin); Hitler's is chosen-people triumph.",
-        "shared_fantasy_types": ["punishment_and_theodicy"],
-        "shared_violence_logic": ["punitive", "obligatory"],
-        "lincoln_specific_constructs": ["distributed-guilt theodicy", "lincoln_non_agent", "malice toward none as structural implication"],
-        "hitler_specific_constructs": ["chosen-people destiny", "enemy as providential obstacle"],
-        "analytically_significant_absences": ["lincoln_non_agent at maximum — Second Inaugural positions Lincoln as pure instrument"]
+        "shared_fantasy_types": [
+          "punishment_and_theodicy"
+        ],
+        "shared_violence_logic": [
+          "punitive",
+          "obligatory"
+        ],
+        "lincoln_specific_constructs": [
+          "distributed-guilt theodicy",
+          "lincoln_non_agent",
+          "malice toward none as structural implication"
+        ],
+        "hitler_specific_constructs": [
+          "chosen-people destiny",
+          "enemy as providential obstacle"
+        ],
+        "analytically_significant_absences": [
+          "lincoln_non_agent at maximum — Second Inaugural positions Lincoln as pure instrument"
+        ]
       },
       "register_distribution": {
-        "formal_public_address": 0,
-        "campaign_speech": 0,
-        "congressional_message": 0,
-        "semi_public_letter": 0,
-        "legal_document": 0,
+        "formal_public_address": 14,
+        "campaign_speech": 1,
+        "congressional_message": 2,
+        "semi_public_letter": 4,
+        "legal_document": 1,
         "fragment_private": 0
       },
-      "suppression_instances": [],
+      "suppression_instances": [
+        "inst_00054"
+      ],
       "analyst_notes": "Key test: does Blind Memorandum (doc_018, fragment_private) show same providence rhetoric as public addresses? Epistemic test of public/private consistency."
     }
   ],
   "systematic_absence": {
     "primary_absent_entity": "enslaved_people",
-    "total_absence_flag_instances": null,
-    "absence_totals_by_flag": {},
-    "absence_by_cluster": {},
-    "absence_by_register": {},
-    "absence_by_year": {},
+    "total_absence_flag_instances": 115,
+    "absence_totals_by_flag": {
+      "enslaved_people_non_agent": 33,
+      "black_soldiers_erased": 8,
+      "lincoln_non_agent": 19,
+      "confederates_depersonalized": 5,
+      "death_abstracted": 8,
+      "women_absent": 1,
+      "disease_purification_absent": 41
+    },
+    "absence_by_cluster": {
+      "disease_purification_absent": {
+        "cluster_05_fathers_inheritance": 10,
+        "cluster_01_body_organism": 6,
+        "cluster_03_experiment_proposition": 12,
+        "cluster_04_birth_creation": 3,
+        "cluster_06_providence_theodicy": 6,
+        "cluster_02_covenant_oath": 4
+      },
+      "lincoln_non_agent": {
+        "cluster_06_providence_theodicy": 12,
+        "cluster_02_covenant_oath": 3,
+        "cluster_03_experiment_proposition": 1,
+        "cluster_01_body_organism": 3
+      },
+      "enslaved_people_non_agent": {
+        "cluster_05_fathers_inheritance": 2,
+        "cluster_03_experiment_proposition": 4,
+        "cluster_02_covenant_oath": 10,
+        "cluster_01_body_organism": 10,
+        "cluster_06_providence_theodicy": 5,
+        "cluster_04_birth_creation": 2
+      },
+      "black_soldiers_erased": {
+        "cluster_06_providence_theodicy": 2,
+        "cluster_01_body_organism": 3,
+        "cluster_02_covenant_oath": 1,
+        "cluster_03_experiment_proposition": 1,
+        "cluster_04_birth_creation": 1
+      },
+      "confederates_depersonalized": {
+        "cluster_03_experiment_proposition": 1,
+        "cluster_01_body_organism": 3,
+        "cluster_06_providence_theodicy": 1
+      },
+      "death_abstracted": {
+        "cluster_01_body_organism": 2,
+        "cluster_06_providence_theodicy": 2,
+        "cluster_02_covenant_oath": 2,
+        "cluster_03_experiment_proposition": 1,
+        "cluster_04_birth_creation": 1
+      },
+      "women_absent": {
+        "cluster_04_birth_creation": 1
+      }
+    },
+    "absence_by_register": {
+      "disease_purification_absent": {
+        "formal_public_address": 29,
+        "congressional_message": 12
+      },
+      "lincoln_non_agent": {
+        "formal_public_address": 13,
+        "semi_public_letter": 4,
+        "fragment_private": 1,
+        "campaign_speech": 1
+      },
+      "enslaved_people_non_agent": {
+        "fragment_private": 7,
+        "semi_public_letter": 7,
+        "legal_document": 3,
+        "formal_public_address": 16
+      },
+      "black_soldiers_erased": {
+        "legal_document": 1,
+        "formal_public_address": 7
+      },
+      "confederates_depersonalized": {
+        "formal_public_address": 4,
+        "semi_public_letter": 1
+      },
+      "death_abstracted": {
+        "formal_public_address": 8
+      },
+      "women_absent": {
+        "formal_public_address": 1
+      }
+    },
+    "absence_by_year": {
+      "disease_purification_absent": {
+        "1838": 8,
+        "1842": 4,
+        "1852": 4,
+        "1858": 3,
+        "1860": 4,
+        "1861": 15,
+        "1862": 3
+      },
+      "lincoln_non_agent": {
+        "1861": 2,
+        "1863": 6,
+        "1864": 4,
+        "1865": 7
+      },
+      "enslaved_people_non_agent": {
+        "1861": 6,
+        "1862": 4,
+        "1863": 10,
+        "1864": 6,
+        "1865": 7
+      },
+      "black_soldiers_erased": {
+        "1863": 6,
+        "1865": 2
+      },
+      "confederates_depersonalized": {
+        "1863": 2,
+        "1864": 1,
+        "1865": 2
+      },
+      "death_abstracted": {
+        "1863": 7,
+        "1865": 1
+      },
+      "women_absent": {
+        "1863": 1
+      }
+    },
     "key_findings": [],
     "analyst_notes": null
   },
   "cross_cluster": {
-    "co_activation_matrix": {},
+    "co_activation_matrix": {
+      "cluster_01_body_organism": {
+        "cluster_01_body_organism": 0,
+        "cluster_02_covenant_oath": 0,
+        "cluster_03_experiment_proposition": 1,
+        "cluster_04_birth_creation": 1,
+        "cluster_05_fathers_inheritance": 0,
+        "cluster_06_providence_theodicy": 2
+      },
+      "cluster_02_covenant_oath": {
+        "cluster_01_body_organism": 0,
+        "cluster_02_covenant_oath": 0,
+        "cluster_03_experiment_proposition": 0,
+        "cluster_04_birth_creation": 1,
+        "cluster_05_fathers_inheritance": 1,
+        "cluster_06_providence_theodicy": 0
+      },
+      "cluster_03_experiment_proposition": {
+        "cluster_01_body_organism": 1,
+        "cluster_02_covenant_oath": 1,
+        "cluster_03_experiment_proposition": 0,
+        "cluster_04_birth_creation": 1,
+        "cluster_05_fathers_inheritance": 0,
+        "cluster_06_providence_theodicy": 0
+      },
+      "cluster_04_birth_creation": {
+        "cluster_01_body_organism": 1,
+        "cluster_02_covenant_oath": 0,
+        "cluster_03_experiment_proposition": 2,
+        "cluster_04_birth_creation": 0,
+        "cluster_05_fathers_inheritance": 1,
+        "cluster_06_providence_theodicy": 0
+      },
+      "cluster_05_fathers_inheritance": {
+        "cluster_01_body_organism": 0,
+        "cluster_02_covenant_oath": 0,
+        "cluster_03_experiment_proposition": 0,
+        "cluster_04_birth_creation": 1,
+        "cluster_05_fathers_inheritance": 0,
+        "cluster_06_providence_theodicy": 0
+      },
+      "cluster_06_providence_theodicy": {
+        "cluster_01_body_organism": 0,
+        "cluster_02_covenant_oath": 1,
+        "cluster_03_experiment_proposition": 0,
+        "cluster_04_birth_creation": 0,
+        "cluster_05_fathers_inheritance": 0,
+        "cluster_06_providence_theodicy": 0
+      }
+    },
     "metaphor_hierarchy_evidence": [],
     "cluster_shift_events": []
   },
   "koenigsberg_master_comparison": {
-    "lincoln_unique_constructs": ["experiment_and_proof", "oath_and_obligation"],
-    "hitler_unique_constructs": ["disease_and_purification"],
-    "shared_structural_logic": ["sacrificial_economy", "obligatory_frame", "body_politic_projection"],
+    "lincoln_unique_constructs": [
+      "experiment_and_proof",
+      "oath_and_obligation"
+    ],
+    "hitler_unique_constructs": [
+      "disease_and_purification"
+    ],
+    "shared_structural_logic": [
+      "sacrificial_economy",
+      "obligatory_frame",
+      "body_politic_projection"
+    ],
     "primary_structural_divergence": null,
     "significance": null
   },
-  "pipeline_log": []
+  "pipeline_log": [
+    {
+      "stage": 6,
+      "agent": "run_analysis.js",
+      "date": "2026-04-30",
+      "total_instances_analyzed": 105
+    },
+    {
+      "stage": 6,
+      "agent": "run_analysis.js",
+      "date": "2026-04-30",
+      "total_instances_analyzed": 105
+    }
+  ]
 }

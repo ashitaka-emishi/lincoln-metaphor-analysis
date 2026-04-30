@@ -12,15 +12,22 @@
     "authorship_notes": "Two versions exist: extemporaneous transcription and Lincoln's written reconstruction. Text below is the self-edited written version Lincoln approved.",
     "source_text": "Collected Works vol.4 pp.190-191",
     "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:40",
-    "risk_flags": ["two_versions"],
+    "risk_flags": [
+      "two_versions"
+    ],
     "analytical_priority": "medium"
   },
   "document_summary": {
     "doc_id": "doc_008",
     "total_instances": 4,
-    "clusters_activated": ["cluster_05_fathers_inheritance", "cluster_06_providence_theodicy"],
+    "clusters_activated": [
+      "cluster_05_fathers_inheritance",
+      "cluster_06_providence_theodicy"
+    ],
     "dominant_cluster": "cluster_06_providence_theodicy",
-    "extension_groups": ["ext_009"],
+    "extension_groups": [
+      "ext_009"
+    ],
     "primary_finding": "The Springfield Farewell is the earliest formal public address in the corpus and the first document to activate cluster_06 (Providence) in a sustained way. The three-sentence Providence arc (ext_009) introduces the framing that will dominate the Second Inaugural: God attended Washington during his task; God must attend Lincoln during his greater task; trust in God's omnipresence is the only basis for confidence. The key diachronic observation: at this point (February 1861) the Providence framing is entirely personal — God is Lincoln's companion and protector, not the war's judge and accountant. The theodicy logic (God as divine accountant extracting payment for sin) has not yet developed. The document activates cluster_05 (Washington as founding-father predecessor) and cluster_06 (Providence as attendant) but clusters 01, 02, 03, and 04 are absent. This is the most stripped formal public address in the corpus — nine sentences, no wound, no covenant, no proposition, no birth.",
     "annotator_notes": "Four instances across three sentences of substantive content. The register is formal_public_address but the occasion is personal departure — Lincoln is speaking to his neighbors, not to the nation. This hybrid occasion (personal address to a community before a national task) explains the mixture of clusters: cluster_05 (the Washington comparison establishes national-historical framing) and cluster_06 (the Providence framing is both personal and national). risk_flag two_versions: text is Lincoln's self-edited written version, highest-confidence version of the two."
   },
@@ -81,40 +88,61 @@
                 {
                   "instance_id": "inst_00043",
                   "sentence_id": "doc_008_s01_p01_s05",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "a task before me greater than that which rested upon Washington",
-                  "source_domain": "ancestral inheritance — Washington as founding predecessor whose task Lincoln inherits and exceeds",
-                  "target_domain": "Lincoln's presidential mission measured against Washington's Revolutionary mission",
-                  "char_span_start": 67,
-                  "char_span_end": 130,
-                  "confidence": 0.88,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": null,
+                  "document_id": "doc_008",
+                  "document_date": "1861-02-11",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.95,
+                  "span_text": "a task before me greater than that which rested upon Washington",
+                  "span_char_start": 67,
+                  "span_char_end": 130,
                   "cmt": {
-                    "mapping": {
-                      "task...rested upon Washington": "Washington's mission as a physical burden inherited from history",
-                      "greater than": "Lincoln's task exceeds the founding precedent in difficulty",
-                      "rested upon": "the burden as something that presses down on the shoulders — bodily weight metaphor"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "ancestral inheritance — Washington as founding predecessor whose task Lincoln inherits and exceeds",
+                    "target_domain": "Lincoln's presidential mission measured against Washington's Revolutionary mission",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "Washington's task was the founding generation's defining burden",
                       "Lincoln inherits a burden from the same lineage — the same national mission",
                       "The comparison establishes the Civil War as the greatest crisis in the founding lineage"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "'Rested upon' carries a faint bodily resonance — the task as physical weight on Washington's body/shoulders. This creates minor cluster_01 co-activation (body bearing a burden) but cluster_05 is primary. The self-deprecating framing ('greater than that which rested upon Washington') is rhetorically significant: Lincoln is positioning himself not as Washington's equal but as the inheritor of a harder version of the same task. This is cluster_05's obligatory frame: you cannot refuse an inherited task greater than what the founders bore.",
+                    "mapping": {
+                      "task...rested upon Washington": "Washington's mission as a physical burden inherited from history",
+                      "greater than": "Lincoln's task exceeds the founding precedent in difficulty",
+                      "rested upon": "the burden as something that presses down on the shoulders — bodily weight metaphor"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "ancestral_debt",
                     "violence_logic": "obligatory",
-                    "obligatory_frame": "If Lincoln's task exceeds Washington's, then the obligation is proportionally greater — what Washington's generation accomplished through revolution, Lincoln must accomplish through civil war. The comparison makes the burden inescapable.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "If Lincoln's task exceeds Washington's, then the obligation is proportionally greater — what Washington's generation accomplished through revolution, Lincoln must accomplish through civil war. The comparison makes the burden inescapable.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "ancestral_lineage",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [],
-                    "annotator_notes": "'Rested upon' carries a faint bodily resonance — the task as physical weight on Washington's body/shoulders. This creates minor cluster_01 co-activation (body bearing a burden) but cluster_05 is primary. The self-deprecating framing ('greater than that which rested upon Washington') is rhetorically significant: Lincoln is positioning himself not as Washington's equal but as the inheritor of a harder version of the same task. This is cluster_05's obligatory frame: you cannot refuse an inherited task greater than what the founders bore."
+                    "absence_notes": null
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.88,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -130,42 +158,63 @@
                 {
                   "instance_id": "inst_00044",
                   "sentence_id": "doc_008_s01_p01_s06",
-                  "cluster_id": "cluster_06_providence_theodicy",
-                  "linguistic_form": "Divine Being who ever attended him",
-                  "source_domain": "a divine attendant or companion — Providence as personal guardian",
-                  "target_domain": "God's presence accompanying Washington through the Revolutionary crisis",
-                  "char_span_start": 30,
-                  "char_span_end": 64,
-                  "confidence": 0.87,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": "ext_009",
+                  "document_id": "doc_008",
+                  "document_date": "1861-02-11",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.95,
+                  "span_text": "Divine Being who ever attended him",
+                  "span_char_start": 30,
+                  "span_char_end": 64,
                   "cmt": {
-                    "mapping": {
-                      "Divine Being": "God as active participant in historical events",
-                      "attended him": "Providence as companion — accompanying, not directing",
-                      "without...I cannot succeed": "divine assistance is a necessary condition for Lincoln's success"
-                    },
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "a divine attendant or companion — Providence as personal guardian",
+                    "target_domain": "God's presence accompanying Washington through the Revolutionary crisis",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "God was causally present during Washington's founding mission",
                       "The same Providence is required for Lincoln's mission",
                       "Without divine accompaniment, human effort is insufficient"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_009",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is the earliest instance of cluster_06 in the corpus (Phase 1, pre-war). At this stage, Providence is an attendant companion — God 'attended' Washington like a guardian spirit. This is a pre-punitive Providence: God accompanies the righteous, not yet God extracting blood-payment from both sides. The lincoln_non_agent flag is appropriate: Lincoln cannot succeed without God, framing his agency as conditional on divine assistance.",
+                    "mapping": {
+                      "Divine Being": "God as active participant in historical events",
+                      "attended him": "Providence as companion — accompanying, not directing",
+                      "without...I cannot succeed": "divine assistance is a necessary condition for Lincoln's success"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "punishment_and_theodicy",
                     "violence_logic": "obligatory",
-                    "obligatory_frame": "If God attended Washington and must attend Lincoln, then Lincoln's mission is divinely sanctioned — refusal or failure is not merely political defeat but theological abandonment.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "If God attended Washington and must attend Lincoln, then Lincoln's mission is divinely sanctioned — refusal or failure is not merely political defeat but theological abandonment.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "divine_instrument",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "lincoln_non_agent"
                     ],
-                    "annotator_notes": "This is the earliest instance of cluster_06 in the corpus (Phase 1, pre-war). At this stage, Providence is an attendant companion — God 'attended' Washington like a guardian spirit. This is a pre-punitive Providence: God accompanies the righteous, not yet God extracting blood-payment from both sides. The lincoln_non_agent flag is appropriate: Lincoln cannot succeed without God, framing his agency as conditional on divine assistance."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.87,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -181,41 +230,62 @@
                 {
                   "instance_id": "inst_00045",
                   "sentence_id": "doc_008_s01_p01_s07",
-                  "cluster_id": "cluster_06_providence_theodicy",
-                  "linguistic_form": "With that assistance I cannot fail",
-                  "source_domain": "divine guarantee — God's assistance as a condition that makes failure impossible",
-                  "target_domain": "providential assurance that the Union's cause will succeed",
-                  "char_span_start": 0,
-                  "char_span_end": 34,
-                  "confidence": 0.85,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": "ext_009",
+                  "document_id": "doc_008",
+                  "document_date": "1861-02-11",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.95,
+                  "span_text": "With that assistance I cannot fail",
+                  "span_char_start": 0,
+                  "span_char_end": 34,
                   "cmt": {
-                    "mapping": {
-                      "with that assistance": "God's active participation as sufficient cause",
-                      "cannot fail": "divine guarantee overrides human limitation"
-                    },
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "divine guarantee — God's assistance as a condition that makes failure impossible",
+                    "target_domain": "providential assurance that the Union's cause will succeed",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "God's assistance converts uncertain human effort into guaranteed success",
                       "The framing is conditional: failure = absence of divine assistance; success = its presence",
                       "Lincoln claims neither credit nor accountability — both belong to Providence"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_009",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The symmetry of s06/s07 is structurally important: 'Without...I cannot succeed / With that assistance I cannot fail.' The chiastic structure creates logical closure — success and failure are both conditionally assigned to Providence. Lincoln is neither the agent of success nor the cause of failure. This is the earliest and most concise form of the non-agent framing that becomes central in the Hodges Letter and Second Inaugural.",
+                    "mapping": {
+                      "with that assistance": "God's active participation as sufficient cause",
+                      "cannot fail": "divine guarantee overrides human limitation"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "punishment_and_theodicy",
                     "violence_logic": "obligatory",
-                    "obligatory_frame": "The strong conditional claim ('cannot fail') converts Providence from a request into a guarantee — if God is with him, the cause is already won. This makes the war feel theologically predetermined.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The strong conditional claim ('cannot fail') converts Providence from a request into a guarantee — if God is with him, the cause is already won. This makes the war feel theologically predetermined.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "divine_instrument",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "lincoln_non_agent"
                     ],
-                    "annotator_notes": "The symmetry of s06/s07 is structurally important: 'Without...I cannot succeed / With that assistance I cannot fail.' The chiastic structure creates logical closure — success and failure are both conditionally assigned to Providence. Lincoln is neither the agent of success nor the cause of failure. This is the earliest and most concise form of the non-agent framing that becomes central in the Hodges Letter and Second Inaugural."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.85,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -231,40 +301,61 @@
                 {
                   "instance_id": "inst_00046",
                   "sentence_id": "doc_008_s01_p01_s08",
-                  "cluster_id": "cluster_06_providence_theodicy",
-                  "linguistic_form": "Him who can go with me, and remain with you, and be everywhere for good",
-                  "source_domain": "an omnipresent personal companion — God as a being who can be simultaneously present in multiple places",
-                  "target_domain": "Providence as the source of shared hope for both Lincoln and the Springfield community",
-                  "char_span_start": 12,
-                  "char_span_end": 83,
-                  "confidence": 0.87,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": "ext_009",
+                  "document_id": "doc_008",
+                  "document_date": "1861-02-11",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.95,
+                  "span_text": "Him who can go with me, and remain with you, and be everywhere for good",
+                  "span_char_start": 12,
+                  "span_char_end": 83,
                   "cmt": {
-                    "mapping": {
-                      "go with me": "God accompanies Lincoln to Washington — a traveling companion",
-                      "remain with you": "God stays with the Springfield community simultaneously",
-                      "be everywhere for good": "divine omnipresence as the guarantor that separation does not mean abandonment"
-                    },
+                    "cluster_id": "cluster_06_providence_theodicy",
+                    "source_domain": "an omnipresent personal companion — God as a being who can be simultaneously present in multiple places",
+                    "target_domain": "Providence as the source of shared hope for both Lincoln and the Springfield community",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "God is not limited by geography — Lincoln's departure does not remove divine presence from Springfield",
                       "The community's prayers and Lincoln's mission are united through God's omnipresence",
                       "Trust in omnipresent Providence is the basis for hoping 'all will yet be well'"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_009",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The phrase 'be everywhere for good' is the most expansive claim in the address: God is not just attending Lincoln (as in Washington's case) but is literally everywhere for the purpose of good. This is omnipresence put in service of the war's moral purpose. It converts the farewell's personal sadness into a theological confidence: the parting is safe because the same God will be on both sides of the separation.",
+                    "mapping": {
+                      "go with me": "God accompanies Lincoln to Washington — a traveling companion",
+                      "remain with you": "God stays with the Springfield community simultaneously",
+                      "be everywhere for good": "divine omnipresence as the guarantor that separation does not mean abandonment"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "punishment_and_theodicy",
                     "violence_logic": "obligatory",
-                    "obligatory_frame": "God's omnipresence makes Lincoln's departure theologically safe — the community is not abandoned, and the mission is divinely supervised from start to finish.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "God's omnipresence makes Lincoln's departure theologically safe — the community is not abandoned, and the mission is divinely supervised from start to finish.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "divine_instrument",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [],
-                    "annotator_notes": "The phrase 'be everywhere for good' is the most expansive claim in the address: God is not just attending Lincoln (as in Washington's case) but is literally everywhere for the purpose of good. This is omnipresence put in service of the war's moral purpose. It converts the farewell's personal sadness into a theological confidence: the parting is safe because the same God will be on both sides of the separation."
+                    "absence_notes": null
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.87,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -284,7 +375,21 @@
     }
   ],
   "pipeline_log": [
-    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
-    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "claude-sonnet-4-6",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
+    }
   ]
 }

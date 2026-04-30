@@ -12,15 +12,24 @@
     "authorship_notes": "Date uncertain; CW places it c. January 1861. Likely written during preparation of First Inaugural. Stephens used the same Proverbs 25:11 metaphor in a letter to Lincoln dated December 30, 1860.",
     "source_text": "Collected Works vol.4 pp.168-169",
     "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4",
-    "risk_flags": ["date_uncertain"],
+    "risk_flags": [
+      "date_uncertain"
+    ],
     "analytical_priority": "high"
   },
   "document_summary": {
     "doc_id": "doc_011",
     "total_instances": 6,
-    "clusters_activated": ["cluster_05_fathers_inheritance", "cluster_03_experiment_proposition", "cluster_02_covenant_oath", "cluster_01_body_organism"],
+    "clusters_activated": [
+      "cluster_05_fathers_inheritance",
+      "cluster_03_experiment_proposition",
+      "cluster_02_covenant_oath",
+      "cluster_01_body_organism"
+    ],
     "dominant_cluster": "cluster_03_experiment_proposition",
-    "extension_groups": ["ext_008"],
+    "extension_groups": [
+      "ext_008"
+    ],
     "primary_finding": "The 'apple of gold' fragment is the only document in the corpus where Lincoln explicitly theorizes his own metaphor system. The Proverbs 25:11 image (apples of gold in pictures of silver) maps directly onto the project's clusters: the apple = the Declaration's proposition that 'all men are created equal' (cluster_03); the silver frame = the Union and Constitution (cluster_02). Lincoln states the relationship explicitly: the frame was made to preserve the apple, not the reverse. This is the clearest statement in the corpus of the priority hierarchy — Liberty (proposition) > Union (covenant) > Constitution (law). The fragment confirms that cluster_03 is the foundational cluster in Lincoln's metaphor system: the proposition generates all the other structures. The apple/picture extended metaphor (ext_008) activates four clusters across six sentences.",
     "annotator_notes": "All instances except inst_00037 belong to ext_008 (the apple of gold extended metaphor). The extended metaphor is Lincoln's most explicit self-aware deployment of CMT in the corpus — he is constructing a metaphor to explain what his other metaphors mean. The fragment's private register (authorship_confidence 0.85, fragment_private) means confidence adjustments are applied: base confidence reduced by 0.05 across all instances per corpus_register.md protocol for fragment_private. Note: the text as segmented begins mid-thought ('All this is not the result of accident') — the fragment is the tail end of a longer passage, now lost. The opening context is missing."
   },
@@ -153,42 +162,63 @@
                 {
                   "instance_id": "inst_00037",
                   "sentence_id": "doc_011_s01_p04_s03",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "our fathers did",
-                  "source_domain": "ancestral inheritance — what the founding generation accomplished through sacrifice",
-                  "target_domain": "the obligation and precedent set by the revolutionary founders",
-                  "char_span_start": 48,
-                  "char_span_end": 63,
-                  "confidence": 0.72,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": true,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": null,
+                  "document_id": "doc_011",
+                  "document_date": "1861-01-01",
+                  "document_register": "fragment_private",
+                  "authorship_confidence": 0.85,
+                  "span_text": "our fathers did",
+                  "span_char_start": 48,
+                  "span_char_end": 63,
                   "cmt": {
-                    "mapping": {
-                      "fathers": "the founding generation as ancestral source of inherited obligation",
-                      "fought and endured": "the sacrificial labor that created the inheritance",
-                      "promise of something better": "the Liberty principle as the inheritance's content"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "ancestral inheritance — what the founding generation accomplished through sacrifice",
+                    "target_domain": "the obligation and precedent set by the revolutionary founders",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The founders fought for Liberty, not merely independence",
                       "Without the Liberty principle, the sacrifice would have been merely a change of masters",
                       "The current generation inherits the founders' struggle and its promise"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ambiguity_flag: 'our fathers' is among the most conventional phrases in antebellum political discourse and may be dead language here. Confidence adjusted down to 0.72 from base 0.75 (fragment_private register, -0.05 per protocol) + -0.02 for conventionality ambiguity. Coded cluster_05 because the argument explicitly turns on what the fathers fought *for* (Liberty), making the inheritance frame active rather than merely rhetorical. Moved legacy sacrificial_economy prose into sacrificial_yield.",
+                    "mapping": {
+                      "fathers": "the founding generation as ancestral source of inherited obligation",
+                      "fought and endured": "the sacrificial labor that created the inheritance",
+                      "promise of something better": "the Liberty principle as the inheritance's content"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "ancestral_debt",
                     "violence_logic": "obligatory",
-                    "obligatory_frame": "The founders' sacrifice for Liberty creates an obligation in the present generation to preserve what was fought for. The same logic extends to the Civil War: if Liberty is threatened, the founders' sacrifice demands defense.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The founders' sacrifice for Liberty creates an obligation in the present generation to preserve what was fought for. The same logic extends to the Civil War: if Liberty is threatened, the founders' sacrifice demands defense.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "ancestral_lineage",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": "The founding generation's sacrifice (fighting and enduring) produced the Liberty inheritance. The current generation must honor the exchange by preserving what was won.",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "The founding generation's sacrifice (fighting and enduring) produced the Liberty inheritance. The current generation must honor the exchange by preserving what was won.",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent"
                     ],
-                    "annotator_notes": "ambiguity_flag: 'our fathers' is among the most conventional phrases in antebellum political discourse and may be dead language here. Confidence adjusted down to 0.72 from base 0.75 (fragment_private register, -0.05 per protocol) + -0.02 for conventionality ambiguity. Coded cluster_05 because the argument explicitly turns on what the fathers fought *for* (Liberty), making the inheritance frame active rather than merely rhetorical."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.72,
+                    "ambiguity_flag": true,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -210,43 +240,64 @@
                 {
                   "instance_id": "inst_00038",
                   "sentence_id": "doc_011_s01_p05_s01",
-                  "cluster_id": "cluster_03_experiment_proposition",
-                  "linguistic_form": "apple of gold",
-                  "source_domain": "precious fruit — Proverbs 25:11: 'a word fitly spoken is like apples of gold in pictures of silver'",
-                  "target_domain": "the Declaration's proposition that 'all men are created equal' as the foundational political truth",
-                  "char_span_start": 100,
-                  "char_span_end": 113,
-                  "confidence": 0.97,
-                  "is_novel_metaphor": true,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": "ext_008",
+                  "document_id": "doc_011",
+                  "document_date": "1861-01-01",
+                  "document_register": "fragment_private",
+                  "authorship_confidence": 0.85,
+                  "span_text": "apple of gold",
+                  "span_char_start": 100,
+                  "span_char_end": 113,
                   "cmt": {
-                    "mapping": {
-                      "apple of gold": "the Declaration's Liberty principle — precious, generative, the valuable core",
-                      "fitly spoken": "spoken at exactly the right historical moment (1776) to have maximum effect",
-                      "proved an apple of gold to us": "the Liberty proposition has demonstrated its worth over time — it has been tested and proven"
-                    },
+                    "cluster_id": "cluster_03_experiment_proposition",
+                    "source_domain": "precious fruit — Proverbs 25:11: 'a word fitly spoken is like apples of gold in pictures of silver'",
+                    "target_domain": "the Declaration's proposition that 'all men are created equal' as the foundational political truth",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The Liberty proposition is the most valuable element of the American political inheritance",
                       "Its value was validated by history — it 'proved' itself",
                       "The proposition is an object that can be preserved, adorned, or destroyed",
                       "The Union and Constitution exist to serve this proposition, not the reverse"
                     ],
+                    "is_novel_metaphor": true,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_008",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is the only instance in the corpus where Lincoln explicitly cites a Biblical source for his metaphor (Proverbs 25:11). He is not borrowing the image unconsciously — he is deploying it as a known literary reference. The annotation notes that Stephens used the same verse in his December 30, 1860 letter to Lincoln (see document authorship_notes), suggesting Lincoln is responding to or appropriating Stephens's metaphor. The Liberty principle as 'apple of gold' is the cornerstone of cluster_03 — it is what the proposition is when it is most precious and most in need of preservation.",
+                    "mapping": {
+                      "apple of gold": "the Declaration's Liberty principle — precious, generative, the valuable core",
+                      "fitly spoken": "spoken at exactly the right historical moment (1776) to have maximum effect",
+                      "proved an apple of gold to us": "the Liberty proposition has demonstrated its worth over time — it has been tested and proven"
+                    },
                     "conventional_or_novel": "novel"
                   },
                   "koenigsberg": {
                     "fantasy_type": "experiment_and_proof",
                     "violence_logic": "evidentiary",
-                    "obligatory_frame": "If the apple of gold is what makes America worth preserving, any threat to the Liberty proposition (secession redefining the republic without it) triggers an obligation to defend it.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "If the apple of gold is what makes America worth preserving, any threat to the Liberty proposition (secession redefining the republic without it) triggers an obligation to defend it.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "founding_proposition",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent"
                     ],
-                    "annotator_notes": "This is the only instance in the corpus where Lincoln explicitly cites a Biblical source for his metaphor (Proverbs 25:11). He is not borrowing the image unconsciously — he is deploying it as a known literary reference. The annotation notes that Stephens used the same verse in his December 30, 1860 letter to Lincoln (see document authorship_notes), suggesting Lincoln is responding to or appropriating Stephens's metaphor. The Liberty principle as 'apple of gold' is the cornerstone of cluster_03 — it is what the proposition is when it is most precious and most in need of preservation."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.97,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -262,42 +313,63 @@
                 {
                   "instance_id": "inst_00039",
                   "sentence_id": "doc_011_s01_p05_s02",
-                  "cluster_id": "cluster_02_covenant_oath",
-                  "linguistic_form": "picture of silver, subsequently framed around it",
-                  "source_domain": "a silver picture frame — beautiful and protective but secondary to what it contains",
-                  "target_domain": "the Union and Constitution as the institutional frame preserving the Liberty proposition",
-                  "char_span_start": 41,
-                  "char_span_end": 89,
-                  "confidence": 0.95,
-                  "is_novel_metaphor": true,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": "ext_008",
+                  "document_id": "doc_011",
+                  "document_date": "1861-01-01",
+                  "document_register": "fragment_private",
+                  "authorship_confidence": 0.85,
+                  "span_text": "picture of silver, subsequently framed around it",
+                  "span_char_start": 41,
+                  "span_char_end": 89,
                   "cmt": {
-                    "mapping": {
-                      "picture of silver": "the Union and Constitution — valuable, ornamental, but a frame",
-                      "subsequently framed around it": "the covenant institutions came after the proposition, not before",
-                      "framed": "the institutional covenants are secondary enclosures for the primary proposition"
-                    },
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "a silver picture frame — beautiful and protective but secondary to what it contains",
+                    "target_domain": "the Union and Constitution as the institutional frame preserving the Liberty proposition",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The Union and Constitution are means, not ends — they serve the Liberty principle",
                       "The institutional frame is valuable but subordinate to what it contains",
                       "Historical sequence matters: Declaration (apple) → Constitution (frame); the apple was first"
                     ],
+                    "is_novel_metaphor": true,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_008",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is the most important sentence for understanding the relationship between cluster_02 and cluster_03 in Lincoln's metaphor system. cluster_03 (proposition) is the apple — the primary value. cluster_02 (covenant) is the frame — the institutional preservation mechanism. The frame exists for the apple: the covenant exists for the proposition. This directly explains why Lincoln, in the Greeley Letter, can say 'save the Union' as a pragmatic statement: saving the Union is a means to preserving the Liberty proposition, not an end in itself.",
+                    "mapping": {
+                      "picture of silver": "the Union and Constitution — valuable, ornamental, but a frame",
+                      "subsequently framed around it": "the covenant institutions came after the proposition, not before",
+                      "framed": "the institutional covenants are secondary enclosures for the primary proposition"
+                    },
                     "conventional_or_novel": "novel"
                   },
                   "koenigsberg": {
                     "fantasy_type": "oath_and_obligation",
                     "violence_logic": "obligatory",
-                    "obligatory_frame": "The covenant institutions exist to preserve Liberty. If they fail to preserve it, they have failed their constitutive purpose — this frames constitutional reform or emergency suspension as potentially required by the covenant's own logic.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The covenant institutions exist to preserve Liberty. If they fail to preserve it, they have failed their constitutive purpose — this frames constitutional reform or emergency suspension as potentially required by the covenant's own logic.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "covenant_bond",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent"
                     ],
-                    "annotator_notes": "This is the most important sentence for understanding the relationship between cluster_02 and cluster_03 in Lincoln's metaphor system. cluster_03 (proposition) is the apple — the primary value. cluster_02 (covenant) is the frame — the institutional preservation mechanism. The frame exists for the apple: the covenant exists for the proposition. This directly explains why Lincoln, in the Greeley Letter, can say 'save the Union' as a pragmatic statement: saving the Union is a means to preserving the Liberty proposition, not an end in itself."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.95,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -313,42 +385,63 @@
                 {
                   "instance_id": "inst_00040",
                   "sentence_id": "doc_011_s01_p05_s03",
-                  "cluster_id": "cluster_02_covenant_oath",
-                  "linguistic_form": "not to conceal, or destroy the apple; but to adorn, and preserve it",
-                  "source_domain": "the function of a picture frame — to display and protect, not to hide",
-                  "target_domain": "the Union and Constitution's proper purpose: to preserve and amplify Liberty, not to suppress it",
-                  "char_span_start": 22,
-                  "char_span_end": 90,
-                  "confidence": 0.92,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": "ext_008",
+                  "document_id": "doc_011",
+                  "document_date": "1861-01-01",
+                  "document_register": "fragment_private",
+                  "authorship_confidence": 0.85,
+                  "span_text": "not to conceal, or destroy the apple; but to adorn, and preserve it",
+                  "span_char_start": 22,
+                  "span_char_end": 90,
                   "cmt": {
-                    "mapping": {
-                      "not to conceal or destroy": "the perversion of the frame's purpose — what slaveholders are doing when they use the Constitution to protect slavery",
-                      "to adorn and preserve": "the legitimate purpose — amplifying and protecting the Liberty proposition",
-                      "the picture (frame) / the apple": "Constitution / Declaration proposition"
-                    },
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "the function of a picture frame — to display and protect, not to hide",
+                    "target_domain": "the Union and Constitution's proper purpose: to preserve and amplify Liberty, not to suppress it",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "Any use of the Constitution to conceal or destroy Liberty violates the frame's constitutive purpose",
                       "The frame's legitimacy depends on serving the apple",
                       "A frame that destroys what it contains has become the opposite of what it was made for"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_008",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This sentence is the implicit justification for Emancipation as a constitutional act. If the Constitution exists to preserve Liberty, then using the Constitution to preserve Liberty against slavery is the Constitution's own purpose fulfilled. The Emancipation Proclamation (doc_015), by contrast, is written in a register that strips all this out — it uses neither the apple metaphor nor the Liberty proposition frame. The contrast between this fragment's richness and the proclamation's flatness is one of the corpus's central suppression events.",
+                    "mapping": {
+                      "not to conceal or destroy": "the perversion of the frame's purpose — what slaveholders are doing when they use the Constitution to protect slavery",
+                      "to adorn and preserve": "the legitimate purpose — amplifying and protecting the Liberty proposition",
+                      "the picture (frame) / the apple": "Constitution / Declaration proposition"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "oath_and_obligation",
                     "violence_logic": "obligatory",
-                    "obligatory_frame": "The Constitution's legitimacy is conditional on preserving Liberty. When the constitutional frame is used to 'conceal or destroy' the apple (as in Dred Scott, as in the slave power's claim to constitutional protection), the frame has violated its own purpose and may be reformed without betraying the covenant.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The Constitution's legitimacy is conditional on preserving Liberty. When the constitutional frame is used to 'conceal or destroy' the apple (as in Dred Scott, as in the slave power's claim to constitutional protection), the frame has violated its own purpose and may be reformed without betraying the covenant.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "covenant_bond",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent"
                     ],
-                    "annotator_notes": "This sentence is the implicit justification for Emancipation as a constitutional act. If the Constitution exists to preserve Liberty, then using the Constitution to preserve Liberty against slavery is the Constitution's own purpose fulfilled. The Emancipation Proclamation (doc_015), by contrast, is written in a register that strips all this out — it uses neither the apple metaphor nor the Liberty proposition frame. The contrast between this fragment's richness and the proclamation's flatness is one of the corpus's central suppression events."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.92,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -364,41 +457,62 @@
                 {
                   "instance_id": "inst_00041",
                   "sentence_id": "doc_011_s01_p05_s04",
-                  "cluster_id": "cluster_02_covenant_oath",
-                  "linguistic_form": "The picture was made for the apple --- not the apple for the picture",
-                  "source_domain": "the logical priority of content over frame",
-                  "target_domain": "the Declaration's Liberty proposition takes precedence over the constitutional compact",
-                  "char_span_start": 0,
-                  "char_span_end": 68,
-                  "confidence": 0.93,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": "ext_008",
+                  "document_id": "doc_011",
+                  "document_date": "1861-01-01",
+                  "document_register": "fragment_private",
+                  "authorship_confidence": 0.85,
+                  "span_text": "The picture was made for the apple --- not the apple for the picture",
+                  "span_char_start": 0,
+                  "span_char_end": 68,
                   "cmt": {
-                    "mapping": {
-                      "picture made for the apple": "Constitution/Union exist to serve the Liberty proposition",
-                      "not the apple for the picture": "the Liberty proposition does not exist to serve constitutionalism — the inversion is false"
-                    },
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "the logical priority of content over frame",
+                    "target_domain": "the Declaration's Liberty proposition takes precedence over the constitutional compact",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The constitutional compact is instrumental; the Liberty proposition is intrinsic",
                       "Claims that constitutionalism requires accepting slavery invert the proper relationship",
                       "The apple's value is prior to and independent of the frame"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_008",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The aphoristic form (x for y, not y for x) is Lincoln's characteristic inversion rhetoric — also used in the Greeley Letter ('save the Union...not either to save or destroy slavery') and the Hodges Letter ('life is never wisely given to save a limb'). The compact-serves-Liberty argument is logically equivalent to the Hodges Letter's amputation analogy: in both, the constitutional frame is subordinate to the higher value it serves.",
+                    "mapping": {
+                      "picture made for the apple": "Constitution/Union exist to serve the Liberty proposition",
+                      "not the apple for the picture": "the Liberty proposition does not exist to serve constitutionalism — the inversion is false"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "experiment_and_proof",
                     "violence_logic": "evidentiary",
-                    "obligatory_frame": "This aphoristic inversion closes the argument: if you claim the Liberty proposition must be sacrificed to preserve the constitutional compact, you have it backwards. The compact exists for Liberty. The aphorism makes this feel self-evident.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "This aphoristic inversion closes the argument: if you claim the Liberty proposition must be sacrificed to preserve the constitutional compact, you have it backwards. The compact exists for Liberty. The aphorism makes this feel self-evident.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "founding_proposition",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent"
                     ],
-                    "annotator_notes": "The aphoristic form (x for y, not y for x) is Lincoln's characteristic inversion rhetoric — also used in the Greeley Letter ('save the Union...not either to save or destroy slavery') and the Hodges Letter ('life is never wisely given to save a limb'). The compact-serves-Liberty argument is logically equivalent to the Hodges Letter's amputation analogy: in both, the constitutional frame is subordinate to the higher value it serves."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.93,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -420,42 +534,63 @@
                 {
                   "instance_id": "inst_00042",
                   "sentence_id": "doc_011_s01_p06_s01",
-                  "cluster_id": "cluster_01_body_organism",
-                  "linguistic_form": "blurred, or bruised or broken",
-                  "source_domain": "physical damage to a precious object — specifically bodily damage ('bruised')",
-                  "target_domain": "harm to either the Liberty proposition (apple) or the institutional frame (picture)",
-                  "char_span_start": 60,
-                  "char_span_end": 89,
-                  "confidence": 0.80,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "suppression_notes": null,
-                  "extension_group_id": "ext_008",
+                  "document_id": "doc_011",
+                  "document_date": "1861-01-01",
+                  "document_register": "fragment_private",
+                  "authorship_confidence": 0.85,
+                  "span_text": "blurred, or bruised or broken",
+                  "span_char_start": 60,
+                  "span_char_end": 89,
                   "cmt": {
-                    "mapping": {
-                      "blurred": "obscured — the proposition's clarity damaged",
-                      "bruised": "bodily injury applied to the apple/picture — the organic/body resonance enters the frame",
-                      "broken": "structural destruction of either the frame (Union) or the content (Liberty)"
-                    },
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "physical damage to a precious object — specifically bodily damage ('bruised')",
+                    "target_domain": "harm to either the Liberty proposition (apple) or the institutional frame (picture)",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "Both the apple (proposition) and the picture (covenant) can be physically harmed",
                       "The damage is graduated: blurred (obscured) → bruised (injured) → broken (destroyed)",
                       "The body resonance of 'bruised' imports cluster_01 into what has been an object metaphor"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_008",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The triad 'blurred, bruised, broken' is the only moment in the fragment where the body metaphor (cluster_01) enters the apple-picture frame. 'Bruised' is the word — it is bodily damage applied to what has been presented as an aesthetic/precious object. This is cluster_01 activating within the ext_008 frame. Co-activation: cluster_02 and cluster_03 remain active (both picture and apple threatened); cluster_01 adds wound resonance to the threatened object.",
+                    "mapping": {
+                      "blurred": "obscured — the proposition's clarity damaged",
+                      "bruised": "bodily injury applied to the apple/picture — the organic/body resonance enters the frame",
+                      "broken": "structural destruction of either the frame (Union) or the content (Liberty)"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "wound_and_healing",
                     "violence_logic": "restorative",
-                    "obligatory_frame": "The cluster_01 resonance in 'bruised' activates the wound logic: the apple and picture can be injured, and injury demands repair. The call to action ('so let us act') is the physician's call — don't let the wound worsen.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The cluster_01 resonance in 'bruised' activates the wound logic: the apple and picture can be injured, and injury demands repair. The call to action ('so let us act') is the physician's call — don't let the wound worsen.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "national_body",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent"
                     ],
-                    "annotator_notes": "The triad 'blurred, bruised, broken' is the only moment in the fragment where the body metaphor (cluster_01) enters the apple-picture frame. 'Bruised' is the word — it is bodily damage applied to what has been presented as an aesthetic/precious object. This is cluster_01 activating within the ext_008 frame. Co-activation: cluster_02 and cluster_03 remain active (both picture and apple threatened); cluster_01 adds wound resonance to the threatened object."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.8,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -530,7 +665,21 @@
     }
   ],
   "pipeline_log": [
-    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
-    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "claude-sonnet-4-6",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
+    }
   ]
 }

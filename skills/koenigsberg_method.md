@@ -135,6 +135,7 @@ Entities that the metaphor's logic requires to be **passive, invisible, or struc
 | `confederates_depersonalized` | Confederate soldiers or leaders are abstracted away; violence is against the Confederacy as system, not against persons |
 | `death_abstracted` | Individual deaths are converted into data points (the proposition proven, the wound healing) rather than human losses |
 | `women_absent` | Women are erased from the sacrificial economy despite their presence in the war |
+| `disease_purification_absent` | A passage could invite purification logic but instead refuses to construct any social group as pathogen; this tracks the project’s central Lincoln/Hitler divergence |
 
 **absence_notes**: Required when any flag is set. Explain what the metaphor's logic does to the absent entity and why the entailment structure requires that erasure.
 

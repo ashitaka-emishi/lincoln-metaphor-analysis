@@ -52,7 +52,8 @@ function main() {
       lincoln_non_agent: [],
       confederates_depersonalized: [],
       death_abstracted: [],
-      women_absent: []
+      women_absent: [],
+      disease_purification_absent: []
     },
     high_confidence_only: [],
     suppression_instances: []

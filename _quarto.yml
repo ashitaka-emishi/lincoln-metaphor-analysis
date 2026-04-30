@@ -65,6 +65,8 @@ website:
             text: Close Reading
           - href: data_reproducibility.md
             text: Data / Reproducibility
+          - href: annotation_schema_repair.md
+            text: Annotation Schema Repair
           - href: DECISIONS.md
             text: Design Decisions
       - section: Analysis

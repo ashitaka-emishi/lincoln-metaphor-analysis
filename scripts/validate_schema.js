@@ -104,7 +104,9 @@ function validateSegmentedJSON(filePath) {
 
 function validateAllSegmented() {
   const dir = path.join(ROOT, 'corpus', 'segmented');
-  const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith('_segmented.json')) : [];
+  const files = fs.existsSync(dir)
+    ? fs.readdirSync(dir).filter(f => f.endsWith('.json') && /^doc_.*\.json$/.test(f))
+    : [];
   console.log(`\nValidating segmented JSONs (${files.length} files)...`);
   for (const f of files) validateSegmentedJSON(path.join(dir, f));
 }
@@ -123,7 +125,8 @@ const VALID_FANTASY_TYPES = new Set([
 
 const VALID_ABSENCE_FLAGS = new Set([
   'enslaved_people_non_agent', 'black_soldiers_erased', 'lincoln_non_agent',
-  'confederates_depersonalized', 'death_abstracted', 'women_absent'
+  'confederates_depersonalized', 'death_abstracted', 'women_absent',
+  'disease_purification_absent'
 ]);
 
 function validateInstance(filePath, inst, sentId) {

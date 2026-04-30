@@ -18,7 +18,9 @@
   "document_summary": {
     "doc_id": "doc_018",
     "total_instances": 1,
-    "clusters_activated": ["cluster_02_covenant_oath"],
+    "clusters_activated": [
+      "cluster_02_covenant_oath"
+    ],
     "dominant_cluster": "cluster_02_covenant_oath",
     "extension_groups": [],
     "primary_finding": "The Blind Memorandum is the most stripped document in the Lincoln corpus. Lincoln's text is two sentences written for no audience — not even himself in the usual sense, since the document was sealed until after the election. In this entirely private moment of political crisis, the only metaphorical language is 'save the Union,' the same formulation as the Greeley Letter. All five other clusters are completely absent. The finding is not the instance but its context: when Lincoln has no rhetorical audience to construct, his default framing for the war remains 'save the Union' — suggesting this is not a rhetorical device but Lincoln's actual cognitive frame. The register (fragment_private) means this is the closest the corpus comes to Lincoln's unmediated political thought.",
@@ -99,43 +101,64 @@
                 {
                   "instance_id": "inst_00029",
                   "sentence_id": "doc_018_s01_p04_s02",
-                  "cluster_id": "cluster_02_covenant_oath",
-                  "linguistic_form": "save the Union",
-                  "source_domain": "rescue / preservation of an endangered entity",
-                  "target_domain": "the constitutional compact",
-                  "char_span_start": 73,
-                  "char_span_end": 87,
-                  "confidence": 0.60,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": true,
-                  "suppression_flag": true,
-                  "suppression_notes": "All five other clusters completely absent in this document. The fragment_private register and sealed-document context mean this is Lincoln writing with no rhetorical audience. The absence of elaboration is therefore not a rhetorical choice but reflects the actual cognitive minimum — the raw frame, stripped of its public entailments. Suppressed: cluster_01 (no body, no wound), cluster_03 (no proposition), cluster_04 (no birth), cluster_05 (no fathers), cluster_06 (no Providence). The confidence floor (0.60) documents the borderline status: 'save' may be entirely dead language by this register.",
-                  "extension_group_id": null,
+                  "document_id": "doc_018",
+                  "document_date": "1864-08-23",
+                  "document_register": "fragment_private",
+                  "authorship_confidence": 0.99,
+                  "span_text": "save the Union",
+                  "span_char_start": 73,
+                  "span_char_end": 87,
                   "cmt": {
-                    "mapping": {
-                      "Union": "entity in danger of destruction",
-                      "save": "prevent destruction of what must persist",
-                      "duty": "obligatory action regardless of political outcome"
-                    },
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "rescue / preservation of an endangered entity",
+                    "target_domain": "the constitutional compact",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The Union is an entity that can be lost — it is not guaranteed to persist",
                       "Lincoln's duty persists even into a lame-duck period",
                       "A successor who cannot 'save it afterwards' is constrained by his own electoral commitments"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "lincoln_non_agent flagged: Lincoln positions himself as bound by duty rather than acting from will — even in this private document he constructs his own agency as constrained by obligation. This is consistent with the non-agent pattern seen in the Second Inaugural. The memo's sealing ritual (cabinet members signing without reading) is itself a performance of obligatory commitment — Lincoln binding others to witness a decision he has already made from duty.",
+                    "mapping": {
+                      "Union": "entity in danger of destruction",
+                      "save": "prevent destruction of what must persist",
+                      "duty": "obligatory action regardless of political outcome"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "oath_and_obligation",
                     "violence_logic": "obligatory",
-                    "obligatory_frame": "Lincoln's framing of post-election cooperation as 'duty' makes the war's continuation obligatory even under a hostile successor — the covenant bond overrides electoral outcomes.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "Lincoln's framing of post-election cooperation as 'duty' makes the war's continuation obligatory even under a hostile successor — the covenant bond overrides electoral outcomes.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "covenant_bond",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent",
                       "lincoln_non_agent"
                     ],
-                    "annotator_notes": "lincoln_non_agent flagged: Lincoln positions himself as bound by duty rather than acting from will — even in this private document he constructs his own agency as constrained by obligation. This is consistent with the non-agent pattern seen in the Second Inaugural. The memo's sealing ritual (cabinet members signing without reading) is itself a performance of obligatory commitment — Lincoln binding others to witness a decision he has already made from duty."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.6,
+                    "ambiguity_flag": true,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": true,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -483,7 +506,21 @@
     }
   ],
   "pipeline_log": [
-    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
-    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "claude-sonnet-4-6",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
+    }
   ]
 }

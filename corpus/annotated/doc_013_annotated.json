@@ -18,7 +18,9 @@
   "document_summary": {
     "doc_id": "doc_013",
     "total_instances": 2,
-    "clusters_activated": ["cluster_02_covenant_oath"],
+    "clusters_activated": [
+      "cluster_02_covenant_oath"
+    ],
     "dominant_cluster": "cluster_02_covenant_oath",
     "extension_groups": [],
     "primary_finding": "The Preliminary Emancipation Proclamation is the most metaphorically stripped document in the corpus. Two instances annotated, both below 0.65 confidence, both from the same legal formula ('restoring/restoration of the constitutional relation'). This is the legal_document register performing its constitutive function: the text that enacts emancipation strips every rhetorical and metaphorical frame that Lincoln uses everywhere else. No body, no birth, no covenant, no proposition, no founding fathers, no Providence. The document that is the most significant political act of Lincoln's presidency contains no metaphor system. This is not a rhetorical failure but a deliberate register choice: emancipation as military-legal measure, not ideological commitment. The Constitution Fragment (doc_011) argued that the Union and Constitution exist to preserve Liberty; this document never mentions Liberty. The Hodges Letter (doc_019) justified emancipation through the amputation analogy; this document provides no justification beyond military necessity. The flatness is the ideology: emancipation framed as administrative order rather than moral transformation.",
@@ -120,42 +122,63 @@
                 {
                   "instance_id": "inst_00052",
                   "sentence_id": "doc_013_s01_p06_s01",
-                  "cluster_id": "cluster_02_covenant_oath",
-                  "linguistic_form": "restoring the constitutional relation",
-                  "source_domain": "restoration of a prior intact state — the constitutional compact as something that can be broken and repaired",
-                  "target_domain": "the war aim: returning seceded states to their proper legal relationship with the federal government",
-                  "char_span_start": 236,
-                  "char_span_end": 273,
-                  "confidence": 0.62,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": true,
-                  "suppression_flag": true,
-                  "suppression_notes": "This is the legal_document register at its most stripped. The formula 'restoring the constitutional relation' carries a faint cluster_02 resonance (the relation = a covenant that can be suspended/broken; restoring = returning to the covenanted state). But 'constitutional relation' is a legal term of art, and 'restoring' may be dead language. Confidence 0.62 — below the corpus standard threshold of 0.70. Retained because: (1) the same formula appears twice in the document, suggesting it is Lincoln's chosen phrase rather than boilerplate; (2) 'suspended or disturbed' adds slight bodily/mechanical resonance. Suppressed clusters: all five others. Suppressed elements from cluster_02 itself: no oath language, no sacred bond, no covenant violation narrative — just the bare legal formula.",
-                  "extension_group_id": null,
+                  "document_id": "doc_013",
+                  "document_date": "1862-09-22",
+                  "document_register": "legal_document",
+                  "authorship_confidence": 0.9,
+                  "span_text": "restoring the constitutional relation",
+                  "span_char_start": 236,
+                  "span_char_end": 273,
                   "cmt": {
-                    "mapping": {
-                      "constitutional relation": "the compact bond between states and federal government",
-                      "restoring": "returning to the prior intact state of the covenant",
-                      "suspended or disturbed": "damage to the compact — not broken but impaired"
-                    },
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "restoration of a prior intact state — the constitutional compact as something that can be broken and repaired",
+                    "target_domain": "the war aim: returning seceded states to their proper legal relationship with the federal government",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The war's aim is restorative — return to prior state, not creation of new state",
                       "The relation was intact before secession and can be intact again",
                       "Disturbance (secession) is temporary — restoration is the goal"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The framing of the war aim as 'practically restoring the constitutional relation' is significant in relation to the Greeley Letter (one month earlier, August 22): both documents strip the metaphorical elaboration and frame the war as restoration. The Constitution Fragment (doc_011) had positioned the Liberty proposition (apple) as the value the constitutional frame (picture) must serve. Neither the Greeley Letter nor the Proclamation mentions Liberty. The apple has been left out.",
+                    "mapping": {
+                      "constitutional relation": "the compact bond between states and federal government",
+                      "restoring": "returning to the prior intact state of the covenant",
+                      "suspended or disturbed": "damage to the compact — not broken but impaired"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "oath_and_obligation",
                     "violence_logic": "restorative",
-                    "obligatory_frame": "The war aim stated here is exclusively restorative — the Proclamation does not claim the war is making something new, only repairing what is damaged. This is the most conservative statement of the war's purpose in the corpus.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The war aim stated here is exclusively restorative — the Proclamation does not claim the war is making something new, only repairing what is damaged. This is the most conservative statement of the war's purpose in the corpus.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "covenant_bond",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent"
                     ],
-                    "annotator_notes": "The framing of the war aim as 'practically restoring the constitutional relation' is significant in relation to the Greeley Letter (one month earlier, August 22): both documents strip the metaphorical elaboration and frame the war as restoration. The Constitution Fragment (doc_011) had positioned the Liberty proposition (apple) as the value the constitutional frame (picture) must serve. Neither the Greeley Letter nor the Proclamation mentions Liberty. The apple has been left out."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.62,
+                    "ambiguity_flag": true,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": true,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -378,40 +401,61 @@
                 {
                   "instance_id": "inst_00053",
                   "sentence_id": "doc_013_s01_p18_s01",
-                  "cluster_id": "cluster_02_covenant_oath",
-                  "linguistic_form": "restoration of the constitutional relation",
-                  "source_domain": "restoration of a prior intact state — the constitutional compact repaired",
-                  "target_domain": "the post-war return of seceded states to proper federal relation",
-                  "char_span_start": 164,
-                  "char_span_end": 206,
-                  "confidence": 0.62,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": true,
-                  "suppression_flag": true,
-                  "suppression_notes": "Same formula as inst_00052 (p06_s01). The repetition confirms this is Lincoln's chosen legal formula, not boilerplate. Suppression notes as per inst_00052: all five other clusters absent throughout the document.",
-                  "extension_group_id": null,
+                  "document_id": "doc_013",
+                  "document_date": "1862-09-22",
+                  "document_register": "legal_document",
+                  "authorship_confidence": 0.9,
+                  "span_text": "restoration of the constitutional relation",
+                  "span_char_start": 164,
+                  "span_char_end": 206,
                   "cmt": {
-                    "mapping": {
-                      "restoration of the constitutional relation": "return to the prior covenantal state — the compact repaired after suspension",
-                      "suspended or disturbed": "the impairment of the compact during rebellion"
-                    },
+                    "cluster_id": "cluster_02_covenant_oath",
+                    "source_domain": "restoration of a prior intact state — the constitutional compact repaired",
+                    "target_domain": "the post-war return of seceded states to proper federal relation",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "The compensation clause is contingent on restoration of the covenant relation",
                       "Legal loyalty (remaining loyal) is the precondition for compensation — the covenant requires fidelity"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The compensation clause includes 'the loss of slaves' as a category of compensable loss for loyal slaveholders. Enslaved people appear in this document exclusively as property — objects of loss to be compensated. This is the most explicit property-framing of enslaved people in the Lincoln corpus. Not annotated as a CMT metaphor (it is literal legal language) but critical for absence analysis.",
+                    "mapping": {
+                      "restoration of the constitutional relation": "return to the prior covenantal state — the compact repaired after suspension",
+                      "suspended or disturbed": "the impairment of the compact during rebellion"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
                     "fantasy_type": "oath_and_obligation",
                     "violence_logic": "restorative",
-                    "obligatory_frame": "The compensation promise is tied to covenant restoration — loyalty creates obligation; the covenant creates entitlement. This is cluster_02 logic stripped to its legal minimum.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The compensation promise is tied to covenant restoration — loyalty creates obligation; the covenant creates entitlement. This is cluster_02 logic stripped to its legal minimum.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "covenant_bond",
                     "guilt_distribution": "external",
-                    "sacrificial_economy": null,
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
                       "enslaved_people_non_agent"
                     ],
-                    "annotator_notes": "The compensation clause includes 'the loss of slaves' as a category of compensable loss for loyal slaveholders. Enslaved people appear in this document exclusively as property — objects of loss to be compensated. This is the most explicit property-framing of enslaved people in the Lincoln corpus. Not annotated as a CMT metaphor (it is literal legal language) but critical for absence analysis."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.62,
+                    "ambiguity_flag": true,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": true,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -504,74 +548,192 @@
           "paragraph_id": "doc_013_s02_p01",
           "paragraph_ordinal": 1,
           "sentences": [
-            {"sentence_id": "doc_013_s02_p01_s01", "sentence_ordinal": 1, "text": "[1]   ADS, N; DS, DNA FS RG 11, Proclamations.", "word_offset_start": 1069, "word_offset_end": 1078, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_013_s02_p01_s02", "sentence_ordinal": 2, "text": "The autograph proclamation in the New York State Library was presented by Lincoln to the Albany Army Relief Bazaar held in February and March, 1864, where it was purchased by Gerrit Smith for $1,100 and given to the U.S. Sanitary Commission, whence it was purchased again for $1,000 in April, 1865, by the State of New York for the State Library.", "word_offset_start": 1078, "word_offset_end": 1139, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_013_s02_p01_s03", "sentence_ordinal": 3, "text": "A letter of transmittal from Frederick W. Seward to Mrs. Emily W. Barnes, January 4, 1864, correctly describes the body of the document as being in Lincoln's own handwriting, the pencilled additions in the hand of the Secretary of State, and the formal beginning and ending, in the hand of the chief clerk.", "word_offset_start": 1139, "word_offset_end": 1192, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_013_s02_p01_s04", "sentence_ordinal": 4, "text": "Seward's emendations as well as other peculiarities of the document are indicated in succeeding footnotes.", "word_offset_start": 1192, "word_offset_end": 1207, "authorship_note": "editorial_apparatus", "metaphor_instances": []},
-            {"sentence_id": "doc_013_s02_p01_s05", "sentence_ordinal": 5, "text": "From Lincoln's original the engrossed copy in the National Archives was made and an official printing was issued by the State Department accompanied by a Circular from Secretary Seward to Diplomatic and Consular officers.", "word_offset_start": 1207, "word_offset_end": 1241, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_013_s02_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "[1]   ADS, N; DS, DNA FS RG 11, Proclamations.",
+              "word_offset_start": 1069,
+              "word_offset_end": 1078,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_013_s02_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "The autograph proclamation in the New York State Library was presented by Lincoln to the Albany Army Relief Bazaar held in February and March, 1864, where it was purchased by Gerrit Smith for $1,100 and given to the U.S. Sanitary Commission, whence it was purchased again for $1,000 in April, 1865, by the State of New York for the State Library.",
+              "word_offset_start": 1078,
+              "word_offset_end": 1139,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_013_s02_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "A letter of transmittal from Frederick W. Seward to Mrs. Emily W. Barnes, January 4, 1864, correctly describes the body of the document as being in Lincoln's own handwriting, the pencilled additions in the hand of the Secretary of State, and the formal beginning and ending, in the hand of the chief clerk.",
+              "word_offset_start": 1139,
+              "word_offset_end": 1192,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_013_s02_p01_s04",
+              "sentence_ordinal": 4,
+              "text": "Seward's emendations as well as other peculiarities of the document are indicated in succeeding footnotes.",
+              "word_offset_start": 1192,
+              "word_offset_end": 1207,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_013_s02_p01_s05",
+              "sentence_ordinal": 5,
+              "text": "From Lincoln's original the engrossed copy in the National Archives was made and an official printing was issued by the State Department accompanied by a Circular from Secretary Seward to Diplomatic and Consular officers.",
+              "word_offset_start": 1207,
+              "word_offset_end": 1241,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_013_s02_p02",
           "paragraph_ordinal": 2,
           "sentences": [
-            {"sentence_id": "doc_013_s02_p02_s01", "sentence_ordinal": 1, "text": "[2]   ``And'' inserted and deleted at this point not in Lincoln's handwriting.", "word_offset_start": 1241, "word_offset_end": 1253, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_013_s02_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "[2]   ``And'' inserted and deleted at this point not in Lincoln's handwriting.",
+              "word_offset_start": 1241,
+              "word_offset_end": 1253,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_013_s02_p03",
           "paragraph_ordinal": 3,
           "sentences": [
-            {"sentence_id": "doc_013_s02_p03_s01", "sentence_ordinal": 1, "text": "[3]   ``With their consent'' inserted by Seward.", "word_offset_start": 1253, "word_offset_end": 1260, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_013_s02_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "[3]   ``With their consent'' inserted by Seward.",
+              "word_offset_start": 1253,
+              "word_offset_end": 1260,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_013_s02_p04",
           "paragraph_ordinal": 4,
           "sentences": [
-            {"sentence_id": "doc_013_s02_p04_s01", "sentence_ordinal": 1, "text": "[4]   ``With the previously obtained consent of the Governments existing there'' inserted by Seward.", "word_offset_start": 1260, "word_offset_end": 1274, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_013_s02_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "[4]   ``With the previously obtained consent of the Governments existing there'' inserted by Seward.",
+              "word_offset_start": 1260,
+              "word_offset_end": 1274,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_013_s02_p05",
           "paragraph_ordinal": 5,
           "sentences": [
-            {"sentence_id": "doc_013_s02_p05_s01", "sentence_ordinal": 1, "text": "[5]   At this point Lincoln deleted and revised his original phrasing.", "word_offset_start": 1274, "word_offset_end": 1285, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_013_s02_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "[5]   At this point Lincoln deleted and revised his original phrasing.",
+              "word_offset_start": 1274,
+              "word_offset_end": 1285,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_013_s02_p06",
           "paragraph_ordinal": 6,
           "sentences": [
-            {"sentence_id": "doc_013_s02_p06_s01", "sentence_ordinal": 1, "text": "[6]   A clipping from the official printing of the act is pasted on the page of Lincoln's autograph document.", "word_offset_start": 1285, "word_offset_end": 1304, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_013_s02_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "[6]   A clipping from the official printing of the act is pasted on the page of Lincoln's autograph document.",
+              "word_offset_start": 1285,
+              "word_offset_end": 1304,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_013_s02_p07",
           "paragraph_ordinal": 7,
           "sentences": [
-            {"sentence_id": "doc_013_s02_p07_s01", "sentence_ordinal": 1, "text": "[7]   This quotation is also in the form of a clipping from the official printing.", "word_offset_start": 1304, "word_offset_end": 1319, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_013_s02_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "[7]   This quotation is also in the form of a clipping from the official printing.",
+              "word_offset_start": 1304,
+              "word_offset_end": 1319,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_013_s02_p08",
           "paragraph_ordinal": 8,
           "sentences": [
-            {"sentence_id": "doc_013_s02_p08_s01", "sentence_ordinal": 1, "text": "[8]   ``In due time'' is inserted in handwriting not Lincoln's, to replace ``at the next session of Congress.''", "word_offset_start": 1319, "word_offset_end": 1337, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_013_s02_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "[8]   ``In due time'' is inserted in handwriting not Lincoln's, to replace ``at the next session of Congress.''",
+              "word_offset_start": 1319,
+              "word_offset_end": 1337,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         },
         {
           "paragraph_id": "doc_013_s02_p09",
           "paragraph_ordinal": 9,
           "sentences": [
-            {"sentence_id": "doc_013_s02_p09_s01", "sentence_ordinal": 1, "text": "[9]   The remainder, including signatures, is in the hand of the clerk.", "word_offset_start": 1337, "word_offset_end": 1349, "authorship_note": "editorial_apparatus", "metaphor_instances": []}
+            {
+              "sentence_id": "doc_013_s02_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "[9]   The remainder, including signatures, is in the hand of the clerk.",
+              "word_offset_start": 1337,
+              "word_offset_end": 1349,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
           ]
         }
       ]
     }
   ],
   "pipeline_log": [
-    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
-    {"stage": 4, "agent": "claude-sonnet-4-6", "date": "2026-04-29"}
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "claude-sonnet-4-6",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
+    }
   ]
 }

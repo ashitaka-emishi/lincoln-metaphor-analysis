@@ -38,18 +38,18 @@
       "cluster_04_birth_creation"
     ],
     "dominant_cluster": "cluster_03_experiment_proposition",
-    "instance_range": "inst_00086\u2013inst_00094",
+    "instance_range": "inst_00086–inst_00094",
     "extension_groups": [
       "ext_016"
     ],
-    "koenigsberg_summary": "Phase 2 baseline: the July 4 Message activates cluster_03 as dominant frame for the first time since the Lyceum Address (1838). The war is explicitly framed as a test of whether popular self-government can survive \u2014 a proposition to be demonstrated. The sacrificial economy is structurally available but not yet deployed (no living dead, no consecrated sacrifice). cluster_01 is absent despite the war's onset \u2014 Lincoln argues constitutionally and logically, not organically. The disease/drugging frame (p35_s01 sugar-coating passage) is Lincoln's characterization of Southern propaganda strategy, not his own governing logic; disease_and_purification remains absent from Lincoln's metaphor system.",
+    "koenigsberg_summary": "Phase 2 baseline: the July 4 Message activates cluster_03 as dominant frame for the first time since the Lyceum Address (1838). The war is explicitly framed as a test of whether popular self-government can survive — a proposition to be demonstrated. The sacrificial economy is structurally available but not yet deployed (no living dead, no consecrated sacrifice). cluster_01 is absent despite the war's onset — Lincoln argues constitutionally and logically, not organically. The disease/drugging frame (p35_s01 sugar-coating passage) is Lincoln's characterization of Southern propaganda strategy, not his own governing logic; disease_and_purification remains absent from Lincoln's metaphor system.",
     "absence_flags": {
       "enslaved_people_non_agent": true,
       "black_soldiers_absent": true,
       "disease_and_purification": false,
       "lincoln_non_agent": false
     },
-    "annotator_notes": "p35_s01 ('With rebellion thus sugar-coated, they have been drugging the public mind') \u2014 Lincoln deploys contamination/drugging language as characterization of Confederate propaganda strategy. Analogous to Cooper Union p77_s05: Lincoln perceives the frame but does not inhabit it as his own logic. Not annotated. cluster_01 absent despite war beginning: congressional message register produces constitutional-logical argument, not organic-body argument. cluster_04 absent: no birth/nativity frame yet; that register belongs to Gettysburg. p36_s07 + p37_s01 are a split sentence; annotated on p36_s07 where 'plighting of faith' appears."
+    "annotator_notes": "p35_s01 ('With rebellion thus sugar-coated, they have been drugging the public mind') — Lincoln deploys contamination/drugging language as characterization of Confederate propaganda strategy. Analogous to Cooper Union p77_s05: Lincoln perceives the frame but does not inhabit it as his own logic. Not annotated. cluster_01 absent despite war beginning: congressional message register produces constitutional-logical argument, not organic-body argument. cluster_04 absent: no birth/nativity frame yet; that register belongs to Gettysburg. p36_s07 + p37_s01 are a split sentence; annotated on p36_s07 where 'plighting of faith' appears."
   },
   "sections": [
     {
@@ -638,36 +638,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00087",
-                  "cluster": "cluster_03_experiment_proposition",
-                  "linguistic_form": "whether a constitutional republic, or a democracy---a government of the people, by the same people---can, or cannot, maintain its territorial integrity, against its own domestic foes",
-                  "char_span_start": 54,
-                  "char_span_end": 235,
-                  "confidence": 0.85,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_010_s01_p16_s02",
+                  "document_id": "doc_010",
+                  "document_date": "1861-07-04",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.88,
+                  "span_text": "whether a constitutional republic, or a democracy---a government of the people, by the same people---can, or cannot, maintain its territorial integrity, against its own domestic foes",
+                  "span_char_start": 54,
+                  "span_char_end": 235,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
                     "source_domain": "logical_proposition_test",
                     "target_domain": "constitutional_republic",
-                    "mapping": "the Civil War poses a logical question about the truth of a proposition: can popular self-government maintain itself against internal dissolution? The war is a test of this proposition's truth",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the war's outcome is a logical proof or disproof, not merely a military result",
                       "the whole 'family of man' is the audience for the demonstration",
                       "failure would disprove democratic self-government universally"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Standalone setup instance for the p51 experiment arc (ext_016). This sentence establishes the logical frame that p51 will complete. The 'whole family of man' as audience is a structural feature that reappears at Gettysburg's 'testing whether that nation...can long endure.' Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'ideological_proof' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the Civil War poses a logical question about the truth of a proposition: can popular self-government maintain itself against internal dissolution? The war is a test of this proposition's truth",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "ideological_proof",
+                    "fantasy_type": "experiment_and_proof",
                     "violence_logic": "if the war is a logical test, military force is the mechanism of demonstration, not aggression",
-                    "obligatory_frame": "the proposition must be answered \u2014 the world is watching; the question cannot be left unanswered",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "the proposition must be answered — the world is watching; the question cannot be left unanswered",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "constitutional republic as proposition under test",
                     "guilt_distribution": "guilt assigned to those who force the test (secessionists); the Union must demonstrate the answer",
-                    "sacrificial_economy": "lives spent in the test are the cost of proving the proposition \u2014 not wasted but demonstrative",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "lives spent in the test are the cost of proving the proposition — not wasted but demonstrative",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Standalone setup instance for the p51 experiment arc (ext_016). This sentence establishes the logical frame that p51 will complete. The 'whole family of man' as audience is a structural feature that reappears at Gettysburg's 'testing whether that nation...can long endure.'"
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.85,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1531,35 +1555,59 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00086",
-                  "cluster": "cluster_02_covenant_oath",
-                  "linguistic_form": "plighting of faith",
-                  "char_span_start": 12,
-                  "char_span_end": 29,
-                  "confidence": 0.8,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_010_s01_p36_s07",
+                  "document_id": "doc_010",
+                  "document_date": "1861-07-04",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.88,
+                  "span_text": "plighting of faith",
+                  "span_char_start": 12,
+                  "span_char_end": 29,
                   "cmt": {
+                    "cluster_id": "cluster_02_covenant_oath",
                     "source_domain": "solemn_promise_covenant",
                     "target_domain": "constitutional_union",
-                    "mapping": "the thirteen original states' commitment to perpetual union in the Articles of Confederation is a plighted faith \u2014 a solemn covenant pledge, not merely a political agreement",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the union's perpetuity is a sworn bond, not an experimental arrangement; violating it is covenant-breaking",
                       "historical precedent of plighted faith makes secession not merely illegal but a betrayal of a sacred promise"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "sentence split: p36_s07 runs into p37_s01 ('be perpetual, is most conclusive'). Instance annotated on p36_s07 where 'plighting of faith' appears. The plighted faith formula here echoes inst_00072 (doc_009, First Inaugural, p16_s05) where Lincoln cited the same Articles of Confederation covenant to prove the Union's perpetuity. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'covenant_preservation' to canonical 'oath_and_obligation'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the thirteen original states' commitment to perpetual union in the Articles of Confederation is a plighted faith — a solemn covenant pledge, not merely a political agreement",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "covenant_preservation",
+                    "fantasy_type": "oath_and_obligation",
                     "violence_logic": "covenant violation by the South transforms Lincoln's military response into covenant-keeping",
-                    "obligatory_frame": "the plighted faith of the original thirteen creates an obligation that cannot be unilaterally dissolved",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "the plighted faith of the original thirteen creates an obligation that cannot be unilaterally dissolved",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "the perpetual Union as sacred bond",
                     "guilt_distribution": "guilt assigned to covenant-breakers (secessionists); Union actors are covenant-keepers",
-                    "sacrificial_economy": "latent \u2014 plighted faith frame makes later sacrifice the cost of covenant-keeping",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — plighted faith frame makes later sacrifice the cost of covenant-keeping",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "sentence split: p36_s07 runs into p37_s01 ('be perpetual, is most conclusive'). Instance annotated on p36_s07 where 'plighting of faith' appears. The plighted faith formula here echoes inst_00072 (doc_009, First Inaugural, p16_s05) where Lincoln cited the same Articles of Confederation covenant to prove the Union's perpetuity."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.8,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2156,35 +2204,59 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00088",
-                  "cluster": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "unlike the good old one, penned by Jefferson",
-                  "char_span_start": 74,
-                  "char_span_end": 117,
-                  "confidence": 0.75,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_010_s01_p46_s04",
+                  "document_id": "doc_010",
+                  "document_date": "1861-07-04",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.88,
+                  "span_text": "unlike the good old one, penned by Jefferson",
+                  "span_char_start": 74,
+                  "span_char_end": 117,
                   "cmt": {
+                    "cluster_id": "cluster_05_fathers_inheritance",
                     "source_domain": "patrimonial_inheritance",
                     "target_domain": "confederate_foundational_documents",
-                    "mapping": "the Confederate Declaration of Independence is measured against Jefferson's as inherited authoritative standard; the founding fathers' documents are the inherited estate by which successor political acts are judged",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "Jefferson's Declaration is the authoritative original; any successor document must honor it",
-                      "omitting 'all men are created equal' is a failure of inheritance \u2014 a betrayal of the patrimony"
-                    ]
+                      "omitting 'all men are created equal' is a failure of inheritance — a betrayal of the patrimony"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "negative-comparison variant of cluster_05: Lincoln invokes the founder's authority not to claim it for himself but to show Confederate political acts fall short of the inherited standard. Conf 0.75 — conventional invocation rather than full juridical or blood-covenant mode. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'patrimony_defense' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the Confederate Declaration of Independence is measured against Jefferson's as inherited authoritative standard; the founding fathers' documents are the inherited estate by which successor political acts are judged",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "patrimony_defense",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "Confederate abandonment of the inherited patrimony (Jefferson's equality principle) is the crime Lincoln catalogs",
-                    "obligatory_frame": "the inherited founding documents establish the standard all American political acts must meet",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "the inherited founding documents establish the standard all American political acts must meet",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "Jefferson's Declaration as inherited authoritative standard",
                     "guilt_distribution": "Confederate actors guilty of betraying the patrimony by omitting the equality principle",
-                    "sacrificial_economy": "not yet developed",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "not yet developed",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "negative-comparison variant of cluster_05: Lincoln invokes the founder's authority not to claim it for himself but to show Confederate political acts fall short of the inherited standard. Conf 0.75 \u2014 conventional invocation rather than full juridical or blood-covenant mode."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.75,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2199,35 +2271,59 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00089",
-                  "cluster": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "unlike our good old one, signed by Washington",
-                  "char_span_start": 79,
-                  "char_span_end": 123,
-                  "confidence": 0.72,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_010_s01_p46_s05",
+                  "document_id": "doc_010",
+                  "document_date": "1861-07-04",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.88,
+                  "span_text": "unlike our good old one, signed by Washington",
+                  "span_char_start": 79,
+                  "span_char_end": 123,
                   "cmt": {
+                    "cluster_id": "cluster_05_fathers_inheritance",
                     "source_domain": "patrimonial_inheritance",
                     "target_domain": "confederate_constitution",
-                    "mapping": "the Confederate constitution is measured against Washington's (the Constitution signed by Washington) as the inherited authoritative standard; omitting 'We, the People' is a departure from the patrimony",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "Washington's Constitution is the inherited standard; the people's authority is the founding inheritance",
                       "Confederate substitution ('We, the deputies of sovereign states') repudiates the inherited popular sovereignty"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Paired with inst_00088 (p46_s04, Jefferson) — both are negative-comparison cluster_05 instances showing Confederate political acts falling short of the inherited founding standard. Confidence 0.72 — minimal extension of cluster_05 source domain; conventional invocation. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'patrimony_defense' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the Confederate constitution is measured against Washington's (the Constitution signed by Washington) as the inherited authoritative standard; omitting 'We, the People' is a departure from the patrimony",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "patrimony_defense",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "Confederate repudiation of 'We, the People' is a repudiation of the inherited founding principle",
-                    "obligatory_frame": "Washington's founding document establishes inherited popular sovereignty that cannot be superseded",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "Washington's founding document establishes inherited popular sovereignty that cannot be superseded",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "Washington's Constitution as inherited standard of popular sovereignty",
                     "guilt_distribution": "Confederate actors guilty of repudiating the inheritance of popular self-government",
-                    "sacrificial_economy": "not yet developed",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "not yet developed",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Paired with inst_00088 (p46_s04, Jefferson) \u2014 both are negative-comparison cluster_05 instances showing Confederate political acts falling short of the inherited founding standard. Confidence 0.72 \u2014 minimal extension of cluster_05 source domain; conventional invocation."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.72,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2371,36 +2467,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00090",
-                  "cluster": "cluster_03_experiment_proposition",
-                  "linguistic_form": "Our popular government has often been called an experiment",
-                  "char_span_start": 0,
-                  "char_span_end": 57,
-                  "confidence": 0.92,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": "ext_016",
-                  "suppression_flag": false,
+                  "sentence_id": "doc_010_s01_p51_s01",
+                  "document_id": "doc_010",
+                  "document_date": "1861-07-04",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.88,
+                  "span_text": "Our popular government has often been called an experiment",
+                  "span_char_start": 0,
+                  "span_char_end": 57,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
                     "source_domain": "scientific_experiment_proof",
                     "target_domain": "popular_self_government",
-                    "mapping": "popular government is an experiment \u2014 a hypothesis about human political capability being tested by historical reality",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the republic's success or failure is a scientific result, not merely a political outcome",
                       "the experiment can succeed or fail on definable criteria",
                       "the current crisis is a new experimental condition"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_016",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_016 anchor. This is the explicit cluster_03 assertion that opens the p51 arc. Compare Lyceum Address (1838) inst_00082–inst_00084 where the same frame appeared: 'at first an undecided experiment; now a successful one.' In 1838 the experiment had already succeeded; in 1861 it faces its hardest test. The Lyceum Address stated the experiment's success; the July 4 Message reopens the question. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'ideological_proof' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "popular government is an experiment — a hypothesis about human political capability being tested by historical reality",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "ideological_proof",
+                    "fantasy_type": "experiment_and_proof",
                     "violence_logic": "if government is an experiment being tested, military force is the mechanism for completing the proof",
-                    "obligatory_frame": "the experiment must be completed \u2014 the hypothesis cannot be abandoned mid-test",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "the experiment must be completed — the hypothesis cannot be abandoned mid-test",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "popular government as scientific proposition",
                     "guilt_distribution": "secessionists are the ones who forced the experiment's hardest test; Union actors are completing the proof",
-                    "sacrificial_economy": "latent \u2014 soldiers' lives are the cost of completing the experiment",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — soldiers' lives are the cost of completing the experiment",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_016 anchor. This is the explicit cluster_03 assertion that opens the p51 arc. Compare Lyceum Address (1838) inst_00082\u2013inst_00084 where the same frame appeared: 'at first an undecided experiment; now a successful one.' In 1838 the experiment had already succeeded; in 1861 it faces its hardest test. The Lyceum Address stated the experiment's success; the July 4 Message reopens the question."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.92,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2415,35 +2535,59 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00091",
-                  "cluster": "cluster_03_experiment_proposition",
-                  "linguistic_form": "Two points in it, our people have already settled---the successful establishing, and the successful administering of it",
-                  "char_span_start": 0,
-                  "char_span_end": 118,
-                  "confidence": 0.87,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": "ext_016",
-                  "suppression_flag": false,
+                  "sentence_id": "doc_010_s01_p51_s02",
+                  "document_id": "doc_010",
+                  "document_date": "1861-07-04",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.88,
+                  "span_text": "Two points in it, our people have already settled---the successful establishing, and the successful administering of it",
+                  "span_char_start": 0,
+                  "span_char_end": 118,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
                     "source_domain": "scientific_experiment_proof",
                     "target_domain": "popular_self_government",
-                    "mapping": "two experimental variables have been successfully measured (establishing, administering); the experiment has yielded results on two of three criteria",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "partial proof already exists \u2014 the experiment is not starting from scratch in 1861",
+                      "partial proof already exists — the experiment is not starting from scratch in 1861",
                       "the remaining variable (maintenance under attack) is the current test"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_016",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_016. 'Settled' in this context carries the scientific sense of 'demonstrated/resolved.' The arc structure (two proven, one remaining) is a logical enthymeme: the experiment has partial results that obligate completing the test. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'ideological_proof' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "two experimental variables have been successfully measured (establishing, administering); the experiment has yielded results on two of three criteria",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "ideological_proof",
-                    "violence_logic": "the partial proof (two of three points settled) makes completing the third obligatory \u2014 the proof cannot be abandoned incomplete",
-                    "obligatory_frame": "two prior experimental results obligate the current generation to complete the third",
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "the partial proof (two of three points settled) makes completing the third obligatory — the proof cannot be abandoned incomplete",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "two prior experimental results obligate the current generation to complete the third",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "proven track record of popular government as foundation for current test",
                     "guilt_distribution": "secessionists force the third test; Union actors must complete it",
-                    "sacrificial_economy": "latent",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_016. 'Settled' in this context carries the scientific sense of 'demonstrated/resolved.' The arc structure (two proven, one remaining) is a logical enthymeme: the experiment has partial results that obligate completing the test."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.87,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2458,35 +2602,59 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00092",
-                  "cluster": "cluster_03_experiment_proposition",
-                  "linguistic_form": "One still remains---its successful maintenance against a formidable [internal] attempt to overthrow it",
-                  "char_span_start": 0,
-                  "char_span_end": 101,
-                  "confidence": 0.88,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": "ext_016",
-                  "suppression_flag": false,
+                  "sentence_id": "doc_010_s01_p51_s03",
+                  "document_id": "doc_010",
+                  "document_date": "1861-07-04",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.88,
+                  "span_text": "One still remains---its successful maintenance against a formidable [internal] attempt to overthrow it",
+                  "span_char_start": 0,
+                  "span_char_end": 101,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
                     "source_domain": "scientific_experiment_proof",
                     "target_domain": "popular_self_government",
-                    "mapping": "the current war is the one remaining experimental criterion \u2014 whether popular government can maintain itself against formidable internal attack",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the Civil War is defined as an experimental condition, not a moral catastrophe or organic wound",
                       "success in this test completes the proof of popular government's viability"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_016",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_016. The '[internal]' bracket in the text suggests editorial insertion or Lincoln's own qualification — the attack is internal, which maps to the Lyceum Address's 'die by suicide' logic (inst_00080): the only threat to the republic is internal dissolution. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'ideological_proof' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the current war is the one remaining experimental criterion — whether popular government can maintain itself against formidable internal attack",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "ideological_proof",
-                    "violence_logic": "military maintenance against internal overthrow is completion of the third experimental criterion \u2014 not aggression",
-                    "obligatory_frame": "the remaining experimental test must be completed; failure would invalidate the prior results",
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "military maintenance against internal overthrow is completion of the third experimental criterion — not aggression",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "the remaining experimental test must be completed; failure would invalidate the prior results",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "internal attempt to overthrow as experimental adversary condition",
                     "guilt_distribution": "the 'formidable internal attempt' is the externalized threat to the experiment; Union actors are maintaining the test's integrity",
-                    "sacrificial_economy": "latent \u2014 'successful maintenance' requires cost; those costs are experimental overhead",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — 'successful maintenance' requires cost; those costs are experimental overhead",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_016. The '[internal]' bracket in the text suggests editorial insertion or Lincoln's own qualification \u2014 the attack is internal, which maps to the Lyceum Address's 'die by suicide' logic (inst_00080): the only threat to the republic is internal dissolution."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.88,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2501,36 +2669,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00093",
-                  "cluster": "cluster_03_experiment_proposition",
-                  "linguistic_form": "It is now for them to demonstrate to the world, that those who can fairly carry an election, can also suppress a rebellion",
-                  "char_span_start": 0,
-                  "char_span_end": 404,
-                  "confidence": 0.87,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": "ext_016",
-                  "suppression_flag": false,
+                  "sentence_id": "doc_010_s01_p51_s04",
+                  "document_id": "doc_010",
+                  "document_date": "1861-07-04",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.88,
+                  "span_text": "It is now for them to demonstrate to the world, that those who can fairly carry an election, can also suppress a rebellion",
+                  "span_char_start": 0,
+                  "span_char_end": 404,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
                     "source_domain": "scientific_experiment_proof",
                     "target_domain": "popular_self_government",
-                    "mapping": "the war's outcome is a demonstration \u2014 a practical proof offered to the world \u2014 that electoral democracy can also maintain itself by force against rebellion",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the demonstration is for a universal audience ('the world') not just for Americans",
                       "the proof has two components: electoral success + military maintenance = same capacity",
                       "ballots and bullets are parallel instruments of democratic self-governance"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_016",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_016 climax. This is the most fully developed cluster_03 statement in doc_010 and the clearest pre-Gettysburg statement of the war-as-democratic-proof logic. The 'demonstrate to the world' formula anticipates Gettysburg's 'testing whether that nation...can long endure' and the Second Inaugural's 'He gives to both North and South this terrible war.' The ballots/bullets parallel is the logical structure: electoral and military capacity are the same democratic faculty. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'ideological_proof' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the war's outcome is a demonstration — a practical proof offered to the world — that electoral democracy can also maintain itself by force against rebellion",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "ideological_proof",
-                    "violence_logic": "military suppression of rebellion is the act of demonstration \u2014 the same competence that wins elections must also win wars; the war is a proof of democratic capacity",
-                    "obligatory_frame": "the demonstration must be completed for the world's benefit \u2014 it cannot be abandoned",
+                    "fantasy_type": "experiment_and_proof",
+                    "violence_logic": "military suppression of rebellion is the act of demonstration — the same competence that wins elections must also win wars; the war is a proof of democratic capacity",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "the demonstration must be completed for the world's benefit — it cannot be abandoned",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "the world as audience for the democratic demonstration",
                     "guilt_distribution": "those who force the test (rebels) have created the obligation to demonstrate; Union actors are performing the proof",
-                    "sacrificial_economy": "near-explicit \u2014 lives spent suppressing the rebellion are the cost of the demonstration; their sacrifice proves the proposition",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "near-explicit — lives spent suppressing the rebellion are the cost of the demonstration; their sacrifice proves the proposition",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_016 climax. This is the most fully developed cluster_03 statement in doc_010 and the clearest pre-Gettysburg statement of the war-as-democratic-proof logic. The 'demonstrate to the world' formula anticipates Gettysburg's 'testing whether that nation...can long endure' and the Second Inaugural's 'He gives to both North and South this terrible war.' The ballots/bullets parallel is the logical structure: electoral and military capacity are the same democratic faculty."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.87,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2710,36 +2902,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00094",
-                  "cluster": "cluster_06_providence_theodicy",
-                  "linguistic_form": "renew our trust in God",
-                  "char_span_start": 80,
-                  "char_span_end": 101,
-                  "confidence": 0.76,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_010_s01_p56_s01",
+                  "document_id": "doc_010",
+                  "document_date": "1861-07-04",
+                  "document_register": "congressional_message",
+                  "authorship_confidence": 0.88,
+                  "span_text": "renew our trust in God",
+                  "span_char_start": 80,
+                  "span_char_end": 101,
                   "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
                     "source_domain": "divine_providence",
                     "target_domain": "union_war_effort",
-                    "mapping": "God is the ultimate trustworthy authority in whose purposes the Union's course is grounded; renewing trust in God is the closing act that places the war effort under divine sanction",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the chosen course ('having thus chosen our course') is sanctioned by God",
                       "going forward 'without fear' is possible because trust in God undergirds the effort",
                       "the war effort is placed under providential protection"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Closing cluster_06 instance. Phase 2 mode: Providence as sanctioning authority (protective mode), not yet as inscrutable judge. Compare First Inaugural (doc_009) inst_00073–inst_00074 (bipartisan, adjudicating mode) and Second Inaugural (Phase 5) where Providence has willed four years of bloodshed. 'Without guile, and with pure purpose' — purity of intent is Lincoln's claim to divine support. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'providential_sanction' to canonical 'punishment_and_theodicy'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "God is the ultimate trustworthy authority in whose purposes the Union's course is grounded; renewing trust in God is the closing act that places the war effort under divine sanction",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "providential_sanction",
+                    "fantasy_type": "punishment_and_theodicy",
                     "violence_logic": "divine trust converts the war effort from political choice to providentially sanctioned obligation",
-                    "obligatory_frame": "trust in God makes the chosen course not merely preferred but divinely authorized",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "trust in God makes the chosen course not merely preferred but divinely authorized",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "God as ultimate trustworthy authority",
                     "guilt_distribution": "the purity of purpose ('without guile, and with pure purpose') distinguishes Union actors from guilty aggressor",
-                    "sacrificial_economy": "latent \u2014 going forward 'with manly hearts' implies readiness for sacrifice under divine protection",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — going forward 'with manly hearts' implies readiness for sacrifice under divine protection",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Closing cluster_06 instance. Phase 2 mode: Providence as sanctioning authority (protective mode), not yet as inscrutable judge. Compare First Inaugural (doc_009) inst_00073\u2013inst_00074 (bipartisan, adjudicating mode) and Second Inaugural (Phase 5) where Providence has willed four years of bloodshed. 'Without guile, and with pure purpose' \u2014 purity of intent is Lincoln's claim to divine support."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.76,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2784,7 +3000,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s01",
               "sentence_ordinal": 1,
-              "text": "[1]\u00a0\u00a0 AD, first proof sheets with autograph revisions, second proof sheets, two copies, (1) with revisions by William H. Seward for the most part in the handwriting of Frederick W. Seward, (2) with Lincoln's final revisions, DLC-RTL.",
+              "text": "[1]   AD, first proof sheets with autograph revisions, second proof sheets, two copies, (1) with revisions by William H. Seward for the most part in the handwriting of Frederick W. Seward, (2) with Lincoln's final revisions, DLC-RTL.",
               "word_offset_start": 6235,
               "word_offset_end": 6272,
               "authorship_note": "editorial_apparatus",
@@ -2820,7 +3036,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s05",
               "sentence_ordinal": 5,
-              "text": "Minor inconsistencies in usage occurring in Lincoln's manuscript and autograph changes in the proof sheets have been made to conform with the printed proof, but Lincoln's paragraphing, punctuation and capitalization in the manuscript and autograph corrections have been retained in some cases even though not followed by the printers who set the proofs.[2]\u00a0\u00a0 The first paragraph revised to the present text in the manuscript, stood originally as follows: ``Having convened you on an extraordinary occasion as contemplated by the Constitution, I do not ask your attention to any ordinary subject of legislation.",
+              "text": "Minor inconsistencies in usage occurring in Lincoln's manuscript and autograph changes in the proof sheets have been made to conform with the printed proof, but Lincoln's paragraphing, punctuation and capitalization in the manuscript and autograph corrections have been retained in some cases even though not followed by the printers who set the proofs.[2]   The first paragraph revised to the present text in the manuscript, stood originally as follows: ``Having convened you on an extraordinary occasion as contemplated by the Constitution, I do not ask your attention to any ordinary subject of legislation.",
               "word_offset_start": 6348,
               "word_offset_end": 6440,
               "authorship_note": "editorial_apparatus",
@@ -2829,7 +3045,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s06",
               "sentence_ordinal": 6,
-              "text": "You will act on your own judgment and pleasure whether you will consider any such.''[3]\u00a0\u00a0 ``All'' standing in the manuscript and first proof, deleted at this point in the second proof by Seward.",
+              "text": "You will act on your own judgment and pleasure whether you will consider any such.''[3]   ``All'' standing in the manuscript and first proof, deleted at this point in the second proof by Seward.",
               "word_offset_start": 6440,
               "word_offset_end": 6473,
               "authorship_note": "editorial_apparatus",
@@ -2838,7 +3054,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s07",
               "sentence_ordinal": 7,
-              "text": "Deletion adopted by Lincoln.[4]\u00a0\u00a0 ``Entirely'' in the manuscript, changed by Seward in the second proof to ``generally.'' Adopted by Lincoln.[5]\u00a0\u00a0 ``Either beseiged or'' inserted by Seward in the second proof.",
+              "text": "Deletion adopted by Lincoln.[4]   ``Entirely'' in the manuscript, changed by Seward in the second proof to ``generally.'' Adopted by Lincoln.[5]   ``Either beseiged or'' inserted by Seward in the second proof.",
               "word_offset_start": 6473,
               "word_offset_end": 6503,
               "authorship_note": "editorial_apparatus",
@@ -2847,7 +3063,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s08",
               "sentence_ordinal": 8,
-              "text": "Adopted by Lincoln.[6]\u00a0\u00a0 ``Perhaps ten'' inserted by Lincoln in the blank space which had stood from manuscript to second proof.[7]\u00a0\u00a0 ``Both in number and quality,'' in manuscript and first proof, deleted in second proof.[8]\u00a0\u00a0 ``Arms and ammunition,'' in the manuscript and first proof, deleted in second proof, and ``muskets and rifles'' inserted.[9]\u00a0\u00a0 ``These States'' in the manuscript and first proof, changed by Seward to ``them'' in second proof.",
+              "text": "Adopted by Lincoln.[6]   ``Perhaps ten'' inserted by Lincoln in the blank space which had stood from manuscript to second proof.[7]   ``Both in number and quality,'' in manuscript and first proof, deleted in second proof.[8]   ``Arms and ammunition,'' in the manuscript and first proof, deleted in second proof, and ``muskets and rifles'' inserted.[9]   ``These States'' in the manuscript and first proof, changed by Seward to ``them'' in second proof.",
               "word_offset_start": 6503,
               "word_offset_end": 6571,
               "authorship_note": "editorial_apparatus",
@@ -2856,7 +3072,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s09",
               "sentence_ordinal": 9,
-              "text": "Adopted by Lincoln.[10]\u00a0\u00a0 ``And'' in the manuscript and first proof, deleted at this point in the second proof by Seward.",
+              "text": "Adopted by Lincoln.[10]   ``And'' in the manuscript and first proof, deleted at this point in the second proof by Seward.",
               "word_offset_start": 6571,
               "word_offset_end": 6591,
               "authorship_note": "editorial_apparatus",
@@ -2865,7 +3081,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s10",
               "sentence_ordinal": 10,
-              "text": "Deletion adopted by Lincoln.[11]\u00a0\u00a0 ``The officers'' in the manuscript and first proof; ``The'' deleted in the second proof by Seward.",
+              "text": "Deletion adopted by Lincoln.[11]   ``The officers'' in the manuscript and first proof; ``The'' deleted in the second proof by Seward.",
               "word_offset_start": 6591,
               "word_offset_end": 6611,
               "authorship_note": "editorial_apparatus",
@@ -2874,7 +3090,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s11",
               "sentence_ordinal": 11,
-              "text": "Deletion adopted by Lincoln.[12]\u00a0\u00a0 This sentence was slightly revised by Lincoln from Seward's suggestion in the second proof.",
+              "text": "Deletion adopted by Lincoln.[12]   This sentence was slightly revised by Lincoln from Seward's suggestion in the second proof.",
               "word_offset_start": 6611,
               "word_offset_end": 6629,
               "authorship_note": "editorial_apparatus",
@@ -2883,7 +3099,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s12",
               "sentence_ordinal": 12,
-              "text": "The manuscript and first proof read as follows: ``Also the forms of establishing a federal government of these States, with departments, and provisions, similar to our own, had been gone through; and this supposed Federal government, under the name and style of `The Confederate States of America,' had assumed national independence, and was suing for it's recognition by the powers of the earth.''[13]\u00a0\u00a0 ``At the request of the executive,'' in the manuscript, replaced by ``On reflection,'' in first proof.[14]\u00a0\u00a0 ``Informed the executive,'' in the manuscript, replaced by ``stated,'' in first proof.[15]\u00a0\u00a0 The following sentence deleted from the manuscript at this point: ``In fact, General Scott advised that this should be done at once.''[16]\u00a0\u00a0 ``The executive,'' in the manuscript, changed to ``It was'' in first proof.[17]\u00a0\u00a0 ``Under the circumstances'' inserted by Seward and adopted by Lincoln in the second proof.[18]\u00a0\u00a0 ``Of independence,'' in the manuscript and first proof, deleted at this point by Seward.",
+              "text": "The manuscript and first proof read as follows: ``Also the forms of establishing a federal government of these States, with departments, and provisions, similar to our own, had been gone through; and this supposed Federal government, under the name and style of `The Confederate States of America,' had assumed national independence, and was suing for it's recognition by the powers of the earth.''[13]   ``At the request of the executive,'' in the manuscript, replaced by ``On reflection,'' in first proof.[14]   ``Informed the executive,'' in the manuscript, replaced by ``stated,'' in first proof.[15]   The following sentence deleted from the manuscript at this point: ``In fact, General Scott advised that this should be done at once.''[16]   ``The executive,'' in the manuscript, changed to ``It was'' in first proof.[17]   ``Under the circumstances'' inserted by Seward and adopted by Lincoln in the second proof.[18]   ``Of independence,'' in the manuscript and first proof, deleted at this point by Seward.",
               "word_offset_start": 6629,
               "word_offset_end": 6782,
               "authorship_note": "editorial_apparatus",
@@ -2892,7 +3108,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s13",
               "sentence_ordinal": 13,
-              "text": "Deletion adopted by Lincoln.[19]\u00a0\u00a0 ``The administration hesitated.'' in the manuscript, changed in first proof to the sentence in the text.[20]\u00a0\u00a0 The portion in parentheses appears in the manuscript as a revision of the following: ``and of the existence of which the present administration had not been notified.''[21]\u00a0\u00a0 ``But starving'' changed in the manuscript to ``and hungry.''[22]\u00a0\u00a0 ``On that occasion'' inserted by Seward and adopted by Lincoln in the second proof.[23]\u00a0\u00a0 ``Aggress upon'' changed in the manuscript to ``assail.''[24]\u00a0\u00a0 ``Mystification'' changed in the manuscript to ``ingenious sophistry.''[25]\u00a0\u00a0 ``Constitutional republic, or a'' inserted in second proof.[26]\u00a0\u00a0 ``The administration had no choice left,'' in the manuscript, changed to the present text in first proof.[27]\u00a0\u00a0 ``Military power'' changed in the manuscript to ``war-power.''[28]\u00a0\u00a0 ``To the administration,'' in the manuscript, deleted at this point in first proof.[29]\u00a0\u00a0 ``Except patriotic Delaware'' inserted by Seward and ``except Delaware,'' adopted by Lincoln in second proof.[30]\u00a0\u00a0 ``Others'' inserted in second proof.[31]\u00a0\u00a0 ``United States service'' changed in the manuscript to ``government service.''[32]\u00a0\u00a0 ``In'' inserted in second proof.[33]\u00a0\u00a0 ``Were apparantly, quite against it,'' in the manuscript and first proof replaced in second proof with the conclusion of the sentence as reproduced here.[34]\u00a0\u00a0 ``Nearly all the'' changed in the manuscript to ``many.''[35]\u00a0\u00a0 ``They, however, submitted,'' in the manuscript, changed in first proof to ``Although they submitted.''[36]\u00a0\u00a0 ``Then'' in the manuscript, omitted in first proof, and inserted in the second proof.[37]\u00a0\u00a0 Period and new sentence beginning here in manuscript, changed in first proof to the present text.[38]\u00a0\u00a0 ``Was,'' in the manuscript and first proof, changed in the second proof to ``were.''[39]\u00a0\u00a0 ``Confederate'' changed in the manuscript to ``seceded.''[40]\u00a0\u00a0 ``Confederate States of America,'' in the manuscript and first proof, changed to ``Confederate States'' by Seward and adopted by Lincoln in second proof.[41]\u00a0\u00a0 The sentence ``Those citizens are Virginia,'' in the manuscript, changed in first proof to the sentence of the present text.",
+              "text": "Deletion adopted by Lincoln.[19]   ``The administration hesitated.'' in the manuscript, changed in first proof to the sentence in the text.[20]   The portion in parentheses appears in the manuscript as a revision of the following: ``and of the existence of which the present administration had not been notified.''[21]   ``But starving'' changed in the manuscript to ``and hungry.''[22]   ``On that occasion'' inserted by Seward and adopted by Lincoln in the second proof.[23]   ``Aggress upon'' changed in the manuscript to ``assail.''[24]   ``Mystification'' changed in the manuscript to ``ingenious sophistry.''[25]   ``Constitutional republic, or a'' inserted in second proof.[26]   ``The administration had no choice left,'' in the manuscript, changed to the present text in first proof.[27]   ``Military power'' changed in the manuscript to ``war-power.''[28]   ``To the administration,'' in the manuscript, deleted at this point in first proof.[29]   ``Except patriotic Delaware'' inserted by Seward and ``except Delaware,'' adopted by Lincoln in second proof.[30]   ``Others'' inserted in second proof.[31]   ``United States service'' changed in the manuscript to ``government service.''[32]   ``In'' inserted in second proof.[33]   ``Were apparantly, quite against it,'' in the manuscript and first proof replaced in second proof with the conclusion of the sentence as reproduced here.[34]   ``Nearly all the'' changed in the manuscript to ``many.''[35]   ``They, however, submitted,'' in the manuscript, changed in first proof to ``Although they submitted.''[36]   ``Then'' in the manuscript, omitted in first proof, and inserted in the second proof.[37]   Period and new sentence beginning here in manuscript, changed in first proof to the present text.[38]   ``Was,'' in the manuscript and first proof, changed in the second proof to ``were.''[39]   ``Confederate'' changed in the manuscript to ``seceded.''[40]   ``Confederate States of America,'' in the manuscript and first proof, changed to ``Confederate States'' by Seward and adopted by Lincoln in second proof.[41]   The sentence ``Those citizens are Virginia,'' in the manuscript, changed in first proof to the sentence of the present text.",
               "word_offset_start": 6782,
               "word_offset_end": 7090,
               "authorship_note": "editorial_apparatus",
@@ -2928,7 +3144,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s17",
               "sentence_ordinal": 17,
-              "text": "Him who disregards, or him who keeps, his oath, in this respect?''[42]\u00a0\u00a0 This paragraph, not in the manuscript, occurs in first proof as an autograph page inserted.[43]\u00a0\u00a0 ``Consummated,'' in the autograph insertion in first proof, changed in the second proof to ``completed.''[44]\u00a0\u00a0 ``While they may not all be traitors who have favored it, the thing is, in fact, treason in disguise,'' in the autograph insertion in first proof, changed by Seward to the reading adopted by Lincoln in the second proof, Lincoln adding the word ``doubtless'' to Seward's revision.",
+              "text": "Him who disregards, or him who keeps, his oath, in this respect?''[42]   This paragraph, not in the manuscript, occurs in first proof as an autograph page inserted.[43]   ``Consummated,'' in the autograph insertion in first proof, changed in the second proof to ``completed.''[44]   ``While they may not all be traitors who have favored it, the thing is, in fact, treason in disguise,'' in the autograph insertion in first proof, changed by Seward to the reading adopted by Lincoln in the second proof, Lincoln adding the word ``doubtless'' to Seward's revision.",
               "word_offset_start": 7171,
               "word_offset_end": 7260,
               "authorship_note": "editorial_apparatus",
@@ -2937,7 +3153,7 @@
             {
               "sentence_id": "doc_010_s02_p01_s18",
               "sentence_ordinal": 18,
-              "text": "``Treason'' is amended to ``very injurious'' in the Congressional Globe Appendix, which is followed by Nicolay and Hay, suggesting further revision before release for publication.[45]\u00a0\u00a0 Seward deleted, and Lincoln adopted in second proof, the sentence standing next in the manuscript and first proof, as follows: ``On more mature reflection, with observation on current events, it was [the administration] concluded that the measures adopted were inadequate to the occasion, both by reason of the very limited time the militia would be held to serve, and the general insufficiency of numbers in the regular land and naval forces.'' Lincoln had changed ``the administration concluded,'' appearing in the manuscript, to ``it was concluded'' in first proof.[46]\u00a0\u00a0 ``Accordingly another call was made for---volunteers,'' in the manuscript and first proof, changed by Seward to the present reading adopted in the second proof.[47]\u00a0\u00a0 Two short paragraphs as revised in the manuscript and first proof are deleted at this point in the second proof by Seward.",
+              "text": "``Treason'' is amended to ``very injurious'' in the Congressional Globe Appendix, which is followed by Nicolay and Hay, suggesting further revision before release for publication.[45]   Seward deleted, and Lincoln adopted in second proof, the sentence standing next in the manuscript and first proof, as follows: ``On more mature reflection, with observation on current events, it was [the administration] concluded that the measures adopted were inadequate to the occasion, both by reason of the very limited time the militia would be held to serve, and the general insufficiency of numbers in the regular land and naval forces.'' Lincoln had changed ``the administration concluded,'' appearing in the manuscript, to ``it was concluded'' in first proof.[46]   ``Accordingly another call was made for---volunteers,'' in the manuscript and first proof, changed by Seward to the present reading adopted in the second proof.[47]   Two short paragraphs as revised in the manuscript and first proof are deleted at this point in the second proof by Seward.",
               "word_offset_start": 7260,
               "word_offset_end": 7419,
               "authorship_note": "editorial_apparatus",
@@ -2976,7 +3192,7 @@
             {
               "sentence_id": "doc_010_s02_p03_s01",
               "sentence_ordinal": 1,
-              "text": "``The attention of Congress is sought in aid of this means for suppressing the insurrection, as the one affording at once, the greatest efficiency, and least danger to life, of any at the control of the government.''[48]\u00a0\u00a0 ``I felt it my duty,'' in the manuscript, revised in first proof to ``it was considered a duty.''[49]\u00a0\u00a0 ``At my verbal request, as well as by the Generals own inclination, this authority has been exercised,'' in the manuscript, revised in first proof to ``This authority has purposely been exercised.''[50]\u00a0\u00a0 The remainder of this sentence, the next two sentences, and the beginning of the next, were revised in first proof to the present text.",
+              "text": "``The attention of Congress is sought in aid of this means for suppressing the insurrection, as the one affording at once, the greatest efficiency, and least danger to life, of any at the control of the government.''[48]   ``I felt it my duty,'' in the manuscript, revised in first proof to ``it was considered a duty.''[49]   ``At my verbal request, as well as by the Generals own inclination, this authority has been exercised,'' in the manuscript, revised in first proof to ``This authority has purposely been exercised.''[50]   The remainder of this sentence, the next two sentences, and the beginning of the next, were revised in first proof to the present text.",
               "word_offset_start": 7464,
               "word_offset_end": 7574,
               "authorship_note": "editorial_apparatus",
@@ -3012,7 +3228,7 @@
             {
               "sentence_id": "doc_010_s02_p03_s05",
               "sentence_ordinal": 5,
-              "text": "Must I have allowed them,'' etc.[51]\u00a0\u00a0 In the manuscript the remainder of this sentence originally read that ``more rogues than honest men find shelter under it, should, to a very limited extent, be violated?'' This was first revised to read as follows: ``that practically more of the guilty than [of] the innocent, find shelter under it,'' etc. The second revision on the manuscript stands in the first proof and thereafter, except for the insertion ``of'' in first proof as indicated in brackets.[52]\u00a0\u00a0 ``Violated,'' in the first proof, changed by Seward in the second proof to ``broken.'' Not adopted by Lincoln.[53]\u00a0\u00a0 This and the next two sentences inserted in first proof in Lincoln's autograph revised three sentences in the manuscript which read as follows: ``Even in such a case I should consider my official oath broken if I should allow the government to be overthrown, when I might think the disregarding the single law would tend to preserve it.",
+              "text": "Must I have allowed them,'' etc.[51]   In the manuscript the remainder of this sentence originally read that ``more rogues than honest men find shelter under it, should, to a very limited extent, be violated?'' This was first revised to read as follows: ``that practically more of the guilty than [of] the innocent, find shelter under it,'' etc. The second revision on the manuscript stands in the first proof and thereafter, except for the insertion ``of'' in first proof as indicated in brackets.[52]   ``Violated,'' in the first proof, changed by Seward in the second proof to ``broken.'' Not adopted by Lincoln.[53]   This and the next two sentences inserted in first proof in Lincoln's autograph revised three sentences in the manuscript which read as follows: ``Even in such a case I should consider my official oath broken if I should allow the government to be overthrown, when I might think the disregarding the single law would tend to preserve it.",
               "word_offset_start": 7670,
               "word_offset_end": 7828,
               "authorship_note": "editorial_apparatus",
@@ -3030,7 +3246,7 @@
             {
               "sentence_id": "doc_010_s02_p03_s07",
               "sentence_ordinal": 7,
-              "text": "In my opinion I violated no law.''[54]\u00a0\u00a0 ``I decided,'' in the manuscript, revised to ``It was decided'' in first proof.[55]\u00a0\u00a0 ``Of habeas corpus,'' in the manuscript and first proof, deleted in second proof.[56]\u00a0\u00a0 ``Which I authorized,'' in the manuscript, revised to ``which was authorized,'' in first proof.[57]\u00a0\u00a0 ``Plainly was made'' in the manuscript, revised to ``was plainly made'' in first proof.[58]\u00a0\u00a0 ``I can not bring myself to believe that the framers of that instrument,'' in the manuscript, revised to the present text in first proof.[59]\u00a0\u00a0 ``That'' in first proof, deleted in second proof.[60]\u00a0\u00a0 This sentence is inserted in Lincoln's autograph in first proof, replacing the following, in the manuscript: ``I enter upon no more extended argument; as an opinion, at some length, will be presented by the Attorney General.''[61]\u00a0\u00a0 ``I submit,'' in the manuscript, revised to ``is submitted'' in first proof.[62]\u00a0\u00a0 The remainder of this sentence is inserted in second proof by Seward and adopted by Lincoln, with minor changes in punctuation, in place of the following in the manuscript and first proof: ``he finds no cause of complaint against the present course of any foreign power, upon this subject.''[63]\u00a0\u00a0 ``I now ask,'' in the manuscript, revised to ``It is now recommended'' in first proof.[64]\u00a0\u00a0 The remainder of this sentence is revised to its present text in the second proof from the following wording in the manuscript and first proof: ``that you authorize to be applied to the work at least --- hundred thousand men, and three hundred millions of dollars.'' Seward had inserted ``if necessary'' following ``work'' and ``4'' in the blank space.",
+              "text": "In my opinion I violated no law.''[54]   ``I decided,'' in the manuscript, revised to ``It was decided'' in first proof.[55]   ``Of habeas corpus,'' in the manuscript and first proof, deleted in second proof.[56]   ``Which I authorized,'' in the manuscript, revised to ``which was authorized,'' in first proof.[57]   ``Plainly was made'' in the manuscript, revised to ``was plainly made'' in first proof.[58]   ``I can not bring myself to believe that the framers of that instrument,'' in the manuscript, revised to the present text in first proof.[59]   ``That'' in first proof, deleted in second proof.[60]   This sentence is inserted in Lincoln's autograph in first proof, replacing the following, in the manuscript: ``I enter upon no more extended argument; as an opinion, at some length, will be presented by the Attorney General.''[61]   ``I submit,'' in the manuscript, revised to ``is submitted'' in first proof.[62]   The remainder of this sentence is inserted in second proof by Seward and adopted by Lincoln, with minor changes in punctuation, in place of the following in the manuscript and first proof: ``he finds no cause of complaint against the present course of any foreign power, upon this subject.''[63]   ``I now ask,'' in the manuscript, revised to ``It is now recommended'' in first proof.[64]   The remainder of this sentence is revised to its present text in the second proof from the following wording in the manuscript and first proof: ``that you authorize to be applied to the work at least --- hundred thousand men, and three hundred millions of dollars.'' Seward had inserted ``if necessary'' following ``work'' and ``4'' in the blank space.",
               "word_offset_start": 7843,
               "word_offset_end": 8107,
               "authorship_note": "editorial_apparatus",
@@ -3039,7 +3255,7 @@
             {
               "sentence_id": "doc_010_s02_p03_s08",
               "sentence_ordinal": 8,
-              "text": "Lincoln adopted only the latter suggestion.[65]\u00a0\u00a0 ``Less than one twelfth,'' in the manuscript and first proof, changed in second proof to ``about one tenth.''[66]\u00a0\u00a0 ``Apparently'' inserted in first proof.[67]\u00a0\u00a0 ``Thirtieth,'' in the manuscript and first proof, changed in second proof to ``twentythird.''[68]\u00a0\u00a0 ``Are,'' in the manuscript, changed to ``seem'' in first proof.[69]\u00a0\u00a0 ``It will cost,'' in the manuscript and first proof at the end of this sentence, deleted in second proof.[70]\u00a0\u00a0 This sentence was inserted in the manuscript in place of the following: ``The War Department has great trouble to avoid receiving troops faster than it can provide them.'' Although Lincoln kept ``provide them'' in his revision, the printer made it ``provide for them,'' in second proof.[71]\u00a0\u00a0 ``Of'' not in the manuscript, but printed in first proof and kept in second proof.[72]\u00a0\u00a0 ``Morals'' in the manuscript changed to ``mind.''[73]\u00a0\u00a0 ``A single,'' in the manuscript, changed to ``an'' in first proof.[74]\u00a0\u00a0 ``Was, and,'' standing at this point in the manuscript and first proof, deleted in second proof.",
+              "text": "Lincoln adopted only the latter suggestion.[65]   ``Less than one twelfth,'' in the manuscript and first proof, changed in second proof to ``about one tenth.''[66]   ``Apparently'' inserted in first proof.[67]   ``Thirtieth,'' in the manuscript and first proof, changed in second proof to ``twentythird.''[68]   ``Are,'' in the manuscript, changed to ``seem'' in first proof.[69]   ``It will cost,'' in the manuscript and first proof at the end of this sentence, deleted in second proof.[70]   This sentence was inserted in the manuscript in place of the following: ``The War Department has great trouble to avoid receiving troops faster than it can provide them.'' Although Lincoln kept ``provide them'' in his revision, the printer made it ``provide for them,'' in second proof.[71]   ``Of'' not in the manuscript, but printed in first proof and kept in second proof.[72]   ``Morals'' in the manuscript changed to ``mind.''[73]   ``A single,'' in the manuscript, changed to ``an'' in first proof.[74]   ``Was, and,'' standing at this point in the manuscript and first proof, deleted in second proof.",
               "word_offset_start": 8107,
               "word_offset_end": 8273,
               "authorship_note": "editorial_apparatus",
@@ -3048,7 +3264,7 @@
             {
               "sentence_id": "doc_010_s02_p03_s09",
               "sentence_ordinal": 9,
-              "text": "Italics in this sentence were added in first proof.[75]\u00a0\u00a0 ``The'' not in the manuscript, but is in first proof.[76]\u00a0\u00a0 ``Then'' in the manuscript, changed to ``at the time'' in three pages of manuscript revision which replaced page eighteen of the first proof.[77]\u00a0\u00a0 ``Of power'' appears in manuscript revision of first proof, but not in the original manuscript.[78]\u00a0\u00a0 ``I believe'' in the original manuscript, changed to ``is believed'' in the autograph revision of page eighteen in first proof.[79]\u00a0\u00a0 Four sentences beginning here are not in the manuscript but appear in the autograph revision of page eighteen of the first proof.[80]\u00a0\u00a0 ``It can only be against law, and by revolution,'' in the manuscript, changed to ``they can only do so, against law, and by revolution'' in autograph revision of page eighteen in first proof.[81]\u00a0\u00a0 This sentence and the next do not appear in the manuscript, but are in the autograph revision of page eighteen of first proof.[82]\u00a0\u00a0 The sentence appearing next in the manuscript pages inserted to replace page eighteen of first proof, is deleted in second proof: ``As states, the Union gave birth to them.'' This sentence was itself a revision of a longer sentence in the original manuscript: ``As states, they were born into the Union, not one of them, except Texas, ever having had a State Constitution, independent of the Union.''[83]\u00a0\u00a0 The remainder of this paragraph and the next paragraph are as revised in first proof.",
+              "text": "Italics in this sentence were added in first proof.[75]   ``The'' not in the manuscript, but is in first proof.[76]   ``Then'' in the manuscript, changed to ``at the time'' in three pages of manuscript revision which replaced page eighteen of the first proof.[77]   ``Of power'' appears in manuscript revision of first proof, but not in the original manuscript.[78]   ``I believe'' in the original manuscript, changed to ``is believed'' in the autograph revision of page eighteen in first proof.[79]   Four sentences beginning here are not in the manuscript but appear in the autograph revision of page eighteen of the first proof.[80]   ``It can only be against law, and by revolution,'' in the manuscript, changed to ``they can only do so, against law, and by revolution'' in autograph revision of page eighteen in first proof.[81]   This sentence and the next do not appear in the manuscript, but are in the autograph revision of page eighteen of first proof.[82]   The sentence appearing next in the manuscript pages inserted to replace page eighteen of first proof, is deleted in second proof: ``As states, the Union gave birth to them.'' This sentence was itself a revision of a longer sentence in the original manuscript: ``As states, they were born into the Union, not one of them, except Texas, ever having had a State Constitution, independent of the Union.''[83]   The remainder of this paragraph and the next paragraph are as revised in first proof.",
               "word_offset_start": 8273,
               "word_offset_end": 8510,
               "authorship_note": "editorial_apparatus",
@@ -3093,7 +3309,7 @@
             {
               "sentence_id": "doc_010_s02_p03_s14",
               "sentence_ordinal": 14,
-              "text": "When exercised without such a cause revolution is no right, but simply a wicked exercise of physical power.''[84]\u00a0\u00a0 ``For them'' inserted in second proof.[85]\u00a0\u00a0 ``Those,'' in the manuscript pages replacing page eighteen in first proof, changed to ``these'' in second proof.[86]\u00a0\u00a0 ``I am combatting the position that secession is consistent with the constitution---is peaceful, and lawful,'' in the manuscript, revised to the present text in first proof.[87]\u00a0\u00a0 ``The creditors,'' in the manuscript and first proof, changed to ``creditors'' in second proof.[88]\u00a0\u00a0 ``Are to'' in the manuscript, changed to ``can'' in first proof.[89]\u00a0\u00a0 ``In such case, shall we find any more lenders of money, however much we may need them?'' appearing at this point in the manuscript, deleted in first proof.[90]\u00a0\u00a0 The remainder of this sentence and the next two are revised in first proof and second proof to the present text.",
+              "text": "When exercised without such a cause revolution is no right, but simply a wicked exercise of physical power.''[84]   ``For them'' inserted in second proof.[85]   ``Those,'' in the manuscript pages replacing page eighteen in first proof, changed to ``these'' in second proof.[86]   ``I am combatting the position that secession is consistent with the constitution---is peaceful, and lawful,'' in the manuscript, revised to the present text in first proof.[87]   ``The creditors,'' in the manuscript and first proof, changed to ``creditors'' in second proof.[88]   ``Are to'' in the manuscript, changed to ``can'' in first proof.[89]   ``In such case, shall we find any more lenders of money, however much we may need them?'' appearing at this point in the manuscript, deleted in first proof.[90]   The remainder of this sentence and the next two are revised in first proof and second proof to the present text.",
               "word_offset_start": 8615,
               "word_offset_end": 8756,
               "authorship_note": "editorial_apparatus",
@@ -3120,7 +3336,7 @@
             {
               "sentence_id": "doc_010_s02_p03_s17",
               "sentence_ordinal": 17,
-              "text": "If they have not departed from ours, by their own theoretic and practical construction of ours, which they copy in this respect, they show that they will secede from one another, whenever they shall find it the easiest way of settling their debts, or effecting any other selfish, or unjust object.''[91]\u00a0\u00a0 ``They will,'' in first proof, replaced in the second proof with ``to be consistent they must.''[92]\u00a0\u00a0 ``Indeed'' inserted in first proof.[93]\u00a0\u00a0 ``Ever elevating them above the rights of majorities,'' appearing in the manuscript at this point, deleted in first proof.[94]\u00a0\u00a0 In the manuscript and first proof the beginning of this sentence reads, ``The dread of their existence is that power. . . . '' etc., changed in second proof to the present text.[95]\u00a0\u00a0 ``Perhaps'' inserted by Seward and adopted by Lincoln in second proof.[96]\u00a0\u00a0 ``That'' inserted in first proof.[97]\u00a0\u00a0 ``Say,'' in the manuscript, changed to ``affirm'' in first proof.[98]\u00a0\u00a0 ``Demonstrative of'' as misprinted in first proof, corrected by Lincoln to ``demonstrating.''[99]\u00a0\u00a0 ``And even others, more decidedly for the Union, in sentiment, would be carried the same way,'' appearing at this point in the manuscript, deleted in first proof.[100]\u00a0\u00a0 ``Nor do I know that,'' in the manuscript and first proof, changed by Seward to ``I do not say that,'' and revised by Lincoln in second proof to the present text.[101]\u00a0\u00a0 ``Why this?'' in the manuscript, changed to ``Why?'' in first proof.[102]\u00a0\u00a0 ``Played,'' in the manuscript and first proof, changed to ``proved'' in second proof.[103]\u00a0\u00a0 ``Very,'' in the manuscript and first proof, deleted in second proof.[104]\u00a0\u00a0 ``Has,'' in the manuscript and first proof, changed to ``is known to have'' in second proof.[105]\u00a0\u00a0 ``Greater'' in the manuscript and first proof, changed in second proof to ``Great.''[106]\u00a0\u00a0 ``So far as known'' inserted in second proof.[107]\u00a0\u00a0 ``The,'' in the manuscript and first proof, deleted in second proof.[108]\u00a0\u00a0 ``The,'' in the manuscript and first proof, changed to ``it's'' in second proof.[109]\u00a0\u00a0 ``Of it,'' at this point in the manuscript and first proof, deleted in second proof.[110]\u00a0\u00a0 ``Internal'' inserted at this point as printed in the Congressional Globe Appendix which is followed by Nicolay and Hay.[111]\u00a0\u00a0 ``That those who can not carry an election, can not destroy the government,'' appearing at this point in the manuscript, deleted in first proof.[112]\u00a0\u00a0 The remainder of this sentence inserted in first proof.[113]\u00a0\u00a0 ``Relative,'' in the manuscript and first proof, changed to ``relatively'' in second proof.[114]\u00a0\u00a0 The manuscript ends at this point.",
+              "text": "If they have not departed from ours, by their own theoretic and practical construction of ours, which they copy in this respect, they show that they will secede from one another, whenever they shall find it the easiest way of settling their debts, or effecting any other selfish, or unjust object.''[91]   ``They will,'' in first proof, replaced in the second proof with ``to be consistent they must.''[92]   ``Indeed'' inserted in first proof.[93]   ``Ever elevating them above the rights of majorities,'' appearing in the manuscript at this point, deleted in first proof.[94]   In the manuscript and first proof the beginning of this sentence reads, ``The dread of their existence is that power. . . . '' etc., changed in second proof to the present text.[95]   ``Perhaps'' inserted by Seward and adopted by Lincoln in second proof.[96]   ``That'' inserted in first proof.[97]   ``Say,'' in the manuscript, changed to ``affirm'' in first proof.[98]   ``Demonstrative of'' as misprinted in first proof, corrected by Lincoln to ``demonstrating.''[99]   ``And even others, more decidedly for the Union, in sentiment, would be carried the same way,'' appearing at this point in the manuscript, deleted in first proof.[100]   ``Nor do I know that,'' in the manuscript and first proof, changed by Seward to ``I do not say that,'' and revised by Lincoln in second proof to the present text.[101]   ``Why this?'' in the manuscript, changed to ``Why?'' in first proof.[102]   ``Played,'' in the manuscript and first proof, changed to ``proved'' in second proof.[103]   ``Very,'' in the manuscript and first proof, deleted in second proof.[104]   ``Has,'' in the manuscript and first proof, changed to ``is known to have'' in second proof.[105]   ``Greater'' in the manuscript and first proof, changed in second proof to ``Great.''[106]   ``So far as known'' inserted in second proof.[107]   ``The,'' in the manuscript and first proof, deleted in second proof.[108]   ``The,'' in the manuscript and first proof, changed to ``it's'' in second proof.[109]   ``Of it,'' at this point in the manuscript and first proof, deleted in second proof.[110]   ``Internal'' inserted at this point as printed in the Congressional Globe Appendix which is followed by Nicolay and Hay.[111]   ``That those who can not carry an election, can not destroy the government,'' appearing at this point in the manuscript, deleted in first proof.[112]   The remainder of this sentence inserted in first proof.[113]   ``Relative,'' in the manuscript and first proof, changed to ``relatively'' in second proof.[114]   The manuscript ends at this point.",
               "word_offset_start": 8800,
               "word_offset_end": 9202,
               "authorship_note": "editorial_apparatus",
@@ -3129,7 +3345,7 @@
             {
               "sentence_id": "doc_010_s02_p03_s18",
               "sentence_ordinal": 18,
-              "text": "The remainder of the Message was composed after first proof had been set.[115]\u00a0\u00a0 ``Which any honest man should regret,'' which concludes this sentence in Lincoln's autograph insertion at this point in the first proof, is changed by Seward in the second proof to ``or any deprivation of any citizen of any right of life, liberty, or pursuit of happiness, guaranteed to him by the Constitution or the laws of the land.'' Lincoln did not follow Seward's revision, but changed the conclusion of the sentence to the present text, and added the next paragraph following.[116]\u00a0\u00a0 This sentence and the next are revised in the autograph pages of first proof to the present text.",
+              "text": "The remainder of the Message was composed after first proof had been set.[115]   ``Which any honest man should regret,'' which concludes this sentence in Lincoln's autograph insertion at this point in the first proof, is changed by Seward in the second proof to ``or any deprivation of any citizen of any right of life, liberty, or pursuit of happiness, guaranteed to him by the Constitution or the laws of the land.'' Lincoln did not follow Seward's revision, but changed the conclusion of the sentence to the present text, and added the next paragraph following.[116]   This sentence and the next are revised in the autograph pages of first proof to the present text.",
               "word_offset_start": 9202,
               "word_offset_end": 9314,
               "authorship_note": "editorial_apparatus",
@@ -3147,7 +3363,7 @@
             {
               "sentence_id": "doc_010_s02_p03_s20",
               "sentence_ordinal": 20,
-              "text": "No popular government can long survive a precedent, that those who have carried an election, must, on pain of death to the government itself, surrender the point upon which the people gave the election.''[117]\u00a0\u00a0 ``He,'' in the autograph pages of revision at the end of the first proof, changed to ``the Executive'' in second proof.[118]\u00a0\u00a0 ``In the justness of God'' as first written, revised to ``in God'' in the autograph pages of first proof.",
+              "text": "No popular government can long survive a precedent, that those who have carried an election, must, on pain of death to the government itself, surrender the point upon which the people gave the election.''[117]   ``He,'' in the autograph pages of revision at the end of the first proof, changed to ``the Executive'' in second proof.[118]   ``In the justness of God'' as first written, revised to ``in God'' in the autograph pages of first proof.",
               "word_offset_start": 9345,
               "word_offset_end": 9419,
               "authorship_note": "editorial_apparatus",
@@ -3163,6 +3379,12 @@
       "stage": 3,
       "agent": "scaffold",
       "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
     }
   ]
 }

@@ -33,8 +33,8 @@
       "ext_014",
       "ext_015"
     ],
-    "primary_finding": "The Lyceum Address (1838) is the earliest document in the corpus and the only pre-1858 document. It shows the first appearance of cluster_03 (experiment/proposition) in the corpus \u2014 25 years before Gettysburg \u2014 and the first appearance of cluster_05 (fathers/inheritance) in an explicit patrimony mode. The 1838 document also contains the earliest cluster_01 instance: 'As a nation of freemen, we must live through all time, or die by suicide' (p04_s05). Clusters 02, 04, and 06 are entirely absent. The Lyceum Address is remarkable for what it already contains: cluster_03 appears three times in p17, forming the ext_014 arc (undecided experiment \u2192 practical demonstration of a proposition \u2192 experiment successful). The republic-as-proposition logic, which will be compressed into Gettysburg's 'testing whether' formula, is here stated at length: the founding generation staked its all on demonstrating that self-governance was possible; they succeeded; the proof is complete. Cluster_05 appears four times across the speech, ranging from legal inheritance (p02_s03), to legacy bequeathed by departed ancestors (p02_s04), to the blood-of-the-father inheritance (p12_s03), to the foundational pillar-replacement obligation (p23_s01). The Lyceum Address establishes the patrimonial frame 20 years before the slavery crisis will make it politically charged. The absence of cluster_02 (covenant/oath) is notable: Lincoln in 1838 argues that the republic must be preserved through 'political religion' and law-reverence but does not deploy the oath/covenant frame \u2014 that register will emerge at the First Inaugural (1861). The absence of cluster_06 (Providence) is also notable: the Lyceum Address is secular throughout. The address establishes two of the six clusters in their earliest corpus forms and anticipates the full six-cluster system that will not be complete until Gettysburg (1863).",
-    "annotator_notes": "p09_s05: 'If they were annually swept, from the stage of existence, by the plague or small pox, honest men would, perhaps, be much profited, by the operation.' \u2014 disease language appears here, applied to gamblers being swept away. Not disease_and_purification in Koenigsberg's sense: the target is not the national body being purified of an enemy population, but an ironic observation about the gamblers' deaths by natural causes vs. mob violence. This is the earliest disease-language appearance in the corpus, but it is descriptive/ironic, not ideological. Not annotated; noted for secondary metaphor tracking. p12_s05: 'let it become the _political religion_ of the nation; and let...sacrifice unceasingly upon its altars' \u2014 civic religion frame applied to law-reverence. Evaluated for cluster_02 and cluster_06: confidence \u2264 0.62 for either. The 'political religion / sacrificial altars' frame is a distinct source domain not captured in the six-cluster taxonomy (it maps civic law-reverence to religious cult practice, with sacrifice at altars). Not annotated. p22_s07: 'They _were_ a fortress of strength; but, what invading foeman could _never do_, the silent artillery of time _has done_; the leveling of its walls.' \u2014 founding generation's living memory as a fortress leveled by time. Not cluster_01 (the fortress/walls are not the national body but the founders' influence). Not annotated. p22_s08: 'They _were_ a forest of giant oaks...the all-resistless hurricane has swept over them...only, here and there, a lonely trunk, despoiled of its verdure, shorn of its foliage.' \u2014 founding generation as a forest of giant oaks devastated by time. Evaluated for cluster_01 (organism) and cluster_05 (fathers): confidence 0.65 for cluster_05, 0.62 for cluster_01. The organism/tree metaphor applied to the founding generation rather than the nation itself falls below threshold. Not annotated; noted. p24_s01: 'the proud fabric of freedom...as the rock of its basis; and...the gates of hell shall not prevail against it' \u2014 fabric of freedom as architectural structure built on rock, with biblical allusion (Matthew 16:18). Evaluated for cluster_01 (architectural/body frame): confidence 0.58. Not annotated."
+    "primary_finding": "The Lyceum Address (1838) is the earliest document in the corpus and the only pre-1858 document. It shows the first appearance of cluster_03 (experiment/proposition) in the corpus — 25 years before Gettysburg — and the first appearance of cluster_05 (fathers/inheritance) in an explicit patrimony mode. The 1838 document also contains the earliest cluster_01 instance: 'As a nation of freemen, we must live through all time, or die by suicide' (p04_s05). Clusters 02, 04, and 06 are entirely absent. The Lyceum Address is remarkable for what it already contains: cluster_03 appears three times in p17, forming the ext_014 arc (undecided experiment → practical demonstration of a proposition → experiment successful). The republic-as-proposition logic, which will be compressed into Gettysburg's 'testing whether' formula, is here stated at length: the founding generation staked its all on demonstrating that self-governance was possible; they succeeded; the proof is complete. Cluster_05 appears four times across the speech, ranging from legal inheritance (p02_s03), to legacy bequeathed by departed ancestors (p02_s04), to the blood-of-the-father inheritance (p12_s03), to the foundational pillar-replacement obligation (p23_s01). The Lyceum Address establishes the patrimonial frame 20 years before the slavery crisis will make it politically charged. The absence of cluster_02 (covenant/oath) is notable: Lincoln in 1838 argues that the republic must be preserved through 'political religion' and law-reverence but does not deploy the oath/covenant frame — that register will emerge at the First Inaugural (1861). The absence of cluster_06 (Providence) is also notable: the Lyceum Address is secular throughout. The address establishes two of the six clusters in their earliest corpus forms and anticipates the full six-cluster system that will not be complete until Gettysburg (1863).",
+    "annotator_notes": "p09_s05: 'If they were annually swept, from the stage of existence, by the plague or small pox, honest men would, perhaps, be much profited, by the operation.' — disease language appears here, applied to gamblers being swept away. Not disease_and_purification in Koenigsberg's sense: the target is not the national body being purified of an enemy population, but an ironic observation about the gamblers' deaths by natural causes vs. mob violence. This is the earliest disease-language appearance in the corpus, but it is descriptive/ironic, not ideological. Not annotated; noted for secondary metaphor tracking. p12_s05: 'let it become the _political religion_ of the nation; and let...sacrifice unceasingly upon its altars' — civic religion frame applied to law-reverence. Evaluated for cluster_02 and cluster_06: confidence ≤ 0.62 for either. The 'political religion / sacrificial altars' frame is a distinct source domain not captured in the six-cluster taxonomy (it maps civic law-reverence to religious cult practice, with sacrifice at altars). Not annotated. p22_s07: 'They _were_ a fortress of strength; but, what invading foeman could _never do_, the silent artillery of time _has done_; the leveling of its walls.' — founding generation's living memory as a fortress leveled by time. Not cluster_01 (the fortress/walls are not the national body but the founders' influence). Not annotated. p22_s08: 'They _were_ a forest of giant oaks...the all-resistless hurricane has swept over them...only, here and there, a lonely trunk, despoiled of its verdure, shorn of its foliage.' — founding generation as a forest of giant oaks devastated by time. Evaluated for cluster_01 (organism) and cluster_05 (fathers): confidence 0.65 for cluster_05, 0.62 for cluster_01. The organism/tree metaphor applied to the founding generation rather than the nation itself falls below threshold. Not annotated; noted. p24_s01: 'the proud fabric of freedom...as the rock of its basis; and...the gates of hell shall not prevail against it' — fabric of freedom as architectural structure built on rock, with biblical allusion (Matthew 16:18). Evaluated for cluster_01 (architectural/body frame): confidence 0.58. Not annotated."
   },
   "sections": [
     {
@@ -90,42 +90,64 @@
                 {
                   "instance_id": "inst_00078",
                   "sentence_id": "doc_001_s01_p02_s03",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "the legal inheritors of these fundamental blessings",
-                  "source_domain": "Legal inheritance \u2014 the present generation as the legal heirs to property and rights established by ancestors",
-                  "target_domain": "The American political institutions as a legal inheritance received from the founding generation without effort",
-                  "char_span_start": 58,
-                  "char_span_end": 108,
-                  "confidence": 0.88,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": "ext_015",
+                  "document_id": "doc_001",
+                  "document_date": "1838-01-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.98,
+                  "span_text": "the legal inheritors of these fundamental blessings",
+                  "span_char_start": 58,
+                  "span_char_end": 108,
                   "cmt": {
-                    "mapping": {
-                      "the legal inheritors": "the present generation as heirs \u2014 with 'legal' specifying that the inheritance is a matter of right, not gift",
-                      "these fundamental blessings": "the political institutions and freedoms that constitute the inheritance \u2014 blessings frames them as valuable gifts",
-                      "found ourselves": "the discovery that one is already in possession of an inheritance \u2014 the current generation did not earn it but simply arrived into it"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "Legal inheritance — the present generation as the legal heirs to property and rights established by ancestors",
+                    "target_domain": "The American political institutions as a legal inheritance received from the founding generation without effort",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The present generation did not earn the political institutions \u2014 they arrived as legal heirs to a completed inheritance",
+                      "The present generation did not earn the political institutions — they arrived as legal heirs to a completed inheritance",
                       "Legal inheritance creates obligation: heirs have a duty to maintain what they have received",
                       "'Fundamental blessings' frames the inheritance as both practically important and morally valuable",
                       "The inheritance frame sets up the corresponding duty frame that follows in subsequent sentences"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_015",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_015 member: this sentence (legal inheritors) and p02_s04 (legacy bequeathed by departed ancestors) form the inheritance-claim arc in p02. inst_00078 establishes the inheritance status (we are the heirs); inst_00079 specifies the bequeathing act (the legacy given by the departed ancestors). The two together constitute the foundational cluster_05 claim of the Lyceum Address. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'founding_authority_as_rule' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "the legal inheritors": "the present generation as heirs — with 'legal' specifying that the inheritance is a matter of right, not gift",
+                      "these fundamental blessings": "the political institutions and freedoms that constitute the inheritance — blessings frames them as valuable gifts",
+                      "found ourselves": "the discovery that one is already in possession of an inheritance — the current generation did not earn it but simply arrived into it"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "founding_authority_as_rule",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "inherited_obligation",
-                    "obligatory_frame": "The present generation found itself in legal possession of an inheritance it did not earn \u2014 political institutions bequeathed by the founding generation. Legal inheritance creates obligation to maintain and transmit what has been received. This is cluster_05's earliest corpus instantiation: the inheritance frame in its simplest legal form, before it will become the blood-covenant and the patrimonial debt of later documents.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The present generation found itself in legal possession of an inheritance it did not earn — political institutions bequeathed by the founding generation. Legal inheritance creates obligation to maintain and transmit what has been received. This is cluster_05's earliest corpus instantiation: the inheritance frame in its simplest legal form, before it will become the blood-covenant and the patrimonial debt of later documents.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The founding generation as the original owners who bequeathed legal institutions to their descendants",
                     "guilt_distribution": "Those who violate or fail to preserve the inheritance violate their legal obligations as heirs",
-                    "sacrificial_economy": "None \u2014 at this stage the inheritance frame is legal/property-based, not yet blood-soaked",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_015 member: this sentence (legal inheritors) and p02_s04 (legacy bequeathed by departed ancestors) form the inheritance-claim arc in p02. inst_00078 establishes the inheritance status (we are the heirs); inst_00079 specifies the bequeathing act (the legacy given by the departed ancestors). The two together constitute the foundational cluster_05 claim of the Lyceum Address."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.88,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -141,42 +163,64 @@
                 {
                   "instance_id": "inst_00079",
                   "sentence_id": "doc_001_s01_p02_s04",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "a legacy bequeathed us, by a _once_ hardy, brave, and patriotic, but _now_ lamented and departed race of ancestors",
-                  "source_domain": "Testamentary legacy \u2014 ancestors bequeathing their achievements as a legacy to descendants; the founding generation as a departed testator",
-                  "target_domain": "The political institutions and freedoms as a legacy bequeathed by the founding generation who are now dead \u2014 their achievements constitute the present generation's patrimony",
-                  "char_span_start": 68,
-                  "char_span_end": 181,
-                  "confidence": 0.92,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": "ext_015",
+                  "document_id": "doc_001",
+                  "document_date": "1838-01-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.98,
+                  "span_text": "a legacy bequeathed us, by a _once_ hardy, brave, and patriotic, but _now_ lamented and departed race of ancestors",
+                  "span_char_start": 68,
+                  "span_char_end": 181,
                   "cmt": {
-                    "mapping": {
-                      "a legacy bequeathed us": "the founding generation's achievements as a testamentary bequest \u2014 bequeathed (legal term for inheritance transfer) frames it as a formal inheritance act",
-                      "a _once_ hardy, brave, and patriotic...race of ancestors": "the founding generation as a distinct people, now dead \u2014 their heroic qualities make the legacy precious",
-                      "_now_ lamented and departed": "the founding generation as departed testators \u2014 they are dead; we are their inheritors. 'Lamented' frames their departure as a loss"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "Testamentary legacy — ancestors bequeathing their achievements as a legacy to descendants; the founding generation as a departed testator",
+                    "target_domain": "The political institutions and freedoms as a legacy bequeathed by the founding generation who are now dead — their achievements constitute the present generation's patrimony",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "'Bequeathed' is testamentary language \u2014 the founding generation formally left us their achievements as an inheritance",
-                      "The once/now contrast (hardy, brave, patriotic vs. lamented and departed) frames the founding generation as a race that has ceased to exist \u2014 their deaths make the legacy both precious and fragile",
-                      "We toiled not \u2014 the present generation received the inheritance without effort; this creates the obligation to preserve what we did not earn",
-                      "The 'departed race' formula frames the founding generation as a distinct people, not just historical predecessors \u2014 their extinction is a loss that creates urgency"
+                      "'Bequeathed' is testamentary language — the founding generation formally left us their achievements as an inheritance",
+                      "The once/now contrast (hardy, brave, patriotic vs. lamented and departed) frames the founding generation as a race that has ceased to exist — their deaths make the legacy both precious and fragile",
+                      "We toiled not — the present generation received the inheritance without effort; this creates the obligation to preserve what we did not earn",
+                      "The 'departed race' formula frames the founding generation as a distinct people, not just historical predecessors — their extinction is a loss that creates urgency"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_015",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_015 member paired with inst_00078. This is the most explicit cluster_05 instance in the Lyceum Address — the foundational patrimony claim stated in testamentary language. 'Legacy bequeathed' is the inheritance frame's most precise legal formulation. The 'once...now' structure (hardy, brave, patriotic → lamented and departed) performs the elegiac function that will recur in cluster_05 throughout the corpus: the founders were great; they are gone; we must prove worthy of what they left us. This is cluster_05's earliest full deployment in the corpus. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'founding_authority_as_rule' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "a legacy bequeathed us": "the founding generation's achievements as a testamentary bequest — bequeathed (legal term for inheritance transfer) frames it as a formal inheritance act",
+                      "a _once_ hardy, brave, and patriotic...race of ancestors": "the founding generation as a distinct people, now dead — their heroic qualities make the legacy precious",
+                      "_now_ lamented and departed": "the founding generation as departed testators — they are dead; we are their inheritors. 'Lamented' frames their departure as a loss"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "founding_authority_as_rule",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "inherited_obligation",
-                    "obligatory_frame": "The founding generation bequeathed the political institutions as a legacy \u2014 and they are now dead. The present generation toiled not in the acquirement; they received it freely. This creates an obligation of stewardship: we must preserve what was given to us by a race of ancestors who earned it through hardship. The departed founders' death makes the inheritance both precious and obligating \u2014 if it is lost, there is no second chance to receive it.",
-                    "projected_entity": "The founding generation as departed testators whose legacy \u2014 political institutions \u2014 constitutes the present generation's patrimony",
-                    "guilt_distribution": "Those who fail to preserve the bequest violate the obligation of grateful stewardship \u2014 they dishonor the legacy of the 'lamented and departed race'",
-                    "sacrificial_economy": "None yet explicit \u2014 but the obligation-without-earning frame creates the structure for later sacrificial logic: if we received the inheritance without cost, we may owe a cost to preserve it",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The founding generation bequeathed the political institutions as a legacy — and they are now dead. The present generation toiled not in the acquirement; they received it freely. This creates an obligation of stewardship: we must preserve what was given to us by a race of ancestors who earned it through hardship. The departed founders' death makes the inheritance both precious and obligating — if it is lost, there is no second chance to receive it.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
+                    "projected_entity": "The founding generation as departed testators whose legacy — political institutions — constitutes the present generation's patrimony",
+                    "guilt_distribution": "Those who fail to preserve the bequest violate the obligation of grateful stewardship — they dishonor the legacy of the 'lamented and departed race'",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_015 member paired with inst_00078. This is the most explicit cluster_05 instance in the Lyceum Address \u2014 the foundational patrimony claim stated in testamentary language. 'Legacy bequeathed' is the inheritance frame's most precise legal formulation. The 'once...now' structure (hardy, brave, patriotic \u2192 lamented and departed) performs the elegiac function that will recur in cluster_05 throughout the corpus: the founders were great; they are gone; we must prove worthy of what they left us. This is cluster_05's earliest full deployment in the corpus."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.92,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -285,42 +329,64 @@
                 {
                   "instance_id": "inst_00080",
                   "sentence_id": "doc_001_s01_p04_s05",
-                  "cluster_id": "cluster_01_body_organism",
-                  "linguistic_form": "live through all time, or die by suicide",
-                  "source_domain": "Organism life and death \u2014 a nation as a living being that can live indefinitely or kill itself through self-inflicted destruction",
-                  "target_domain": "The American republic as a living organism whose only mortal danger is internal self-destruction (mob violence, disregard for law), not external attack",
-                  "char_span_start": 32,
-                  "char_span_end": 71,
-                  "confidence": 0.85,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_001",
+                  "document_date": "1838-01-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.98,
+                  "span_text": "live through all time, or die by suicide",
+                  "span_char_start": 32,
+                  "span_char_end": 71,
                   "cmt": {
-                    "mapping": {
-                      "live through all time": "the nation as organism with indefinite lifespan \u2014 it need not die; it can persist eternally",
-                      "die by suicide": "self-destruction as the only available death mode \u2014 the national organism cannot be killed from outside, only from within",
-                      "As a nation of freemen": "the qualifier that gives the organism its unique property \u2014 because it is free, it cannot be destroyed by external force"
-                    },
+                    "cluster_id": "cluster_01_body_organism",
+                    "source_domain": "Organism life and death — a nation as a living being that can live indefinitely or kill itself through self-inflicted destruction",
+                    "target_domain": "The American republic as a living organism whose only mortal danger is internal self-destruction (mob violence, disregard for law), not external attack",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The republic's only mortal threat is internal \u2014 foreign armies cannot kill it; only Americans can",
-                      "'Suicide' frames internal self-destruction as a freely chosen death \u2014 the national organism kills itself",
+                      "The republic's only mortal threat is internal — foreign armies cannot kill it; only Americans can",
+                      "'Suicide' frames internal self-destruction as a freely chosen death — the national organism kills itself",
                       "The nation-as-organism frame makes institutional decay a form of physiological deterioration",
-                      "This is the earliest nation-as-organism instance in the corpus \u2014 1838, 20 years before the House Divided Speech"
+                      "This is the earliest nation-as-organism instance in the corpus — 1838, 20 years before the House Divided Speech"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is the earliest cluster_01 instance in the corpus (1838). The organism frame here is existential: the national body has infinite lifespan unless it kills itself. The 'suicide' variant is the most internally focused form of cluster_01 — the threat is not wound, disease, or external attack but self-inflicted death. Contrast with the House Divided Speech (1858) where the architectural/structural frame makes the threat division-as-collapse rather than self-murder. The Lyceum Address's organism-suicide is a distinct early variant of cluster_01: life/death rather than stand/fall. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'national_integrity_threat' to canonical 'wound_and_healing'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "live through all time": "the nation as organism with indefinite lifespan — it need not die; it can persist eternally",
+                      "die by suicide": "self-destruction as the only available death mode — the national organism cannot be killed from outside, only from within",
+                      "As a nation of freemen": "the qualifier that gives the organism its unique property — because it is free, it cannot be destroyed by external force"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "national_integrity_threat",
+                    "fantasy_type": "wound_and_healing",
                     "violence_logic": "internal_self_destruction",
-                    "obligatory_frame": "The republic as a living organism can only die by its own hand. External threats \u2014 foreign armies, tyrants \u2014 cannot destroy it. Only internal breakdown (mob violence, disregard for law, attachment to an ambitious tyrant) can. The suicide frame makes the preservation of the republic's life a matter of internal discipline rather than external defense. The organism must be protected from itself.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The republic as a living organism can only die by its own hand. External threats — foreign armies, tyrants — cannot destroy it. Only internal breakdown (mob violence, disregard for law, attachment to an ambitious tyrant) can. The suicide frame makes the preservation of the republic's life a matter of internal discipline rather than external defense. The organism must be protected from itself.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The American republic as a living organism uniquely immune to external destruction but vulnerable to internal self-murder",
                     "guilt_distribution": "Those who contribute to mob violence, disregard for law, or attachment to a Caesar-figure are participating in national suicide",
-                    "sacrificial_economy": "None \u2014 the suicide frame is a warning, not a call to sacrifice",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "This is the earliest cluster_01 instance in the corpus (1838). The organism frame here is existential: the national body has infinite lifespan unless it kills itself. The 'suicide' variant is the most internally focused form of cluster_01 \u2014 the threat is not wound, disease, or external attack but self-inflicted death. Contrast with the House Divided Speech (1858) where the architectural/structural frame makes the threat division-as-collapse rather than self-murder. The Lyceum Address's organism-suicide is a distinct early variant of cluster_01: life/death rather than stand/fall."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.85,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -699,42 +765,64 @@
                 {
                   "instance_id": "inst_00081",
                   "sentence_id": "doc_001_s01_p12_s03",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "trample on the blood of his father",
-                  "source_domain": "Blood inheritance \u2014 the founding generation's sacrifice as a blood-covenant; violating the law is desecrating the blood of the fathers who fought for it",
-                  "target_domain": "The obligation to revere the laws as inherited from the founding generation whose blood paid for them \u2014 law-violation is blood-desecration",
-                  "char_span_start": 261,
-                  "char_span_end": 294,
-                  "confidence": 0.88,
-                  "is_novel_metaphor": true,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_001",
+                  "document_date": "1838-01-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.98,
+                  "span_text": "trample on the blood of his father",
+                  "span_char_start": 261,
+                  "span_char_end": 294,
                   "cmt": {
-                    "mapping": {
-                      "trample on the blood of his father": "violating the law = desecrating the blood the founding generation shed to establish it. Blood is the inheritance medium \u2014 the founding sacrifice.",
-                      "the blood of his father": "the founding generation's sacrifice literalized as blood \u2014 the material cost of establishing the inherited institutions",
-                      "swear by the blood of the Revolution": "the oath sworn on the founders' blood (p12_s02 preceding context) \u2014 the inheritance is blood-consecrated"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "Blood inheritance — the founding generation's sacrifice as a blood-covenant; violating the law is desecrating the blood of the fathers who fought for it",
+                    "target_domain": "The obligation to revere the laws as inherited from the founding generation whose blood paid for them — law-violation is blood-desecration",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The laws are blood-consecrated \u2014 established by the founders' sacrifice, the laws partake of their blood",
-                      "Violating the law is an act of literal desecration \u2014 trampling on something sacred",
+                      "The laws are blood-consecrated — established by the founders' sacrifice, the laws partake of their blood",
+                      "Violating the law is an act of literal desecration — trampling on something sacred",
                       "The blood-inheritance frame makes law-reverence not just a civic duty but a moral obligation derived from the founding sacrifice",
-                      "This is cluster_05's most visceral form \u2014 not legal inheritance or testamentary legacy but blood-covenant inheritance"
+                      "This is cluster_05's most visceral form — not legal inheritance or testamentary legacy but blood-covenant inheritance"
                     ],
+                    "is_novel_metaphor": true,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "This is the most novel cluster_05 instance in the Lyceum Address — the blood-covenant inheritance variant. 'Trample on the blood of his father' is marked novel because the blood-as-inheritance-medium is not a conventional inheritance metaphor. The preceding sentence (p12_s02) has each American 'swear by the blood of the Revolution' — so the oath is sworn on blood, and violating it is trampling on blood. This blood-covenant structure will recur in different forms throughout the corpus (Gettysburg's honored dead, Second Inaugural's blood drawn by the sword) but here appears in its earliest and most direct form: the founding sacrifice as the consecrating material of the political covenant. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'founding_authority_as_rule' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "trample on the blood of his father": "violating the law = desecrating the blood the founding generation shed to establish it. Blood is the inheritance medium — the founding sacrifice.",
+                      "the blood of his father": "the founding generation's sacrifice literalized as blood — the material cost of establishing the inherited institutions",
+                      "swear by the blood of the Revolution": "the oath sworn on the founders' blood (p12_s02 preceding context) — the inheritance is blood-consecrated"
+                    },
                     "conventional_or_novel": "novel"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "founding_authority_as_rule",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "blood_covenant_obligation",
-                    "obligatory_frame": "The laws are consecrated by the blood the founding generation shed to establish them. To violate the law is to trample on the blood of the father \u2014 an act of desecration and ingratitude. This is cluster_05's blood-covenant variant: the inheritance is not testamentary (legacy bequeathed) or juridical (precedent decided) but sacrificial. The founders' blood becomes the sacred material that consecrates the political institutions, and the obligation to preserve them becomes a duty not to desecrate the blood of the fathers.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The laws are consecrated by the blood the founding generation shed to establish them. To violate the law is to trample on the blood of the father — an act of desecration and ingratitude. This is cluster_05's blood-covenant variant: the inheritance is not testamentary (legacy bequeathed) or juridical (precedent decided) but sacrificial. The founders' blood becomes the sacred material that consecrates the political institutions, and the obligation to preserve them becomes a duty not to desecrate the blood of the fathers.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The founding generation as blood-sacrificers whose shed blood consecrates the political institutions",
-                    "guilt_distribution": "Those who violate the law trample on the fathers' blood \u2014 they desecrate the sacred sacrifice of the founding generation",
-                    "sacrificial_economy": "The founding generation's blood is the original sacrifice that establishes the covenant. The present generation's obligation is to honor that sacrifice by law-reverence. This is the earliest sacrificial economy in the corpus \u2014 but it is retrospective (the founding sacrifice already paid) rather than prospective (new sacrifices required).",
+                    "guilt_distribution": "Those who violate the law trample on the fathers' blood — they desecrate the sacred sacrifice of the founding generation",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "The founding generation's blood is the original sacrifice that establishes the covenant. The present generation's obligation is to honor that sacrifice by law-reverence. This is the earliest sacrificial economy in the corpus — but it is retrospective (the founding sacrifice already paid) rather than prospective (new sacrifices required).",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "This is the most novel cluster_05 instance in the Lyceum Address \u2014 the blood-covenant inheritance variant. 'Trample on the blood of his father' is marked novel because the blood-as-inheritance-medium is not a conventional inheritance metaphor. The preceding sentence (p12_s02) has each American 'swear by the blood of the Revolution' \u2014 so the oath is sworn on blood, and violating it is trampling on blood. This blood-covenant structure will recur in different forms throughout the corpus (Gettysburg's honored dead, Second Inaugural's blood drawn by the sword) but here appears in its earliest and most direct form: the founding sacrifice as the consecrating material of the political covenant."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.88,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -933,41 +1021,63 @@
                 {
                   "instance_id": "inst_00082",
                   "sentence_id": "doc_001_s01_p17_s06",
-                  "cluster_id": "cluster_03_experiment_proposition",
-                  "linguistic_form": "an undecided experiment; now, it is understood to be a successful one",
-                  "source_domain": "Scientific experiment \u2014 a test whose outcome was uncertain but has now been determined by results",
-                  "target_domain": "The American republic as an experiment in self-governance that was once undecided but has now been proved successful by historical demonstration",
-                  "char_span_start": 47,
-                  "char_span_end": 115,
-                  "confidence": 0.92,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": "ext_014",
+                  "document_id": "doc_001",
+                  "document_date": "1838-01-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.98,
+                  "span_text": "an undecided experiment; now, it is understood to be a successful one",
+                  "span_char_start": 47,
+                  "span_char_end": 115,
                   "cmt": {
-                    "mapping": {
-                      "an undecided experiment": "the republic during the founding period as a test whose outcome was uncertain \u2014 could it work? Was it possible?",
-                      "now, it is understood to be a successful one": "the present assessment \u2014 the experiment has been run, the results are in, the republic has been proved viable"
-                    },
+                    "cluster_id": "cluster_03_experiment_proposition",
+                    "source_domain": "Scientific experiment — a test whose outcome was uncertain but has now been determined by results",
+                    "target_domain": "The American republic as an experiment in self-governance that was once undecided but has now been proved successful by historical demonstration",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The founding generation was running the experiment \u2014 they were the scientists who designed and executed the test",
-                      "The 'undecided' status was genuine uncertainty \u2014 the outcome was not predetermined but depended on whether the republic could sustain itself",
-                      "The experiment is now complete \u2014 'successful' in the past tense means the proof has been made",
+                      "The founding generation was running the experiment — they were the scientists who designed and executed the test",
+                      "The 'undecided' status was genuine uncertainty — the outcome was not predetermined but depended on whether the republic could sustain itself",
+                      "The experiment is now complete — 'successful' in the past tense means the proof has been made",
                       "This creates the subsequent problem: if the experiment is done, what motivates the next generation to maintain what was already proved?"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_014",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_014 member: the first of three cluster_03 instances in p17. This sentence presents the temporal arc: the republic was once undecided (experiment uncertain) and is now understood as successful. The arc from undecided to successful is the core of the cluster_03 logic — the republic as proof. Contrast with Gettysburg's 'testing whether' formula (1863), which reopens the experimental uncertainty that the Lyceum Address declares closed in 1838. The Civil War will make the experiment undecided again. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'republic_as_proposition_under_test' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "an undecided experiment": "the republic during the founding period as a test whose outcome was uncertain — could it work? Was it possible?",
+                      "now, it is understood to be a successful one": "the present assessment — the experiment has been run, the results are in, the republic has been proved viable"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "republic_as_proposition_under_test",
+                    "fantasy_type": "experiment_and_proof",
                     "violence_logic": "experimental_proof",
-                    "obligatory_frame": "The republic was an undecided experiment that has now been proved successful. The founding generation's task was to run the experiment; they succeeded. But with success comes a new problem: the proof is complete, and new ambitious men will not find satisfaction in maintaining what others proved. The experiment frame generates an obligation to preserve the proof \u2014 not to let a successfully completed experiment be destroyed by internal ambition or mob violence.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The republic was an undecided experiment that has now been proved successful. The founding generation's task was to run the experiment; they succeeded. But with success comes a new problem: the proof is complete, and new ambitious men will not find satisfaction in maintaining what others proved. The experiment frame generates an obligation to preserve the proof — not to let a successfully completed experiment be destroyed by internal ambition or mob violence.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The American republic as a completed scientific experiment whose positive result must be preserved",
-                    "guilt_distribution": "Those who destroy the republic undermine a successful proof \u2014 they negate the experiment's result",
-                    "sacrificial_economy": "None \u2014 the experiment frame is epistemic, not sacrificial",
+                    "guilt_distribution": "Those who destroy the republic undermine a successful proof — they negate the experiment's result",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_014 member: the first of three cluster_03 instances in p17. This sentence presents the temporal arc: the republic was once undecided (experiment uncertain) and is now understood as successful. The arc from undecided to successful is the core of the cluster_03 logic \u2014 the republic as proof. Contrast with Gettysburg's 'testing whether' formula (1863), which reopens the experimental uncertainty that the Lyceum Address declares closed in 1838. The Civil War will make the experiment undecided again."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.92,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -992,42 +1102,64 @@
                 {
                   "instance_id": "inst_00083",
                   "sentence_id": "doc_001_s01_p17_s08",
-                  "cluster_id": "cluster_03_experiment_proposition",
-                  "linguistic_form": "a practical demonstration of the truth of a proposition, which had hitherto been considered, at best no better, than problematical; namely, _the capability of a people to govern themselves_",
-                  "source_domain": "Logical proof / scientific demonstration \u2014 proving the truth of a proposition by practical demonstration rather than theoretical argument",
-                  "target_domain": "The American republic as a practical demonstration of the proposition that self-governance is possible \u2014 a truth that had been theoretically doubted and required practical proof",
-                  "char_span_start": 60,
-                  "char_span_end": 248,
-                  "confidence": 0.9,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": "ext_014",
+                  "document_id": "doc_001",
+                  "document_date": "1838-01-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.98,
+                  "span_text": "a practical demonstration of the truth of a proposition, which had hitherto been considered, at best no better, than problematical; namely, _the capability of a people to govern themselves_",
+                  "span_char_start": 60,
+                  "span_char_end": 248,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
+                    "source_domain": "Logical proof / scientific demonstration — proving the truth of a proposition by practical demonstration rather than theoretical argument",
+                    "target_domain": "The American republic as a practical demonstration of the proposition that self-governance is possible — a truth that had been theoretically doubted and required practical proof",
+                    "linguistic_form": "clause",
+                    "entailments": [
+                      "The founding generation did not argue for self-governance's possibility — they demonstrated it",
+                      "The republic is itself the proof: its existence and success is the demonstration",
+                      "'Problematical' means genuinely uncertain before demonstration — the experiment was not predetermined to succeed",
+                      "The founding generation's 'ambition' was to demonstrate the proposition — political success was their experimental result"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_014",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_014 member: the fullest articulation of cluster_03 in the Lyceum Address. Where p17_s06 presents the experiment/success summary, this sentence presents the logical-proposition variant: the republic is a 'practical demonstration of the truth of a proposition.' The founding generation were not builders or warriors but demonstrators of a logical proof. This is cluster_03's most explicit early formulation in the corpus — more explicit than Gettysburg's compressed 'testing whether' because Lincoln in 1838 states the proposition directly ('the capability of a people to govern themselves') and names the prior epistemic status ('problematical'). The Gettysburg version will compress this into a four-word subordinate clause. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'republic_as_proposition_under_test' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
                     "mapping": {
                       "a practical demonstration of the truth of a proposition": "the republic as a proof-by-demonstration: not arguing theoretically but showing by doing",
-                      "which had hitherto been considered...no better, than problematical": "the proposition's prior epistemic status \u2014 doubted, uncertain, not yet proved",
-                      "the capability of a people to govern themselves": "the specific proposition being tested \u2014 self-governance as an open empirical question"
+                      "which had hitherto been considered...no better, than problematical": "the proposition's prior epistemic status — doubted, uncertain, not yet proved",
+                      "the capability of a people to govern themselves": "the specific proposition being tested — self-governance as an open empirical question"
                     },
-                    "entailments": [
-                      "The founding generation did not argue for self-governance's possibility \u2014 they demonstrated it",
-                      "The republic is itself the proof: its existence and success is the demonstration",
-                      "'Problematical' means genuinely uncertain before demonstration \u2014 the experiment was not predetermined to succeed",
-                      "The founding generation's 'ambition' was to demonstrate the proposition \u2014 political success was their experimental result"
-                    ],
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "republic_as_proposition_under_test",
+                    "fantasy_type": "experiment_and_proof",
                     "violence_logic": "experimental_proof",
-                    "obligatory_frame": "The founding generation's ambition was to demonstrate the truth of a proposition \u2014 that self-governance is possible. They succeeded, and their success constitutes the republic's foundational claim. Destroying the republic destroys the demonstration. The obligation to preserve it is the obligation not to invalidate a completed proof.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The founding generation's ambition was to demonstrate the truth of a proposition — that self-governance is possible. They succeeded, and their success constitutes the republic's foundational claim. Destroying the republic destroys the demonstration. The obligation to preserve it is the obligation not to invalidate a completed proof.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The American republic as the demonstration of the proposition that self-governance is possible",
-                    "guilt_distribution": "Those who destroy the republic invalidate the demonstration \u2014 they prove the proposition false by destroying the evidence that it was true",
-                    "sacrificial_economy": "None",
+                    "guilt_distribution": "Those who destroy the republic invalidate the demonstration — they prove the proposition false by destroying the evidence that it was true",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_014 member: the fullest articulation of cluster_03 in the Lyceum Address. Where p17_s06 presents the experiment/success summary, this sentence presents the logical-proposition variant: the republic is a 'practical demonstration of the truth of a proposition.' The founding generation were not builders or warriors but demonstrators of a logical proof. This is cluster_03's most explicit early formulation in the corpus \u2014 more explicit than Gettysburg's compressed 'testing whether' because Lincoln in 1838 states the proposition directly ('the capability of a people to govern themselves') and names the prior epistemic status ('problematical'). The Gettysburg version will compress this into a four-word subordinate clause."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.9,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1070,41 +1202,63 @@
                 {
                   "instance_id": "inst_00084",
                   "sentence_id": "doc_001_s01_p17_s12",
-                  "cluster_id": "cluster_03_experiment_proposition",
-                  "linguistic_form": "The experiment is successful",
-                  "source_domain": "Scientific experiment \u2014 the conclusive assessment that an experimental test has produced a positive result",
-                  "target_domain": "The American republic as a concluded experiment whose positive result is now established fact",
-                  "char_span_start": 0,
-                  "char_span_end": 27,
-                  "confidence": 0.88,
-                  "is_novel_metaphor": false,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": "ext_014",
+                  "document_id": "doc_001",
+                  "document_date": "1838-01-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.98,
+                  "span_text": "The experiment is successful",
+                  "span_char_start": 0,
+                  "span_char_end": 27,
                   "cmt": {
-                    "mapping": {
-                      "The experiment is successful": "the verdict \u2014 the republic-as-experiment has produced a positive result. This is cluster_03's conclusion statement.",
-                      "thousands have won their deathless names in making it so": "the founding generation's experimental success is credited to specific individuals \u2014 the scientists who made the demonstration work"
-                    },
+                    "cluster_id": "cluster_03_experiment_proposition",
+                    "source_domain": "Scientific experiment — the conclusive assessment that an experimental test has produced a positive result",
+                    "target_domain": "The American republic as a concluded experiment whose positive result is now established fact",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "'Is successful' is a verdict statement \u2014 the experiment has been evaluated and found positive",
+                      "'Is successful' is a verdict statement — the experiment has been evaluated and found positive",
                       "The present tense ('is') rather than past ('was') treats the success as an ongoing condition",
-                      "Thousands won deathless names in making it so \u2014 the experimental success required human cost, and that cost created immortal credit",
+                      "Thousands won deathless names in making it so — the experimental success required human cost, and that cost created immortal credit",
                       "The 'harvested field of glory' language that follows frames the experiment's completion as the end of an opportunity cycle"
                     ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_014",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_014 member: the capstone of the three-sentence cluster_03 arc in p17. The arc: undecided → demonstrated proposition → successful. This sentence is the verdict. Immediately following this, Lincoln notes that 'the game is caught' and 'this field of glory is harvested' — the experiment's completion creates a new danger (ambitious men with no experiment to run). The problem of ambitious genius is the Lyceum Address's distinctive contribution to the cluster_03 logic: what happens when the republic's proof is complete and there are still ambitious men who need experiments to run? Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'republic_as_proposition_under_test' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "The experiment is successful": "the verdict — the republic-as-experiment has produced a positive result. This is cluster_03's conclusion statement.",
+                      "thousands have won their deathless names in making it so": "the founding generation's experimental success is credited to specific individuals — the scientists who made the demonstration work"
+                    },
                     "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "republic_as_proposition_under_test",
+                    "fantasy_type": "experiment_and_proof",
                     "violence_logic": "experimental_proof",
-                    "obligatory_frame": "The experiment is successful \u2014 the proof is complete. This concludes the ext_014 arc: from undecided experiment (p17_s06) through practical demonstration (p17_s08) to conclusive verdict (p17_s12). The problem the Lyceum Address now confronts is: what happens after the proof is complete? The ambitious men of the next generation cannot find satisfaction in maintaining a completed proof. They must seek new experiments \u2014 and those new experiments are dangerous to the republic.",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The experiment is successful — the proof is complete. This concludes the ext_014 arc: from undecided experiment (p17_s06) through practical demonstration (p17_s08) to conclusive verdict (p17_s12). The problem the Lyceum Address now confronts is: what happens after the proof is complete? The ambitious men of the next generation cannot find satisfaction in maintaining a completed proof. They must seek new experiments — and those new experiments are dangerous to the republic.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "The American republic as an experiment whose positive result is now established",
                     "guilt_distribution": "Those who seek to overturn the republic for personal ambition are undermining a completed and successful experiment",
-                    "sacrificial_economy": "Thousands won deathless names in making the experiment successful \u2014 their sacrifice is acknowledged but not required again. The founding sacrifice is complete.",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "Thousands won deathless names in making the experiment successful — their sacrifice is acknowledged but not required again. The founding sacrifice is complete.",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_014 member: the capstone of the three-sentence cluster_03 arc in p17. The arc: undecided \u2192 demonstrated proposition \u2192 successful. This sentence is the verdict. Immediately following this, Lincoln notes that 'the game is caught' and 'this field of glory is harvested' \u2014 the experiment's completion creates a new danger (ambitious men with no experiment to run). The problem of ambitious genius is the Lyceum Address's distinctive contribution to the cluster_03 logic: what happens when the republic's proof is complete and there are still ambitious men who need experiments to run?"
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.88,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1426,43 +1580,65 @@
                 {
                   "instance_id": "inst_00085",
                   "sentence_id": "doc_001_s01_p23_s01",
-                  "cluster_id": "cluster_05_fathers_inheritance",
-                  "linguistic_form": "the pillars of the temple of liberty; and now, that they have crumbled away, that temple must fall, unless we, their descendants, supply their places with other pillars",
-                  "source_domain": "Architectural inheritance \u2014 the founding generation as the structural pillars of a temple; their death as the crumbling of those pillars; the present generation's obligation to supply replacement pillars hewn from reason",
-                  "target_domain": "The obligation of the present generation to replace the founding generation's function as structural supports of the republic \u2014 the fathers were the pillars; we must be their replacements",
-                  "char_span_start": 12,
-                  "char_span_end": 179,
-                  "confidence": 0.85,
-                  "is_novel_metaphor": true,
-                  "ambiguity_flag": false,
-                  "suppression_flag": false,
-                  "extension_group_id": null,
+                  "document_id": "doc_001",
+                  "document_date": "1838-01-27",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.98,
+                  "span_text": "the pillars of the temple of liberty; and now, that they have crumbled away, that temple must fall, unless we, their descendants, supply their places with other pillars",
+                  "span_char_start": 12,
+                  "span_char_end": 179,
                   "cmt": {
-                    "mapping": {
-                      "the pillars of the temple of liberty": "the founding generation as structural supports \u2014 without them the temple cannot stand",
-                      "that they have crumbled away, that temple must fall": "the founding generation's death as structural failure \u2014 the temple loses its pillars and must collapse",
-                      "unless we, their descendants, supply their places with other pillars": "the inheritance obligation: the present generation must replace the founding pillars with new ones",
-                      "hewn from the solid quarry of sober reason": "the material for the replacement pillars \u2014 reason rather than passion. The source of the new structural supports"
-                    },
+                    "cluster_id": "cluster_05_fathers_inheritance",
+                    "source_domain": "Architectural inheritance — the founding generation as the structural pillars of a temple; their death as the crumbling of those pillars; the present generation's obligation to supply replacement pillars hewn from reason",
+                    "target_domain": "The obligation of the present generation to replace the founding generation's function as structural supports of the republic — the fathers were the pillars; we must be their replacements",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "The founding generation's function was structural, not just inspirational \u2014 they were pillars that actually held up the temple",
-                      "Their deaths create a structural deficiency \u2014 the temple cannot stand on crumbled pillars",
+                      "The founding generation's function was structural, not just inspirational — they were pillars that actually held up the temple",
+                      "Their deaths create a structural deficiency — the temple cannot stand on crumbled pillars",
                       "The inheritance obligation is architectural: we must supply new pillars, not just preserve the old ones",
                       "The shift from passion-based pillars (the founders' revolutionary fervor) to reason-based pillars (sober reason) is the Lyceum Address's political argument in compressed form"
                     ],
+                    "is_novel_metaphor": true,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The most architecturally explicit cluster_05 instance in the corpus. The 'pillars of the temple of liberty' frame is novel — treating the founding generation not as ancestors or legal testators but as architectural structural elements. This creates an unusual inheritance obligation: we must not preserve the pillars (they have crumbled) but replace them with new ones. The material specification ('hewn from the solid quarry of sober reason') anticipates the Lyceum Address's concluding argument: the next generation must substitute reason for passion as the basis of civic attachment. The founding generation's passion-based patriotism cannot be replicated; reason-based patriotism must take its place. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'founding_authority_as_rule' to canonical 'ancestral_debt'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": {
+                      "the pillars of the temple of liberty": "the founding generation as structural supports — without them the temple cannot stand",
+                      "that they have crumbled away, that temple must fall": "the founding generation's death as structural failure — the temple loses its pillars and must collapse",
+                      "unless we, their descendants, supply their places with other pillars": "the inheritance obligation: the present generation must replace the founding pillars with new ones",
+                      "hewn from the solid quarry of sober reason": "the material for the replacement pillars — reason rather than passion. The source of the new structural supports"
+                    },
                     "conventional_or_novel": "novel"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "founding_authority_as_rule",
+                    "fantasy_type": "ancestral_debt",
                     "violence_logic": "architectural_inheritance_obligation",
-                    "obligatory_frame": "The founding generation were the pillars of the temple of liberty. They have crumbled. The temple must fall unless we \u2014 their descendants \u2014 supply replacement pillars. This is cluster_05's architectural-inheritance variant: the obligation is not to receive a legacy (legal inheritance) or honor a blood-covenant (blood of the father) but to actively replace structural elements that have been lost. The inheritance is not property to be stewarded but a structural role to be filled.",
-                    "projected_entity": "The founding generation as the structural pillars of the republic \u2014 architectural supports whose loss threatens collapse",
-                    "guilt_distribution": "Those who fail to supply replacement pillars allow the temple to fall \u2014 they are responsible for the collapse through inaction",
-                    "sacrificial_economy": "None \u2014 the architectural inheritance frame demands construction, not sacrifice",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "The founding generation were the pillars of the temple of liberty. They have crumbled. The temple must fall unless we — their descendants — supply replacement pillars. This is cluster_05's architectural-inheritance variant: the obligation is not to receive a legacy (legal inheritance) or honor a blood-covenant (blood of the father) but to actively replace structural elements that have been lost. The inheritance is not property to be stewarded but a structural role to be filled.",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
+                    "projected_entity": "The founding generation as the structural pillars of the republic — architectural supports whose loss threatens collapse",
+                    "guilt_distribution": "Those who fail to supply replacement pillars allow the temple to fall — they are responsible for the collapse through inaction",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": false,
+                    "sacrificial_yield": null,
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "The most architecturally explicit cluster_05 instance in the corpus. The 'pillars of the temple of liberty' frame is novel \u2014 treating the founding generation not as ancestors or legal testators but as architectural structural elements. This creates an unusual inheritance obligation: we must not preserve the pillars (they have crumbled) but replace them with new ones. The material specification ('hewn from the solid quarry of sober reason') anticipates the Lyceum Address's concluding argument: the next generation must substitute reason for passion as the basis of civic attachment. The founding generation's passion-based patriotism cannot be replicated; reason-based patriotism must take its place."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.85,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1512,6 +1688,14 @@
           ]
         }
       ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
     }
   ]
 }

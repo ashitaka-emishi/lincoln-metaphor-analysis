@@ -43,7 +43,11 @@
     },
     "primary_finding": "The Second Inaugural is the diachronic terminus of Lincoln's guilt_distribution arc: it reaches 'cosmic' guilt, distributing the war's moral weight to both North and South and ultimately to God's purposes. The address is structurally organized around the collapse of agency — 'and the war came' is its pivot sentence — and culminates in the blood-debt economy of S24, where slavery's violence (lash drawing blood) is repaid in kind by war's violence (sword drawing blood), mediated by divine will. Cluster_06 (providence/theodicy) dominates the second half; cluster_01 (body/organism) provides the material substrate throughout. Cluster_03 (experiment/proposition) is nearly absent — the testing frame of Gettysburg is replaced by the judgment frame of the Second Inaugural. This register shift marks the diachronic end of the evidentiary violence logic and its replacement by punitive/cosmic violence logic.",
     "annotator_notes": "S24 ('every drop of blood drawn with the lash shall be paid by another drawn with the sword') is the most analytically significant sentence in the corpus for the guilt_distribution arc. It is the only moment where Lincoln explicitly names the violence of slavery as the causal antecedent of the war's violence, and frames that relationship as a providential debt-payment. The 'lash' is among the most direct acknowledgments of slavery's physical violence in Lincoln's public rhetoric. The sentence also activates a suppressed sacrificial economy: the enslaved person's blood (lash) funds the economy in which soldier blood (sword) pays the debt — but the enslaved person is not named as the creditor. The 'war came' construction in S10 should be tracked as a corpus-wide marker of the obligatory/non-agent frame: Lincoln uses agentless constructions for war's arrival at multiple points (compare the July 4 Message and Peoria).",
-    "pipeline_log_entry": {"stage": 4, "agent": "lincoln_corpus_reader", "date": "2026-04-28"}
+    "pipeline_log_entry": {
+      "stage": 4,
+      "agent": "lincoln_corpus_reader",
+      "date": "2026-04-28"
+    }
   },
   "sections": [
     {
@@ -143,7 +147,7 @@
                   },
                   "meta": {
                     "annotator": "lincoln_corpus_reader",
-                    "confidence": 0.80,
+                    "confidence": 0.8,
                     "ambiguity_flag": true,
                     "ambiguity_notes": "Conventional language that may or may not activate CMT mapping consciously; included because the organic-consumption entailments are analytically relevant to the cluster_01 arc.",
                     "irony_flag": false,
@@ -245,7 +249,9 @@
                     "sacrificial_yield": null,
                     "psychic_defense": null,
                     "psychic_defense_notes": null,
-                    "absence_flags": ["confederates_depersonalized"],
+                    "absence_flags": [
+                      "confederates_depersonalized"
+                    ],
                     "absence_notes": "The Confederate leadership and their human agency is present here ('insurgent agents') — this is one of the rare moments where the Confederacy has agents. By S10, even this agency will dissolve into 'the war came.'"
                   },
                   "meta": {
@@ -310,7 +316,9 @@
                     "sacrificial_yield": null,
                     "psychic_defense": null,
                     "psychic_defense_notes": null,
-                    "absence_flags": ["lincoln_non_agent"],
+                    "absence_flags": [
+                      "lincoln_non_agent"
+                    ],
                     "absence_notes": "Lincoln is not present as an agent in this sentence — 'one of them' and 'the other' are the parties, and Lincoln positions himself as narrator of events rather than participant."
                   },
                   "meta": {
@@ -365,7 +373,9 @@
                     "sacrificial_yield": null,
                     "psychic_defense": null,
                     "psychic_defense_notes": null,
-                    "absence_flags": ["lincoln_non_agent"],
+                    "absence_flags": [
+                      "lincoln_non_agent"
+                    ],
                     "absence_notes": "Lincoln is again absent as agent — the two parties made choices; Lincoln is not among them in this framing."
                   },
                   "meta": {
@@ -402,7 +412,9 @@
                     "is_novel_metaphor": true,
                     "is_extended_metaphor": false,
                     "extension_group_id": null,
-                    "co_activated_clusters": ["cluster_06_providence_theodicy"],
+                    "co_activated_clusters": [
+                      "cluster_06_providence_theodicy"
+                    ],
                     "annotation_notes": "Three words that perform the most radical removal of human agency in Lincoln's corpus. After describing how both parties deprecated war, one would make war rather than allow secession, the other would accept war rather than allow dissolution — Lincoln could have written 'and war broke out' or 'and the fighting began.' Instead: 'and the war came.' The war is an entity with autonomous motion. No one chose it; it arrived. This is the pivot on which the entire address's guilt distribution turns: if the war came (was not caused by human will), then the question of blame is replaced by the question of meaning. The co-activation of cluster_06 is latent here and will be explicit in S22: if the war came, then it was sent — and by whom?"
                   },
                   "koenigsberg": {
@@ -420,7 +432,11 @@
                     "sacrificial_yield": null,
                     "psychic_defense": "displacement",
                     "psychic_defense_notes": "The agency of both parties (one made war, the other accepted war) is displaced onto an intransitive arrival event. This displacement is not evasion but a genuine theological claim: the war's ultimate cause is not human will.",
-                    "absence_flags": ["lincoln_non_agent", "confederates_depersonalized", "enslaved_people_non_agent"],
+                    "absence_flags": [
+                      "lincoln_non_agent",
+                      "confederates_depersonalized",
+                      "enslaved_people_non_agent"
+                    ],
                     "absence_notes": "Lincoln_non_agent: Lincoln is nowhere in this sentence. Confederates_depersonalized: the Confederate choice to make war is dissolved into the war's autonomous arrival. Enslaved_people_non_agent: slavery is the cause of the war; enslaved people's condition is what the war is about; but 'the war came' removes all agents from the moment of causation."
                   },
                   "meta": {
@@ -646,7 +662,10 @@
                     "sacrificial_yield": null,
                     "psychic_defense": "displacement",
                     "psychic_defense_notes": "Human moral agency — including the Confederate choice to secede and Lincoln's choice to fight — is displaced onto divine intentionality. This is not evasion in Lincoln's framework but a genuine theological position: the war is larger than any human purpose.",
-                    "absence_flags": ["lincoln_non_agent", "enslaved_people_non_agent"],
+                    "absence_flags": [
+                      "lincoln_non_agent",
+                      "enslaved_people_non_agent"
+                    ],
                     "absence_notes": "Lincoln_non_agent: Lincoln's own agency in the war is subsumed into the Almighty's purposes — he is not a chooser but an instrument. Enslaved_people_non_agent: slavery is constructed as God's 'offense' — a category of divine-human relation — rather than as a system maintained by human choices that victimized specific human beings."
                   },
                   "meta": {
@@ -702,7 +721,10 @@
                     "sacrificial_yield": null,
                     "psychic_defense": "displacement",
                     "psychic_defense_notes": "The cause of the war (human slavery, human secession) is displaced onto divine temporal administration. This displacement is Lincoln's most consistent and most analytically significant psychic move.",
-                    "absence_flags": ["lincoln_non_agent", "enslaved_people_non_agent"],
+                    "absence_flags": [
+                      "lincoln_non_agent",
+                      "enslaved_people_non_agent"
+                    ],
                     "absence_notes": "Enslaved_people_non_agent: their two hundred and fifty years of suffering and resistance is here administered by God's appointed time — they are not agents of their own liberation but subjects of divine scheduling. Lincoln_non_agent: Lincoln's Emancipation Proclamation is subsumed into 'He now wills to remove.'"
                   },
                   "meta": {
@@ -758,7 +780,9 @@
                     "sacrificial_yield": null,
                     "psychic_defense": "reparation",
                     "psychic_defense_notes": "The reparative structure: by accepting shared guilt, Lincoln gestures toward a post-war reconciliation that does not require the South's permanent humiliation. This is the theological foundation of 'malice toward none' — if both sides earned the punishment, neither side can be uniquely condemned.",
-                    "absence_flags": ["enslaved_people_non_agent"],
+                    "absence_flags": [
+                      "enslaved_people_non_agent"
+                    ],
                     "absence_notes": "Enslaved people are the victims of the offense (slavery) but they are not among 'those by whom the offense came' — they did not bring the offense. Yet they are also absent as a distinct category of those who suffered the war's punishment. They gave the most (their labor, their blood under the lash) and are absent from the divine accounting."
                   },
                   "meta": {
@@ -823,7 +847,9 @@
                     "sacrificial_yield": null,
                     "psychic_defense": null,
                     "psychic_defense_notes": null,
-                    "absence_flags": ["lincoln_non_agent"],
+                    "absence_flags": [
+                      "lincoln_non_agent"
+                    ],
                     "absence_notes": "Lincoln prays that the scourge may pass — he is a supplicant under it, not the one wielding it. This is the most explicit lincoln_non_agent moment in the address."
                   },
                   "meta": {
@@ -872,7 +898,9 @@
                     "is_novel_metaphor": true,
                     "is_extended_metaphor": false,
                     "extension_group_id": null,
-                    "co_activated_clusters": ["cluster_06_providence_theodicy"],
+                    "co_activated_clusters": [
+                      "cluster_06_providence_theodicy"
+                    ],
                     "annotation_notes": "The most analytically significant sentence in the Second Inaugural and one of the most important in the corpus. The blood economy operates as follows: (1) the lash draws blood from enslaved bodies — this is the debt; (2) the sword draws blood from soldiers' bodies — this is the payment. The payment is structurally commensurate: drop for drop, lash for sword. God administers the exchange. The implications are extraordinary: Lincoln is saying that soldiers' deaths in the war are the precise equivalent of enslaved people's suffering under slavery. This is the closest Lincoln comes to explicitly making the enslaved people's bodily suffering the moral cause of the war. But the framing is also the most problematic: enslaved people are the creditors of this debt (their blood was drawn first) but they are absent as agents in the repayment. Soldiers pay; enslaved people were paid upon. The blood economy converts their suffering into the material of a divine accounting that does not name them as its beneficiaries."
                   },
                   "koenigsberg": {
@@ -890,7 +918,11 @@
                     "sacrificial_yield": "debt_payment_enabling_war_end",
                     "psychic_defense": "reparation",
                     "psychic_defense_notes": "The blood economy is a reparative structure at the cosmic level: the debt created by slavery is being repaid through soldier deaths. The reparation is not to enslaved people (they do not receive the payment) but to divine justice.",
-                    "absence_flags": ["enslaved_people_non_agent", "black_soldiers_erased", "death_abstracted"],
+                    "absence_flags": [
+                      "enslaved_people_non_agent",
+                      "black_soldiers_erased",
+                      "death_abstracted"
+                    ],
                     "absence_notes": "Enslaved_people_non_agent: the entire blood economy is about their suffering (lash drawing blood) but they are not named, not present as agents, not identified as the creditors whose debt is being repaid. Their blood is the premise; soldiers' blood is the conclusion; enslaved people themselves are absent from the transaction. Black_soldiers_erased: Black Union soldiers' blood is drawn with the sword in payment of the debt — they are doubly erased: as enslaved people (who paid first) and as soldiers (who now pay again). Death_abstracted: soldier deaths are converted into blood-currency in a divine payment scheme."
                   },
                   "meta": {
@@ -943,7 +975,9 @@
                     "is_novel_metaphor": false,
                     "is_extended_metaphor": false,
                     "extension_group_id": null,
-                    "co_activated_clusters": ["cluster_04_birth_creation"],
+                    "co_activated_clusters": [
+                      "cluster_04_birth_creation"
+                    ],
                     "annotation_notes": "Echoes Gettysburg's 'the unfinished work which they who fought here have thus far so nobly advanced.' The same labor frame: the war is a work with an incomplete state that requires completion. The oath/obligation frame (cluster_02) is primary — 'let us strive on' is a votive commitment. The birth-labor frame (cluster_04) is co-activated: finishing the work = completing the labor that will produce the new birth."
                   },
                   "koenigsberg": {
@@ -961,7 +995,9 @@
                     "sacrificial_yield": null,
                     "psychic_defense": null,
                     "psychic_defense_notes": null,
-                    "absence_flags": ["enslaved_people_non_agent"],
+                    "absence_flags": [
+                      "enslaved_people_non_agent"
+                    ],
                     "absence_notes": "The 'work we are in' is the war and its purposes, which include emancipation. Enslaved people are the primary beneficiaries of this work but are not among 'us' who are striving to finish it."
                   },
                   "meta": {
@@ -1017,7 +1053,10 @@
                     "sacrificial_yield": null,
                     "psychic_defense": "reparation",
                     "psychic_defense_notes": "The physician-nation relationship is a reparative structure: guilt acknowledged (distributed/cosmic), now converted into restorative action. This is the address's resolution of its own theological argument.",
-                    "absence_flags": ["enslaved_people_non_agent", "black_soldiers_erased"],
+                    "absence_flags": [
+                      "enslaved_people_non_agent",
+                      "black_soldiers_erased"
+                    ],
                     "absence_notes": "Enslaved_people_non_agent: the nation's wounds include slavery's wound to enslaved people — but they are absent as patients who need binding. The wounds to be bound are the war's wounds to the national body, not slavery's wounds to Black bodies. Black_soldiers_erased: those who fought and died, including 180,000 Black soldiers, are represented by 'him who shall have borne the battle and for his widow and his orphan' — an abstract figure. The Black soldier's widow and orphan are invisible."
                   },
                   "meta": {
@@ -1038,7 +1077,21 @@
     }
   ],
   "pipeline_log": [
-    {"stage": 3, "agent": "scaffold", "date": "2026-04-28"},
-    {"stage": 4, "agent": "lincoln_corpus_reader", "date": "2026-04-28"}
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "lincoln_corpus_reader",
+      "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
+    }
   ]
 }

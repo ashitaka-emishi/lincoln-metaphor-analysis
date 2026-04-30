@@ -38,18 +38,18 @@
       "cluster_05_fathers_inheritance"
     ],
     "dominant_cluster": "cluster_06_providence_theodicy",
-    "instance_range": "inst_00102\u2013inst_00105",
+    "instance_range": "inst_00102–inst_00105",
     "extension_groups": [
       "ext_018"
     ],
-    "koenigsberg_summary": "Phase 0 eulogy: clusters 01, 03, and 06 active in minimal form. The 'infant nation' instance (p03_s04) is the earliest developmental-organism variant of cluster_01 in the corpus, mapping the nation's history to a human life-course paralleling Clay's own. The cluster_03 instance (p18_s09) frames the Union as the repository of 'the world's best hope' for self-government \u2014 a demonstration to the world. The cluster_06 closing (p38_s04, p38_s06) places Clay's life in providential frame: God gave the nation the right man at the right time. The document contains substantial quoted material (newspaper, Jefferson, Clay) that is NOT annotated as Lincoln's own metaphor system; several quoted passages contain disease/body-politic language that belongs to the quoted authors.",
+    "koenigsberg_summary": "Phase 0 eulogy: clusters 01, 03, and 06 active in minimal form. The 'infant nation' instance (p03_s04) is the earliest developmental-organism variant of cluster_01 in the corpus, mapping the nation's history to a human life-course paralleling Clay's own. The cluster_03 instance (p18_s09) frames the Union as the repository of 'the world's best hope' for self-government — a demonstration to the world. The cluster_06 closing (p38_s04, p38_s06) places Clay's life in providential frame: God gave the nation the right man at the right time. The document contains substantial quoted material (newspaper, Jefferson, Clay) that is NOT annotated as Lincoln's own metaphor system; several quoted passages contain disease/body-politic language that belongs to the quoted authors.",
     "absence_flags": {
       "enslaved_people_non_agent": true,
       "black_soldiers_absent": true,
       "disease_and_purification": false,
       "lincoln_non_agent": false
     },
-    "annotator_notes": "QUOTED MATERIAL ANALYSIS: Three substantial sections are quoted and not annotated as Lincoln's own metaphor system: (1) p06\u2013p12: newspaper eulogy ('He exorcised the demon which possessed the body politic' at p11_s06 \u2014 body politic + exorcism language belongs to the newspaper, not Lincoln); (2) p24\u2013p25_s03: Jefferson's letter (famous 'fire bell in the night' at p24_s02, 'wolf by the ears' at p25_s02 \u2014 these belong to Jefferson); (3) p35\u2013p37_s05: Clay's 1827 speech ('blow out the moral lights around us' at p35_s15 \u2014 belongs to Clay). Only Lincoln's own prose is annotated. enslaved_people_non_agent flagged: the document discusses slavery primarily as a political crisis (Missouri question) and as the object of Clay's opposition, not with enslaved people as agents. p30_s04 ('He did not perceive, that on a question of human right, the negroes were to be excepted from the human race') is notable \u2014 Lincoln affirming Black humanity in 1852 \u2014 but they are still not agents in the text."
+    "annotator_notes": "QUOTED MATERIAL ANALYSIS: Three substantial sections are quoted and not annotated as Lincoln's own metaphor system: (1) p06–p12: newspaper eulogy ('He exorcised the demon which possessed the body politic' at p11_s06 — body politic + exorcism language belongs to the newspaper, not Lincoln); (2) p24–p25_s03: Jefferson's letter (famous 'fire bell in the night' at p24_s02, 'wolf by the ears' at p25_s02 — these belong to Jefferson); (3) p35–p37_s05: Clay's 1827 speech ('blow out the moral lights around us' at p35_s15 — belongs to Clay). Only Lincoln's own prose is annotated. enslaved_people_non_agent flagged: the document discusses slavery primarily as a political crisis (Missouri question) and as the object of Clay's opposition, not with enslaved people as agents. p30_s04 ('He did not perceive, that on a question of human right, the negroes were to be excepted from the human race') is notable — Lincoln affirming Black humanity in 1852 — but they are still not agents in the text."
   },
   "sections": [
     {
@@ -128,36 +128,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00102",
-                  "cluster": "cluster_01_body_organism",
-                  "linguistic_form": "infant nation",
-                  "char_span_start": 4,
-                  "char_span_end": 16,
-                  "confidence": 0.87,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_003_s01_p03_s04",
+                  "document_id": "doc_003",
+                  "document_date": "1852-07-06",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.96,
+                  "span_text": "infant nation",
+                  "span_char_start": 4,
+                  "span_char_end": 16,
                   "cmt": {
+                    "cluster_id": "cluster_01_body_organism",
                     "source_domain": "human_organism_life_course",
                     "target_domain": "american_nation",
-                    "mapping": "the nation is an infant organism at birth (1776/1777) that grows through a life-course ('race of life') alongside Clay's individual life; the nation has developmental stages parallel to a human being's",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "the nation and Clay grew up together \u2014 their life-courses are parallel",
+                      "the nation and Clay grew up together — their life-courses are parallel",
                       "the infant nation has matured into a free, prosperous, powerful adult (p04_s03)",
-                      "as Clay dies, the nation lives on \u2014 the organism can outlive individuals"
-                    ]
+                      "as Clay dies, the nation lives on — the organism can outlive individuals"
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "Earliest developmental-organism variant of cluster_01 in the corpus (1852, Phase 0). The nation is 'infant' at 1776 and grows alongside Clay's individual life-course. p04_s03 ('The nation has passed its perils') and p04_s04 ('The child has reached his manhood...and is dead') extend the parallel: Clay completes his life-course while the nation lives on. This developmental cluster_01 variant — nation as a growing organism with infancy/maturity/old-age stages — differs from the wounded-body variant (doc_008, doc_017) and the death/suicide variant (doc_001). Note: the newspaper quote at p11_s06 ('He exorcised the demon which possessed the body politic') uses body-politic language, but this belongs to the quoted newspaper, not Lincoln. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'national_organism' to canonical 'wound_and_healing'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the nation is an infant organism at birth (1776/1777) that grows through a life-course ('race of life') alongside Clay's individual life; the nation has developmental stages parallel to a human being's",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "national_organism",
+                    "fantasy_type": "wound_and_healing",
                     "violence_logic": "not yet applicable (pre-war context); but the developmental-organism frame establishes that the nation can face perils ('the nation has passed its perils,' p04_s03) as a living entity that survives danger",
-                    "obligatory_frame": "an infant nation that has matured must be preserved as a living organism \u2014 its perils must be survived",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "an infant nation that has matured must be preserved as a living organism — its perils must be survived",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "the American nation as a living organism with developmental stages",
                     "guilt_distribution": "not applicable in this context",
-                    "sacrificial_economy": "latent \u2014 p04_s03 'passed its perils' implies past costs of survival",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — p04_s03 'passed its perils' implies past costs of survival",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "Earliest developmental-organism variant of cluster_01 in the corpus (1852, Phase 0). The nation is 'infant' at 1776 and grows alongside Clay's individual life-course. p04_s03 ('The nation has passed its perils') and p04_s04 ('The child has reached his manhood...and is dead') extend the parallel: Clay completes his life-course while the nation lives on. This developmental cluster_01 variant \u2014 nation as a growing organism with infancy/maturity/old-age stages \u2014 differs from the wounded-body variant (doc_008, doc_017) and the death/suicide variant (doc_001). Note: the newspaper quote at p11_s06 ('He exorcised the demon which possessed the body politic') uses body-politic language, but this belongs to the quoted newspaper, not Lincoln."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.87,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -1054,36 +1078,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00103",
-                  "cluster": "cluster_03_experiment_proposition",
-                  "linguistic_form": "the world's best hope depended on the continued Union of these States",
-                  "char_span_start": 53,
-                  "char_span_end": 121,
-                  "confidence": 0.75,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": null,
-                  "suppression_flag": false,
+                  "sentence_id": "doc_003_s01_p18_s09",
+                  "document_id": "doc_003",
+                  "document_date": "1852-07-06",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.96,
+                  "span_text": "the world's best hope depended on the continued Union of these States",
+                  "span_char_start": 53,
+                  "span_char_end": 121,
                   "cmt": {
+                    "cluster_id": "cluster_03_experiment_proposition",
                     "source_domain": "logical_proposition_test",
                     "target_domain": "american_union",
-                    "mapping": "the Union is the repository of 'the world's best hope' \u2014 the proposition that democratic self-government can succeed is embodied in the Union; the Union's continuance is the ongoing demonstration of this hope",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the Union's preservation is not merely American interest but the world's hope for self-government",
                       "separation/dissolution would extinguish that hope for the whole world",
                       "Clay's commitment to the Union was commitment to the world's political future"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": false,
+                    "extension_group_id": null,
+                    "co_activated_clusters": [],
+                    "annotation_notes": "The 'world's best hope' formula is Lincoln's own phrasing, attributed to Clay's 'feeling' but expressed in Lincoln's voice. Compare the 'whole family of man' audience in doc_010 (July 4 Message, inst_00087). The universal-audience frame for the democratic experiment — the world watches whether the Union can prove self-government — appears here in 1852 and will recur throughout the war period. Conf 0.75 — Lincoln is paraphrasing Clay's sentiment ('Feeling, as he did, and as the truth surely is'), so the metaphor is Lincoln's own characterization. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'ideological_proof' to canonical 'experiment_and_proof'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "the Union is the repository of 'the world's best hope' — the proposition that democratic self-government can succeed is embodied in the Union; the Union's continuance is the ongoing demonstration of this hope",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "ideological_proof",
+                    "fantasy_type": "experiment_and_proof",
                     "violence_logic": "not yet applicable (pre-war, eulogistic context)",
-                    "obligatory_frame": "the world's best hope cannot be abandoned \u2014 the demonstration must continue",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "the world's best hope cannot be abandoned — the demonstration must continue",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "the Union as embodiment of humanity's best hope for self-government",
                     "guilt_distribution": "those who would dissolve the Union would extinguish the world's hope",
-                    "sacrificial_economy": "latent \u2014 Clay spent his life defending this hope",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — Clay spent his life defending this hope",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "The 'world's best hope' formula is Lincoln's own phrasing, attributed to Clay's 'feeling' but expressed in Lincoln's voice. Compare the 'whole family of man' audience in doc_010 (July 4 Message, inst_00087). The universal-audience frame for the democratic experiment \u2014 the world watches whether the Union can prove self-government \u2014 appears here in 1852 and will recur throughout the war period. Conf 0.75 \u2014 Lincoln is paraphrasing Clay's sentiment ('Feeling, as he did, and as the truth surely is'), so the metaphor is Lincoln's own characterization."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.75,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2325,36 +2373,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00104",
-                  "cluster": "cluster_06_providence_theodicy",
-                  "linguistic_form": "providence of God was given us",
-                  "char_span_start": 53,
-                  "char_span_end": 82,
-                  "confidence": 0.8,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": "ext_018",
-                  "suppression_flag": false,
+                  "sentence_id": "doc_003_s01_p38_s04",
+                  "document_id": "doc_003",
+                  "document_date": "1852-07-06",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.96,
+                  "span_text": "providence of God was given us",
+                  "span_char_start": 53,
+                  "span_char_end": 82,
                   "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
                     "source_domain": "divine_providence",
                     "target_domain": "henry_clays_provision_to_nation",
-                    "mapping": "Clay was not merely a product of historical circumstance but was given to the nation by God's providence; the providential frame converts historical contingency into divine assignment",
+                    "linguistic_form": "clause",
                     "entailments": [
                       "the nation's needs ('what the times have demanded') are met by God's providential provision",
                       "great men are instruments of Providence, not accidents of history",
                       "the nation can trust that Providence will provide again in future crises"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_018",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_018 with p38_s06. The 'providence of God was given us' formula converts Clay's historical career into a providential bestowal. This is cluster_06 in retrospective mode — Providence provided the instrument in the past. Lincoln is acknowledging Clay's providential role as a gift to the nation. Compare First Inaugural (doc_009) inst_00073–inst_00074: Providence as current bipartisan adjudicator. The retrospective-provision mode here is distinct from the protective and judging modes of later documents. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'providential_sanction' to canonical 'punishment_and_theodicy'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "Clay was not merely a product of historical circumstance but was given to the nation by God's providence; the providential frame converts historical contingency into divine assignment",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "providential_sanction",
+                    "fantasy_type": "punishment_and_theodicy",
                     "violence_logic": "not applicable directly; the providential frame here is retrospective (Clay was given), not prospective (we must fight)",
-                    "obligatory_frame": "if Providence provided Clay for past crises, the nation can trust Providence for future ones",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "if Providence provided Clay for past crises, the nation can trust Providence for future ones",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "Henry Clay as instrument of divine Providence",
                     "guilt_distribution": "not applicable",
-                    "sacrificial_economy": "latent \u2014 Clay's life was given providentially and spent in service",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — Clay's life was given providentially and spent in service",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_018 with p38_s06. The 'providence of God was given us' formula converts Clay's historical career into a providential bestowal. This is cluster_06 in retrospective mode \u2014 Providence provided the instrument in the past. Lincoln is acknowledging Clay's providential role as a gift to the nation. Compare First Inaugural (doc_009) inst_00073\u2013inst_00074: Providence as current bipartisan adjudicator. The retrospective-provision mode here is distinct from the protective and judging modes of later documents."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.8,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2378,36 +2450,60 @@
               "metaphor_instances": [
                 {
                   "instance_id": "inst_00105",
-                  "cluster": "cluster_06_providence_theodicy",
-                  "linguistic_form": "continued care of Divine Providence",
-                  "char_span_start": 53,
-                  "char_span_end": 87,
-                  "confidence": 0.82,
-                  "is_novel_metaphor": false,
-                  "conventional_or_novel": "conventional",
-                  "extension_group": "ext_018",
-                  "suppression_flag": false,
+                  "sentence_id": "doc_003_s01_p38_s06",
+                  "document_id": "doc_003",
+                  "document_date": "1852-07-06",
+                  "document_register": "formal_public_address",
+                  "authorship_confidence": 0.96,
+                  "span_text": "continued care of Divine Providence",
+                  "span_char_start": 53,
+                  "span_char_end": 87,
                   "cmt": {
+                    "cluster_id": "cluster_06_providence_theodicy",
                     "source_domain": "divine_providence",
                     "target_domain": "nations_future",
-                    "mapping": "Divine Providence cares for the nation as a guardian; its care is continuous ('continued care'); the nation must strive to deserve that care; and Providence will provide 'instruments of safety and security' in future emergencies",
+                    "linguistic_form": "clause",
                     "entailments": [
-                      "Providence's care is conditional \u2014 the nation must deserve it",
+                      "Providence's care is conditional — the nation must deserve it",
                       "future national emergencies will be met by providentially provided instruments",
                       "the nation's safety depends on divine guardianship"
-                    ]
+                    ],
+                    "is_novel_metaphor": false,
+                    "is_extended_metaphor": true,
+                    "extension_group_id": "ext_018",
+                    "co_activated_clusters": [],
+                    "annotation_notes": "ext_018 climax. 'He will not fail to provide us the instruments of safety and security' in future national emergencies is the key phrase: Providence will provide instruments (people like Clay) when needed. This is cluster_06 in its prospective-provision mode, promising divine supply for future crises. Compare Second Inaugural (Phase 5) where Providence has actively willed suffering rather than providing instruments of safety — the arc from providential provision (1852) to providential judgment (1865) is the most dramatic cluster_06 development. Moved legacy sacrificial_economy prose into sacrificial_yield. Migrated legacy fantasy_type 'providential_sanction' to canonical 'punishment_and_theodicy'. Migrated legacy absence_flag 'disease_and_purification' to canonical 'disease_purification_absent'.",
+                    "mapping": "Divine Providence cares for the nation as a guardian; its care is continuous ('continued care'); the nation must strive to deserve that care; and Providence will provide 'instruments of safety and security' in future emergencies",
+                    "conventional_or_novel": "conventional"
                   },
                   "koenigsberg": {
-                    "fantasy_type": "providential_sanction",
-                    "violence_logic": "Providence will provide safety instruments in 'future national emergencies' \u2014 divine provision converts crisis into opportunity for providential demonstration",
-                    "obligatory_frame": "to deserve Divine Providence's continued care requires striving \u2014 passive reception is insufficient",
+                    "fantasy_type": "punishment_and_theodicy",
+                    "violence_logic": "Providence will provide safety instruments in 'future national emergencies' — divine provision converts crisis into opportunity for providential demonstration",
+                    "obligatory_frame": true,
+                    "obligatory_frame_notes": "to deserve Divine Providence's continued care requires striving — passive reception is insufficient",
+                    "agent_of_violence": null,
+                    "agent_is_abstract": false,
+                    "object_of_violence": null,
                     "projected_entity": "Divine Providence as the nation's continuing guardian and provider",
                     "guilt_distribution": "not applicable in this context",
-                    "sacrificial_economy": "latent \u2014 striving to 'deserve' Providence's care implies ongoing effort and sacrifice",
+                    "guilt_distribution_notes": null,
+                    "sacrificial_economy": true,
+                    "sacrificial_yield": "latent — striving to 'deserve' Providence's care implies ongoing effort and sacrifice",
+                    "psychic_defense": null,
+                    "psychic_defense_notes": null,
                     "absence_flags": [
-                      "disease_and_purification"
+                      "disease_purification_absent"
                     ],
-                    "annotator_notes": "ext_018 climax. 'He will not fail to provide us the instruments of safety and security' in future national emergencies is the key phrase: Providence will provide instruments (people like Clay) when needed. This is cluster_06 in its prospective-provision mode, promising divine supply for future crises. Compare Second Inaugural (Phase 5) where Providence has actively willed suffering rather than providing instruments of safety \u2014 the arc from providential provision (1852) to providential judgment (1865) is the most dramatic cluster_06 development."
+                    "absence_notes": "Legacy annotation flagged structural absence without a separate absence_notes field; see annotation_notes and migration notes."
+                  },
+                  "meta": {
+                    "annotator": "lincoln_corpus_reader",
+                    "confidence": 0.82,
+                    "ambiguity_flag": false,
+                    "ambiguity_notes": null,
+                    "irony_flag": false,
+                    "suppression_flag": false,
+                    "suppression_notes": null
                   }
                 }
               ]
@@ -2428,7 +2524,7 @@
             {
               "sentence_id": "doc_003_s02_p01_s01",
               "sentence_ordinal": 1,
-              "text": "[1]\u00a0\u00a0 Illinois Weekly Journal, July 21, 1852.",
+              "text": "[1]   Illinois Weekly Journal, July 21, 1852.",
               "word_offset_start": 5355,
               "word_offset_end": 5362,
               "authorship_note": "editorial_apparatus",
@@ -2471,6 +2567,12 @@
       "stage": 3,
       "agent": "scaffold",
       "date": "2026-04-28"
+    },
+    {
+      "stage": 4,
+      "agent": "migrate_annotations_to_stage4.js",
+      "date": "2026-04-30",
+      "notes": "Canonicalized legacy annotation instance schema; preserved interpretive content and normalized legacy taxonomy labels."
     }
   ]
 }
