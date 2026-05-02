@@ -210,7 +210,7 @@ Same structure as Stage 3, with `metaphor_instances` arrays populated. Each elem
 
 ## Stage 5: Concordance JSON
 
-File: `concordance/concordance.json`
+File: `data/concordance.json`
 
 See `concordance.json` for the full stub. Key shape:
 

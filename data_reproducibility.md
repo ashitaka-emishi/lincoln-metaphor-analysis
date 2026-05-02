@@ -21,7 +21,7 @@ The npm shortcut is:
 npm run pipeline
 ```
 
-That command validates JSON, builds `concordance/concordance.json`, and computes `analysis/analysis.json`.
+That command validates JSON, builds `data/concordance.json`, and computes `analysis/analysis.json`.
 
 Current status: Stages 1–6 are complete across all 28 documents. Stage 7 (LCC benchmark validation) is scaffolded and runnable; the LCC dataset is not committed to the repository but is downloaded on demand.
 

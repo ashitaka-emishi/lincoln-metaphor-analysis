@@ -6,7 +6,7 @@ on:
     paths:
       - 'scripts/parse_lcc.py'
       - 'scripts/evaluate_lcc.py'
-      - 'concordance/concordance.json'
+      - 'data/concordance.json'
   workflow_dispatch:
 
 jobs:

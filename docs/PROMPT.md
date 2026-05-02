@@ -49,7 +49,7 @@ Wide corpus by design — register field carries the methodological weight that 
 | 2 | Raw text | `corpus/text/{id}.md` (with YAML frontmatter) | Manual or agent |
 | 3 | Stage 2 text | `corpus/segmented/{id}_segmented.json` | lincoln_corpus_reader |
 | 4 | Stage 3 JSON | `corpus/annotated/{id}_annotated.json` | lincoln_corpus_reader |
-| 5 | All Stage 4 | `concordance/concordance.json` | `npm run concordance` |
+| 5 | All Stage 4 | `data/concordance.json` | `npm run concordance` |
 | 6 | Concordance | `analysis/analysis.json` | `npm run analysis` |
 
 Check status: `npm run status`
@@ -83,7 +83,7 @@ Full pipeline: `npm run pipeline`
 - [ ] Stage 4 notes: `analysis/document_notes/{id}_notes.md` — key findings, novel instances, absence flags, diachronic position
 
 ### Concordance + Analysis
-- [ ] `concordance/concordance.json` — status: complete; all indexes populated
+- [ ] `data/concordance.json` — status: complete; all indexes populated
 - [ ] `analysis/analysis.json` — status: complete; all 6 cluster_analyses computed
 
 ### Written Deliverables (koenigsberg_comparativist)

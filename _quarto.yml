@@ -5,11 +5,10 @@ project:
     - "**/*.qmd"
     - "**/*.md"
     - "!SCAFFOLD.md"
-    - "!PROMPT.md"
+    - "!docs/PROMPT.md"
+    - "!docs/QUARTO.md"
+    - "!docs/agents.md"
     - "!README.md"
-    - "!QUARTO.md"
-    - "!inject-lcc-api_metaphor.md"
-    - "!agents.md"
     - "!reports/**"
     - "!data/**"
     - "!scaffolds/**"
@@ -74,7 +73,7 @@ website:
             text: Data / Reproducibility
           - href: annotation_schema_repair.md
             text: Annotation Schema Repair
-          - href: DECISIONS.md
+          - href: docs/DECISIONS.md
             text: Design Decisions
       - section: Analysis
         contents:
@@ -177,7 +176,7 @@ format:
             { text: "Methodology", match: p =>
               /\/methods_summary\.html$/.test(p) ||
               /\/data_reproducibility\.html$/.test(p) ||
-              /\/DECISIONS\.html$/.test(p) ||
+              p.includes('/docs/DECISIONS.html') ||
               p.includes("/skills/") ||
               p.includes("/comparison/theoretical_framework.html")
             },

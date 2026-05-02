@@ -52,38 +52,49 @@ Output is structured JSON at every stage, enabling programmatic analysis and vis
 ```text
 lincoln-analysis/
 ├── index.qmd                    # website overview
-├── executive_summary.md          # public-facing argument summary
-├── how_to_read.md                # guide to site structure and draft status
-├── methods_summary.md            # public-facing method summary
-├── analysis_overview.md          # analysis section landing page
-├── data_reproducibility.md       # data, scripts, and reproducibility notes
-├── annotation_schema_repair.md   # 2026-04-30 schema drift incident and repair record
+├── executive_summary.md         # public-facing argument summary
+├── how_to_read.md               # guide to site structure and draft status
+├── methods_summary.md           # public-facing method summary
+├── analysis_overview.md         # analysis section landing page
+├── data_reproducibility.md      # data, scripts, and reproducibility notes
+├── annotation_schema_repair.md  # 2026-04-30 schema drift incident and repair record
+├── changelog.md                 # project change log
 ├── corpus/
-│   ├── corpus_manifest.json      # all 28 documents with full metadata
-│   ├── raw/                      # Stage 1: source files
-│   ├── text/                     # Stage 2: markdown + YAML frontmatter
-│   ├── segmented/                # Stage 3: structural JSON
-│   └── annotated/                # Stage 4: annotated JSON
-├── concordance/
-│   └── concordance.json          # Stage 5: corpus-wide index
+│   ├── corpus_manifest.json     # all 28 documents with full metadata
+│   ├── raw/                     # Stage 1: source files
+│   ├── text/                    # Stage 2: markdown + YAML frontmatter
+│   ├── segmented/               # Stage 3: structural JSON
+│   └── annotated/               # Stage 4: annotated JSON
+├── data/
+│   ├── concordance.json         # Stage 5: corpus-wide index
+│   ├── lcc/                     # LCC XML dataset (gitignored, downloaded on demand)
+│   └── lcc_subset/              # parsed LCC CSV (gitignored)
 ├── analysis/
-│   ├── analysis.json             # Stage 6: cluster statistics
+│   ├── analysis.json            # Stage 6: cluster statistics
 │   ├── diachronic_map.md
 │   ├── systematic_absence.md
-│   ├── document_notes/           # Stage 4 human-readable findings per document
-│   └── cluster_profiles/         # cluster_01.md through cluster_06.md
+│   ├── lcc_validation.md        # Stage 7: LCC benchmark validation (site page)
+│   ├── document_notes/          # Stage 4 human-readable findings per document
+│   └── cluster_profiles/        # cluster_01.md through cluster_06.md
 ├── comparison/
-│   ├── theoretical_framework.md  # methodology: CMT + Koenigsberg integration
+│   ├── theoretical_framework.md # methodology: CMT + Koenigsberg integration
 │   └── koenigsberg_comparison.md # synthesis: Lincoln vs. Hitler structural comparison
 ├── synthesis/
 │   ├── findings.md
 │   ├── final_conclusions.md
 │   └── open_questions.md
-├── skills/                       # methodology reference files
-├── subagents/                    # TOML configs for annotation agents
-├── scripts/                      # pipeline scripts (Python + Node.js)
-├── PROMPT.md                     # master entry point for Claude Code
-└── DECISIONS.md                  # resolved and open design decisions
+├── skills/                      # methodology reference files
+├── subagents/                   # TOML configs for annotation agents
+├── scripts/                     # pipeline scripts (Python + Node.js)
+│   └── snippet.js               # browser DevTools snippet for corpus download
+├── scaffolds/                   # scaffold prompts and LCC documentation
+├── docs/                        # developer/process docs (not rendered to site)
+│   ├── PROMPT.md                # master entry point for Claude Code
+│   ├── DECISIONS.md             # resolved and open design decisions
+│   ├── QUARTO.md                # Quarto site configuration notes
+│   └── agents.md                # agent role and discipline guide
+└── reports/                     # generated reports (gitignored)
+    └── stage7/LCC_report.md
 ```
 
 ## Quarto Research Site
@@ -121,7 +132,7 @@ Key public-facing guide pages:
 | 2 | Markdown + YAML frontmatter | `corpus/text/` |
 | 3 | Segmented JSON (sections/paragraphs/sentences) | `corpus/segmented/` |
 | 4 | Annotated JSON (metaphor instances embedded) | `corpus/annotated/` |
-| 5 | Concordance (corpus-wide index) | `concordance/` |
+| 5 | Concordance (corpus-wide index) | `data/concordance.json` |
 | 6 | Analysis (cluster statistics) | `analysis/` |
 | 7 | LCC benchmark — domain coverage against LCC Metaphor Dataset | `reports/stage7/` |
 
@@ -135,9 +146,9 @@ Key public-facing guide pages:
 | 2 | ✓ Complete | 28 `.md` files with YAML frontmatter in `corpus/text/` |
 | 3 | ✓ Complete | 28 `.json` files in `corpus/segmented/` — 7,644 sentences, 5,198 Lincoln-authored |
 | 4 | ✓ Complete | `corpus/annotated/` — 28/28 complete; 136 instances (inst_00001–inst_00136) across 24 extension groups; all files pass canonical schema validation; `analysis/document_notes/` — findings written for all 28 docs; completed 2026-04-30 |
-| 5 | ✓ Complete | `concordance/concordance.json` — 136 instances indexed; 51 high-confidence (≥0.90); 7 suppression instances; completed 2026-04-30 |
+| 5 | ✓ Complete | `data/concordance.json` — 136 instances indexed; 51 high-confidence (≥0.90); 7 suppression instances; completed 2026-04-30 |
 | 6 | ✓ Complete | `analysis/analysis.json` — cluster_01: 34, cluster_02: 17, cluster_03: 20, cluster_04: 8, cluster_05: 35, cluster_06: 22; 144 absence flag instances; completed 2026-04-30 |
-| 7 | ⚙ Scaffolded | Scripts ready; requires LCC data download to run full comparison. Lincoln-only summary always available via `npm run stage7:eval`. See `inject-lcc-api_metaphor.md`. |
+| 7 | ⚙ Scaffolded | Scripts ready; requires LCC data download to run full comparison. Lincoln-only summary always available via `npm run stage7:eval`. See `scaffolds/inject-lcc-api_metaphor.md`. |
 
 The research site rebuilds automatically on every push via GitHub Actions (`quarto render`).
 
@@ -155,12 +166,12 @@ npm run stage7:eval
 npm run stage7
 ```
 
-Report is written to `reports/stage7/LCC_report.md`. See `inject-lcc-api_metaphor.md` for full documentation.
+Report is written to `reports/stage7/LCC_report.md`. See `scaffolds/inject-lcc-api_metaphor.md` for full documentation.
 
 ## How Stages 1–3 Were Built
 
 **Stage 1** — Source acquisition  
-Texts fetched from the University of Michigan Collected Works digital edition (quod.lib.umich.edu). A Chrome DevTools snippet (`corpus/raw/snippet.js`) runs authenticated fetch calls against the DLXS TOC or known section URLs, downloads each document as a `.txt` file, and strips DLXS navigation chrome inline. A Python cleanup script (`scripts/strip_umich_nav.py`) handles any residual page-break artifacts. Five documents (doc_001, doc_002, doc_008, doc_009, doc_012, doc_016, doc_017, doc_019, doc_021, doc_022) were provided from other sources and written manually; their raw files were created directly.
+Texts fetched from the University of Michigan Collected Works digital edition (quod.lib.umich.edu). A Chrome DevTools snippet (`scripts/snippet.js`) runs authenticated fetch calls against the DLXS TOC or known section URLs, downloads each document as a `.txt` file, and strips DLXS navigation chrome inline. A Python cleanup script (`scripts/strip_umich_nav.py`) handles any residual page-break artifacts. Five documents (doc_001, doc_002, doc_008, doc_009, doc_012, doc_016, doc_017, doc_019, doc_021, doc_022) were provided from other sources and written manually; their raw files were created directly.
 
 **Stage 2** — Frontmatter attachment  
 `scripts/build_stage2.py` reads each raw `.txt` file, prepends a YAML frontmatter block from a hardcoded catalogue (title, date, register, authorship, confidence, risk_flags, analytical_priority), and writes `corpus/text/{doc_id}.md`. Three documents (doc_011, doc_013, doc_018) were written manually with corrected text before the script ran. Run with `--force` to overwrite.

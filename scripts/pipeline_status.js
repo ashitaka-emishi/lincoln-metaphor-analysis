@@ -96,7 +96,7 @@ function main() {
   );
 
   // Concordance status
-  const concordancePath = path.join(ROOT, 'concordance', 'concordance.json');
+  const concordancePath = path.join(ROOT, 'data', 'concordance.json');
   console.log('\n--- Concordance ---');
   if (exists(concordancePath)) {
     const conc = JSON.parse(fs.readFileSync(concordancePath, 'utf8'));
@@ -105,7 +105,7 @@ function main() {
     console.log(`  Total documents: ${conc.total_documents}`);
     console.log(`  Total sentences: ${conc.total_sentences}`);
   } else {
-    console.log('  concordance.json not found.');
+    console.log('  data/concordance.json not found.');
   }
 
   // Analysis status

@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const CONCORDANCE_PATH = path.join(ROOT, 'concordance', 'concordance.json');
+const CONCORDANCE_PATH = path.join(ROOT, 'data', 'concordance.json');
 const ANALYSIS_PATH = path.join(ROOT, 'analysis', 'analysis.json');
 
 function topN(countMap, n) {
@@ -34,7 +34,7 @@ function main() {
   console.log('=== Running Analysis (Stage 6) ===\n');
 
   if (!fs.existsSync(CONCORDANCE_PATH)) {
-    console.error('ERROR: concordance/concordance.json not found. Run build_concordance.js first.');
+    console.error('ERROR: data/concordance.json not found. Run build_concordance.js first.');
     process.exit(1);
   }
 

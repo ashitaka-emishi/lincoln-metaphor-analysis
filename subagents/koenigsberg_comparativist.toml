@@ -39,7 +39,7 @@ primary = "Stage 5 concordance, Stage 6 analysis, all written deliverables"
 [[agent.task.steps]]
 step = 1
 name = "Stage 5: Build concordance"
-instruction = "Run: node scripts/build_concordance.js. Verify concordance/concordance.json is populated with all instances and all indexes are non-empty."
+instruction = "Run: node scripts/build_concordance.js. Verify data/concordance.json is populated with all instances and all indexes are non-empty."
 
 [[agent.task.steps]]
 step = 2
@@ -98,7 +98,7 @@ name = "Write findings and open questions"
 instruction = "Populate synthesis/findings.md with 4 substantive findings. Populate synthesis/open_questions.md with refined questions based on actual annotation results."
 
 [agent.output]
-concordance = "concordance/concordance.json"
+concordance = "data/concordance.json"
 analysis = "analysis/analysis.json"
 cluster_profiles = ["analysis/cluster_profiles/cluster_01.md", "analysis/cluster_profiles/cluster_02.md", "analysis/cluster_profiles/cluster_03.md", "analysis/cluster_profiles/cluster_04.md", "analysis/cluster_profiles/cluster_05.md", "analysis/cluster_profiles/cluster_06.md"]
 written_deliverables = [

@@ -7,7 +7,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const ANNOTATED_DIR = path.join(ROOT, 'corpus', 'annotated');
-const CONCORDANCE_PATH = path.join(ROOT, 'concordance', 'concordance.json');
+const CONCORDANCE_PATH = path.join(ROOT, 'data', 'concordance.json');
 const MANIFEST_PATH = path.join(ROOT, 'corpus', 'corpus_manifest.json');
 
 function addToIndex(index, key, instanceId) {
@@ -165,7 +165,7 @@ function main() {
 
   fs.writeFileSync(CONCORDANCE_PATH, JSON.stringify(concordance, null, 2));
 
-  console.log(`\n✓ Concordance written to concordance/concordance.json`);
+  console.log(`\n✓ Concordance written to data/concordance.json`);
   console.log(`  Total documents processed: ${processedDocIds.size}`);
   console.log(`  Total sentences scanned:   ${totalSentences}`);
   console.log(`  Total instances indexed:   ${allInstances.length}`);

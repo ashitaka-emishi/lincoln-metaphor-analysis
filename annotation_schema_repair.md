@@ -105,7 +105,7 @@ If validation fails, the workflow now requires stopping and explicitly asking th
 The repair changed:
 
 - all 20 existing annotated Stage 4 JSON files in `corpus/annotated/`
-- generated Stage 5 output in `concordance/concordance.json`
+- generated Stage 5 output in `data/concordance.json`
 - generated Stage 6 output in `analysis/analysis.json`
 - documentation and workflow files related to validation and schema discipline
 

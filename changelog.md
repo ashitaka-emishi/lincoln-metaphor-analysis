@@ -14,7 +14,7 @@ Repository-wide validation exposed schema drift between the Stage 4 annotation f
 - Regenerated Stage 5 concordance and Stage 6 analysis from the repaired data (`npm run pipeline`)
 - Added `npm run validate:annotation -- <doc_id>` as a required post-write check after every new Stage 4 file
 
-**Scope:** all 20 Stage 4 JSON files, `concordance/concordance.json`, `analysis/analysis.json`, schema documentation, and workflow files. Source texts and Stage 3 segmentation unchanged.
+**Scope:** all 20 Stage 4 JSON files, `data/concordance.json`, `analysis/analysis.json`, schema documentation, and workflow files. Source texts and Stage 3 segmentation unchanged.
 
 Full incident record: [`annotation_schema_repair.md`](annotation_schema_repair.md).
 

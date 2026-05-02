@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Stage 7: Compare Lincoln concordance metadata with the LCC Metaphor Dataset.
 
-Always produces a Lincoln-side summary from concordance/concordance.json.
+Always produces a Lincoln-side summary from data/concordance.json.
 When an LCC CSV (from parse_lcc.py) is provided, also produces a concept-domain
 comparison showing which LCC source-concept categories are represented in Lincoln.
 
@@ -23,7 +23,7 @@ from datetime import date
 from pathlib import Path
 from typing import Optional
 
-CONCORDANCE_PATH = Path('concordance/concordance.json')
+CONCORDANCE_PATH = Path('data/concordance.json')
 DEFAULT_OUTPUT = Path('reports/stage7/LCC_report.md')
 
 # Keyword-based mapping from LCC source-concept categories → Lincoln cluster IDs.
@@ -155,7 +155,7 @@ def render_report(lincoln: dict, lcc: Optional[dict], cov: Optional[dict], outpu
         f'# Stage 7: LCC Metaphor Dataset Validation',
         f'',
         f'**Generated:** {today}  ',
-        f'**Concordance:** `concordance/concordance.json`  ',
+        f'**Concordance:** `data/concordance.json`  ',
     ]
     if lcc:
         lines.append(f'**LCC data:** `data/lcc_subset/` (en_small subset)  ')
