@@ -32,6 +32,10 @@ website:
         text: Analysis
       - href: synthesis/final_conclusions.md
         text: Synthesis
+    right:
+      - icon: github
+        href: https://github.com/ashitaka-emishi/lincoln-metaphor-analysis
+        aria-label: View project on GitHub
 
   sidebar:
     style: docked
