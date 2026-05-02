@@ -22,5 +22,15 @@ __pycache__/
 .venv/
 *.log
 
+# stage 7: lcc data files (large XML, not committed)
+data/lcc/*.xml
+data/lcc/*.gz
+data/lcc/*.tar.gz
+data/lcc_subset/*.csv
+
+# stage 7: generated reports (built by evaluate_lcc.py)
+reports/stage7/*.md
+reports/stage7/*.html
+
 /.quarto/
 **/*.quarto_ipynb

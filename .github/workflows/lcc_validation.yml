@@ -1,0 +1,63 @@
+name: Stage 7 LCC Validation
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'scripts/parse_lcc.py'
+      - 'scripts/evaluate_lcc.py'
+      - 'concordance/concordance.json'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify scripts are importable
+        run: |
+          python3 -c "import ast, sys; ast.parse(open('scripts/parse_lcc.py').read()); print('parse_lcc.py OK')"
+          python3 -c "import ast, sys; ast.parse(open('scripts/evaluate_lcc.py').read()); print('evaluate_lcc.py OK')"
+
+      - name: Run Lincoln-only evaluation (no LCC data required)
+        run: python3 scripts/evaluate_lcc.py --output reports/stage7/LCC_report.md
+
+      - name: Verify report was generated
+        run: |
+          test -f reports/stage7/LCC_report.md && echo "Report generated OK"
+          head -5 reports/stage7/LCC_report.md
+
+      - name: (Optional) Download LCC small dataset and run full comparison
+        continue-on-error: true
+        run: |
+          mkdir -p data/lcc data/lcc_subset
+          # Attempt to download en_small.xml from the LCC GitHub repo.
+          # This step is best-effort; failure does not block the workflow.
+          curl -fsSL \
+            "https://github.com/lcc-api/metaphor/raw/master/LCC_Metaphor_Dataset/en_small.xml" \
+            -o data/lcc/en_small.xml || \
+          curl -fsSL \
+            "https://raw.githubusercontent.com/lcc-api/metaphor/main/LCC_Metaphor_Dataset/en_small.xml" \
+            -o data/lcc/en_small.xml || \
+          echo "LCC download skipped (repo path may differ — update URL if needed)"
+          if [ -f data/lcc/en_small.xml ]; then
+            python3 scripts/parse_lcc.py \
+              --input data/lcc/en_small.xml \
+              --output data/lcc_subset/en_small.csv
+            python3 scripts/evaluate_lcc.py \
+              --lcc data/lcc_subset/en_small.csv \
+              --output reports/stage7/LCC_report.md
+          fi
+
+      - name: Upload LCC validation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: LCC-Validation-Report
+          path: reports/stage7/LCC_report.md
+          retention-days: 30

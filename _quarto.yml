@@ -8,6 +8,11 @@ project:
     - "!PROMPT.md"
     - "!README.md"
     - "!QUARTO.md"
+    - "!inject-lcc-api_metaphor.md"
+    - "!agents.md"
+    - "!reports/**"
+    - "!data/**"
+    - "!scaffolds/**"
 
 website:
   title: "Lincoln Metaphor Analysis"
@@ -37,6 +42,8 @@ website:
         text: Overview
       - href: executive_summary.md
         text: Executive Summary
+      - href: changelog.md
+        text: Change Log
       - href: how_to_read.md
         text: How To Read This Site
       - href: corpus_index.qmd
@@ -77,6 +84,8 @@ website:
             text: Systematic Absence
           - href: analysis/diachronic_map.md
             text: Diachronic Map
+          - href: analysis/lcc_validation.md
+            text: LCC Benchmark Validation
           - section: Cluster Profiles
             contents:
               - href: analysis/cluster_profiles/cluster_01.md

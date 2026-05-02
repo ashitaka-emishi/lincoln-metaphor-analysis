@@ -14,4 +14,6 @@ Register control is central. A formal address, a legal proclamation, a private f
 
 Absence is treated as evidence. When a metaphor's entailments logically require a person or group to appear in a role, and that person or group repeatedly does not appear, the absence is part of the metaphor system's structure. This is especially important for enslaved people and Black soldiers, whose agency is often required by the logic of Lincoln's metaphors but not granted by the rhetoric itself.
 
+**External validation** is provided by Stage 7, which compares Lincoln's annotated clusters against the LCC Metaphor Dataset — a general English metaphor corpus with 8,724 annotations and ~114 source-concept categories. This establishes which of Lincoln's source-concept domains are common in general English metaphor and which are Lincoln-specific rhetorical constructions with no parallel in ordinary figurative language. See [LCC Benchmark Validation](analysis/lcc_validation.md).
+
 The detailed protocols are available in the Methodology section. This page is only the public-facing summary.

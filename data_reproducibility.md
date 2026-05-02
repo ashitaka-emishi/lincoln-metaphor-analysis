@@ -23,7 +23,28 @@ npm run pipeline
 
 That command validates JSON, builds `concordance/concordance.json`, and computes `analysis/analysis.json`.
 
-Current status: Stage 4 annotation is incomplete. Twenty of 28 documents have annotated JSON files. The remaining documents are `doc_004` and the seven Lincoln-Douglas debates, `doc_006a` through `doc_006g`. Because Stage 4 is not finished, Stage 5 concordance and Stage 6 analysis should be treated as stub or pending outputs.
+Current status: Stages 1–6 are complete across all 28 documents. Stage 7 (LCC benchmark validation) is scaffolded and runnable; the LCC dataset is not committed to the repository but is downloaded on demand.
+
+## Stage 7: LCC Validation
+
+Stage 7 compares Lincoln's annotated clusters against the [LCC Metaphor Dataset](https://github.com/lcc-api/metaphor) — a 8,724-annotation general English metaphor corpus — to establish which of Lincoln's source-concept domains are common in English metaphor and which are Lincoln-specific constructions.
+
+```bash
+# Download LCC data (~4.6 MB) and run full Stage 7 comparison:
+npm run stage7
+
+# Lincoln-only cluster summary (no external data required):
+npm run stage7:eval
+```
+
+The LCC XML (`data/lcc/en_small.xml`) and parsed CSV (`data/lcc_subset/en_small.csv`) are gitignored; the download is triggered interactively. The evaluation report is written to `reports/stage7/LCC_report.md` (also gitignored). The persistent site page with the Stage 7 findings is `analysis/lcc_validation.md`.
+
+Scripts:
+
+- `scripts/download_lcc.py` — download and extract `en_small.xml`
+- `scripts/parse_lcc.py` — parse LCC XML → CSV
+- `scripts/evaluate_lcc.py` — compute domain coverage, write Markdown report
+- `scripts/run_stage7.py` — orchestrator; prompts before downloading
 
 The site itself is rendered with Quarto:
 

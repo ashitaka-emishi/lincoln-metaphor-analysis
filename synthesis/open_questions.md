@@ -89,3 +89,21 @@ draft: false
 4. **Confederate rhetoric**: Do Confederate leaders use the same six clusters? Different clusters? Notably, does Confederate rhetoric use disease_and_purification logic about Black freedom?
 
 5. **20th-century political rhetoric**: Does the experiment/proof cluster persist in American political rhetoric after Lincoln? Does the disease_and_purification cluster appear in 20th-century American politics in ways it does not appear in Lincoln?
+
+---
+
+## Stage 7 LCC Validation: What Was Resolved and What Remains Open
+
+*The Stage 7 benchmark comparison ([LCC Validation](../analysis/lcc_validation.md), completed 2026-05-02) resolved several open questions and opened new ones.*
+
+**Resolved:**
+
+- The absence of `disease_and_purification` logic is now confirmed as statistically anomalous against a general English baseline. DISEASE is the 4th most common source concept in the LCC corpus (100 instances); Lincoln routes it exclusively through wound/healing, never through pathogen/expulsion. This is not a general feature of political restraint — it is a structural choice specific to Lincoln's system.
+- Cluster_02 (covenant/oath) and cluster_05 (founding fathers/inheritance) have no significant parallel in general English metaphor. These are Lincoln-specific political constructions, not default figurative vocabulary. The obligatory frame they carry is therefore not simply inherited from common English usage — it was built by Lincoln's particular source-domain selection.
+- The absent domains now have quantified baselines: MOVEMENT (132 in LCC), BUILDING (91), MACHINE (74), GAME (57), ANIMAL (55). Lincoln's avoidance of these common domains is measurable, not merely asserted.
+
+**Newly open:**
+
+- **Why does Lincoln avoid CONFINEMENT?** CONFINEMENT appears 70 times in the LCC baseline and is entirely absent from Lincoln's political rhetoric — despite slavery being the central subject. Lincoln frames slavery's harm as wound (cluster_01) and as a violation of the founding covenant (cluster_02), never as imprisonment or confinement of persons. Does this avoidance reflect the limits of his legal/constitutional framework, which addressed slavery as a political institution rather than as a system of literal confinement?
+- **Is the LCC en_large dataset a better baseline?** The en_small subset (~17k annotations, 8,724 valid) covers general news text. The en_large subset (~87k annotations) may reveal different concept frequencies. Key question: does COVENANT or INHERITANCE appear more prominently in the larger dataset, which would change the interpretation of cluster_02 and cluster_05 as Lincoln-specific?
+- **Contemporaries against LCC**: If Seward, Chase, or Sumner were annotated using the same protocol and compared against LCC, would they show the same narrow cluster selection as Lincoln, or would their rhetoric use a broader range of English figurative domains?

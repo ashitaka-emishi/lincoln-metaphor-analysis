@@ -123,10 +123,11 @@ Key public-facing guide pages:
 | 4 | Annotated JSON (metaphor instances embedded) | `corpus/annotated/` |
 | 5 | Concordance (corpus-wide index) | `concordance/` |
 | 6 | Analysis (cluster statistics) | `analysis/` |
+| 7 | LCC benchmark — domain coverage against LCC Metaphor Dataset | `reports/stage7/` |
 
 ## Current Status
 
-**Stages 1–6 complete** across all 28 documents.
+**Stages 1–7 scaffolded** across all 28 documents.
 
 | Stage | Status | Notes |
 | ----- | ------ | ----- |
@@ -136,8 +137,25 @@ Key public-facing guide pages:
 | 4 | ✓ Complete | `corpus/annotated/` — 28/28 complete; 136 instances (inst_00001–inst_00136) across 24 extension groups; all files pass canonical schema validation; `analysis/document_notes/` — findings written for all 28 docs; completed 2026-04-30 |
 | 5 | ✓ Complete | `concordance/concordance.json` — 136 instances indexed; 51 high-confidence (≥0.90); 7 suppression instances; completed 2026-04-30 |
 | 6 | ✓ Complete | `analysis/analysis.json` — cluster_01: 34, cluster_02: 17, cluster_03: 20, cluster_04: 8, cluster_05: 35, cluster_06: 22; 144 absence flag instances; completed 2026-04-30 |
+| 7 | ⚙ Scaffolded | Scripts ready; requires LCC data download to run full comparison. Lincoln-only summary always available via `npm run stage7:eval`. See `inject-lcc-api_metaphor.md`. |
 
-**All stages complete.** The research site rebuilds automatically on every push via GitHub Actions (`quarto render`).
+The research site rebuilds automatically on every push via GitHub Actions (`quarto render`).
+
+## Stage 7: LCC Metaphor Dataset Verification
+
+Stage 7 benchmarks Lincoln's annotation system against the [LCC Metaphor Dataset](https://github.com/lcc-api/metaphor) — the largest public English metaphor corpus (~17k / ~87k annotations with source/target concept labels).
+
+The comparison is at the **conceptual domain level**: which LCC source-concept categories (BODY, WAR, RELIGION, CONTRACT, etc.) appear in Lincoln's six clusters, and which are systematically absent. This is analytically significant: Lincoln's narrow domain selection is itself a finding.
+
+```bash
+# Lincoln-only cluster summary (no external data needed):
+npm run stage7:eval
+
+# Full comparison (requires data/lcc/en_small.xml from https://github.com/lcc-api/metaphor):
+npm run stage7
+```
+
+Report is written to `reports/stage7/LCC_report.md`. See `inject-lcc-api_metaphor.md` for full documentation.
 
 ## How Stages 1–3 Were Built
 
@@ -167,3 +185,7 @@ Sentence splitting uses regex with abbreviation protection (Mr., Mrs., Dr., Gov.
 - Lakoff, G. & Johnson, M. (1980). *Metaphors We Live By*. University of Chicago Press.
 - Koenigsberg, R. (2009). *Nations Have the Right to Kill*. Library of Social Science.
 - Koenigsberg, R. (2014). *Psychological Sources of War and Genocide*. Library of Social Science.
+
+## Changelog
+
+See [changelog.md](changelog.md) for a record of project changes.

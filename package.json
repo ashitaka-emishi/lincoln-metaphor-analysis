@@ -10,6 +10,10 @@
     "concordance": "node scripts/build_concordance.js",
     "analysis": "node scripts/run_analysis.js",
     "pipeline": "npm run validate && npm run concordance && npm run analysis",
+    "stage7": "python3 scripts/run_stage7.py",
+    "stage7:download": "python3 scripts/download_lcc.py",
+    "stage7:parse": "python3 scripts/parse_lcc.py --input data/lcc/en_small.xml --output data/lcc_subset/en_small.csv",
+    "stage7:eval": "python3 scripts/evaluate_lcc.py --output reports/stage7/LCC_report.md",
     "site": "quarto render",
     "site:preview": "quarto preview",
     "check:quarto": "quarto --version || (echo 'Quarto not found. Install from https://quarto.org/docs/get-started/ or: brew install quarto' && exit 1)"
