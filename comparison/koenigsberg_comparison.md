@@ -17,6 +17,8 @@ Richard Koenigsberg analyzed Hitler's speeches to show that the Nazi genocide wa
 
 **The answer from the corpus**: The difference is the presence or absence of disease/purification logic applied to a social group.
 
+Audit trail: [CLAIM-002](../synthesis/claim_audit.md#claim-002), [CLAIM-006](../synthesis/claim_audit.md#claim-006)
+
 ---
 
 ## Shared Structural Elements
@@ -191,3 +193,5 @@ These hypotheses point beyond the current project toward deeper historical and p
 **Does not establish**: Lincoln was morally superior to Hitler in all respects (the `enslaved_people_non_agent` finding documents significant structural exclusions); or that metaphor structure is the only or primary cause of political outcomes; or that the absence of disease/purification logic guarantees benign political consequences (Lincoln's obligatory frame authorized enormous violence).
 
 **The irreducible finding**: A political rhetoric organized around reparable wounds, fulfillable oaths, provable propositions, payable debts, and finite punishments cannot be driven, by its own internal logic, toward genocide. A political rhetoric organized around biological contamination requiring expulsion cannot stop short of annihilation without violating its own internal logic. Lincoln had the former. Hitler had the latter. The structural difference is at the level of the fantasy type — and it matters for political possibility.
+
+Audit trail: [CLAIM-006](../synthesis/claim_audit.md#claim-006)

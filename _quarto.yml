@@ -63,6 +63,8 @@ website:
             text: Annotation Codebook
           - href: docs/methodology/evidence-chain-schema.md
             text: Evidence Chain Schema
+          - href: docs/methodology/claim-audit.md
+            text: Claim Audit Method
           - href: docs/methodology/reliability-report.md
             text: Reliability Workflow
           - href: docs/upgrade.md
@@ -163,6 +165,8 @@ website:
         contents:
           - href: synthesis/findings.md
             text: Findings
+          - href: synthesis/claim_audit.md
+            text: Claim Audit
           - href: synthesis/final_conclusions.md
             text: Final Conclusions
           - href: comparison/koenigsberg_comparison.md

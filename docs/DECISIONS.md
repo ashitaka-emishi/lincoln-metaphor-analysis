@@ -47,6 +47,11 @@
 **Rationale**: Raw frequency counts cannot support publication claims until they are checked by register and by the `authorship_confidence >= 0.95` subset. The corpus manifest is the canonical source for register and authorship-confidence metadata, so Stage 4A and Stage 6A must prefer manifest values over legacy instance metadata.
 **Implication**: Synthesis prose should cite full-corpus counts only as descriptive. Publication-stable claims must either survive the controlled views or explicitly name the register/authorship limitation.
 
+### Claim audit as generated Stage 8 layer
+**Decision**: Add a generated claim-to-source audit at `data/audit/claim-audit.json` with a public page at `synthesis/claim_audit.md`.
+**Rationale**: Major interpretive claims need a stable handle and a reviewer-readable path back to clusters, CMT mappings, lexical units, sentence IDs, document metadata, and source text. A generated audit keeps selected examples readable while preserving the full matching audit-ID universe in JSON.
+**Implication**: Synthesis pages should cite claim IDs for major claims. Adding or changing a major claim should update `scripts/build_claim_audit.js` so the audit remains reproducible.
+
 ---
 
 ## Unresolved
