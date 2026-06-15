@@ -126,6 +126,12 @@ function writeCSV(filePath, rows, columns) {
   fs.writeFileSync(filePath, lines.join('\n') + '\n');
 }
 
+function csvHasDataRows(filePath) {
+  if (!fs.existsSync(filePath)) return false;
+  const rows = fs.readFileSync(filePath, 'utf8').split(/\r?\n/).filter(line => line.trim());
+  return rows.length > 1;
+}
+
 function flattenSentences(segmented) {
   const sentences = [];
   for (const section of segmented.sections || []) {
@@ -406,11 +412,15 @@ function main() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   fs.writeFileSync(SAMPLE_PATH, JSON.stringify(output, null, 2) + '\n');
   writeCSV(CODING_TEMPLATE_PATH, templateRows, CODING_COLUMNS);
-  writeCSV(ADJUDICATION_LOG_PATH, [], ADJUDICATION_COLUMNS);
+  if (csvHasDataRows(ADJUDICATION_LOG_PATH)) {
+    console.log(`Adjudication log preserved at ${path.relative(ROOT, ADJUDICATION_LOG_PATH)}`);
+  } else {
+    writeCSV(ADJUDICATION_LOG_PATH, [], ADJUDICATION_COLUMNS);
+    console.log(`Adjudication log initialized at ${path.relative(ROOT, ADJUDICATION_LOG_PATH)}`);
+  }
 
   console.log(`Reliability sample written to ${path.relative(ROOT, SAMPLE_PATH)}`);
   console.log(`Double-coding template written to ${path.relative(ROOT, CODING_TEMPLATE_PATH)}`);
-  console.log(`Adjudication log initialized at ${path.relative(ROOT, ADJUDICATION_LOG_PATH)}`);
   console.log(`Sample documents: ${documents.length}/${manifest.documents.length} (${output.sample_policy.sample_percentage}%)`);
   console.log(`Identification units: ${identificationUnits.length}`);
   console.log(`Field-agreement units: ${fieldAgreementUnits.length}`);
