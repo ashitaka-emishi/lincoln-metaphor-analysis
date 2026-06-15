@@ -32,6 +32,11 @@
 **Rationale**: The existing 28-document Stage 1-7 pipeline already contains the structured corpus, annotations, concordance, analysis outputs, and LCC benchmark scaffold needed for a publishable package. The milestone should add missing scholarly controls--research design, provenance, codebook, reliability sample, register/confidence controls, audit trail, revised synthesis, and publication packaging--without expanding into a full replatforming.
 **Implication**: The 15-stage design remains the long-range roadmap. Work in this milestone should stay bounded to the issue tracker unless a later issue explicitly changes scope.
 
+### Evidence-chain schema as derivative layer
+**Decision**: Preserve validated Stage 4 annotation files as the legacy source of record and generate a derivative Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`.
+**Rationale**: Rewriting all Stage 4 files would risk silent data loss and violate the project's stage-immutability discipline. A generated derivative layer can normalize MIPVU, provenance, CMT, Koenigsberg, confidence, agency, and claim-anchor fields while preserving permanent sentence IDs and original annotations.
+**Implication**: Publication claims should cite Stage 4A evidence records for audit trails. Future schema migrations can tighten legacy free-text fields only through documented migration scripts and validation updates.
+
 ---
 
 ## Unresolved
