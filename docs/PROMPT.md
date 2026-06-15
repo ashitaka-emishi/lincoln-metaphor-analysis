@@ -47,7 +47,7 @@ Wide corpus by design — register field carries the methodological weight that 
 |-------|-------|--------|------|
 | 1 | Source text | `corpus/raw/{id}_raw.txt` | Manual fetch |
 | 2 | Raw text | `corpus/text/{id}.md` (with YAML frontmatter) | Manual or agent |
-| 3 | Stage 2 text | `corpus/segmented/{id}_segmented.json` | lincoln_corpus_reader |
+| 3 | Stage 2 text | `corpus/segmented/{id}.json` | lincoln_corpus_reader |
 | 4 | Stage 3 JSON | `corpus/annotated/{id}_annotated.json` | lincoln_corpus_reader |
 | 5 | All Stage 4 | `data/concordance.json` | `npm run concordance` |
 | 6 | Concordance | `analysis/analysis.json` | `npm run analysis` |
@@ -78,7 +78,7 @@ Full pipeline: `npm run pipeline`
 ### Corpus (per document)
 - [ ] Stage 1: raw text in `corpus/raw/`
 - [ ] Stage 2: `corpus/text/{id}.md` with YAML frontmatter
-- [ ] Stage 3: `corpus/segmented/{id}_segmented.json` — validates clean
+- [ ] Stage 3: `corpus/segmented/{id}.json` — validates clean
 - [ ] Stage 4: `corpus/annotated/{id}_annotated.json` — validates clean; document_summary included
 - [ ] Stage 4 notes: `analysis/document_notes/{id}_notes.md` — key findings, novel instances, absence flags, diachronic position
 

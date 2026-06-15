@@ -40,12 +40,16 @@ Applies two theoretical frameworks simultaneously to Lincoln's 28-document corpu
 
 Output is structured JSON at every stage, enabling programmatic analysis and visualization.
 
-**Central research questions**:
+**Primary Research Question**:
 
-- What conceptual metaphors structured Lincoln's understanding of the Civil War?
-- How did his metaphor system make the war feel necessary rather than chosen?
-- What entities does his metaphor system systematically erase (enslaved people, Black soldiers)?
-- What is the structural difference between Lincoln's rhetoric and Hitler's that explains why Lincoln could say "malice toward none" and Hitler could not?
+How does Lincoln's metaphor system authorize mass violence while preserving structural exit conditions that make reconciliation possible rather than annihilation?
+
+**Secondary Research Questions**:
+
+- Which metaphor clusters structure Lincoln's Civil War rhetoric?
+- How does the metaphor system make war feel obligatory rather than chosen?
+- Which agents or groups are systematically absent from the roles the metaphors make available?
+- What structural difference separates Lincoln's rhetoric from purification-based political rhetoric?
 
 ## Directory Structure
 

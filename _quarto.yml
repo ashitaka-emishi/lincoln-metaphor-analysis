@@ -55,6 +55,8 @@ website:
         contents:
           - href: methods_summary.md
             text: Methods Summary
+          - href: docs/upgrade.md
+            text: Pipeline Upgrade
           - href: comparison/theoretical_framework.md
             text: Theoretical Framework
           - href: skills/koenigsberg_method.md
