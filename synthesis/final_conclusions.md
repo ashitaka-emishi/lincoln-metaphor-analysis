@@ -7,6 +7,8 @@ draft: false
 
 *Based on the full 136-instance annotated corpus, six cluster profiles, the diachronic map, the systematic absence analysis, the Koenigsberg comparison, and the generated [Claim-To-Source Audit](claim_audit.md).*
 
+**Publication status**: Evidence-backed final synthesis. This page states the strongest version of the argument, but its claims should be read through the generated audit IDs, controlled-output tables, and explicit limits below.
+
 ---
 
 ## The Four Central Questions — Answered
@@ -99,6 +101,11 @@ The difference in political outcome is not incidental. A rhetoric that has no pa
 - Lincoln would have achieved full racial equality had he lived — the metaphor system's structural limitations suggest otherwise
 - The absence of disease/purification logic explains Lincoln's political choices fully — it explains the rhetorical structure, not the whole political history
 - Hitler's rhetoric was driven entirely by metaphor structure — Koenigsberg's analysis is one framework, not the complete explanation of the Holocaust
+
+**Rival readings preserved**:
+- Lincoln's restraint may reflect political coalition management as much as metaphor structure.
+- The Providence frame may be sincere theology, strategic self-effacement, or both.
+- The corpus establishes public rhetorical structure, not audience reception or private psychological causation.
 
 ---
 

@@ -9,6 +9,8 @@ draft: false
 **Target domain**: the refounding of the nation
 **Instance count**: 8 (first attested 1842-02-22; last attested 1865-04-11)
 
+**Publication status**: Evidence-backed cluster profile. Counts derive from Stage 6; publication claims using this cluster should be checked against [Controlled Outputs](../controlled_outputs.md) and the relevant [Claim-To-Source Audit](../../synthesis/claim_audit.md) entries.
+
 ---
 
 ## CMT Profile

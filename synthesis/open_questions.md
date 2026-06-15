@@ -4,7 +4,7 @@ draft: false
 
 # Open Questions
 
-*Interpretive problems requiring further investigation. Populate with findings from annotation.*
+*Publication status: follow-up agenda. These questions do not block the current publication package; they mark the boundary between evidence-backed claims in this milestone and future research requiring new corpora, variant apparatus, reception evidence, or additional annotation.*
 
 ---
 
@@ -66,7 +66,7 @@ draft: false
 
 ## 5. Corpus Limits vs. the Hitler Comparison
 
-**Problem**: The Lincoln/Hitler comparison is structural — it compares metaphor architectures. But the comparison has an asymmetry: Lincoln's corpus is 29 documents over 27 years; the Hitler comparison is based on Koenigsberg's analysis of a larger and different corpus.
+**Problem**: The Lincoln/Hitler comparison is structural — it compares metaphor architectures. But the comparison has an asymmetry: Lincoln's corpus is 28 documents over 27 years; the Hitler comparison is based on Koenigsberg's analysis of a larger and different corpus.
 
 **Questions**:
 - Does Koenigsberg's Hitler analysis use comparable methodology to this project's Lincoln analysis? If not, how do we control for methodological differences?

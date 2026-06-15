@@ -9,6 +9,8 @@ draft: false
 **Target domain**: the constitutional compact
 **Instance count**: 17 (first attested 1861-01-01; last attested 1865-04-11)
 
+**Publication status**: Evidence-backed cluster profile. Counts derive from Stage 6; publication claims using this cluster should be checked against [Controlled Outputs](../controlled_outputs.md) and the relevant [Claim-To-Source Audit](../../synthesis/claim_audit.md) entries.
+
 ---
 
 ## CMT Profile

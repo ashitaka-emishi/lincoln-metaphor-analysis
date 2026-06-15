@@ -7,6 +7,8 @@ draft: false
 *See comparison/theoretical_framework.md for full methodological basis.*
 *See skills/koenigsberg_method.md for construct definitions.*
 
+**Publication status**: Evidence-backed comparative synthesis. The comparison is structural, not moral: it compares fantasy types, violence logic, guilt distribution, and exit conditions. It does not claim equivalence between Lincoln's political project and Hitler's.
+
 ---
 
 ## Overview
@@ -18,6 +20,8 @@ Richard Koenigsberg analyzed Hitler's speeches to show that the Nazi genocide wa
 **The answer from the corpus**: The difference is the presence or absence of disease/purification logic applied to a social group.
 
 Audit trail: [CLAIM-002](../synthesis/claim_audit.md#claim-002), [CLAIM-006](../synthesis/claim_audit.md#claim-006)
+
+Rival reading: Lincoln's reconciliation language may be explained by political prudence rather than metaphor structure alone. The corpus cannot rule that out. The audit claim is narrower: the validated metaphor system lacks the pathogen-group mechanism that would make exterminatory violence internally necessary.
 
 ---
 
