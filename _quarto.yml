@@ -99,6 +99,8 @@ website:
             text: Systematic Absence
           - href: analysis/diachronic_map.md
             text: Diachronic Map
+          - href: analysis/controlled_outputs.md
+            text: Controlled Outputs
           - href: analysis/lcc_validation.md
             text: LCC Benchmark Validation
           - section: Cluster Profiles

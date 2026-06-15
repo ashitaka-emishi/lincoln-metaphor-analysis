@@ -1,0 +1,2044 @@
+{
+  "version": "1.0",
+  "generated": "2026-06-15",
+  "status": "complete",
+  "source": "data/evidence/annotation-evidence.json",
+  "confidence_threshold": {
+    "field": "document.authorship_confidence",
+    "operator": ">=",
+    "value": 0.95
+  },
+  "subsets": [
+    {
+      "name": "full_corpus",
+      "description": "All Stage 4A evidence-chain records.",
+      "total_instances": 136,
+      "total_documents": 27,
+      "cluster_totals": {
+        "cluster_01_body_organism": 34,
+        "cluster_02_covenant_oath": 17,
+        "cluster_03_experiment_proposition": 20,
+        "cluster_04_birth_creation": 8,
+        "cluster_05_fathers_inheritance": 35,
+        "cluster_06_providence_theodicy": 22
+      },
+      "absence_totals": {
+        "disease_purification_absent": 56,
+        "enslaved_people_non_agent": 47,
+        "lincoln_non_agent": 19,
+        "black_soldiers_erased": 8,
+        "death_abstracted": 8,
+        "confederates_depersonalized": 5,
+        "women_absent": 1
+      },
+      "cluster_by_register": [
+        {
+          "group": "campaign_speech",
+          "total_instances": 36,
+          "document_count": 8,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 10,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 3,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 22,
+            "cluster_06_providence_theodicy": 1
+          }
+        },
+        {
+          "group": "congressional_message",
+          "total_instances": 12,
+          "document_count": 2,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 7,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 2,
+            "cluster_06_providence_theodicy": 2
+          }
+        },
+        {
+          "group": "formal_public_address",
+          "total_instances": 63,
+          "document_count": 10,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 16,
+            "cluster_02_covenant_oath": 7,
+            "cluster_03_experiment_proposition": 8,
+            "cluster_04_birth_creation": 8,
+            "cluster_05_fathers_inheritance": 10,
+            "cluster_06_providence_theodicy": 14
+          }
+        },
+        {
+          "group": "fragment_private",
+          "total_instances": 7,
+          "document_count": 2,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 1,
+            "cluster_02_covenant_oath": 4,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "legal_document",
+          "total_instances": 3,
+          "document_count": 2,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 2,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 1
+          }
+        },
+        {
+          "group": "semi_public_letter",
+          "total_instances": 15,
+          "document_count": 3,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 7,
+            "cluster_02_covenant_oath": 3,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 4
+          }
+        }
+      ],
+      "cluster_by_period": [
+        {
+          "group": "phase_1_baseline",
+          "total_instances": 16,
+          "document_count": 3,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 2,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 5,
+            "cluster_04_birth_creation": 3,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 2
+          }
+        },
+        {
+          "group": "phase_2_argument",
+          "total_instances": 38,
+          "document_count": 9,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 12,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 26,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "phase_3_obligation",
+          "total_instances": 25,
+          "document_count": 4,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 2,
+            "cluster_02_covenant_oath": 7,
+            "cluster_03_experiment_proposition": 6,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 6
+          }
+        },
+        {
+          "group": "phase_4_transformation",
+          "total_instances": 27,
+          "document_count": 6,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 5,
+            "cluster_02_covenant_oath": 7,
+            "cluster_03_experiment_proposition": 6,
+            "cluster_04_birth_creation": 3,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 5
+          }
+        },
+        {
+          "group": "phase_5_theodicy",
+          "total_instances": 30,
+          "document_count": 5,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 13,
+            "cluster_02_covenant_oath": 3,
+            "cluster_03_experiment_proposition": 3,
+            "cluster_04_birth_creation": 2,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 9
+          }
+        }
+      ],
+      "cluster_by_document": [
+        {
+          "group": "doc_001",
+          "total_instances": 8,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Lyceum Address",
+            "date": "1838-01-27",
+            "period": "phase_1_baseline",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.98
+          },
+          "counts": {
+            "cluster_01_body_organism": 1,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 3,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_002",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Temperance Address",
+            "date": "1842-02-22",
+            "period": "phase_1_baseline",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.97
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 3,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_003",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Clay Eulogy",
+            "date": "1852-07-06",
+            "period": "phase_1_baseline",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.96
+          },
+          "counts": {
+            "cluster_01_body_organism": 1,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 2
+          }
+        },
+        {
+          "group": "doc_004",
+          "total_instances": 7,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Peoria Speech",
+            "date": "1854-10-16",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.91
+          },
+          "counts": {
+            "cluster_01_body_organism": 2,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 5,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_005",
+          "total_instances": 3,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "House Divided",
+            "date": "1858-06-16",
+            "period": "phase_2_argument",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 3,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_006a",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "L-D Debate 1 Ottawa",
+            "date": "1858-08-21",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.83
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_006b",
+          "total_instances": 1,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "L-D Debate 2 Freeport",
+            "date": "1858-08-27",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.83
+          },
+          "counts": {
+            "cluster_01_body_organism": 1,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_006c",
+          "total_instances": 6,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "L-D Debate 3 Jonesboro",
+            "date": "1858-09-15",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.82
+          },
+          "counts": {
+            "cluster_01_body_organism": 2,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_006e",
+          "total_instances": 1,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "L-D Debate 5 Galesburg",
+            "date": "1858-10-07",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.83
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_006f",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "L-D Debate 6 Quincy",
+            "date": "1858-10-13",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.83
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_006g",
+          "total_instances": 8,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "L-D Debate 7 Alton",
+            "date": "1858-10-15",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.83
+          },
+          "counts": {
+            "cluster_01_body_organism": 4,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_007",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Cooper Union",
+            "date": "1860-02-27",
+            "period": "phase_2_argument",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_008",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Springfield Farewell",
+            "date": "1861-02-11",
+            "period": "phase_3_obligation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.95
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 3
+          }
+        },
+        {
+          "group": "doc_009",
+          "total_instances": 6,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "First Inaugural",
+            "date": "1861-03-04",
+            "period": "phase_3_obligation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.93
+          },
+          "counts": {
+            "cluster_01_body_organism": 1,
+            "cluster_02_covenant_oath": 3,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 2
+          }
+        },
+        {
+          "group": "doc_010",
+          "total_instances": 9,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "July 4 Message 1861",
+            "date": "1861-07-04",
+            "period": "phase_3_obligation",
+            "register": "congressional_message",
+            "authorship_confidence": 0.88
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 5,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 2,
+            "cluster_06_providence_theodicy": 1
+          }
+        },
+        {
+          "group": "doc_011",
+          "total_instances": 6,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Constitution Fragment",
+            "date": "1861-01-01",
+            "period": "phase_3_obligation",
+            "register": "fragment_private",
+            "authorship_confidence": 0.85
+          },
+          "counts": {
+            "cluster_01_body_organism": 1,
+            "cluster_02_covenant_oath": 3,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_012",
+          "total_instances": 2,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Greeley Letter",
+            "date": "1862-08-22",
+            "period": "phase_4_transformation",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 2,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_013",
+          "total_instances": 2,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Prelim Emancipation",
+            "date": "1862-09-22",
+            "period": "phase_4_transformation",
+            "register": "legal_document",
+            "authorship_confidence": 0.9
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 2,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_014",
+          "total_instances": 3,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Annual Message 1862",
+            "date": "1862-12-01",
+            "period": "phase_4_transformation",
+            "register": "congressional_message",
+            "authorship_confidence": 0.87
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 2,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 1
+          }
+        },
+        {
+          "group": "doc_015",
+          "total_instances": 1,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Final Emancipation",
+            "date": "1863-01-01",
+            "period": "phase_4_transformation",
+            "register": "legal_document",
+            "authorship_confidence": 0.9
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 1
+          }
+        },
+        {
+          "group": "doc_016",
+          "total_instances": 6,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Conkling Letter",
+            "date": "1863-08-26",
+            "period": "phase_4_transformation",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 3,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 1
+          }
+        },
+        {
+          "group": "doc_017",
+          "total_instances": 13,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 2,
+            "cluster_02_covenant_oath": 2,
+            "cluster_03_experiment_proposition": 3,
+            "cluster_04_birth_creation": 3,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 2
+          }
+        },
+        {
+          "group": "doc_018",
+          "total_instances": 1,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Blind Memorandum",
+            "date": "1864-08-23",
+            "period": "phase_5_theodicy",
+            "register": "fragment_private",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_019",
+          "total_instances": 7,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Hodges Letter",
+            "date": "1864-04-04",
+            "period": "phase_5_theodicy",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 4,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 3
+          }
+        },
+        {
+          "group": "doc_020",
+          "total_instances": 5,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Re-election Serenade",
+            "date": "1864-11-10",
+            "period": "phase_5_theodicy",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.88
+          },
+          "counts": {
+            "cluster_01_body_organism": 1,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 3,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 1
+          }
+        },
+        {
+          "group": "doc_021",
+          "total_instances": 13,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 8,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 4
+          }
+        },
+        {
+          "group": "doc_022",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Last Address",
+            "date": "1865-04-11",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 2,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 1
+          }
+        }
+      ],
+      "absence_by_register": [
+        {
+          "group": "campaign_speech",
+          "total_instances": 36,
+          "total_absence_flags": 30,
+          "document_count": 8,
+          "counts": {
+            "disease_purification_absent": 15,
+            "enslaved_people_non_agent": 14,
+            "lincoln_non_agent": 1,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "congressional_message",
+          "total_instances": 12,
+          "total_absence_flags": 12,
+          "document_count": 2,
+          "counts": {
+            "disease_purification_absent": 12,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "formal_public_address",
+          "total_instances": 63,
+          "total_absence_flags": 78,
+          "document_count": 10,
+          "counts": {
+            "disease_purification_absent": 29,
+            "enslaved_people_non_agent": 16,
+            "lincoln_non_agent": 13,
+            "black_soldiers_erased": 7,
+            "death_abstracted": 8,
+            "confederates_depersonalized": 4,
+            "women_absent": 1
+          }
+        },
+        {
+          "group": "fragment_private",
+          "total_instances": 7,
+          "total_absence_flags": 8,
+          "document_count": 2,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 7,
+            "lincoln_non_agent": 1,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "legal_document",
+          "total_instances": 3,
+          "total_absence_flags": 4,
+          "document_count": 2,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 3,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 1,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "semi_public_letter",
+          "total_instances": 15,
+          "total_absence_flags": 12,
+          "document_count": 3,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 7,
+            "lincoln_non_agent": 4,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 1,
+            "women_absent": 0
+          }
+        }
+      ],
+      "absence_by_period": [
+        {
+          "group": "phase_1_baseline",
+          "total_instances": 16,
+          "total_absence_flags": 16,
+          "document_count": 3,
+          "counts": {
+            "disease_purification_absent": 16,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "phase_2_argument",
+          "total_instances": 38,
+          "total_absence_flags": 36,
+          "document_count": 9,
+          "counts": {
+            "disease_purification_absent": 22,
+            "enslaved_people_non_agent": 14,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "phase_3_obligation",
+          "total_instances": 25,
+          "total_absence_flags": 23,
+          "document_count": 4,
+          "counts": {
+            "disease_purification_absent": 15,
+            "enslaved_people_non_agent": 6,
+            "lincoln_non_agent": 2,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "phase_4_transformation",
+          "total_instances": 27,
+          "total_absence_flags": 39,
+          "document_count": 6,
+          "counts": {
+            "disease_purification_absent": 3,
+            "enslaved_people_non_agent": 14,
+            "lincoln_non_agent": 6,
+            "black_soldiers_erased": 6,
+            "death_abstracted": 7,
+            "confederates_depersonalized": 2,
+            "women_absent": 1
+          }
+        },
+        {
+          "group": "phase_5_theodicy",
+          "total_instances": 30,
+          "total_absence_flags": 30,
+          "document_count": 5,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 13,
+            "lincoln_non_agent": 11,
+            "black_soldiers_erased": 2,
+            "death_abstracted": 1,
+            "confederates_depersonalized": 3,
+            "women_absent": 0
+          }
+        }
+      ],
+      "absence_by_document": [
+        {
+          "group": "doc_001",
+          "total_instances": 8,
+          "total_absence_flags": 8,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 8,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_002",
+          "total_instances": 4,
+          "total_absence_flags": 4,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 4,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_003",
+          "total_instances": 4,
+          "total_absence_flags": 4,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 4,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_004",
+          "total_instances": 7,
+          "total_absence_flags": 7,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 6,
+            "enslaved_people_non_agent": 1,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_005",
+          "total_instances": 3,
+          "total_absence_flags": 3,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 3,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_006a",
+          "total_instances": 4,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 1,
+            "enslaved_people_non_agent": 1,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_006b",
+          "total_instances": 1,
+          "total_absence_flags": 1,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 1,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_006c",
+          "total_instances": 6,
+          "total_absence_flags": 6,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 2,
+            "enslaved_people_non_agent": 4,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_006e",
+          "total_instances": 1,
+          "total_absence_flags": 1,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 1,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_006f",
+          "total_instances": 4,
+          "total_absence_flags": 4,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 4,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_006g",
+          "total_instances": 8,
+          "total_absence_flags": 8,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 4,
+            "enslaved_people_non_agent": 4,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_007",
+          "total_instances": 4,
+          "total_absence_flags": 4,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 4,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_008",
+          "total_instances": 4,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 2,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_009",
+          "total_instances": 6,
+          "total_absence_flags": 6,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 6,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_010",
+          "total_instances": 9,
+          "total_absence_flags": 9,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 9,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_011",
+          "total_instances": 6,
+          "total_absence_flags": 6,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 6,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_012",
+          "total_instances": 2,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 2,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_013",
+          "total_instances": 2,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 2,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_014",
+          "total_instances": 3,
+          "total_absence_flags": 3,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 3,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_015",
+          "total_instances": 1,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 1,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 1,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_016",
+          "total_instances": 6,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 2,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_017",
+          "total_instances": 13,
+          "total_absence_flags": 28,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 9,
+            "lincoln_non_agent": 4,
+            "black_soldiers_erased": 5,
+            "death_abstracted": 7,
+            "confederates_depersonalized": 2,
+            "women_absent": 1
+          }
+        },
+        {
+          "group": "doc_018",
+          "total_instances": 1,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 1,
+            "lincoln_non_agent": 1,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_019",
+          "total_instances": 7,
+          "total_absence_flags": 8,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 5,
+            "lincoln_non_agent": 2,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 1,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_020",
+          "total_instances": 5,
+          "total_absence_flags": 1,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 1,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_021",
+          "total_instances": 13,
+          "total_absence_flags": 18,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 7,
+            "lincoln_non_agent": 6,
+            "black_soldiers_erased": 2,
+            "death_abstracted": 1,
+            "confederates_depersonalized": 2,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_022",
+          "total_instances": 4,
+          "total_absence_flags": 1,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 1,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "high_authorship_confidence_0_95",
+      "description": "Records from documents with authorship_confidence >= 0.95.",
+      "total_instances": 73,
+      "total_documents": 13,
+      "cluster_totals": {
+        "cluster_01_body_organism": 22,
+        "cluster_02_covenant_oath": 8,
+        "cluster_03_experiment_proposition": 9,
+        "cluster_04_birth_creation": 8,
+        "cluster_05_fathers_inheritance": 10,
+        "cluster_06_providence_theodicy": 16
+      },
+      "absence_totals": {
+        "disease_purification_absent": 23,
+        "enslaved_people_non_agent": 24,
+        "lincoln_non_agent": 18,
+        "black_soldiers_erased": 7,
+        "death_abstracted": 8,
+        "confederates_depersonalized": 5,
+        "women_absent": 1
+      },
+      "cluster_by_register": [
+        {
+          "group": "formal_public_address",
+          "total_instances": 57,
+          "document_count": 9,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 15,
+            "cluster_02_covenant_oath": 4,
+            "cluster_03_experiment_proposition": 8,
+            "cluster_04_birth_creation": 8,
+            "cluster_05_fathers_inheritance": 10,
+            "cluster_06_providence_theodicy": 12
+          }
+        },
+        {
+          "group": "fragment_private",
+          "total_instances": 1,
+          "document_count": 1,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "semi_public_letter",
+          "total_instances": 15,
+          "document_count": 3,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 7,
+            "cluster_02_covenant_oath": 3,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 4
+          }
+        }
+      ],
+      "cluster_by_period": [
+        {
+          "group": "phase_1_baseline",
+          "total_instances": 16,
+          "document_count": 3,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 2,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 5,
+            "cluster_04_birth_creation": 3,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 2
+          }
+        },
+        {
+          "group": "phase_2_argument",
+          "total_instances": 7,
+          "document_count": 2,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 3,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "phase_3_obligation",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 3
+          }
+        },
+        {
+          "group": "phase_4_transformation",
+          "total_instances": 21,
+          "document_count": 3,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 5,
+            "cluster_02_covenant_oath": 5,
+            "cluster_03_experiment_proposition": 4,
+            "cluster_04_birth_creation": 3,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 3
+          }
+        },
+        {
+          "group": "phase_5_theodicy",
+          "total_instances": 25,
+          "document_count": 4,
+          "metadata": null,
+          "counts": {
+            "cluster_01_body_organism": 12,
+            "cluster_02_covenant_oath": 3,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 2,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 8
+          }
+        }
+      ],
+      "cluster_by_document": [
+        {
+          "group": "doc_001",
+          "total_instances": 8,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Lyceum Address",
+            "date": "1838-01-27",
+            "period": "phase_1_baseline",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.98
+          },
+          "counts": {
+            "cluster_01_body_organism": 1,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 3,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_002",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Temperance Address",
+            "date": "1842-02-22",
+            "period": "phase_1_baseline",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.97
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 3,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_003",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Clay Eulogy",
+            "date": "1852-07-06",
+            "period": "phase_1_baseline",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.96
+          },
+          "counts": {
+            "cluster_01_body_organism": 1,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 2
+          }
+        },
+        {
+          "group": "doc_005",
+          "total_instances": 3,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "House Divided",
+            "date": "1858-06-16",
+            "period": "phase_2_argument",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 3,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_007",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Cooper Union",
+            "date": "1860-02-27",
+            "period": "phase_2_argument",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 4,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_008",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Springfield Farewell",
+            "date": "1861-02-11",
+            "period": "phase_3_obligation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.95
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 3
+          }
+        },
+        {
+          "group": "doc_012",
+          "total_instances": 2,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Greeley Letter",
+            "date": "1862-08-22",
+            "period": "phase_4_transformation",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 2,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_016",
+          "total_instances": 6,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Conkling Letter",
+            "date": "1863-08-26",
+            "period": "phase_4_transformation",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 3,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 1,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 1
+          }
+        },
+        {
+          "group": "doc_017",
+          "total_instances": 13,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 2,
+            "cluster_02_covenant_oath": 2,
+            "cluster_03_experiment_proposition": 3,
+            "cluster_04_birth_creation": 3,
+            "cluster_05_fathers_inheritance": 1,
+            "cluster_06_providence_theodicy": 2
+          }
+        },
+        {
+          "group": "doc_018",
+          "total_instances": 1,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Blind Memorandum",
+            "date": "1864-08-23",
+            "period": "phase_5_theodicy",
+            "register": "fragment_private",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 0
+          }
+        },
+        {
+          "group": "doc_019",
+          "total_instances": 7,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Hodges Letter",
+            "date": "1864-04-04",
+            "period": "phase_5_theodicy",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 4,
+            "cluster_02_covenant_oath": 0,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 3
+          }
+        },
+        {
+          "group": "doc_021",
+          "total_instances": 13,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 8,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 0,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 4
+          }
+        },
+        {
+          "group": "doc_022",
+          "total_instances": 4,
+          "document_count": 1,
+          "metadata": {
+            "short_title": "Last Address",
+            "date": "1865-04-11",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99
+          },
+          "counts": {
+            "cluster_01_body_organism": 0,
+            "cluster_02_covenant_oath": 1,
+            "cluster_03_experiment_proposition": 0,
+            "cluster_04_birth_creation": 2,
+            "cluster_05_fathers_inheritance": 0,
+            "cluster_06_providence_theodicy": 1
+          }
+        }
+      ],
+      "absence_by_register": [
+        {
+          "group": "formal_public_address",
+          "total_instances": 57,
+          "total_absence_flags": 72,
+          "document_count": 9,
+          "counts": {
+            "disease_purification_absent": 23,
+            "enslaved_people_non_agent": 16,
+            "lincoln_non_agent": 13,
+            "black_soldiers_erased": 7,
+            "death_abstracted": 8,
+            "confederates_depersonalized": 4,
+            "women_absent": 1
+          }
+        },
+        {
+          "group": "fragment_private",
+          "total_instances": 1,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 1,
+            "lincoln_non_agent": 1,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "semi_public_letter",
+          "total_instances": 15,
+          "total_absence_flags": 12,
+          "document_count": 3,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 7,
+            "lincoln_non_agent": 4,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 1,
+            "women_absent": 0
+          }
+        }
+      ],
+      "absence_by_period": [
+        {
+          "group": "phase_1_baseline",
+          "total_instances": 16,
+          "total_absence_flags": 16,
+          "document_count": 3,
+          "counts": {
+            "disease_purification_absent": 16,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "phase_2_argument",
+          "total_instances": 7,
+          "total_absence_flags": 7,
+          "document_count": 2,
+          "counts": {
+            "disease_purification_absent": 7,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "phase_3_obligation",
+          "total_instances": 4,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 2,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "phase_4_transformation",
+          "total_instances": 21,
+          "total_absence_flags": 32,
+          "document_count": 3,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 11,
+            "lincoln_non_agent": 6,
+            "black_soldiers_erased": 5,
+            "death_abstracted": 7,
+            "confederates_depersonalized": 2,
+            "women_absent": 1
+          }
+        },
+        {
+          "group": "phase_5_theodicy",
+          "total_instances": 25,
+          "total_absence_flags": 29,
+          "document_count": 4,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 13,
+            "lincoln_non_agent": 10,
+            "black_soldiers_erased": 2,
+            "death_abstracted": 1,
+            "confederates_depersonalized": 3,
+            "women_absent": 0
+          }
+        }
+      ],
+      "absence_by_document": [
+        {
+          "group": "doc_001",
+          "total_instances": 8,
+          "total_absence_flags": 8,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 8,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_002",
+          "total_instances": 4,
+          "total_absence_flags": 4,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 4,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_003",
+          "total_instances": 4,
+          "total_absence_flags": 4,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 4,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_005",
+          "total_instances": 3,
+          "total_absence_flags": 3,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 3,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_007",
+          "total_instances": 4,
+          "total_absence_flags": 4,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 4,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_008",
+          "total_instances": 4,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 2,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_012",
+          "total_instances": 2,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 2,
+            "lincoln_non_agent": 0,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_016",
+          "total_instances": 6,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 2,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_017",
+          "total_instances": 13,
+          "total_absence_flags": 28,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 9,
+            "lincoln_non_agent": 4,
+            "black_soldiers_erased": 5,
+            "death_abstracted": 7,
+            "confederates_depersonalized": 2,
+            "women_absent": 1
+          }
+        },
+        {
+          "group": "doc_018",
+          "total_instances": 1,
+          "total_absence_flags": 2,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 1,
+            "lincoln_non_agent": 1,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_019",
+          "total_instances": 7,
+          "total_absence_flags": 8,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 5,
+            "lincoln_non_agent": 2,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 1,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_021",
+          "total_instances": 13,
+          "total_absence_flags": 18,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 7,
+            "lincoln_non_agent": 6,
+            "black_soldiers_erased": 2,
+            "death_abstracted": 1,
+            "confederates_depersonalized": 2,
+            "women_absent": 0
+          }
+        },
+        {
+          "group": "doc_022",
+          "total_instances": 4,
+          "total_absence_flags": 1,
+          "document_count": 1,
+          "counts": {
+            "disease_purification_absent": 0,
+            "enslaved_people_non_agent": 0,
+            "lincoln_non_agent": 1,
+            "black_soldiers_erased": 0,
+            "death_abstracted": 0,
+            "confederates_depersonalized": 0,
+            "women_absent": 0
+          }
+        }
+      ]
+    }
+  ],
+  "interpretation_rule": "Raw counts are descriptive; publication claims must be checked against register distribution and the high-authorship-confidence subset.",
+  "pipeline_log": [
+    {
+      "stage": "6A",
+      "agent": "build_controlled_analysis.js",
+      "date": "2026-06-15",
+      "total_records": 136,
+      "high_authorship_confidence_records": 73
+    }
+  ]
+}
