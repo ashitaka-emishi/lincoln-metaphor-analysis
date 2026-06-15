@@ -16,4 +16,4 @@ Absence is treated as evidence. When a metaphor's entailments logically require 
 
 **External validation** is provided by Stage 7, which compares Lincoln's annotated clusters against the LCC Metaphor Dataset — a general English metaphor corpus with 8,724 annotations and ~114 source-concept categories. This establishes which of Lincoln's source-concept domains are common in general English metaphor and which are Lincoln-specific rhetorical constructions with no parallel in ordinary figurative language. See [LCC Benchmark Validation](analysis/lcc_validation.md).
 
-The detailed protocols are available in the Methodology section. This page is only the public-facing summary.
+The detailed protocols are available in the Methodology section. See [Research Design](docs/methodology/research-design.md) for the publication scope and evidence sequence. This page is only the public-facing summary.
