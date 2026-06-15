@@ -20,4 +20,4 @@ Absence is treated as evidence. When a metaphor's entailments logically require 
 
 Reliability is reported in layers rather than as one blended score. The project distinguishes whether coders identify the same metaphor-related lexical units from whether they agree on CMT mapping, Koenigsbergian function, absence flags, and confidence. The current reliability sample is implemented as a generated Stage 4B artifact; double-coding results and adjudication statistics are pending.
 
-The detailed protocols are available in the Methodology section. See [Research Design](docs/methodology/research-design.md) for the publication scope and evidence sequence. This page is only the public-facing summary.
+The detailed protocols are available in the Methodology section. See [Research Design](docs/methodology/research-design.md) for the publication scope and evidence sequence, [Methods Appendix](docs/methodology/methods-appendix.md) for the reproducible checklist, and [Publication Package](publication_package.md) for the reviewer path, data availability note, AI-use statement, limitations, and archive boundary. This page is only the public-facing summary.

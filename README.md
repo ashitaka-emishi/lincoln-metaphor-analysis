@@ -18,6 +18,10 @@ node scripts/validate_schema.js   # validate all JSON files
 node scripts/validate_annotation_output.js doc_001 # validate a Stage 4 file immediately after creation
 node scripts/build_concordance.js # Stage 5: build concordance from annotated docs
 node scripts/run_analysis.js      # Stage 6: compute cluster statistics
+node scripts/build_evidence_chains.js    # Stage 4A: evidence-chain records
+node scripts/build_reliability_sample.js # Stage 4B: reliability artifacts
+node scripts/build_controlled_analysis.js # Stage 6A: register/authorship controls
+node scripts/build_claim_audit.js         # Stage 8: claim-to-source audit
 quarto render                     # rebuild the static research site
 ```
 
@@ -27,7 +31,7 @@ Or via npm:
 npm run status
 npm run validate
 npm run validate:annotation -- doc_001
-npm run pipeline    # validate → concordance → analysis
+npm run pipeline    # validate, concordance, analysis, evidence, reliability, controls, audit
 npm run site        # quarto render
 ```
 
@@ -57,7 +61,8 @@ How does Lincoln's metaphor system authorize mass violence while preserving stru
 lincoln-analysis/
 ├── index.qmd                    # website overview
 ├── executive_summary.md         # public-facing argument summary
-├── how_to_read.md               # guide to site structure and draft status
+├── how_to_read.md               # guide to site structure and reviewer path
+├── publication_package.md        # reviewer landing path and publication checklist
 ├── methods_summary.md           # public-facing method summary
 ├── analysis_overview.md         # analysis section landing page
 ├── data_reproducibility.md      # data, scripts, and reproducibility notes
@@ -71,10 +76,14 @@ lincoln-analysis/
 │   └── annotated/               # Stage 4: annotated JSON
 ├── data/
 │   ├── concordance.json         # Stage 5: corpus-wide index
+│   ├── evidence/                 # Stage 4A: generated evidence-chain records
+│   ├── reliability/              # Stage 4B: reliability sample and adjudication artifacts
+│   ├── audit/                    # Stage 8: claim-to-source audit
 │   ├── lcc/                     # LCC XML dataset (gitignored, downloaded on demand)
 │   └── lcc_subset/              # parsed LCC CSV (gitignored)
 ├── analysis/
 │   ├── analysis.json            # Stage 6: cluster statistics
+│   ├── controlled-analysis.json  # Stage 6A: register/authorship controls
 │   ├── diachronic_map.md
 │   ├── systematic_absence.md
 │   ├── lcc_validation.md        # Stage 7: LCC benchmark validation (site page)
@@ -84,6 +93,7 @@ lincoln-analysis/
 │   ├── theoretical_framework.md # methodology: CMT + Koenigsberg integration
 │   └── koenigsberg_comparison.md # synthesis: Lincoln vs. Hitler structural comparison
 ├── synthesis/
+│   ├── claim_audit.md           # public claim-to-source audit page
 │   ├── findings.md
 │   ├── final_conclusions.md
 │   └── open_questions.md
@@ -105,17 +115,18 @@ lincoln-analysis/
 
 The repository builds a Quarto static website from the Markdown and QMD files. The top navigation exposes the major reader paths: **Home**, **Corpus**, **Methodology**, **Analysis**, and **Synthesis**. The sidebar preserves the full project structure, with Design Decisions placed under Methodology alongside the theoretical framework, reproducibility notes, protocols, and schema documentation.
 
-Draft pages are intentionally visible. The site uses `draft-mode: visible`, so unfinished analysis and synthesis pages remain browsable with a prominent Draft banner and draft-page styling. Draft pages show the current analytical scaffold, but they should not be cited as final findings until Stage 4 annotation and the Stage 5–6 aggregate analysis are complete.
+The site uses `draft-mode: visible` so future draft pages remain inspectable during development. The current publication-facing methodology, analysis, synthesis, and reviewer-package pages are marked final; [Publication Package](publication_package.md) is the canonical reviewer path.
 
 Key public-facing guide pages:
 
 - `executive_summary.md` — concise statement of argument, method, and attribution
-- `how_to_read.md` — reader guide to the site and draft status
+- `how_to_read.md` — reader guide to the site and reviewer path
+- `publication_package.md` — reviewer landing path, data availability, limitations, AI-use statement, and publication checklist
 - `methods_summary.md` — accessible summary of the methodology
 - `analysis_overview.md` — landing page for the Analysis section
 - `data_reproducibility.md` — data pipeline and reproducibility notes
 - `annotation_schema_repair.md` — record of the Stage 4 schema drift event, repair, and new validation safeguards
-- `synthesis/final_conclusions.md` — final synthesis endpoint, currently draft
+- `synthesis/final_conclusions.md` — final synthesis endpoint
 
 ## The Six Metaphor Clusters
 
@@ -136,13 +147,17 @@ Key public-facing guide pages:
 | 2 | Markdown + YAML frontmatter | `corpus/text/` |
 | 3 | Segmented JSON (sections/paragraphs/sentences) | `corpus/segmented/` |
 | 4 | Annotated JSON (metaphor instances embedded) | `corpus/annotated/` |
+| 4A | Evidence chains | `data/evidence/annotation-evidence.json` |
+| 4B | Reliability sample and adjudication workflow | `data/reliability/` |
 | 5 | Concordance (corpus-wide index) | `data/concordance.json` |
 | 6 | Analysis (cluster statistics) | `analysis/` |
+| 6A | Controlled analysis outputs | `analysis/controlled-analysis.json`, `analysis/controlled_outputs.md` |
 | 7 | LCC benchmark — domain coverage against LCC Metaphor Dataset | `reports/stage7/` |
+| 8 | Claim-to-source audit | `data/audit/claim-audit.json`, `synthesis/claim_audit.md` |
 
 ## Current Status
 
-**Stages 1–7 scaffolded** across all 28 documents.
+**Publication package scaffolded and validated** across all 28 documents.
 
 | Stage | Status | Notes |
 | ----- | ------ | ----- |
@@ -150,9 +165,13 @@ Key public-facing guide pages:
 | 2 | ✓ Complete | 28 `.md` files with YAML frontmatter in `corpus/text/` |
 | 3 | ✓ Complete | 28 `.json` files in `corpus/segmented/` — 7,644 sentences, 5,198 Lincoln-authored |
 | 4 | ✓ Complete | `corpus/annotated/` — 28/28 complete; 136 instances (inst_00001–inst_00136) across 24 extension groups; all files pass canonical schema validation; `analysis/document_notes/` — findings written for all 28 docs; completed 2026-04-30 |
+| 4A | ✓ Complete | `data/evidence/annotation-evidence.json` — 136 claim-audit-ready evidence records |
+| 4B | ✓ Implemented | `data/reliability/` — 5-document reliability sample, double-coding template, adjudication log header; double coding remains follow-up |
 | 5 | ✓ Complete | `data/concordance.json` — 136 instances indexed; 51 high-confidence (≥0.90); 7 suppression instances; completed 2026-04-30 |
 | 6 | ✓ Complete | `analysis/analysis.json` — cluster_01: 34, cluster_02: 17, cluster_03: 20, cluster_04: 8, cluster_05: 35, cluster_06: 22; 144 absence flag instances; completed 2026-04-30 |
+| 6A | ✓ Complete | `analysis/controlled-analysis.json` and `analysis/controlled_outputs.md` — full corpus plus `authorship_confidence >= 0.95` views |
 | 7 | ⚙ Scaffolded | Scripts ready; requires LCC data download to run full comparison. Lincoln-only summary always available via `npm run stage7:eval`. See `scaffolds/inject-lcc-api_metaphor.md`. |
+| 8 | ✓ Complete | `data/audit/claim-audit.json` and `synthesis/claim_audit.md` — six major claim audit entries |
 
 The research site rebuilds automatically on every push via GitHub Actions (`quarto render`).
 

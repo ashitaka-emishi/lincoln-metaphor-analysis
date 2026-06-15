@@ -12,6 +12,8 @@ This project applies two theoretical frameworks simultaneously to Abraham Lincol
 
 Output is structured JSON at every pipeline stage, enabling programmatic analysis of metaphor frequency, diachronic change, and systematic absence.
 
+For review, start with the [Publication Package](publication_package.md). It gathers the reader path, reproducibility commands, data availability note, AI-use statement, limitations, and publication checklist.
+
 ## Research Questions
 
 - What conceptual metaphors structured Lincoln's understanding of the Civil War?
@@ -29,7 +31,7 @@ annotated = docs.filter(d => d.pipeline_stage_completed >= 4).length
 
 ```{ojs}
 md`**Stage 4 (Annotation): ${annotated} of ${docs.length} documents complete.**
-Stages 5–6 (concordance, analysis) run after all ${docs.length} are annotated.`
+Generated evidence, reliability, concordance, analysis, controlled-output, and claim-audit layers are implemented for all ${docs.length} documents.`
 ```
 
 ```{ojs}
@@ -76,10 +78,15 @@ Inputs.table(
 | 2 | Markdown + YAML frontmatter | `corpus/text/` |
 | 3 | Segmented JSON (sections / paragraphs / sentences) | `corpus/segmented/` |
 | 4 | Annotated JSON (metaphor instances embedded) | `corpus/annotated/` |
-| 5 | Concordance (corpus-wide index) | `concordance/` |
+| 4A | Evidence chains | `data/evidence/annotation-evidence.json` |
+| 4B | Reliability sample and adjudication workflow | `data/reliability/` |
+| 5 | Concordance (corpus-wide index) | `data/concordance.json` |
 | 6 | Analysis (cluster statistics) | `analysis/` |
+| 6A | Controlled analysis | `analysis/controlled-analysis.json` |
+| 7 | LCC benchmark scaffold | `analysis/lcc_validation.md` / `reports/stage7/` |
+| 8 | Claim-to-source audit | `data/audit/claim-audit.json` |
 
-Stages 1–6 are complete across all 28 documents. 136 metaphor instances annotated (inst_00001–inst_00136); concordance and cluster analysis built; all synthesis documents finalized.
+Stages 1–8 are implemented across all 28 documents. 136 metaphor instances are annotated (inst_00001–inst_00136); concordance, cluster analysis, controlled outputs, reliability sample, and claim audit are built; synthesis documents are publication-ready with explicit limitations and follow-up questions.
 
 ## Key Analytical Constraints
 

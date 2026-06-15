@@ -83,7 +83,7 @@ Outputs:
 
 See [Claim Audit Method](docs/methodology/claim-audit.md) for the audit-chain format and [Claim-To-Source Audit](synthesis/claim_audit.md) for the public tables.
 
-Current status: Stages 1–6 are complete across all 28 documents. Stage 7 (LCC benchmark validation) is scaffolded and runnable; the LCC dataset is not committed to the repository but is downloaded on demand.
+Current status: Stages 1–8 are implemented across all 28 documents. Stage 7 (LCC benchmark validation) is scaffolded and runnable; the LCC dataset is not committed to the repository but is downloaded on demand. The [Publication Package](publication_package.md) records the public data package, generated/local-only boundary, limitations, AI-use statement, and non-blocking follow-up issues.
 
 ## Stage 7: LCC Validation
 
@@ -112,4 +112,4 @@ The site itself is rendered with Quarto:
 quarto render
 ```
 
-Draft pages are intentionally visible. They allow readers to inspect the shape of the final argument while making clear which pages should not yet be cited as completed findings.
+Publication-facing pages are marked final. The Quarto configuration keeps draft pages visible so future work-in-progress pages remain inspectable during development, but the current reviewer path is the [Publication Package](publication_package.md).

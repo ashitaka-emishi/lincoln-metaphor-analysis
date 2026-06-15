@@ -49,12 +49,16 @@ website:
         text: Change Log
       - href: how_to_read.md
         text: How To Read This Site
+      - href: publication_package.md
+        text: Publication Package
       - href: corpus_index.qmd
         text: Corpus
       - section: Methodology
         contents:
           - href: methods_summary.md
             text: Methods Summary
+          - href: docs/methodology/methods-appendix.md
+            text: Methods Appendix
           - href: docs/methodology/research-design.md
             text: Research Design
           - href: docs/methodology/corpus-register.qmd
