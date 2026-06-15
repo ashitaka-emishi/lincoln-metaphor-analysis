@@ -13,6 +13,8 @@ npm run corpus:register
 
 The generated CSV is written to `data/metadata/corpus-register.csv`.
 
+Documents with risk flags are also indexed in the [Textual Variant Apparatus](textual-variant-apparatus.md), which records source traditions, sentence and instance anchors where available, annotation decisions, and publication caveats.
+
 ## Scope
 
 The register covers the existing 28-document Lincoln corpus, 1838-1865. The corpus is intentionally wide: formal public addresses, campaign speeches, debates, letters, congressional messages, legal documents, and private fragments remain in the same corpus so that register and authorship confidence can be controlled rather than hidden by selection.
@@ -106,13 +108,15 @@ registerRows = docs
     status: d.editorial_status,
     rationale: d.inclusion_rationale,
     limitations: d.known_limitations.join("; "),
-    risk: d.risk_flags.length ? d.risk_flags.join(", ") : "none"
+    risk: d.risk_flags.length ? d.risk_flags.join(", ") : "none",
+    variant_apparatus: d.risk_flags.length ? "apparatus" : ""
   }))
 
 Inputs.table(registerRows, {
   columns: [
     "id", "title", "date", "period", "genre", "register", "authorship",
-    "confidence", "source", "url", "status", "rationale", "limitations", "risk"
+    "confidence", "source", "url", "status", "rationale", "limitations",
+    "risk", "variant_apparatus"
   ],
   header: {
     id: "ID",
@@ -128,12 +132,16 @@ Inputs.table(registerRows, {
     status: "Editorial Status",
     rationale: "Inclusion Rationale",
     limitations: "Known Limitations",
-    risk: "Risk Flags"
+    risk: "Risk Flags",
+    variant_apparatus: "Variant Apparatus"
   },
   format: {
     confidence: x => x.toFixed(2),
     id: id => htl.html`<a href="../../corpus/text/${id}.html">${id}</a>`,
-    url: url => htl.html`<a href="${url}">source</a>`
+    url: url => htl.html`<a href="${url}">source</a>`,
+    variant_apparatus: value => value
+      ? htl.html`<a href="textual-variant-apparatus.html">apparatus</a>`
+      : "none"
   },
   rows: 30
 })

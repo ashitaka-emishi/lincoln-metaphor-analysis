@@ -21,6 +21,7 @@ node scripts/run_analysis.js      # Stage 6: compute cluster statistics
 node scripts/build_evidence_chains.js    # Stage 4A: evidence-chain records
 node scripts/build_reliability_sample.js # Stage 4B: reliability artifacts
 node scripts/build_reliability_results.js # Stage 4B: completed coding and metrics
+node scripts/build_textual_variant_apparatus.js # Stage 4C: source-risk apparatus
 node scripts/build_controlled_analysis.js # Stage 6A: register/authorship controls
 node scripts/build_claim_audit.js         # Stage 8: claim-to-source audit
 quarto render                     # rebuild the static research site
@@ -33,6 +34,7 @@ npm run status
 npm run validate
 npm run validate:annotation -- doc_001
 npm run pipeline    # validate, concordance, analysis, evidence, reliability, controls, audit
+npm run variants:apparatus # rebuild the textual variant apparatus
 npm run site        # quarto render
 ```
 
@@ -79,6 +81,7 @@ lincoln-analysis/
 │   ├── concordance.json         # Stage 5: corpus-wide index
 │   ├── evidence/                 # Stage 4A: generated evidence-chain records
 │   ├── reliability/              # Stage 4B: reliability sample and adjudication artifacts
+│   ├── metadata/                 # corpus register and textual variant apparatus
 │   ├── audit/                    # Stage 8: claim-to-source audit
 │   ├── lcc/                     # LCC XML dataset (gitignored, downloaded on demand)
 │   └── lcc_subset/              # parsed LCC CSV (gitignored)
@@ -105,6 +108,7 @@ lincoln-analysis/
 ├── scaffolds/                   # scaffold prompts and LCC documentation
 ├── docs/                        # developer/process docs (not rendered to site)
 │   ├── PROMPT.md                # master entry point for Claude Code
+│   ├── methodology/textual-variant-apparatus.md # source-risk apparatus
 │   ├── DECISIONS.md             # resolved and open design decisions
 │   ├── QUARTO.md                # Quarto site configuration notes
 │   └── agents.md                # agent role and discipline guide
@@ -126,6 +130,7 @@ Key public-facing guide pages:
 - `methods_summary.md` — accessible summary of the methodology
 - `analysis_overview.md` — landing page for the Analysis section
 - `data_reproducibility.md` — data pipeline and reproducibility notes
+- `docs/methodology/textual-variant-apparatus.md` — source-risk apparatus for risk-flagged documents
 - `annotation_schema_repair.md` — record of the Stage 4 schema drift event, repair, and new validation safeguards
 - `synthesis/final_conclusions.md` — final synthesis endpoint
 
@@ -150,6 +155,7 @@ Key public-facing guide pages:
 | 4 | Annotated JSON (metaphor instances embedded) | `corpus/annotated/` |
 | 4A | Evidence chains | `data/evidence/annotation-evidence.json` |
 | 4B | Reliability sample and adjudication workflow | `data/reliability/` |
+| 4C | Textual variant apparatus | `data/metadata/textual-variant-apparatus.json`, `docs/methodology/textual-variant-apparatus.md` |
 | 5 | Concordance (corpus-wide index) | `data/concordance.json` |
 | 6 | Analysis (cluster statistics) | `analysis/` |
 | 6A | Controlled analysis outputs | `analysis/controlled-analysis.json`, `analysis/controlled_outputs.md` |
@@ -168,6 +174,7 @@ Key public-facing guide pages:
 | 4 | ✓ Complete | `corpus/annotated/` — 28/28 complete; 136 instances (inst_00001–inst_00136) across 24 extension groups; all files pass canonical schema validation; `analysis/document_notes/` — findings written for all 28 docs; completed 2026-04-30 |
 | 4A | ✓ Complete | `data/evidence/annotation-evidence.json` — 136 claim-audit-ready evidence records |
 | 4B | ✓ Complete with AI-assisted limitation | `data/reliability/` — 5-document reliability sample, completed Stage 4A-reference vs. Codex second-pass coding, adjudication log, and reliability metrics |
+| 4C | ✓ Complete | `data/metadata/textual-variant-apparatus.json` and `docs/methodology/textual-variant-apparatus.md` — 13 risk-flagged documents indexed with source traditions, anchors, annotation decisions, and publication caveats |
 | 5 | ✓ Complete | `data/concordance.json` — 136 instances indexed; 51 high-confidence (≥0.90); 7 suppression instances; completed 2026-04-30 |
 | 6 | ✓ Complete | `analysis/analysis.json` — cluster_01: 34, cluster_02: 17, cluster_03: 20, cluster_04: 8, cluster_05: 35, cluster_06: 22; 144 absence flag instances; completed 2026-04-30 |
 | 6A | ✓ Complete | `analysis/controlled-analysis.json` and `analysis/controlled_outputs.md` — full corpus plus `authorship_confidence >= 0.95` views |

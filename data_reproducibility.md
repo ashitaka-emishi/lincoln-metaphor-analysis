@@ -14,6 +14,7 @@ node scripts/validate_schema.js
 node scripts/build_evidence_chains.js
 node scripts/build_reliability_sample.js
 node scripts/build_reliability_results.js
+node scripts/build_textual_variant_apparatus.js
 node scripts/build_controlled_analysis.js
 node scripts/build_claim_audit.js
 node scripts/build_concordance.js
@@ -26,7 +27,7 @@ The npm shortcut is:
 npm run pipeline
 ```
 
-That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`, regenerates the Stage 4B reliability sample and results artifacts, writes the Stage 6A controlled-analysis outputs, and regenerates the claim-to-source audit.
+That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`, regenerates the Stage 4B reliability sample and results artifacts, writes the Stage 4C textual variant apparatus, writes the Stage 6A controlled-analysis outputs, and regenerates the claim-to-source audit.
 
 ## Stage 4A: Evidence Chains
 
@@ -57,6 +58,21 @@ Outputs:
 - `docs/methodology/reliability-results.md`
 
 See [Reliability Workflow](docs/methodology/reliability-report.md) for the sample rationale, coding workflow, disagreement categories, and agreement measures, and [Reliability Results](docs/methodology/reliability-results.md) for the current metrics and limits.
+
+## Stage 4C: Textual Variant Apparatus
+
+Stage 4C records source-risk limitations for documents with manifest `risk_flags`. It does not rewrite Stage 4 annotations. Instead, it preserves the annotation layer and creates a derivative apparatus that links risk-flagged documents to source traditions, sentence and instance anchors where available, annotation decisions, and publication caveats.
+
+```bash
+npm run variants:apparatus
+```
+
+Outputs:
+
+- `data/metadata/textual-variant-apparatus.json`
+- `docs/methodology/textual-variant-apparatus.md`
+
+See [Textual Variant Apparatus](docs/methodology/textual-variant-apparatus.md) for the rendered records and interpretation rule.
 
 ## Stage 6A: Controlled Analysis
 
