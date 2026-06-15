@@ -30,6 +30,28 @@ function exists(p) {
   return fs.existsSync(p);
 }
 
+function readCSVHeader(filePath) {
+  try {
+    const text = fs.readFileSync(filePath, 'utf8');
+    const firstLine = text.split(/\r?\n/, 1)[0] || '';
+    return firstLine.split(',').map(value => value.trim().replace(/^\uFEFF/, ''));
+  } catch (e) {
+    err(filePath, `CSV read error: ${e.message}`);
+    return [];
+  }
+}
+
+function requireCsvColumns(filePath, expectedColumns) {
+  if (!exists(filePath)) {
+    err(filePath, 'File not found');
+    return;
+  }
+  const header = readCSVHeader(filePath);
+  for (const column of expectedColumns) {
+    if (!header.includes(column)) err(filePath, `Missing CSV column: ${column}`);
+  }
+}
+
 // ─── Corpus Manifest ────────────────────────────────────────────────────────
 
 function validateManifest() {
@@ -370,6 +392,144 @@ function validateEvidenceChains() {
   }
 }
 
+// ─── Reliability Artifacts ──────────────────────────────────────────────────
+
+function validateReliabilityArtifacts() {
+  const samplePath = path.join(ROOT, 'data', 'reliability', 'reliability-sample.json');
+  const templatePath = path.join(ROOT, 'data', 'reliability', 'double-coding-template.csv');
+  const adjudicationPath = path.join(ROOT, 'data', 'reliability', 'adjudication-log.csv');
+  console.log('\nValidating reliability artifacts...');
+
+  if (!exists(samplePath)) { err(samplePath, 'File not found'); return; }
+  const sample = readJSON(samplePath);
+  if (!sample) return;
+
+  const manifest = readJSON(path.join(ROOT, 'corpus', 'corpus_manifest.json'));
+  const evidence = readJSON(path.join(ROOT, 'data', 'evidence', 'annotation-evidence.json'));
+  if (!manifest || !evidence) return;
+
+  const required = [
+    'version', 'status', 'source_stage', 'sample_policy', 'double_coding_policy',
+    'agreement_measures', 'disagreement_categories', 'documents',
+    'identification_units', 'field_agreement_units', 'totals'
+  ];
+  for (const field of required) {
+    if (sample[field] === undefined) err(samplePath, `Missing field: ${field}`);
+  }
+
+  if (sample.status !== 'sample_defined_adjudication_pending') {
+    err(samplePath, `Unexpected status: ${sample.status}`);
+  }
+  if (sample.source_stage !== 'stage4a_annotation_evidence') {
+    err(samplePath, `Unexpected source_stage: ${sample.source_stage}`);
+  }
+
+  if (!Array.isArray(sample.documents)) {
+    err(samplePath, 'documents must be an array');
+    return;
+  }
+
+  const manifestIds = new Set((manifest.documents || []).map(doc => doc.id));
+  const sampleIds = new Set();
+  for (const doc of sample.documents) {
+    if (!doc.id) err(samplePath, 'Sample document missing id');
+    else if (!manifestIds.has(doc.id)) err(samplePath, `Sample document not in manifest: ${doc.id}`);
+    if (sampleIds.has(doc.id)) err(samplePath, `Duplicate sample document: ${doc.id}`);
+    sampleIds.add(doc.id);
+    if (!doc.rationale) err(samplePath, `${doc.id}: missing sample rationale`);
+    if (!doc.period || !doc.register || !doc.source_url) err(samplePath, `${doc.id}: incomplete provenance metadata`);
+  }
+
+  const samplePercentage = sample.sample_policy && sample.sample_policy.sample_percentage;
+  if (typeof samplePercentage !== 'number' || samplePercentage < 10 || samplePercentage > 20) {
+    err(samplePath, `sample_percentage must be within [10,20], got ${samplePercentage}`);
+  }
+  if (sample.sample_policy && sample.sample_policy.sample_documents_total !== sample.documents.length) {
+    err(samplePath, 'sample_policy.sample_documents_total does not match documents length');
+  }
+  if (sample.sample_policy && sample.sample_policy.corpus_documents_total !== manifest.documents.length) {
+    err(samplePath, 'sample_policy.corpus_documents_total does not match manifest length');
+  }
+
+  const requiredAgreementBlocks = [
+    'identification_reliability',
+    'cmt_agreement',
+    'koenigsberg_agreement',
+    'confidence_agreement',
+    'reporting_rule'
+  ];
+  for (const block of requiredAgreementBlocks) {
+    if (!sample.agreement_measures || sample.agreement_measures[block] === undefined) {
+      err(samplePath, `agreement_measures.${block} missing`);
+    }
+  }
+
+  const requiredDisagreementCategories = [
+    'mipvu_decision',
+    'lexical_unit_boundary',
+    'cluster_assignment',
+    'fantasy_type',
+    'agency_or_absence_flag',
+    'confidence_band'
+  ];
+  for (const category of requiredDisagreementCategories) {
+    if (!Array.isArray(sample.disagreement_categories) || !sample.disagreement_categories.includes(category)) {
+      err(samplePath, `Missing disagreement category: ${category}`);
+    }
+  }
+
+  const evidenceIds = new Set((evidence.records || []).map(record => record.audit_id));
+  if (!Array.isArray(sample.identification_units) || sample.identification_units.length === 0) {
+    err(samplePath, 'identification_units must be a non-empty array');
+  } else {
+    const allowedControlTypes = new Set(['positive_anchor', 'negative_control']);
+    for (const unit of sample.identification_units) {
+      if (!unit.reliability_unit_id) err(samplePath, 'identification unit missing reliability_unit_id');
+      if (!sampleIds.has(unit.document_id)) err(samplePath, `${unit.reliability_unit_id}: document_id not in sample`);
+      if (!unit.sentence_id) err(samplePath, `${unit.reliability_unit_id}: missing sentence_id`);
+      if (!allowedControlTypes.has(unit.control_type)) err(samplePath, `${unit.reliability_unit_id}: invalid control_type '${unit.control_type}'`);
+      if (!Array.isArray(unit.stage4_anchor_audit_ids)) {
+        err(samplePath, `${unit.reliability_unit_id}: stage4_anchor_audit_ids must be an array`);
+      } else {
+        for (const auditId of unit.stage4_anchor_audit_ids) {
+          if (!evidenceIds.has(auditId)) err(samplePath, `${unit.reliability_unit_id}: unknown audit id '${auditId}'`);
+        }
+      }
+    }
+  }
+
+  if (!Array.isArray(sample.field_agreement_units) || sample.field_agreement_units.length === 0) {
+    err(samplePath, 'field_agreement_units must be a non-empty array');
+  } else {
+    for (const unit of sample.field_agreement_units) {
+      if (!unit.reliability_unit_id) err(samplePath, 'field agreement unit missing reliability_unit_id');
+      if (!sampleIds.has(unit.document_id)) err(samplePath, `${unit.reliability_unit_id}: document_id not in sample`);
+      if (!evidenceIds.has(unit.source_audit_id)) err(samplePath, `${unit.reliability_unit_id}: unknown source_audit_id '${unit.source_audit_id}'`);
+      if (!unit.reference_values || !unit.reference_values.cluster_id || !unit.reference_values.fantasy_type) {
+        err(samplePath, `${unit.reliability_unit_id}: incomplete reference_values`);
+      }
+    }
+  }
+
+  if (sample.totals) {
+    if (sample.totals.documents !== sample.documents.length) err(samplePath, 'totals.documents does not match documents length');
+    if (sample.totals.identification_units !== sample.identification_units.length) err(samplePath, 'totals.identification_units mismatch');
+    if (sample.totals.field_agreement_units !== sample.field_agreement_units.length) err(samplePath, 'totals.field_agreement_units mismatch');
+  }
+
+  requireCsvColumns(templatePath, [
+    'reliability_unit_id', 'unit_type', 'coder_id', 'document_id', 'sentence_id',
+    'candidate_lexical_unit', 'mipvu_decision', 'cluster_id', 'fantasy_type',
+    'absence_flags', 'confidence_score', 'disagreement_category', 'coder_notes'
+  ]);
+  requireCsvColumns(adjudicationPath, [
+    'adjudication_id', 'reliability_unit_id', 'source_audit_id', 'document_id',
+    'sentence_id', 'field_name', 'coder_a_value', 'coder_b_value',
+    'disagreement_category', 'adjudicated_value', 'rationale', 'adjudicator',
+    'adjudicated_date', 'follow_up_required', 'follow_up_issue'
+  ]);
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 function main() {
@@ -380,6 +540,7 @@ function main() {
   validateConcordance();
   validateAnalysis();
   validateEvidenceChains();
+  validateReliabilityArtifacts();
 
   console.log('\n' + '='.repeat(40));
   if (errorCount === 0) {

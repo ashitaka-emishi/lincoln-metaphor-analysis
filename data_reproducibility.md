@@ -12,6 +12,7 @@ The main scripts are:
 node scripts/pipeline_status.js
 node scripts/validate_schema.js
 node scripts/build_evidence_chains.js
+node scripts/build_reliability_sample.js
 node scripts/build_concordance.js
 node scripts/run_analysis.js
 ```
@@ -22,7 +23,7 @@ The npm shortcut is:
 npm run pipeline
 ```
 
-That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, and writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`.
+That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`, and regenerates the Stage 4B reliability sample artifacts.
 
 ## Stage 4A: Evidence Chains
 
@@ -33,6 +34,22 @@ npm run evidence:chains
 ```
 
 See [Evidence Chain Schema](docs/methodology/evidence-chain-schema.md) for the full record shape and migration rule.
+
+## Stage 4B: Reliability Sample
+
+Stage 4B is a generated reliability layer. It defines a 5-document sample from the 28-document corpus, creates a blank double-coding template, and initializes an adjudication log.
+
+```bash
+npm run reliability:sample
+```
+
+Outputs:
+
+- `data/reliability/reliability-sample.json`
+- `data/reliability/double-coding-template.csv`
+- `data/reliability/adjudication-log.csv`
+
+See [Reliability Workflow](docs/methodology/reliability-report.md) for the sample rationale, coding workflow, disagreement categories, and agreement measures.
 
 Current status: Stages 1–6 are complete across all 28 documents. Stage 7 (LCC benchmark validation) is scaffolded and runnable; the LCC dataset is not committed to the repository but is downloaded on demand.
 

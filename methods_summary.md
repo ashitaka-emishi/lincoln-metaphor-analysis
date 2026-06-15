@@ -4,7 +4,7 @@ title: "Methods Summary"
 
 This project uses a staged corpus workflow. First, Lincoln's texts are collected and normalized. Second, each document receives metadata: date, register, authorship confidence, source, risk flags, and analytical priority. Third, each document is segmented into stable section, paragraph, and sentence IDs. Fourth, metaphor instances are annotated at the sentence level. Finally, the annotated instances are aggregated into a concordance and analyzed by cluster, date, register, and absence pattern.
 
-Each metaphor annotation has three ordered decisions: MIPVU identification, CMT mapping, and Koenigsbergian interpretation. The [Annotation Codebook](docs/methodology/annotation-codebook.md) defines the decision rules and controlled vocabularies. The [Evidence Chain Schema](docs/methodology/evidence-chain-schema.md) defines the generated audit layer that connects claims to instances, sentence IDs, document metadata, and source URLs.
+Each metaphor annotation has three ordered decisions: MIPVU identification, CMT mapping, and Koenigsbergian interpretation. The [Annotation Codebook](docs/methodology/annotation-codebook.md) defines the decision rules and controlled vocabularies. The [Evidence Chain Schema](docs/methodology/evidence-chain-schema.md) defines the generated audit layer that connects claims to instances, sentence IDs, document metadata, and source URLs. The [Reliability Workflow](docs/methodology/reliability-report.md) defines the double-coding sample, disagreement categories, adjudication log, and agreement measures.
 
 Each metaphor annotation has two structured interpretive layers.
 
@@ -17,5 +17,7 @@ Register control is central. A formal address, a legal proclamation, a private f
 Absence is treated as evidence. When a metaphor's entailments logically require a person or group to appear in a role, and that person or group repeatedly does not appear, the absence is part of the metaphor system's structure. This is especially important for enslaved people and Black soldiers, whose agency is often required by the logic of Lincoln's metaphors but not granted by the rhetoric itself.
 
 **External validation** is provided by Stage 7, which compares Lincoln's annotated clusters against the LCC Metaphor Dataset — a general English metaphor corpus with 8,724 annotations and ~114 source-concept categories. This establishes which of Lincoln's source-concept domains are common in general English metaphor and which are Lincoln-specific rhetorical constructions with no parallel in ordinary figurative language. See [LCC Benchmark Validation](analysis/lcc_validation.md).
+
+Reliability is reported in layers rather than as one blended score. The project distinguishes whether coders identify the same metaphor-related lexical units from whether they agree on CMT mapping, Koenigsbergian function, absence flags, and confidence. The current reliability sample is implemented as a generated Stage 4B artifact; double-coding results and adjudication statistics are pending.
 
 The detailed protocols are available in the Methodology section. See [Research Design](docs/methodology/research-design.md) for the publication scope and evidence sequence. This page is only the public-facing summary.

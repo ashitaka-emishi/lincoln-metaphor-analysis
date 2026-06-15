@@ -1,0 +1,2535 @@
+{
+  "version": "1.0",
+  "generated": "2026-06-15",
+  "status": "sample_defined_adjudication_pending",
+  "source_stage": "stage4a_annotation_evidence",
+  "sample_policy": {
+    "unit": "document_stratified_reliability_sample",
+    "corpus_documents_total": 28,
+    "sample_documents_total": 5,
+    "sample_percentage": 17.86,
+    "allowed_percentage_range": [
+      10,
+      20
+    ],
+    "selection_method": "purposive stratified sample: one document from each diachronic period, favoring high analytical priority, dense evidence, and known provenance risks",
+    "selected_document_ids": [
+      "doc_001",
+      "doc_006g",
+      "doc_010",
+      "doc_017",
+      "doc_021"
+    ],
+    "limitations": [
+      "The sample tests all five diachronic periods but cannot cover every register within the 20 percent document cap.",
+      "Identification units include positive anchors from Stage 4A plus deterministic negative sentence controls; coders should add rows when they identify additional metaphor-related lexical units."
+    ]
+  },
+  "double_coding_policy": {
+    "coders_required": 2,
+    "blind_to_reference_values": true,
+    "identification_pass": "sentence_identification rows test whether coders identify metaphor-related lexical units and boundaries before seeing CMT or Koenigsberg fields.",
+    "field_agreement_pass": "field_agreement rows provide Stage 4A span text so coders can independently assign CMT, Koenigsberg, absence, confidence, and ambiguity fields.",
+    "adjudication_log": "data/reliability/adjudication-log.csv"
+  },
+  "agreement_measures": {
+    "identification_reliability": [
+      "sentence-level present/absent agreement",
+      "boundary exact match and overlap match",
+      "precision, recall, and F1 against adjudicated consensus for metaphor-related lexical units"
+    ],
+    "cmt_agreement": [
+      "cluster_id exact agreement",
+      "source_domain and target_domain family agreement",
+      "entailment overlap reviewed qualitatively"
+    ],
+    "koenigsberg_agreement": [
+      "fantasy_type exact agreement",
+      "violence_logic and obligatory_frame agreement",
+      "absence_flags Jaccard overlap plus adjudicated rationale"
+    ],
+    "confidence_agreement": [
+      "same confidence band agreement",
+      "mean absolute score difference"
+    ],
+    "reporting_rule": "Do not collapse identification reliability and interpretive agreement into one score."
+  },
+  "disagreement_categories": [
+    "none",
+    "mipvu_decision",
+    "lexical_unit_boundary",
+    "basic_or_contextual_meaning",
+    "historical_semantics",
+    "cluster_assignment",
+    "source_domain",
+    "target_domain",
+    "entailment",
+    "fantasy_type",
+    "violence_logic",
+    "obligatory_frame",
+    "agency_or_absence_flag",
+    "confidence_band",
+    "textual_or_provenance_uncertainty",
+    "out_of_scope"
+  ],
+  "documents": [
+    {
+      "id": "doc_001",
+      "title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+      "short_title": "Lyceum Address",
+      "date": "1838-01-27",
+      "period": "phase_1_baseline",
+      "genre": "lyceum_address",
+      "register": "formal_public_address",
+      "authorship": "lincoln_sole",
+      "authorship_confidence": 0.98,
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:144",
+      "editorial_status": "standard_collected_works_text",
+      "risk_flags": [],
+      "analytical_priority": "high",
+      "sentences_total": 110,
+      "evidence_records_total": 8,
+      "identification_units_total": 11,
+      "rationale": "Phase 1 baseline formal address with early covenant, inheritance, and organism evidence."
+    },
+    {
+      "id": "doc_006g",
+      "title": "Seventh Lincoln-Douglas Debate, Alton, Illinois",
+      "short_title": "L-D Debate 7 Alton",
+      "date": "1858-10-15",
+      "period": "phase_2_argument",
+      "genre": "debate",
+      "register": "campaign_speech",
+      "authorship": "lincoln_primary",
+      "authorship_confidence": 0.83,
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:7",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "risk_flags": [
+        "transcription_variants"
+      ],
+      "analytical_priority": "high",
+      "sentences_total": 708,
+      "evidence_records_total": 8,
+      "identification_units_total": 11,
+      "rationale": "Phase 2 campaign debate document with Lincoln-primary authorship and transcription-variant risk."
+    },
+    {
+      "id": "doc_010",
+      "title": "Message to Congress in Special Session, July 4, 1861",
+      "short_title": "July 4 Message 1861",
+      "date": "1861-07-04",
+      "period": "phase_3_obligation",
+      "genre": "message_to_congress",
+      "register": "congressional_message",
+      "authorship": "lincoln_sole",
+      "authorship_confidence": 0.88,
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:109",
+      "editorial_status": "official_congressional_message",
+      "risk_flags": [],
+      "analytical_priority": "high",
+      "sentences_total": 269,
+      "evidence_records_total": 9,
+      "identification_units_total": 12,
+      "rationale": "Phase 3 congressional message with obligation logic and lower authorship confidence than the formal-address core."
+    },
+    {
+      "id": "doc_017",
+      "title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "short_title": "Gettysburg",
+      "date": "1863-11-19",
+      "period": "phase_4_transformation",
+      "genre": "commemorative_address",
+      "register": "formal_public_address",
+      "authorship": "lincoln_sole",
+      "authorship_confidence": 0.99,
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16",
+      "editorial_status": "manuscript_variant_tradition",
+      "risk_flags": [
+        "manuscript_variants"
+      ],
+      "analytical_priority": "critical",
+      "sentences_total": 10,
+      "evidence_records_total": 13,
+      "identification_units_total": 10,
+      "rationale": "Phase 4 Gettysburg evidence with dense multi-cluster annotation and manuscript-variant caution."
+    },
+    {
+      "id": "doc_021",
+      "title": "Second Inaugural Address",
+      "short_title": "Second Inaugural",
+      "date": "1865-03-04",
+      "period": "phase_5_theodicy",
+      "genre": "inaugural_address",
+      "register": "formal_public_address",
+      "authorship": "lincoln_sole",
+      "authorship_confidence": 0.99,
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211",
+      "editorial_status": "standard_collected_works_text",
+      "risk_flags": [],
+      "analytical_priority": "critical",
+      "sentences_total": 25,
+      "evidence_records_total": 13,
+      "identification_units_total": 11,
+      "rationale": "Phase 5 Second Inaugural evidence where providence, theodicy, guilt, and reconciliation are concentrated."
+    }
+  ],
+  "identification_units": [
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p01_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p01",
+      "sentence_id": "doc_001_s01_p01_s01",
+      "sentence_text": "As a subject for the remarks of the evening, _the perpetuation of our political institutions,_ is selected.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p02_s03",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p02",
+      "sentence_id": "doc_001_s01_p02_s03",
+      "sentence_text": "We, when mounting the stage of existence, found ourselves the legal inheritors of these fundamental blessings.",
+      "stage4_anchor_audit_ids": [
+        "inst_00078"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p02_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p02",
+      "sentence_id": "doc_001_s01_p02_s04",
+      "sentence_text": "We toiled not in the acquirement or establishment of them--they are a legacy bequeathed us, by a _once_ hardy, brave, and patriotic, but _now_ lamented and departed race of ancestors.",
+      "stage4_anchor_audit_ids": [
+        "inst_00079"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p04_s05",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p04",
+      "sentence_id": "doc_001_s01_p04_s05",
+      "sentence_text": "As a nation of freemen, we must live through all time, or die by suicide.",
+      "stage4_anchor_audit_ids": [
+        "inst_00080"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p12_s03",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p12",
+      "sentence_id": "doc_001_s01_p12_s03",
+      "sentence_text": "As the patriots of seventy-six did to the support of the Declaration of Independence, so to the support of the Constitution and Laws, let every American pledge his life, his property, and his sacred honor;--let every man remember that to violate the law, is to trample on the blood of his father, and to tear the character of his own, and his children's liberty.",
+      "stage4_anchor_audit_ids": [
+        "inst_00081"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p14_s02",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p14",
+      "sentence_id": "doc_001_s01_p14_s02",
+      "sentence_text": "But I do mean to say, that, although bad laws, if they exist, should be repealed as soon as possible, still while they continue in force, for the sake of example, they should be religiously observed.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p17_s06",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p17",
+      "sentence_id": "doc_001_s01_p17_s06",
+      "sentence_text": "Through that period, it was felt by all, to be an undecided experiment; now, it is understood to be a successful one.--Then, all that sought celebrity and fame, and distinction, expected to find them in the success of that experiment.",
+      "stage4_anchor_audit_ids": [
+        "inst_00082"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p17_s08",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p17",
+      "sentence_id": "doc_001_s01_p17_s08",
+      "sentence_text": "Their ambition aspired to display before an admiring world, a practical demonstration of the truth of a proposition, which had hitherto been considered, at best no better, than problematical; namely, _the capability of a people to govern themselves_.",
+      "stage4_anchor_audit_ids": [
+        "inst_00083"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p17_s12",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p17",
+      "sentence_id": "doc_001_s01_p17_s12",
+      "sentence_text": "The experiment is successful; and thousands have won their deathless names in making it so.",
+      "stage4_anchor_audit_ids": [
+        "inst_00084"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p23_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p23",
+      "sentence_id": "doc_001_s01_p23_s01",
+      "sentence_text": "They _were_ the pillars of the temple of liberty; and now, that they have crumbled away, that temple must fall, unless we, their descendants, supply their places with other pillars, hewn from the solid quarry of sober reason.",
+      "stage4_anchor_audit_ids": [
+        "inst_00085"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p24_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_001",
+      "section_id": "doc_001_s01",
+      "paragraph_id": "doc_001_s01_p24",
+      "sentence_id": "doc_001_s01_p24_s01",
+      "sentence_text": "Upon these let the proud fabric of freedom rest, as the rock of its basis; and as truly as has been said of the only greater institution, \"_the gates of hell shall not prevail against it_.\"",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s01_p01_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s01",
+      "paragraph_id": "doc_006g_s01_p01",
+      "sentence_id": "doc_006g_s01_p01_s01",
+      "sentence_text": "Seventh and Last Debate with Stephen A. Douglas at Alton, IllinoisOctober 15, 1858",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s02_p33_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s02",
+      "paragraph_id": "doc_006g_s02_p33",
+      "sentence_id": "doc_006g_s02_p33_s04",
+      "sentence_text": "``A house divided against itself cannot stand.'' I believe this government cannot endure permanently half Slave and half Free.",
+      "stage4_anchor_audit_ids": [
+        "inst_00129"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s02_p33_s05",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s02",
+      "paragraph_id": "doc_006g_s02_p33",
+      "sentence_id": "doc_006g_s02_p33_s05",
+      "sentence_text": "I do not expect the house to fall---but I do expect it will cease to be divided.",
+      "stage4_anchor_audit_ids": [
+        "inst_00130"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s02_p33_s06",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s02",
+      "paragraph_id": "doc_006g_s02_p33",
+      "sentence_id": "doc_006g_s02_p33_s06",
+      "sentence_text": "It will become all one thing, or all the other.",
+      "stage4_anchor_audit_ids": [
+        "inst_00131"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s02_p38_s02",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s02",
+      "paragraph_id": "doc_006g_s02_p38",
+      "sentence_id": "doc_006g_s02_p38_s02",
+      "sentence_text": "I have stated in what way I thought it would be reached and passed.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s02_p38_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s02",
+      "paragraph_id": "doc_006g_s02_p38",
+      "sentence_id": "doc_006g_s02_p38_s04",
+      "sentence_text": "We might, by arresting the further spread of it and placing it where the fathers originally placed it, put it where the public mind should rest in the belief that it was in the course of ultimate extinction.",
+      "stage4_anchor_audit_ids": [
+        "inst_00133"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s02_p38_s09",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s02",
+      "paragraph_id": "doc_006g_s02_p38",
+      "sentence_id": "doc_006g_s02_p38_s09",
+      "sentence_text": "I entertain the opinion upon evidence sufficient to my mind, that the fathers of this Government placed that institution where the public mind did rest in the belief that it was in the course of ultimate extinction.",
+      "stage4_anchor_audit_ids": [
+        "inst_00134"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s02_p43_s05",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s02",
+      "paragraph_id": "doc_006g_s02_p43",
+      "sentence_id": "doc_006g_s02_p43_s05",
+      "sentence_text": "[Enthusiastic applause.] This is part of the evidence that the fathers of the Government expected and intended the institution of slavery to come to an end.",
+      "stage4_anchor_audit_ids": [
+        "inst_00135"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s02_p44_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s02",
+      "paragraph_id": "doc_006g_s02_p44",
+      "sentence_id": "doc_006g_s02_p44_s04",
+      "sentence_text": "It is not true that our fathers, as Judge Douglas assumes, made this government part slave and part free.",
+      "stage4_anchor_audit_ids": [
+        "inst_00136"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s02_p56_s07",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s02",
+      "paragraph_id": "doc_006g_s02_p56",
+      "sentence_id": "doc_006g_s02_p56_s07",
+      "sentence_text": "You may have a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body.",
+      "stage4_anchor_audit_ids": [
+        "inst_00132"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_006g_s04_p01_s06",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_006g",
+      "section_id": "doc_006g_s04",
+      "paragraph_id": "doc_006g_s04_p01",
+      "sentence_id": "doc_006g_s04_p01_s06",
+      "sentence_text": "``Danite'' was the popular designation for Buchanan Democrats.[4]   Probably the reporter's error for ``had.''[5]   ``By the evidence he produces'' inserted by Lincoln.[6]   ``Not'' inserted by Lincoln.[7]   ``Perceive'' corrected by Lincoln to ``intend.''[8]   ``The'' inserted by Lincoln.[9]   Inserted by the editors.[10]   Inserted by the editors.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p01_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p01",
+      "sentence_id": "doc_010_s01_p01_s01",
+      "sentence_text": "Message to Congress in Special SessionJuly 4, 1861",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p16_s02",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p16",
+      "sentence_id": "doc_010_s01_p16_s02",
+      "sentence_text": "It presents to the whole family of man, the question, whether a constitutional republic, or a democracy---a government of the people, by the same people---can, or cannot, maintain its territorial integrity, against its own domestic foes.",
+      "stage4_anchor_audit_ids": [
+        "inst_00087"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p36_s03",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p36",
+      "sentence_id": "doc_010_s01_p36_s03",
+      "sentence_text": "The original ones passed into the Union even before they cast off their British colonial dependence; and the new ones each came into the Union directly from a condition of dependence, excepting Texas.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p36_s07",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p36",
+      "sentence_id": "doc_010_s01_p36_s07",
+      "sentence_text": "The express plighting of faith, by each and all of the original thirteen, in the Articles of Confederation, two years later, that the Union shall",
+      "stage4_anchor_audit_ids": [
+        "inst_00086"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p46_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p46",
+      "sentence_id": "doc_010_s01_p46_s04",
+      "sentence_text": "Our adversaries have adopted some Declarations of Independence; in which, unlike the good old one, penned by Jefferson, they omit the words ``all men are created equal.'' Why?",
+      "stage4_anchor_audit_ids": [
+        "inst_00088"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p46_s05",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p46",
+      "sentence_id": "doc_010_s01_p46_s05",
+      "sentence_text": "They have adopted a temporary national constitution, in the preamble of which, unlike our good old one, signed by Washington, they omit ``We, the People,'' and substitute ``We, the deputies of the sovereign and independent States.'' Why?",
+      "stage4_anchor_audit_ids": [
+        "inst_00089"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p51_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p51",
+      "sentence_id": "doc_010_s01_p51_s01",
+      "sentence_text": "Our popular government has often been called an experiment.",
+      "stage4_anchor_audit_ids": [
+        "inst_00090"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p51_s02",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p51",
+      "sentence_id": "doc_010_s01_p51_s02",
+      "sentence_text": "Two points in it, our people have already settled---the successful establishing, and the successful administering of it.",
+      "stage4_anchor_audit_ids": [
+        "inst_00091"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p51_s03",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p51",
+      "sentence_id": "doc_010_s01_p51_s03",
+      "sentence_text": "One still remains---its successful maintenance against a formidable [internal] attempt to overthrow it.",
+      "stage4_anchor_audit_ids": [
+        "inst_00092"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p51_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p51",
+      "sentence_id": "doc_010_s01_p51_s04",
+      "sentence_text": "It is now for them to demonstrate to the world, that those who can fairly carry an election, can also suppress a rebellion---that ballots are the rightful, and peaceful, successors of bullets; and that when ballots have fairly, and constitutionally, decided, there can be no successful appeal, back to bullets; that there can be no successful appeal, except to ballots themselves, at succeeding elections.",
+      "stage4_anchor_audit_ids": [
+        "inst_00093"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s01_p56_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s01",
+      "paragraph_id": "doc_010_s01_p56",
+      "sentence_id": "doc_010_s01_p56_s01",
+      "sentence_text": "And having thus chosen our course, without guile, and with pure purpose, let us renew our trust in God, and go forward without fear, and with manly hearts.",
+      "stage4_anchor_audit_ids": [
+        "inst_00094"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s02_p03_s20",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_010",
+      "section_id": "doc_010_s02",
+      "paragraph_id": "doc_010_s02_p03",
+      "sentence_id": "doc_010_s02_p03_s20",
+      "sentence_text": "No popular government can long survive a precedent, that those who have carried an election, must, on pain of death to the government itself, surrender the point upon which the people gave the election.''[117]   ``He,'' in the autograph pages of revision at the end of the first proof, changed to ``the Executive'' in second proof.[118]   ``In the justness of God'' as first written, revised to ``in God'' in the autograph pages of first proof.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p01_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p01",
+      "sentence_id": "doc_017_s01_p01_s01",
+      "sentence_text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
+      "stage4_anchor_audit_ids": [
+        "inst_00001",
+        "inst_00002",
+        "inst_00003"
+      ],
+      "stage4_anchor_count": 3,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p02_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p02",
+      "sentence_id": "doc_017_s01_p02_s01",
+      "sentence_text": "Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.",
+      "stage4_anchor_audit_ids": [
+        "inst_00004",
+        "inst_00005"
+      ],
+      "stage4_anchor_count": 2,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p02_s02",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p02",
+      "sentence_id": "doc_017_s01_p02_s02",
+      "sentence_text": "We are met on a great battle-field of that war.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p02_s03",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p02",
+      "sentence_id": "doc_017_s01_p02_s03",
+      "sentence_text": "We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live.",
+      "stage4_anchor_audit_ids": [
+        "inst_00006"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p02_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p02",
+      "sentence_id": "doc_017_s01_p02_s04",
+      "sentence_text": "It is altogether fitting and proper that we should do this.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p03_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p03",
+      "sentence_id": "doc_017_s01_p03_s01",
+      "sentence_text": "But, in a larger sense, we can not dedicate—we can not consecrate—we can not hallow—this ground.",
+      "stage4_anchor_audit_ids": [
+        "inst_00007"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p03_s02",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p03",
+      "sentence_id": "doc_017_s01_p03_s02",
+      "sentence_text": "The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract.",
+      "stage4_anchor_audit_ids": [
+        "inst_00008"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p03_s03",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p03",
+      "sentence_id": "doc_017_s01_p03_s03",
+      "sentence_text": "The world will little note, nor long remember what we say here, but it can never forget what they did here.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p03_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p03",
+      "sentence_id": "doc_017_s01_p03_s04",
+      "sentence_text": "It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced.",
+      "stage4_anchor_audit_ids": [
+        "inst_00009"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_017_s01_p03_s05",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_017",
+      "section_id": "doc_017_s01",
+      "paragraph_id": "doc_017_s01_p03",
+      "sentence_id": "doc_017_s01_p03_s05",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+      "stage4_anchor_audit_ids": [
+        "inst_00010",
+        "inst_00011",
+        "inst_00012",
+        "inst_00013"
+      ],
+      "stage4_anchor_count": 4,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p01_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p01",
+      "sentence_id": "doc_021_s01_p01_s01",
+      "sentence_text": "Fellow-Countrymen:",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p02_s03",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p02",
+      "sentence_id": "doc_021_s01_p02_s03",
+      "sentence_text": "Now, at the expiration of four years, during which public declarations have been constantly called forth on every point and phase of the great contest which still absorbs the attention and engrosses the energies of the nation, little that is new could be presented.",
+      "stage4_anchor_audit_ids": [
+        "inst_00014"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p03_s03",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p03",
+      "sentence_id": "doc_021_s01_p03_s03",
+      "sentence_text": "While the inaugural address was being delivered from this place, devoted altogether to saving the Union without war, insurgent agents were in the city seeking to destroy it without war—seeking to dissolve the Union and divide effects by negotiation.",
+      "stage4_anchor_audit_ids": [
+        "inst_00015"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p03_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p03",
+      "sentence_id": "doc_021_s01_p03_s04",
+      "sentence_text": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish, and the war came.",
+      "stage4_anchor_audit_ids": [
+        "inst_00016",
+        "inst_00017",
+        "inst_00018"
+      ],
+      "stage4_anchor_count": 3,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p04_s02",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p04",
+      "sentence_id": "doc_021_s01_p04_s02",
+      "sentence_text": "These slaves constituted a peculiar and powerful interest.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p04_s04",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p04",
+      "sentence_id": "doc_021_s01_p04_s04",
+      "sentence_text": "To strengthen, perpetuate, and extend this interest was the object for which the insurgents would rend the Union even by war, while the Government claimed no right to do more than to restrict the territorial enlargement of it.",
+      "stage4_anchor_audit_ids": [
+        "inst_00019"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p04_s11",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p04",
+      "sentence_id": "doc_021_s01_p04_s11",
+      "sentence_text": "That of neither has been answered fully.",
+      "stage4_anchor_audit_ids": [],
+      "stage4_anchor_count": 0,
+      "control_type": "negative_control"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p04_s12",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p04",
+      "sentence_id": "doc_021_s01_p04_s12",
+      "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+      "stage4_anchor_audit_ids": [
+        "inst_00020",
+        "inst_00021",
+        "inst_00022"
+      ],
+      "stage4_anchor_count": 3,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p04_s13",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p04",
+      "sentence_id": "doc_021_s01_p04_s13",
+      "sentence_text": "Fondly do we hope, fervently do we pray, that this mighty scourge of war may speedily pass away.",
+      "stage4_anchor_audit_ids": [
+        "inst_00023"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p04_s14",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p04",
+      "sentence_id": "doc_021_s01_p04_s14",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn with the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said \"the judgments of the Lord are true and righteous altogether.\"",
+      "stage4_anchor_audit_ids": [
+        "inst_00024"
+      ],
+      "stage4_anchor_count": 1,
+      "control_type": "positive_anchor"
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p05_s01",
+      "unit_type": "sentence_identification",
+      "document_id": "doc_021",
+      "section_id": "doc_021_s01",
+      "paragraph_id": "doc_021_s01_p05",
+      "sentence_id": "doc_021_s01_p05_s01",
+      "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+      "stage4_anchor_audit_ids": [
+        "inst_00025",
+        "inst_00026"
+      ],
+      "stage4_anchor_count": 2,
+      "control_type": "positive_anchor"
+    }
+  ],
+  "field_agreement_units": [
+    {
+      "reliability_unit_id": "rel_field_inst_00078",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00078",
+      "document_id": "doc_001",
+      "sentence_id": "doc_001_s01_p02_s03",
+      "sentence_text": "We, when mounting the stage of existence, found ourselves the legal inheritors of these fundamental blessings.",
+      "span_text": "the legal inheritors of these fundamental blessings",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "The American political institutions as a legal inheritance received from the founding generation without effort",
+        "basic_meaning": "Legal inheritance — the present generation as the legal heirs to property and rights established by ancestors",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "Legal inheritance — the present generation as the legal heirs to property and rights established by ancestors",
+        "target_domain": "The American political institutions as a legal inheritance received from the founding generation without effort",
+        "entailments": [
+          "The present generation did not earn the political institutions — they arrived as legal heirs to a completed inheritance",
+          "Legal inheritance creates obligation: heirs have a duty to maintain what they have received",
+          "'Fundamental blessings' frames the inheritance as both practically important and morally valuable",
+          "The inheritance frame sets up the corresponding duty frame that follows in subsequent sentences"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "inherited_obligation",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.88,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00079",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00079",
+      "document_id": "doc_001",
+      "sentence_id": "doc_001_s01_p02_s04",
+      "sentence_text": "We toiled not in the acquirement or establishment of them--they are a legacy bequeathed us, by a _once_ hardy, brave, and patriotic, but _now_ lamented and departed race of ancestors.",
+      "span_text": "a legacy bequeathed us, by a _once_ hardy, brave, and patriotic, but _now_ lamented and departed race of ancestors",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "The political institutions and freedoms as a legacy bequeathed by the founding generation who are now dead — their achievements constitute the present generation's patrimony",
+        "basic_meaning": "Testamentary legacy — ancestors bequeathing their achievements as a legacy to descendants; the founding generation as a departed testator",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "Testamentary legacy — ancestors bequeathing their achievements as a legacy to descendants; the founding generation as a departed testator",
+        "target_domain": "The political institutions and freedoms as a legacy bequeathed by the founding generation who are now dead — their achievements constitute the present generation's patrimony",
+        "entailments": [
+          "'Bequeathed' is testamentary language — the founding generation formally left us their achievements as an inheritance",
+          "The once/now contrast (hardy, brave, patriotic vs. lamented and departed) frames the founding generation as a race that has ceased to exist — their deaths make the legacy both precious and fragile",
+          "We toiled not — the present generation received the inheritance without effort; this creates the obligation to preserve what we did not earn",
+          "The 'departed race' formula frames the founding generation as a distinct people, not just historical predecessors — their extinction is a loss that creates urgency"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "inherited_obligation",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.92,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00080",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00080",
+      "document_id": "doc_001",
+      "sentence_id": "doc_001_s01_p04_s05",
+      "sentence_text": "As a nation of freemen, we must live through all time, or die by suicide.",
+      "span_text": "live through all time, or die by suicide",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "The American republic as a living organism whose only mortal danger is internal self-destruction (mob violence, disregard for law), not external attack",
+        "basic_meaning": "Organism life and death — a nation as a living being that can live indefinitely or kill itself through self-inflicted destruction",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "Organism life and death — a nation as a living being that can live indefinitely or kill itself through self-inflicted destruction",
+        "target_domain": "The American republic as a living organism whose only mortal danger is internal self-destruction (mob violence, disregard for law), not external attack",
+        "entailments": [
+          "The republic's only mortal threat is internal — foreign armies cannot kill it; only Americans can",
+          "'Suicide' frames internal self-destruction as a freely chosen death — the national organism kills itself",
+          "The nation-as-organism frame makes institutional decay a form of physiological deterioration",
+          "This is the earliest nation-as-organism instance in the corpus — 1838, 20 years before the House Divided Speech"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "internal_self_destruction",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.85,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00081",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00081",
+      "document_id": "doc_001",
+      "sentence_id": "doc_001_s01_p12_s03",
+      "sentence_text": "As the patriots of seventy-six did to the support of the Declaration of Independence, so to the support of the Constitution and Laws, let every American pledge his life, his property, and his sacred honor;--let every man remember that to violate the law, is to trample on the blood of his father, and to tear the character of his own, and his children's liberty.",
+      "span_text": "trample on the blood of his father",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "The obligation to revere the laws as inherited from the founding generation whose blood paid for them — law-violation is blood-desecration",
+        "basic_meaning": "Blood inheritance — the founding generation's sacrifice as a blood-covenant; violating the law is desecrating the blood of the fathers who fought for it",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "Blood inheritance — the founding generation's sacrifice as a blood-covenant; violating the law is desecrating the blood of the fathers who fought for it",
+        "target_domain": "The obligation to revere the laws as inherited from the founding generation whose blood paid for them — law-violation is blood-desecration",
+        "entailments": [
+          "The laws are blood-consecrated — established by the founders' sacrifice, the laws partake of their blood",
+          "Violating the law is an act of literal desecration — trampling on something sacred",
+          "The blood-inheritance frame makes law-reverence not just a civic duty but a moral obligation derived from the founding sacrifice",
+          "This is cluster_05's most visceral form — not legal inheritance or testamentary legacy but blood-covenant inheritance"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "blood_covenant_obligation",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.88,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00082",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00082",
+      "document_id": "doc_001",
+      "sentence_id": "doc_001_s01_p17_s06",
+      "sentence_text": "Through that period, it was felt by all, to be an undecided experiment; now, it is understood to be a successful one.--Then, all that sought celebrity and fame, and distinction, expected to find them in the success of that experiment.",
+      "span_text": "an undecided experiment; now, it is understood to be a successful one",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "The American republic as an experiment in self-governance that was once undecided but has now been proved successful by historical demonstration",
+        "basic_meaning": "Scientific experiment — a test whose outcome was uncertain but has now been determined by results",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "Scientific experiment — a test whose outcome was uncertain but has now been determined by results",
+        "target_domain": "The American republic as an experiment in self-governance that was once undecided but has now been proved successful by historical demonstration",
+        "entailments": [
+          "The founding generation was running the experiment — they were the scientists who designed and executed the test",
+          "The 'undecided' status was genuine uncertainty — the outcome was not predetermined but depended on whether the republic could sustain itself",
+          "The experiment is now complete — 'successful' in the past tense means the proof has been made",
+          "This creates the subsequent problem: if the experiment is done, what motivates the next generation to maintain what was already proved?"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "experimental_proof",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.92,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00083",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00083",
+      "document_id": "doc_001",
+      "sentence_id": "doc_001_s01_p17_s08",
+      "sentence_text": "Their ambition aspired to display before an admiring world, a practical demonstration of the truth of a proposition, which had hitherto been considered, at best no better, than problematical; namely, _the capability of a people to govern themselves_.",
+      "span_text": "a practical demonstration of the truth of a proposition, which had hitherto been considered, at best no better, than problematical; namely, _the capability of a people to govern themselves_",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "The American republic as a practical demonstration of the proposition that self-governance is possible — a truth that had been theoretically doubted and required practical proof",
+        "basic_meaning": "Logical proof / scientific demonstration — proving the truth of a proposition by practical demonstration rather than theoretical argument",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "Logical proof / scientific demonstration — proving the truth of a proposition by practical demonstration rather than theoretical argument",
+        "target_domain": "The American republic as a practical demonstration of the proposition that self-governance is possible — a truth that had been theoretically doubted and required practical proof",
+        "entailments": [
+          "The founding generation did not argue for self-governance's possibility — they demonstrated it",
+          "The republic is itself the proof: its existence and success is the demonstration",
+          "'Problematical' means genuinely uncertain before demonstration — the experiment was not predetermined to succeed",
+          "The founding generation's 'ambition' was to demonstrate the proposition — political success was their experimental result"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "experimental_proof",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.9,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00084",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00084",
+      "document_id": "doc_001",
+      "sentence_id": "doc_001_s01_p17_s12",
+      "sentence_text": "The experiment is successful; and thousands have won their deathless names in making it so.",
+      "span_text": "The experiment is successful",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "The American republic as a concluded experiment whose positive result is now established fact",
+        "basic_meaning": "Scientific experiment — the conclusive assessment that an experimental test has produced a positive result",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "Scientific experiment — the conclusive assessment that an experimental test has produced a positive result",
+        "target_domain": "The American republic as a concluded experiment whose positive result is now established fact",
+        "entailments": [
+          "'Is successful' is a verdict statement — the experiment has been evaluated and found positive",
+          "The present tense ('is') rather than past ('was') treats the success as an ongoing condition",
+          "Thousands won deathless names in making it so — the experimental success required human cost, and that cost created immortal credit",
+          "The 'harvested field of glory' language that follows frames the experiment's completion as the end of an opportunity cycle"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "experimental_proof",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.88,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00085",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00085",
+      "document_id": "doc_001",
+      "sentence_id": "doc_001_s01_p23_s01",
+      "sentence_text": "They _were_ the pillars of the temple of liberty; and now, that they have crumbled away, that temple must fall, unless we, their descendants, supply their places with other pillars, hewn from the solid quarry of sober reason.",
+      "span_text": "the pillars of the temple of liberty; and now, that they have crumbled away, that temple must fall, unless we, their descendants, supply their places with other pillars",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "The obligation of the present generation to replace the founding generation's function as structural supports of the republic — the fathers were the pillars; we must be their replacements",
+        "basic_meaning": "Architectural inheritance — the founding generation as the structural pillars of a temple; their death as the crumbling of those pillars; the present generation's obligation to supply replacement pillars hewn from reason",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "Architectural inheritance — the founding generation as the structural pillars of a temple; their death as the crumbling of those pillars; the present generation's obligation to supply replacement pillars hewn from reason",
+        "target_domain": "The obligation of the present generation to replace the founding generation's function as structural supports of the republic — the fathers were the pillars; we must be their replacements",
+        "entailments": [
+          "The founding generation's function was structural, not just inspirational — they were pillars that actually held up the temple",
+          "Their deaths create a structural deficiency — the temple cannot stand on crumbled pillars",
+          "The inheritance obligation is architectural: we must supply new pillars, not just preserve the old ones",
+          "The shift from passion-based pillars (the founders' revolutionary fervor) to reason-based pillars (sober reason) is the Lyceum Address's political argument in compressed form"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "architectural_inheritance_obligation",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.85,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00129",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00129",
+      "document_id": "doc_006g",
+      "sentence_id": "doc_006g_s02_p33_s04",
+      "sentence_text": "``A house divided against itself cannot stand.'' I believe this government cannot endure permanently half Slave and half Free.",
+      "span_text": "A house divided against itself cannot stand",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "american_government_unable_to_endure_divided_by_slavery",
+        "basic_meaning": "house_as_structural_unity_requiring_wholeness_to_stand",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "house_as_structural_unity_requiring_wholeness_to_stand",
+        "target_domain": "american_government_unable_to_endure_divided_by_slavery",
+        "entailments": [
+          "the government is a house — a structural entity requiring internal wholeness to stand",
+          "being divided against itself (half slave, half free) is the condition that prevents standing",
+          "the house cannot stand in the divided condition — it must become all one or all the other"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "the divided condition is the structural wound that prevents the house from standing; the wound must be healed by resolution (all slave or all free)",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.93,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00130",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00130",
+      "document_id": "doc_006g",
+      "sentence_id": "doc_006g_s02_p33_s05",
+      "sentence_text": "I do not expect the house to fall---but I do expect it will cease to be divided.",
+      "span_text": "the house to fall---but I do expect it will cease to be divided",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "union_becoming_all_slave_or_all_free_without_collapse",
+        "basic_meaning": "house_ceasing_division_rather_than_falling",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "house_ceasing_division_rather_than_falling",
+        "target_domain": "union_becoming_all_slave_or_all_free_without_collapse",
+        "entailments": [
+          "the house will not fall — it will survive the crisis",
+          "but it will cease to be divided — it must become all one thing or all the other",
+          "resolution (not collapse) is the expected outcome"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "the house will not fall — the wound is not fatal; but the division must heal into wholeness",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.88,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00131",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00131",
+      "document_id": "doc_006g",
+      "sentence_id": "doc_006g_s02_p33_s06",
+      "sentence_text": "It will become all one thing, or all the other.",
+      "span_text": "become all one thing, or all the other",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "union_resolving_to_all_slave_or_all_free",
+        "basic_meaning": "house_becoming_whole_by_becoming_uniform",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "house_becoming_whole_by_becoming_uniform",
+        "target_domain": "union_resolving_to_all_slave_or_all_free",
+        "entailments": [
+          "the divided house must become internally uniform to stand",
+          "the two possible resolutions are: all slave or all free",
+          "partial divisions cannot endure — only uniformity can"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "the wound of division heals only by becoming uniform; the structural logic of the house metaphor demands resolution",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.85,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00133",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00133",
+      "document_id": "doc_006g",
+      "sentence_id": "doc_006g_s02_p38_s04",
+      "sentence_text": "We might, by arresting the further spread of it and placing it where the fathers originally placed it, put it where the public mind should rest in the belief that it was in the course of ultimate extinction.",
+      "span_text": "placing it where the fathers originally placed it",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "restoration_to_founding_position_as_path_to_extinction",
+        "basic_meaning": "founding_spatial_placement_of_slavery",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_spatial_placement_of_slavery",
+        "target_domain": "restoration_to_founding_position_as_path_to_extinction",
+        "entailments": [
+          "the fathers originally placed slavery in a specific position (restricted, on course of extinction)",
+          "returning it to that position is how the public mind would believe in ultimate extinction",
+          "the alternative (spreading it) prevents the public mind from resting"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "restoring the founding placement would restore the public mind's belief in ultimate extinction; failure to restore it produces agitation",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.88,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00134",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00134",
+      "document_id": "doc_006g",
+      "sentence_id": "doc_006g_s02_p38_s09",
+      "sentence_text": "I entertain the opinion upon evidence sufficient to my mind, that the fathers of this Government placed that institution where the public mind did rest in the belief that it was in the course of ultimate extinction.",
+      "span_text": "the fathers of this Government placed that institution where the public mind did rest in the belief that it was in the course of ultimate extinction",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "founding_position_on_slavery_as_the_psychological_political_settlement",
+        "basic_meaning": "founding_placement_creating_public_mind_rest",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_placement_creating_public_mind_rest",
+        "target_domain": "founding_position_on_slavery_as_the_psychological_political_settlement",
+        "entailments": [
+          "the fathers placed slavery such that the public mind believed it was in the course of ultimate extinction",
+          "this public-mind effect is the full consequence of the founding placement",
+          "the Kansas-Nebraska Act disturbed the public mind by disturbing the founding placement"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "the public mind's rest was the full inheritance of the founding placement; its disturbance by Kansas-Nebraska is the full scope of the violation",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.9,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00135",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00135",
+      "document_id": "doc_006g",
+      "sentence_id": "doc_006g_s02_p43_s05",
+      "sentence_text": "[Enthusiastic applause.] This is part of the evidence that the fathers of the Government expected and intended the institution of slavery to come to an end.",
+      "span_text": "the fathers of the Government expected and intended the institution of slavery to come to an end",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "slavery_extinction_as_the_founding_intended_outcome",
+        "basic_meaning": "founding_expectation_and_intention_as_inherited_teleology",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founding_expectation_and_intention_as_inherited_teleology",
+        "target_domain": "slavery_extinction_as_the_founding_intended_outcome",
+        "entailments": [
+          "the founding fathers not only hoped but expected and intended slavery to end",
+          "the covert constitutional language (avoiding naming slavery) was evidence of their expectation",
+          "current policy must honor the founding intention, not subvert it"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "subverting the founders' intention (by nationalizing and perpetuating slavery) violates the teleological inheritance",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.88,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00136",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00136",
+      "document_id": "doc_006g",
+      "sentence_id": "doc_006g_s02_p44_s04",
+      "sentence_text": "It is not true that our fathers, as Judge Douglas assumes, made this government part slave and part free.",
+      "span_text": "our fathers, as Judge Douglas assumes, made this government part slave and part free",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "founding_settlement_disputed_not_endorsement",
+        "basic_meaning": "founders_as_authors_of_national_character_contested",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "founders_as_authors_of_national_character_contested",
+        "target_domain": "founding_settlement_disputed_not_endorsement",
+        "entailments": [
+          "Douglas assumes the fathers deliberately chose a part-slave/part-free government",
+          "Lincoln denies this: the fathers did not make it so by choice — they left it so under constraint",
+          "correctly reading the founding inheritance is the key to the slavery argument"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "falsely attributing the divided-government condition to the founders' choice perverts the inheritance; Lincoln's obligation is to contest the false attribution",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.87,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00132",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00132",
+      "document_id": "doc_006g",
+      "sentence_id": "doc_006g_s02_p56_s07",
+      "sentence_text": "You may have a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body.",
+      "span_text": "a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "slavery_expansion_as_the_wrong_treatment_for_the_disease",
+        "basic_meaning": "cancer_spreading_as_anti_cure",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "cancer_spreading_as_anti_cure",
+        "target_domain": "slavery_expansion_as_the_wrong_treatment_for_the_disease",
+        "entailments": [
+          "slavery is a cancer/wen on the body politic — same as Peoria (inst_00108)",
+          "immediate surgery (cutting it out) may be impossible without fatal bleeding",
+          "but spreading the cancer over the whole body (expanding slavery) is not a cure — it is the opposite of a cure"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "spreading the disease (slavery expansion) is not a cure but a worsening of the wound; the body cannot survive the cancer spread to the whole body",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.92,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00087",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00087",
+      "document_id": "doc_010",
+      "sentence_id": "doc_010_s01_p16_s02",
+      "sentence_text": "It presents to the whole family of man, the question, whether a constitutional republic, or a democracy---a government of the people, by the same people---can, or cannot, maintain its territorial integrity, against its own domestic foes.",
+      "span_text": "whether a constitutional republic, or a democracy---a government of the people, by the same people---can, or cannot, maintain its territorial integrity, against its own domestic foes",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "constitutional_republic",
+        "basic_meaning": "logical_proposition_test",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "logical_proposition_test",
+        "target_domain": "constitutional_republic",
+        "entailments": [
+          "the war's outcome is a logical proof or disproof, not merely a military result",
+          "the whole 'family of man' is the audience for the demonstration",
+          "failure would disprove democratic self-government universally"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "if the war is a logical test, military force is the mechanism of demonstration, not aggression",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.85,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00086",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00086",
+      "document_id": "doc_010",
+      "sentence_id": "doc_010_s01_p36_s07",
+      "sentence_text": "The express plighting of faith, by each and all of the original thirteen, in the Articles of Confederation, two years later, that the Union shall",
+      "span_text": "plighting of faith",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "constitutional_union",
+        "basic_meaning": "solemn_promise_covenant",
+        "cluster_id": "cluster_02_covenant_oath",
+        "source_domain": "solemn_promise_covenant",
+        "target_domain": "constitutional_union",
+        "entailments": [
+          "the union's perpetuity is a sworn bond, not an experimental arrangement; violating it is covenant-breaking",
+          "historical precedent of plighted faith makes secession not merely illegal but a betrayal of a sacred promise"
+        ],
+        "fantasy_type": "oath_and_obligation",
+        "violence_logic": "covenant violation by the South transforms Lincoln's military response into covenant-keeping",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.8,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00088",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00088",
+      "document_id": "doc_010",
+      "sentence_id": "doc_010_s01_p46_s04",
+      "sentence_text": "Our adversaries have adopted some Declarations of Independence; in which, unlike the good old one, penned by Jefferson, they omit the words ``all men are created equal.'' Why?",
+      "span_text": "unlike the good old one, penned by Jefferson",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "confederate_foundational_documents",
+        "basic_meaning": "patrimonial_inheritance",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "patrimonial_inheritance",
+        "target_domain": "confederate_foundational_documents",
+        "entailments": [
+          "Jefferson's Declaration is the authoritative original; any successor document must honor it",
+          "omitting 'all men are created equal' is a failure of inheritance — a betrayal of the patrimony"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "Confederate abandonment of the inherited patrimony (Jefferson's equality principle) is the crime Lincoln catalogs",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.75,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00089",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00089",
+      "document_id": "doc_010",
+      "sentence_id": "doc_010_s01_p46_s05",
+      "sentence_text": "They have adopted a temporary national constitution, in the preamble of which, unlike our good old one, signed by Washington, they omit ``We, the People,'' and substitute ``We, the deputies of the sovereign and independent States.'' Why?",
+      "span_text": "unlike our good old one, signed by Washington",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "confederate_constitution",
+        "basic_meaning": "patrimonial_inheritance",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "patrimonial_inheritance",
+        "target_domain": "confederate_constitution",
+        "entailments": [
+          "Washington's Constitution is the inherited standard; the people's authority is the founding inheritance",
+          "Confederate substitution ('We, the deputies of sovereign states') repudiates the inherited popular sovereignty"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "Confederate repudiation of 'We, the People' is a repudiation of the inherited founding principle",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.72,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00090",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00090",
+      "document_id": "doc_010",
+      "sentence_id": "doc_010_s01_p51_s01",
+      "sentence_text": "Our popular government has often been called an experiment.",
+      "span_text": "Our popular government has often been called an experiment",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "popular_self_government",
+        "basic_meaning": "scientific_experiment_proof",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "scientific_experiment_proof",
+        "target_domain": "popular_self_government",
+        "entailments": [
+          "the republic's success or failure is a scientific result, not merely a political outcome",
+          "the experiment can succeed or fail on definable criteria",
+          "the current crisis is a new experimental condition"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "if government is an experiment being tested, military force is the mechanism for completing the proof",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.92,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00091",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00091",
+      "document_id": "doc_010",
+      "sentence_id": "doc_010_s01_p51_s02",
+      "sentence_text": "Two points in it, our people have already settled---the successful establishing, and the successful administering of it.",
+      "span_text": "Two points in it, our people have already settled---the successful establishing, and the successful administering of it",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "popular_self_government",
+        "basic_meaning": "scientific_experiment_proof",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "scientific_experiment_proof",
+        "target_domain": "popular_self_government",
+        "entailments": [
+          "partial proof already exists — the experiment is not starting from scratch in 1861",
+          "the remaining variable (maintenance under attack) is the current test"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "the partial proof (two of three points settled) makes completing the third obligatory — the proof cannot be abandoned incomplete",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.87,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00092",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00092",
+      "document_id": "doc_010",
+      "sentence_id": "doc_010_s01_p51_s03",
+      "sentence_text": "One still remains---its successful maintenance against a formidable [internal] attempt to overthrow it.",
+      "span_text": "One still remains---its successful maintenance against a formidable [internal] attempt to overthrow it",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "popular_self_government",
+        "basic_meaning": "scientific_experiment_proof",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "scientific_experiment_proof",
+        "target_domain": "popular_self_government",
+        "entailments": [
+          "the Civil War is defined as an experimental condition, not a moral catastrophe or organic wound",
+          "success in this test completes the proof of popular government's viability"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "military maintenance against internal overthrow is completion of the third experimental criterion — not aggression",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.88,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00093",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00093",
+      "document_id": "doc_010",
+      "sentence_id": "doc_010_s01_p51_s04",
+      "sentence_text": "It is now for them to demonstrate to the world, that those who can fairly carry an election, can also suppress a rebellion---that ballots are the rightful, and peaceful, successors of bullets; and that when ballots have fairly, and constitutionally, decided, there can be no successful appeal, back to bullets; that there can be no successful appeal, except to ballots themselves, at succeeding elections.",
+      "span_text": "It is now for them to demonstrate to the world, that those who can fairly carry an election, can also suppress a rebellion",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "popular_self_government",
+        "basic_meaning": "scientific_experiment_proof",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "scientific_experiment_proof",
+        "target_domain": "popular_self_government",
+        "entailments": [
+          "the demonstration is for a universal audience ('the world') not just for Americans",
+          "the proof has two components: electoral success + military maintenance = same capacity",
+          "ballots and bullets are parallel instruments of democratic self-governance"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "military suppression of rebellion is the act of demonstration — the same competence that wins elections must also win wars; the war is a proof of democratic capacity",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.87,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00094",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00094",
+      "document_id": "doc_010",
+      "sentence_id": "doc_010_s01_p56_s01",
+      "sentence_text": "And having thus chosen our course, without guile, and with pure purpose, let us renew our trust in God, and go forward without fear, and with manly hearts.",
+      "span_text": "renew our trust in God",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "union_war_effort",
+        "basic_meaning": "divine_providence",
+        "cluster_id": "cluster_06_providence_theodicy",
+        "source_domain": "divine_providence",
+        "target_domain": "union_war_effort",
+        "entailments": [
+          "the chosen course ('having thus chosen our course') is sanctioned by God",
+          "going forward 'without fear' is possible because trust in God undergirds the effort",
+          "the war effort is placed under providential protection"
+        ],
+        "fantasy_type": "punishment_and_theodicy",
+        "violence_logic": "divine trust converts the war effort from political choice to providentially sanctioned obligation",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "disease_purification_absent"
+        ],
+        "confidence_score": 0.76,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00001",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00001",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p01_s01",
+      "sentence_text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
+      "span_text": "our fathers",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "founding_generation",
+        "basic_meaning": "paternal_lineage",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "paternal_lineage",
+        "target_domain": "founding_generation",
+        "entailments": [
+          "founders_are_ancestors",
+          "citizens_are_descendants",
+          "founding_act_creates_intergenerational_obligation",
+          "children_owe_fathers_fidelity_to_their_project"
+        ],
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "obligatory",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.97,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00002",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00002",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p01_s01",
+      "sentence_text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
+      "span_text": "brought forth on this continent, a new nation, conceived in Liberty",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "national_founding",
+        "basic_meaning": "birth_generation",
+        "cluster_id": "cluster_04_birth_creation",
+        "source_domain": "birth_generation",
+        "target_domain": "national_founding",
+        "entailments": [
+          "the_founding_is_a_birth_act",
+          "founders_are_parents",
+          "the_nation_is_a_child",
+          "liberty_is_the_medium_of_conception",
+          "birth_requires_labor",
+          "a_born_entity_can_die"
+        ],
+        "fantasy_type": "birth_and_creation",
+        "violence_logic": "generative",
+        "obligatory_frame": false,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.99,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00003",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00003",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p01_s01",
+      "sentence_text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
+      "span_text": "dedicated to the proposition that all men are created equal",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "founding_commitment_to_equality",
+        "basic_meaning": "logical_proposition",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "logical_proposition",
+        "target_domain": "founding_commitment_to_equality",
+        "entailments": [
+          "equality_is_a_proposition_not_yet_proven",
+          "the_nation_exists_to_demonstrate_the_proposition",
+          "dedication_to_a_proposition_is_a_logical_commitment",
+          "a_proposition_can_be_refuted_by_evidence",
+          "war_can_serve_as_a_test_of_the_proposition"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "evidentiary",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.97,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00004",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00004",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p02_s01",
+      "sentence_text": "Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.",
+      "span_text": "testing whether that nation, or any nation so conceived and so dedicated, can long endure",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "democratic_self_government_under_pressure",
+        "basic_meaning": "scientific_empirical_test",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "scientific_empirical_test",
+        "target_domain": "democratic_self_government_under_pressure",
+        "entailments": [
+          "the_war_is_an_empirical_test",
+          "national_survival_is_the_dependent_variable",
+          "the_proposition_of_democracy_is_being_measured",
+          "the_result_will_constitute_evidence_for_or_against_democracy",
+          "the_test_is_universal_any_such_nation"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "evidentiary",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "lincoln_non_agent",
+          "confederates_depersonalized",
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.99,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00005",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00005",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p02_s01",
+      "sentence_text": "Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.",
+      "span_text": "so conceived and so dedicated",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "national_founding_and_purpose",
+        "basic_meaning": "birth_generation",
+        "cluster_id": "cluster_04_birth_creation",
+        "source_domain": "birth_generation",
+        "target_domain": "national_founding_and_purpose",
+        "entailments": [
+          "the_nation_carries_its_birth_character_into_the_present",
+          "a_conceived_thing_can_be_destroyed_before_it_reaches_maturity",
+          "the_birth_origin_defines_what_is_being_tested"
+        ],
+        "fantasy_type": "birth_and_creation",
+        "violence_logic": "generative",
+        "obligatory_frame": false,
+        "absence_flags": [],
+        "confidence_score": 0.95,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00006",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00006",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p02_s03",
+      "sentence_text": "We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live.",
+      "span_text": "gave their lives that that nation might live",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "national_survival_through_sacrifice",
+        "basic_meaning": "organic_life_and_death",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "organic_life_and_death",
+        "target_domain": "national_survival_through_sacrifice",
+        "entailments": [
+          "the_nation_has_life_that_can_be_sustained_or_extinguished",
+          "individual_lives_can_be_exchanged_for_national_life",
+          "the_exchange_is_purposive_and_voluntary",
+          "national_life_requires_individual_death_as_input"
+        ],
+        "fantasy_type": "sacrifice_and_redemption",
+        "violence_logic": "generative",
+        "obligatory_frame": false,
+        "absence_flags": [
+          "death_abstracted",
+          "black_soldiers_erased",
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.98,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00007",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00007",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p03_s01",
+      "sentence_text": "But, in a larger sense, we can not dedicate—we can not consecrate—we can not hallow—this ground.",
+      "span_text": "we can not dedicate—we can not consecrate—we can not hallow—this ground",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "human_capacity_to_honor_sacrifice",
+        "basic_meaning": "priestly_consecration",
+        "cluster_id": "cluster_06_providence_theodicy",
+        "source_domain": "priestly_consecration",
+        "target_domain": "human_capacity_to_honor_sacrifice",
+        "entailments": [
+          "sacred_ground_requires_priestly_speech_acts",
+          "human_speakers_normally_possess_this_power",
+          "the_claim_here_is_that_soldiers_sacrifice_has_already_performed_consecration",
+          "divine_sanction_has_already_acted_through_the_soldiers"
+        ],
+        "fantasy_type": "sacrifice_and_redemption",
+        "violence_logic": "generative",
+        "obligatory_frame": false,
+        "absence_flags": [
+          "lincoln_non_agent",
+          "death_abstracted"
+        ],
+        "confidence_score": 0.97,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00008",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00008",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p03_s02",
+      "sentence_text": "The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract.",
+      "span_text": "have consecrated it, far above our poor power to add or detract",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "soldier_sacrifice_as_sanctifying_act",
+        "basic_meaning": "priestly_consecration",
+        "cluster_id": "cluster_06_providence_theodicy",
+        "source_domain": "priestly_consecration",
+        "target_domain": "soldier_sacrifice_as_sanctifying_act",
+        "entailments": [
+          "soldier_struggle_performs_the_function_of_priestly_consecration",
+          "death_in_battle_is_a_sacred_act_not_a_secular_one",
+          "human_speech_is_ontologically_inferior_to_soldier_action",
+          "the_ground_is_already_sacred_before_any_ceremony"
+        ],
+        "fantasy_type": "sacrifice_and_redemption",
+        "violence_logic": "generative",
+        "obligatory_frame": false,
+        "absence_flags": [
+          "lincoln_non_agent",
+          "death_abstracted",
+          "black_soldiers_erased"
+        ],
+        "confidence_score": 0.96,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00009",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00009",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p03_s04",
+      "sentence_text": "It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced.",
+      "span_text": "dedicated here to the unfinished work which they who fought here have thus far so nobly advanced",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "obligation_to_complete_soldiers_work",
+        "basic_meaning": "votive_dedication",
+        "cluster_id": "cluster_02_covenant_oath",
+        "source_domain": "votive_dedication",
+        "target_domain": "obligation_to_complete_soldiers_work",
+        "entailments": [
+          "dedication_is_a_binding_vow",
+          "the_soldiers_work_is_unfinished_and_requires_completion",
+          "the_living_inherit_the_obligation_from_the_dead",
+          "failure_to_complete_would_dishonor_the_dead"
+        ],
+        "fantasy_type": "oath_and_obligation",
+        "violence_logic": "obligatory",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "lincoln_non_agent",
+          "death_abstracted",
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.97,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00010",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00010",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p03_s05",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+      "span_text": "the last full measure of devotion",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "soldiers_total_self_sacrifice",
+        "basic_meaning": "quantified_votive_resource",
+        "cluster_id": "cluster_02_covenant_oath",
+        "source_domain": "quantified_votive_resource",
+        "target_domain": "soldiers_total_self_sacrifice",
+        "entailments": [
+          "devotion_is_a_quantifiable_resource",
+          "the_soldiers_gave_all_of_it",
+          "the_living_are_implicitly_called_to_give_more_of_their_own_devotion",
+          "partial_devotion_would_dishonor_the_total_sacrifice"
+        ],
+        "fantasy_type": "sacrifice_and_redemption",
+        "violence_logic": "obligatory",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "death_abstracted",
+          "black_soldiers_erased"
+        ],
+        "confidence_score": 0.96,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00011",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00011",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p03_s05",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+      "span_text": "these dead shall not have died in vain",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "soldier_deaths_as_evidence_for_democracy",
+        "basic_meaning": "logical_proof_and_evidence",
+        "cluster_id": "cluster_03_experiment_proposition",
+        "source_domain": "logical_proof_and_evidence",
+        "target_domain": "soldier_deaths_as_evidence_for_democracy",
+        "entailments": [
+          "deaths_are_evidence_in_the_test_of_democracy",
+          "to_die_in_vain_would_mean_the_test_failed",
+          "the_resolve_to_complete_the_work_prevents_logical_failure",
+          "the_living_must_supply_the_conclusion_that_makes_the_deaths_evidence"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "evidentiary",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "death_abstracted",
+          "enslaved_people_non_agent",
+          "black_soldiers_erased"
+        ],
+        "confidence_score": 0.98,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00012",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00012",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p03_s05",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+      "span_text": "a new birth of freedom",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "post_war_freedom_and_national_renewal",
+        "basic_meaning": "birth_generation",
+        "cluster_id": "cluster_04_birth_creation",
+        "source_domain": "birth_generation",
+        "target_domain": "post_war_freedom_and_national_renewal",
+        "entailments": [
+          "freedom_is_born_not_restored",
+          "war_is_the_labor_that_produces_the_birth",
+          "soldier_deaths_are_the_cost_of_labor",
+          "the_birth_produces_something_genuinely_new_not_a_restoration",
+          "the_new_freedom_is_a_child_of_the_war",
+          "birth_implies_life_that_can_grow_and_be_protected"
+        ],
+        "fantasy_type": "birth_and_creation",
+        "violence_logic": "generative",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent",
+          "black_soldiers_erased",
+          "death_abstracted",
+          "women_absent"
+        ],
+        "confidence_score": 0.99,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00013",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00013",
+      "document_id": "doc_017",
+      "sentence_id": "doc_017_s01_p03_s05",
+      "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+      "span_text": "shall not perish from the earth",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "democratic_government_persistence",
+        "basic_meaning": "organic_death_and_survival",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "organic_death_and_survival",
+        "target_domain": "democratic_government_persistence",
+        "entailments": [
+          "democratic_government_is_a_living_organism",
+          "it_can_die_perish",
+          "its_death_would_be_biological_extinction_not_political_failure",
+          "the_resolve_is_to_keep_it_alive",
+          "government_of_by_for_the_people_is_the_species_being_preserved"
+        ],
+        "fantasy_type": "experiment_and_proof",
+        "violence_logic": "evidentiary",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent",
+          "confederates_depersonalized"
+        ],
+        "confidence_score": 0.97,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00014",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00014",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p02_s03",
+      "sentence_text": "Now, at the expiration of four years, during which public declarations have been constantly called forth on every point and phase of the great contest which still absorbs the attention and engrosses the energies of the nation, little that is new could be presented.",
+      "span_text": "absorbs the attention and engrosses the energies of the nation",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "war_dominating_national_life",
+        "basic_meaning": "organic_consumption",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "organic_consumption",
+        "target_domain": "war_dominating_national_life",
+        "entailments": [
+          "the_nation_has_attention_and_energy_as_organic_resources",
+          "the_war_consumes_those_resources_like_a_parasite_or_disease",
+          "a_consumed_organism_has_no_resources_left_for_other_things",
+          "the_exhaustion_is_involuntary"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "restorative",
+        "obligatory_frame": false,
+        "absence_flags": [],
+        "confidence_score": 0.8,
+        "ambiguity_flag": true
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00015",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00015",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p03_s03",
+      "sentence_text": "While the inaugural address was being delivered from this place, devoted altogether to saving the Union without war, insurgent agents were in the city seeking to destroy it without war—seeking to dissolve the Union and divide effects by negotiation.",
+      "span_text": "dissolve the Union",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "destruction_of_the_Union",
+        "basic_meaning": "chemical_dissolution",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "chemical_dissolution",
+        "target_domain": "destruction_of_the_Union",
+        "entailments": [
+          "the_Union_is_a_substance_with_structural_integrity",
+          "dissolution_breaks_down_the_structure_at_the_molecular_level",
+          "the_dissolved_substance_cannot_be_reassembled",
+          "dissolution_is_a_chemical_process_not_a_violent_rupture"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "restorative",
+        "obligatory_frame": false,
+        "absence_flags": [
+          "confederates_depersonalized"
+        ],
+        "confidence_score": 0.92,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00016",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00016",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p03_s04",
+      "sentence_text": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish, and the war came.",
+      "span_text": "let the nation survive",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "national_political_continuity",
+        "basic_meaning": "organic_survival",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "organic_survival",
+        "target_domain": "national_political_continuity",
+        "entailments": [
+          "the_nation_is_a_living_organism",
+          "it_can_survive_or_fail_to_survive",
+          "survival_is_the_condition_of_all_other_national_purposes",
+          "the_nation_can_be_killed"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "restorative",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "lincoln_non_agent"
+        ],
+        "confidence_score": 0.95,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00017",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00017",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p03_s04",
+      "sentence_text": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish, and the war came.",
+      "span_text": "let it perish",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "collapse_of_the_Union",
+        "basic_meaning": "organic_death",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "organic_death",
+        "target_domain": "collapse_of_the_Union",
+        "entailments": [
+          "the_nation_can_die_not_merely_fail",
+          "perishing_is_absolute_irreversible_extinction",
+          "preventing_perishing_is_an_absolute_imperative",
+          "the_Union_is_alive_and_mortal"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "restorative",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "lincoln_non_agent"
+        ],
+        "confidence_score": 0.95,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00018",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00018",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p03_s04",
+      "sentence_text": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish, and the war came.",
+      "span_text": "the war came",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "outbreak_of_civil_war",
+        "basic_meaning": "natural_event_arrival",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "natural_event_arrival",
+        "target_domain": "outbreak_of_civil_war",
+        "entailments": [
+          "the_war_is_an_entity_that_moves_and_arrives",
+          "it_came_from_somewhere_outside_human_will",
+          "no_human_agent_caused_it_to_come",
+          "arrival_events_are_not_chosen_by_those_to_whom_they_arrive"
+        ],
+        "fantasy_type": "punishment_and_theodicy",
+        "violence_logic": "punitive",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "lincoln_non_agent",
+          "confederates_depersonalized",
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.97,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00019",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00019",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p04_s04",
+      "sentence_text": "To strengthen, perpetuate, and extend this interest was the object for which the insurgents would rend the Union even by war, while the Government claimed no right to do more than to restrict the territorial enlargement of it.",
+      "span_text": "rend the Union",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "Confederate_destruction_of_the_Union",
+        "basic_meaning": "tearing_flesh",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "tearing_flesh",
+        "target_domain": "Confederate_destruction_of_the_Union",
+        "entailments": [
+          "the_Union_is_a_body_or_fabric_with_physical_integrity",
+          "rending_is_violent_tearing_of_connected_material",
+          "the_torn_thing_bleeds_or_suffers",
+          "rending_is_irreparable_without_binding"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "restorative",
+        "obligatory_frame": false,
+        "absence_flags": [],
+        "confidence_score": 0.96,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00020",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00020",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p04_s12",
+      "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+      "span_text": "The Almighty has His own purposes",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "the_wars_ultimate_cause_and_meaning",
+        "basic_meaning": "divine_intentionality",
+        "cluster_id": "cluster_06_providence_theodicy",
+        "source_domain": "divine_intentionality",
+        "target_domain": "the_wars_ultimate_cause_and_meaning",
+        "entailments": [
+          "God_is_an_agent_with_intentions",
+          "those_intentions_are_not_identical_to_human_intentions",
+          "human_purposes_are_therefore_insufficient_explanations_of_events",
+          "discerning_Gods_purposes_is_necessary_to_understanding_the_war"
+        ],
+        "fantasy_type": "punishment_and_theodicy",
+        "violence_logic": "punitive",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "lincoln_non_agent",
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.98,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00021",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00021",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p04_s12",
+      "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+      "span_text": "in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "slavery_as_providential_offense_with_appointed_end",
+        "basic_meaning": "divine_temporal_administration",
+        "cluster_id": "cluster_06_providence_theodicy",
+        "source_domain": "divine_temporal_administration",
+        "target_domain": "slavery_as_providential_offense_with_appointed_end",
+        "entailments": [
+          "God_administers_historical_time",
+          "slavery_had_a_divinely_appointed_duration",
+          "God_now_wills_its_removal",
+          "the_war_is_the_instrument_of_that_removal",
+          "human_abolition_efforts_are_secondary_to_divine_will"
+        ],
+        "fantasy_type": "punishment_and_theodicy",
+        "violence_logic": "punitive",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "lincoln_non_agent",
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.98,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00022",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00022",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p04_s12",
+      "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+      "span_text": "He gives to both North and South this terrible war as the woe due to those by whom the offense came",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "the_war_as_Gods_judgment_on_both_sides",
+        "basic_meaning": "divine_punishment_distribution",
+        "cluster_id": "cluster_06_providence_theodicy",
+        "source_domain": "divine_punishment_distribution",
+        "target_domain": "the_war_as_Gods_judgment_on_both_sides",
+        "entailments": [
+          "God_gives_the_war_as_a_gift_of_punishment",
+          "both_sides_receive_the_punishment",
+          "the_punishment_is_proportionate_to_the_offense",
+          "the_offense_is_slavery",
+          "both_sides_participated_in_the_offense"
+        ],
+        "fantasy_type": "punishment_and_theodicy",
+        "violence_logic": "punitive",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.99,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00023",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00023",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p04_s13",
+      "sentence_text": "Fondly do we hope, fervently do we pray, that this mighty scourge of war may speedily pass away.",
+      "span_text": "this mighty scourge of war",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "the_civil_war",
+        "basic_meaning": "divine_instrument_of_punishment",
+        "cluster_id": "cluster_06_providence_theodicy",
+        "source_domain": "divine_instrument_of_punishment",
+        "target_domain": "the_civil_war",
+        "entailments": [
+          "the_war_is_a_whip_wielded_by_a_divine_hand",
+          "the_scourge_is_applied_to_punish_not_to_purify",
+          "the_scourge_passes_when_the_punishment_is_complete",
+          "humans_can_pray_for_its_passing_but_not_command_it"
+        ],
+        "fantasy_type": "punishment_and_theodicy",
+        "violence_logic": "punitive",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "lincoln_non_agent"
+        ],
+        "confidence_score": 0.97,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00024",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00024",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p04_s14",
+      "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn with the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said \"the judgments of the Lord are true and righteous altogether.\"",
+      "span_text": "every drop of blood drawn with the lash shall be paid by another drawn with the sword",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "the_providential_equivalence_of_slavery_violence_and_war_violence",
+        "basic_meaning": "blood_as_economic_currency",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "blood_as_economic_currency",
+        "target_domain": "the_providential_equivalence_of_slavery_violence_and_war_violence",
+        "entailments": [
+          "blood_is_a_quantifiable_substance_that_can_be_drawn_and_paid",
+          "a_debt_in_blood_requires_repayment_in_blood",
+          "the_lash_drew_blood_from_enslaved_people",
+          "the_sword_draws_blood_from_soldiers",
+          "the_economy_is_divinely_administered",
+          "the_debt_must_be_paid_in_full_before_the_war_ends"
+        ],
+        "fantasy_type": "punishment_and_theodicy",
+        "violence_logic": "punitive",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent",
+          "black_soldiers_erased",
+          "death_abstracted"
+        ],
+        "confidence_score": 0.99,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00025",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00025",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p05_s01",
+      "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+      "span_text": "finish the work we are in",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "obligation_to_conclude_the_war_and_its_purposes",
+        "basic_meaning": "votive_labor_completion",
+        "cluster_id": "cluster_02_covenant_oath",
+        "source_domain": "votive_labor_completion",
+        "target_domain": "obligation_to_conclude_the_war_and_its_purposes",
+        "entailments": [
+          "the_war_is_a_work_in_progress",
+          "works_have_completion_conditions",
+          "those_engaged_in_the_work_are_obligated_to_finish_it",
+          "leaving_work_unfinished_dishonors_those_who_began_it"
+        ],
+        "fantasy_type": "oath_and_obligation",
+        "violence_logic": "obligatory",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent"
+        ],
+        "confidence_score": 0.93,
+        "ambiguity_flag": false
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00026",
+      "unit_type": "field_agreement",
+      "source_audit_id": "inst_00026",
+      "document_id": "doc_021",
+      "sentence_id": "doc_021_s01_p05_s01",
+      "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+      "span_text": "bind up the nation's wounds",
+      "reference_values": {
+        "mipvu_decision": "metaphor_related",
+        "contextual_meaning": "national_reconciliation_after_war",
+        "basic_meaning": "wound_dressing_and_healing",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "wound_dressing_and_healing",
+        "target_domain": "national_reconciliation_after_war",
+        "entailments": [
+          "the_nation_has_wounds_from_the_war",
+          "wounds_require_binding_to_begin_healing",
+          "the_binder_is_physician_to_the_national_body",
+          "healing_is_possible_but_requires_active_care",
+          "binding_is_restorative_not_punitive"
+        ],
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "restorative",
+        "obligatory_frame": true,
+        "absence_flags": [
+          "enslaved_people_non_agent",
+          "black_soldiers_erased"
+        ],
+        "confidence_score": 0.99,
+        "ambiguity_flag": false
+      }
+    }
+  ],
+  "totals": {
+    "documents": 5,
+    "identification_units": 55,
+    "field_agreement_units": 51,
+    "evidence_records_in_sample": 51,
+    "negative_control_units": 15
+  },
+  "pipeline_log": [
+    {
+      "stage": "4B",
+      "agent": "build_reliability_sample.js",
+      "date": "2026-06-15",
+      "sample_documents_total": 5,
+      "identification_units": 55,
+      "field_agreement_units": 51
+    }
+  ]
+}
