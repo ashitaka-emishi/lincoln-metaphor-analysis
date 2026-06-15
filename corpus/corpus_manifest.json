@@ -33,7 +33,15 @@
       "analytical_priority": "high",
       "word_count_approx": 3000,
       "pipeline_stage_completed": 4,
-      "notes": "Earliest major speech. Proto-covenant and proto-organism metaphors before Lincoln has political stakes \u2014 valuable baseline."
+      "notes": "Earliest major speech. Proto-covenant and proto-organism metaphors before Lincoln has political stakes — valuable baseline.",
+      "period": "phase_1_baseline",
+      "genre": "lyceum_address",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.1 pp.108-115",
+      "editorial_status": "standard_collected_works_text",
+      "inclusion_rationale": "Earliest major speech. Proto-covenant and proto-organism metaphors before Lincoln has political stakes — valuable baseline.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     },
     {
       "id": "doc_002",
@@ -51,7 +59,15 @@
       "analytical_priority": "medium",
       "word_count_approx": 2800,
       "pipeline_stage_completed": 4,
-      "notes": "Body/disease cluster in alcohol reform context \u2014 establishes pre-political use of organic metaphors."
+      "notes": "Body/disease cluster in alcohol reform context — establishes pre-political use of organic metaphors.",
+      "period": "phase_1_baseline",
+      "genre": "reform_address",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.1 pp.271-279",
+      "editorial_status": "standard_collected_works_text",
+      "inclusion_rationale": "Body/disease cluster in alcohol reform context — establishes pre-political use of organic metaphors.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     },
     {
       "id": "doc_003",
@@ -69,7 +85,15 @@
       "analytical_priority": "medium",
       "word_count_approx": 3500,
       "pipeline_stage_completed": 4,
-      "notes": "Ancestral-debt cluster. Lincoln positions Clay as exemplar of covenant-keeping."
+      "notes": "Ancestral-debt cluster. Lincoln positions Clay as exemplar of covenant-keeping.",
+      "period": "phase_1_baseline",
+      "genre": "eulogy",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.2 pp.121-132",
+      "editorial_status": "standard_collected_works_text",
+      "inclusion_rationale": "Ancestral-debt cluster. Lincoln positions Clay as exemplar of covenant-keeping.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     },
     {
       "id": "doc_004",
@@ -88,8 +112,16 @@
       ],
       "analytical_priority": "high",
       "word_count_approx": 17000,
-      "pipeline_stage_completed": 3,
-      "notes": "First major deployment of experiment/proposition frame re: slavery. 17,000 words."
+      "pipeline_stage_completed": 4,
+      "notes": "First major deployment of experiment/proposition frame re: slavery. 17,000 words.",
+      "period": "phase_2_argument",
+      "genre": "campaign_speech",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.2 pp.247-283",
+      "editorial_status": "reported_or_extemporaneous_text_with_transcription_noise",
+      "inclusion_rationale": "First major deployment of experiment/proposition frame re: slavery. 17,000 words.",
+      "known_limitations": [
+        "Reported or extemporaneous text may contain transcription noise; exact wording and span boundaries require caution."
+      ]
     },
     {
       "id": "doc_005",
@@ -107,7 +139,15 @@
       "analytical_priority": "critical",
       "word_count_approx": 3200,
       "pipeline_stage_completed": 4,
-      "notes": "Body-organism cluster at full intensity. Dual activation: house = body AND household covenant."
+      "notes": "Body-organism cluster at full intensity. Dual activation: house = body AND household covenant.",
+      "period": "phase_2_argument",
+      "genre": "convention_address",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.2 pp.461-469",
+      "editorial_status": "standard_collected_works_text",
+      "inclusion_rationale": "Body-organism cluster at full intensity. Dual activation: house = body AND household covenant.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     },
     {
       "id": "doc_006a",
@@ -126,8 +166,16 @@
       ],
       "analytical_priority": "high",
       "word_count_approx": 22000,
-      "pipeline_stage_completed": 3,
-      "notes": "Metaphors under adversarial pressure. Annotate Lincoln turns only."
+      "pipeline_stage_completed": 4,
+      "notes": "Metaphors under adversarial pressure. Annotate Lincoln turns only.",
+      "period": "phase_2_argument",
+      "genre": "debate",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.1-37",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "inclusion_rationale": "Metaphors under adversarial pressure. Annotate Lincoln turns only.",
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ]
     },
     {
       "id": "doc_006b",
@@ -146,8 +194,16 @@
       ],
       "analytical_priority": "high",
       "word_count_approx": 21000,
-      "pipeline_stage_completed": 3,
-      "notes": "Proposition cluster under maximum argumentative pressure."
+      "pipeline_stage_completed": 4,
+      "notes": "Proposition cluster under maximum argumentative pressure.",
+      "period": "phase_2_argument",
+      "genre": "debate",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.38-76",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "inclusion_rationale": "Proposition cluster under maximum argumentative pressure.",
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ]
     },
     {
       "id": "doc_006c",
@@ -166,8 +222,16 @@
       ],
       "analytical_priority": "medium",
       "word_count_approx": 20000,
-      "pipeline_stage_completed": 3,
-      "notes": "Southern IL audience \u2014 watch for metaphor suppression vs. northern venues."
+      "pipeline_stage_completed": 4,
+      "notes": "Southern IL audience — watch for metaphor suppression vs. northern venues.",
+      "period": "phase_2_argument",
+      "genre": "debate",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.102-144",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "inclusion_rationale": "Southern IL audience — watch for metaphor suppression vs. northern venues.",
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ]
     },
     {
       "id": "doc_006d",
@@ -186,8 +250,16 @@
       ],
       "analytical_priority": "medium",
       "word_count_approx": 20500,
-      "pipeline_stage_completed": 3,
-      "notes": "CRITICAL for absence analysis: Lincoln suppresses equality-proposition cluster here. Tag explicitly."
+      "pipeline_stage_completed": 4,
+      "notes": "CRITICAL for absence analysis: Lincoln suppresses equality-proposition cluster here. Tag explicitly.",
+      "period": "phase_2_argument",
+      "genre": "debate",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.145-201",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "inclusion_rationale": "CRITICAL for absence analysis: Lincoln suppresses equality-proposition cluster here. Tag explicitly.",
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ]
     },
     {
       "id": "doc_006e",
@@ -206,8 +278,16 @@
       ],
       "analytical_priority": "medium",
       "word_count_approx": 19000,
-      "pipeline_stage_completed": 3,
-      "notes": "Compare cluster activation with Jonesboro (suppressed) and Galesburg (receptive)."
+      "pipeline_stage_completed": 4,
+      "notes": "Compare cluster activation with Jonesboro (suppressed) and Galesburg (receptive).",
+      "period": "phase_2_argument",
+      "genre": "debate",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.207-244",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "inclusion_rationale": "Compare cluster activation with Jonesboro (suppressed) and Galesburg (receptive).",
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ]
     },
     {
       "id": "doc_006f",
@@ -226,8 +306,16 @@
       ],
       "analytical_priority": "medium",
       "word_count_approx": 21000,
-      "pipeline_stage_completed": 3,
-      "notes": null
+      "pipeline_stage_completed": 4,
+      "notes": null,
+      "period": "phase_2_argument",
+      "genre": "debate",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.245-325",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "inclusion_rationale": "Included as the sixth Lincoln-Douglas debate for full debate-series coverage and register-controlled comparison.",
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ]
     },
     {
       "id": "doc_006g",
@@ -246,8 +334,16 @@
       ],
       "analytical_priority": "high",
       "word_count_approx": 19500,
-      "pipeline_stage_completed": 3,
-      "notes": "Final debate \u2014 Lincoln's closing synthesis after 7 rounds of adversarial pressure."
+      "pipeline_stage_completed": 4,
+      "notes": "Final debate — Lincoln's closing synthesis after 7 rounds of adversarial pressure.",
+      "period": "phase_2_argument",
+      "genre": "debate",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.283-325",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "inclusion_rationale": "Final debate — Lincoln's closing synthesis after 7 rounds of adversarial pressure.",
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ]
     },
     {
       "id": "doc_007",
@@ -265,7 +361,15 @@
       "analytical_priority": "critical",
       "word_count_approx": 7700,
       "pipeline_stage_completed": 4,
-      "notes": "Best single document for fathers/inheritance cluster. Lincoln cites founders by name."
+      "notes": "Best single document for fathers/inheritance cluster. Lincoln cites founders by name.",
+      "period": "phase_2_argument",
+      "genre": "lecture_address",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.522-550",
+      "editorial_status": "standard_collected_works_text",
+      "inclusion_rationale": "Best single document for fathers/inheritance cluster. Lincoln cites founders by name.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     },
     {
       "id": "doc_008",
@@ -285,7 +389,15 @@
       "analytical_priority": "medium",
       "word_count_approx": 150,
       "pipeline_stage_completed": 4,
-      "notes": "Providence cluster in unguarded form. Lincoln speaking extemporaneously about his own death."
+      "notes": "Providence cluster in unguarded form. Lincoln speaking extemporaneously about his own death.",
+      "period": "phase_3_obligation",
+      "genre": "farewell_address",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.190-191",
+      "editorial_status": "multiple_version_text",
+      "inclusion_rationale": "Providence cluster in unguarded form. Lincoln speaking extemporaneously about his own death.",
+      "known_limitations": [
+        "Two textual versions circulate; variant-sensitive claims should identify the version used."
+      ]
     },
     {
       "id": "doc_009",
@@ -305,7 +417,15 @@
       "analytical_priority": "critical",
       "word_count_approx": 3600,
       "pipeline_stage_completed": 4,
-      "notes": "Seward drafted 'mystic chords' closing. Tag seward_revised sentences. Run analysis twice: full and lincoln-sole-only."
+      "notes": "Seward drafted 'mystic chords' closing. Tag seward_revised sentences. Run analysis twice: full and lincoln-sole-only.",
+      "period": "phase_3_obligation",
+      "genre": "inaugural_address",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.262-271",
+      "editorial_status": "collaborative_revision_with_seward_passages",
+      "inclusion_rationale": "Seward drafted 'mystic chords' closing. Tag seward_revised sentences. Run analysis twice: full and lincoln-sole-only.",
+      "known_limitations": [
+        "Includes Seward-drafted or Seward-revised passages; authorship-sensitive analysis should isolate Lincoln-sole sentences where possible."
+      ]
     },
     {
       "id": "doc_010",
@@ -323,7 +443,15 @@
       "analytical_priority": "high",
       "word_count_approx": 6900,
       "pipeline_stage_completed": 4,
-      "notes": "Experiment/proposition most explicit here. Note how metaphors operate in administrative register."
+      "notes": "Experiment/proposition most explicit here. Note how metaphors operate in administrative register.",
+      "period": "phase_3_obligation",
+      "genre": "message_to_congress",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.421-441",
+      "editorial_status": "official_congressional_message",
+      "inclusion_rationale": "Experiment/proposition most explicit here. Note how metaphors operate in administrative register.",
+      "known_limitations": [
+        "Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."
+      ]
     },
     {
       "id": "doc_011",
@@ -343,7 +471,16 @@
       "analytical_priority": "high",
       "word_count_approx": 200,
       "pipeline_stage_completed": 4,
-      "notes": "Lincoln privately reasons Union is 'picture of silver', liberty the 'apple of gold'. Rare explicit metaphor theorizing. High epistemic value."
+      "notes": "Lincoln privately reasons Union is 'picture of silver', liberty the 'apple of gold'. Rare explicit metaphor theorizing. High epistemic value.",
+      "period": "phase_3_obligation",
+      "genre": "private_fragment",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.168-169",
+      "editorial_status": "private_fragment_with_uncertain_date",
+      "inclusion_rationale": "Lincoln privately reasons Union is 'picture of silver', liberty the 'apple of gold'. Rare explicit metaphor theorizing. High epistemic value.",
+      "known_limitations": [
+        "Private fragment with uncertain date; diachronic placement should be treated cautiously.",
+        "Private fragment has limited audience context and short length; frequency claims require caution."
+      ]
     },
     {
       "id": "doc_012",
@@ -361,7 +498,15 @@
       "analytical_priority": "critical",
       "word_count_approx": 450,
       "pipeline_stage_completed": 4,
-      "notes": "CRITICAL. 'If I could save the Union without freeing any slave I would do it.' Metaphor suppression event. Written 2 months before Preliminary Emancipation. Track covenant-over-freedom suppression."
+      "notes": "CRITICAL. 'If I could save the Union without freeing any slave I would do it.' Metaphor suppression event. Written 2 months before Preliminary Emancipation. Track covenant-over-freedom suppression.",
+      "period": "phase_4_transformation",
+      "genre": "public_letter",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.5 pp.388-389",
+      "editorial_status": "published_or_circulated_letter",
+      "inclusion_rationale": "CRITICAL. 'If I could save the Union without freeing any slave I would do it.' Metaphor suppression event. Written 2 months before Preliminary Emancipation. Track covenant-over-freedom suppression.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     },
     {
       "id": "doc_013",
@@ -379,7 +524,15 @@
       "analytical_priority": "medium",
       "word_count_approx": 700,
       "pipeline_stage_completed": 4,
-      "notes": "Deliberately flat. Absence of birth/body clusters is the finding. Use as control document."
+      "notes": "Deliberately flat. Absence of birth/body clusters is the finding. Use as control document.",
+      "period": "phase_4_transformation",
+      "genre": "proclamation",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.5 pp.433-436",
+      "editorial_status": "official_legal_text",
+      "inclusion_rationale": "Deliberately flat. Absence of birth/body clusters is the finding. Use as control document.",
+      "known_limitations": [
+        "Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."
+      ]
     },
     {
       "id": "doc_014",
@@ -397,7 +550,15 @@
       "analytical_priority": "high",
       "word_count_approx": 6300,
       "pipeline_stage_completed": 4,
-      "notes": "'Last best hope of earth' \u2014 experiment frame at high intensity in administrative register."
+      "notes": "'Last best hope of earth' — experiment frame at high intensity in administrative register.",
+      "period": "phase_4_transformation",
+      "genre": "annual_message",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.5 pp.518-537",
+      "editorial_status": "official_congressional_message",
+      "inclusion_rationale": "'Last best hope of earth' — experiment frame at high intensity in administrative register.",
+      "known_limitations": [
+        "Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."
+      ]
     },
     {
       "id": "doc_015",
@@ -415,7 +576,15 @@
       "analytical_priority": "medium",
       "word_count_approx": 700,
       "pipeline_stage_completed": 4,
-      "notes": "Compare to preliminary \u2014 same flatness. The document actually freeing enslaved people contains almost no metaphor. Flatness is data."
+      "notes": "Compare to preliminary — same flatness. The document actually freeing enslaved people contains almost no metaphor. Flatness is data.",
+      "period": "phase_4_transformation",
+      "genre": "proclamation",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.6 pp.28-30",
+      "editorial_status": "official_legal_text",
+      "inclusion_rationale": "Compare to preliminary — same flatness. The document actually freeing enslaved people contains almost no metaphor. Flatness is data.",
+      "known_limitations": [
+        "Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."
+      ]
     },
     {
       "id": "doc_016",
@@ -433,7 +602,15 @@
       "analytical_priority": "high",
       "word_count_approx": 1300,
       "pipeline_stage_completed": 4,
-      "notes": "Written to be read aloud at rally. Defends emancipation to war Democrats. Track obligatory frame distribution across racial lines."
+      "notes": "Written to be read aloud at rally. Defends emancipation to war Democrats. Track obligatory frame distribution across racial lines.",
+      "period": "phase_4_transformation",
+      "genre": "public_letter",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.6 pp.406-410",
+      "editorial_status": "published_or_circulated_letter",
+      "inclusion_rationale": "Written to be read aloud at rally. Defends emancipation to war Democrats. Track obligatory frame distribution across racial lines.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     },
     {
       "id": "doc_017",
@@ -453,7 +630,15 @@
       "analytical_priority": "critical",
       "word_count_approx": 272,
       "pipeline_stage_completed": 4,
-      "notes": "272 words. Birth, proposition, sacrifice, ancestral-debt all present. Highest metaphor density. Use Bliss copy. Structurally a birth narrative \u2014 'brought forth' in line 1 reprised in 'new birth of freedom'. Sacrificial economy fully operational."
+      "notes": "272 words. Birth, proposition, sacrifice, ancestral-debt all present. Highest metaphor density. Use Bliss copy. Structurally a birth narrative — 'brought forth' in line 1 reprised in 'new birth of freedom'. Sacrificial economy fully operational.",
+      "period": "phase_4_transformation",
+      "genre": "commemorative_address",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+      "editorial_status": "manuscript_variant_tradition",
+      "inclusion_rationale": "272 words. Birth, proposition, sacrifice, ancestral-debt all present. Highest metaphor density. Use Bliss copy. Structurally a birth narrative — 'brought forth' in line 1 reprised in 'new birth of freedom'. Sacrificial economy fully operational.",
+      "known_limitations": [
+        "Multiple manuscript witnesses exist; variant-sensitive claims should identify the copy used."
+      ]
     },
     {
       "id": "doc_018",
@@ -471,7 +656,15 @@
       "analytical_priority": "high",
       "word_count_approx": 100,
       "pipeline_stage_completed": 4,
-      "notes": "Private note sealed from cabinet. Providence cluster in purely private form. Key test: does public providence rhetoric reflect genuine private cognition?"
+      "notes": "Private note sealed from cabinet. Providence cluster in purely private form. Key test: does public providence rhetoric reflect genuine private cognition?",
+      "period": "phase_5_theodicy",
+      "genre": "private_memorandum",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.514-515",
+      "editorial_status": "private_fragment",
+      "inclusion_rationale": "Private note sealed from cabinet. Providence cluster in purely private form. Key test: does public providence rhetoric reflect genuine private cognition?",
+      "known_limitations": [
+        "Private fragment has limited audience context and short length; frequency claims require caution."
+      ]
     },
     {
       "id": "doc_019",
@@ -489,7 +682,15 @@
       "analytical_priority": "critical",
       "word_count_approx": 650,
       "pipeline_stage_completed": 4,
-      "notes": "'I claim not to have controlled events but confess plainly that events have controlled me.' Obligatory frame and lincoln_non_agent as Lincoln's explicit self-description. Canonical. Also proto-Second-Inaugural theodicy."
+      "notes": "'I claim not to have controlled events but confess plainly that events have controlled me.' Obligatory frame and lincoln_non_agent as Lincoln's explicit self-description. Canonical. Also proto-Second-Inaugural theodicy.",
+      "period": "phase_5_theodicy",
+      "genre": "public_letter",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.281-283",
+      "editorial_status": "published_or_circulated_letter",
+      "inclusion_rationale": "'I claim not to have controlled events but confess plainly that events have controlled me.' Obligatory frame and lincoln_non_agent as Lincoln's explicit self-description. Canonical. Also proto-Second-Inaugural theodicy.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     },
     {
       "id": "doc_020",
@@ -509,7 +710,15 @@
       "analytical_priority": "medium",
       "word_count_approx": 350,
       "pipeline_stage_completed": 4,
-      "notes": "Extemporaneous. Experiment/proof frame unguarded \u2014 election result as empirical evidence."
+      "notes": "Extemporaneous. Experiment/proof frame unguarded — election result as empirical evidence.",
+      "period": "phase_5_theodicy",
+      "genre": "election_serenade_response",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.96-97",
+      "editorial_status": "reported_or_extemporaneous_text_with_transcription_noise",
+      "inclusion_rationale": "Extemporaneous. Experiment/proof frame unguarded — election result as empirical evidence.",
+      "known_limitations": [
+        "Reported or extemporaneous text may contain transcription noise; exact wording and span boundaries require caution."
+      ]
     },
     {
       "id": "doc_021",
@@ -527,7 +736,15 @@
       "analytical_priority": "critical",
       "word_count_approx": 700,
       "pipeline_stage_completed": 4,
-      "notes": "All clusters present. Providence/theodicy at full development. Distributed guilt. 'The Almighty has His own purposes.' Obligatory frame at maximum. Wound-and-healing closes. Diachronic endpoint."
+      "notes": "All clusters present. Providence/theodicy at full development. Distributed guilt. 'The Almighty has His own purposes.' Obligatory frame at maximum. Wound-and-healing closes. Diachronic endpoint.",
+      "period": "phase_5_theodicy",
+      "genre": "inaugural_address",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+      "editorial_status": "standard_collected_works_text",
+      "inclusion_rationale": "All clusters present. Providence/theodicy at full development. Distributed guilt. 'The Almighty has His own purposes.' Obligatory frame at maximum. Wound-and-healing closes. Diachronic endpoint.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     },
     {
       "id": "doc_022",
@@ -545,7 +762,42 @@
       "analytical_priority": "high",
       "word_count_approx": 1900,
       "pipeline_stage_completed": 4,
-      "notes": "Reconstruction policy. Wound-and-healing now programmatic. Diachronic endpoint for organism cluster. Delivered 4 days before assassination."
+      "notes": "Reconstruction policy. Wound-and-healing now programmatic. Diachronic endpoint for organism cluster. Delivered 4 days before assassination.",
+      "period": "phase_5_theodicy",
+      "genre": "reconstruction_address",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.399-405",
+      "editorial_status": "standard_collected_works_text",
+      "inclusion_rationale": "Reconstruction policy. Wound-and-healing now programmatic. Diachronic endpoint for organism cluster. Delivered 4 days before assassination.",
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ]
     }
+  ],
+  "periodization_enum": [
+    "phase_1_baseline",
+    "phase_2_argument",
+    "phase_3_obligation",
+    "phase_4_transformation",
+    "phase_5_theodicy"
+  ],
+  "genre_enum": [
+    "lyceum_address",
+    "reform_address",
+    "eulogy",
+    "campaign_speech",
+    "convention_address",
+    "debate",
+    "lecture_address",
+    "farewell_address",
+    "inaugural_address",
+    "message_to_congress",
+    "private_fragment",
+    "public_letter",
+    "proclamation",
+    "annual_message",
+    "commemorative_address",
+    "private_memorandum",
+    "election_serenade_response",
+    "reconstruction_address"
   ]
 }

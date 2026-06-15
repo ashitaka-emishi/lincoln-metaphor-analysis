@@ -33,6 +33,54 @@ No schema. Verbatim source text as found. Do not modify.
 
 ---
 
+## Corpus Manifest
+
+File: `corpus/corpus_manifest.json`
+
+The corpus manifest is the canonical provenance source for the publication-facing corpus register.
+
+Each document must include:
+
+```json
+{
+  "id": "doc_021",
+  "title": "Second Inaugural Address",
+  "short_title": "Second Inaugural",
+  "date": "1865-03-04",
+  "date_precision": "exact",
+  "period": "phase_5_theodicy",
+  "genre": "inaugural_address",
+  "register": "formal_public_address",
+  "authorship": "lincoln_sole",
+  "authorship_confidence": 0.99,
+  "authorship_notes": null,
+  "source_text": "Collected Works vol.8 pp.332-333",
+  "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+  "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211",
+  "editorial_status": "standard_collected_works_text",
+  "inclusion_rationale": "All clusters present. Providence/theodicy at full development...",
+  "known_limitations": ["No special provenance caution recorded."],
+  "risk_flags": [],
+  "analytical_priority": "critical",
+  "word_count_approx": 700,
+  "pipeline_stage_completed": 4,
+  "notes": "All clusters present..."
+}
+```
+
+Required controlled fields:
+
+- `period`: one of `phase_1_baseline`, `phase_2_argument`, `phase_3_obligation`, `phase_4_transformation`, `phase_5_theodicy`
+- `genre`: one of the values in `genre_enum`
+- `register`: one of the values in `register_enum`
+- `authorship`: one of the values in `authorship_enum`
+- `known_limitations`: array of reviewer-facing cautions
+- `risk_flags`: array of machine-readable caution flags
+
+The generated publication register is written by `npm run corpus:register` to `data/metadata/corpus-register.csv`.
+
+---
+
 ## Stage 2: Text with Frontmatter
 
 Directory: `corpus/text/`

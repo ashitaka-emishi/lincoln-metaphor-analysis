@@ -7,6 +7,7 @@
     "migrate:annotations": "node scripts/migrate_annotations_to_stage4.js",
     "validate": "node scripts/validate_schema.js",
     "validate:annotation": "node scripts/validate_annotation_output.js",
+    "corpus:register": "node scripts/build_corpus_register.js",
     "concordance": "node scripts/build_concordance.js",
     "analysis": "node scripts/run_analysis.js",
     "pipeline": "npm run validate && npm run concordance && npm run analysis",

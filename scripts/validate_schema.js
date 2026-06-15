@@ -40,14 +40,19 @@ function validateManifest() {
   const manifest = readJSON(filePath);
   if (!manifest) return;
 
-  const required = ['version', 'generated', 'register_enum', 'authorship_enum', 'documents'];
+  const required = ['version', 'generated', 'register_enum', 'authorship_enum', 'periodization_enum', 'genre_enum', 'documents'];
   for (const field of required) {
     if (manifest[field] === undefined) err(filePath, `Missing top-level field: ${field}`);
   }
 
   if (!Array.isArray(manifest.documents)) { err(filePath, 'documents is not an array'); return; }
 
-  const docFields = ['id', 'title', 'short_title', 'date', 'register', 'authorship_confidence', 'source_text', 'source_url', 'analytical_priority', 'pipeline_stage_completed'];
+  const docFields = [
+    'id', 'title', 'short_title', 'date', 'date_precision', 'period', 'genre',
+    'register', 'authorship', 'authorship_confidence', 'source_text', 'source_edition',
+    'source_url', 'editorial_status', 'inclusion_rationale', 'known_limitations',
+    'risk_flags', 'analytical_priority', 'pipeline_stage_completed'
+  ];
 
   const seenIds = new Set();
   for (const doc of manifest.documents) {
@@ -57,6 +62,30 @@ function validateManifest() {
 
     for (const field of docFields) {
       if (doc[field] === undefined) err(filePath, `${doc.id}: missing field '${field}'`);
+    }
+
+    if (manifest.register_enum && !manifest.register_enum.includes(doc.register)) {
+      err(filePath, `${doc.id}: register '${doc.register}' not in register_enum`);
+    }
+
+    if (manifest.authorship_enum && !manifest.authorship_enum.includes(doc.authorship)) {
+      err(filePath, `${doc.id}: authorship '${doc.authorship}' not in authorship_enum`);
+    }
+
+    if (manifest.periodization_enum && !manifest.periodization_enum.includes(doc.period)) {
+      err(filePath, `${doc.id}: period '${doc.period}' not in periodization_enum`);
+    }
+
+    if (manifest.genre_enum && !manifest.genre_enum.includes(doc.genre)) {
+      err(filePath, `${doc.id}: genre '${doc.genre}' not in genre_enum`);
+    }
+
+    if (!Array.isArray(doc.known_limitations)) {
+      err(filePath, `${doc.id}: known_limitations must be an array`);
+    }
+
+    if (!Array.isArray(doc.risk_flags)) {
+      err(filePath, `${doc.id}: risk_flags must be an array`);
     }
 
     if (typeof doc.authorship_confidence === 'number') {
