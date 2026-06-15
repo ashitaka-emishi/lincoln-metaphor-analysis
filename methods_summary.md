@@ -4,7 +4,9 @@ title: "Methods Summary"
 
 This project uses a staged corpus workflow. First, Lincoln's texts are collected and normalized. Second, each document receives metadata: date, register, authorship confidence, source, risk flags, and analytical priority. Third, each document is segmented into stable section, paragraph, and sentence IDs. Fourth, metaphor instances are annotated at the sentence level. Finally, the annotated instances are aggregated into a concordance and analyzed by cluster, date, register, and absence pattern.
 
-Each metaphor annotation has two layers.
+Each metaphor annotation has three ordered decisions: MIPVU identification, CMT mapping, and Koenigsbergian interpretation. The [Annotation Codebook](docs/methodology/annotation-codebook.md) defines the decision rules and controlled vocabularies.
+
+Each metaphor annotation has two structured interpretive layers.
 
 The **Conceptual Metaphor Theory layer** records the source domain, target domain, linguistic form, entailments, extended metaphor status, and co-activated clusters. This makes it possible to compare metaphors as linguistic structures across the corpus.
 

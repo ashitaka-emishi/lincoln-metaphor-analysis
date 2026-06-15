@@ -59,6 +59,8 @@ website:
             text: Research Design
           - href: docs/methodology/corpus-register.qmd
             text: Corpus Register
+          - href: docs/methodology/annotation-codebook.md
+            text: Annotation Codebook
           - href: docs/upgrade.md
             text: Pipeline Upgrade
           - href: comparison/theoretical_framework.md
