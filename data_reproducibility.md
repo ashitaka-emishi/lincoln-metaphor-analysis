@@ -16,6 +16,7 @@ node scripts/build_reliability_sample.js
 node scripts/build_reliability_results.js
 node scripts/build_textual_variant_apparatus.js
 python3 scripts/build_external_benchmark_registry.py
+python3 scripts/build_reception_evidence_registry.py
 node scripts/build_controlled_analysis.js
 node scripts/build_claim_audit.js
 node scripts/build_concordance.js
@@ -105,7 +106,7 @@ Outputs:
 
 See [Claim Audit Method](docs/methodology/claim-audit.md) for the audit-chain format and [Claim-To-Source Audit](synthesis/claim_audit.md) for the public tables.
 
-Current status: Stages 1–8 are implemented across all 28 documents. Stage 7 (external benchmark validation) is scaffolded and runnable; LCC datasets are not committed to the repository but are downloaded on demand. The [Publication Package](publication_package.md) records the public data package, generated/local-only boundary, limitations, AI-use statement, and non-blocking follow-up issues.
+Current status: Stages 1–8 are implemented across all 28 documents. Stage 7 (external benchmark validation) is scaffolded and runnable; Stage 7A defines the reception evidence protocol without adding reception claims to the Lincoln corpus. LCC datasets are not committed to the repository but are downloaded on demand. The [Publication Package](publication_package.md) records the public data package, generated/local-only boundary, limitations, AI-use statement, and non-blocking follow-up issues.
 
 ## Stage 7: LCC Validation
 
@@ -136,6 +137,21 @@ Scripts:
 - `scripts/build_external_benchmark_registry.py` — writes `data/metadata/external-benchmark-corpora.json` and [External Benchmarks](docs/methodology/external-benchmarks.md)
 
 The external benchmark registry documents implemented LCC baselines, candidate Union, Confederate, abolitionist, and presidential comparison corpora, plus licensing, size, redistribution, and reproducibility decisions.
+
+## Stage 7A: Reception Evidence Protocol
+
+The reception evidence layer documents how future work may add audience reception without contaminating the Lincoln-only metaphor corpus. It defines candidate source types, required metadata, claim boundaries, and collection-level candidate sources. No reception examples are treated as evidence until individual items are selected, cited, and rights-checked.
+
+```bash
+npm run reception:registry
+```
+
+Outputs:
+
+- `data/metadata/reception-evidence-registry.json`
+- `docs/methodology/reception-evidence.md`
+
+The protocol separates rhetoric-in-text claims from claims about how audiences received, repeated, resisted, or transformed Lincoln rhetoric. Candidate collections currently include newspaper, correspondence, community archive, public-meeting, and compiled wartime-commentary sources, each with a source URL or archival citation.
 
 The site itself is rendered with Quarto:
 

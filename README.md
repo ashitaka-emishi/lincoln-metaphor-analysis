@@ -23,6 +23,7 @@ node scripts/build_reliability_sample.js # Stage 4B: reliability artifacts
 node scripts/build_reliability_results.js # Stage 4B: completed coding and metrics
 node scripts/build_textual_variant_apparatus.js # Stage 4C: source-risk apparatus
 python3 scripts/build_external_benchmark_registry.py # Stage 7: benchmark registry
+python3 scripts/build_reception_evidence_registry.py # Reception evidence protocol
 node scripts/build_controlled_analysis.js # Stage 6A: register/authorship controls
 node scripts/build_claim_audit.js         # Stage 8: claim-to-source audit
 quarto render                     # rebuild the static research site
@@ -37,6 +38,7 @@ npm run validate:annotation -- doc_001
 npm run pipeline    # validate, concordance, analysis, evidence, reliability, controls, audit
 npm run variants:apparatus # rebuild the textual variant apparatus
 npm run benchmarks:registry # rebuild the external benchmark registry
+npm run reception:registry # rebuild the reception evidence registry
 npm run site        # quarto render
 ```
 
@@ -83,7 +85,7 @@ lincoln-analysis/
 │   ├── concordance.json         # Stage 5: corpus-wide index
 │   ├── evidence/                 # Stage 4A: generated evidence-chain records
 │   ├── reliability/              # Stage 4B: reliability sample and adjudication artifacts
-│   ├── metadata/                 # corpus register, textual variants, external benchmark registry
+│   ├── metadata/                 # corpus register, textual variants, external/reception registries
 │   ├── audit/                    # Stage 8: claim-to-source audit
 │   ├── lcc/                     # LCC XML dataset (gitignored, downloaded on demand)
 │   └── lcc_subset/              # parsed LCC CSV (gitignored)
@@ -111,6 +113,7 @@ lincoln-analysis/
 ├── docs/                        # developer/process docs (not rendered to site)
 │   ├── PROMPT.md                # master entry point for Claude Code
 │   ├── methodology/external-benchmarks.md # Stage 7 benchmark registry
+│   ├── methodology/reception-evidence.md # reception evidence boundary and candidates
 │   ├── methodology/textual-variant-apparatus.md # source-risk apparatus
 │   ├── DECISIONS.md             # resolved and open design decisions
 │   ├── QUARTO.md                # Quarto site configuration notes
@@ -134,6 +137,7 @@ Key public-facing guide pages:
 - `analysis_overview.md` — landing page for the Analysis section
 - `data_reproducibility.md` — data pipeline and reproducibility notes
 - `docs/methodology/external-benchmarks.md` — implemented and candidate external benchmark corpora
+- `docs/methodology/reception-evidence.md` — reception-source scope, candidate collections, and evidence rules
 - `docs/methodology/textual-variant-apparatus.md` — source-risk apparatus for risk-flagged documents
 - `annotation_schema_repair.md` — record of the Stage 4 schema drift event, repair, and new validation safeguards
 - `synthesis/final_conclusions.md` — final synthesis endpoint
@@ -164,6 +168,7 @@ Key public-facing guide pages:
 | 6 | Analysis (cluster statistics) | `analysis/` |
 | 6A | Controlled analysis outputs | `analysis/controlled-analysis.json`, `analysis/controlled_outputs.md` |
 | 7 | External benchmark registry and LCC domain coverage | `data/metadata/external-benchmark-corpora.json`, `docs/methodology/external-benchmarks.md`, `reports/stage7/` |
+| 7A | Reception evidence protocol | `data/metadata/reception-evidence-registry.json`, `docs/methodology/reception-evidence.md` |
 | 8 | Claim-to-source audit | `data/audit/claim-audit.json`, `synthesis/claim_audit.md` |
 
 ## Current Status
@@ -183,6 +188,7 @@ Key public-facing guide pages:
 | 6 | ✓ Complete | `analysis/analysis.json` — cluster_01: 34, cluster_02: 17, cluster_03: 20, cluster_04: 8, cluster_05: 35, cluster_06: 22; 144 absence flag instances; completed 2026-04-30 |
 | 6A | ✓ Complete | `analysis/controlled-analysis.json` and `analysis/controlled_outputs.md` — full corpus plus `authorship_confidence >= 0.95` views |
 | 7 | ⚙ Implemented/scaffolded | LCC `en_small` baseline supported; LCC `en_large` optional path supported; external benchmark registry documents candidate Union, Confederate, abolitionist, and presidential comparison corpora. Lincoln-only summary always available via `npm run stage7:eval`. |
+| 7A | ✓ Protocol complete | `data/metadata/reception-evidence-registry.json` and `docs/methodology/reception-evidence.md` define candidate reception sources, metadata rules, and the boundary between Lincoln textual evidence and audience reception claims. |
 | 8 | ✓ Complete | `data/audit/claim-audit.json` and `synthesis/claim_audit.md` — six major claim audit entries |
 
 The research site rebuilds automatically on every push via GitHub Actions (`quarto render`).
