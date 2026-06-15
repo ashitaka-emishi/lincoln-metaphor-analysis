@@ -4,7 +4,7 @@ draft: false
 
 # Findings
 
-*Based on 136 annotated instances across 28 documents (1838–1865), six metaphor clusters, and 144 absence flags. Findings 2 and 4 are additionally supported by Stage 7 external validation against the LCC Metaphor Dataset (8,724 general English annotations). See [LCC Benchmark Validation](../analysis/lcc_validation.md).*
+*Based on 136 annotated instances across 28 documents (1838–1865), six metaphor clusters, and 144 absence flags. Findings 2 and 4 are additionally supported by Stage 7 external validation against the LCC Metaphor Dataset (8,724 general English annotations). See [LCC Benchmark Validation](../analysis/lcc_validation.md) and [Claim-To-Source Audit](claim_audit.md).*
 
 ---
 
@@ -13,6 +13,8 @@ draft: false
 **Claim** (confirmed against corpus):
 
 Enslaved people are structurally present in Lincoln's metaphor universe — as cause of the wound, object of the proposition, subject of divine punishment, beneficiaries of the new birth — but are systematically absent from the roles the metaphors' entailments make available: healer, prover, inheritor, covenant party, agent. This absence is structural, not incidental: it is produced by the metaphor system's own logic.
+
+**Audit**: [CLAIM-001](claim_audit.md#claim-001)
 
 **Evidence**:
 - `enslaved_people_non_agent` count: **47** (32.6% of all 144 absence flags)
@@ -47,6 +49,8 @@ The systematic absence reveals the limits of Lincoln's civic framework. The meta
 **Claim** (confirmed against corpus):
 
 Lincoln's corpus contains **zero instances** of `disease_and_purification` fantasy type. No group is constructed as a pathogen that the national body must expel. This absence is the decisive structural difference from Hitler's rhetoric.
+
+**Audit**: [CLAIM-002](claim_audit.md#claim-002)
 
 **Evidence**:
 - Total `disease_and_purification` instances: **0**
@@ -84,6 +88,8 @@ Disease/purification logic (absent from Lincoln) requires the pathogen to be exp
 
 Lincoln's metaphor system undergoes a fundamental phase transition between 1863 and 1865. Cluster_05 (founding fathers as inheritance) — the largest cluster in the corpus (35 instances) — disappears entirely after the Gettysburg Address (last attestation: 1863-11-19). Cluster_06 (Providence/theodicy) grows monotonically through the war and dominates the Second Inaugural (1865). The founding-fathers frame is replaced by divine-will theodicy as the primary ground of the war's legitimacy.
 
+**Audit**: [CLAIM-003](claim_audit.md#claim-003)
+
 **Evidence**:
 - cluster_05 by year: 1838:4, 1854:5, 1858:17 (peak), 1860:4, 1861:4, 1863:1 (terminal), then 0 through 1865
 - cluster_06 by year: 1852:2, 1861:6, 1862:1, 1863:4, 1864:4, 1865:5 (growing through war)
@@ -107,6 +113,8 @@ The cluster shift is not merely rhetorical; it is theological and political. Lin
 **Claim** (confirmed from analysis data):
 
 The obligatory frame — the structural feature that makes violence feel mandatory rather than chosen — is nearly universal across Lincoln's metaphor system. Four of six clusters achieve obligatory_frame_rate of 1.000; the remaining two exceed 0.750. No cluster in the corpus has an obligatory_frame_rate below 0.750.
+
+**Audit**: [CLAIM-004](claim_audit.md#claim-004)
 
 **Evidence**:
 - cluster_02 covenant: 1.000
@@ -141,6 +149,8 @@ The universality of the obligatory frame is the most important single structural
 **Claim** (emerging from diachronic data):
 
 Of the six clusters, only two are active from first to last attestation in the corpus and are present in the Second Inaugural (1865): cluster_01 (body/organism, 1838–1865) and cluster_06 (Providence/theodicy, 1852–1865). Three clusters terminate before the Second Inaugural: cluster_03 (last attestation 1864), cluster_04 (present in Last Address but absent from Second Inaugural), cluster_05 (last attestation 1863). Cluster_02 (covenant) persists with diminishing density through 1865.
+
+**Audit**: [CLAIM-005](claim_audit.md#claim-005)
 
 **Evidence**:
 - cluster_01 in Second Inaugural: 8 instances — the single-document peak for this cluster in the entire corpus

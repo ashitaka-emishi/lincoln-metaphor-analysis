@@ -517,3 +517,55 @@ Required rules:
 - The high-confidence subset is based on document authorship confidence, not annotation confidence.
 - Register, period, and authorship-confidence controls must use the canonical manifest values carried through Stage 4A evidence records.
 - Raw frequency claims should not be treated as publication-stable unless the controlled outputs preserve the pattern or the prose names the limitation.
+
+---
+
+## Stage 8: Claim Audit JSON
+
+File: `data/audit/claim-audit.json`
+
+Generate with:
+
+```bash
+npm run audit:claims
+```
+
+Top-level shape:
+
+```json
+{
+  "version": "1.0",
+  "generated": "ISO date string",
+  "status": "complete",
+  "source": "data/evidence/annotation-evidence.json",
+  "controlled_source": "analysis/controlled-analysis.json",
+  "total_claims": 6,
+  "claims": [
+    {
+      "claim_id": "CLAIM-001",
+      "title": "Short claim title",
+      "statement": "Publication-level claim",
+      "audit_chain_format": "claim -> cluster -> CMT mapping -> lexical unit -> MIPVU decision -> instance ID -> sentence ID -> document metadata -> source text",
+      "evidence_universe": {
+        "matching_record_count": 0,
+        "matching_audit_ids": [],
+        "by_cluster": {},
+        "by_document": {},
+        "by_register": {},
+        "by_period": {},
+        "absence_flags": {}
+      },
+      "selected_records": [],
+      "controlled_reference": {}
+    }
+  ]
+}
+```
+
+The public page is generated at `synthesis/claim_audit.md`.
+
+Required rules:
+
+- Every `selected_records[].audit_id` must exist in Stage 4A.
+- Every selected record must include cluster, CMT mapping, lexical unit, sentence ID, document metadata, source URL, Koenigsberg fields, absence flags, and confidence.
+- Public synthesis pages should cite `claim_id` handles for major claims.

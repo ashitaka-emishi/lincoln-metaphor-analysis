@@ -5,7 +5,7 @@ draft: false
 
 # Final Conclusions
 
-*Based on the full 136-instance annotated corpus, six cluster profiles, the diachronic map, the systematic absence analysis, and the Koenigsberg comparison.*
+*Based on the full 136-instance annotated corpus, six cluster profiles, the diachronic map, the systematic absence analysis, the Koenigsberg comparison, and the generated [Claim-To-Source Audit](claim_audit.md).*
 
 ---
 
@@ -20,6 +20,8 @@ Two clusters dominate the war period (1861–1865) and persist to the Second Ina
 **Cluster_06 (Providence/theodicy)**: The dominant war-meaning cluster, growing monotonically from 1852 through 1865. It frames the war as God's punishment for the national sin of slavery, effaces Lincoln's personal agency (lincoln_non_agent rate highest here), and distributes guilt to both sides in the Second Inaugural. It is the cluster that makes "malice toward none" structurally possible.
 
 Together, these two clusters frame the Civil War as a wound that must be healed and a punishment that must be endured. Both have exit conditions. The war ends when the wound heals and when the punishment is complete.
+
+Audit trail: [CLAIM-005](claim_audit.md#claim-005)
 
 ### 2. How does Lincoln's metaphor system make war feel obligatory rather than chosen?
 
@@ -40,6 +42,8 @@ The mechanisms differ by cluster but converge on the same structural result:
 
 Lincoln is never *choosing* the war — he is *completing obligations* imposed by prior commitments. This universal obligatory frame is the single most important structural feature of Lincoln's violence-authorizing rhetoric. It converts political will into logical necessity across six distinct metaphor systems simultaneously.
 
+Audit trail: [CLAIM-004](claim_audit.md#claim-004)
+
 ### 3. Which agents are systematically absent from the roles the metaphors make available?
 
 Three categories of agents are structurally absent (144 total absence flags):
@@ -49,6 +53,8 @@ Three categories of agents are structurally absent (144 total absence flags):
 **Lincoln himself** (19 `lincoln_non_agent` flags): Systematically absent from agent roles in Providence and covenant instances — positioned as instrument of forces beyond his control. 63% of lincoln_non_agent flags concentrate in cluster_06. This displacement converts political decision-making into cosmic necessity while distributing responsibility to divine will.
 
 **Disease/purification logic** (56 `disease_purification_absent` flags): Not an agent but a fantasy type — structurally available throughout the corpus but never deployed against any social group. This is the absence that distinguishes Lincoln's rhetoric from genocide-authorizing political language.
+
+Audit trail: [CLAIM-001](claim_audit.md#claim-001), [CLAIM-002](claim_audit.md#claim-002)
 
 ### 4. What structural difference separates Lincoln's violence-authorizing rhetoric from purification-based political pathology?
 
@@ -61,6 +67,8 @@ Lincoln's violence-authorizing rhetoric shares structural features with Hitler's
 **Hitler's system**: disease/purification logic has no terminus — as long as any carrier of the pathogen exists, purification is incomplete
 
 "Malice toward none" is not a moral sentiment laid on top of a violent rhetoric. It is the structural consequence of a metaphor system built on reparable wounds, fulfillable oaths, provable propositions, payable debts, and finite divine punishments — none of which require permanent enemies.
+
+Audit trail: [CLAIM-006](claim_audit.md#claim-006)
 
 ---
 

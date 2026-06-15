@@ -1,0 +1,1928 @@
+{
+  "version": "1.0",
+  "generated": "2026-06-15",
+  "status": "complete",
+  "source": "data/evidence/annotation-evidence.json",
+  "controlled_source": "analysis/controlled-analysis.json",
+  "total_claims": 6,
+  "claims": [
+    {
+      "claim_id": "CLAIM-001",
+      "title": "Enslaved people and Black soldiers are structurally present but usually absent as agents",
+      "statement": "Lincoln repeatedly makes enslaved and freed Black Americans structurally necessary to the target domain while withholding the agentive roles created by the metaphor entailments.",
+      "audit_chain_format": "claim -> cluster -> CMT mapping -> lexical unit -> MIPVU decision -> instance ID -> sentence ID -> document metadata -> source text",
+      "evidence_universe": {
+        "matching_record_count": 49,
+        "matching_audit_ids": [
+          "inst_00110",
+          "inst_00114",
+          "inst_00120",
+          "inst_00121",
+          "inst_00122",
+          "inst_00123",
+          "inst_00125",
+          "inst_00126",
+          "inst_00127",
+          "inst_00128",
+          "inst_00133",
+          "inst_00134",
+          "inst_00135",
+          "inst_00136",
+          "inst_00037",
+          "inst_00038",
+          "inst_00039",
+          "inst_00040",
+          "inst_00041",
+          "inst_00042",
+          "inst_00027",
+          "inst_00028",
+          "inst_00052",
+          "inst_00053",
+          "inst_00054",
+          "inst_00001",
+          "inst_00002",
+          "inst_00003",
+          "inst_00004",
+          "inst_00006",
+          "inst_00008",
+          "inst_00009",
+          "inst_00010",
+          "inst_00011",
+          "inst_00012",
+          "inst_00013",
+          "inst_00029",
+          "inst_00030",
+          "inst_00031",
+          "inst_00032",
+          "inst_00033",
+          "inst_00036",
+          "inst_00018",
+          "inst_00020",
+          "inst_00021",
+          "inst_00022",
+          "inst_00024",
+          "inst_00025",
+          "inst_00026"
+        ],
+        "by_cluster": {
+          "cluster_05_fathers_inheritance": 16,
+          "cluster_02_covenant_oath": 11,
+          "cluster_01_body_organism": 10,
+          "cluster_06_providence_theodicy": 6,
+          "cluster_03_experiment_proposition": 4,
+          "cluster_04_birth_creation": 2
+        },
+        "by_document": {
+          "doc_017": 11,
+          "doc_021": 7,
+          "doc_011": 6,
+          "doc_019": 5,
+          "doc_006c": 4,
+          "doc_006f": 4,
+          "doc_006g": 4,
+          "doc_012": 2,
+          "doc_013": 2,
+          "doc_004": 1,
+          "doc_006a": 1,
+          "doc_015": 1,
+          "doc_018": 1
+        },
+        "by_register": {
+          "formal_public_address": 18,
+          "campaign_speech": 14,
+          "fragment_private": 7,
+          "semi_public_letter": 7,
+          "legal_document": 3
+        },
+        "by_period": {
+          "phase_4_transformation": 16,
+          "phase_2_argument": 14,
+          "phase_5_theodicy": 13,
+          "phase_3_obligation": 6
+        },
+        "absence_flags": {
+          "enslaved_people_non_agent": 47,
+          "black_soldiers_erased": 8,
+          "death_abstracted": 7,
+          "lincoln_non_agent": 7,
+          "confederates_depersonalized": 3,
+          "women_absent": 1
+        }
+      },
+      "selected_records": [
+        {
+          "audit_id": "inst_00003",
+          "cluster_id": "cluster_03_experiment_proposition",
+          "cmt_mapping": "logical_proposition -> founding_commitment_to_equality",
+          "lexical_unit": "dedicated to the proposition that all men are created equal",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p01_s01",
+          "sentence_text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "experiment_and_proof",
+            "violence_logic": "evidentiary",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.97
+        },
+        {
+          "audit_id": "inst_00004",
+          "cluster_id": "cluster_03_experiment_proposition",
+          "cmt_mapping": "scientific_empirical_test -> democratic_self_government_under_pressure",
+          "lexical_unit": "testing whether that nation, or any nation so conceived and so dedicated, can long endure",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p02_s01",
+          "sentence_text": "Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "experiment_and_proof",
+            "violence_logic": "evidentiary",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent",
+              "confederates_depersonalized",
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00011",
+          "cluster_id": "cluster_03_experiment_proposition",
+          "cmt_mapping": "logical_proof_and_evidence -> soldier_deaths_as_evidence_for_democracy",
+          "lexical_unit": "these dead shall not have died in vain",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p03_s05",
+          "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "experiment_and_proof",
+            "violence_logic": "evidentiary",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "death_abstracted",
+              "enslaved_people_non_agent",
+              "black_soldiers_erased"
+            ]
+          },
+          "confidence": 0.98
+        },
+        {
+          "audit_id": "inst_00012",
+          "cluster_id": "cluster_04_birth_creation",
+          "cmt_mapping": "birth_generation -> post_war_freedom_and_national_renewal",
+          "lexical_unit": "a new birth of freedom",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p03_s05",
+          "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "birth_and_creation",
+            "violence_logic": "generative",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent",
+              "black_soldiers_erased",
+              "death_abstracted",
+              "women_absent"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00024",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "blood_as_economic_currency -> the_providential_equivalence_of_slavery_violence_and_war_violence",
+          "lexical_unit": "every drop of blood drawn with the lash shall be paid by another drawn with the sword",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s14",
+          "sentence_text": "Yet, if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk, and until every drop of blood drawn with the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said \"the judgments of the Lord are true and righteous altogether.\"",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent",
+              "black_soldiers_erased",
+              "death_abstracted"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00026",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "wound_dressing_and_healing -> national_reconciliation_after_war",
+          "lexical_unit": "bind up the nation's wounds",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p05_s01",
+          "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "wound_and_healing",
+            "violence_logic": "restorative",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent",
+              "black_soldiers_erased"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00059",
+          "cluster_id": "cluster_03_experiment_proposition",
+          "cmt_mapping": {
+            "proved": "the war functions as empirical demonstration — not just military victory but logical proof",
+            "no successful appeal from the ballot to the bullet": "the proposition: democratic decision cannot be overturned by armed force",
+            "free men": "the experimental subjects — the proposition is about what is possible 'among free men'"
+          },
+          "lexical_unit": "will then have been proved that, among free men, there can be no successful appeal from the ballot to the bullet",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_016_s01_p15_s03",
+          "sentence_text": "It will then have been proved that, among free men, there can be no successful appeal from the ballot to the bullet; and that they who take such appeal are sure to lose their case, and pay the cost.",
+          "document": {
+            "id": "doc_016",
+            "short_title": "Conkling Letter",
+            "date": "1863-08-26",
+            "period": "phase_4_transformation",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.6 pp.406-410",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln6/1:284"
+          },
+          "koenigsberg": {
+            "fantasy_type": "experiment_and_proof",
+            "violence_logic": "demonstrative",
+            "obligatory_frame": true,
+            "absence_flags": []
+          },
+          "confidence": 0.88
+        }
+      ],
+      "controlled_note": "The full matching universe is absence-flag based. Conkling Letter inst_00059 is included as a limiting case because it partially acknowledges Black soldiers in a semi-public register.",
+      "controlled_reference": {
+        "file": "analysis/controlled-analysis.json",
+        "full_corpus_records": 136,
+        "high_authorship_confidence_records": 73
+      }
+    },
+    {
+      "claim_id": "CLAIM-002",
+      "title": "Disease-and-purification logic is structurally absent from Lincoln",
+      "statement": "Lincoln uses body, wound, cancer, providence, and sacrificial language, but the corpus has no instance in which a social group becomes a pathogen requiring purifying elimination.",
+      "audit_chain_format": "claim -> cluster -> CMT mapping -> lexical unit -> MIPVU decision -> instance ID -> sentence ID -> document metadata -> source text",
+      "evidence_universe": {
+        "matching_record_count": 56,
+        "matching_audit_ids": [
+          "inst_00078",
+          "inst_00079",
+          "inst_00080",
+          "inst_00081",
+          "inst_00082",
+          "inst_00083",
+          "inst_00084",
+          "inst_00085",
+          "inst_00098",
+          "inst_00099",
+          "inst_00100",
+          "inst_00101",
+          "inst_00102",
+          "inst_00103",
+          "inst_00104",
+          "inst_00105",
+          "inst_00106",
+          "inst_00107",
+          "inst_00108",
+          "inst_00109",
+          "inst_00111",
+          "inst_00112",
+          "inst_00065",
+          "inst_00066",
+          "inst_00067",
+          "inst_00113",
+          "inst_00117",
+          "inst_00118",
+          "inst_00119",
+          "inst_00124",
+          "inst_00129",
+          "inst_00130",
+          "inst_00131",
+          "inst_00132",
+          "inst_00068",
+          "inst_00069",
+          "inst_00070",
+          "inst_00071",
+          "inst_00072",
+          "inst_00073",
+          "inst_00074",
+          "inst_00075",
+          "inst_00076",
+          "inst_00077",
+          "inst_00087",
+          "inst_00086",
+          "inst_00088",
+          "inst_00089",
+          "inst_00090",
+          "inst_00091",
+          "inst_00092",
+          "inst_00093",
+          "inst_00094",
+          "inst_00095",
+          "inst_00096",
+          "inst_00097"
+        ],
+        "by_cluster": {
+          "cluster_05_fathers_inheritance": 16,
+          "cluster_01_body_organism": 15,
+          "cluster_03_experiment_proposition": 12,
+          "cluster_06_providence_theodicy": 6,
+          "cluster_02_covenant_oath": 4,
+          "cluster_04_birth_creation": 3
+        },
+        "by_document": {
+          "doc_010": 9,
+          "doc_001": 8,
+          "doc_004": 6,
+          "doc_009": 6,
+          "doc_002": 4,
+          "doc_003": 4,
+          "doc_006g": 4,
+          "doc_007": 4,
+          "doc_005": 3,
+          "doc_014": 3,
+          "doc_006c": 2,
+          "doc_006a": 1,
+          "doc_006b": 1,
+          "doc_006e": 1
+        },
+        "by_register": {
+          "formal_public_address": 29,
+          "campaign_speech": 15,
+          "congressional_message": 12
+        },
+        "by_period": {
+          "phase_2_argument": 22,
+          "phase_1_baseline": 16,
+          "phase_3_obligation": 15,
+          "phase_4_transformation": 3
+        },
+        "absence_flags": {
+          "disease_purification_absent": 56
+        }
+      },
+      "selected_records": [
+        {
+          "audit_id": "inst_00108",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "the constitution = an afflicted body; slavery = cancer/wen hidden within it; the founders = an afflicted man who defers surgery because immediate cutting would cause fatal bleeding; the deferred cutting = the promise that slavery would eventually be removed",
+          "lexical_unit": "an afflicted man hides away a wen or a cancer, which he dares not cut out at once, lest he bleed to death",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_004_s02_p116_s11",
+          "sentence_text": "Thus, the thing is hid away, in the constitution, just as an afflicted man hides away a wen or a cancer, which he dares not cut out at once, lest he bleed to death; with the promise, nevertheless, that the cutting may begin at the end of a given time.",
+          "document": {
+            "id": "doc_004",
+            "short_title": "Peoria Speech",
+            "date": "1854-10-16",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.91,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.2 pp.247-283",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln2/1:199"
+          },
+          "koenigsberg": {
+            "fantasy_type": "wound_and_healing",
+            "violence_logic": "the body-politic cannot survive immediate removal of the disease — the surgery must be deferred; this converts the founders' compromise into medical necessity, not moral weakness; the Kansas-Nebraska Act repudiates the deferred cure",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "disease_purification_absent"
+            ]
+          },
+          "confidence": 0.9
+        },
+        {
+          "audit_id": "inst_00132",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "slavery = a cancer/wen on the body; the person (nation) cannot always cut it out immediately; but spreading the cancer over the whole body (expanding slavery to all territories) is not a cure — it is a deliberate worsening of the disease",
+          "lexical_unit": "a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_006g_s02_p56_s07",
+          "sentence_text": "You may have a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body.",
+          "document": {
+            "id": "doc_006g",
+            "short_title": "L-D Debate 7 Alton",
+            "date": "1858-10-15",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.83,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.283-325",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:7"
+          },
+          "koenigsberg": {
+            "fantasy_type": "wound_and_healing",
+            "violence_logic": "spreading the disease (slavery expansion) is not a cure but a worsening of the wound; the body cannot survive the cancer spread to the whole body",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "disease_purification_absent"
+            ]
+          },
+          "confidence": 0.92
+        },
+        {
+          "audit_id": "inst_00004",
+          "cluster_id": "cluster_03_experiment_proposition",
+          "cmt_mapping": "scientific_empirical_test -> democratic_self_government_under_pressure",
+          "lexical_unit": "testing whether that nation, or any nation so conceived and so dedicated, can long endure",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p02_s01",
+          "sentence_text": "Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "experiment_and_proof",
+            "violence_logic": "evidentiary",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent",
+              "confederates_depersonalized",
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00022",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": "divine_punishment_distribution -> the_war_as_Gods_judgment_on_both_sides",
+          "lexical_unit": "He gives to both North and South this terrible war as the woe due to those by whom the offense came",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s12",
+          "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00026",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "wound_dressing_and_healing -> national_reconciliation_after_war",
+          "lexical_unit": "bind up the nation's wounds",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p05_s01",
+          "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "wound_and_healing",
+            "violence_logic": "restorative",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent",
+              "black_soldiers_erased"
+            ]
+          },
+          "confidence": 0.99
+        }
+      ],
+      "controlled_note": "The selected records show both direct disease-language tests and later high-stakes war-meaning contexts where purification logic remains absent.",
+      "controlled_reference": {
+        "file": "analysis/controlled-analysis.json",
+        "full_corpus_records": 136,
+        "high_authorship_confidence_records": 73
+      }
+    },
+    {
+      "claim_id": "CLAIM-003",
+      "title": "The founding-fathers frame terminates as providence becomes the late-war warrant",
+      "statement": "Cluster 05 supplies the anti-extension inheritance argument, reaches its final attestation at Gettysburg, and is replaced in the late war by providence/theodicy as the ground of meaning.",
+      "audit_chain_format": "claim -> cluster -> CMT mapping -> lexical unit -> MIPVU decision -> instance ID -> sentence ID -> document metadata -> source text",
+      "evidence_universe": {
+        "matching_record_count": 57,
+        "matching_audit_ids": [
+          "inst_00078",
+          "inst_00079",
+          "inst_00081",
+          "inst_00085",
+          "inst_00104",
+          "inst_00105",
+          "inst_00106",
+          "inst_00107",
+          "inst_00109",
+          "inst_00110",
+          "inst_00112",
+          "inst_00113",
+          "inst_00114",
+          "inst_00115",
+          "inst_00116",
+          "inst_00120",
+          "inst_00121",
+          "inst_00122",
+          "inst_00123",
+          "inst_00124",
+          "inst_00125",
+          "inst_00126",
+          "inst_00127",
+          "inst_00128",
+          "inst_00133",
+          "inst_00134",
+          "inst_00135",
+          "inst_00136",
+          "inst_00068",
+          "inst_00069",
+          "inst_00070",
+          "inst_00071",
+          "inst_00043",
+          "inst_00044",
+          "inst_00045",
+          "inst_00046",
+          "inst_00073",
+          "inst_00074",
+          "inst_00088",
+          "inst_00089",
+          "inst_00094",
+          "inst_00037",
+          "inst_00097",
+          "inst_00054",
+          "inst_00060",
+          "inst_00001",
+          "inst_00007",
+          "inst_00008",
+          "inst_00034",
+          "inst_00035",
+          "inst_00036",
+          "inst_00051",
+          "inst_00020",
+          "inst_00021",
+          "inst_00022",
+          "inst_00023",
+          "inst_00061"
+        ],
+        "by_cluster": {
+          "cluster_05_fathers_inheritance": 35,
+          "cluster_06_providence_theodicy": 22
+        },
+        "by_document": {
+          "doc_004": 5,
+          "doc_001": 4,
+          "doc_006a": 4,
+          "doc_006c": 4,
+          "doc_006f": 4,
+          "doc_006g": 4,
+          "doc_007": 4,
+          "doc_008": 4,
+          "doc_021": 4,
+          "doc_010": 3,
+          "doc_017": 3,
+          "doc_019": 3,
+          "doc_003": 2,
+          "doc_009": 2,
+          "doc_006e": 1,
+          "doc_011": 1,
+          "doc_014": 1,
+          "doc_015": 1,
+          "doc_016": 1,
+          "doc_020": 1,
+          "doc_022": 1
+        },
+        "by_register": {
+          "formal_public_address": 24,
+          "campaign_speech": 23,
+          "congressional_message": 4,
+          "semi_public_letter": 4,
+          "fragment_private": 1,
+          "legal_document": 1
+        },
+        "by_period": {
+          "phase_2_argument": 26,
+          "phase_3_obligation": 10,
+          "phase_5_theodicy": 9,
+          "phase_1_baseline": 6,
+          "phase_4_transformation": 6
+        },
+        "absence_flags": {
+          "disease_purification_absent": 22,
+          "enslaved_people_non_agent": 21,
+          "lincoln_non_agent": 12,
+          "black_soldiers_erased": 2,
+          "death_abstracted": 2,
+          "confederates_depersonalized": 1
+        }
+      },
+      "selected_records": [
+        {
+          "audit_id": "inst_00001",
+          "cluster_id": "cluster_05_fathers_inheritance",
+          "cmt_mapping": "paternal_lineage -> founding_generation",
+          "lexical_unit": "our fathers",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p01_s01",
+          "sentence_text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "ancestral_debt",
+            "violence_logic": "obligatory",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.97
+        },
+        {
+          "audit_id": "inst_00020",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": "divine_intentionality -> the_wars_ultimate_cause_and_meaning",
+          "lexical_unit": "The Almighty has His own purposes",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s12",
+          "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent",
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.98
+        },
+        {
+          "audit_id": "inst_00021",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": "divine_temporal_administration -> slavery_as_providential_offense_with_appointed_end",
+          "lexical_unit": "in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s12",
+          "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent",
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.98
+        },
+        {
+          "audit_id": "inst_00022",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": "divine_punishment_distribution -> the_war_as_Gods_judgment_on_both_sides",
+          "lexical_unit": "He gives to both North and South this terrible war as the woe due to those by whom the offense came",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s12",
+          "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00034",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": {
+            "events": "the providential force directing history",
+            "controlled me": "Lincoln as passive instrument rather than active agent",
+            "claim not to have controlled events": "explicit denial of autonomous agency"
+          },
+          "lexical_unit": "events have controlled me",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_019_s01_p08_s03",
+          "sentence_text": "I claim not to have controlled events, but confess plainly that events have controlled me.",
+          "document": {
+            "id": "doc_019",
+            "short_title": "Hodges Letter",
+            "date": "1864-04-04",
+            "period": "phase_5_theodicy",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.281-283",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:189"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "obligatory",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent"
+            ]
+          },
+          "confidence": 0.85
+        },
+        {
+          "audit_id": "inst_00060",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": {
+            "a just God": "God as righteous judge — justice is built into the divine nature",
+            "in his own good time": "God manages historical timing — the result comes when divinely appointed, not when humanly desired",
+            "will give us the rightful result": "Providence dispenses outcomes — the Union's cause is righteous and will receive its rightful verdict"
+          },
+          "lexical_unit": "a just God, in his own good time, will give us the rightful result",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_016_s01_p16_s03",
+          "sentence_text": "Let us diligently apply the means, never doubting that a just God, in his own good time, will give us the rightful result.",
+          "document": {
+            "id": "doc_016",
+            "short_title": "Conkling Letter",
+            "date": "1863-08-26",
+            "period": "phase_4_transformation",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.6 pp.406-410",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln6/1:284"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "divinely_guaranteed",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent"
+            ]
+          },
+          "confidence": 0.88
+        }
+      ],
+      "controlled_note": "The full universe combines all cluster_05 and cluster_06 records; the selected records focus on the Gettysburg hinge, Hodges Letter, Conkling Letter, and Second Inaugural.",
+      "controlled_reference": {
+        "file": "analysis/controlled-analysis.json",
+        "full_corpus_records": 136,
+        "high_authorship_confidence_records": 73
+      }
+    },
+    {
+      "claim_id": "CLAIM-004",
+      "title": "The obligatory frame makes violence feel required rather than chosen",
+      "statement": "Across clusters, metaphor entailments convert war from policy choice into obligation: wounds demand healing, oaths demand fulfillment, experiments demand completion, debts demand payment, and Providence demands submission.",
+      "audit_chain_format": "claim -> cluster -> CMT mapping -> lexical unit -> MIPVU decision -> instance ID -> sentence ID -> document metadata -> source text",
+      "evidence_universe": {
+        "matching_record_count": 128,
+        "matching_audit_ids": [
+          "inst_00078",
+          "inst_00079",
+          "inst_00080",
+          "inst_00081",
+          "inst_00082",
+          "inst_00083",
+          "inst_00084",
+          "inst_00085",
+          "inst_00098",
+          "inst_00099",
+          "inst_00100",
+          "inst_00101",
+          "inst_00102",
+          "inst_00103",
+          "inst_00104",
+          "inst_00105",
+          "inst_00106",
+          "inst_00107",
+          "inst_00108",
+          "inst_00109",
+          "inst_00110",
+          "inst_00111",
+          "inst_00112",
+          "inst_00065",
+          "inst_00066",
+          "inst_00067",
+          "inst_00113",
+          "inst_00114",
+          "inst_00115",
+          "inst_00116",
+          "inst_00117",
+          "inst_00120",
+          "inst_00121",
+          "inst_00122",
+          "inst_00123",
+          "inst_00118",
+          "inst_00119",
+          "inst_00124",
+          "inst_00125",
+          "inst_00126",
+          "inst_00127",
+          "inst_00128",
+          "inst_00129",
+          "inst_00130",
+          "inst_00131",
+          "inst_00133",
+          "inst_00134",
+          "inst_00135",
+          "inst_00136",
+          "inst_00132",
+          "inst_00068",
+          "inst_00069",
+          "inst_00070",
+          "inst_00071",
+          "inst_00043",
+          "inst_00044",
+          "inst_00045",
+          "inst_00046",
+          "inst_00072",
+          "inst_00073",
+          "inst_00074",
+          "inst_00075",
+          "inst_00076",
+          "inst_00077",
+          "inst_00087",
+          "inst_00086",
+          "inst_00088",
+          "inst_00089",
+          "inst_00090",
+          "inst_00091",
+          "inst_00092",
+          "inst_00093",
+          "inst_00094",
+          "inst_00037",
+          "inst_00038",
+          "inst_00039",
+          "inst_00040",
+          "inst_00041",
+          "inst_00042",
+          "inst_00027",
+          "inst_00028",
+          "inst_00052",
+          "inst_00053",
+          "inst_00095",
+          "inst_00096",
+          "inst_00097",
+          "inst_00054",
+          "inst_00055",
+          "inst_00056",
+          "inst_00057",
+          "inst_00058",
+          "inst_00059",
+          "inst_00060",
+          "inst_00001",
+          "inst_00003",
+          "inst_00004",
+          "inst_00009",
+          "inst_00010",
+          "inst_00011",
+          "inst_00012",
+          "inst_00013",
+          "inst_00029",
+          "inst_00030",
+          "inst_00031",
+          "inst_00032",
+          "inst_00033",
+          "inst_00034",
+          "inst_00035",
+          "inst_00036",
+          "inst_00047",
+          "inst_00048",
+          "inst_00049",
+          "inst_00050",
+          "inst_00051",
+          "inst_00016",
+          "inst_00017",
+          "inst_00018",
+          "inst_00020",
+          "inst_00021",
+          "inst_00022",
+          "inst_00023",
+          "inst_00024",
+          "inst_00025",
+          "inst_00026",
+          "inst_00061",
+          "inst_00062",
+          "inst_00063",
+          "inst_00064"
+        ],
+        "by_cluster": {
+          "cluster_05_fathers_inheritance": 35,
+          "cluster_01_body_organism": 30,
+          "cluster_03_experiment_proposition": 20,
+          "cluster_06_providence_theodicy": 20,
+          "cluster_02_covenant_oath": 17,
+          "cluster_04_birth_creation": 6
+        },
+        "by_document": {
+          "doc_021": 10,
+          "doc_010": 9,
+          "doc_001": 8,
+          "doc_006g": 8,
+          "doc_017": 8,
+          "doc_004": 7,
+          "doc_019": 7,
+          "doc_006c": 6,
+          "doc_009": 6,
+          "doc_011": 6,
+          "doc_016": 6,
+          "doc_020": 5,
+          "doc_002": 4,
+          "doc_003": 4,
+          "doc_006a": 4,
+          "doc_006f": 4,
+          "doc_007": 4,
+          "doc_008": 4,
+          "doc_022": 4,
+          "doc_005": 3,
+          "doc_014": 3,
+          "doc_012": 2,
+          "doc_013": 2,
+          "doc_006b": 1,
+          "doc_006e": 1,
+          "doc_015": 1,
+          "doc_018": 1
+        },
+        "by_register": {
+          "formal_public_address": 55,
+          "campaign_speech": 36,
+          "semi_public_letter": 15,
+          "congressional_message": 12,
+          "fragment_private": 7,
+          "legal_document": 3
+        },
+        "by_period": {
+          "phase_2_argument": 38,
+          "phase_5_theodicy": 27,
+          "phase_3_obligation": 25,
+          "phase_4_transformation": 22,
+          "phase_1_baseline": 16
+        },
+        "absence_flags": {
+          "disease_purification_absent": 56,
+          "enslaved_people_non_agent": 45,
+          "lincoln_non_agent": 17,
+          "black_soldiers_erased": 6,
+          "death_abstracted": 5,
+          "confederates_depersonalized": 4,
+          "women_absent": 1
+        }
+      },
+      "selected_records": [
+        {
+          "audit_id": "inst_00004",
+          "cluster_id": "cluster_03_experiment_proposition",
+          "cmt_mapping": "scientific_empirical_test -> democratic_self_government_under_pressure",
+          "lexical_unit": "testing whether that nation, or any nation so conceived and so dedicated, can long endure",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p02_s01",
+          "sentence_text": "Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "experiment_and_proof",
+            "violence_logic": "evidentiary",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent",
+              "confederates_depersonalized",
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00025",
+          "cluster_id": "cluster_02_covenant_oath",
+          "cmt_mapping": "votive_labor_completion -> obligation_to_conclude_the_war_and_its_purposes",
+          "lexical_unit": "finish the work we are in",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p05_s01",
+          "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "oath_and_obligation",
+            "violence_logic": "obligatory",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.93
+        },
+        {
+          "audit_id": "inst_00078",
+          "cluster_id": "cluster_05_fathers_inheritance",
+          "cmt_mapping": {
+            "the legal inheritors": "the present generation as heirs — with 'legal' specifying that the inheritance is a matter of right, not gift",
+            "these fundamental blessings": "the political institutions and freedoms that constitute the inheritance — blessings frames them as valuable gifts",
+            "found ourselves": "the discovery that one is already in possession of an inheritance — the current generation did not earn it but simply arrived into it"
+          },
+          "lexical_unit": "the legal inheritors of these fundamental blessings",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_001_s01_p02_s03",
+          "sentence_text": "We, when mounting the stage of existence, found ourselves the legal inheritors of these fundamental blessings.",
+          "document": {
+            "id": "doc_001",
+            "short_title": "Lyceum Address",
+            "date": "1838-01-27",
+            "period": "phase_1_baseline",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.98,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.1 pp.108-115",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:144"
+          },
+          "koenigsberg": {
+            "fantasy_type": "ancestral_debt",
+            "violence_logic": "inherited_obligation",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "disease_purification_absent"
+            ]
+          },
+          "confidence": 0.88
+        },
+        {
+          "audit_id": "inst_00132",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "slavery = a cancer/wen on the body; the person (nation) cannot always cut it out immediately; but spreading the cancer over the whole body (expanding slavery to all territories) is not a cure — it is a deliberate worsening of the disease",
+          "lexical_unit": "a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_006g_s02_p56_s07",
+          "sentence_text": "You may have a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body.",
+          "document": {
+            "id": "doc_006g",
+            "short_title": "L-D Debate 7 Alton",
+            "date": "1858-10-15",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.83,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.283-325",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:7"
+          },
+          "koenigsberg": {
+            "fantasy_type": "wound_and_healing",
+            "violence_logic": "spreading the disease (slavery expansion) is not a cure but a worsening of the wound; the body cannot survive the cancer spread to the whole body",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "disease_purification_absent"
+            ]
+          },
+          "confidence": 0.92
+        },
+        {
+          "audit_id": "inst_00020",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": "divine_intentionality -> the_wars_ultimate_cause_and_meaning",
+          "lexical_unit": "The Almighty has His own purposes",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s12",
+          "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent",
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.98
+        },
+        {
+          "audit_id": "inst_00060",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": {
+            "a just God": "God as righteous judge — justice is built into the divine nature",
+            "in his own good time": "God manages historical timing — the result comes when divinely appointed, not when humanly desired",
+            "will give us the rightful result": "Providence dispenses outcomes — the Union's cause is righteous and will receive its rightful verdict"
+          },
+          "lexical_unit": "a just God, in his own good time, will give us the rightful result",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_016_s01_p16_s03",
+          "sentence_text": "Let us diligently apply the means, never doubting that a just God, in his own good time, will give us the rightful result.",
+          "document": {
+            "id": "doc_016",
+            "short_title": "Conkling Letter",
+            "date": "1863-08-26",
+            "period": "phase_4_transformation",
+            "register": "semi_public_letter",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.6 pp.406-410",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln6/1:284"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "divinely_guaranteed",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent"
+            ]
+          },
+          "confidence": 0.88
+        }
+      ],
+      "controlled_note": "The matching universe is every Stage 4A record with obligatory_frame true; selected rows show the mechanism across multiple clusters.",
+      "controlled_reference": {
+        "file": "analysis/controlled-analysis.json",
+        "full_corpus_records": 136,
+        "high_authorship_confidence_records": 73
+      }
+    },
+    {
+      "claim_id": "CLAIM-005",
+      "title": "The Second Inaugural condenses wound, oath, and providence into reconciliation logic",
+      "statement": "The Second Inaugural strips the metaphor system to national body, oath/work, and divine punishment; those frames authorize continued violence while preserving an exit through healing and completed punishment.",
+      "audit_chain_format": "claim -> cluster -> CMT mapping -> lexical unit -> MIPVU decision -> instance ID -> sentence ID -> document metadata -> source text",
+      "evidence_universe": {
+        "matching_record_count": 13,
+        "matching_audit_ids": [
+          "inst_00014",
+          "inst_00015",
+          "inst_00016",
+          "inst_00017",
+          "inst_00018",
+          "inst_00019",
+          "inst_00020",
+          "inst_00021",
+          "inst_00022",
+          "inst_00023",
+          "inst_00024",
+          "inst_00025",
+          "inst_00026"
+        ],
+        "by_cluster": {
+          "cluster_01_body_organism": 8,
+          "cluster_06_providence_theodicy": 4,
+          "cluster_02_covenant_oath": 1
+        },
+        "by_document": {
+          "doc_021": 13
+        },
+        "by_register": {
+          "formal_public_address": 13
+        },
+        "by_period": {
+          "phase_5_theodicy": 13
+        },
+        "absence_flags": {
+          "enslaved_people_non_agent": 7,
+          "lincoln_non_agent": 6,
+          "black_soldiers_erased": 2,
+          "confederates_depersonalized": 2,
+          "death_abstracted": 1
+        }
+      },
+      "selected_records": [
+        {
+          "audit_id": "inst_00016",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "organic_survival -> national_political_continuity",
+          "lexical_unit": "let the nation survive",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p03_s04",
+          "sentence_text": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish, and the war came.",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "wound_and_healing",
+            "violence_logic": "restorative",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent"
+            ]
+          },
+          "confidence": 0.95
+        },
+        {
+          "audit_id": "inst_00020",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": "divine_intentionality -> the_wars_ultimate_cause_and_meaning",
+          "lexical_unit": "The Almighty has His own purposes",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s12",
+          "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent",
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.98
+        },
+        {
+          "audit_id": "inst_00021",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": "divine_temporal_administration -> slavery_as_providential_offense_with_appointed_end",
+          "lexical_unit": "in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s12",
+          "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent",
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.98
+        },
+        {
+          "audit_id": "inst_00022",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": "divine_punishment_distribution -> the_war_as_Gods_judgment_on_both_sides",
+          "lexical_unit": "He gives to both North and South this terrible war as the woe due to those by whom the offense came",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s12",
+          "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00025",
+          "cluster_id": "cluster_02_covenant_oath",
+          "cmt_mapping": "votive_labor_completion -> obligation_to_conclude_the_war_and_its_purposes",
+          "lexical_unit": "finish the work we are in",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p05_s01",
+          "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "oath_and_obligation",
+            "violence_logic": "obligatory",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.93
+        },
+        {
+          "audit_id": "inst_00026",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "wound_dressing_and_healing -> national_reconciliation_after_war",
+          "lexical_unit": "bind up the nation's wounds",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p05_s01",
+          "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "wound_and_healing",
+            "violence_logic": "restorative",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent",
+              "black_soldiers_erased"
+            ]
+          },
+          "confidence": 0.99
+        }
+      ],
+      "controlled_note": "The full universe is all Second Inaugural Stage 4A records. The selected rows emphasize the address's core body/providence/oath chain.",
+      "controlled_reference": {
+        "file": "analysis/controlled-analysis.json",
+        "full_corpus_records": 136,
+        "high_authorship_confidence_records": 73
+      }
+    },
+    {
+      "claim_id": "CLAIM-006",
+      "title": "Lincoln differs from purification-based political pathology by preserving exit conditions",
+      "statement": "Lincoln shares body projection, sacrifice, obligation, and ancestral debt with dangerous political rhetoric, but his fantasy types terminate: wounds heal, oaths are fulfilled, propositions are proven, debts are paid, and divine punishment ends.",
+      "audit_chain_format": "claim -> cluster -> CMT mapping -> lexical unit -> MIPVU decision -> instance ID -> sentence ID -> document metadata -> source text",
+      "evidence_universe": {
+        "matching_record_count": 136,
+        "matching_audit_ids": [
+          "inst_00078",
+          "inst_00079",
+          "inst_00080",
+          "inst_00081",
+          "inst_00082",
+          "inst_00083",
+          "inst_00084",
+          "inst_00085",
+          "inst_00098",
+          "inst_00099",
+          "inst_00100",
+          "inst_00101",
+          "inst_00102",
+          "inst_00103",
+          "inst_00104",
+          "inst_00105",
+          "inst_00106",
+          "inst_00107",
+          "inst_00108",
+          "inst_00109",
+          "inst_00110",
+          "inst_00111",
+          "inst_00112",
+          "inst_00065",
+          "inst_00066",
+          "inst_00067",
+          "inst_00113",
+          "inst_00114",
+          "inst_00115",
+          "inst_00116",
+          "inst_00117",
+          "inst_00120",
+          "inst_00121",
+          "inst_00122",
+          "inst_00123",
+          "inst_00118",
+          "inst_00119",
+          "inst_00124",
+          "inst_00125",
+          "inst_00126",
+          "inst_00127",
+          "inst_00128",
+          "inst_00129",
+          "inst_00130",
+          "inst_00131",
+          "inst_00133",
+          "inst_00134",
+          "inst_00135",
+          "inst_00136",
+          "inst_00132",
+          "inst_00068",
+          "inst_00069",
+          "inst_00070",
+          "inst_00071",
+          "inst_00043",
+          "inst_00044",
+          "inst_00045",
+          "inst_00046",
+          "inst_00072",
+          "inst_00073",
+          "inst_00074",
+          "inst_00075",
+          "inst_00076",
+          "inst_00077",
+          "inst_00087",
+          "inst_00086",
+          "inst_00088",
+          "inst_00089",
+          "inst_00090",
+          "inst_00091",
+          "inst_00092",
+          "inst_00093",
+          "inst_00094",
+          "inst_00037",
+          "inst_00038",
+          "inst_00039",
+          "inst_00040",
+          "inst_00041",
+          "inst_00042",
+          "inst_00027",
+          "inst_00028",
+          "inst_00052",
+          "inst_00053",
+          "inst_00095",
+          "inst_00096",
+          "inst_00097",
+          "inst_00054",
+          "inst_00055",
+          "inst_00056",
+          "inst_00057",
+          "inst_00058",
+          "inst_00059",
+          "inst_00060",
+          "inst_00001",
+          "inst_00002",
+          "inst_00003",
+          "inst_00004",
+          "inst_00005",
+          "inst_00006",
+          "inst_00007",
+          "inst_00008",
+          "inst_00009",
+          "inst_00010",
+          "inst_00011",
+          "inst_00012",
+          "inst_00013",
+          "inst_00029",
+          "inst_00030",
+          "inst_00031",
+          "inst_00032",
+          "inst_00033",
+          "inst_00034",
+          "inst_00035",
+          "inst_00036",
+          "inst_00047",
+          "inst_00048",
+          "inst_00049",
+          "inst_00050",
+          "inst_00051",
+          "inst_00014",
+          "inst_00015",
+          "inst_00016",
+          "inst_00017",
+          "inst_00018",
+          "inst_00019",
+          "inst_00020",
+          "inst_00021",
+          "inst_00022",
+          "inst_00023",
+          "inst_00024",
+          "inst_00025",
+          "inst_00026",
+          "inst_00061",
+          "inst_00062",
+          "inst_00063",
+          "inst_00064"
+        ],
+        "by_cluster": {
+          "cluster_05_fathers_inheritance": 35,
+          "cluster_01_body_organism": 34,
+          "cluster_06_providence_theodicy": 22,
+          "cluster_03_experiment_proposition": 20,
+          "cluster_02_covenant_oath": 17,
+          "cluster_04_birth_creation": 8
+        },
+        "by_document": {
+          "doc_017": 13,
+          "doc_021": 13,
+          "doc_010": 9,
+          "doc_001": 8,
+          "doc_006g": 8,
+          "doc_004": 7,
+          "doc_019": 7,
+          "doc_006c": 6,
+          "doc_009": 6,
+          "doc_011": 6,
+          "doc_016": 6,
+          "doc_020": 5,
+          "doc_002": 4,
+          "doc_003": 4,
+          "doc_006a": 4,
+          "doc_006f": 4,
+          "doc_007": 4,
+          "doc_008": 4,
+          "doc_022": 4,
+          "doc_005": 3,
+          "doc_014": 3,
+          "doc_012": 2,
+          "doc_013": 2,
+          "doc_006b": 1,
+          "doc_006e": 1,
+          "doc_015": 1,
+          "doc_018": 1
+        },
+        "by_register": {
+          "formal_public_address": 63,
+          "campaign_speech": 36,
+          "semi_public_letter": 15,
+          "congressional_message": 12,
+          "fragment_private": 7,
+          "legal_document": 3
+        },
+        "by_period": {
+          "phase_2_argument": 38,
+          "phase_5_theodicy": 30,
+          "phase_4_transformation": 27,
+          "phase_3_obligation": 25,
+          "phase_1_baseline": 16
+        },
+        "absence_flags": {
+          "disease_purification_absent": 56,
+          "enslaved_people_non_agent": 47,
+          "lincoln_non_agent": 19,
+          "black_soldiers_erased": 8,
+          "death_abstracted": 8,
+          "confederates_depersonalized": 5,
+          "women_absent": 1
+        }
+      },
+      "selected_records": [
+        {
+          "audit_id": "inst_00026",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "wound_dressing_and_healing -> national_reconciliation_after_war",
+          "lexical_unit": "bind up the nation's wounds",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p05_s01",
+          "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "wound_and_healing",
+            "violence_logic": "restorative",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent",
+              "black_soldiers_erased"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00011",
+          "cluster_id": "cluster_03_experiment_proposition",
+          "cmt_mapping": "logical_proof_and_evidence -> soldier_deaths_as_evidence_for_democracy",
+          "lexical_unit": "these dead shall not have died in vain",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p03_s05",
+          "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "experiment_and_proof",
+            "violence_logic": "evidentiary",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "death_abstracted",
+              "enslaved_people_non_agent",
+              "black_soldiers_erased"
+            ]
+          },
+          "confidence": 0.98
+        },
+        {
+          "audit_id": "inst_00025",
+          "cluster_id": "cluster_02_covenant_oath",
+          "cmt_mapping": "votive_labor_completion -> obligation_to_conclude_the_war_and_its_purposes",
+          "lexical_unit": "finish the work we are in",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p05_s01",
+          "sentence_text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "oath_and_obligation",
+            "violence_logic": "obligatory",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.93
+        },
+        {
+          "audit_id": "inst_00001",
+          "cluster_id": "cluster_05_fathers_inheritance",
+          "cmt_mapping": "paternal_lineage -> founding_generation",
+          "lexical_unit": "our fathers",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p01_s01",
+          "sentence_text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "ancestral_debt",
+            "violence_logic": "obligatory",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.97
+        },
+        {
+          "audit_id": "inst_00021",
+          "cluster_id": "cluster_06_providence_theodicy",
+          "cmt_mapping": "divine_temporal_administration -> slavery_as_providential_offense_with_appointed_end",
+          "lexical_unit": "in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_021_s01_p04_s12",
+          "sentence_text": "The Almighty has His own purposes. \"Woe unto the world because of offenses; for it must needs be that offenses come, but woe to that man by whom the offense cometh.\" If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come, but which, having continued through His appointed time, He now wills to remove, and that He gives to both North and South this terrible war as the woe due to those by whom the offense came, shall we discern therein any departure from those divine attributes which the believers in a living God always ascribe to Him?",
+          "document": {
+            "id": "doc_021",
+            "short_title": "Second Inaugural",
+            "date": "1865-03-04",
+            "period": "phase_5_theodicy",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211"
+          },
+          "koenigsberg": {
+            "fantasy_type": "punishment_and_theodicy",
+            "violence_logic": "punitive",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "lincoln_non_agent",
+              "enslaved_people_non_agent"
+            ]
+          },
+          "confidence": 0.98
+        },
+        {
+          "audit_id": "inst_00012",
+          "cluster_id": "cluster_04_birth_creation",
+          "cmt_mapping": "birth_generation -> post_war_freedom_and_national_renewal",
+          "lexical_unit": "a new birth of freedom",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_017_s01_p03_s05",
+          "sentence_text": "It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
+          "document": {
+            "id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19",
+            "period": "phase_4_transformation",
+            "register": "formal_public_address",
+            "authorship_confidence": 0.99,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16"
+          },
+          "koenigsberg": {
+            "fantasy_type": "birth_and_creation",
+            "violence_logic": "generative",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "enslaved_people_non_agent",
+              "black_soldiers_erased",
+              "death_abstracted",
+              "women_absent"
+            ]
+          },
+          "confidence": 0.99
+        },
+        {
+          "audit_id": "inst_00132",
+          "cluster_id": "cluster_01_body_organism",
+          "cmt_mapping": "slavery = a cancer/wen on the body; the person (nation) cannot always cut it out immediately; but spreading the cancer over the whole body (expanding slavery to all territories) is not a cure — it is a deliberate worsening of the disease",
+          "lexical_unit": "a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body",
+          "mipvu_decision": "metaphor_related",
+          "sentence_id": "doc_006g_s02_p56_s07",
+          "sentence_text": "You may have a wen or a cancer upon your person and not be able to cut it out lest you bleed to death; but surely it is no way to cure it, to engraft it and spread it over your whole body.",
+          "document": {
+            "id": "doc_006g",
+            "short_title": "L-D Debate 7 Alton",
+            "date": "1858-10-15",
+            "period": "phase_2_argument",
+            "register": "campaign_speech",
+            "authorship_confidence": 0.83,
+            "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.283-325",
+            "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:7"
+          },
+          "koenigsberg": {
+            "fantasy_type": "wound_and_healing",
+            "violence_logic": "spreading the disease (slavery expansion) is not a cure but a worsening of the wound; the body cannot survive the cancer spread to the whole body",
+            "obligatory_frame": true,
+            "absence_flags": [
+              "disease_purification_absent"
+            ]
+          },
+          "confidence": 0.92
+        }
+      ],
+      "controlled_note": "The matching universe is the full Stage 4A corpus because no record has disease_and_purification. Selected rows represent the exit condition associated with each major fantasy type.",
+      "controlled_reference": {
+        "file": "analysis/controlled-analysis.json",
+        "full_corpus_records": 136,
+        "high_authorship_confidence_records": 73
+      }
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "8",
+      "agent": "build_claim_audit.js",
+      "date": "2026-06-15",
+      "total_claims": 6
+    }
+  ]
+}

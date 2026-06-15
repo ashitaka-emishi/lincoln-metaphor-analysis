@@ -618,6 +618,68 @@ function validateControlledAnalysis() {
   if (!exists(pagePath)) err(pagePath, 'File not found');
 }
 
+// ─── Claim Audit ────────────────────────────────────────────────────────────
+
+function validateClaimAudit() {
+  const filePath = path.join(ROOT, 'data', 'audit', 'claim-audit.json');
+  const pagePath = path.join(ROOT, 'synthesis', 'claim_audit.md');
+  console.log('\nValidating claim-audit.json...');
+
+  if (!exists(filePath)) { err(filePath, 'File not found'); return; }
+  const audit = readJSON(filePath);
+  if (!audit) return;
+
+  const evidence = readJSON(path.join(ROOT, 'data', 'evidence', 'annotation-evidence.json'));
+  if (!evidence) return;
+  const evidenceIds = new Set((evidence.records || []).map(record => record.audit_id));
+
+  const required = ['version', 'status', 'source', 'controlled_source', 'total_claims', 'claims'];
+  for (const field of required) {
+    if (audit[field] === undefined) err(filePath, `Missing field: ${field}`);
+  }
+  if (audit.status !== 'complete') err(filePath, `Unexpected status: ${audit.status}`);
+  if (audit.source !== 'data/evidence/annotation-evidence.json') err(filePath, `Unexpected source: ${audit.source}`);
+  if (audit.controlled_source !== 'analysis/controlled-analysis.json') err(filePath, `Unexpected controlled_source: ${audit.controlled_source}`);
+  if (!Array.isArray(audit.claims)) {
+    err(filePath, 'claims must be an array');
+    return;
+  }
+  if (audit.total_claims !== audit.claims.length) {
+    err(filePath, `total_claims ${audit.total_claims} does not match claims length ${audit.claims.length}`);
+  }
+
+  const claimIds = new Set();
+  for (const claim of audit.claims) {
+    const loc = claim.claim_id || 'NO_CLAIM_ID';
+    if (!claim.claim_id) err(filePath, 'claim missing claim_id');
+    else if (claimIds.has(claim.claim_id)) err(filePath, `Duplicate claim_id: ${claim.claim_id}`);
+    claimIds.add(claim.claim_id);
+    if (!claim.title) err(filePath, `${loc}: missing title`);
+    if (!claim.statement) err(filePath, `${loc}: missing statement`);
+    if (!claim.audit_chain_format) err(filePath, `${loc}: missing audit_chain_format`);
+    if (!claim.evidence_universe || typeof claim.evidence_universe.matching_record_count !== 'number') {
+      err(filePath, `${loc}: incomplete evidence_universe`);
+    }
+    if (!Array.isArray(claim.selected_records) || claim.selected_records.length === 0) {
+      err(filePath, `${loc}: selected_records must be a non-empty array`);
+    } else {
+      for (const record of claim.selected_records) {
+        if (!record.audit_id || !evidenceIds.has(record.audit_id)) {
+          err(filePath, `${loc}: selected record has unknown audit_id '${record.audit_id}'`);
+        }
+        if (!record.cluster_id || !record.lexical_unit || !record.sentence_id) {
+          err(filePath, `${loc}: selected record ${record.audit_id} missing chain fields`);
+        }
+        if (!record.document || !record.document.id || !record.document.source_url) {
+          err(filePath, `${loc}: selected record ${record.audit_id} missing document/source metadata`);
+        }
+      }
+    }
+  }
+
+  if (!exists(pagePath)) err(pagePath, 'File not found');
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 function main() {
@@ -630,6 +692,7 @@ function main() {
   validateEvidenceChains();
   validateReliabilityArtifacts();
   validateControlledAnalysis();
+  validateClaimAudit();
 
   console.log('\n' + '='.repeat(40));
   if (errorCount === 0) {
