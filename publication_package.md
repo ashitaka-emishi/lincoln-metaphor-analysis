@@ -14,9 +14,10 @@ This page is the reviewer landing path for the upgraded pipeline and publication
 3. Inspect [Corpus Register](docs/methodology/corpus-register.qmd) for document provenance, register, authorship confidence, and risk flags.
 4. Check [Textual Variant Apparatus](docs/methodology/textual-variant-apparatus.md) for source-risk caveats attached to risk-flagged documents.
 5. Read [Annotation Codebook](docs/methodology/annotation-codebook.md) for MIPVU, CMT, Koenigsberg, absence, confidence, and ambiguity rules.
-6. Use [Controlled Outputs](analysis/controlled_outputs.md) before relying on any aggregate count.
-7. Use [Claim-To-Source Audit](synthesis/claim_audit.md) to trace major claims back to instance IDs, sentence IDs, document metadata, and source URLs.
-8. End with [Findings](synthesis/findings.md) and [Final Conclusions](synthesis/final_conclusions.md).
+6. Check [External Benchmarks](docs/methodology/external-benchmarks.md) for Stage 7 benchmark choices, candidate comparison corpora, and redistribution limits.
+7. Use [Controlled Outputs](analysis/controlled_outputs.md) before relying on any aggregate count.
+8. Use [Claim-To-Source Audit](synthesis/claim_audit.md) to trace major claims back to instance IDs, sentence IDs, document metadata, and source URLs.
+9. End with [Findings](synthesis/findings.md) and [Final Conclusions](synthesis/final_conclusions.md).
 
 ## Reproducibility Commands
 
@@ -46,6 +47,7 @@ Committed and reviewable:
 - `data/reliability/adjudication-log.csv`
 - `data/reliability/reliability-results.json`
 - `data/metadata/textual-variant-apparatus.json`
+- `data/metadata/external-benchmark-corpora.json`
 - `analysis/controlled-analysis.json`
 - `data/audit/claim-audit.json`
 - methodology, analysis, synthesis, and publication pages rendered by Quarto
@@ -53,7 +55,7 @@ Committed and reviewable:
 Generated or local-only:
 
 - `_site/` and `.quarto/` are build outputs and are gitignored.
-- `data/lcc/*.xml`, `data/lcc_subset/*.csv`, and `reports/stage7/*` are downloaded or generated on demand and are gitignored.
+- `data/lcc/*.xml`, `data/lcc/*.tar.gz`, `data/lcc_subset/*.csv`, and `reports/stage7/*` are downloaded or generated on demand and are gitignored.
 - The LCC benchmark site page is committed as `analysis/lcc_validation.md`; the raw LCC data is not redistributed by this repository.
 
 ## AI-Use Statement
@@ -76,6 +78,7 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 | Research design in public docs | Complete | [Research Design](docs/methodology/research-design.md) |
 | Corpus provenance layer | Complete | [Corpus Register](docs/methodology/corpus-register.qmd) |
 | Textual variant apparatus | Complete | [Textual Variant Apparatus](docs/methodology/textual-variant-apparatus.md) |
+| External benchmark registry | Complete | [External Benchmarks](docs/methodology/external-benchmarks.md) |
 | Annotation codebook | Complete | [Annotation Codebook](docs/methodology/annotation-codebook.md) |
 | Evidence-chain schema | Complete | [Evidence Chain Schema](docs/methodology/evidence-chain-schema.md) |
 | Reliability workflow | Complete with AI-assisted limitation | [Reliability Workflow](docs/methodology/reliability-report.md), [Reliability Results](docs/methodology/reliability-results.md) |
@@ -89,6 +92,5 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 
 Non-blocking follow-up work is tracked outside this milestone:
 
-- [#24 Extend external benchmarks and comparison corpora](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/24)
 - [#25 Add reception and audience evidence layer](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/25)
 - [#26 Evaluate Reconstruction-era continuation beyond Lincoln corpus boundary](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/26)

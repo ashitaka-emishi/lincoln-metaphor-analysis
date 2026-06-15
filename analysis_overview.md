@@ -14,6 +14,6 @@ Use these pages in this order:
 4. Cluster Profiles: summarize each of the six major metaphor clusters across the corpus.
 5. Document Notes: preserve close readings of individual Lincoln texts.
 6. [Lincoln vs. Hitler](comparison/koenigsberg_comparison.md): places the Lincoln findings in comparative relation to Koenigsberg's account of political pathology.
-7. [LCC Benchmark Validation](analysis/lcc_validation.md): compares Lincoln's six clusters against the LCC Metaphor Dataset (8,724 general English annotations) to establish which of Lincoln's source-concept domains are common in English and which are Lincoln-specific constructions.
+7. [LCC Benchmark Validation](analysis/lcc_validation.md): compares Lincoln's six clusters against the LCC Metaphor Dataset baseline to establish which source-concept domains are common in English and which are Lincoln-specific constructions. The broader [External Benchmarks](docs/methodology/external-benchmarks.md) registry documents optional LCC large evaluation plus candidate contemporary comparison corpora.
 
 The analysis pages are meant to be read as a bridge between the sentence-level annotation data and the final synthesis. They show how local metaphors become larger structures of obligation, sacrifice, absence, and reconciliation.

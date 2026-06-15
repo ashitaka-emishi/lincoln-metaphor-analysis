@@ -812,6 +812,66 @@ function validateTextualVariantApparatus() {
   if (!exists(pagePath)) err(pagePath, 'File not found');
 }
 
+// ─── External Benchmark Registry ────────────────────────────────────────────
+
+function validateExternalBenchmarkRegistry() {
+  const filePath = path.join(ROOT, 'data', 'metadata', 'external-benchmark-corpora.json');
+  const pagePath = path.join(ROOT, 'docs', 'methodology', 'external-benchmarks.md');
+  console.log('\nValidating external-benchmark-corpora.json...');
+
+  if (!exists(filePath)) { err(filePath, 'File not found'); return; }
+  const data = readJSON(filePath);
+  if (!data) return;
+
+  const required = ['version', 'generated', 'status', 'source', 'total_benchmarks', 'benchmarks'];
+  for (const field of required) {
+    if (data[field] === undefined) err(filePath, `Missing field: ${field}`);
+  }
+  if (data.status !== 'complete') err(filePath, `Unexpected status: ${data.status}`);
+  if (!Array.isArray(data.benchmarks)) {
+    err(filePath, 'benchmarks must be an array');
+    return;
+  }
+  if (data.total_benchmarks !== data.benchmarks.length) {
+    err(filePath, `total_benchmarks ${data.total_benchmarks} does not match benchmarks length ${data.benchmarks.length}`);
+  }
+
+  const benchmarkIds = new Set();
+  const implemented = new Set();
+  for (const benchmark of data.benchmarks) {
+    const loc = benchmark.benchmark_id || 'NO_BENCHMARK_ID';
+    if (!benchmark.benchmark_id) err(filePath, 'benchmark missing benchmark_id');
+    else if (benchmarkIds.has(benchmark.benchmark_id)) err(filePath, `Duplicate benchmark_id: ${benchmark.benchmark_id}`);
+    benchmarkIds.add(benchmark.benchmark_id);
+
+    for (const field of ['name', 'status', 'comparison_role', 'redistribution_policy', 'license', 'decision', 'limitations']) {
+      if (benchmark[field] === undefined) err(filePath, `${loc}: missing field '${field}'`);
+    }
+    if (!Array.isArray(benchmark.limitations) || benchmark.limitations.length === 0) {
+      err(filePath, `${loc}: limitations must be a non-empty array`);
+    }
+    if (benchmark.status.startsWith('implemented')) {
+      implemented.add(benchmark.benchmark_id);
+      for (const field of ['source_url', 'download_command', 'parse_command', 'evaluate_command', 'local_raw_path', 'local_derived_path', 'license_url']) {
+        if (!benchmark[field]) err(filePath, `${loc}: implemented benchmark missing '${field}'`);
+      }
+      if (!benchmark.size_and_scope) {
+        err(filePath, `${loc}: implemented benchmark missing size_and_scope`);
+      }
+    }
+    if (benchmark.redistribution_policy !== 'do_not_commit_raw_or_parsed_data' &&
+        benchmark.status.startsWith('implemented')) {
+      err(filePath, `${loc}: implemented benchmark must not commit raw or parsed data`);
+    }
+  }
+
+  for (const expected of ['lcc_en_small', 'lcc_en_large']) {
+    if (!implemented.has(expected)) err(filePath, `Missing implemented LCC benchmark: ${expected}`);
+  }
+
+  if (!exists(pagePath)) err(pagePath, 'File not found');
+}
+
 // ─── Controlled Analysis ────────────────────────────────────────────────────
 
 function validateControlledAnalysis() {
@@ -974,6 +1034,7 @@ function main() {
   validateEvidenceChains();
   validateReliabilityArtifacts();
   validateTextualVariantApparatus();
+  validateExternalBenchmarkRegistry();
   validateControlledAnalysis();
   validateClaimAudit();
 

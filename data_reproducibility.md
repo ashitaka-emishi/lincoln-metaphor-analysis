@@ -15,6 +15,7 @@ node scripts/build_evidence_chains.js
 node scripts/build_reliability_sample.js
 node scripts/build_reliability_results.js
 node scripts/build_textual_variant_apparatus.js
+python3 scripts/build_external_benchmark_registry.py
 node scripts/build_controlled_analysis.js
 node scripts/build_claim_audit.js
 node scripts/build_concordance.js
@@ -104,28 +105,37 @@ Outputs:
 
 See [Claim Audit Method](docs/methodology/claim-audit.md) for the audit-chain format and [Claim-To-Source Audit](synthesis/claim_audit.md) for the public tables.
 
-Current status: Stages 1–8 are implemented across all 28 documents. Stage 7 (LCC benchmark validation) is scaffolded and runnable; the LCC dataset is not committed to the repository but is downloaded on demand. The [Publication Package](publication_package.md) records the public data package, generated/local-only boundary, limitations, AI-use statement, and non-blocking follow-up issues.
+Current status: Stages 1–8 are implemented across all 28 documents. Stage 7 (external benchmark validation) is scaffolded and runnable; LCC datasets are not committed to the repository but are downloaded on demand. The [Publication Package](publication_package.md) records the public data package, generated/local-only boundary, limitations, AI-use statement, and non-blocking follow-up issues.
 
 ## Stage 7: LCC Validation
 
-Stage 7 compares Lincoln's annotated clusters against the [LCC Metaphor Dataset](https://github.com/lcc-api/metaphor) — a 8,724-annotation general English metaphor corpus — to establish which of Lincoln's source-concept domains are common in English metaphor and which are Lincoln-specific constructions.
+Stage 7 compares Lincoln's annotated clusters against the [LCC Metaphor Dataset](https://github.com/lcc-api/metaphor). The committed baseline page uses the English small subset; the scripts also support the larger English dataset as an optional local benchmark. The comparison establishes which of Lincoln's source-concept domains are common in English metaphor and which are Lincoln-specific constructions.
 
 ```bash
 # Download LCC data (~4.6 MB) and run full Stage 7 comparison:
 npm run stage7
 
+# Download and evaluate the larger English LCC dataset:
+npm run stage7:large
+
 # Lincoln-only cluster summary (no external data required):
 npm run stage7:eval
+
+# Rebuild the benchmark/candidate-corpus registry:
+npm run benchmarks:registry
 ```
 
-The LCC XML (`data/lcc/en_small.xml`) and parsed CSV (`data/lcc_subset/en_small.csv`) are gitignored; the download is triggered interactively. The evaluation report is written to `reports/stage7/LCC_report.md` (also gitignored). The persistent site page with the Stage 7 findings is `analysis/lcc_validation.md`.
+The LCC XML files (`data/lcc/en_small.xml`, `data/lcc/en_large.xml`) and parsed CSV files (`data/lcc_subset/*.csv`) are gitignored; downloads are triggered interactively unless `--yes` is supplied to `scripts/run_stage7.py`. The evaluation report is written to `reports/stage7/LCC_report.md` (also gitignored). The persistent site page with the Stage 7 findings is `analysis/lcc_validation.md`.
 
 Scripts:
 
-- `scripts/download_lcc.py` — download and extract `en_small.xml`
+- `scripts/download_lcc.py` — download and extract `en_small.xml` or `en_large.xml`
 - `scripts/parse_lcc.py` — parse LCC XML → CSV
 - `scripts/evaluate_lcc.py` — compute domain coverage, write Markdown report
 - `scripts/run_stage7.py` — orchestrator; prompts before downloading
+- `scripts/build_external_benchmark_registry.py` — writes `data/metadata/external-benchmark-corpora.json` and [External Benchmarks](docs/methodology/external-benchmarks.md)
+
+The external benchmark registry documents implemented LCC baselines, candidate Union, Confederate, abolitionist, and presidential comparison corpora, plus licensing, size, redistribution, and reproducibility decisions.
 
 The site itself is rendered with Quarto:
 
