@@ -5,7 +5,7 @@ draft: false
 
 # Reliability Sample and Adjudication Workflow
 
-This page defines the reliability layer for the publication-upgrade milestone. It does not claim that double coding has already been completed. Its purpose is to make the sample, coding workflow, disagreement categories, adjudication record, and reporting rules explicit before the annotation claims are used as publication evidence.
+This page defines the reliability layer for the publication-upgrade milestone. The current Stage 4B result compares the Stage 4A reference annotation layer with a Codex second-pass reliability review. It reports completed coding, adjudication, and metrics while explicitly avoiding a two-human blind inter-annotator reliability claim.
 
 Generate the reliability artifacts with:
 
@@ -19,7 +19,10 @@ The generator writes:
 | --- | --- |
 | `data/reliability/reliability-sample.json` | Canonical sample definition, reference values, disagreement categories, and agreement-measure plan |
 | `data/reliability/double-coding-template.csv` | Blank coding worksheet for independent coders |
+| `data/reliability/double-coding-completed.csv` | Completed Stage 4A-reference and Codex second-pass coding sheet |
 | `data/reliability/adjudication-log.csv` | Traceable adjudication register for coder disagreements |
+| `data/reliability/reliability-results.json` | Computed reliability metrics and limitations |
+| `docs/methodology/reliability-results.md` | Rendered reliability results page |
 
 ## Sample Definition
 
@@ -95,13 +98,16 @@ Do not publish a single blended reliability score. A coder pair might agree stro
 
 ## Current Status
 
-The sample and workflow are implemented. The adjudication log is initialized but empty, meaning double coding has not yet produced disagreements or final reliability statistics.
+The sample, completed coding sheet, adjudication log, and metrics are implemented. The current results are summarized in [Reliability Results](reliability-results.md):
 
-Before final publication, the reliability report should be updated with:
+| Layer | Result |
+| --- | --- |
+| Sentence-identification agreement | 52 / 55 units = 94.55%; present/absent kappa = 0.86 |
+| Identification precision / recall / F1 against Stage 4A reference | 95.12% / 97.5% / 96.3% |
+| CMT cluster agreement | 49 / 51 units = 96.08% |
+| Fantasy-type agreement | 49 / 51 units = 96.08% |
+| Absence-flag agreement | 50 / 51 units = 98.04%; mean Jaccard = 0.9902 |
+| Confidence-band agreement | 49 / 51 units = 96.08% |
+| Adjudicated disagreements | 8 |
 
-- coder identifiers or anonymized coder roles;
-- completed coding dates;
-- agreement metrics by layer;
-- adjudication counts by disagreement category;
-- any schema or migration changes prompted by adjudication;
-- limitations that remain after adjudication.
+The limits are part of the result. Coder A is the Stage 4A reference layer. Coder B is a Codex second-pass review. The results are useful for surfacing unstable fields and documenting adjudication, but they should not be cited as a two-human blind reliability study.

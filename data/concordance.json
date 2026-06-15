@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-30",
+  "generated": "2026-06-15",
   "corpus_version": "1.0",
   "status": "complete",
   "total_documents": 28,
@@ -9336,6 +9336,13 @@
       "stage": 5,
       "agent": "build_concordance.js",
       "date": "2026-04-30",
+      "total_instances": 136,
+      "documents_processed": 28
+    },
+    {
+      "stage": 5,
+      "agent": "build_concordance.js",
+      "date": "2026-06-15",
       "total_instances": 136,
       "documents_processed": 28
     }

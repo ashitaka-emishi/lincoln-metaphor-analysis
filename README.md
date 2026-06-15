@@ -20,6 +20,7 @@ node scripts/build_concordance.js # Stage 5: build concordance from annotated do
 node scripts/run_analysis.js      # Stage 6: compute cluster statistics
 node scripts/build_evidence_chains.js    # Stage 4A: evidence-chain records
 node scripts/build_reliability_sample.js # Stage 4B: reliability artifacts
+node scripts/build_reliability_results.js # Stage 4B: completed coding and metrics
 node scripts/build_controlled_analysis.js # Stage 6A: register/authorship controls
 node scripts/build_claim_audit.js         # Stage 8: claim-to-source audit
 quarto render                     # rebuild the static research site
@@ -166,7 +167,7 @@ Key public-facing guide pages:
 | 3 | ✓ Complete | 28 `.json` files in `corpus/segmented/` — 7,644 sentences, 5,198 Lincoln-authored |
 | 4 | ✓ Complete | `corpus/annotated/` — 28/28 complete; 136 instances (inst_00001–inst_00136) across 24 extension groups; all files pass canonical schema validation; `analysis/document_notes/` — findings written for all 28 docs; completed 2026-04-30 |
 | 4A | ✓ Complete | `data/evidence/annotation-evidence.json` — 136 claim-audit-ready evidence records |
-| 4B | ✓ Implemented | `data/reliability/` — 5-document reliability sample, double-coding template, adjudication log header; double coding remains follow-up |
+| 4B | ✓ Complete with AI-assisted limitation | `data/reliability/` — 5-document reliability sample, completed Stage 4A-reference vs. Codex second-pass coding, adjudication log, and reliability metrics |
 | 5 | ✓ Complete | `data/concordance.json` — 136 instances indexed; 51 high-confidence (≥0.90); 7 suppression instances; completed 2026-04-30 |
 | 6 | ✓ Complete | `analysis/analysis.json` — cluster_01: 34, cluster_02: 17, cluster_03: 20, cluster_04: 8, cluster_05: 35, cluster_06: 22; 144 absence flag instances; completed 2026-04-30 |
 | 6A | ✓ Complete | `analysis/controlled-analysis.json` and `analysis/controlled_outputs.md` — full corpus plus `authorship_confidence >= 0.95` views |

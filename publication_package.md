@@ -41,7 +41,9 @@ Committed and reviewable:
 - `data/evidence/annotation-evidence.json`
 - `data/reliability/reliability-sample.json`
 - `data/reliability/double-coding-template.csv`
+- `data/reliability/double-coding-completed.csv`
 - `data/reliability/adjudication-log.csv`
+- `data/reliability/reliability-results.json`
 - `analysis/controlled-analysis.json`
 - `data/audit/claim-audit.json`
 - methodology, analysis, synthesis, and publication pages rendered by Quarto
@@ -60,7 +62,7 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 
 - The corpus is Lincoln-only and contains 28 selected documents, not the whole Lincoln archive.
 - Debate and manuscript traditions carry transcription or variant risk; those risks are recorded in the corpus register.
-- The reliability workflow and sample are implemented, but double coding and adjudication metrics remain a follow-up task.
+- The reliability workflow now reports an AI-assisted second-pass reliability result, not a two-human blind inter-annotator study.
 - The Lincoln/Hitler comparison is structural, not moral equivalence.
 - The project studies public rhetoric and selected fragments; it does not establish audience reception, private belief, or full political causality.
 - Negative findings, especially `disease_and_purification` absence, depend on validated zero counts plus positive opportunity-structure flags.
@@ -73,7 +75,7 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 | Corpus provenance layer | Complete | [Corpus Register](docs/methodology/corpus-register.qmd) |
 | Annotation codebook | Complete | [Annotation Codebook](docs/methodology/annotation-codebook.md) |
 | Evidence-chain schema | Complete | [Evidence Chain Schema](docs/methodology/evidence-chain-schema.md) |
-| Reliability workflow | Implemented; coding pending | [Reliability Workflow](docs/methodology/reliability-report.md) |
+| Reliability workflow | Complete with AI-assisted limitation | [Reliability Workflow](docs/methodology/reliability-report.md), [Reliability Results](docs/methodology/reliability-results.md) |
 | Register/authorship controls | Complete | [Controlled Outputs](analysis/controlled_outputs.md) |
 | Claim-to-source audit | Complete | [Claim-To-Source Audit](synthesis/claim_audit.md) |
 | Synthesis revision | Complete | [Findings](synthesis/findings.md), [Final Conclusions](synthesis/final_conclusions.md) |
@@ -84,7 +86,6 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 
 Non-blocking follow-up work is tracked outside this milestone:
 
-- [#22 Complete reliability double coding and adjudication metrics](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/22)
 - [#23 Build textual variant apparatus for high-risk documents](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/23)
 - [#24 Extend external benchmarks and comparison corpora](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/24)
 - [#25 Add reception and audience evidence layer](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/25)

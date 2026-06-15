@@ -71,6 +71,8 @@ website:
             text: Claim Audit Method
           - href: docs/methodology/reliability-report.md
             text: Reliability Workflow
+          - href: docs/methodology/reliability-results.md
+            text: Reliability Results
           - href: docs/upgrade.md
             text: Pipeline Upgrade
           - href: comparison/theoretical_framework.md

@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "generated": "2026-06-15",
+  "status": "complete",
+  "source_sample": "data/reliability/reliability-sample.json",
+  "source_second_pass": "data/reliability/reliability-second-pass-overrides.json",
+  "completed_coding": "data/reliability/double-coding-completed.csv",
+  "adjudication_log": "data/reliability/adjudication-log.csv",
+  "coder_roles": {
+    "coder_a": "stage4a_reference",
+    "coder_b": "codex_second_pass"
+  },
+  "method_note": "Coder A is the existing Stage 4A evidence-chain reference. Coder B is a Codex second-pass reliability review. Non-overridden units are recorded as second-pass confirmations of the Stage 4A reference; overridden units are explicit disagreements adjudicated below.",
+  "limitations": [
+    "This is a completed AI-assisted reliability pass, not a two-human blind coding study.",
+    "The results are useful for locating unstable fields and documenting adjudication, but should not be reported as independent human-human inter-annotator reliability.",
+    "The second pass is intentionally conservative: it records explicit disagreements only where the reliability review found a concrete rival coding."
+  ],
+  "sample_summary": {
+    "documents": 5,
+    "identification_units": 55,
+    "field_agreement_units": 51,
+    "sample_percentage": 17.86
+  },
+  "identification_metrics": {
+    "total_units": 55,
+    "agreement_units": 52,
+    "agreement_rate": 94.55,
+    "cohen_kappa_present_absent": 0.86,
+    "confusion_against_stage4a_reference": {
+      "true_positive": 39,
+      "true_negative": 13,
+      "false_positive": 2,
+      "false_negative": 1
+    },
+    "precision_against_stage4a_reference": 95.12,
+    "recall_against_stage4a_reference": 97.5,
+    "f1_against_stage4a_reference": 96.3,
+    "boundary_exact_rate_when_both_present": 100,
+    "boundary_overlap_rate_when_both_present": 100
+  },
+  "field_agreement_metrics": {
+    "mipvu_decision": {
+      "total_units": 51,
+      "agreement_units": 50,
+      "agreement_rate": 98.04
+    },
+    "cluster_id": {
+      "total_units": 51,
+      "agreement_units": 49,
+      "agreement_rate": 96.08
+    },
+    "source_domain": {
+      "total_units": 51,
+      "agreement_units": 50,
+      "agreement_rate": 98.04
+    },
+    "target_domain": {
+      "total_units": 51,
+      "agreement_units": 50,
+      "agreement_rate": 98.04
+    },
+    "fantasy_type": {
+      "total_units": 51,
+      "agreement_units": 49,
+      "agreement_rate": 96.08
+    },
+    "violence_logic": {
+      "total_units": 51,
+      "agreement_units": 50,
+      "agreement_rate": 98.04
+    },
+    "obligatory_frame": {
+      "total_units": 51,
+      "agreement_units": 50,
+      "agreement_rate": 98.04
+    },
+    "absence_flags": {
+      "total_units": 51,
+      "agreement_units": 50,
+      "agreement_rate": 98.04
+    },
+    "confidence_band": {
+      "total_units": 51,
+      "agreement_units": 49,
+      "agreement_rate": 96.08
+    },
+    "ambiguity_flag": {
+      "total_units": 51,
+      "agreement_units": 51,
+      "agreement_rate": 100
+    },
+    "confidence_score_mean_absolute_difference": 0.0065,
+    "absence_flags_mean_jaccard": 0.9902
+  },
+  "adjudication_summary": {
+    "total_disagreements_adjudicated": 8,
+    "by_category": {
+      "mipvu_decision": 3,
+      "textual_or_provenance_uncertainty": 1,
+      "fantasy_type": 1,
+      "cluster_assignment": 1,
+      "confidence_band": 1,
+      "agency_or_absence_flag": 1
+    },
+    "follow_up_required": 0
+  }
+}

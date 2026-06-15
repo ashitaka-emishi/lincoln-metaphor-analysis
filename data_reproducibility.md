@@ -13,6 +13,7 @@ node scripts/pipeline_status.js
 node scripts/validate_schema.js
 node scripts/build_evidence_chains.js
 node scripts/build_reliability_sample.js
+node scripts/build_reliability_results.js
 node scripts/build_controlled_analysis.js
 node scripts/build_claim_audit.js
 node scripts/build_concordance.js
@@ -25,7 +26,7 @@ The npm shortcut is:
 npm run pipeline
 ```
 
-That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`, regenerates the Stage 4B reliability sample artifacts, writes the Stage 6A controlled-analysis outputs, and regenerates the claim-to-source audit.
+That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`, regenerates the Stage 4B reliability sample and results artifacts, writes the Stage 6A controlled-analysis outputs, and regenerates the claim-to-source audit.
 
 ## Stage 4A: Evidence Chains
 
@@ -39,19 +40,23 @@ See [Evidence Chain Schema](docs/methodology/evidence-chain-schema.md) for the f
 
 ## Stage 4B: Reliability Sample
 
-Stage 4B is a generated reliability layer. It defines a 5-document sample from the 28-document corpus, creates a blank double-coding template, and initializes an adjudication log.
+Stage 4B is a generated reliability layer. It defines a 5-document sample from the 28-document corpus, creates a blank double-coding template, records a completed Stage 4A-reference versus Codex-second-pass coding sheet, writes the adjudication log, and computes reliability metrics.
 
 ```bash
 npm run reliability:sample
+npm run reliability:results
 ```
 
 Outputs:
 
 - `data/reliability/reliability-sample.json`
 - `data/reliability/double-coding-template.csv`
+- `data/reliability/double-coding-completed.csv`
 - `data/reliability/adjudication-log.csv`
+- `data/reliability/reliability-results.json`
+- `docs/methodology/reliability-results.md`
 
-See [Reliability Workflow](docs/methodology/reliability-report.md) for the sample rationale, coding workflow, disagreement categories, and agreement measures.
+See [Reliability Workflow](docs/methodology/reliability-report.md) for the sample rationale, coding workflow, disagreement categories, and agreement measures, and [Reliability Results](docs/methodology/reliability-results.md) for the current metrics and limits.
 
 ## Stage 6A: Controlled Analysis
 

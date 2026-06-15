@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "generated": "2026-06-15",
+  "coder_roles": {
+    "coder_a": "stage4a_reference",
+    "coder_b": "codex_second_pass"
+  },
+  "method_note": "Coder A is the existing Stage 4A evidence-chain reference. Coder B is a Codex second-pass reliability review. Non-overridden units are recorded as second-pass confirmations of the Stage 4A reference; overridden units are explicit disagreements adjudicated below.",
+  "limitations": [
+    "This is a completed AI-assisted reliability pass, not a two-human blind coding study.",
+    "The results are useful for locating unstable fields and documenting adjudication, but should not be reported as independent human-human inter-annotator reliability.",
+    "The second pass is intentionally conservative: it records explicit disagreements only where the reliability review found a concrete rival coding."
+  ],
+  "identification_overrides": [
+    {
+      "reliability_unit_id": "rel_ident_doc_001_s01_p24_s01",
+      "coder_b": {
+        "mipvu_decision": "metaphor_related",
+        "candidate_lexical_unit": "the proud fabric of freedom | the rock of its basis",
+        "cluster_id": "cluster_05_fathers_inheritance",
+        "source_domain": "architectural foundation and fabric",
+        "target_domain": "freedom as structure requiring support",
+        "fantasy_type": "ancestral_debt",
+        "violence_logic": "inherited_structural_obligation",
+        "obligatory_frame": "true",
+        "absence_flags": "disease_purification_absent",
+        "confidence_score": "0.78",
+        "ambiguity_flag": "true",
+        "disagreement_category": "mipvu_decision",
+        "coder_notes": "Second pass treats the architectural foundation language as metaphor-related, but adjudication keeps it outside the six-cluster Stage 4 set because it is a supporting biblical/architectural flourish rather than a separate publication claim."
+      },
+      "adjudication": {
+        "field_name": "mipvu_decision",
+        "disagreement_category": "mipvu_decision",
+        "adjudicated_value": "not_metaphor_related_for_current_stage4_scope",
+        "rationale": "The phrase is metaphorical, but it is not needed for the current six-cluster evidence universe and is treated as out of scope for Stage 4 correction. It remains documented as a reliability-discovered candidate.",
+        "follow_up_required": "false",
+        "follow_up_issue": ""
+      }
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_010_s02_p03_s20",
+      "coder_b": {
+        "mipvu_decision": "metaphor_related",
+        "candidate_lexical_unit": "on pain of death to the government itself",
+        "cluster_id": "cluster_01_body_organism",
+        "source_domain": "organism death",
+        "target_domain": "government survival under electoral defeat",
+        "fantasy_type": "wound_and_healing",
+        "violence_logic": "internal_self_destruction",
+        "obligatory_frame": "true",
+        "absence_flags": "disease_purification_absent",
+        "confidence_score": "0.74",
+        "ambiguity_flag": "true",
+        "disagreement_category": "mipvu_decision",
+        "coder_notes": "Second pass flags government death language, but the sampled sentence is embedded in editorial revision apparatus and is not accepted as a new Stage 4 evidence unit."
+      },
+      "adjudication": {
+        "field_name": "mipvu_decision",
+        "disagreement_category": "textual_or_provenance_uncertainty",
+        "adjudicated_value": "not_metaphor_related_for_current_stage4_scope",
+        "rationale": "The language is metaphor-like, but the reliability unit includes editorial apparatus and revision notes. The adjudicated decision preserves the Stage 4 boundary.",
+        "follow_up_required": "false",
+        "follow_up_issue": ""
+      }
+    },
+    {
+      "reliability_unit_id": "rel_ident_doc_021_s01_p02_s03",
+      "coder_b": {
+        "mipvu_decision": "not_metaphor_related",
+        "candidate_lexical_unit": "",
+        "disagreement_category": "mipvu_decision",
+        "coder_notes": "Second pass reads 'absorbs the attention and engrosses the energies' as conventionalized rather than analytically active."
+      },
+      "adjudication": {
+        "field_name": "mipvu_decision",
+        "disagreement_category": "mipvu_decision",
+        "adjudicated_value": "metaphor_related_with_low_confidence",
+        "rationale": "The Stage 4A record already marks the unit as ambiguous with confidence 0.80. Adjudication keeps the record because the nation-as-body frame remains analytically relevant, but the low-confidence status must be preserved.",
+        "follow_up_required": "false",
+        "follow_up_issue": ""
+      }
+    }
+  ],
+  "field_overrides": [
+    {
+      "reliability_unit_id": "rel_field_inst_00132",
+      "coder_b": {
+        "fantasy_type": "disease_and_purification",
+        "disagreement_category": "fantasy_type",
+        "coder_notes": "Second pass initially treats cancer language as purification logic; adjudication distinguishes disease metaphor from purifying annihilation."
+      },
+      "adjudication": {
+        "field_name": "fantasy_type",
+        "disagreement_category": "fantasy_type",
+        "adjudicated_value": "wound_and_healing",
+        "rationale": "The passage names disease but rejects spreading/cutting logic as a cure. It supports the disease_purification_absent finding rather than purification fantasy.",
+        "follow_up_required": "false",
+        "follow_up_issue": ""
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00024",
+      "coder_b": {
+        "cluster_id": "cluster_06_providence_theodicy",
+        "disagreement_category": "cluster_assignment",
+        "coder_notes": "Second pass foregrounds the providential judgment frame over the blood/body vehicle."
+      },
+      "adjudication": {
+        "field_name": "cluster_id",
+        "disagreement_category": "cluster_assignment",
+        "adjudicated_value": "cluster_01_body_organism",
+        "rationale": "The theodicy is captured in the fantasy type and violence logic, while the primary lexical vehicle is blood/body payment. Stage 4A cluster assignment stands.",
+        "follow_up_required": "false",
+        "follow_up_issue": ""
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00014",
+      "coder_b": {
+        "mipvu_decision": "not_metaphor_related",
+        "cluster_id": "",
+        "source_domain": "",
+        "target_domain": "",
+        "entailments": "",
+        "fantasy_type": "",
+        "violence_logic": "",
+        "obligatory_frame": "",
+        "absence_flags": "",
+        "confidence_score": "0.55",
+        "ambiguity_flag": "true",
+        "disagreement_category": "mipvu_decision",
+        "coder_notes": "Second pass treats the attention/energy absorption language as borderline conventionalized."
+      },
+      "adjudication": {
+        "field_name": "mipvu_decision",
+        "disagreement_category": "mipvu_decision",
+        "adjudicated_value": "metaphor_related_with_ambiguity_flag",
+        "rationale": "The record remains a low-confidence, ambiguity-marked body/organism case because the nation is treated as an entity whose energy is consumed by war.",
+        "follow_up_required": "false",
+        "follow_up_issue": ""
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00086",
+      "coder_b": {
+        "confidence_score": "0.72",
+        "disagreement_category": "confidence_band",
+        "coder_notes": "Second pass lowers confidence because 'plighting of faith' is a compact formula rather than an extended covenant image."
+      },
+      "adjudication": {
+        "field_name": "confidence_score",
+        "disagreement_category": "confidence_band",
+        "adjudicated_value": "0.80",
+        "rationale": "The covenant semantics are explicit enough for the moderate Stage 4A confidence score.",
+        "follow_up_required": "false",
+        "follow_up_issue": ""
+      }
+    },
+    {
+      "reliability_unit_id": "rel_field_inst_00025",
+      "coder_b": {
+        "absence_flags": "enslaved_people_non_agent|lincoln_non_agent",
+        "disagreement_category": "agency_or_absence_flag",
+        "coder_notes": "Second pass adds Lincoln non-agency because 'the work we are in' distributes agency across a collective rather than Lincoln alone."
+      },
+      "adjudication": {
+        "field_name": "absence_flags",
+        "disagreement_category": "agency_or_absence_flag",
+        "adjudicated_value": "enslaved_people_non_agent",
+        "rationale": "The local sentence uses an inclusive collective exhortation, not a suppression of Lincoln as agent. The Stage 4A absence flag stands.",
+        "follow_up_required": "false",
+        "follow_up_issue": ""
+      }
+    }
+  ]
+}

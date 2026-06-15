@@ -79,14 +79,14 @@ Inputs.table(
 | 3 | Segmented JSON (sections / paragraphs / sentences) | `corpus/segmented/` |
 | 4 | Annotated JSON (metaphor instances embedded) | `corpus/annotated/` |
 | 4A | Evidence chains | `data/evidence/annotation-evidence.json` |
-| 4B | Reliability sample and adjudication workflow | `data/reliability/` |
+| 4B | Reliability sample, adjudication, and metrics | `data/reliability/` |
 | 5 | Concordance (corpus-wide index) | `data/concordance.json` |
 | 6 | Analysis (cluster statistics) | `analysis/` |
 | 6A | Controlled analysis | `analysis/controlled-analysis.json` |
 | 7 | LCC benchmark scaffold | `analysis/lcc_validation.md` / `reports/stage7/` |
 | 8 | Claim-to-source audit | `data/audit/claim-audit.json` |
 
-Stages 1–8 are implemented across all 28 documents. 136 metaphor instances are annotated (inst_00001–inst_00136); concordance, cluster analysis, controlled outputs, reliability sample, and claim audit are built; synthesis documents are publication-ready with explicit limitations and follow-up questions.
+Stages 1–8 are implemented across all 28 documents. 136 metaphor instances are annotated (inst_00001–inst_00136); concordance, cluster analysis, controlled outputs, reliability metrics, and claim audit are built; synthesis documents are publication-ready with explicit limitations and follow-up questions.
 
 ## Key Analytical Constraints
 

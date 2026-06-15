@@ -41,6 +41,54 @@ function readCSVHeader(filePath) {
   }
 }
 
+function parseCSV(filePath) {
+  try {
+    const text = fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '');
+    const rows = [];
+    let row = [];
+    let field = '';
+    let inQuotes = false;
+
+    for (let i = 0; i < text.length; i++) {
+      const char = text[i];
+      const next = text[i + 1];
+      if (inQuotes) {
+        if (char === '"' && next === '"') {
+          field += '"';
+          i++;
+        } else if (char === '"') {
+          inQuotes = false;
+        } else {
+          field += char;
+        }
+      } else if (char === '"') {
+        inQuotes = true;
+      } else if (char === ',') {
+        row.push(field);
+        field = '';
+      } else if (char === '\n') {
+        row.push(field);
+        if (row.some(value => value.trim() !== '')) rows.push(row);
+        row = [];
+        field = '';
+      } else if (char !== '\r') {
+        field += char;
+      }
+    }
+    if (field || row.length) {
+      row.push(field);
+      if (row.some(value => value.trim() !== '')) rows.push(row);
+    }
+
+    if (rows.length === 0) return [];
+    const header = rows[0].map(value => value.trim());
+    return rows.slice(1).map(values => Object.fromEntries(header.map((column, index) => [column, values[index] || ''])));
+  } catch (e) {
+    err(filePath, `CSV read error: ${e.message}`);
+    return [];
+  }
+}
+
 function requireCsvColumns(filePath, expectedColumns) {
   if (!exists(filePath)) {
     err(filePath, 'File not found');
@@ -398,6 +446,10 @@ function validateReliabilityArtifacts() {
   const samplePath = path.join(ROOT, 'data', 'reliability', 'reliability-sample.json');
   const templatePath = path.join(ROOT, 'data', 'reliability', 'double-coding-template.csv');
   const adjudicationPath = path.join(ROOT, 'data', 'reliability', 'adjudication-log.csv');
+  const overridesPath = path.join(ROOT, 'data', 'reliability', 'reliability-second-pass-overrides.json');
+  const completedPath = path.join(ROOT, 'data', 'reliability', 'double-coding-completed.csv');
+  const resultsPath = path.join(ROOT, 'data', 'reliability', 'reliability-results.json');
+  const resultsPagePath = path.join(ROOT, 'docs', 'methodology', 'reliability-results.md');
   console.log('\nValidating reliability artifacts...');
 
   if (!exists(samplePath)) { err(samplePath, 'File not found'); return; }
@@ -528,6 +580,112 @@ function validateReliabilityArtifacts() {
     'disagreement_category', 'adjudicated_value', 'rationale', 'adjudicator',
     'adjudicated_date', 'follow_up_required', 'follow_up_issue'
   ]);
+
+  if (!exists(overridesPath)) err(overridesPath, 'File not found');
+  const overrides = exists(overridesPath) ? readJSON(overridesPath) : null;
+  if (overrides) {
+    if (!overrides.coder_roles || !overrides.coder_roles.coder_a || !overrides.coder_roles.coder_b) {
+      err(overridesPath, 'coder_roles.coder_a and coder_roles.coder_b are required');
+    }
+    if (!Array.isArray(overrides.limitations) || overrides.limitations.length === 0) {
+      err(overridesPath, 'limitations must be a non-empty array');
+    }
+    if (!Array.isArray(overrides.identification_overrides)) {
+      err(overridesPath, 'identification_overrides must be an array');
+    }
+    if (!Array.isArray(overrides.field_overrides)) {
+      err(overridesPath, 'field_overrides must be an array');
+    }
+  }
+
+  requireCsvColumns(completedPath, [
+    'reliability_unit_id', 'unit_type', 'coder_id', 'document_id', 'sentence_id',
+    'source_audit_id', 'candidate_lexical_unit', 'mipvu_decision', 'cluster_id',
+    'fantasy_type', 'absence_flags', 'confidence_score', 'ambiguity_flag',
+    'disagreement_category', 'coder_notes'
+  ]);
+
+  const completedRows = exists(completedPath) ? parseCSV(completedPath) : [];
+  const adjudicationRows = exists(adjudicationPath) ? parseCSV(adjudicationPath) : [];
+  const reliabilityIds = new Set([
+    ...(sample.identification_units || []).map(unit => unit.reliability_unit_id),
+    ...(sample.field_agreement_units || []).map(unit => unit.reliability_unit_id)
+  ]);
+  const expectedCompletedRows = reliabilityIds.size * 2;
+  if (completedRows.length !== expectedCompletedRows) {
+    err(completedPath, `Expected ${expectedCompletedRows} completed coding rows, got ${completedRows.length}`);
+  }
+
+  const rowsByUnit = new Map();
+  for (const row of completedRows) {
+    if (!reliabilityIds.has(row.reliability_unit_id)) {
+      err(completedPath, `Unknown reliability_unit_id: ${row.reliability_unit_id}`);
+    }
+    if (!['coder_a_stage4a_reference', 'coder_b_codex_second_pass'].includes(row.coder_id)) {
+      err(completedPath, `${row.reliability_unit_id}: unexpected coder_id '${row.coder_id}'`);
+    }
+    if (!rowsByUnit.has(row.reliability_unit_id)) rowsByUnit.set(row.reliability_unit_id, new Set());
+    rowsByUnit.get(row.reliability_unit_id).add(row.coder_id);
+  }
+  for (const reliabilityId of reliabilityIds) {
+    const coders = rowsByUnit.get(reliabilityId);
+    if (!coders || !coders.has('coder_a_stage4a_reference') || !coders.has('coder_b_codex_second_pass')) {
+      err(completedPath, `${reliabilityId}: missing coder pair`);
+    }
+  }
+
+  const disagreementCategories = new Set(sample.disagreement_categories || []);
+  for (const row of adjudicationRows) {
+    if (!row.adjudication_id) err(adjudicationPath, 'adjudication row missing adjudication_id');
+    if (!reliabilityIds.has(row.reliability_unit_id)) {
+      err(adjudicationPath, `${row.adjudication_id}: unknown reliability_unit_id '${row.reliability_unit_id}'`);
+    }
+    if (!disagreementCategories.has(row.disagreement_category)) {
+      err(adjudicationPath, `${row.adjudication_id}: unknown disagreement_category '${row.disagreement_category}'`);
+    }
+    if (!row.rationale) err(adjudicationPath, `${row.adjudication_id}: missing rationale`);
+    if (!['true', 'false'].includes(row.follow_up_required)) {
+      err(adjudicationPath, `${row.adjudication_id}: follow_up_required must be true or false`);
+    }
+  }
+
+  if (!exists(resultsPath)) { err(resultsPath, 'File not found'); return; }
+  const results = readJSON(resultsPath);
+  if (!results) return;
+  const requiredResults = [
+    'version', 'status', 'source_sample', 'source_second_pass', 'completed_coding',
+    'adjudication_log', 'coder_roles', 'limitations', 'sample_summary',
+    'identification_metrics', 'field_agreement_metrics', 'adjudication_summary'
+  ];
+  for (const field of requiredResults) {
+    if (results[field] === undefined) err(resultsPath, `Missing field: ${field}`);
+  }
+  if (results.status !== 'complete') err(resultsPath, `Unexpected status: ${results.status}`);
+  if (results.sample_summary) {
+    if (results.sample_summary.identification_units !== sample.identification_units.length) {
+      err(resultsPath, 'sample_summary.identification_units mismatch');
+    }
+    if (results.sample_summary.field_agreement_units !== sample.field_agreement_units.length) {
+      err(resultsPath, 'sample_summary.field_agreement_units mismatch');
+    }
+  }
+  if (!results.identification_metrics || typeof results.identification_metrics.agreement_rate !== 'number') {
+    err(resultsPath, 'identification_metrics.agreement_rate missing');
+  }
+  const requiredFieldMetrics = [
+    'mipvu_decision', 'cluster_id', 'source_domain', 'target_domain',
+    'fantasy_type', 'violence_logic', 'obligatory_frame',
+    'absence_flags', 'confidence_band', 'ambiguity_flag'
+  ];
+  for (const field of requiredFieldMetrics) {
+    if (!results.field_agreement_metrics || !results.field_agreement_metrics[field]) {
+      err(resultsPath, `field_agreement_metrics.${field} missing`);
+    }
+  }
+  if (results.adjudication_summary && results.adjudication_summary.total_disagreements_adjudicated !== adjudicationRows.length) {
+    err(resultsPath, 'adjudication_summary.total_disagreements_adjudicated mismatch');
+  }
+  if (!exists(resultsPagePath)) err(resultsPagePath, 'File not found');
 }
 
 // ─── Controlled Analysis ────────────────────────────────────────────────────
