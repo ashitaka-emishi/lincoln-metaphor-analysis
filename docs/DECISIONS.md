@@ -2,7 +2,7 @@
 
 ## Resolved
 
-### Wide corpus (29 documents)
+### Wide corpus (28 documents)
 **Decision**: Include all major public addresses, campaign speeches, semi-public letters, legal documents, and private fragments from 1838–1865.
 **Rationale**: Prevents cherry-picking. The register field carries the methodological weight that corpus restriction would otherwise carry. Narrow corpora (formal addresses only) would find denser metaphor but could not distinguish temporal from register effects.
 **Implication**: All frequency claims must be register-controlled before publication.
@@ -26,6 +26,11 @@
 **Decision**: Systematic absence analysis (systematic_absence.md) is a required deliverable, not optional commentary.
 **Rationale**: The erasure of enslaved people and Black soldiers from Lincoln's metaphor system is not peripheral — it is the project's second central finding, alongside the disease_and_purification absence.
 **Implication**: absence_flags must be populated for every annotated instance; the koenigsberg_comparativist must complete systematic_absence.md as a named deliverable.
+
+### Publication scope for upgrade milestone
+**Decision**: The current pipeline-upgrade milestone targets the minimum viable scholarly upgrade, not the full 15-stage rebuild described in docs/upgrade.md.
+**Rationale**: The existing 28-document Stage 1-7 pipeline already contains the structured corpus, annotations, concordance, analysis outputs, and LCC benchmark scaffold needed for a publishable package. The milestone should add missing scholarly controls--research design, provenance, codebook, reliability sample, register/confidence controls, audit trail, revised synthesis, and publication packaging--without expanding into a full replatforming.
+**Implication**: The 15-stage design remains the long-range roadmap. Work in this milestone should stay bounded to the issue tracker unless a later issue explicitly changes scope.
 
 ---
 

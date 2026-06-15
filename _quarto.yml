@@ -55,6 +55,8 @@ website:
         contents:
           - href: methods_summary.md
             text: Methods Summary
+          - href: docs/methodology/research-design.md
+            text: Research Design
           - href: docs/upgrade.md
             text: Pipeline Upgrade
           - href: comparison/theoretical_framework.md
@@ -182,6 +184,8 @@ format:
             { text: "Methodology", match: p =>
               /\/methods_summary\.html$/.test(p) ||
               /\/data_reproducibility\.html$/.test(p) ||
+              p.includes('/docs/methodology/') ||
+              p.includes('/docs/upgrade.html') ||
               p.includes('/docs/DECISIONS.html') ||
               p.includes("/skills/") ||
               p.includes("/comparison/theoretical_framework.html")
