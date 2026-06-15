@@ -79,6 +79,8 @@ website:
             text: External Benchmarks
           - href: docs/methodology/reception-evidence.md
             text: Reception Evidence
+          - href: docs/methodology/reconstruction-extension-scope.md
+            text: Reconstruction Scope
           - href: docs/upgrade.md
             text: Pipeline Upgrade
           - href: comparison/theoretical_framework.md
