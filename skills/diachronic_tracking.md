@@ -4,7 +4,7 @@
 
 Lincoln's corpus spans 27 years (1838–1865). Treating it synchronically would miss the most analytically significant facts: certain clusters emerge only in specific phases, the guilt_distribution arc is a diachronic series, and the Second Inaugural's theological synthesis is incomprehensible without tracking how Lincoln got there from the Lyceum Address.
 
-The diachronic argument is also the project's defense against cherry-picking: by tracking all 29 documents across time, we can show that the patterns are structural and not artifacts of document selection.
+The diachronic argument is also the project's defense against cherry-picking: by tracking all 28 documents across time, we can show that the patterns are structural and not artifacts of document selection.
 
 **Critical methodological requirement**: All diachronic claims must be register-controlled. A claim that "cluster_06 increases after 1862" could be an artifact of Lincoln giving more formal_public_addresses in that period. Always run the diachronic analysis twice: full corpus and register-controlled (formal_public_address only, or fragment_private only, depending on the claim).
 

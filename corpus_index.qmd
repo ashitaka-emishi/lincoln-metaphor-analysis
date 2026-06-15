@@ -5,7 +5,7 @@ subtitle: "28 documents, 1838–1865"
 
 The corpus spans Lincoln's public career from the Lyceum Address (1838) to the Last Public Address (1865), drawn from the University of Michigan *Collected Works of Abraham Lincoln* digital edition.
 
-Register, authorship confidence, and analytical priority are the three primary corpus-control variables. All frequency claims in the analysis must be register-controlled before publication. See [Corpus Register](skills/corpus_register.md) for register definitions and [Annotation Protocol](skills/annotation_protocol.md) for the confidence scoring procedure.
+Register, authorship confidence, and analytical priority are the three primary corpus-control variables. All frequency claims in the analysis must be register-controlled before publication. See [Corpus Register](docs/methodology/corpus-register.qmd) for publication-facing provenance metadata, [Register Definitions](skills/corpus_register.md) for register definitions, and [Annotation Protocol](skills/annotation_protocol.md) for the confidence scoring procedure.
 
 Source texts (Stage 2 markdown) are rendered at `corpus/text/{id}.html` and are linked in the table below.
 
@@ -41,22 +41,30 @@ Inputs.table(
     id: d.id,
     title: d.short_title,
     date: d.date,
+    period: d.period,
+    genre: d.genre,
     register: d.register,
     authorship: d.authorship,
     conf: d.authorship_confidence,
+    source: d.source_edition,
+    status: d.editorial_status,
     priority: d.analytical_priority,
     stage: d.pipeline_stage_completed,
     risk: d.risk_flags.length > 0 ? d.risk_flags.join(", ") : "—"
   })),
   {
-    columns: ["id", "title", "date", "register", "authorship", "conf", "priority", "stage", "risk"],
+    columns: ["id", "title", "date", "period", "genre", "register", "authorship", "conf", "source", "status", "priority", "stage", "risk"],
     header: {
       id: "ID",
       title: "Document",
       date: "Date",
+      period: "Period",
+      genre: "Genre",
       register: "Register",
       authorship: "Authorship",
       conf: "Auth. Conf.",
+      source: "Source",
+      status: "Editorial Status",
       priority: "Priority",
       stage: "Stage",
       risk: "Risk Flags"
