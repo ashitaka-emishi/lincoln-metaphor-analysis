@@ -149,7 +149,8 @@ def coverage_analysis(lcc_rows: list[dict], lincoln: dict) -> dict:
     }
 
 
-def render_report(lincoln: dict, lcc: Optional[dict], cov: Optional[dict], output_path: Path) -> None:
+def render_report(lincoln: dict, lcc: Optional[dict], cov: Optional[dict],
+                  output_path: Path, lcc_label: Optional[str] = None) -> None:
     today = date.today().isoformat()
     lines = [
         f'# Stage 7: LCC Metaphor Dataset Validation',
@@ -158,7 +159,7 @@ def render_report(lincoln: dict, lcc: Optional[dict], cov: Optional[dict], outpu
         f'**Concordance:** `data/concordance.json`  ',
     ]
     if lcc:
-        lines.append(f'**LCC data:** `data/lcc_subset/` (en_small subset)  ')
+        lines.append(f'**LCC data:** `{lcc_label or "parsed LCC CSV"}`  ')
     lines += ['', '---', '']
 
     # Lincoln summary
@@ -301,19 +302,21 @@ def main() -> None:
 
     lcc_data = None
     cov = None
+    lcc_label = None
     if args.lcc:
         lcc_path = Path(args.lcc)
         if not lcc_path.exists():
             print(f"Warning: LCC CSV not found at {lcc_path}. Generating Lincoln-only report.",
                   file=sys.stderr)
         else:
+            lcc_label = str(lcc_path)
             rows = load_lcc_csv(lcc_path)
             lcc_data = lcc_stats(rows)
             cov = coverage_analysis(rows, lincoln)
             print(f"LCC: {lcc_data['total']} annotations "
                   f"({lcc_data['metaphor_count']} metaphorical)")
 
-    render_report(lincoln, lcc_data, cov, Path(args.output))
+    render_report(lincoln, lcc_data, cov, Path(args.output), lcc_label=lcc_label)
 
 
 if __name__ == '__main__':

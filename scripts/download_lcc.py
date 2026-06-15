@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Download and extract en_small.xml from the LCC Metaphor Dataset.
+"""Download and extract English XML from the LCC Metaphor Dataset.
 
-Downloads LCC_Metaphor_Dataset.small.tar.gz (~4.6 MB compressed) from GitHub
-and extracts en_small.xml to data/lcc/en_small.xml.
+Downloads an LCC archive from GitHub and extracts the matching English XML
+to data/lcc/.
 
 Usage:
     python3 scripts/download_lcc.py
+    python3 scripts/download_lcc.py --dataset large
     python3 scripts/download_lcc.py --force   # re-download even if already present
 """
 
@@ -16,14 +17,21 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-ARCHIVE_URL = (
-    'https://raw.githubusercontent.com/lcc-api/metaphor/main'
-    '/LCC_Metaphor_Dataset.small.tar.gz'
-)
-ARCHIVE_COMPRESSED_MB = 4.6
+ARCHIVES = {
+    'small': {
+        'archive': 'LCC_Metaphor_Dataset.small.tar.gz',
+        'xml': 'en_small.xml',
+        'compressed_mb': 4.6,
+    },
+    'large': {
+        'archive': 'LCC_Metaphor_Dataset.large.tar.gz',
+        'xml': 'en_large.xml',
+        'compressed_mb': 83.6,
+    },
+}
+
+ARCHIVE_BASE_URL = 'https://raw.githubusercontent.com/lcc-api/metaphor/main'
 DATA_DIR = Path('data/lcc')
-TARGET_XML = DATA_DIR / 'en_small.xml'
-ARCHIVE_DEST = DATA_DIR / 'LCC_Metaphor_Dataset.small.tar.gz'
 
 
 def _progress_hook(block_num: int, block_size: int, total_size: int) -> None:
@@ -41,53 +49,68 @@ def _progress_hook(block_num: int, block_size: int, total_size: int) -> None:
           end='', flush=True)
 
 
-def download(force: bool = False) -> Path:
+def download(dataset: str = 'small', force: bool = False) -> Path:
+    if dataset not in ARCHIVES:
+        raise ValueError(f"Unknown dataset '{dataset}'. Choose one of: {', '.join(ARCHIVES)}")
+
+    config = ARCHIVES[dataset]
+    archive_url = f"{ARCHIVE_BASE_URL}/{config['archive']}"
+    archive_dest = DATA_DIR / config['archive']
+    target_xml = DATA_DIR / config['xml']
+
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    if TARGET_XML.exists() and not force:
-        print(f"Already present: {TARGET_XML}")
-        return TARGET_XML
+    if target_xml.exists() and not force:
+        print(f"Already present: {target_xml}")
+        return target_xml
 
-    print(f"Source: {ARCHIVE_URL}")
+    size_note = (
+        f" (~{config['compressed_mb']} MB compressed)"
+        if config['compressed_mb'] is not None else ''
+    )
+    print(f"Dataset: {dataset}{size_note}")
+    print(f"Source: {archive_url}")
     try:
-        urllib.request.urlretrieve(ARCHIVE_URL, ARCHIVE_DEST, _progress_hook)
+        urllib.request.urlretrieve(archive_url, archive_dest, _progress_hook)
         print()  # end progress line
     except urllib.error.URLError as exc:
         print(f'\nDownload failed: {exc}', file=sys.stderr)
-        if ARCHIVE_DEST.exists():
-            ARCHIVE_DEST.unlink()
+        if archive_dest.exists():
+            archive_dest.unlink()
         raise
 
-    print(f"Extracting en_small.xml …")
+    print(f"Extracting {config['xml']} …")
     try:
-        with tarfile.open(ARCHIVE_DEST, 'r:gz') as tar:
+        with tarfile.open(archive_dest, 'r:gz') as tar:
             members = tar.getnames()
             target_name = next(
-                (m for m in members if m.endswith('en_small.xml')), None
+                (m for m in members if m.endswith(config['xml'])), None
             )
             if target_name is None:
                 raise FileNotFoundError(
-                    f"en_small.xml not found in archive.\nContents: {members}"
+                    f"{config['xml']} not found in archive.\nContents: {members}"
                 )
             with tar.extractfile(target_name) as src:
-                TARGET_XML.write_bytes(src.read())
+                target_xml.write_bytes(src.read())
     except Exception:
-        if ARCHIVE_DEST.exists():
-            ARCHIVE_DEST.unlink()
+        if archive_dest.exists():
+            archive_dest.unlink()
         raise
 
-    ARCHIVE_DEST.unlink()
-    size_mb = TARGET_XML.stat().st_size / 1024 / 1024
-    print(f"Extracted: {TARGET_XML}  ({size_mb:.1f} MB)")
-    return TARGET_XML
+    archive_dest.unlink()
+    size_mb = target_xml.stat().st_size / 1024 / 1024
+    print(f"Extracted: {target_xml}  ({size_mb:.1f} MB)")
+    return target_xml
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description='Download LCC en_small.xml')
+    parser = argparse.ArgumentParser(description='Download LCC English XML')
+    parser.add_argument('--dataset', choices=sorted(ARCHIVES), default='small',
+                        help='LCC English dataset size to download')
     parser.add_argument('--force', action='store_true',
                         help='Re-download even if already present')
     args = parser.parse_args()
-    download(force=args.force)
+    download(dataset=args.dataset, force=args.force)
 
 
 if __name__ == '__main__':

@@ -22,6 +22,7 @@ node scripts/build_evidence_chains.js    # Stage 4A: evidence-chain records
 node scripts/build_reliability_sample.js # Stage 4B: reliability artifacts
 node scripts/build_reliability_results.js # Stage 4B: completed coding and metrics
 node scripts/build_textual_variant_apparatus.js # Stage 4C: source-risk apparatus
+python3 scripts/build_external_benchmark_registry.py # Stage 7: benchmark registry
 node scripts/build_controlled_analysis.js # Stage 6A: register/authorship controls
 node scripts/build_claim_audit.js         # Stage 8: claim-to-source audit
 quarto render                     # rebuild the static research site
@@ -35,6 +36,7 @@ npm run validate
 npm run validate:annotation -- doc_001
 npm run pipeline    # validate, concordance, analysis, evidence, reliability, controls, audit
 npm run variants:apparatus # rebuild the textual variant apparatus
+npm run benchmarks:registry # rebuild the external benchmark registry
 npm run site        # quarto render
 ```
 
@@ -81,7 +83,7 @@ lincoln-analysis/
 │   ├── concordance.json         # Stage 5: corpus-wide index
 │   ├── evidence/                 # Stage 4A: generated evidence-chain records
 │   ├── reliability/              # Stage 4B: reliability sample and adjudication artifacts
-│   ├── metadata/                 # corpus register and textual variant apparatus
+│   ├── metadata/                 # corpus register, textual variants, external benchmark registry
 │   ├── audit/                    # Stage 8: claim-to-source audit
 │   ├── lcc/                     # LCC XML dataset (gitignored, downloaded on demand)
 │   └── lcc_subset/              # parsed LCC CSV (gitignored)
@@ -108,6 +110,7 @@ lincoln-analysis/
 ├── scaffolds/                   # scaffold prompts and LCC documentation
 ├── docs/                        # developer/process docs (not rendered to site)
 │   ├── PROMPT.md                # master entry point for Claude Code
+│   ├── methodology/external-benchmarks.md # Stage 7 benchmark registry
 │   ├── methodology/textual-variant-apparatus.md # source-risk apparatus
 │   ├── DECISIONS.md             # resolved and open design decisions
 │   ├── QUARTO.md                # Quarto site configuration notes
@@ -130,6 +133,7 @@ Key public-facing guide pages:
 - `methods_summary.md` — accessible summary of the methodology
 - `analysis_overview.md` — landing page for the Analysis section
 - `data_reproducibility.md` — data pipeline and reproducibility notes
+- `docs/methodology/external-benchmarks.md` — implemented and candidate external benchmark corpora
 - `docs/methodology/textual-variant-apparatus.md` — source-risk apparatus for risk-flagged documents
 - `annotation_schema_repair.md` — record of the Stage 4 schema drift event, repair, and new validation safeguards
 - `synthesis/final_conclusions.md` — final synthesis endpoint
@@ -159,7 +163,7 @@ Key public-facing guide pages:
 | 5 | Concordance (corpus-wide index) | `data/concordance.json` |
 | 6 | Analysis (cluster statistics) | `analysis/` |
 | 6A | Controlled analysis outputs | `analysis/controlled-analysis.json`, `analysis/controlled_outputs.md` |
-| 7 | LCC benchmark — domain coverage against LCC Metaphor Dataset | `reports/stage7/` |
+| 7 | External benchmark registry and LCC domain coverage | `data/metadata/external-benchmark-corpora.json`, `docs/methodology/external-benchmarks.md`, `reports/stage7/` |
 | 8 | Claim-to-source audit | `data/audit/claim-audit.json`, `synthesis/claim_audit.md` |
 
 ## Current Status
@@ -178,14 +182,14 @@ Key public-facing guide pages:
 | 5 | ✓ Complete | `data/concordance.json` — 136 instances indexed; 51 high-confidence (≥0.90); 7 suppression instances; completed 2026-04-30 |
 | 6 | ✓ Complete | `analysis/analysis.json` — cluster_01: 34, cluster_02: 17, cluster_03: 20, cluster_04: 8, cluster_05: 35, cluster_06: 22; 144 absence flag instances; completed 2026-04-30 |
 | 6A | ✓ Complete | `analysis/controlled-analysis.json` and `analysis/controlled_outputs.md` — full corpus plus `authorship_confidence >= 0.95` views |
-| 7 | ⚙ Scaffolded | Scripts ready; requires LCC data download to run full comparison. Lincoln-only summary always available via `npm run stage7:eval`. See `scaffolds/inject-lcc-api_metaphor.md`. |
+| 7 | ⚙ Implemented/scaffolded | LCC `en_small` baseline supported; LCC `en_large` optional path supported; external benchmark registry documents candidate Union, Confederate, abolitionist, and presidential comparison corpora. Lincoln-only summary always available via `npm run stage7:eval`. |
 | 8 | ✓ Complete | `data/audit/claim-audit.json` and `synthesis/claim_audit.md` — six major claim audit entries |
 
 The research site rebuilds automatically on every push via GitHub Actions (`quarto render`).
 
 ## Stage 7: LCC Metaphor Dataset Verification
 
-Stage 7 benchmarks Lincoln's annotation system against the [LCC Metaphor Dataset](https://github.com/lcc-api/metaphor) — the largest public English metaphor corpus (~17k / ~87k annotations with source/target concept labels).
+Stage 7 benchmarks Lincoln's annotation system against the [LCC Metaphor Dataset](https://github.com/lcc-api/metaphor) and documents candidate contemporary comparison corpora. The LCC path supports the English small subset and an optional English large subset; raw XML and parsed CSV files are downloaded or generated locally and are not committed.
 
 The comparison is at the **conceptual domain level**: which LCC source-concept categories (BODY, WAR, RELIGION, CONTRACT, etc.) appear in Lincoln's six clusters, and which are systematically absent. This is analytically significant: Lincoln's narrow domain selection is itself a finding.
 
@@ -193,11 +197,17 @@ The comparison is at the **conceptual domain level**: which LCC source-concept c
 # Lincoln-only cluster summary (no external data needed):
 npm run stage7:eval
 
-# Full comparison (requires data/lcc/en_small.xml from https://github.com/lcc-api/metaphor):
+# Small LCC comparison (downloads en_small.xml on demand):
 npm run stage7
+
+# Large LCC comparison (downloads en_large.xml on demand):
+npm run stage7:large
+
+# Benchmark registry:
+npm run benchmarks:registry
 ```
 
-Report is written to `reports/stage7/LCC_report.md`. See `scaffolds/inject-lcc-api_metaphor.md` for full documentation.
+Reports are written to `reports/stage7/LCC_report.md`. Benchmark choices and candidate comparison corpora are documented in `docs/methodology/external-benchmarks.md`.
 
 ## How Stages 1–3 Were Built
 

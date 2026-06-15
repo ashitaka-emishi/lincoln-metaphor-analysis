@@ -75,6 +75,8 @@ website:
             text: Reliability Workflow
           - href: docs/methodology/reliability-results.md
             text: Reliability Results
+          - href: docs/methodology/external-benchmarks.md
+            text: External Benchmarks
           - href: docs/upgrade.md
             text: Pipeline Upgrade
           - href: comparison/theoretical_framework.md
