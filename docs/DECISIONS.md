@@ -37,6 +37,11 @@
 **Rationale**: Rewriting all Stage 4 files would risk silent data loss and violate the project's stage-immutability discipline. A generated derivative layer can normalize MIPVU, provenance, CMT, Koenigsberg, confidence, agency, and claim-anchor fields while preserving permanent sentence IDs and original annotations.
 **Implication**: Publication claims should cite Stage 4A evidence records for audit trails. Future schema migrations can tighten legacy free-text fields only through documented migration scripts and validation updates.
 
+### Reliability as a generated Stage 4B layer
+**Decision**: Define reliability through generated Stage 4B artifacts: `data/reliability/reliability-sample.json`, `data/reliability/double-coding-template.csv`, and `data/reliability/adjudication-log.csv`.
+**Rationale**: Reliability work needs to be auditable without editing validated Stage 4 files. A generated sample can select documents from the corpus manifest and Stage 4A evidence layer, expose blank coding templates to independent coders, and keep adjudication traceable.
+**Implication**: Reliability reporting must distinguish MIPVU identification reliability from CMT and Koenigsberg interpretive agreement. Any adjudicated annotation change requires a documented migration or derivative correction layer, not an ad hoc Stage 4 edit.
+
 ---
 
 ## Unresolved

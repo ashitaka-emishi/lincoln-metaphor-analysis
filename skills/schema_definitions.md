@@ -363,6 +363,60 @@ Migration rule:
 
 ---
 
+## Stage 4B: Reliability Sample and Adjudication Artifacts
+
+Stage 4B is a generated reliability layer. It does not overwrite Stage 4 or Stage 4A.
+
+Generate with:
+
+```bash
+npm run reliability:sample
+```
+
+Files:
+
+- `data/reliability/reliability-sample.json`
+- `data/reliability/double-coding-template.csv`
+- `data/reliability/adjudication-log.csv`
+
+Top-level JSON shape:
+
+```json
+{
+  "version": "1.0",
+  "generated": "ISO date string",
+  "status": "sample_defined_adjudication_pending",
+  "source_stage": "stage4a_annotation_evidence",
+  "sample_policy": {
+    "unit": "document_stratified_reliability_sample",
+    "corpus_documents_total": 28,
+    "sample_documents_total": 5,
+    "sample_percentage": 17.86,
+    "allowed_percentage_range": [10, 20],
+    "selection_method": "purposive stratified sample..."
+  },
+  "double_coding_policy": {},
+  "agreement_measures": {},
+  "disagreement_categories": [],
+  "documents": [],
+  "identification_units": [],
+  "field_agreement_units": [],
+  "totals": {},
+  "pipeline_log": []
+}
+```
+
+Required reliability rules:
+
+- The sample must stay within 10-20 percent of corpus documents unless the research design is revised.
+- `identification_units` test MIPVU lexical-unit identification and boundary decisions.
+- `field_agreement_units` test agreement on CMT, Koenigsberg, absence, ambiguity, and confidence fields for known spans.
+- `double-coding-template.csv` must not expose reference values to coders.
+- `adjudication-log.csv` records disagreements with field name, coder values, category, adjudicated value, rationale, adjudicator, date, and follow-up issue when needed.
+- Identification reliability and interpretive agreement must be reported separately.
+
+---
+
 ## Stage 5: Concordance JSON
 
 File: `data/concordance.json`
