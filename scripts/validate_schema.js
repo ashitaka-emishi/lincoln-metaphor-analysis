@@ -221,7 +221,7 @@ function validateAllAnnotated() {
 // ─── Concordance ─────────────────────────────────────────────────────────────
 
 function validateConcordance() {
-  const filePath = path.join(ROOT, 'concordance', 'concordance.json');
+  const filePath = path.join(ROOT, 'data', 'concordance.json');
   console.log('\nValidating concordance.json...');
   if (!exists(filePath)) { err(filePath, 'File not found'); return; }
   const data = readJSON(filePath);

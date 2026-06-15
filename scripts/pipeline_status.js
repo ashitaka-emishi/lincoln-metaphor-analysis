@@ -61,8 +61,8 @@ function main() {
     const s2 = exists(path.join(textDir, `${id}.md`)) ||
                exists(path.join(textDir, `${id}.txt`));
 
-    // Stage 3: segmented/{id}_segmented.json
-    const s3 = exists(path.join(segDir, `${id}_segmented.json`));
+    // Stage 3: segmented/{id}.json
+    const s3 = exists(path.join(segDir, `${id}.json`));
 
     // Stage 4: annotated/{id}_annotated.json
     const s4 = exists(path.join(annDir, `${id}_annotated.json`));
