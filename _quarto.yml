@@ -77,6 +77,8 @@ website:
             text: Reliability Results
           - href: docs/methodology/external-benchmarks.md
             text: External Benchmarks
+          - href: docs/methodology/reception-evidence.md
+            text: Reception Evidence
           - href: docs/upgrade.md
             text: Pipeline Upgrade
           - href: comparison/theoretical_framework.md

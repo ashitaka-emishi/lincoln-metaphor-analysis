@@ -872,6 +872,126 @@ function validateExternalBenchmarkRegistry() {
   if (!exists(pagePath)) err(pagePath, 'File not found');
 }
 
+// ─── Reception Evidence Registry ────────────────────────────────────────────
+
+function validateReceptionEvidenceRegistry() {
+  const filePath = path.join(ROOT, 'data', 'metadata', 'reception-evidence-registry.json');
+  const pagePath = path.join(ROOT, 'docs', 'methodology', 'reception-evidence.md');
+  console.log('\nValidating reception-evidence-registry.json...');
+
+  if (!exists(filePath)) { err(filePath, 'File not found'); return; }
+  const data = readJSON(filePath);
+  if (!data) return;
+
+  const required = [
+    'version',
+    'generated',
+    'status',
+    'source',
+    'placement_decision',
+    'claim_boundary',
+    'metadata_fields',
+    'source_types',
+    'candidate_sources',
+    'evidence_rules',
+    'total_candidate_sources',
+  ];
+  for (const field of required) {
+    if (data[field] === undefined) err(filePath, `Missing field: ${field}`);
+  }
+  if (data.status !== 'complete') err(filePath, `Unexpected status: ${data.status}`);
+  if (data.source !== 'scripts/build_reception_evidence_registry.py') {
+    err(filePath, `Unexpected source: ${data.source}`);
+  }
+
+  if (!data.placement_decision || !data.placement_decision.decision || !data.placement_decision.rationale) {
+    err(filePath, 'placement_decision requires decision and rationale');
+  }
+  if (!data.claim_boundary ||
+      !data.claim_boundary.rhetoric_in_text ||
+      !data.claim_boundary.audience_reception ||
+      !data.claim_boundary.prohibited_inference) {
+    err(filePath, 'claim_boundary requires rhetoric_in_text, audience_reception, and prohibited_inference');
+  }
+
+  if (!Array.isArray(data.metadata_fields) || data.metadata_fields.length === 0) {
+    err(filePath, 'metadata_fields must be a non-empty array');
+  } else {
+    const metadataFields = new Set();
+    for (const field of data.metadata_fields) {
+      const loc = field.field || 'NO_FIELD';
+      if (!field.field) err(filePath, 'metadata field missing field name');
+      else if (metadataFields.has(field.field)) err(filePath, `Duplicate metadata field: ${field.field}`);
+      metadataFields.add(field.field);
+      if (field.required !== true) err(filePath, `${loc}: metadata fields must be required`);
+      if (!field.rule) err(filePath, `${loc}: missing metadata rule`);
+    }
+    for (const expected of ['source_url_or_archival_citation', 'lincoln_text_anchor', 'claim_allowed']) {
+      if (!metadataFields.has(expected)) err(filePath, `Missing required metadata field: ${expected}`);
+    }
+  }
+
+  if (!Array.isArray(data.source_types) || data.source_types.length === 0) {
+    err(filePath, 'source_types must be a non-empty array');
+  }
+  const sourceTypes = new Set();
+  for (const sourceType of data.source_types || []) {
+    const loc = sourceType.source_type_id || 'NO_SOURCE_TYPE_ID';
+    if (!sourceType.source_type_id) err(filePath, 'source type missing source_type_id');
+    else if (sourceTypes.has(sourceType.source_type_id)) err(filePath, `Duplicate source_type_id: ${sourceType.source_type_id}`);
+    sourceTypes.add(sourceType.source_type_id);
+    for (const field of ['name', 'included_if', 'excluded_if', 'evidence_use']) {
+      if (!sourceType[field]) err(filePath, `${loc}: missing field '${field}'`);
+    }
+  }
+
+  if (!Array.isArray(data.candidate_sources) || data.candidate_sources.length === 0) {
+    err(filePath, 'candidate_sources must be a non-empty array');
+  }
+  if (data.total_candidate_sources !== (data.candidate_sources || []).length) {
+    err(filePath, `total_candidate_sources ${data.total_candidate_sources} does not match candidate_sources length ${(data.candidate_sources || []).length}`);
+  }
+
+  const sourceIds = new Set();
+  const candidateSourceTypes = new Set();
+  for (const source of data.candidate_sources || []) {
+    const loc = source.source_id || 'NO_SOURCE_ID';
+    if (!source.source_id) err(filePath, 'candidate source missing source_id');
+    else if (sourceIds.has(source.source_id)) err(filePath, `Duplicate source_id: ${source.source_id}`);
+    sourceIds.add(source.source_id);
+
+    for (const field of ['name', 'source_type', 'status', 'source_url', 'archival_citation', 'rights_note', 'inclusion_rationale', 'evidence_limits']) {
+      if (source[field] === undefined || source[field] === null || source[field] === '') {
+        err(filePath, `${loc}: missing field '${field}'`);
+      }
+    }
+    if (source.source_type && !sourceTypes.has(source.source_type)) {
+      err(filePath, `${loc}: unknown source_type '${source.source_type}'`);
+    }
+    if (source.source_type) candidateSourceTypes.add(source.source_type);
+    if (source.status !== 'candidate_not_collected') {
+      err(filePath, `${loc}: status must be candidate_not_collected until item-level evidence exists`);
+    }
+    if (source.source_url && !/^https?:\/\//.test(source.source_url)) {
+      err(filePath, `${loc}: source_url must be an http(s) URL`);
+    }
+    if (!Array.isArray(source.evidence_limits) || source.evidence_limits.length === 0) {
+      err(filePath, `${loc}: evidence_limits must be a non-empty array`);
+    }
+  }
+  for (const sourceType of sourceTypes) {
+    if (!candidateSourceTypes.has(sourceType)) {
+      err(filePath, `No candidate source represents source_type '${sourceType}'`);
+    }
+  }
+
+  if (!Array.isArray(data.evidence_rules) || data.evidence_rules.length === 0) {
+    err(filePath, 'evidence_rules must be a non-empty array');
+  }
+
+  if (!exists(pagePath)) err(pagePath, 'File not found');
+}
+
 // ─── Controlled Analysis ────────────────────────────────────────────────────
 
 function validateControlledAnalysis() {
@@ -1035,6 +1155,7 @@ function main() {
   validateReliabilityArtifacts();
   validateTextualVariantApparatus();
   validateExternalBenchmarkRegistry();
+  validateReceptionEvidenceRegistry();
   validateControlledAnalysis();
   validateClaimAudit();
 

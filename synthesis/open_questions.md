@@ -80,7 +80,7 @@ draft: false
 
 ## Directions for Further Research
 
-1. **Reception and audience**: How did Lincoln's audiences understand and respond to his metaphors? Contemporary newspaper accounts, diary entries, and letters provide partial evidence.
+1. **Reception and audience**: How did Lincoln's audiences understand and respond to his metaphors? The [Reception Evidence](../docs/methodology/reception-evidence.md) protocol now defines candidate newspaper, correspondence, diary, meeting-report, and commentary sources, plus the item-level evidence rules required before any reception claim can be made.
 
 2. **Contemporaries**: How do Lincoln's clusters compare to other Union political figures (Seward, Chase, Sumner)? Does the experiment/proof cluster appear in other Republicans, or is it Lincoln-specific?
 

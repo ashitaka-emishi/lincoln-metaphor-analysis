@@ -101,11 +101,12 @@ The difference in political outcome is not incidental. A rhetoric that has no pa
 - Lincoln would have achieved full racial equality had he lived — the metaphor system's structural limitations suggest otherwise
 - The absence of disease/purification logic explains Lincoln's political choices fully — it explains the rhetorical structure, not the whole political history
 - Hitler's rhetoric was driven entirely by metaphor structure — Koenigsberg's analysis is one framework, not the complete explanation of the Holocaust
+- How audiences received, repeated, resisted, or transformed Lincoln's rhetoric — those claims require the separate [Reception Evidence](../docs/methodology/reception-evidence.md) protocol
 
 **Rival readings preserved**:
 - Lincoln's restraint may reflect political coalition management as much as metaphor structure.
 - The Providence frame may be sincere theology, strategic self-effacement, or both.
-- The corpus establishes public rhetorical structure, not audience reception or private psychological causation.
+- The corpus establishes public rhetorical structure, not audience reception or private psychological causation; reception claims require separate item-level evidence.
 
 ---
 
