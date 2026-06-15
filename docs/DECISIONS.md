@@ -42,6 +42,11 @@
 **Rationale**: Reliability work needs to be auditable without editing validated Stage 4 files. A generated sample can select documents from the corpus manifest and Stage 4A evidence layer, expose blank coding templates to independent coders, and keep adjudication traceable.
 **Implication**: Reliability reporting must distinguish MIPVU identification reliability from CMT and Koenigsberg interpretive agreement. Any adjudicated annotation change requires a documented migration or derivative correction layer, not an ad hoc Stage 4 edit.
 
+### Controlled analysis as Stage 6A
+**Decision**: Add generated Stage 6A controlled outputs at `analysis/controlled-analysis.json` and `analysis/controlled_outputs.md`.
+**Rationale**: Raw frequency counts cannot support publication claims until they are checked by register and by the `authorship_confidence >= 0.95` subset. The corpus manifest is the canonical source for register and authorship-confidence metadata, so Stage 4A and Stage 6A must prefer manifest values over legacy instance metadata.
+**Implication**: Synthesis prose should cite full-corpus counts only as descriptive. Publication-stable claims must either survive the controlled views or explicitly name the register/authorship limitation.
+
 ---
 
 ## Unresolved

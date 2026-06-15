@@ -530,6 +530,94 @@ function validateReliabilityArtifacts() {
   ]);
 }
 
+// ─── Controlled Analysis ────────────────────────────────────────────────────
+
+function validateControlledAnalysis() {
+  const filePath = path.join(ROOT, 'analysis', 'controlled-analysis.json');
+  const pagePath = path.join(ROOT, 'analysis', 'controlled_outputs.md');
+  console.log('\nValidating controlled-analysis.json...');
+
+  if (!exists(filePath)) { err(filePath, 'File not found'); return; }
+  const data = readJSON(filePath);
+  if (!data) return;
+
+  const evidence = readJSON(path.join(ROOT, 'data', 'evidence', 'annotation-evidence.json'));
+  if (!evidence) return;
+
+  const required = ['version', 'status', 'source', 'confidence_threshold', 'subsets', 'interpretation_rule'];
+  for (const field of required) {
+    if (data[field] === undefined) err(filePath, `Missing field: ${field}`);
+  }
+
+  if (data.status !== 'complete') err(filePath, `Unexpected status: ${data.status}`);
+  if (data.source !== 'data/evidence/annotation-evidence.json') err(filePath, `Unexpected source: ${data.source}`);
+  if (!data.confidence_threshold || data.confidence_threshold.field !== 'document.authorship_confidence') {
+    err(filePath, 'confidence_threshold.field must be document.authorship_confidence');
+  }
+  if (!data.confidence_threshold || data.confidence_threshold.value !== 0.95) {
+    err(filePath, 'confidence_threshold.value must be 0.95');
+  }
+
+  if (!Array.isArray(data.subsets)) {
+    err(filePath, 'subsets must be an array');
+    return;
+  }
+
+  const subsetMap = new Map(data.subsets.map(subset => [subset.name, subset]));
+  for (const name of ['full_corpus', 'high_authorship_confidence_0_95']) {
+    if (!subsetMap.has(name)) err(filePath, `Missing subset: ${name}`);
+  }
+
+  const expectedHighConfidence = (evidence.records || [])
+    .filter(record => record.document && record.document.authorship_confidence >= 0.95)
+    .length;
+
+  const requiredClusterRows = ['cluster_by_register', 'cluster_by_period', 'cluster_by_document'];
+  const requiredAbsenceRows = ['absence_by_register', 'absence_by_period', 'absence_by_document'];
+
+  for (const subset of data.subsets) {
+    if (typeof subset.total_instances !== 'number') err(filePath, `${subset.name}: total_instances must be a number`);
+    if (typeof subset.total_documents !== 'number') err(filePath, `${subset.name}: total_documents must be a number`);
+    if (!subset.cluster_totals) err(filePath, `${subset.name}: missing cluster_totals`);
+    else {
+      for (const cluster of VALID_CLUSTERS) {
+        if (typeof subset.cluster_totals[cluster] !== 'number') {
+          err(filePath, `${subset.name}: missing cluster total for ${cluster}`);
+        }
+      }
+    }
+    if (!subset.absence_totals) err(filePath, `${subset.name}: missing absence_totals`);
+    else {
+      for (const flag of VALID_ABSENCE_FLAGS) {
+        if (typeof subset.absence_totals[flag] !== 'number') {
+          err(filePath, `${subset.name}: missing absence total for ${flag}`);
+        }
+      }
+    }
+    for (const table of requiredClusterRows) {
+      if (!Array.isArray(subset[table]) || subset[table].length === 0) {
+        err(filePath, `${subset.name}: ${table} must be a non-empty array`);
+      }
+    }
+    for (const table of requiredAbsenceRows) {
+      if (!Array.isArray(subset[table]) || subset[table].length === 0) {
+        err(filePath, `${subset.name}: ${table} must be a non-empty array`);
+      }
+    }
+  }
+
+  const fullSubset = subsetMap.get('full_corpus');
+  if (fullSubset && fullSubset.total_instances !== evidence.records.length) {
+    err(filePath, `full_corpus total_instances ${fullSubset.total_instances} does not match evidence records ${evidence.records.length}`);
+  }
+  const highSubset = subsetMap.get('high_authorship_confidence_0_95');
+  if (highSubset && highSubset.total_instances !== expectedHighConfidence) {
+    err(filePath, `high_authorship_confidence_0_95 total_instances ${highSubset.total_instances} does not match expected ${expectedHighConfidence}`);
+  }
+
+  if (!exists(pagePath)) err(pagePath, 'File not found');
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 function main() {
@@ -541,6 +629,7 @@ function main() {
   validateAnalysis();
   validateEvidenceChains();
   validateReliabilityArtifacts();
+  validateControlledAnalysis();
 
   console.log('\n' + '='.repeat(40));
   if (errorCount === 0) {

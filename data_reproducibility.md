@@ -13,6 +13,7 @@ node scripts/pipeline_status.js
 node scripts/validate_schema.js
 node scripts/build_evidence_chains.js
 node scripts/build_reliability_sample.js
+node scripts/build_controlled_analysis.js
 node scripts/build_concordance.js
 node scripts/run_analysis.js
 ```
@@ -23,7 +24,7 @@ The npm shortcut is:
 npm run pipeline
 ```
 
-That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`, and regenerates the Stage 4B reliability sample artifacts.
+That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`, regenerates the Stage 4B reliability sample artifacts, and writes the Stage 6A controlled-analysis outputs.
 
 ## Stage 4A: Evidence Chains
 
@@ -50,6 +51,21 @@ Outputs:
 - `data/reliability/adjudication-log.csv`
 
 See [Reliability Workflow](docs/methodology/reliability-report.md) for the sample rationale, coding workflow, disagreement categories, and agreement measures.
+
+## Stage 6A: Controlled Analysis
+
+Stage 6A is the publication-control layer for aggregate claims. It reads the Stage 4A evidence-chain file and writes full-corpus plus `authorship_confidence >= 0.95` views by register, period, document, cluster, and absence flag.
+
+```bash
+npm run analysis:controlled
+```
+
+Outputs:
+
+- `analysis/controlled-analysis.json`
+- `analysis/controlled_outputs.md`
+
+See [Controlled Outputs](analysis/controlled_outputs.md) for the rendered tables.
 
 Current status: Stages 1–6 are complete across all 28 documents. Stage 7 (LCC benchmark validation) is scaffolded and runnable; the LCC dataset is not committed to the repository but is downloaded on demand.
 

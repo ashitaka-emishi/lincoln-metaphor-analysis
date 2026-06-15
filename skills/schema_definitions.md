@@ -462,3 +462,58 @@ See `concordance.json` for the full stub. Key shape:
 File: `analysis/analysis.json`
 
 See `analysis.json` for the full stub. Key shape: six `cluster_analyses` entries, `systematic_absence` block, `cross_cluster` block, `koenigsberg_master_comparison` block. All computed fields null at stub stage; manually-written fields (analyst_notes, political_moral_work, what_metaphor_conceals, hitler_comparison fields) preserved through updates.
+
+---
+
+## Stage 6A: Controlled Analysis JSON
+
+File: `analysis/controlled-analysis.json`
+
+Stage 6A is a generated publication-control layer. Generate with:
+
+```bash
+npm run analysis:controlled
+```
+
+Top-level shape:
+
+```json
+{
+  "version": "1.0",
+  "generated": "ISO date string",
+  "status": "complete",
+  "source": "data/evidence/annotation-evidence.json",
+  "confidence_threshold": {
+    "field": "document.authorship_confidence",
+    "operator": ">=",
+    "value": 0.95
+  },
+  "subsets": [
+    {
+      "name": "full_corpus",
+      "total_instances": 136,
+      "total_documents": 27,
+      "cluster_totals": {},
+      "absence_totals": {},
+      "cluster_by_register": [],
+      "cluster_by_period": [],
+      "cluster_by_document": [],
+      "absence_by_register": [],
+      "absence_by_period": [],
+      "absence_by_document": []
+    },
+    {
+      "name": "high_authorship_confidence_0_95"
+    }
+  ],
+  "interpretation_rule": "Raw counts are descriptive; publication claims must be checked against register distribution and the high-authorship-confidence subset."
+}
+```
+
+The paired public page is generated at `analysis/controlled_outputs.md`.
+
+Required rules:
+
+- The high-confidence subset is based on document authorship confidence, not annotation confidence.
+- Register, period, and authorship-confidence controls must use the canonical manifest values carried through Stage 4A evidence records.
+- Raw frequency claims should not be treated as publication-stable unless the controlled outputs preserve the pattern or the prose names the limitation.

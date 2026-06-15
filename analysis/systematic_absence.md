@@ -4,7 +4,7 @@ draft: false
 
 # Systematic Absence Analysis
 
-*This document analyzes the 144 absence flag instances across the 136-instance corpus. Absence flags mark entities that the metaphor's entailments make structurally available but that are absent from the actual annotation.*
+*This document analyzes the 144 absence flag instances across the 136-instance corpus. Absence flags mark entities that the metaphor's entailments make structurally available but that are absent from the actual annotation. Read these raw counts with the register and authorship-confidence controls in [Controlled Outputs](controlled_outputs.md).*
 
 ---
 

@@ -4,7 +4,7 @@ draft: false
 
 # Diachronic Map — Metaphor Shift Across Lincoln's Corpus (1838–1865)
 
-*Methodology: see skills/diachronic_tracking.md. All frequency claims register-controlled where possible.*
+*Methodology: see skills/diachronic_tracking.md. Raw frequency claims are descriptive; use [Controlled Outputs](controlled_outputs.md) for register and `authorship_confidence >= 0.95` checks before treating a pattern as publication-stable.*
 
 ---
 
