@@ -9,6 +9,8 @@ draft: false
 **Target domain**: obligation to the founders
 **Instance count**: 35 (first attested 1838-01-27; last attested 1863-11-19)
 
+**Publication status**: Evidence-backed cluster profile. Counts derive from Stage 6; publication claims using this cluster should be checked against [Controlled Outputs](../controlled_outputs.md) and the relevant [Claim-To-Source Audit](../../synthesis/claim_audit.md) entries.
+
 ---
 
 ## CMT Profile

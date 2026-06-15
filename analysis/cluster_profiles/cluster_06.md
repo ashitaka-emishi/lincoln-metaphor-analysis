@@ -9,6 +9,8 @@ draft: false
 **Target domain**: the war's cause and meaning
 **Instance count**: 22 (first attested 1852-07-06; last attested 1865-04-11)
 
+**Publication status**: Evidence-backed cluster profile. Counts derive from Stage 6; publication claims using this cluster should be checked against [Controlled Outputs](../controlled_outputs.md) and the relevant [Claim-To-Source Audit](../../synthesis/claim_audit.md) entries.
+
 ---
 
 ## CMT Profile

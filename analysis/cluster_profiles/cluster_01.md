@@ -9,6 +9,8 @@ draft: false
 **Target domain**: the American Union
 **Instance count**: 34 (first attested 1838-01-27; last attested 1865-03-04)
 
+**Publication status**: Evidence-backed cluster profile. Counts derive from Stage 6; publication claims using this cluster should be checked against [Controlled Outputs](../controlled_outputs.md) and the relevant [Claim-To-Source Audit](../../synthesis/claim_audit.md) entries.
+
 ---
 
 ## CMT Profile

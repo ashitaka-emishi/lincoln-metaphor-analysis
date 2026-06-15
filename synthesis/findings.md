@@ -6,6 +6,8 @@ draft: false
 
 *Based on 136 annotated instances across 28 documents (1838–1865), six metaphor clusters, and 144 absence flags. Findings 2 and 4 are additionally supported by Stage 7 external validation against the LCC Metaphor Dataset (8,724 general English annotations). See [LCC Benchmark Validation](../analysis/lcc_validation.md) and [Claim-To-Source Audit](claim_audit.md).*
 
+**Publication status**: Evidence-backed synthesis page. Claims are stated at publication strength only when they have a Stage 4A evidence chain, Stage 6A controlled-output context, and a claim-audit handle. Remaining interpretive uncertainties are named in the limitations and open-questions sections.
+
 ---
 
 ## Finding 1: Systematic Absence of Enslaved People as Agents

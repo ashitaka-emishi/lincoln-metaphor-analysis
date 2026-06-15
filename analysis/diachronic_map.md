@@ -6,6 +6,8 @@ draft: false
 
 *Methodology: see skills/diachronic_tracking.md. Raw frequency claims are descriptive; use [Controlled Outputs](controlled_outputs.md) for register and `authorship_confidence >= 0.95` checks before treating a pattern as publication-stable.*
 
+**Publication status**: Evidence-backed analysis page. The diachronic claims here are usable for synthesis when paired with controlled-output checks and claim-audit entries, especially [CLAIM-003](../synthesis/claim_audit.md#claim-003) and [CLAIM-005](../synthesis/claim_audit.md#claim-005).
+
 ---
 
 ## Five-Phase Structure
