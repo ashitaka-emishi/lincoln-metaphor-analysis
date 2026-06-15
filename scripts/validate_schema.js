@@ -295,6 +295,81 @@ function validateAnalysis() {
   if (!data.koenigsberg_master_comparison) err(filePath, 'Missing koenigsberg_master_comparison block');
 }
 
+// ─── Evidence Chain JSON ────────────────────────────────────────────────────
+
+function validateEvidenceChains() {
+  const filePath = path.join(ROOT, 'data', 'evidence', 'annotation-evidence.json');
+  console.log('\nValidating annotation-evidence.json...');
+  if (!exists(filePath)) { err(filePath, 'File not found'); return; }
+  const data = readJSON(filePath);
+  if (!data) return;
+
+  const required = ['version', 'status', 'source_stage', 'migration_policy', 'total_records', 'records', 'indexes'];
+  for (const field of required) {
+    if (data[field] === undefined) err(filePath, `Missing field: ${field}`);
+  }
+
+  if (data.migration_policy !== 'preserve_stage4_generate_derivative') {
+    err(filePath, `Unexpected migration_policy: ${data.migration_policy}`);
+  }
+
+  if (!Array.isArray(data.records)) {
+    err(filePath, 'records must be an array');
+    return;
+  }
+
+  if (data.total_records !== data.records.length) {
+    err(filePath, `total_records ${data.total_records} does not match records length ${data.records.length}`);
+  }
+
+  const seenAuditIds = new Set();
+  for (const record of data.records) {
+    const loc = record.audit_id || 'NO_AUDIT_ID';
+    if (!record.audit_id) err(filePath, 'record missing audit_id');
+    else if (seenAuditIds.has(record.audit_id)) err(filePath, `Duplicate audit_id: ${record.audit_id}`);
+    seenAuditIds.add(record.audit_id);
+
+    if (!record.document || !record.document.id) err(filePath, `${loc}: missing document.id`);
+    if (!record.document || !record.document.source_url) err(filePath, `${loc}: missing document.source_url`);
+    if (!record.location || !record.location.sentence_id) err(filePath, `${loc}: missing location.sentence_id`);
+    if (!record.location || !record.location.span_text) err(filePath, `${loc}: missing location.span_text`);
+    if (!record.lexical_unit) err(filePath, `${loc}: missing lexical_unit`);
+    else {
+      if (!record.lexical_unit.text) err(filePath, `${loc}: lexical_unit.text missing`);
+      if (record.lexical_unit.mipvu_decision !== 'metaphor_related') {
+        err(filePath, `${loc}: lexical_unit.mipvu_decision must be metaphor_related`);
+      }
+      if (!record.lexical_unit.contextual_meaning) err(filePath, `${loc}: lexical_unit.contextual_meaning missing`);
+      if (!record.lexical_unit.basic_meaning) err(filePath, `${loc}: lexical_unit.basic_meaning missing`);
+    }
+
+    if (!record.cmt || !VALID_CLUSTERS.has(record.cmt.cluster_id)) {
+      err(filePath, `${loc}: cmt.cluster_id invalid or missing`);
+    }
+    if (!record.cmt || !Array.isArray(record.cmt.entailments)) {
+      err(filePath, `${loc}: cmt.entailments must be an array`);
+    }
+    if (!record.koenigsberg || !VALID_FANTASY_TYPES.has(record.koenigsberg.fantasy_type)) {
+      err(filePath, `${loc}: koenigsberg.fantasy_type invalid or missing`);
+    }
+    if (!record.agency_absence || !Array.isArray(record.agency_absence.absence_flags)) {
+      err(filePath, `${loc}: agency_absence.absence_flags must be an array`);
+    } else {
+      for (const flag of record.agency_absence.absence_flags) {
+        if (!VALID_ABSENCE_FLAGS.has(flag)) err(filePath, `${loc}: invalid absence_flag '${flag}'`);
+      }
+    }
+    if (!record.confidence || typeof record.confidence.score !== 'number') {
+      err(filePath, `${loc}: confidence.score must be a number`);
+    } else if (record.confidence.score < 0.5 || record.confidence.score > 1.0) {
+      err(filePath, `${loc}: confidence.score out of range [0.5, 1.0]: ${record.confidence.score}`);
+    }
+    if (!record.claim_anchor || !record.claim_anchor.document_id || !record.claim_anchor.sentence_id || !record.claim_anchor.instance_id) {
+      err(filePath, `${loc}: incomplete claim_anchor`);
+    }
+  }
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 function main() {
@@ -304,6 +379,7 @@ function main() {
   validateAllAnnotated();
   validateConcordance();
   validateAnalysis();
+  validateEvidenceChains();
 
   console.log('\n' + '='.repeat(40));
   if (errorCount === 0) {

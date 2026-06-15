@@ -61,6 +61,8 @@ website:
             text: Corpus Register
           - href: docs/methodology/annotation-codebook.md
             text: Annotation Codebook
+          - href: docs/methodology/evidence-chain-schema.md
+            text: Evidence Chain Schema
           - href: docs/upgrade.md
             text: Pipeline Upgrade
           - href: comparison/theoretical_framework.md

@@ -256,6 +256,113 @@ Same structure as Stage 3, with `metaphor_instances` arrays populated. Each elem
 
 ---
 
+## Stage 4A: Evidence Chain JSON
+
+File: `data/evidence/annotation-evidence.json`
+
+Stage 4A is a generated derivative layer. It preserves Stage 4 annotated JSON as the source of record and normalizes each metaphor instance into a claim-to-source audit record.
+
+Generate with:
+
+```bash
+npm run evidence:chains
+```
+
+Top-level shape:
+
+```json
+{
+  "version": "1.0",
+  "generated": "ISO date string",
+  "status": "complete",
+  "source_stage": "stage4_legacy_annotations",
+  "migration_policy": "preserve_stage4_generate_derivative",
+  "total_records": 136,
+  "records": [],
+  "indexes": {
+    "by_document": {},
+    "by_sentence": {},
+    "by_cluster": {},
+    "by_fantasy_type": {},
+    "by_absence_flag": {},
+    "high_confidence": [],
+    "ambiguous": [],
+    "suppression": []
+  },
+  "pipeline_log": []
+}
+```
+
+Record shape:
+
+```json
+{
+  "audit_id": "inst_00078",
+  "migration_status": "derived_from_stage4_legacy_annotation",
+  "source_stage": "stage4_annotated_json",
+  "source_file": "corpus/annotated/doc_001_annotated.json",
+  "document": {
+    "id": "doc_001",
+    "title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+    "short_title": "Lyceum Address",
+    "date": "1838-01-27",
+    "period": "phase_1_baseline",
+    "genre": "lyceum_address",
+    "register": "formal_public_address",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.98,
+    "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.1 pp.108-115",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:144",
+    "editorial_status": "standard_collected_works_text",
+    "risk_flags": []
+  },
+  "location": {
+    "section_id": "doc_001_s01",
+    "paragraph_id": "doc_001_s01_p02",
+    "sentence_id": "doc_001_s01_p02_s03",
+    "sentence_text": "We, when mounting the stage of existence...",
+    "span_text": "the legal inheritors of these fundamental blessings",
+    "span_char_start": 58,
+    "span_char_end": 108
+  },
+  "lexical_unit": {
+    "text": "the legal inheritors of these fundamental blessings",
+    "mipvu_decision": "metaphor_related",
+    "mipvu_decision_source": "inferred_from_existing_stage4_metaphor_instance",
+    "contextual_meaning": "political institutions as inherited possession",
+    "basic_meaning": "legal inheritance of property or rights",
+    "contrast": true,
+    "comparison": true,
+    "historical_semantics_note": null,
+    "migration_note": "Existing Stage 4 annotations did not separate MIPVU lexical-unit fields..."
+  },
+  "cmt": {},
+  "koenigsberg": {},
+  "agency_absence": {},
+  "confidence": {},
+  "claim_anchor": {
+    "document_id": "doc_001",
+    "sentence_id": "doc_001_s01_p02_s03",
+    "instance_id": "inst_00078",
+    "cluster_id": "cluster_05_fathers_inheritance",
+    "span_text": "the legal inheritors of these fundamental blessings",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:144"
+  }
+}
+```
+
+Migration rule:
+
+- `audit_id` equals the original Stage 4 `instance_id`.
+- `lexical_unit.text` derives from `span_text`.
+- `mipvu_decision` is `metaphor_related` for every existing Stage 4 instance.
+- `contextual_meaning` derives from `cmt.target_domain`.
+- `basic_meaning` derives from `cmt.source_domain`.
+- `contrast` and `comparison` are `true` because Stage 4 only contains accepted metaphor instances.
+- Original Stage 4 files are not overwritten.
+
+---
+
 ## Stage 5: Concordance JSON
 
 File: `data/concordance.json`

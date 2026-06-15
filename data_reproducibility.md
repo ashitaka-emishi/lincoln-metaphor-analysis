@@ -11,6 +11,7 @@ The main scripts are:
 ```bash
 node scripts/pipeline_status.js
 node scripts/validate_schema.js
+node scripts/build_evidence_chains.js
 node scripts/build_concordance.js
 node scripts/run_analysis.js
 ```
@@ -21,7 +22,17 @@ The npm shortcut is:
 npm run pipeline
 ```
 
-That command validates JSON, builds `data/concordance.json`, and computes `analysis/analysis.json`.
+That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, and writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`.
+
+## Stage 4A: Evidence Chains
+
+Stage 4A is a generated derivative layer. It preserves the validated Stage 4 annotation files and normalizes each metaphor instance into a reviewer-facing audit record with document metadata, source provenance, sentence ID, span text, MIPVU-facing lexical-unit fields, CMT mapping, Koenigsberg interpretation, absence/agency fields, confidence metadata, and claim anchors.
+
+```bash
+npm run evidence:chains
+```
+
+See [Evidence Chain Schema](docs/methodology/evidence-chain-schema.md) for the full record shape and migration rule.
 
 Current status: Stages 1–6 are complete across all 28 documents. Stage 7 (LCC benchmark validation) is scaffolded and runnable; the LCC dataset is not committed to the repository but is downloaded on demand.
 
