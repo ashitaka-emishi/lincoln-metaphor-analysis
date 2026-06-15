@@ -1,0 +1,675 @@
+{
+  "version": "1.0",
+  "generated": "2026-06-15",
+  "status": "complete",
+  "source_manifest": "corpus/corpus_manifest.json",
+  "source_annotations": "corpus/annotated",
+  "migration_policy": "preserve_stage4_record_source_risk_derivative",
+  "interpretation_rule": "Source-risk caveats qualify publication claims but do not change Stage 4 annotations unless a variant affects metaphor span, mapping, cluster assignment, or authorship attribution.",
+  "total_documents": 13,
+  "records": [
+    {
+      "apparatus_id": "txtvar_doc_004",
+      "document": {
+        "id": "doc_004",
+        "title": "Speech at Peoria, Illinois",
+        "short_title": "Peoria Speech",
+        "date": "1854-10-16",
+        "date_precision": "exact",
+        "register": "campaign_speech",
+        "authorship": "lincoln_sole",
+        "authorship_confidence": 0.91,
+        "source_text": "Collected Works vol.2 pp.247-283",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.2 pp.247-283",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln2/1:199",
+        "editorial_status": "reported_or_extemporaneous_text_with_transcription_noise",
+        "risk_flags": [
+          "transcription_noise"
+        ]
+      },
+      "risk_categories": [
+        "reported_or_extemporaneous_transcription"
+      ],
+      "source_traditions": [
+        "Collected Works text of a reported or extemporaneous speech where wording may preserve transcription or reporting noise."
+      ],
+      "relevant_variants_or_limits": [
+        "Exact wording and span boundaries require caution.",
+        "Cluster-level patterns are safer than claims that depend on a single disputed word."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_004_s02_p87_s01",
+        "doc_004_s02_p116_s04",
+        "doc_004_s02_p116_s11",
+        "doc_004_s02_p116_s12",
+        "doc_004_s02_p124_s03",
+        "doc_004_s02_p127_s03",
+        "doc_004_s02_p127_s05"
+      ],
+      "instance_ids": [
+        "inst_00106",
+        "inst_00107",
+        "inst_00108",
+        "inst_00109",
+        "inst_00110",
+        "inst_00111",
+        "inst_00112"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Treat exact lexical boundaries as cautionary where a claim depends on wording precision.",
+      "publication_caveat": "Attach source-risk caveat when using this document for fine-grained wording, span-boundary, or authorship-sensitive claims.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_006a",
+      "document": {
+        "id": "doc_006a",
+        "title": "First Lincoln-Douglas Debate, Ottawa, Illinois",
+        "short_title": "L-D Debate 1 Ottawa",
+        "date": "1858-08-21",
+        "date_precision": "exact",
+        "register": "campaign_speech",
+        "authorship": "lincoln_primary",
+        "authorship_confidence": 0.83,
+        "source_text": "Collected Works vol.3 pp.1-37",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.1-37",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:1",
+        "editorial_status": "newspaper_transcription_with_variant_risk",
+        "risk_flags": [
+          "transcription_variants"
+        ]
+      },
+      "risk_categories": [
+        "newspaper_transcription_variants"
+      ],
+      "source_traditions": [
+        "Collected Works debate text based on nineteenth-century newspaper transcriptions and adversarial campaign reporting."
+      ],
+      "relevant_variants_or_limits": [
+        "Lincoln-authored turns are the annotation universe; Douglas turns and editorial apparatus are excluded from metaphor claims.",
+        "Debate wording and interruption boundaries can affect fine lexical-unit claims."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_006a_s02_p23_s07",
+        "doc_006a_s02_p27_s07",
+        "doc_006a_s02_p27_s09",
+        "doc_006a_s02_p27_s11"
+      ],
+      "instance_ids": [
+        "inst_00113",
+        "inst_00114",
+        "inst_00115",
+        "inst_00116"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Use debate instances for recurring architecture and register-controlled patterns, not single-word proof.",
+      "publication_caveat": "Attach source-risk caveat when using this document for fine-grained wording, span-boundary, or authorship-sensitive claims.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_006b",
+      "document": {
+        "id": "doc_006b",
+        "title": "Second Lincoln-Douglas Debate, Freeport, Illinois",
+        "short_title": "L-D Debate 2 Freeport",
+        "date": "1858-08-27",
+        "date_precision": "exact",
+        "register": "campaign_speech",
+        "authorship": "lincoln_primary",
+        "authorship_confidence": 0.83,
+        "source_text": "Collected Works vol.3 pp.38-76",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.38-76",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:2",
+        "editorial_status": "newspaper_transcription_with_variant_risk",
+        "risk_flags": [
+          "transcription_variants"
+        ]
+      },
+      "risk_categories": [
+        "newspaper_transcription_variants"
+      ],
+      "source_traditions": [
+        "Collected Works debate text based on nineteenth-century newspaper transcriptions and adversarial campaign reporting."
+      ],
+      "relevant_variants_or_limits": [
+        "Lincoln-authored turns are the annotation universe; Douglas turns and editorial apparatus are excluded from metaphor claims.",
+        "Debate wording and interruption boundaries can affect fine lexical-unit claims."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_006b_s04_p10_s02"
+      ],
+      "instance_ids": [
+        "inst_00117"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Use debate instances for recurring architecture and register-controlled patterns, not single-word proof.",
+      "publication_caveat": "Attach source-risk caveat when using this document for fine-grained wording, span-boundary, or authorship-sensitive claims.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_006c",
+      "document": {
+        "id": "doc_006c",
+        "title": "Third Lincoln-Douglas Debate, Jonesboro, Illinois",
+        "short_title": "L-D Debate 3 Jonesboro",
+        "date": "1858-09-15",
+        "date_precision": "exact",
+        "register": "campaign_speech",
+        "authorship": "lincoln_primary",
+        "authorship_confidence": 0.82,
+        "source_text": "Collected Works vol.3 pp.102-144",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.102-144",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:3",
+        "editorial_status": "newspaper_transcription_with_variant_risk",
+        "risk_flags": [
+          "transcription_variants"
+        ]
+      },
+      "risk_categories": [
+        "newspaper_transcription_variants"
+      ],
+      "source_traditions": [
+        "Collected Works debate text based on nineteenth-century newspaper transcriptions and adversarial campaign reporting."
+      ],
+      "relevant_variants_or_limits": [
+        "Lincoln-authored turns are the annotation universe; Douglas turns and editorial apparatus are excluded from metaphor claims.",
+        "Debate wording and interruption boundaries can affect fine lexical-unit claims."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_006c_s03_p04_s04",
+        "doc_006c_s03_p04_s06",
+        "doc_006c_s03_p04_s08",
+        "doc_006c_s03_p05_s06",
+        "doc_006c_s03_p15_s02",
+        "doc_006c_s03_p15_s03"
+      ],
+      "instance_ids": [
+        "inst_00120",
+        "inst_00121",
+        "inst_00122",
+        "inst_00123",
+        "inst_00118",
+        "inst_00119"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Use debate instances for recurring architecture and register-controlled patterns, not single-word proof.",
+      "publication_caveat": "Attach source-risk caveat when using this document for fine-grained wording, span-boundary, or authorship-sensitive claims.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_006d",
+      "document": {
+        "id": "doc_006d",
+        "title": "Fourth Lincoln-Douglas Debate, Charleston, Illinois",
+        "short_title": "L-D Debate 4 Charleston",
+        "date": "1858-09-18",
+        "date_precision": "exact",
+        "register": "campaign_speech",
+        "authorship": "lincoln_primary",
+        "authorship_confidence": 0.82,
+        "source_text": "Collected Works vol.3 pp.145-201",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.145-201",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:4",
+        "editorial_status": "newspaper_transcription_with_variant_risk",
+        "risk_flags": [
+          "transcription_variants"
+        ]
+      },
+      "risk_categories": [
+        "newspaper_transcription_variants"
+      ],
+      "source_traditions": [
+        "Collected Works debate text based on nineteenth-century newspaper transcriptions and adversarial campaign reporting."
+      ],
+      "relevant_variants_or_limits": [
+        "Lincoln-authored turns are the annotation universe; Douglas turns and editorial apparatus are excluded from metaphor claims.",
+        "Debate wording and interruption boundaries can affect fine lexical-unit claims."
+      ],
+      "affected_scope": "Document-level source-risk caveat; no current annotated metaphor instances.",
+      "sentence_ids": [],
+      "instance_ids": [],
+      "annotation_decision": "No annotation adjustment because no metaphor instances are coded; the variant apparatus documents why absence claims should remain register- and source-risk controlled.",
+      "publication_caveat": "This debate currently has no Stage 4 metaphor instances. Use it as absence/suppression evidence only with the debate-transcription caveat attached.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_006e",
+      "document": {
+        "id": "doc_006e",
+        "title": "Fifth Lincoln-Douglas Debate, Galesburg, Illinois",
+        "short_title": "L-D Debate 5 Galesburg",
+        "date": "1858-10-07",
+        "date_precision": "exact",
+        "register": "campaign_speech",
+        "authorship": "lincoln_primary",
+        "authorship_confidence": 0.83,
+        "source_text": "Collected Works vol.3 pp.207-244",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.207-244",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:5",
+        "editorial_status": "newspaper_transcription_with_variant_risk",
+        "risk_flags": [
+          "transcription_variants"
+        ]
+      },
+      "risk_categories": [
+        "newspaper_transcription_variants"
+      ],
+      "source_traditions": [
+        "Collected Works debate text based on nineteenth-century newspaper transcriptions and adversarial campaign reporting."
+      ],
+      "relevant_variants_or_limits": [
+        "Lincoln-authored turns are the annotation universe; Douglas turns and editorial apparatus are excluded from metaphor claims.",
+        "Debate wording and interruption boundaries can affect fine lexical-unit claims."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_006e_s02_p04_s05"
+      ],
+      "instance_ids": [
+        "inst_00124"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Use debate instances for recurring architecture and register-controlled patterns, not single-word proof.",
+      "publication_caveat": "Attach source-risk caveat when using this document for fine-grained wording, span-boundary, or authorship-sensitive claims.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_006f",
+      "document": {
+        "id": "doc_006f",
+        "title": "Sixth Lincoln-Douglas Debate, Quincy, Illinois",
+        "short_title": "L-D Debate 6 Quincy",
+        "date": "1858-10-13",
+        "date_precision": "exact",
+        "register": "campaign_speech",
+        "authorship": "lincoln_primary",
+        "authorship_confidence": 0.83,
+        "source_text": "Collected Works vol.3 pp.245-325",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.245-325",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:6",
+        "editorial_status": "newspaper_transcription_with_variant_risk",
+        "risk_flags": [
+          "transcription_variants"
+        ]
+      },
+      "risk_categories": [
+        "newspaper_transcription_variants"
+      ],
+      "source_traditions": [
+        "Collected Works debate text based on nineteenth-century newspaper transcriptions and adversarial campaign reporting."
+      ],
+      "relevant_variants_or_limits": [
+        "Lincoln-authored turns are the annotation universe; Douglas turns and editorial apparatus are excluded from metaphor claims.",
+        "Debate wording and interruption boundaries can affect fine lexical-unit claims."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_006f_s03_p04_s06",
+        "doc_006f_s03_p04_s07",
+        "doc_006f_s03_p05_s03",
+        "doc_006f_s03_p15_s08"
+      ],
+      "instance_ids": [
+        "inst_00125",
+        "inst_00126",
+        "inst_00127",
+        "inst_00128"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Use debate instances for recurring architecture and register-controlled patterns, not single-word proof.",
+      "publication_caveat": "Attach source-risk caveat when using this document for fine-grained wording, span-boundary, or authorship-sensitive claims.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_006g",
+      "document": {
+        "id": "doc_006g",
+        "title": "Seventh Lincoln-Douglas Debate, Alton, Illinois",
+        "short_title": "L-D Debate 7 Alton",
+        "date": "1858-10-15",
+        "date_precision": "exact",
+        "register": "campaign_speech",
+        "authorship": "lincoln_primary",
+        "authorship_confidence": 0.83,
+        "source_text": "Collected Works vol.3 pp.283-325",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.283-325",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:7",
+        "editorial_status": "newspaper_transcription_with_variant_risk",
+        "risk_flags": [
+          "transcription_variants"
+        ]
+      },
+      "risk_categories": [
+        "newspaper_transcription_variants"
+      ],
+      "source_traditions": [
+        "Collected Works debate text based on nineteenth-century newspaper transcriptions and adversarial campaign reporting."
+      ],
+      "relevant_variants_or_limits": [
+        "Lincoln-authored turns are the annotation universe; Douglas turns and editorial apparatus are excluded from metaphor claims.",
+        "Debate wording and interruption boundaries can affect fine lexical-unit claims."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_006g_s02_p33_s04",
+        "doc_006g_s02_p33_s05",
+        "doc_006g_s02_p33_s06",
+        "doc_006g_s02_p38_s04",
+        "doc_006g_s02_p38_s09",
+        "doc_006g_s02_p43_s05",
+        "doc_006g_s02_p44_s04",
+        "doc_006g_s02_p56_s07"
+      ],
+      "instance_ids": [
+        "inst_00129",
+        "inst_00130",
+        "inst_00131",
+        "inst_00133",
+        "inst_00134",
+        "inst_00135",
+        "inst_00136",
+        "inst_00132"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Use debate instances for recurring architecture and register-controlled patterns, not single-word proof.",
+      "publication_caveat": "Attach source-risk caveat when using this document for fine-grained wording, span-boundary, or authorship-sensitive claims.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_008",
+      "document": {
+        "id": "doc_008",
+        "title": "Farewell Address at Springfield, Illinois",
+        "short_title": "Springfield Farewell",
+        "date": "1861-02-11",
+        "date_precision": "exact",
+        "register": "formal_public_address",
+        "authorship": "lincoln_sole",
+        "authorship_confidence": 0.95,
+        "source_text": "Collected Works vol.4 pp.190-191",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.190-191",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:40",
+        "editorial_status": "multiple_version_text",
+        "risk_flags": [
+          "two_versions"
+        ]
+      },
+      "risk_categories": [
+        "parallel_version_tradition"
+      ],
+      "source_traditions": [
+        "Address has both an extemporaneous/transcribed tradition and Lincoln self-edited written reconstruction."
+      ],
+      "relevant_variants_or_limits": [
+        "The annotated text follows the Lincoln self-edited written version used by the corpus.",
+        "Version differences matter most for claims about diction, not for the broad Providence/companionship frame."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_008_s01_p01_s05",
+        "doc_008_s01_p01_s06",
+        "doc_008_s01_p01_s07",
+        "doc_008_s01_p01_s08"
+      ],
+      "instance_ids": [
+        "inst_00043",
+        "inst_00044",
+        "inst_00045",
+        "inst_00046"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Publication claims should name that the annotated object is the written reconstruction.",
+      "publication_caveat": "The Springfield Farewell should be cited as the corpus version of Lincoln self-editing his farewell, not as a verbatim transcript of the extemporaneous delivery.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_009",
+      "document": {
+        "id": "doc_009",
+        "title": "First Inaugural Address",
+        "short_title": "First Inaugural",
+        "date": "1861-03-04",
+        "date_precision": "exact",
+        "register": "formal_public_address",
+        "authorship": "lincoln_primary",
+        "authorship_confidence": 0.93,
+        "source_text": "Collected Works vol.4 pp.262-271",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.262-271",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:60",
+        "editorial_status": "collaborative_revision_with_seward_passages",
+        "risk_flags": [
+          "co_authored_seward"
+        ]
+      },
+      "risk_categories": [
+        "collaborative_revision_tradition"
+      ],
+      "source_traditions": [
+        "First Inaugural text includes Seward-drafted or Seward-revised material within a Lincoln-primary address."
+      ],
+      "relevant_variants_or_limits": [
+        "Authorship-sensitive claims require caution around revised passages.",
+        "The final peroration is especially important because it contains a high-value covenant/body-memory metaphor."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_009_s01_p40_s05"
+      ],
+      "instance_ids": [
+        "inst_00077"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Keep authorship caveat attached to affected sentence anchors and use high-authorship-confidence controls for aggregate claims.",
+      "publication_caveat": "The final peroration is retained as part of the received First Inaugural text, but authorship-sensitive interpretation should flag Seward revision risk.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_011",
+      "document": {
+        "id": "doc_011",
+        "title": "Fragment on the Constitution and the Union",
+        "short_title": "Constitution Fragment",
+        "date": "1861-01-01",
+        "date_precision": "circa",
+        "register": "fragment_private",
+        "authorship": "lincoln_sole",
+        "authorship_confidence": 0.85,
+        "source_text": "Collected Works vol.4 pp.168-169",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.168-169",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:34",
+        "editorial_status": "private_fragment_with_uncertain_date",
+        "risk_flags": [
+          "date_uncertain"
+        ]
+      },
+      "risk_categories": [
+        "fragment_date_and_context_uncertainty"
+      ],
+      "source_traditions": [
+        "Private fragment with uncertain date and incomplete surrounding context."
+      ],
+      "relevant_variants_or_limits": [
+        "The fragment opens mid-argument, so the antecedent context for the apple-picture frame is missing.",
+        "The date should be treated as approximate in diachronic claims."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_011_s01_p04_s03",
+        "doc_011_s01_p05_s01",
+        "doc_011_s01_p05_s02",
+        "doc_011_s01_p05_s03",
+        "doc_011_s01_p05_s04",
+        "doc_011_s01_p06_s01"
+      ],
+      "instance_ids": [
+        "inst_00037",
+        "inst_00038",
+        "inst_00039",
+        "inst_00040",
+        "inst_00041",
+        "inst_00042"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Use the fragment as structural evidence, not as frequency evidence equivalent to public addresses.",
+      "publication_caveat": "Use as evidence for Lincoln theorizing the apple-picture hierarchy, with date and missing-context limits stated in diachronic claims.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_017",
+      "document": {
+        "id": "doc_017",
+        "title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+        "short_title": "Gettysburg",
+        "date": "1863-11-19",
+        "date_precision": "exact",
+        "register": "formal_public_address",
+        "authorship": "lincoln_sole",
+        "authorship_confidence": 0.99,
+        "source_text": "Collected Works vol.7 pp.22-23",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16",
+        "editorial_status": "manuscript_variant_tradition",
+        "risk_flags": [
+          "manuscript_variants"
+        ]
+      },
+      "risk_categories": [
+        "manuscript_variant_tradition"
+      ],
+      "source_traditions": [
+        "Gettysburg Address has a manuscript and delivery tradition with variant wordings across witnesses and later copies."
+      ],
+      "relevant_variants_or_limits": [
+        "Claims should rely on stable architecture across the address rather than isolated wording where manuscript variants are material.",
+        "The corpus text supports the annotated birth, dedication, proposition, and sacrificial-economy structure."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_017_s01_p01_s01",
+        "doc_017_s01_p02_s01",
+        "doc_017_s01_p02_s03",
+        "doc_017_s01_p03_s01",
+        "doc_017_s01_p03_s02",
+        "doc_017_s01_p03_s04",
+        "doc_017_s01_p03_s05"
+      ],
+      "instance_ids": [
+        "inst_00001",
+        "inst_00002",
+        "inst_00003",
+        "inst_00004",
+        "inst_00005",
+        "inst_00006",
+        "inst_00007",
+        "inst_00008",
+        "inst_00009",
+        "inst_00010",
+        "inst_00011",
+        "inst_00012",
+        "inst_00013"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Treat the address-level architecture as stable; flag exact diction claims as variant-sensitive.",
+      "publication_caveat": "Use Gettysburg for address-level metaphor architecture. Avoid overclaiming from single-word diction unless the variant tradition has been checked.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    },
+    {
+      "apparatus_id": "txtvar_doc_020",
+      "document": {
+        "id": "doc_020",
+        "title": "Response to a Serenade, November 10, 1864",
+        "short_title": "Re-election Serenade",
+        "date": "1864-11-10",
+        "date_precision": "exact",
+        "register": "campaign_speech",
+        "authorship": "lincoln_sole",
+        "authorship_confidence": 0.88,
+        "source_text": "Collected Works vol.8 pp.96-97",
+        "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.96-97",
+        "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:61",
+        "editorial_status": "reported_or_extemporaneous_text_with_transcription_noise",
+        "risk_flags": [
+          "transcription_noise"
+        ]
+      },
+      "risk_categories": [
+        "reported_or_extemporaneous_transcription"
+      ],
+      "source_traditions": [
+        "Collected Works text of a reported or extemporaneous speech where wording may preserve transcription or reporting noise."
+      ],
+      "relevant_variants_or_limits": [
+        "Exact wording and span boundaries require caution.",
+        "Cluster-level patterns are safer than claims that depend on a single disputed word."
+      ],
+      "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
+      "sentence_ids": [
+        "doc_020_s01_p02_s01",
+        "doc_020_s01_p03_s01",
+        "doc_020_s01_p06_s02",
+        "doc_020_s01_p06_s04",
+        "doc_020_s01_p08_s01"
+      ],
+      "instance_ids": [
+        "inst_00047",
+        "inst_00048",
+        "inst_00049",
+        "inst_00050",
+        "inst_00051"
+      ],
+      "annotation_decision": "No current Stage 4 annotation adjustment. Treat exact lexical boundaries as cautionary where a claim depends on wording precision.",
+      "publication_caveat": "Attach source-risk caveat when using this document for fine-grained wording, span-boundary, or authorship-sensitive claims.",
+      "follow_up_required": false,
+      "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
+    }
+  ],
+  "indexes": {
+    "by_document": {
+      "doc_004": "txtvar_doc_004",
+      "doc_006a": "txtvar_doc_006a",
+      "doc_006b": "txtvar_doc_006b",
+      "doc_006c": "txtvar_doc_006c",
+      "doc_006d": "txtvar_doc_006d",
+      "doc_006e": "txtvar_doc_006e",
+      "doc_006f": "txtvar_doc_006f",
+      "doc_006g": "txtvar_doc_006g",
+      "doc_008": "txtvar_doc_008",
+      "doc_009": "txtvar_doc_009",
+      "doc_011": "txtvar_doc_011",
+      "doc_017": "txtvar_doc_017",
+      "doc_020": "txtvar_doc_020"
+    },
+    "by_risk_flag": {
+      "transcription_noise": [
+        "txtvar_doc_004",
+        "txtvar_doc_020"
+      ],
+      "transcription_variants": [
+        "txtvar_doc_006a",
+        "txtvar_doc_006b",
+        "txtvar_doc_006c",
+        "txtvar_doc_006d",
+        "txtvar_doc_006e",
+        "txtvar_doc_006f",
+        "txtvar_doc_006g"
+      ],
+      "two_versions": [
+        "txtvar_doc_008"
+      ],
+      "co_authored_seward": [
+        "txtvar_doc_009"
+      ],
+      "date_uncertain": [
+        "txtvar_doc_011"
+      ],
+      "manuscript_variants": [
+        "txtvar_doc_017"
+      ]
+    }
+  }
+}

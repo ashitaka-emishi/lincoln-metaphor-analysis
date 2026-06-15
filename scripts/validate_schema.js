@@ -688,6 +688,130 @@ function validateReliabilityArtifacts() {
   if (!exists(resultsPagePath)) err(resultsPagePath, 'File not found');
 }
 
+// ─── Textual Variant Apparatus ──────────────────────────────────────────────
+
+function collectAnnotatedAnchors(docId) {
+  const filePath = path.join(ROOT, 'corpus', 'annotated', `${docId}_annotated.json`);
+  const anchors = { sentenceIds: new Set(), instanceIds: new Set() };
+  if (!exists(filePath)) return anchors;
+
+  const data = readJSON(filePath);
+  if (!data || !Array.isArray(data.sections)) return anchors;
+
+  for (const section of data.sections) {
+    for (const paragraph of section.paragraphs || []) {
+      for (const sentence of paragraph.sentences || []) {
+        if (sentence.sentence_id) anchors.sentenceIds.add(sentence.sentence_id);
+        for (const instance of sentence.metaphor_instances || []) {
+          if (instance.instance_id) anchors.instanceIds.add(instance.instance_id);
+        }
+      }
+    }
+  }
+  return anchors;
+}
+
+function validateTextualVariantApparatus() {
+  const filePath = path.join(ROOT, 'data', 'metadata', 'textual-variant-apparatus.json');
+  const pagePath = path.join(ROOT, 'docs', 'methodology', 'textual-variant-apparatus.md');
+  console.log('\nValidating textual-variant-apparatus.json...');
+
+  if (!exists(filePath)) { err(filePath, 'File not found'); return; }
+  const data = readJSON(filePath);
+  if (!data) return;
+
+  const manifest = readJSON(path.join(ROOT, 'corpus', 'corpus_manifest.json'));
+  if (!manifest) return;
+
+  const required = [
+    'version', 'status', 'source_manifest', 'source_annotations',
+    'migration_policy', 'interpretation_rule', 'total_documents',
+    'records', 'indexes'
+  ];
+  for (const field of required) {
+    if (data[field] === undefined) err(filePath, `Missing field: ${field}`);
+  }
+  if (data.status !== 'complete') err(filePath, `Unexpected status: ${data.status}`);
+  if (data.source_manifest !== 'corpus/corpus_manifest.json') {
+    err(filePath, `Unexpected source_manifest: ${data.source_manifest}`);
+  }
+  if (data.migration_policy !== 'preserve_stage4_record_source_risk_derivative') {
+    err(filePath, `Unexpected migration_policy: ${data.migration_policy}`);
+  }
+
+  if (!Array.isArray(data.records)) {
+    err(filePath, 'records must be an array');
+    return;
+  }
+  if (data.total_documents !== data.records.length) {
+    err(filePath, `total_documents ${data.total_documents} does not match records length ${data.records.length}`);
+  }
+
+  const manifestDocs = new Map((manifest.documents || []).map(doc => [doc.id, doc]));
+  const highRiskIds = (manifest.documents || [])
+    .filter(doc => Array.isArray(doc.risk_flags) && doc.risk_flags.length > 0)
+    .map(doc => doc.id)
+    .sort();
+  const recordIds = data.records.map(record => record.document && record.document.id).filter(Boolean).sort();
+  if (highRiskIds.join('|') !== recordIds.join('|')) {
+    err(filePath, `Record document ids do not match manifest risk-flagged documents. Expected ${highRiskIds.join(', ')}, got ${recordIds.join(', ')}`);
+  }
+
+  const apparatusIds = new Set();
+  for (const record of data.records) {
+    const loc = record.apparatus_id || 'NO_APPARATUS_ID';
+    if (!record.apparatus_id) err(filePath, 'record missing apparatus_id');
+    else if (apparatusIds.has(record.apparatus_id)) err(filePath, `Duplicate apparatus_id: ${record.apparatus_id}`);
+    apparatusIds.add(record.apparatus_id);
+
+    if (!record.document || !record.document.id) {
+      err(filePath, `${loc}: missing document.id`);
+      continue;
+    }
+    const manifestDoc = manifestDocs.get(record.document.id);
+    if (!manifestDoc) {
+      err(filePath, `${loc}: document not found in manifest: ${record.document.id}`);
+      continue;
+    }
+    if (!Array.isArray(record.document.risk_flags) || record.document.risk_flags.length === 0) {
+      err(filePath, `${loc}: document.risk_flags must be non-empty`);
+    }
+    if ((manifestDoc.risk_flags || []).join('|') !== (record.document.risk_flags || []).join('|')) {
+      err(filePath, `${loc}: risk_flags do not match manifest`);
+    }
+    if (!record.document.source_url) err(filePath, `${loc}: missing document.source_url`);
+    if (!Array.isArray(record.risk_categories) || record.risk_categories.length === 0) {
+      err(filePath, `${loc}: risk_categories must be non-empty`);
+    }
+    if (!Array.isArray(record.source_traditions) || record.source_traditions.length === 0) {
+      err(filePath, `${loc}: source_traditions must be non-empty`);
+    }
+    if (!Array.isArray(record.relevant_variants_or_limits) || record.relevant_variants_or_limits.length === 0) {
+      err(filePath, `${loc}: relevant_variants_or_limits must be non-empty`);
+    }
+    if (!record.annotation_decision) err(filePath, `${loc}: missing annotation_decision`);
+    if (!record.publication_caveat) err(filePath, `${loc}: missing publication_caveat`);
+    if (typeof record.follow_up_required !== 'boolean') {
+      err(filePath, `${loc}: follow_up_required must be boolean`);
+    }
+    if (!Array.isArray(record.sentence_ids)) err(filePath, `${loc}: sentence_ids must be array`);
+    if (!Array.isArray(record.instance_ids)) err(filePath, `${loc}: instance_ids must be array`);
+
+    const anchors = collectAnnotatedAnchors(record.document.id);
+    for (const sentenceId of record.sentence_ids || []) {
+      if (!anchors.sentenceIds.has(sentenceId)) err(filePath, `${loc}: unknown sentence_id '${sentenceId}'`);
+    }
+    for (const instanceId of record.instance_ids || []) {
+      if (!anchors.instanceIds.has(instanceId)) err(filePath, `${loc}: unknown instance_id '${instanceId}'`);
+    }
+  }
+
+  if (!data.indexes || !data.indexes.by_document || !data.indexes.by_risk_flag) {
+    err(filePath, 'indexes.by_document and indexes.by_risk_flag are required');
+  }
+  if (!exists(pagePath)) err(pagePath, 'File not found');
+}
+
 // ─── Controlled Analysis ────────────────────────────────────────────────────
 
 function validateControlledAnalysis() {
@@ -849,6 +973,7 @@ function main() {
   validateAnalysis();
   validateEvidenceChains();
   validateReliabilityArtifacts();
+  validateTextualVariantApparatus();
   validateControlledAnalysis();
   validateClaimAudit();
 
