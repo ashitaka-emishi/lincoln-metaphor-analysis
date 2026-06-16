@@ -102,4 +102,4 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 
 Non-blocking follow-up work is tracked outside this milestone:
 
-- [#26 Evaluate Reconstruction-era continuation beyond Lincoln corpus boundary](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/26)
+- [#26 Evaluate Reconstruction-era continuation beyond Lincoln corpus boundary](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/26): scoped in [Reconstruction Extension Scope](docs/methodology/reconstruction-extension-scope.md)

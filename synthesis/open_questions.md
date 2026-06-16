@@ -86,6 +86,8 @@ draft: false
 
 3. **Reconstruction failure**: If Lincoln's wound/healing logic provided an exit from the war, why did Reconstruction fail? Does the metaphor system itself contain the seeds of failure — does wound-healing logic underestimate the depth of structural damage?
 
+   Follow-up scope decision: Reconstruction-era material should be treated as a separate comparison module, not as a direct continuation of the Lincoln corpus. See [Reconstruction Extension Scope](../docs/methodology/reconstruction-extension-scope.md) for the candidate subcorpora, source-list requirements, and claim boundary.
+
 4. **Confederate rhetoric**: Do Confederate leaders use the same six clusters? Different clusters? Notably, does Confederate rhetoric use disease_and_purification logic about Black freedom?
 
 5. **20th-century political rhetoric**: Does the experiment/proof cluster persist in American political rhetoric after Lincoln? Does the disease_and_purification cluster appear in 20th-century American politics in ways it does not appear in Lincoln?
