@@ -26,6 +26,13 @@ BENCHMARKS = [
         'redistribution_policy': 'do_not_commit_raw_or_parsed_data',
         'license': 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0',
         'license_url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode',
+        'evaluation_summary': {
+            'evaluated': '2026-06-17',
+            'valid_annotations': 8724,
+            'metaphorical_annotations': 4417,
+            'disease_source_rank': 4,
+            'disease_source_count': 100,
+        },
         'size_and_scope': {
             'archive_compressed_mb': 4.6,
             'source_target_pairs': 16265,
@@ -53,6 +60,13 @@ BENCHMARKS = [
         'redistribution_policy': 'do_not_commit_raw_or_parsed_data',
         'license': 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0',
         'license_url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode',
+        'evaluation_summary': {
+            'evaluated': '2026-06-17',
+            'valid_annotations': 52118,
+            'metaphorical_annotations': 27956,
+            'disease_source_rank': 10,
+            'disease_source_count': 538,
+        },
         'size_and_scope': {
             'archive_compressed_mb': 83.6,
             'source_target_pairs': 167479,
@@ -81,7 +95,7 @@ BENCHMARKS = [
         'license': 'mixed_public_domain_and_site_specific_terms_expected',
         'license_url': None,
         'size_and_scope': None,
-        'decision': 'Candidate comparison module for testing whether Lincoln-specific clusters appear in other Union rhetoric.',
+        'decision': 'Candidate comparison module for testing whether Lincoln-specific clusters appear in other Union rhetoric. Not implemented for the current negative-finding baseline; no contemporary Union control result is available yet.',
         'limitations': [
             'Requires a named source list, stable document IDs, provenance, and inclusion rationale before collection.',
             'Should be a comparison corpus, not an expansion of the Lincoln corpus.',
@@ -102,7 +116,7 @@ BENCHMARKS = [
         'license': 'mixed_public_domain_and_site_specific_terms_expected',
         'license_url': None,
         'size_and_scope': None,
-        'decision': 'Candidate contrast corpus for testing purification, covenant, providence, and annihilation/reconciliation differences.',
+        'decision': 'Candidate contrast corpus for testing purification, covenant, providence, and annihilation/reconciliation differences. Not implemented for the current negative-finding baseline; no contemporary Confederate contrast result is available yet.',
         'limitations': [
             'Risk of false symmetry with the purification-rhetoric contrast; research questions must be stated before collection.',
             'Requires speaker, genre, date, and provenance controls.',
@@ -123,7 +137,7 @@ BENCHMARKS = [
         'license': 'mixed_public_domain_and_site_specific_terms_expected',
         'license_url': None,
         'size_and_scope': None,
-        'decision': 'Candidate corpus for separating Lincoln rhetorical restraint from broader anti-slavery moral language.',
+        'decision': 'Candidate corpus for separating Lincoln rhetorical restraint from broader anti-slavery moral language. Not implemented for the current negative-finding baseline; no contemporary abolitionist result is available yet.',
         'limitations': [
             'Needs genre control across speeches, newspapers, pamphlets, and letters.',
             'Reception and movement rhetoric should remain distinct from Lincoln-only findings.',
@@ -144,7 +158,7 @@ BENCHMARKS = [
         'license': 'source_specific_terms_required',
         'license_url': None,
         'size_and_scope': None,
-        'decision': 'Candidate register-control corpus for distinguishing Lincoln from generic presidential address conventions.',
+        'decision': 'Candidate register-control corpus for distinguishing Lincoln from generic presidential address conventions. Not implemented for the current negative-finding baseline; no contemporary presidential-register result is available yet.',
         'limitations': [
             'Must avoid flattening inaugural addresses, annual messages, proclamations, and informal speeches into one register.',
             'Requires a boundary decision before Reconstruction-era documents are added.',
@@ -207,6 +221,8 @@ def render_page(registry: dict) -> str:
             '',
             *scope_lines,
             '',
+            *render_evaluation_summary(item),
+            '',
             f"Decision: {item['decision']}",
             '',
             'Limits:',
@@ -241,6 +257,25 @@ def render_page(registry: dict) -> str:
         '',
         *sections,
     ])
+
+
+def render_evaluation_summary(item: dict) -> list[str]:
+    summary = item.get('evaluation_summary')
+    if not summary:
+        return [
+            'Evaluation summary:',
+            '',
+            'No implemented evaluation yet.',
+        ]
+
+    return [
+        'Evaluation summary:',
+        '',
+        f"- Evaluated locally: {summary['evaluated']}",
+        f"- Valid annotations parsed: {summary['valid_annotations']:,}",
+        f"- Metaphorical annotations: {summary['metaphorical_annotations']:,}",
+        f"- DISEASE source-concept rank/count: {summary['disease_source_rank']} / {summary['disease_source_count']}",
+    ]
 
 
 def main() -> None:
