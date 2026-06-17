@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { CLUSTERS } = require('./schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
 const ANNOTATED_DIR = path.join(ROOT, 'corpus', 'annotated');
@@ -20,25 +21,11 @@ function today() {
 }
 
 function clusterSourceFamily(clusterId) {
-  return {
-    cluster_01_body_organism: 'body_organism',
-    cluster_02_covenant_oath: 'law_contract_oath',
-    cluster_03_experiment_proposition: 'experiment_proof_logic',
-    cluster_04_birth_creation: 'birth_generation',
-    cluster_05_fathers_inheritance: 'family_inheritance',
-    cluster_06_providence_theodicy: 'religion_providence_theodicy'
-  }[clusterId] || null;
+  return (CLUSTERS.find(cluster => cluster.id === clusterId) || {}).source_domain_family || null;
 }
 
 function clusterTargetFamily(clusterId) {
-  return {
-    cluster_01_body_organism: 'nation_union',
-    cluster_02_covenant_oath: 'constitution_law',
-    cluster_03_experiment_proposition: 'democracy_self_government',
-    cluster_04_birth_creation: 'freedom_liberty',
-    cluster_05_fathers_inheritance: 'founding_fathers',
-    cluster_06_providence_theodicy: 'providence_history'
-  }[clusterId] || null;
+  return (CLUSTERS.find(cluster => cluster.id === clusterId) || {}).target_domain_family || null;
 }
 
 function firstNonEmpty(...values) {

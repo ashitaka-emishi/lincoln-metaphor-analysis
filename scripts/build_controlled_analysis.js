@@ -4,20 +4,14 @@
 
 const fs = require('fs');
 const path = require('path');
+const { CLUSTERS } = require('./schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
 const EVIDENCE_PATH = path.join(ROOT, 'data', 'evidence', 'annotation-evidence.json');
 const OUTPUT_JSON = path.join(ROOT, 'analysis', 'controlled-analysis.json');
 const OUTPUT_MD = path.join(ROOT, 'analysis', 'controlled_outputs.md');
 
-const CLUSTERS = [
-  ['cluster_01_body_organism', 'C01 body/organism'],
-  ['cluster_02_covenant_oath', 'C02 covenant/oath'],
-  ['cluster_03_experiment_proposition', 'C03 experiment/proposition'],
-  ['cluster_04_birth_creation', 'C04 birth/creation'],
-  ['cluster_05_fathers_inheritance', 'C05 fathers/inheritance'],
-  ['cluster_06_providence_theodicy', 'C06 providence/theodicy']
-];
+const CONTROLLED_CLUSTERS = CLUSTERS.map(cluster => [cluster.id, cluster.short_label]);
 
 const ABSENCE_FLAGS = [
   'disease_purification_absent',
@@ -79,7 +73,7 @@ function makeClusterRows(records, groupField) {
       if (groupField === 'document') return record.document.id === group;
       return false;
     });
-    const counts = countRecords(groupRecords, record => record.cmt.cluster_id, CLUSTERS.map(([id]) => id));
+    const counts = countRecords(groupRecords, record => record.cmt.cluster_id, CONTROLLED_CLUSTERS.map(([id]) => id));
     const first = groupRecords[0];
     return {
       group,
@@ -129,7 +123,7 @@ function makeSubset(name, description, records) {
     description,
     total_instances: records.length,
     total_documents: countDocuments(records),
-    cluster_totals: countRecords(records, record => record.cmt.cluster_id, CLUSTERS.map(([id]) => id)),
+    cluster_totals: countRecords(records, record => record.cmt.cluster_id, CONTROLLED_CLUSTERS.map(([id]) => id)),
     absence_totals: countFlags(records, ABSENCE_FLAGS),
     cluster_by_register: makeClusterRows(records, 'register'),
     cluster_by_period: makeClusterRows(records, 'period'),
@@ -152,12 +146,12 @@ function markdownTable(headers, rows) {
 }
 
 function clusterTable(rows) {
-  const headers = ['Group', 'Docs', 'Total', ...CLUSTERS.map(([, label]) => label)];
+  const headers = ['Group', 'Docs', 'Total', ...CONTROLLED_CLUSTERS.map(([, label]) => label)];
   const body = rows.map(row => [
     row.group,
     row.document_count,
     row.total_instances,
-    ...CLUSTERS.map(([id]) => row.counts[id])
+    ...CONTROLLED_CLUSTERS.map(([id]) => row.counts[id])
   ]);
   return markdownTable(headers, body);
 }
@@ -175,18 +169,18 @@ function absenceTable(rows) {
 }
 
 function subsetSummaryTable(subsets) {
-  const headers = ['Subset', 'Documents', 'Instances', ...CLUSTERS.map(([, label]) => label)];
+  const headers = ['Subset', 'Documents', 'Instances', ...CONTROLLED_CLUSTERS.map(([, label]) => label)];
   const body = subsets.map(subset => [
     subset.name,
     subset.total_documents,
     subset.total_instances,
-    ...CLUSTERS.map(([id]) => subset.cluster_totals[id])
+    ...CONTROLLED_CLUSTERS.map(([id]) => subset.cluster_totals[id])
   ]);
   return markdownTable(headers, body);
 }
 
 function documentClusterTable(rows) {
-  const headers = ['Document', 'Title', 'Register', 'Period', 'Authorship conf.', 'Total', ...CLUSTERS.map(([, label]) => label)];
+  const headers = ['Document', 'Title', 'Register', 'Period', 'Authorship conf.', 'Total', ...CONTROLLED_CLUSTERS.map(([, label]) => label)];
   const body = rows.map(row => [
     row.group,
     row.metadata.short_title,
@@ -194,7 +188,7 @@ function documentClusterTable(rows) {
     row.metadata.period,
     row.metadata.authorship_confidence,
     row.total_instances,
-    ...CLUSTERS.map(([id]) => row.counts[id])
+    ...CONTROLLED_CLUSTERS.map(([id]) => row.counts[id])
   ]);
   return markdownTable(headers, body);
 }

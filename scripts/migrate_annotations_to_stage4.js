@@ -4,42 +4,17 @@
 
 const fs = require('fs');
 const path = require('path');
+const {
+  CLUSTER_IDS,
+  LEGACY_ABSENCE_FLAG_MAP,
+  LEGACY_FANTASY_TYPE_MAP
+} = require('./schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
 const ANNOTATED_DIR = path.join(ROOT, 'corpus', 'annotated');
 const MANIFEST_PATH = path.join(ROOT, 'corpus', 'corpus_manifest.json');
 
-const FANTASY_TYPE_MAP = {
-  ideological_proof: 'experiment_and_proof',
-  republic_as_proposition_under_test: 'experiment_and_proof',
-  proposition_under_test: 'experiment_and_proof',
-  founding_authority_as_rule: 'ancestral_debt',
-  patrimony_defense: 'ancestral_debt',
-  national_integrity_threat: 'wound_and_healing',
-  national_organism: 'wound_and_healing',
-  national_body_integrity: 'wound_and_healing',
-  generative_creation: 'birth_and_creation',
-  covenant_integrity_obligation: 'oath_and_obligation',
-  covenant_preservation: 'oath_and_obligation',
-  providential_sanction: 'punishment_and_theodicy',
-  divine_sanction: 'punishment_and_theodicy',
-  divine_judgment_deferred: 'punishment_and_theodicy',
-  divine_protection_invoked: 'punishment_and_theodicy'
-};
-
-const ABSENCE_FLAG_MAP = {
-  black_soldiers_absent: 'black_soldiers_erased',
-  disease_and_purification: 'disease_purification_absent'
-};
-
-const CLUSTER_VALUES = new Set([
-  'cluster_01_body_organism',
-  'cluster_02_covenant_oath',
-  'cluster_03_experiment_proposition',
-  'cluster_04_birth_creation',
-  'cluster_05_fathers_inheritance',
-  'cluster_06_providence_theodicy'
-]);
+const CLUSTER_VALUES = new Set(CLUSTER_IDS);
 
 function readJSON(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -74,7 +49,7 @@ function appendNote(existing, note) {
 
 function normalizeFantasyType(value, notes) {
   if (!value) return value;
-  const mapped = FANTASY_TYPE_MAP[value] || value;
+  const mapped = LEGACY_FANTASY_TYPE_MAP[value] || value;
   if (mapped !== value) {
     notes.push(`Migrated legacy fantasy_type '${value}' to canonical '${mapped}'.`);
   }
@@ -86,7 +61,7 @@ function normalizeAbsenceFlags(flags, notes) {
   const seen = new Set();
   const normalized = [];
   for (const flag of flags) {
-    const mapped = ABSENCE_FLAG_MAP[flag] || flag;
+    const mapped = LEGACY_ABSENCE_FLAG_MAP[flag] || flag;
     if (mapped !== flag) {
       notes.push(`Migrated legacy absence_flag '${flag}' to canonical '${mapped}'.`);
     }

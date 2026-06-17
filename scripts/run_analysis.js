@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { ABSENCE_FLAGS, CLUSTERS } = require('./schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
 const CONCORDANCE_PATH = path.join(ROOT, 'data', 'concordance.json');
@@ -54,25 +55,6 @@ function main() {
     if (!existingAnalysis || !Array.isArray(existingAnalysis.cluster_analyses)) return null;
     return existingAnalysis.cluster_analyses.find(c => c.cluster_id === clusterId) || null;
   }
-
-  const CLUSTERS = [
-    { id: 'cluster_01_body_organism', name: 'Nation as organism / body', source: 'wound, healing, birth, severance, disease', target: 'the American Union' },
-    { id: 'cluster_02_covenant_oath', name: 'Union as covenant / oath', source: 'sworn oath, contract, sacred bond', target: 'the constitutional compact' },
-    { id: 'cluster_03_experiment_proposition', name: 'Republic as experiment / proposition', source: 'logical proof, scientific test', target: 'democratic self-government' },
-    { id: 'cluster_04_birth_creation', name: 'War as birth / new creation', source: 'labor, nativity, generative act', target: 'the refounding of the nation' },
-    { id: 'cluster_05_fathers_inheritance', name: 'Founding fathers as inheritance', source: 'patrimony, lineage, ancestral debt', target: 'obligation to the founders' },
-    { id: 'cluster_06_providence_theodicy', name: 'Providence / divine will', source: "God's judgment, punishment, theodicy", target: "the war's cause and meaning" }
-  ];
-
-  const ABSENCE_FLAGS = [
-    'enslaved_people_non_agent',
-    'black_soldiers_erased',
-    'lincoln_non_agent',
-    'confederates_depersonalized',
-    'death_abstracted',
-    'women_absent',
-    'disease_purification_absent'
-  ];
 
   const clusterAnalyses = [];
 

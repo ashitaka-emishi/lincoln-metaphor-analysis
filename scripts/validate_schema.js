@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { ABSENCE_FLAGS, CLUSTER_IDS, FANTASY_TYPES } = require('./schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
 let errorCount = 0;
@@ -212,21 +213,9 @@ function validateAllSegmented() {
 
 // ─── Annotated JSONs ─────────────────────────────────────────────────────────
 
-const VALID_CLUSTERS = new Set([
-  'cluster_01_body_organism', 'cluster_02_covenant_oath', 'cluster_03_experiment_proposition',
-  'cluster_04_birth_creation', 'cluster_05_fathers_inheritance', 'cluster_06_providence_theodicy'
-]);
-
-const VALID_FANTASY_TYPES = new Set([
-  'wound_and_healing', 'birth_and_creation', 'sacrifice_and_redemption', 'oath_and_obligation',
-  'punishment_and_theodicy', 'ancestral_debt', 'experiment_and_proof', 'disease_and_purification'
-]);
-
-const VALID_ABSENCE_FLAGS = new Set([
-  'enslaved_people_non_agent', 'black_soldiers_erased', 'lincoln_non_agent',
-  'confederates_depersonalized', 'death_abstracted', 'women_absent',
-  'disease_purification_absent'
-]);
+const VALID_CLUSTERS = new Set(CLUSTER_IDS);
+const VALID_FANTASY_TYPES = new Set(FANTASY_TYPES);
+const VALID_ABSENCE_FLAGS = new Set(ABSENCE_FLAGS);
 
 function validateInstance(filePath, inst, sentId) {
   const loc = `${sentId} > ${inst.instance_id || 'NO_ID'}`;
@@ -350,13 +339,8 @@ function validateAnalysis() {
 
   if (!Array.isArray(data.cluster_analyses)) { err(filePath, 'Missing cluster_analyses array'); return; }
 
-  const expectedClusters = [
-    'cluster_01_body_organism', 'cluster_02_covenant_oath', 'cluster_03_experiment_proposition',
-    'cluster_04_birth_creation', 'cluster_05_fathers_inheritance', 'cluster_06_providence_theodicy'
-  ];
-
   const foundClusters = data.cluster_analyses.map(c => c.cluster_id);
-  for (const expected of expectedClusters) {
+  for (const expected of CLUSTER_IDS) {
     if (!foundClusters.includes(expected)) err(filePath, `Missing cluster stub: ${expected}`);
   }
 

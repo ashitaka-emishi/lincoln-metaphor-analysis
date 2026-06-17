@@ -4,6 +4,7 @@ const os = require('node:os');
 const path = require('node:path');
 const { spawnSync } = require('node:child_process');
 const test = require('node:test');
+const { ABSENCE_FLAGS, CLUSTER_IDS, FANTASY_TYPES } = require('../scripts/schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
 const FIXTURE_DIRS = ['analysis', 'corpus', 'data', 'docs', 'scripts', 'synthesis'];
@@ -53,6 +54,13 @@ function firstMetaphorInstance(annotation) {
   }
   throw new Error('Fixture annotation has no metaphor instances');
 }
+
+test('canonical schema constants preserve drift-sensitive enum values', () => {
+  assert.equal(CLUSTER_IDS.length, 6);
+  assert.ok(CLUSTER_IDS.includes('cluster_01_body_organism'));
+  assert.ok(FANTASY_TYPES.includes('disease_and_purification'));
+  assert.ok(ABSENCE_FLAGS.includes('disease_purification_absent'));
+});
 
 test('schema validation and per-annotation validation pass on fixture workspace', t => {
   const workspace = copyFixtureWorkspace(t);
