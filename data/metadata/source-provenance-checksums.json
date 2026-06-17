@@ -1,0 +1,802 @@
+{
+  "version": "1.0",
+  "generated": "2026-06-17",
+  "status": "complete",
+  "source_manifest": "corpus/corpus_manifest.json",
+  "checksum_algorithm": "sha256",
+  "update_policy": "When a corpus/raw or corpus/text source file is intentionally corrected, make the source-file edit, run npm run source:provenance to refresh this registry, then run npm run validate and include the correction rationale in the same issue or commit.",
+  "total_documents": 28,
+  "records": [
+    {
+      "document_id": "doc_001",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:144",
+      "source_text": "Collected Works vol.1 pp.108-115",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.1 pp.108-115",
+      "editorial_status": "standard_collected_works_text",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_001.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_001.md",
+          "exists": true,
+          "sha256": "d3deb2faaca5c2094508fb69b6d84f7f6cc1da396d47d53661caa51bdd81ddee",
+          "bytes": 20974
+        }
+      }
+    },
+    {
+      "document_id": "doc_002",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:235",
+      "source_text": "Collected Works vol.1 pp.271-279",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.1 pp.271-279",
+      "editorial_status": "standard_collected_works_text",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_002.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_002.md",
+          "exists": true,
+          "sha256": "d913f2f00b2584a16c96377340c079d6c6e8fcad85367fe64301e3ce919eb7fa",
+          "bytes": 22402
+        }
+      }
+    },
+    {
+      "document_id": "doc_003",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln2/1:97",
+      "source_text": "Collected Works vol.2 pp.121-132",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.2 pp.121-132",
+      "editorial_status": "standard_collected_works_text",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_003.txt",
+          "exists": true,
+          "sha256": "f8fa72965d3df0e15f38b72dd5dcdcaa83dc494141a8ecf9fbebaf7cfe181af6",
+          "bytes": 32221
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_003.md",
+          "exists": true,
+          "sha256": "e40ec04caac00baeab3cdcb9e22a4b76fb40373e2c51ea348d0479bd763dcc56",
+          "bytes": 32062
+        }
+      }
+    },
+    {
+      "document_id": "doc_004",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln2/1:199",
+      "source_text": "Collected Works vol.2 pp.247-283",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.2 pp.247-283",
+      "editorial_status": "reported_or_extemporaneous_text_with_transcription_noise",
+      "risk_flags": [
+        "transcription_noise"
+      ],
+      "known_limitations": [
+        "Reported or extemporaneous text may contain transcription noise; exact wording and span boundaries require caution."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_004.txt",
+          "exists": true,
+          "sha256": "2036ac3536cafc6f91e089db32ed46acba1d698138b86b02152639ca1e9abaa3",
+          "bytes": 98152
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_004.md",
+          "exists": true,
+          "sha256": "3caf94c7a62786029bf8033cd4ab576ab13e8cea800b0b1348e09bdd80fccf28",
+          "bytes": 96656
+        }
+      }
+    },
+    {
+      "document_id": "doc_005",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln2/1:419",
+      "source_text": "Collected Works vol.2 pp.461-469",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.2 pp.461-469",
+      "editorial_status": "standard_collected_works_text",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_005.txt",
+          "exists": true,
+          "sha256": "66a67bff79b6c92d63c1e60cb309fc329eadd34af3158e83f5db857783588aab",
+          "bytes": 20840
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_005.md",
+          "exists": true,
+          "sha256": "805c357511d592435b40ad24d412de6ef4a9429c5e817b3283ddaa82d6ea5fc0",
+          "bytes": 20886
+        }
+      }
+    },
+    {
+      "document_id": "doc_006a",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:1",
+      "source_text": "Collected Works vol.3 pp.1-37",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.1-37",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "risk_flags": [
+        "transcription_variants"
+      ],
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_006a.txt",
+          "exists": true,
+          "sha256": "aac4ccd729b782987813f04d8ae814840c45c10c0a75f445e5ee786b8278a7f0",
+          "bytes": 102844
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_006a.md",
+          "exists": true,
+          "sha256": "9ec164e346ecd5fe4b864fec14d79bad2b47275582f88476274c9c7ff579e0b6",
+          "bytes": 100840
+        }
+      }
+    },
+    {
+      "document_id": "doc_006b",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:2",
+      "source_text": "Collected Works vol.3 pp.38-76",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.38-76",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "risk_flags": [
+        "transcription_variants"
+      ],
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_006b.txt",
+          "exists": true,
+          "sha256": "42e41ec382b06f654ec020bd68cd4d033d3a95adb613406e2d01c223e18eb4dd",
+          "bytes": 106801
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_006b.md",
+          "exists": true,
+          "sha256": "6be33e813dd05bfec200712d9344342e593127d8df5157c64c0362915e80da14",
+          "bytes": 104632
+        }
+      }
+    },
+    {
+      "document_id": "doc_006c",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:3",
+      "source_text": "Collected Works vol.3 pp.102-144",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.102-144",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "risk_flags": [
+        "transcription_variants"
+      ],
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_006c.txt",
+          "exists": true,
+          "sha256": "aa35fe9356788f11f22db62760b9eb5bd69b4ca4bf242777317c97e92202631e",
+          "bytes": 119232
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_006c.md",
+          "exists": true,
+          "sha256": "3056623e16f6c95f4306d65bc8514eac618a65015b5982b4c8e19276c9d70a35",
+          "bytes": 116771
+        }
+      }
+    },
+    {
+      "document_id": "doc_006d",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:4",
+      "source_text": "Collected Works vol.3 pp.145-201",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.145-201",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "risk_flags": [
+        "transcription_variants"
+      ],
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_006d.txt",
+          "exists": true,
+          "sha256": "dfb2fd480b1be10ef9a3e7fcebe96f84bb1cf553d7aba1d2e56d78ab521dbf18",
+          "bytes": 158402
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_006d.md",
+          "exists": true,
+          "sha256": "4746c327572b4efc41276343f014414d89068d570821f30088c42672832dc9d6",
+          "bytes": 155001
+        }
+      }
+    },
+    {
+      "document_id": "doc_006e",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:5",
+      "source_text": "Collected Works vol.3 pp.207-244",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.207-244",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "risk_flags": [
+        "transcription_variants"
+      ],
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_006e.txt",
+          "exists": true,
+          "sha256": "89e77763a1595d8c4d0b5fcca8a45c3555b4cf198285dba4aff5737ffaf2ec55",
+          "bytes": 104724
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_006e.md",
+          "exists": true,
+          "sha256": "c9c3db21fa3d5f8a890c25de634edba563305b57ebac856df2cede5e63d68976",
+          "bytes": 102679
+        }
+      }
+    },
+    {
+      "document_id": "doc_006f",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:6",
+      "source_text": "Collected Works vol.3 pp.245-325",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.245-325",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "risk_flags": [
+        "transcription_variants"
+      ],
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_006f.txt",
+          "exists": true,
+          "sha256": "782fed28a3ecaa28bd193c603b352e5c55c345a38cd603e09c7f18794bb5bfb3",
+          "bytes": 108162
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_006f.md",
+          "exists": true,
+          "sha256": "eb769b73d363b00b9877ae11be39e899beb8fd6f63a7e083531ea4a7f0866ff0",
+          "bytes": 105914
+        }
+      }
+    },
+    {
+      "document_id": "doc_006g",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:7",
+      "source_text": "Collected Works vol.3 pp.283-325",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.283-325",
+      "editorial_status": "newspaper_transcription_with_variant_risk",
+      "risk_flags": [
+        "transcription_variants"
+      ],
+      "known_limitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_006g.txt",
+          "exists": true,
+          "sha256": "de2e81c058c99f3ccdb94a5f9630b1d13eaa3227c1bf1d2a68481dac7701fb73",
+          "bytes": 119580
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_006g.md",
+          "exists": true,
+          "sha256": "105ebb1691d1ef9f6124f2b8b1ddc097d6a5ea4a91d57dcf6088657b8fc072f8",
+          "bytes": 117237
+        }
+      }
+    },
+    {
+      "document_id": "doc_007",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln3/1:92",
+      "source_text": "Collected Works vol.3 pp.522-550",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.3 pp.522-550",
+      "editorial_status": "standard_collected_works_text",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_007.txt",
+          "exists": true,
+          "sha256": "104b8d58e56865eb7a9419e3edc7161448475c42768f7da58f0caf63c9a90fd9",
+          "bytes": 94403
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_007.md",
+          "exists": true,
+          "sha256": "80074dabb3fbdfb175b3725037f3ca7b5a202bc0c6784ae34de1abb23db378d4",
+          "bytes": 93282
+        }
+      }
+    },
+    {
+      "document_id": "doc_008",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:40",
+      "source_text": "Collected Works vol.4 pp.190-191",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.190-191",
+      "editorial_status": "multiple_version_text",
+      "risk_flags": [
+        "two_versions"
+      ],
+      "known_limitations": [
+        "Two textual versions circulate; variant-sensitive claims should identify the version used."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_008.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_008.md",
+          "exists": true,
+          "sha256": "9f2e008a9af5616bda656172580ec2f6bf7fe91e047145c92963222c6aba1726",
+          "bytes": 1450
+        }
+      }
+    },
+    {
+      "document_id": "doc_009",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:60",
+      "source_text": "Collected Works vol.4 pp.262-271",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.262-271",
+      "editorial_status": "collaborative_revision_with_seward_passages",
+      "risk_flags": [
+        "co_authored_seward"
+      ],
+      "known_limitations": [
+        "Includes Seward-drafted or Seward-revised passages; authorship-sensitive analysis should isolate Lincoln-sole sentences where possible."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_009.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_009.md",
+          "exists": true,
+          "sha256": "365776e4e6a341fd79ba709f266d8eadf8f35557a875e169e3cc65b9b371a99a",
+          "bytes": 21847
+        }
+      }
+    },
+    {
+      "document_id": "doc_010",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:109",
+      "source_text": "Collected Works vol.4 pp.421-441",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.421-441",
+      "editorial_status": "official_congressional_message",
+      "risk_flags": [],
+      "known_limitations": [
+        "Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_010.txt",
+          "exists": true,
+          "sha256": "11d503cd2f36af4f4ea33dee134c3fbd15e40a7fd4487b92d09617877a14ec9f",
+          "bytes": 58846
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_010.md",
+          "exists": true,
+          "sha256": "4816271b5e9924ea0f7e40d64639d266c6197d06b5c8c1c190bc33efc1d73cfb",
+          "bytes": 58164
+        }
+      }
+    },
+    {
+      "document_id": "doc_011",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:34",
+      "source_text": "Collected Works vol.4 pp.168-169",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.168-169",
+      "editorial_status": "private_fragment_with_uncertain_date",
+      "risk_flags": [
+        "date_uncertain"
+      ],
+      "known_limitations": [
+        "Private fragment with uncertain date; diachronic placement should be treated cautiously.",
+        "Private fragment has limited audience context and short length; frequency claims require caution."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_011.txt",
+          "exists": true,
+          "sha256": "679cfa5823078dc12decadbe6ff27c83627390a00019e531996f353d4298bcd0",
+          "bytes": 2078
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_011.md",
+          "exists": true,
+          "sha256": "b2c153bcbf89f351c5c4a7c605e1bf2f919d7f8572282510b5472ce2b5b521f5",
+          "bytes": 2734
+        }
+      }
+    },
+    {
+      "document_id": "doc_012",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln5/1:305",
+      "source_text": "Collected Works vol.5 pp.388-389",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.5 pp.388-389",
+      "editorial_status": "published_or_circulated_letter",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_012.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_012.md",
+          "exists": true,
+          "sha256": "71ab05a5e0f4a61e0065d5154c5924cae325e3d7e2b920d01b513bff5522f40d",
+          "bytes": 2554
+        }
+      }
+    },
+    {
+      "document_id": "doc_013",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln5/1:345",
+      "source_text": "Collected Works vol.5 pp.433-436",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.5 pp.433-436",
+      "editorial_status": "official_legal_text",
+      "risk_flags": [],
+      "known_limitations": [
+        "Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_013.txt",
+          "exists": true,
+          "sha256": "a79d0bb5f1c9f369f87fc46c6332d5d441aae96ab475808b2933591482457aef",
+          "bytes": 10458
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_013.md",
+          "exists": true,
+          "sha256": "e36f99e60b23e8cc26ed639c95a179b61b71ef96cb87508ed1c99995488946c8",
+          "bytes": 8807
+        }
+      }
+    },
+    {
+      "document_id": "doc_014",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln5/1:400",
+      "source_text": "Collected Works vol.5 pp.518-537",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.5 pp.518-537",
+      "editorial_status": "official_congressional_message",
+      "risk_flags": [],
+      "known_limitations": [
+        "Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_014.txt",
+          "exists": true,
+          "sha256": "92b8924cf2592f9749ccac40f24678748eebae6bc1720f2595387e605028979c",
+          "bytes": 49232
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_014.md",
+          "exists": true,
+          "sha256": "801230ebc1a88906aaf6bf0f42af0a207a214a96fba079fd5a33da9fff160990",
+          "bytes": 48683
+        }
+      }
+    },
+    {
+      "document_id": "doc_015",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln6/1:20",
+      "source_text": "Collected Works vol.6 pp.28-30",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.6 pp.28-30",
+      "editorial_status": "official_legal_text",
+      "risk_flags": [],
+      "known_limitations": [
+        "Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_015.txt",
+          "exists": true,
+          "sha256": "414f4183ab389da7ef8fa60c3e5b03ec8bbcf39e8d43a3c56ca139e7ae641919",
+          "bytes": 7062
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_015.md",
+          "exists": true,
+          "sha256": "e3738615b55994bcebe40cd0e5d364902f5a34b1359c886b34b2bf3e5e70d0a6",
+          "bytes": 7676
+        }
+      }
+    },
+    {
+      "document_id": "doc_016",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln6/1:284",
+      "source_text": "Collected Works vol.6 pp.406-410",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.6 pp.406-410",
+      "editorial_status": "published_or_circulated_letter",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_016.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_016.md",
+          "exists": true,
+          "sha256": "223306c16efd87fffaf3a7491dc27daeca40dca798a3ae0a4dac32ea41699840",
+          "bytes": 9675
+        }
+      }
+    },
+    {
+      "document_id": "doc_017",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:16",
+      "source_text": "Collected Works vol.7 pp.22-23",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.22-23",
+      "editorial_status": "manuscript_variant_tradition",
+      "risk_flags": [
+        "manuscript_variants"
+      ],
+      "known_limitations": [
+        "Multiple manuscript witnesses exist; variant-sensitive claims should identify the copy used."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_017.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_017.md",
+          "exists": true,
+          "sha256": "2f93112a472568cbb1c447d95b2850919b12c50151391cbd60066d4731f16ac8",
+          "bytes": 2108
+        }
+      }
+    },
+    {
+      "document_id": "doc_018",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:348",
+      "source_text": "Collected Works vol.7 pp.514-515",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.514-515",
+      "editorial_status": "private_fragment",
+      "risk_flags": [],
+      "known_limitations": [
+        "Private fragment has limited audience context and short length; frequency claims require caution."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_018.txt",
+          "exists": true,
+          "sha256": "dece4f1ce6df377f9b9e17f0d92247083de2b8e53616495e96dfc2008af46bc2",
+          "bytes": 4117
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_018.md",
+          "exists": true,
+          "sha256": "aebf54ec5b727e84185c0c7becf0aa0dac08b6c197f73b2e8cdf3918b5c23756",
+          "bytes": 4954
+        }
+      }
+    },
+    {
+      "document_id": "doc_019",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7/1:189",
+      "source_text": "Collected Works vol.7 pp.281-283",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.7 pp.281-283",
+      "editorial_status": "published_or_circulated_letter",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_019.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_019.md",
+          "exists": true,
+          "sha256": "90d652af6ee3da43a4edc01b10020b9991f4c4c7c8f79988dc345c01b7148d98",
+          "bytes": 5124
+        }
+      }
+    },
+    {
+      "document_id": "doc_020",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:61",
+      "source_text": "Collected Works vol.8 pp.96-97",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.96-97",
+      "editorial_status": "reported_or_extemporaneous_text_with_transcription_noise",
+      "risk_flags": [
+        "transcription_noise"
+      ],
+      "known_limitations": [
+        "Reported or extemporaneous text may contain transcription noise; exact wording and span boundaries require caution."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_020.txt",
+          "exists": true,
+          "sha256": "d4e851245aa27591245e5ff61b97ff7ce28954dc0937739311dfffdb676a3db4",
+          "bytes": 3408
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_020.md",
+          "exists": true,
+          "sha256": "c0f01dff5af604ea8cb09777ef3cdd3b1948deb69615076ad5d40838cc52c888",
+          "bytes": 4105
+        }
+      }
+    },
+    {
+      "document_id": "doc_021",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:211",
+      "source_text": "Collected Works vol.8 pp.332-333",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.332-333",
+      "editorial_status": "standard_collected_works_text",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_021.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_021.md",
+          "exists": true,
+          "sha256": "d38cbc091fabe4362fc8d57b872af7df91981902a1eec3b5cbb65880de2b99a8",
+          "bytes": 4402
+        }
+      }
+    },
+    {
+      "document_id": "doc_022",
+      "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8/1:252",
+      "source_text": "Collected Works vol.8 pp.399-405",
+      "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.8 pp.399-405",
+      "editorial_status": "standard_collected_works_text",
+      "risk_flags": [],
+      "known_limitations": [
+        "No special provenance caution recorded."
+      ],
+      "files": {
+        "raw_text": {
+          "path": "corpus/raw/doc_022.txt",
+          "exists": false,
+          "sha256": null,
+          "bytes": null
+        },
+        "canonical_text": {
+          "path": "corpus/text/doc_022.md",
+          "exists": true,
+          "sha256": "7bbcd07c8a0d1e46ac837612ad01ea006ed6b0543dce2b480b844c06aea010c7",
+          "bytes": 11026
+        }
+      }
+    }
+  ],
+  "indexes": {
+    "by_document": {
+      "doc_001": 0,
+      "doc_002": 1,
+      "doc_003": 2,
+      "doc_004": 3,
+      "doc_005": 4,
+      "doc_006a": 5,
+      "doc_006b": 6,
+      "doc_006c": 7,
+      "doc_006d": 8,
+      "doc_006e": 9,
+      "doc_006f": 10,
+      "doc_006g": 11,
+      "doc_007": 12,
+      "doc_008": 13,
+      "doc_009": 14,
+      "doc_010": 15,
+      "doc_011": 16,
+      "doc_012": 17,
+      "doc_013": 18,
+      "doc_014": 19,
+      "doc_015": 20,
+      "doc_016": 21,
+      "doc_017": 22,
+      "doc_018": 23,
+      "doc_019": 24,
+      "doc_020": 25,
+      "doc_021": 26,
+      "doc_022": 27
+    },
+    "raw_files_present": [
+      "doc_003",
+      "doc_004",
+      "doc_005",
+      "doc_006a",
+      "doc_006b",
+      "doc_006c",
+      "doc_006d",
+      "doc_006e",
+      "doc_006f",
+      "doc_006g",
+      "doc_007",
+      "doc_010",
+      "doc_011",
+      "doc_013",
+      "doc_014",
+      "doc_015",
+      "doc_018",
+      "doc_020"
+    ],
+    "raw_files_missing": [
+      "doc_001",
+      "doc_002",
+      "doc_008",
+      "doc_009",
+      "doc_012",
+      "doc_016",
+      "doc_017",
+      "doc_019",
+      "doc_021",
+      "doc_022"
+    ]
+  }
+}

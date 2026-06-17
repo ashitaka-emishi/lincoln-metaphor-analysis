@@ -69,9 +69,23 @@ test('schema validation and per-annotation validation pass on fixture workspace'
   assertScriptPasses(schema, 'validate_schema.js');
   assert.match(schema.stdout, /All validations passed/);
 
+  const provenance = runScript(workspace, 'validate_source_provenance.js');
+  assertScriptPasses(provenance, 'validate_source_provenance.js');
+  assert.match(provenance.stdout, /Source provenance checksums valid/);
+
   const annotation = runScript(workspace, 'validate_annotation_output.js', ['doc_001']);
   assertScriptPasses(annotation, 'validate_annotation_output.js doc_001');
   assert.match(annotation.stdout, /doc_001_annotated\.json passed repository validation/);
+});
+
+test('source provenance validation rejects source text checksum drift', t => {
+  const workspace = copyFixtureWorkspace(t);
+  const sourcePath = path.join(workspace, 'corpus', 'text', 'doc_001.md');
+  fs.appendFileSync(sourcePath, '\n<!-- unintended source drift -->\n');
+
+  const provenance = runScript(workspace, 'validate_source_provenance.js');
+  assert.notEqual(provenance.status, 0, 'validate_source_provenance.js should reject source checksum drift');
+  assert.match(provenance.stderr, /doc_001\.canonical_text: sha256 expected/);
 });
 
 test('schema validation rejects invalid Stage 4 absence flags', t => {

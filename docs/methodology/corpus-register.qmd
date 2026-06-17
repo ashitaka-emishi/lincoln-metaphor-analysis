@@ -13,6 +13,8 @@ npm run corpus:register
 
 The generated CSV is written to `data/metadata/corpus-register.csv`.
 
+Source-file integrity is tracked separately in `data/metadata/source-provenance-checksums.json`. That registry records SHA-256 checksums for every canonical `corpus/text/{doc_id}.md` file and for each available `corpus/raw/{doc_id}.txt` Stage 1 acquisition file. Run `npm run validate:source-provenance` to check the registry without rewriting source files; run `npm run source:provenance` only when an intentional source correction or manifest-provenance correction needs to refresh the recorded checksums.
+
 Documents with risk flags are also indexed in the [Textual Variant Apparatus](textual-variant-apparatus.md), which records source traditions, sentence and instance anchors where available, annotation decisions, and publication caveats.
 
 ## Scope

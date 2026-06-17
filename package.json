@@ -5,8 +5,10 @@
   "scripts": {
     "status": "node scripts/pipeline_status.js",
     "migrate:annotations": "node scripts/migrate_annotations_to_stage4.js",
-    "validate": "node scripts/validate_schema.js",
+    "validate": "node scripts/validate_schema.js && npm run validate:source-provenance",
     "validate:annotation": "node scripts/validate_annotation_output.js",
+    "validate:source-provenance": "node scripts/validate_source_provenance.js",
+    "source:provenance": "node scripts/validate_source_provenance.js --write",
     "corpus:register": "node scripts/build_corpus_register.js",
     "evidence:chains": "node scripts/build_evidence_chains.js",
     "reliability:sample": "node scripts/build_reliability_sample.js",
