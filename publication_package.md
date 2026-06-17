@@ -74,7 +74,7 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 
 - The corpus is Lincoln-only and contains 28 selected documents, not the whole Lincoln archive.
 - Debate, manuscript, date, version, and collaborative-revision traditions carry source risk; those risks are recorded in the corpus register and textual variant apparatus.
-- The reliability workflow now reports an AI-assisted second-pass reliability result, not a two-human blind inter-annotator study.
+- The reliability workflow now reports an AI-assisted second-pass reliability result, not a two-human blind inter-annotator study; the human double-coding follow-up protocol is designed but not yet executed.
 - The purification-rhetoric contrast is structural, not moral equivalence; Koenigsberg's Hitler analysis is used as bounded theoretical background, not as the project's headline comparative object.
 - The project studies public rhetoric and selected fragments; it does not establish audience reception, private belief, or full political causality.
 - Reception evidence is protocolized separately; candidate collections are not evidence until item-level records are cited and rights-checked.
@@ -91,7 +91,7 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 | Reception evidence protocol | Complete | [Reception Evidence](docs/methodology/reception-evidence.md) |
 | Annotation codebook | Complete | [Annotation Codebook](docs/methodology/annotation-codebook.md) |
 | Evidence-chain schema | Complete | [Evidence Chain Schema](docs/methodology/evidence-chain-schema.md) |
-| Reliability workflow | Complete with AI-assisted limitation | [Reliability Workflow](docs/methodology/reliability-report.md), [Reliability Results](docs/methodology/reliability-results.md) |
+| Reliability workflow | Complete with AI-assisted limitation; human follow-up designed | [Reliability Workflow](docs/methodology/reliability-report.md), [Human Coding Protocol](docs/methodology/human-double-coding-protocol.md), [Reliability Results](docs/methodology/reliability-results.md) |
 | Register/authorship controls | Complete | [Controlled Outputs](analysis/controlled_outputs.md) |
 | Claim-to-source audit | Complete | [Claim-To-Source Audit](synthesis/claim_audit.md) |
 | Synthesis revision | Complete | [Findings](synthesis/findings.md), [Final Conclusions](synthesis/final_conclusions.md) |
