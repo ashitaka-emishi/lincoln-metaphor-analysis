@@ -106,6 +106,7 @@ The difference in political outcome is not incidental. A rhetoric that has no pa
 **Rival readings preserved**:
 - Lincoln's restraint may reflect political coalition management as much as metaphor structure.
 - The Providence frame may be sincere theology, strategic self-effacement, or both.
+- The First Inaugural establishes received public rhetorical structure, but its final peroration has Seward-origin/revision risk; strict Lincoln-origin claims should rely on the document's stable covenant and Providence evidence rather than the "mystic chords" instance.
 - The corpus establishes public rhetorical structure, not audience reception or private psychological causation; reception claims require separate item-level evidence.
 
 ---

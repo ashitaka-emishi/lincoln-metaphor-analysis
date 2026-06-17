@@ -74,6 +74,8 @@ Texts are included when they meet all or most of these conditions:
 
 The 1863 and 1864 Annual Messages are not added to the current publication corpus. The corpus already includes two congressional messages (`doc_010` and `doc_014`) and uses [Controlled Outputs](../../analysis/controlled_outputs.md) to keep congressional-message evidence register-bounded. Current claims do not depend on complete annual-message coverage. Adding the two later messages would be a future expansion requiring source acquisition, segmentation, annotation, validation, and generated-output updates.
 
+The First Inaugural (`doc_009`) remains in scope as a Lincoln-primary address with a sentence-level Seward control. The received-text address can support claims about the public inaugural rhetoric, but authorship-sensitive claims use the three-tier control documented in [doc_009 notes](../../analysis/document_notes/doc_009_notes.md): received text, Lincoln-adopted Seward-origin wording, and strict Lincoln-origin evidence. This prevents the Seward-origin/revised "mystic chords" passage from carrying Lincoln-sole claims while retaining the document's stable covenant and Providence evidence.
+
 ## Exclusion Criteria
 
 The current milestone excludes:
@@ -151,6 +153,7 @@ Absence claims require special discipline. A simple zero count is not enough. Pu
 - Frequency claims must come from generated JSON or generated tables, not prose memory.
 - Register-sensitive claims must be reported with register controls.
 - Authorship-sensitive claims must be checked against the `authorship_confidence >= 0.95` subset.
+- Authorship-sensitive claims about `doc_009` must also name the Seward sentence-level control when they depend on inst_00076 or inst_00077.
 - Interpretive claims must cite sentence IDs or claim-audit entries.
 - Comparative claims must name the compared structural dimension and avoid moral equivalence.
 - Negative cases and rival readings must be preserved when they limit the strength of a finding.

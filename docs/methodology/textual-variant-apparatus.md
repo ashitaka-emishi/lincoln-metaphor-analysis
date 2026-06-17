@@ -239,15 +239,16 @@ Source tradition: First Inaugural text includes Seward-drafted or Seward-revised
 Relevant limits:
 
 - Authorship-sensitive claims require caution around revised passages.
-- The final peroration is especially important because it contains a high-value covenant/body-memory metaphor.
+- Use received-text, Lincoln-adopted, and strict Lincoln-origin tiers for the closing peroration.
+- The final peroration is especially important because it contains high-value covenant/body-memory metaphors.
 
-Sentence anchors: doc_009_s01_p40_s05
+Sentence anchors: doc_009_s01_p40_s04, doc_009_s01_p40_s05
 
-Instance anchors: inst_00077
+Instance anchors: inst_00076, inst_00077
 
 Annotation decision: No current Stage 4 annotation adjustment. Keep authorship caveat attached to affected sentence anchors and use high-authorship-confidence controls for aggregate claims.
 
-Publication caveat: The final peroration is retained as part of the received First Inaugural text, but authorship-sensitive interpretation should flag Seward revision risk.
+Publication caveat: The final peroration is retained as part of the received First Inaugural text. Treat inst_00076 as Lincoln-adopted Seward-origin wording and inst_00077 as received-text evidence excluded from Lincoln-sole claims.
 
 ## doc_011 - Constitution Fragment
 

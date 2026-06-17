@@ -97,4 +97,4 @@ All documents are authored by Lincoln (`lincoln_sole`) or primarily by Lincoln (
 
 The Lincoln-Douglas debate transcriptions (doc_006a–g, confidence 0.82–0.83) have the lowest confidence in the corpus due to newspaper transcription noise. They are annotated with a −0.05 confidence adjustment applied to all Lincoln turns. See [Annotation Protocol](skills/annotation_protocol.md) for the full special-document protocol.
 
-The First Inaugural (doc_009, confidence 0.93) contains Seward-drafted passages; statistical runs for that document must be computed twice: full document and Lincoln-sole sentences only.
+The First Inaugural (doc_009, confidence 0.93) contains Seward-origin/revised closing passages. Authorship-sensitive claims use the documented three-tier control: received First Inaugural text, Lincoln-adopted Seward-origin wording, and strict Lincoln-origin evidence.

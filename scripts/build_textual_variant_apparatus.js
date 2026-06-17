@@ -83,7 +83,8 @@ const RISK_POLICIES = {
     source_tradition: 'First Inaugural text includes Seward-drafted or Seward-revised material within a Lincoln-primary address.',
     relevant_variants_or_limits: [
       'Authorship-sensitive claims require caution around revised passages.',
-      'The final peroration is especially important because it contains a high-value covenant/body-memory metaphor.'
+      'Use received-text, Lincoln-adopted, and strict Lincoln-origin tiers for the closing peroration.',
+      'The final peroration is especially important because it contains high-value covenant/body-memory metaphors.'
     ],
     default_annotation_decision: 'No current Stage 4 annotation adjustment. Keep authorship caveat attached to affected sentence anchors and use high-authorship-confidence controls for aggregate claims.'
   },
@@ -116,9 +117,9 @@ const DOC_OVERRIDES = {
     publication_caveat: 'The Springfield Farewell should be cited as the corpus version of Lincoln self-editing his farewell, not as a verbatim transcript of the extemporaneous delivery.'
   },
   doc_009: {
-    focal_sentence_ids: ['doc_009_s01_p40_s05'],
-    focal_instance_ids: ['inst_00077'],
-    publication_caveat: 'The final peroration is retained as part of the received First Inaugural text, but authorship-sensitive interpretation should flag Seward revision risk.'
+    focal_sentence_ids: ['doc_009_s01_p40_s04', 'doc_009_s01_p40_s05'],
+    focal_instance_ids: ['inst_00076', 'inst_00077'],
+    publication_caveat: 'The final peroration is retained as part of the received First Inaugural text. Treat inst_00076 as Lincoln-adopted Seward-origin wording and inst_00077 as received-text evidence excluded from Lincoln-sole claims.'
   },
   doc_011: {
     publication_caveat: 'Use as evidence for Lincoln theorizing the apple-picture hierarchy, with date and missing-context limits stated in diachronic claims.'
