@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { generatedDateForFile, pipelineLogForFile } = require('./generated_metadata');
 const { ABSENCE_FLAGS, CLUSTERS } = require('./schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -245,18 +246,16 @@ function main() {
   const existingSysAbsence = (existingAnalysis && existingAnalysis.systematic_absence) || {};
   const existingCrossCluster = (existingAnalysis && existingAnalysis.cross_cluster) || {};
   const existingMasterComparison = (existingAnalysis && existingAnalysis.koenigsberg_master_comparison) || {};
-  const existingLog = (existingAnalysis && existingAnalysis.pipeline_log) || [];
-
-  existingLog.push({
+  const generated = generatedDateForFile(ANALYSIS_PATH);
+  const pipelineLog = pipelineLogForFile(ANALYSIS_PATH, {
     stage: 6,
     agent: 'run_analysis.js',
-    date: new Date().toISOString().split('T')[0],
     total_instances_analyzed: allInstances.length
   });
 
   const analysis = {
     version: '1.0',
-    generated: new Date().toISOString().split('T')[0],
+    generated,
     status: allInstances.length > 0 ? 'complete' : 'stub',
     cluster_analyses: clusterAnalyses,
     systematic_absence: {
@@ -281,7 +280,7 @@ function main() {
       primary_structural_divergence: existingMasterComparison.primary_structural_divergence || null,
       significance: existingMasterComparison.significance || null
     },
-    pipeline_log: existingLog
+    pipeline_log: pipelineLog
   };
 
   fs.writeFileSync(ANALYSIS_PATH, JSON.stringify(analysis, null, 2));

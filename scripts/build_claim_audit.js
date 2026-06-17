@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { generatedDateForFile } = require('./generated_metadata');
 
 const ROOT = path.resolve(__dirname, '..');
 const EVIDENCE_PATH = path.join(ROOT, 'data', 'evidence', 'annotation-evidence.json');
@@ -68,7 +69,7 @@ function readJSON(filePath) {
 }
 
 function today() {
-  return new Date().toISOString().slice(0, 10);
+  return generatedDateForFile(OUTPUT_JSON);
 }
 
 function hasFlag(record, flag) {

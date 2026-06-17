@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { generatedDateForFile } = require('./generated_metadata');
 const { CLUSTERS } = require('./schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -17,7 +18,7 @@ function readJSON(filePath) {
 }
 
 function today() {
-  return new Date().toISOString().slice(0, 10);
+  return generatedDateForFile(OUTPUT_PATH);
 }
 
 function clusterSourceFamily(clusterId) {

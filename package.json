@@ -19,6 +19,7 @@
     "concordance": "node scripts/build_concordance.js",
     "analysis": "node scripts/run_analysis.js",
     "pipeline": "npm run validate && npm run concordance && npm run analysis && npm run evidence:chains && npm run reliability:sample && npm run reliability:results && npm run variants:apparatus && npm run analysis:controlled && npm run audit:claims",
+    "freshness:generated": "node scripts/check_generated_freshness.js",
     "stage7": "python3 scripts/run_stage7.py",
     "stage7:large": "python3 scripts/run_stage7.py --dataset large",
     "stage7:download": "python3 scripts/download_lcc.py",
