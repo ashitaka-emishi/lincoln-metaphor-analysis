@@ -238,6 +238,8 @@ Same structure as Stage 3, with `metaphor_instances` arrays populated. Each elem
 
 ### Field enums — Stage 4
 
+Canonical script-level source: `scripts/schema_constants.js`. This section is the human-readable schema mirror. Any change to `cluster_id`, `fantasy_type`, or `absence_flags` values must update `scripts/schema_constants.js` first, then propagate through validators, migration logic, downstream generated-output scripts, and this document in the same change. The `disease_purification_absent` absence flag must remain canonical so the central negative finding is validated and indexed.
+
 **cluster_id**: `cluster_01_body_organism` | `cluster_02_covenant_oath` | `cluster_03_experiment_proposition` | `cluster_04_birth_creation` | `cluster_05_fathers_inheritance` | `cluster_06_providence_theodicy`
 
 **linguistic_form**: `verbal_phrase` | `nominal_phrase` | `adjectival` | `clause` | `sentence` | `multi_sentence`

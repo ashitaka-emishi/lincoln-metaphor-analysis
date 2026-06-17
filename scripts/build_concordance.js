@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { ABSENCE_FLAGS, CLUSTER_IDS, emptyArrayIndex } = require('./schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
 const ANNOTATED_DIR = path.join(ROOT, 'corpus', 'annotated');
@@ -34,27 +35,12 @@ function main() {
   let totalSentences = 0;
 
   const indexes = {
-    by_cluster: {
-      cluster_01_body_organism: [],
-      cluster_02_covenant_oath: [],
-      cluster_03_experiment_proposition: [],
-      cluster_04_birth_creation: [],
-      cluster_05_fathers_inheritance: [],
-      cluster_06_providence_theodicy: []
-    },
+    by_cluster: emptyArrayIndex(CLUSTER_IDS),
     by_document: {},
     by_register: {},
     by_fantasy_type: {},
     by_violence_logic: {},
-    by_absence_flag: {
-      enslaved_people_non_agent: [],
-      black_soldiers_erased: [],
-      lincoln_non_agent: [],
-      confederates_depersonalized: [],
-      death_abstracted: [],
-      women_absent: [],
-      disease_purification_absent: []
-    },
+    by_absence_flag: emptyArrayIndex(ABSENCE_FLAGS),
     high_confidence_only: [],
     suppression_instances: []
   };
