@@ -32,11 +32,12 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # Publication gate: deploy only after status, validation, pipeline, and site render pass.
+      # Publication gate: deploy only after status, validation, tests, pipeline, and site render pass.
       - name: Run publication gate
         run: |
           npm run status
           npm run validate
+          npm test
           npm run pipeline
           quarto render
 
