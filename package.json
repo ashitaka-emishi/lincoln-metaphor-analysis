@@ -28,6 +28,7 @@
     "stage7:eval": "python3 scripts/evaluate_lcc.py --output reports/stage7/LCC_report.md",
     "site": "quarto render",
     "site:preview": "quarto preview",
+    "test": "node --test tests/*.test.js",
     "check:quarto": "quarto --version || (echo 'Quarto not found. Install from https://quarto.org/docs/get-started/ or: brew install quarto' && exit 1)"
   },
   "engines": {
