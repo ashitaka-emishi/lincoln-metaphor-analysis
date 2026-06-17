@@ -64,17 +64,17 @@ draft: false
 
 ---
 
-## 5. Corpus Limits vs. the Hitler Comparison
+## 5. Corpus Limits vs. the Purification-Rhetoric Contrast
 
-**Problem**: The Lincoln/Hitler comparison is structural — it compares metaphor architectures. But the comparison has an asymmetry: Lincoln's corpus is 28 documents over 27 years; the Hitler comparison is based on Koenigsberg's analysis of a larger and different corpus.
+**Problem**: The purification-rhetoric contrast is structural: it compares metaphor architectures and exit conditions. But the contrast has an evidentiary asymmetry: Lincoln's corpus is 28 documents over 27 years, while the purification model is drawn from Koenigsberg's analysis of a larger and different Hitler corpus.
 
 **Questions**:
-- Does Koenigsberg's Hitler analysis use comparable methodology to this project's Lincoln analysis? If not, how do we control for methodological differences?
+- Does Koenigsberg's Hitler analysis use comparable methodology to this project's Lincoln analysis? If not, how do we control for methodological differences while using it as theoretical background?
 - Are there Lincoln documents not in this corpus that might contain disease_and_purification language?
 - Are there periods in Lincoln's career (before 1838 or in private correspondence outside this corpus) where his rhetoric differs?
-- Is the comparison valid at the level of ideology (which is what Koenigsberg claims) or does it risk collapsing into a moral comparison?
+- Is the contrast valid at the level of ideological structure (which is what Koenigsberg claims), or does it risk collapsing into a moral comparison?
 
-**Analytical approach**: The comparison must be clearly framed as structural, not moral. The project does not claim Lincoln and Hitler are morally equivalent. It claims their rhetoric shares certain structural features and differs in one decisive way. All Hitler-comparison claims should specify that they are about rhetorical structure, not about the men's moral status.
+**Analytical approach**: The contrast must be clearly framed as structural, not moral. The project does not claim Lincoln and Hitler are morally equivalent. It uses Koenigsberg's Hitler analysis as a bounded theoretical model for purification rhetoric, then asks whether Lincoln's validated corpus contains the same pathogen-group mechanism. All references to the Hitler case should specify that they are about rhetorical structure, not about moral equivalence.
 
 ---
 

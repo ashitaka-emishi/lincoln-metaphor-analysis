@@ -50,7 +50,7 @@ The systematic absence reveals the limits of Lincoln's civic framework. The meta
 
 **Claim** (confirmed against corpus):
 
-Lincoln's corpus contains **zero instances** of `disease_and_purification` fantasy type. No group is constructed as a pathogen that the national body must expel. This absence is the decisive structural difference from Hitler's rhetoric.
+Lincoln's corpus contains **zero instances** of `disease_and_purification` fantasy type. No group is constructed as a pathogen that the national body must expel. This absence is the decisive structural difference from purification-based political rhetoric.
 
 **Audit**: [CLAIM-002](claim_audit.md#claim-002)
 
@@ -75,7 +75,7 @@ Disease/purification logic (absent from Lincoln) requires the pathogen to be exp
 
 **Significance**:
 
-"Malice toward none, charity for all" is not merely a moral aspiration — it is a structural consequence of Lincoln's metaphor system. A rhetoric that has no disease/purification logic has no mechanism for constructing permanent enemies. The wound can heal; the oath can be fulfilled; the proposition can be proven; the debt can be paid; God's punishment can run its course. None of these has an infinitely extendable logic. This is the structural reason Lincoln's rhetoric could move toward reconciliation while Hitler's could only move toward annihilation.
+"Malice toward none, charity for all" is not merely a moral aspiration — it is a structural consequence of Lincoln's metaphor system. A rhetoric that has no disease/purification logic has no mechanism for constructing permanent enemies. The wound can heal; the oath can be fulfilled; the proposition can be proven; the debt can be paid; God's punishment can run its course. None of these has an infinitely extendable logic. This is the structural reason Lincoln's rhetoric could move toward reconciliation while purification-based political fantasy has no internal exit condition.
 
 **Limitations**:
 - The absence from Lincoln's rhetoric does not mean its absence from his era's broader political culture

@@ -49,14 +49,14 @@ The most rhetorically sophisticated move in the Cooper Union address is inst_000
 
 p77_s05 contains the most explicit disease/purification language in the Cooper Union address: "The whole atmosphere must be disinfected from all taint of opposition to slavery." Lincoln is quoting — sarcastically — the Southern demand. He reports this as the extremist position Lincoln's opponents have reached: slavery must be so thoroughly entrenched that even opposition to it is treated as a contamination requiring disinfection.
 
-This is **not** an annotatable instance for Lincoln's own metaphor system. Lincoln perceives and articulates the purification frame precisely — he uses it to characterize Southern extremism — but he never deploys it as his own governing logic. This is the key structural finding for the Koenigsberg comparison:
+This is **not** an annotatable instance for Lincoln's own metaphor system. Lincoln perceives and articulates the purification frame precisely — he uses it to characterize Southern extremism — but he never deploys it as his own governing logic. This is the key structural finding for the purification-rhetoric contrast:
 
 - Lincoln can describe the disease_and_purification frame from outside it
 - He uses it as evidence of his opponents' radicalism, not as his own ideological logic
 - `disease_and_purification` is absent from Lincoln's own metaphor system throughout the corpus
 - The clearest near-appearance in the entire corpus (p77_s05) is a *reported* adversary frame, not Lincoln's frame
 
-This distinction — between perceiving the purification frame and inhabiting it — is the critical structural difference between Lincoln's ideological operation and Hitler's, as analyzed by Koenigsberg.
+This distinction — between perceiving the purification frame and inhabiting it — is the critical structural difference between Lincoln's ideological operation and the purification model Koenigsberg derives from Hitler's speeches.
 
 ## Why Only Cluster_05?
 

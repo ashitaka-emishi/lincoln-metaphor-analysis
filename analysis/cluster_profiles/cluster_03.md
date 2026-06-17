@@ -135,7 +135,7 @@ draft: false
 
 ## Political and Moral Work
 
-1. **Epistemic humility embedded in violence**: The experiment can fail. A proposition can be disproved. This acknowledgment of fallibility is structurally absent from Hitler's certainty. Lincoln's violence logic holds open the possibility that the test could go wrong — and therefore requires completing it correctly.
+1. **Epistemic humility embedded in violence**: The experiment can fail. A proposition can be disproved. This acknowledgment of fallibility is structurally absent from purification certainty. Lincoln's violence logic holds open the possibility that the test could go wrong — and therefore requires completing it correctly.
 
 2. **Universal stakes**: The experiment is not just for Americans. If democratic self-government fails here, it fails for humanity. This universalism makes the war's violence justifiable by global stakes — the proof is for the world.
 
@@ -153,19 +153,19 @@ draft: false
 
 ---
 
-## Hitler Comparison
+## Purification-Rhetoric Contrast
 
-**Hitler parallel cluster**: None. Lincoln-specific construct.
+**Purification-rhetoric parallel cluster**: None. Lincoln-specific construct.
 
-**Shared violence logic**: `evidentiary` (surface only — Hitler does not construct violence as proof of a proposition; violence is racial destiny, not evidentiary)
+**Shared violence logic**: `evidentiary` (surface only — purification rhetoric does not construct violence as proof of a proposition; violence is racial destiny, not evidentiary)
 
-**Structural divergence**: Lincoln constructs democratic self-government as an unproven proposition that the war must demonstrate. Violence is evidentiary — its outcome proves or disproves the proposition. Hitler constructs racial struggle as an already-known biological necessity — there is no proposition that could be disproved, no experiment that could fail.
+**Structural divergence**: Lincoln constructs democratic self-government as an unproven proposition that the war must demonstrate. Violence is evidentiary — its outcome proves or disproves the proposition. Purification rhetoric constructs racial struggle as an already-known biological necessity — there is no proposition that could be disproved, no experiment that could fail.
 
 **Lincoln-specific constructs**: `experiment_and_proof`; democratic proposition; war as decisive test; epistemic humility (the experiment can fail)
 
-**Hitler-specific constructs**: (none parallel to this cluster)
+**Purification-specific constructs**: (none parallel to this cluster)
 
-**Analytical significance**: Cluster_03 is arguably Lincoln's most distinctive rhetorical achievement — importing scientific/logical epistemology into political violence. The acknowledgment that the experiment could fail is the structural opposite of Hitler's certainty. Uncertainty generates humility; certainty generates totalizing violence.
+**Analytical significance**: Cluster_03 is arguably Lincoln's most distinctive rhetorical achievement — importing scientific/logical epistemology into political violence. The acknowledgment that the experiment could fail is the structural opposite of purification certainty. Uncertainty generates humility; certainty generates totalizing violence.
 
 ---
 

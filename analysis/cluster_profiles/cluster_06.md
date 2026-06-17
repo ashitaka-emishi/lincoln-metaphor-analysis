@@ -161,19 +161,19 @@ None — cluster_06 has zero novel instances. Providence language in Lincoln is 
 
 ---
 
-## Hitler Comparison
+## Purification-Rhetoric Contrast
 
-**Hitler parallel cluster**: Providence / historical destiny
+**Purification-model parallel**: Providence / historical destiny in Koenigsberg's Hitler case
 
-**Structural similarity**: Both Lincoln and Hitler use providential logic; both position themselves as instruments of historical/divine forces beyond their control. Both deploy obligatory-frame logic through Providence (if destiny/God commands, we must obey).
+**Structural similarity**: Lincoln and purification rhetoric can both use providential logic; both can position political actors as instruments of historical or divine forces beyond their control. Both deploy obligatory-frame logic through Providence: if destiny or God commands, we must obey.
 
-**Structural divergence**: Lincoln's Providence distributes guilt and opens toward reconciliation — both sides are punished for shared sin. Hitler's Providence selects and excludes — the German nation is chosen by destiny; its enemies are providential obstacles to be eliminated. Lincoln's theodicy is shared punishment (both sides suffer for shared sin); Hitler's is chosen-people triumph. Lincoln's Providence is humble and inscrutable; Hitler's is certain and directional.
+**Structural divergence**: Lincoln's Providence distributes guilt and opens toward reconciliation — both sides are punished for shared sin. Purification Providence selects and excludes: the chosen body has enemies that become providential obstacles to be eliminated. Lincoln's theodicy is shared punishment; purification theodicy is chosen-people triumph. Lincoln's Providence is humble and inscrutable; purification Providence is certain and directional.
 
 **Lincoln-specific constructs**: distributed-guilt theodicy; lincoln_non_agent (self-effacement); "malice toward none" as structural implication of distributed guilt
 
-**Hitler-specific constructs**: chosen-people destiny; enemy as providential obstacle; certain directional Providence (Germany's triumph is Providence's will)
+**Purification-specific constructs**: chosen-people destiny; enemy as providential obstacle; certain directional Providence
 
-**Analytically significant absences**: `lincoln_non_agent` at maximum in the Second Inaugural — Lincoln positions himself as pure instrument at the moment of maximum violence (the war's final months). Hitler's rhetoric moves in the opposite direction: as the violence increases, his personal agency in Providence's purpose becomes more explicit, not less.
+**Analytically significant absences**: `lincoln_non_agent` at maximum in the Second Inaugural — Lincoln positions himself as pure instrument at the moment of maximum violence (the war's final months). Koenigsberg's Hitler case moves in the opposite direction: as the violence increases, personal agency in Providence's purpose becomes more explicit, not less.
 
 ---
 

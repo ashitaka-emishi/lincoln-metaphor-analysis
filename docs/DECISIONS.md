@@ -72,7 +72,7 @@
 **Status**: Open. If variant divergences prove analytically significant (a metaphor present in one transcription, absent in another), escalate to Option C for those spans.
 
 ### Include Confederate rhetoric for comparison?
-**Question**: Should a parallel analysis of Confederate political rhetoric be added to make the Hitler comparison triangular (Lincoln / Confederacy / Hitler)?
+**Question**: Should a parallel analysis of Confederate political rhetoric be added to contextualize the purification-rhetoric contrast with a contemporary Confederate corpus?
 **Arguments for**: Confederate rhetoric provides a closer contemporary comparison than Hitler; Lincoln and Confederate leaders were arguing with each other.
-**Arguments against**: Significantly extends scope; requires new corpus, new annotation; the Hitler comparison is the project's stated focus.
+**Arguments against**: Significantly extends scope; requires new corpus, new annotation; the current publication frame keeps Koenigsberg's Hitler analysis as bounded theoretical background rather than the headline comparative object.
 **Status**: Open. Suggested for a subsequent project phase.

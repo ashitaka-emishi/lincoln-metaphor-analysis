@@ -75,10 +75,10 @@ Lincoln's public rhetoric of sacrifice and rebirth.
 ### Key analytical finding (pre-stated — confirm against corpus)
 Lincoln's metaphor system contains NO disease-and-purification logic.
 No group is constructed as a pathogen the national body must expel.
-This is the structural difference from Hitler: restorative and generative
+This is the structural difference from purification rhetoric: restorative and generative
 violence have off-ramps (wounds heal; children grow up); purifying violence
 does not. This is why Lincoln's rhetoric could accommodate "malice toward none"
-and Hitler's could not. Confirm or disconfirm this against the full corpus.
+while purification rhetoric has no internal exit condition. Confirm or disconfirm this against the full corpus.
 
 ---
 
@@ -404,7 +404,7 @@ Each skill file must be substantive — not a stub. Write the full content.
 **skills/koenigsberg_method.md** — Full definitions of all 8 analytical constructs
 (fantasy_type, violence_logic, obligatory_frame, projected_entity, guilt_distribution,
 sacrificial_economy, agent/object of violence, absence_flags) with enums, rationale,
-and Lincoln-specific notes. Include section on the Hitler comparison and note the
+and Lincoln-specific notes. Include section on the purification-rhetoric contrast and note the
 absence of disease_and_purification in Lincoln as the key structural finding.
 Include the psychic defense layer (splitting, projection, manic_defense, reparation,
 idealization, displacement) as optional Kleinian extension.
@@ -548,7 +548,7 @@ Each must contain: CMT profile section (source/target, instances table,
 linguistic forms, entailments, novel/conventional, extended groups),
 diachronic distribution (by_year table with register column), Koenigsberg
 profile (all 8 constructs with their rates), political/moral work section,
-what_metaphor_conceals section, Hitler comparison section (with explicit note
+what_metaphor_conceals section, purification-rhetoric contrast section (with explicit note
 on disease_and_purification presence or absence), key quoted instances.
 
 **analysis/diachronic_map.md** — Phase structure table, cluster frequency
@@ -563,14 +563,14 @@ finding table (post-1863 docs), comparative significance vs. Hitler, key finding
 **comparison/theoretical_framework.md** — CMT section (core claim, key constructs,
 entailments, what CMT doesn't explain), Koenigsberg section (magical object,
 obligatory frame, sacrificial economy, systematic absence), integration section
-(CMT + Koenigsberg together), Lincoln vs. Hitler structural question (shared/Lincoln-
-specific/Hitler-specific elements, the purification-logic absence as key finding),
+(CMT + Koenigsberg together), purification-rhetoric structural question (shared/Lincoln-
+specific/purification-specific elements, the purification-logic absence as key finding),
 scope and limitations.
 
 **comparison/koenigsberg_comparison.md** — Shared elements (sacrificial economy,
 obligatory frame, body-politic projection, ancestral debt) with evidence placeholders,
 Lincoln-specific elements (experiment/proof, oath/obligation, distributed guilt),
-Hitler-specific elements (disease/purification as KEY FINDING, ethnic body, scapegoat),
+purification-specific elements (disease/purification as KEY FINDING, ethnic body, scapegoat),
 master comparison table, theoretical significance.
 
 **synthesis/findings.md** — Template for 4 findings with claim/evidence/significance/
@@ -580,7 +580,7 @@ for reconciliation.
 
 **synthesis/open_questions.md** — Pre-populate 5 interpretive problems:
 Greeley letter reversal, Seward problem, audience problem, Black soldiers gap,
-corpus limits vs. Hitler comparison. Plus directions for further research.
+corpus limits vs. purification-rhetoric contrast. Plus directions for further research.
 
 ### Step 9 — Write PROMPT.md, DECISIONS.md, README.md
 

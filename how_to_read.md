@@ -8,7 +8,7 @@ The site has five main layers:
 
 1. **Publication package**: reviewer path, archive boundary, AI-use statement, limitations, and checklist.
 2. **Corpus**: the source documents and metadata controls.
-3. **Methodology**: the rules for metaphor annotation, confidence scoring, register control, absence analysis, reliability, claim audit, and Koenigsberg comparison.
+3. **Methodology**: the rules for metaphor annotation, confidence scoring, register control, absence analysis, reliability, claim audit, and purification-rhetoric contrast.
 4. **Analysis**: cluster profiles, document notes, diachronic patterns, systematic absence, LCC benchmark notes, and controlled outputs.
 5. **Synthesis**: final findings, conclusions, claim audit, and open interpretive problems.
 

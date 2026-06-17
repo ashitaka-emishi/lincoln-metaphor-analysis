@@ -95,7 +95,9 @@ A fully analyzed metaphor instance specifies:
 
 ---
 
-## Part 4: Lincoln vs. Hitler — The Structural Question
+## Part 4: Purification-Rhetoric Contrast — The Structural Question
+
+Lincoln remains the object of study. Koenigsberg's Hitler analysis supplies a bounded theoretical model of purification rhetoric: a metaphor architecture in which a social group is constructed as contamination inside the national body. The comparison is therefore structural and rhetorical, not moral.
 
 ### Shared structural elements
 - Body-politic projection (national body as magical object)
@@ -104,12 +106,12 @@ A fully analyzed metaphor instance specifies:
 - Ancestral debt (obligation to founding generation)
 
 ### Lincoln-specific elements
-- Experiment and proof logic (violence as evidentiary — no Hitler parallel)
+- Experiment and proof logic (violence as evidentiary — no purification-rhetoric parallel)
 - Oath and obligation (civic covenant rather than racial bond)
 - Distributed and cosmic guilt (guilt that enables reconciliation)
 - Inscrutable Providence (morally humble theodicy)
 
-### Hitler-specific elements
+### Purification-rhetoric elements
 - Disease and purification logic (**absent from Lincoln** — the key structural finding)
 - Ethnic body rather than civic body
 - External guilt only (no distributed guilt, no reconciliation logic)
@@ -129,7 +131,7 @@ This absence is structural, not accidental. Slavery is constructed as a **wound*
 - Punitive violence (theodicy logic) has an exit: the punishment is paid
 - Purifying violence has **no exit**: the pathogen is never fully expelled
 
-This is the structural reason Lincoln's rhetoric could accommodate "malice toward none" and Hitler's could not. The architecture of Lincoln's metaphor system has off-ramps built in. Hitler's does not.
+This is the structural reason Lincoln's rhetoric could accommodate "malice toward none" while purification rhetoric has no internal exit condition. The architecture of Lincoln's metaphor system has off-ramps built in. Purification rhetoric does not.
 
 ---
 
@@ -139,6 +141,6 @@ This is the structural reason Lincoln's rhetoric could accommodate "malice towar
 
 **Method scope**: CMT + Koenigsberg analysis of metaphor instances. Does not include prosodic analysis, audience reception data, or comparative rhetorical analysis of contemporaries.
 
-**The Hitler comparison is structural, not moral**: The project does not claim that Lincoln and Hitler are morally equivalent. It claims that their rhetoric shares certain structural features (obligatory frame, sacrificial economy, magical object) and differs in one decisive structural feature (purification logic). The shared features explain why mass political violence is possible under any political system that uses ideological fantasy; the difference explains why Lincoln's framework had an exit condition.
+**The purification-rhetoric contrast is structural, not moral**: The project does not claim that Lincoln and Hitler are morally equivalent. It uses Koenigsberg's Hitler analysis as a bounded theoretical background for purification-based political fantasy. The contrast claims that Lincoln's rhetoric shares certain structural features with dangerous political fantasy (obligatory frame, sacrificial economy, magical object) and differs in one decisive structural feature (purification logic). The shared features explain why mass political violence is possible under any political system that uses ideological fantasy; the difference explains why Lincoln's framework had an exit condition.
 
 **Confidence limits**: All claims are provisional until confirmed against annotation data. Two pre-stated findings (enslaved people as non-agents; absence of disease_and_purification) must be confirmed or disconfirmed against actual corpus annotation.

@@ -75,7 +75,7 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 - The corpus is Lincoln-only and contains 28 selected documents, not the whole Lincoln archive.
 - Debate, manuscript, date, version, and collaborative-revision traditions carry source risk; those risks are recorded in the corpus register and textual variant apparatus.
 - The reliability workflow now reports an AI-assisted second-pass reliability result, not a two-human blind inter-annotator study.
-- The Lincoln/Hitler comparison is structural, not moral equivalence.
+- The purification-rhetoric contrast is structural, not moral equivalence; Koenigsberg's Hitler analysis is used as bounded theoretical background, not as the project's headline comparative object.
 - The project studies public rhetoric and selected fragments; it does not establish audience reception, private belief, or full political causality.
 - Reception evidence is protocolized separately; candidate collections are not evidence until item-level records are cited and rights-checked.
 - Negative findings, especially `disease_and_purification` absence, depend on validated zero counts plus positive opportunity-structure flags.

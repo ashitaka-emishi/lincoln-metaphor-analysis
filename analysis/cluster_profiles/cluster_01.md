@@ -26,7 +26,7 @@ draft: false
 | patient | the citizenry, the nation as a whole |
 | severance / amputation | secession as bodily cutting |
 | birth / new growth | refounding (overlaps cluster_04) |
-| disease | *(structurally available but never activated against a group — see Hitler comparison)* |
+| disease | *(structurally available but never activated against a group — see purification-rhetoric contrast)* |
 
 ### Representative Instance Table
 
@@ -158,7 +158,7 @@ The NATION IS A BODY metaphor makes several rhetorical moves unavailable to othe
 
 3. **Visceral wrongness of secession**: Secession does not just violate constitutional law; it cuts a living organism. The visceral wrong is felt before the legal wrong is argued.
 
-4. **Disease-available, disease-unused**: The source domain makes disease language available — cancer, wen, pathogen. Lincoln uses it for slavery-as-institution (doc_004, doc_006g) but refuses to apply it to any social group. The Alton debate makes this explicit: spreading the cancer would not be a cure. See Hitler comparison for structural significance.
+4. **Disease-available, disease-unused**: The source domain makes disease language available — cancer, wen, pathogen. Lincoln uses it for slavery-as-institution (doc_004, doc_006g) but refuses to apply it to any social group. The Alton debate makes this explicit: spreading the cancer would not be a cure. See the purification-rhetoric contrast for structural significance.
 
 ---
 
@@ -171,16 +171,16 @@ The NATION IS A BODY metaphor makes several rhetorical moves unavailable to othe
 
 ---
 
-## Hitler Comparison
+## Purification-Rhetoric Contrast
 
-**Hitler parallel cluster**: Volksgemeinschaft as racial body
+**Purification-model parallel**: Volksgemeinschaft as racial body in Koenigsberg's Hitler case
 **Shared elements**: Both use body-politic projection; both make wound logic obligatory; both construct political violence as biological necessity
 
-**Structural divergence**: Lincoln's body metaphor lacks `disease_and_purification` logic. The wound can heal because no pathogen is present — damage is reparable. Hitler's racial body contains an internal pathogen (Jews, Marxists) that must be expelled; healing is impossible while the pathogen remains. This gives Lincoln's body metaphor an exit condition that Hitler's racial-body logic does not have.
+**Structural divergence**: Lincoln's body metaphor lacks `disease_and_purification` logic. The wound can heal because no pathogen is present — damage is reparable. In Koenigsberg's Hitler case, the racial body contains an internal pathogen that must be expelled; healing is impossible while the pathogen remains. This gives Lincoln's body metaphor an exit condition that purification logic does not have.
 
 **Lincoln-specific constructs**: reparation psychic defense; distributed guilt; disease language applied to institution, never group
 
-**Hitler-specific constructs**: `disease_and_purification`; ethnic exclusion; purifying violence
+**Purification-specific constructs**: `disease_and_purification`; ethnic exclusion; purifying violence
 
 **Key negative finding**: Fifteen `disease_purification_absent` flags in cluster_01 — the largest absence-flag count in any cluster for this flag type. Every candidate instance where disease/purification logic was available but not deployed is documented. Confirmed: zero instances of `disease_and_purification` fantasy type in Lincoln's corpus.
 

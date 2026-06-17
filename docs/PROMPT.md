@@ -2,7 +2,7 @@
 
 ## Project Goal
 
-Apply Richard Koenigsberg's ideological fantasy analysis to Abraham Lincoln's corpus (1838–1865). Map the conceptual metaphors that structured Lincoln's understanding of the Civil War and the Union. Produce structured JSON at every pipeline stage. Compare Lincoln's metaphor architecture to Hitler's to identify the structural difference that made Lincoln's rhetoric capable of "malice toward none."
+Apply Richard Koenigsberg's ideological fantasy analysis to Abraham Lincoln's corpus (1838–1865). Map the conceptual metaphors that structured Lincoln's understanding of the Civil War and the Union. Produce structured JSON at every pipeline stage. Contrast Lincoln's metaphor architecture with purification-based political fantasy, using Koenigsberg's Hitler analysis as bounded theoretical background, to identify the structural difference that made Lincoln's rhetoric capable of "malice toward none."
 
 ---
 
