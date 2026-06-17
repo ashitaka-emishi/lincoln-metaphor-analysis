@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-15",
+  "generated": "2026-06-16",
   "status": "sample_defined_adjudication_pending",
   "source_stage": "stage4a_annotation_evidence",
   "sample_policy": {
@@ -2526,7 +2526,7 @@
     {
       "stage": "4B",
       "agent": "build_reliability_sample.js",
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "sample_documents_total": 5,
       "identification_units": 55,
       "field_agreement_units": 51

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-15",
+  "generated": "2026-06-16",
   "status": "complete",
   "source": "data/evidence/annotation-evidence.json",
   "confidence_threshold": {
@@ -2036,7 +2036,7 @@
     {
       "stage": "6A",
       "agent": "build_controlled_analysis.js",
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "total_records": 136,
       "high_authorship_confidence_records": 73
     }

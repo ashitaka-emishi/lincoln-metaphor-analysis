@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-15",
+  "generated": "2026-06-16",
   "status": "complete",
   "source_stage": "stage4_legacy_annotations",
   "migration_policy": "preserve_stage4_generate_derivative",
@@ -15037,7 +15037,7 @@
     {
       "stage": "4A",
       "agent": "build_evidence_chains.js",
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "total_records": 136
     }
   ]

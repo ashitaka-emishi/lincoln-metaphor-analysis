@@ -13,7 +13,7 @@ The apparatus is generated from `corpus/corpus_manifest.json` and the Stage 4 an
 npm run variants:apparatus
 ```
 
-Generated: 2026-06-15
+Generated: 2026-06-16
 
 ## Interpretation Rule
 
