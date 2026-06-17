@@ -6,6 +6,31 @@ The project is designed so the interpretive claims can be traced back to structu
 
 The corpus begins in `corpus/raw/`, moves through Markdown files with YAML metadata in `corpus/text/`, then becomes segmented JSON in `corpus/segmented/`. Annotated documents live in `corpus/annotated/`, where metaphor instances are embedded directly into the sentence structure that produced them.
 
+## Runtime Boundary
+
+The reproducibility runtime is intentionally small and pinned at the repository boundary:
+
+| Runtime | Expected version | Pin / lock file | Used for |
+| --- | --- | --- | --- |
+| Node.js | 20 LTS | `.nvmrc`, `package.json`, `package-lock.json` | JSON validation, corpus pipeline, regression tests |
+| Python | 3.11 | `.python-version`, `requirements.txt` | Stage 1-3 text utilities and Stage 7 LCC scripts |
+| Quarto | 1.9.37 | GitHub Pages workflow | Static site rendering |
+
+Node packages are installed with `npm ci`, which uses `package-lock.json`. Python scripts use only the Python 3.11 standard library; `requirements.txt` is intentionally empty except for that note, so reviewers can still run `python3 -m pip install -r requirements.txt` as a reproducibility check. Quarto is installed locally from <https://quarto.org/docs/get-started/> and is pinned to `1.9.37` in the Pages workflow.
+
+Verify the local runtime before regenerating outputs:
+
+```bash
+node --version
+npm --version
+npm ci
+python3 --version
+python3 -m pip install -r requirements.txt
+quarto --version
+```
+
+Expected major versions are Node `v20.x`, Python `3.11.x`, and Quarto `1.9.37`.
+
 The main scripts are:
 
 ```bash

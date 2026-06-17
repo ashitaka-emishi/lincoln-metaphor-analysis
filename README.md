@@ -12,6 +12,24 @@ The project should therefore be read as a human-directed scholarly and engineeri
 
 ## Quick Start
 
+Prerequisites:
+
+- Node.js 20, using `.nvmrc` where supported, with packages installed by `npm ci`.
+- Python 3.11, using `.python-version` where supported. The Python scripts use only the standard library; `requirements.txt` documents that no pip dependencies are required.
+- Quarto 1.9.37 for site rendering. The Pages workflow installs this exact version.
+
+Verify the runtime:
+
+```bash
+node --version
+npm ci
+python3 --version
+python3 -m pip install -r requirements.txt
+quarto --version
+```
+
+Expected major versions are Node `v20.x`, Python `3.11.x`, and Quarto `1.9.37`.
+
 ```bash
 node scripts/pipeline_status.js   # see S1-S4 completion per document
 node scripts/validate_schema.js   # validate all JSON files

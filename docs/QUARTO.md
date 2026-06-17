@@ -4,15 +4,21 @@ The Quarto site renders all research documentation into a shareable static websi
 
 ## Prerequisites
 
-Install Quarto (version 1.4 or later):
+Install Quarto 1.9.37, matching the version pinned in the GitHub Pages workflow. On macOS, Homebrew may install a newer stable release over time, so verify the version after install:
 
 ```bash
 brew install quarto      # macOS via Homebrew
 ```
 
-Or download the installer from <https://quarto.org/docs/get-started/>.
+If Homebrew does not provide 1.9.37, download the pinned release from <https://github.com/quarto-dev/quarto-cli/releases/tag/v1.9.37>.
 
-Verify: `quarto --version`
+Verify:
+
+```bash
+quarto --version
+```
+
+Expected version: `1.9.37`.
 
 ## Preview locally
 
