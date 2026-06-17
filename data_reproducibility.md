@@ -56,6 +56,25 @@ npm run pipeline
 
 That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`, regenerates the Stage 4B reliability sample and results artifacts, writes the Stage 4C textual variant apparatus, writes the Stage 6A controlled-analysis outputs, and regenerates the claim-to-source audit.
 
+## Stage 1 Source Provenance Checksums
+
+Stage 1 provenance is validated by `data/metadata/source-provenance-checksums.json`. The registry records SHA-256 checksums for every canonical `corpus/text/{doc_id}.md` source file and for each available `corpus/raw/{doc_id}.txt` Stage 1 acquisition file. Some early or manually supplied documents do not have a committed raw `.txt`; those records are explicit as `raw_text.exists: false` while their canonical Stage 2 source text remains checksummed.
+
+Validate source provenance without rewriting files:
+
+```bash
+npm run validate:source-provenance
+```
+
+Refresh the checksum registry only when a source file or its manifest provenance is intentionally corrected:
+
+```bash
+npm run source:provenance
+npm run validate
+```
+
+Intentional corrections should commit the source change, the refreshed registry, and a short rationale in the same issue or commit. Validation reports checksum mismatches without rewriting corpus files, so accidental source drift fails before aggregate outputs are regenerated.
+
 ## Stage 4A: Evidence Chains
 
 Stage 4A is a generated derivative layer. It preserves the validated Stage 4 annotation files and normalizes each metaphor instance into a reviewer-facing audit record with document metadata, source provenance, sentence ID, span text, MIPVU-facing lexical-unit fields, CMT mapping, Koenigsberg interpretation, absence/agency fields, confidence metadata, and claim anchors.

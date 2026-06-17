@@ -53,6 +53,7 @@ Or via npm:
 npm run status
 npm run validate
 npm run validate:annotation -- doc_001
+npm run validate:source-provenance # verify source checksums without rewriting files
 npm run pipeline    # validate, concordance, analysis, evidence, reliability, controls, audit
 npm run variants:apparatus # rebuild the textual variant apparatus
 npm run benchmarks:registry # rebuild the external benchmark registry
