@@ -155,19 +155,19 @@ Cluster_02 does work the body metaphor (cluster_01) cannot:
 
 ---
 
-## Hitler Comparison
+## Purification-Rhetoric Contrast
 
-**Hitler parallel cluster**: None directly. Hitler uses racial blood-bond (*Blutgemeinschaft*) rather than contractual oath.
+**Purification-model parallel**: None directly. Koenigsberg's Hitler case uses racial blood-bond (*Blutgemeinschaft*) rather than contractual oath.
 
 **Shared fantasy types**: `oath_and_obligation` (surface similarity only — obligation sources differ fundamentally)
 
-**Structural divergence**: Lincoln's covenant is contractual-rational — parties swore oaths, and oaths bind. It can in principle extend to anyone who takes the oath: immigrants, freed people. Hitler's blood bond is racial-biological — you are born into it or you are not. The blood bond is inalienable and non-extendable; the oath bond is acquired and potentially universal.
+**Structural divergence**: Lincoln's covenant is contractual-rational — parties swore oaths, and oaths bind. It can in principle extend to anyone who takes the oath: immigrants, freed people. Purification rhetoric treats membership as racial-biological: you are born into it or you are not. The blood bond is inalienable and non-extendable; the oath bond is acquired and potentially universal.
 
 **Lincoln-specific constructs**: constitutional covenant; universalizability through oath-taking; rational obligation that acknowledges fallibility (the experiment can fail)
 
-**Hitler-specific constructs**: racial blood-bond; organic ethnic community; blood as civic credential
+**Purification-specific constructs**: racial blood-bond; organic ethnic community; blood as civic credential
 
-**Analytical significance**: This is a Lincoln-unique construct with no Hitler structural parallel. Together with cluster_03 (experiment/proof), it shows that Lincoln's two distinctive rhetorical resources are both rationalist — promise-keeping and proof. These have no racial-biological equivalents in Hitler's system.
+**Analytical significance**: This is a Lincoln-unique construct with no purification-rhetoric structural parallel. Together with cluster_03 (experiment/proof), it shows that Lincoln's two distinctive rhetorical resources are both rationalist — promise-keeping and proof. These have no racial-biological equivalents in a purification system.
 
 ---
 

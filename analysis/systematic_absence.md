@@ -81,7 +81,7 @@ Disease/purification logic is the fantasy type that makes genocide feel medicall
 2. The purification is never complete while any carrier survives
 3. The violence has no exit condition — it must continue until the pathogen is fully expelled
 
-This is the fantasy structure Richard Koenigsberg identifies in Hitler's speeches as the ideological engine of the Holocaust.
+This is the fantasy structure Richard Koenigsberg identifies in Hitler's speeches as the ideological engine of the Holocaust; this project uses that case as the bounded theoretical model for purification rhetoric.
 
 Lincoln's corpus has **zero instances** of this fantasy type. The 56 flags mark every opportunity where it was structurally available — and Lincoln took a different path at each one:
 
@@ -97,7 +97,7 @@ The `disease_purification_absent` finding is the project's central negative resu
 2. In every cluster, every phase, every register, when disease/purification logic was structurally available, Lincoln did not deploy it
 3. This non-deployment is structural — built into the metaphor system's architecture
 4. Every fantasy type in Lincoln's corpus has a logical terminus: the wound heals, the experiment concludes, the oath is fulfilled, the debt is paid, God's punishment runs its course
-5. Disease/purification logic (absent from Lincoln, central to Hitler) has no terminus — it drives totalizing violence indefinitely
+5. Disease/purification logic (absent from Lincoln, central to the purification model) has no terminus — it drives totalizing violence indefinitely
 6. "Malice toward none" is not merely a moral aspiration; it is a structural consequence of a metaphor system that has no mechanism for constructing permanent enemies
 
 ---

@@ -7,7 +7,7 @@ draft: false
 
 This page records Stage 7 benchmark choices and candidate comparison corpora. It distinguishes implemented, reproducible baselines from candidate corpora that require source-list and rights review before collection.
 
-Generated: 2026-06-15
+Generated: 2026-06-17
 
 ## Rule
 
@@ -147,7 +147,7 @@ Decision: Candidate contrast corpus for testing purification, covenant, providen
 
 Limits:
 
-- Risk of false symmetry with the Lincoln/Hitler comparison; research questions must be stated before collection.
+- Risk of false symmetry with the purification-rhetoric contrast; research questions must be stated before collection.
 - Requires speaker, genre, date, and provenance controls.
 
 ## abolitionist_rhetoric: Abolitionist rhetoric

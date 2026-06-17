@@ -52,7 +52,7 @@ extension_groups: ext_001, ext_002, ext_003
 
 **Fantasy type**: sacrificial_economy — soldier deaths are not losses but inputs; the nation's survival is the output. No death exceeds its function.
 
-**Violence logic**: purification_through_sacrifice — specifically organic rebirth, not disease expulsion. This is the critical distinction from Hitler's framework.
+**Violence logic**: purification_through_sacrifice — specifically organic rebirth, not disease expulsion. This is the critical distinction from purification-based political fantasy.
 
 **Obligatory frame**: covenant_violation — the founding proposition is "tested" because secession attempted to falsify it; the war is the logical refutation.
 
@@ -66,7 +66,7 @@ extension_groups: ext_001, ext_002, ext_003
 
 - `enslaved_people_absent`: flagged on 6 of 13 instances — the proposition "all men are created equal" never names enslaved people as its subject in the address itself
 - `black_soldiers_absent`: flagged on 5 of 13 — USCT had been fighting since spring 1863; 180,000 Black soldiers in Union army; none appear
-- `disease_and_purification`: **ABSENT** — no pathogen, contamination, or purification logic anywhere in the address. Wound healing is also absent. This is the structurally significant finding for the Lincoln-Hitler comparison.
+- `disease_and_purification`: **ABSENT** — no pathogen, contamination, or purification logic anywhere in the address. Wound healing is also absent. This is structurally significant for the purification-rhetoric contrast.
 - `confederate_soldiers_absent`: not flagged (implied by "those who here gave their lives" covering all fallen)
 
 ## Diachronic Position

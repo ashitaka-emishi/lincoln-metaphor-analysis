@@ -5,7 +5,7 @@ draft: false
 
 # Final Conclusions
 
-*Based on the full 136-instance annotated corpus, six cluster profiles, the diachronic map, the systematic absence analysis, the Koenigsberg comparison, and the generated [Claim-To-Source Audit](claim_audit.md).*
+*Based on the full 136-instance annotated corpus, six cluster profiles, the diachronic map, the systematic absence analysis, the purification-rhetoric contrast, and the generated [Claim-To-Source Audit](claim_audit.md).*
 
 **Publication status**: Evidence-backed final synthesis. This page states the strongest version of the argument, but its claims should be read through the generated audit IDs, controlled-output tables, and explicit limits below.
 
@@ -62,11 +62,11 @@ Audit trail: [CLAIM-001](claim_audit.md#claim-001), [CLAIM-002](claim_audit.md#c
 
 The absence of `disease_and_purification` fantasy type.
 
-Lincoln's violence-authorizing rhetoric shares structural features with Hitler's (sacrificial economy, obligatory frame, body-politic projection, ancestral debt) but differs in the single feature that determines whether mass violence has an exit condition:
+Lincoln's violence-authorizing rhetoric shares several structural mechanisms with purification-based political pathology: sacrificial economy, obligatory frame, body-politic projection, and ancestral debt. It differs in the single feature that determines whether mass violence has an exit condition:
 
 **Lincoln's system**: every fantasy type has a logical terminus — wounds heal, propositions are proven, oaths are fulfilled, debts are paid, God's punishment runs its course
 
-**Hitler's system**: disease/purification logic has no terminus — as long as any carrier of the pathogen exists, purification is incomplete
+**Purification system**: disease/purification logic has no terminus — as long as any carrier of the pathogen exists, purification is incomplete
 
 "Malice toward none" is not a moral sentiment laid on top of a violent rhetoric. It is the structural consequence of a metaphor system built on reparable wounds, fulfillable oaths, provable propositions, payable debts, and finite divine punishments — none of which require permanent enemies.
 
@@ -76,11 +76,11 @@ Audit trail: [CLAIM-006](claim_audit.md#claim-006)
 
 ## The Primary Structural Divergence
 
-The primary structural divergence between Lincoln's and Hitler's political rhetoric is the presence or absence of disease/purification logic applied to a social group.
+The primary structural divergence between Lincoln's political rhetoric and purification-based political pathology is the presence or absence of disease/purification logic applied to a social group.
 
 **Lincoln**: 56 `disease_purification_absent` flags. Zero `disease_and_purification` instances. Cancer language used for slavery-as-institution (never for a group). The Alton debate cancer instance explicitly refuses the purifying-spread logic.
 
-**Hitler**: `disease_and_purification` is the central organizing fantasy type. The Jewish people are constructed as a biological pathogen. The Aryan racial body cannot survive while the pathogen remains. The violence is medical — not punitive, not generative, not restorative, but eliminatory.
+**Koenigsberg's Hitler case**: `disease_and_purification` is the central organizing fantasy type. The Jewish people are constructed as a biological pathogen. The Aryan racial body cannot survive while the pathogen remains. The violence is medical — not punitive, not generative, not restorative, but eliminatory.
 
 The difference in political outcome is not incidental. A rhetoric that has no pathogen-group cannot be driven toward genocide by its own internal logic. A rhetoric that has a pathogen-group cannot stop short of elimination without violating its own internal logic. The structural difference at the level of metaphor system produces the structural difference at the level of political possibility.
 
@@ -100,7 +100,7 @@ The difference in political outcome is not incidental. A rhetoric that has no pa
 - Lincoln's private beliefs matched his public rhetoric in all respects — the analysis is of public discourse
 - Lincoln would have achieved full racial equality had he lived — the metaphor system's structural limitations suggest otherwise
 - The absence of disease/purification logic explains Lincoln's political choices fully — it explains the rhetorical structure, not the whole political history
-- Hitler's rhetoric was driven entirely by metaphor structure — Koenigsberg's analysis is one framework, not the complete explanation of the Holocaust
+- That Hitler's rhetoric was driven entirely by metaphor structure — Koenigsberg's analysis is one framework, not the complete explanation of the Holocaust
 - How audiences received, repeated, resisted, or transformed Lincoln's rhetoric — those claims require the separate [Reception Evidence](../docs/methodology/reception-evidence.md) protocol
 
 **Rival readings preserved**:

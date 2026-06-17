@@ -53,7 +53,7 @@ The Temperance Address contains the most explicit demon/contamination/death rhet
 
 This language is not annotated as `disease_and_purification` because the target of the contamination/demonic frame is ALCOHOL — an inanimate substance — not a group of people. Drinkers are consistently treated as VICTIMS of the demon, not as the demon itself. Lincoln repeatedly insists that drinkers are kind, generous, and charitable persons who have been afflicted ("pitied and compassionated"). The remedy is not elimination of the contaminated persons but their rescue from the contaminating substance.
 
-This is the structural contrast with Hitlerian ideological fantasy: Lincoln's contamination language treats the afflicted as objects of compassion and rescue; the substance is the contamination. Hitler's contamination language treats the afflicted group as the contamination to be eliminated. Lincoln can deploy demonic/blood-sucking language freely when targeting an inanimate substance — he never deploys it against a human group.
+This is the structural contrast with purification-based ideological fantasy: Lincoln's contamination language treats the afflicted as objects of compassion and rescue; the substance is the contamination. In Koenigsberg's Hitler case, contamination language treats the targeted group as the contamination to be eliminated. Lincoln can deploy demonic/blood-sucking language freely when targeting an inanimate substance — he never deploys it against a human group.
 
 `disease_and_purification` remains absent from Lincoln's metaphor system against people.
 

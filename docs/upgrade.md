@@ -773,7 +773,7 @@ The synthesis must:
 
 ## Objective
 
-If the project compares Lincoln with Hitler or another political figure, use a structured comparison protocol.
+If the project contrasts Lincoln with purification rhetoric or another political figure, use a structured comparison protocol.
 
 ## Purpose
 
@@ -781,7 +781,7 @@ The comparison should examine rhetorical and ideological structures, not imply m
 
 ## Comparative dimensions
 
-| Dimension | Lincoln | Hitler / Other Comparator |
+| Dimension | Lincoln | Purification Model / Other Comparator |
 |---|---|---|
 | Sacred collective object | Union / republic / democracy | Volk / racial body / nation |
 | Dominant body metaphor | Wounded, divided, healing, reborn | Diseased, contaminated, purified |

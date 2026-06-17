@@ -104,7 +104,7 @@ BENCHMARKS = [
         'size_and_scope': None,
         'decision': 'Candidate contrast corpus for testing purification, covenant, providence, and annihilation/reconciliation differences.',
         'limitations': [
-            'Risk of false symmetry with the Lincoln/Hitler comparison; research questions must be stated before collection.',
+            'Risk of false symmetry with the purification-rhetoric contrast; research questions must be stated before collection.',
             'Requires speaker, genre, date, and provenance controls.',
         ],
     },
@@ -257,7 +257,7 @@ def main() -> None:
     JSON_PATH.write_text(json.dumps(registry, indent=2) + '\n', encoding='utf-8')
 
     PAGE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    PAGE_PATH.write_text(render_page(registry) + '\n', encoding='utf-8')
+    PAGE_PATH.write_text(render_page(registry).rstrip() + '\n', encoding='utf-8')
 
     print(f"External benchmark registry written to {JSON_PATH.relative_to(ROOT)}")
     print(f"External benchmark page written to {PAGE_PATH.relative_to(ROOT)}")

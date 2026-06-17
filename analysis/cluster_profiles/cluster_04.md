@@ -148,19 +148,19 @@ The 21-year dormancy is analytically significant: the birth/creation frame is no
 
 ---
 
-## Hitler Comparison
+## Purification-Rhetoric Contrast
 
-**Hitler parallel cluster**: Aryan rebirth / Third Reich as new creation
+**Purification-model parallel**: Aryan rebirth / Third Reich as new creation in Koenigsberg's Hitler case
 
 **Structural similarity**: Both use generative violence logic — death produces new national form. Both construct the political violence as a birth-event from which a new entity emerges.
 
-**Structural divergence**: Lincoln's birth is inclusive — "new birth of *freedom*" is universalist; the newborn entity includes the formerly enslaved. Hitler's rebirth is ethnically exclusive — the Aryan rebirth requires the elimination of non-Aryan elements. Lincoln's birth has a logical terminus (the birth happens; the new nation exists); Hitler's rebirth requires perpetual purification to maintain racial purity.
+**Structural divergence**: Lincoln's birth is inclusive — "new birth of *freedom*" is universalist; the newborn entity includes the formerly enslaved. Purification rebirth is ethnically exclusive — the purified body requires the elimination of non-member elements. Lincoln's birth has a logical terminus: the birth happens; the new nation exists. Purification rebirth requires perpetual maintenance of purity.
 
 **Lincoln-specific constructs**: new birth of freedom (universalist); proposition-grounded rebirth (the newborn entity embodies the Declaration); generative violence with finite yield
 
-**Hitler-specific constructs**: racial rebirth; blood-and-soil nativity; perpetual purification as maintenance of the newborn racial state
+**Purification-specific constructs**: racial rebirth; blood-and-soil nativity; perpetual purification as maintenance of the newborn racial state
 
-**Key structural difference**: Lincoln's birth frame co-activates with cluster_03 (experiment/proof) — the newborn entity must prove itself. Hitler's rebirth requires no proof; it is racial destiny. The epistemic humility in Lincoln (the experiment can fail) is absent from Hitler's certainty.
+**Key structural difference**: Lincoln's birth frame co-activates with cluster_03 (experiment/proof) — the newborn entity must prove itself. Purification rebirth requires no proof; it is racial destiny. The epistemic humility in Lincoln (the experiment can fail) is absent from purification certainty.
 
 ---
 

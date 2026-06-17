@@ -163,19 +163,19 @@ This is the most analytically significant diachronic finding in the corpus: **cl
 
 ---
 
-## Hitler Comparison
+## Purification-Rhetoric Contrast
 
-**Hitler parallel cluster**: Germanic ancestors / Aryan heritage
+**Purification-model parallel**: Germanic ancestors / Aryan heritage in Koenigsberg's Hitler case
 
 **Structural similarity**: Both use ancestral debt logic; both invoke an idealized founding generation whose sacrifice creates intergenerational obligation; both position betrayal of the founding as the highest political crime
 
-**Structural divergence**: Lincoln's fathers are civic-rational (Declaration signers, logical propositions, legal voters); Hitler's are racial-biological (blood ancestors, genetic heritage). Lincoln's idealization conceals the founders' ambivalence on slavery; Hitler's conceals historical reality of racial mixing. Lincoln's inheritance is extendable through civic participation; Hitler's is closed by blood.
+**Structural divergence**: Lincoln's fathers are civic-rational (Declaration signers, logical propositions, legal voters); purification ancestors are racial-biological (blood ancestors, genetic heritage). Lincoln's idealization conceals the founders' ambivalence on slavery; purification idealization conceals historical reality of racial mixing. Lincoln's inheritance is extendable through civic participation; purification inheritance is closed by blood.
 
 **Lincoln-specific constructs**: civic inheritance (open to those who take the oath); propositional patrimony (the inheritance is a set of claims, not a racial lineage)
 
-**Hitler-specific constructs**: racial lineage (closed to non-Aryans); blood inheritance (biological, not civic)
+**Purification-specific constructs**: racial lineage; blood inheritance (biological, not civic)
 
-**Analytically significant absences**: `enslaved_people_non_agent` — they cannot inherit the founders' legacy in Lincoln's framework despite being most affected by it. This is structurally parallel to Hitler's racial exclusions, but for civic-legal rather than biological reasons. The parallel is uncomfortable and important.
+**Analytically significant absences**: `enslaved_people_non_agent` — they cannot inherit the founders' legacy in Lincoln's framework despite being most affected by it. This exclusion should not be softened: Lincoln's civic framework has severe limits even though its mechanism differs from biological purification.
 
 ---
 

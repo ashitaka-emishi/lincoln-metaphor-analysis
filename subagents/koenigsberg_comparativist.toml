@@ -62,7 +62,7 @@ from the computed analysis. Each profile must include:
 - Full Koenigsberg profile with all 8 constructs and their rates
 - Political/moral work section: what does this cluster make possible rhetorically and politically?
 - What_metaphor_conceals section: what does this cluster make invisible?
-- Hitler comparison section: parallel cluster, structural similarities, structural divergences
+- Purification-rhetoric contrast section: parallel cluster, structural similarities, structural divergences
 - Key quoted instances with full annotation
 """
 
@@ -89,7 +89,7 @@ instruction = "Populate comparison/theoretical_framework.md with integrated CMT 
 
 [[agent.task.steps]]
 step = 8
-name = "Write Koenigsberg comparison"
+name = "Write purification-rhetoric contrast"
 instruction = "Populate comparison/koenigsberg_comparison.md with evidence from analysis. Populate the master comparison table. Articulate the primary structural divergence finding."
 
 [[agent.task.steps]]

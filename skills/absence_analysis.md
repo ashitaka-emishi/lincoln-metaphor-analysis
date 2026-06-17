@@ -89,7 +89,7 @@ The final deliverable in `analysis/systematic_absence.md` must include:
 3. Register differential table: which flags appear more in formal addresses vs. legal documents vs. private fragments
 4. Cluster differential table: which clusters produce which flags at what rate
 5. Black soldiers finding: focused analysis of post-1863 documents
-6. Comparative significance: how Lincoln's systematic absence differs from Hitler's (different absent entities, different structural logic)
+6. Comparative significance: how Lincoln's systematic absence differs from purification rhetoric (different absent entities, different structural logic)
 7. Key findings: 3-5 bullet points
 
 All quantitative claims must have register-controlled versions. A finding that "enslaved people are absent from X% of sacrifice instances" must specify whether this holds across all registers or concentrates in formal_public_address.

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-15",
+  "generated": "2026-06-17",
   "status": "complete",
   "source": "scripts/build_external_benchmark_registry.py",
   "total_benchmarks": 6,
@@ -97,7 +97,7 @@
       "size_and_scope": null,
       "decision": "Candidate contrast corpus for testing purification, covenant, providence, and annihilation/reconciliation differences.",
       "limitations": [
-        "Risk of false symmetry with the Lincoln/Hitler comparison; research questions must be stated before collection.",
+        "Risk of false symmetry with the purification-rhetoric contrast; research questions must be stated before collection.",
         "Requires speaker, genre, date, and provenance controls."
       ]
     },

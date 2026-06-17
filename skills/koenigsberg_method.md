@@ -27,7 +27,7 @@ The deep structure of the ideological scenario. Each fantasy type corresponds to
 
 ### Lincoln-specific note on disease_and_purification
 
-Lincoln's rhetoric has NO instances of disease_and_purification logic. The Temperance Address (doc_002) uses disease metaphors but applies them to alcohol, not to any social group — and Lincoln explicitly refuses the reformer-as-judge position. Slavery is constructed as a wound (cluster_01) or a violated oath (cluster_02), never as a contagion. Enslaved people appear as the cause of the wound or the object of God's test; they are never constructed as pathogen. This structural difference from Hitler is the project's central comparative finding: restorative and generative violence have exits (wounds heal, children grow up); purifying violence has none, which is why Lincoln's rhetoric could accommodate "malice toward none" and Hitler's could not.
+Lincoln's rhetoric has NO instances of disease_and_purification logic. The Temperance Address (doc_002) uses disease metaphors but applies them to alcohol, not to any social group — and Lincoln explicitly refuses the reformer-as-judge position. Slavery is constructed as a wound (cluster_01) or a violated oath (cluster_02), never as a contagion. Enslaved people appear as the cause of the wound or the object of God's test; they are never constructed as pathogen. This structural difference from purification rhetoric is the project's central comparative finding: restorative and generative violence have exits (wounds heal, children grow up); purifying violence has none, which is why Lincoln's rhetoric could accommodate "malice toward none" while purification rhetoric has no internal exit condition.
 
 ---
 
@@ -135,7 +135,7 @@ Entities that the metaphor's logic requires to be **passive, invisible, or struc
 | `confederates_depersonalized` | Confederate soldiers or leaders are abstracted away; violence is against the Confederacy as system, not against persons |
 | `death_abstracted` | Individual deaths are converted into data points (the proposition proven, the wound healing) rather than human losses |
 | `women_absent` | Women are erased from the sacrificial economy despite their presence in the war |
-| `disease_purification_absent` | A passage could invite purification logic but instead refuses to construct any social group as pathogen; this tracks the project’s central Lincoln/Hitler divergence |
+| `disease_purification_absent` | A passage could invite purification logic but instead refuses to construct any social group as pathogen; this tracks the project's central divergence between Lincoln's rhetoric and purification rhetoric |
 
 **absence_notes**: Required when any flag is set. Explain what the metaphor's logic does to the absent entity and why the entailment structure requires that erasure.
 
@@ -158,10 +158,10 @@ These are Kleinian object-relations constructs available as an optional deeper l
 
 ---
 
-## Hitler Comparison: Structural Map
+## Purification-Rhetoric Contrast: Structural Map
 
-| Construct | Hitler | Lincoln |
-|-----------|--------|---------|
+| Construct | Purification-rhetoric model | Lincoln |
+|-----------|-----------------------------|---------|
 | Primary fantasy type | `disease_and_purification` | `wound_and_healing`, `sacrifice_and_redemption` |
 | Violence logic | `purifying` (primary) | `restorative`, `generative`, `obligatory` |
 | Projected entity | `ethnic_body` (racial Volksgemeinschaft) | `national_body`, `founding_proposition` |
@@ -171,4 +171,4 @@ These are Kleinian object-relations constructs available as an optional deeper l
 | Absent entity | All non-Aryan groups constructed as pathogen | Enslaved people as non-agents; Black soldiers erased |
 | Structural off-ramp | **None** — purification never complete | **Yes** — wounds heal; children grow up; covenant fulfilled |
 
-The key structural finding: Lincoln's absence of disease_and_purification means his violence logic has an exit condition. The wound heals; the proposition is proven; the debt is paid. Hitler's purification logic has no exit — the pathogen is never fully expelled. This is why Lincoln could say "malice toward none" and mean it structurally, not merely rhetorically.
+The key structural finding: Lincoln's absence of disease_and_purification means his violence logic has an exit condition. The wound heals; the proposition is proven; the debt is paid. Purification logic has no exit — the pathogen is never fully expelled. This is why Lincoln could say "malice toward none" and mean it structurally, not merely rhetorically.

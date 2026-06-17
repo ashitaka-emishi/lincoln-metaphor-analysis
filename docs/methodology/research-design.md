@@ -79,7 +79,7 @@ The current milestone excludes:
 - A parallel Confederate, abolitionist, Democratic, or broader nineteenth-century comparison corpus.
 - Audience reception analysis, public-opinion effects, or claims about how specific listeners processed Lincoln's metaphors.
 - Biographical claims about Lincoln's private psychology beyond what the corpus can support.
-- Moral-equivalence claims in the Lincoln/Hitler comparison.
+- Moral-equivalence claims in the purification-rhetoric contrast.
 - Any ad hoc edit to a completed Stage N file when the work belongs in Stage N+1 or in a documented migration.
 
 External corpora may be used as benchmarks, as with the LCC Metaphor Dataset, but they are not part of the primary Lincoln corpus.

@@ -2,7 +2,7 @@
 
 A structured research project applying Richard Koenigsberg's ideological fantasy analysis to Abraham Lincoln's corpus (1838–1865), using Conceptual Metaphor Theory (Lakoff & Johnson) as the linguistic foundation.
 
-**[View the research site →](https://ashitaka-emishi.github.io/lincoln-metaphor-analysis/)** — a browsable HTML version of the full project, including the annotated corpus status, all methodology documentation, per-document annotation notes, cluster profiles, the Lincoln/Hitler structural comparison, and synthesis findings. The site is rebuilt automatically on every commit.
+**[View the research site →](https://ashitaka-emishi.github.io/lincoln-metaphor-analysis/)** — a browsable HTML version of the full project, including the annotated corpus status, all methodology documentation, per-document annotation notes, cluster profiles, the purification-rhetoric contrast, and synthesis findings. The site is rebuilt automatically on every commit.
 
 ## Authorship and AI-Assisted Method
 
@@ -118,7 +118,7 @@ lincoln-analysis/
 │   └── cluster_profiles/        # cluster_01.md through cluster_06.md
 ├── comparison/
 │   ├── theoretical_framework.md # methodology: CMT + Koenigsberg integration
-│   └── koenigsberg_comparison.md # synthesis: Lincoln vs. Hitler structural comparison
+│   └── koenigsberg_comparison.md # synthesis: purification-rhetoric contrast
 ├── synthesis/
 │   ├── claim_audit.md           # public claim-to-source audit page
 │   ├── findings.md
