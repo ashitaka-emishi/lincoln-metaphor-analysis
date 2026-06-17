@@ -454,17 +454,20 @@
       ],
       "relevant_variants_or_limits": [
         "Authorship-sensitive claims require caution around revised passages.",
-        "The final peroration is especially important because it contains a high-value covenant/body-memory metaphor."
+        "Use received-text, Lincoln-adopted, and strict Lincoln-origin tiers for the closing peroration.",
+        "The final peroration is especially important because it contains high-value covenant/body-memory metaphors."
       ],
       "affected_scope": "Annotated sentence anchors and document-level source-risk caveat.",
       "sentence_ids": [
+        "doc_009_s01_p40_s04",
         "doc_009_s01_p40_s05"
       ],
       "instance_ids": [
+        "inst_00076",
         "inst_00077"
       ],
       "annotation_decision": "No current Stage 4 annotation adjustment. Keep authorship caveat attached to affected sentence anchors and use high-authorship-confidence controls for aggregate claims.",
-      "publication_caveat": "The final peroration is retained as part of the received First Inaugural text, but authorship-sensitive interpretation should flag Seward revision risk.",
+      "publication_caveat": "The final peroration is retained as part of the received First Inaugural text. Treat inst_00076 as Lincoln-adopted Seward-origin wording and inst_00077 as received-text evidence excluded from Lincoln-sole claims.",
       "follow_up_required": false,
       "follow_up_note": "No current annotation adjustment required. A future diplomatic collation could refine exact-wording claims."
     },

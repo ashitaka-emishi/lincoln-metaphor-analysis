@@ -5,7 +5,7 @@ date: 1861-03-04
 annotated: 2026-04-29
 instances: inst_00072–inst_00077 (6 total)
 extension_groups: none
-risk_flags: co_authored_seward (inst_00077 suppression_flag=true)
+risk_flags: co_authored_seward (inst_00076 Seward-origin phrase retained with caveat; inst_00077 suppression_flag=true)
 ---
 
 # doc_009 — First Inaugural Address: Key Findings
@@ -18,12 +18,31 @@ risk_flags: co_authored_seward (inst_00077 suppression_flag=true)
 | inst_00073 | p35_s04 | cluster_06_providence_theodicy | "the Almighty Ruler of Nations, with his eternal truth and justice" | bipartisan providence; conf 0.82 |
 | inst_00074 | p38_s06 | cluster_06_providence_theodicy | "a firm reliance on Him who has never yet forsaken this favored land" | protective mode; conf 0.85 |
 | inst_00075 | p39_s04 | cluster_02_covenant_oath | "oath registered in heaven" | most theologically explicit cluster_02 in corpus; conf 0.90 |
-| inst_00076 | p40_s04 | cluster_02_covenant_oath | "bonds of affection" | affective-covenantal; conf 0.78 |
-| inst_00077 | p40_s05 | cluster_01_body_organism | "The mystic chords of memory...swell the chorus of the Union" | Seward-revised; suppression_flag; novel; conf 0.82 |
+| inst_00076 | p40_s04 | cluster_02_covenant_oath | "bonds of affection" | Seward-origin phrase adopted/revised by Lincoln; affective-covenantal; conf 0.78 |
+| inst_00077 | p40_s05 | cluster_01_body_organism | "The mystic chords of memory...swell the chorus of the Union" | Seward-origin/revised; suppression_flag; novel; conf 0.82 |
+
+## Seward-Origin Sentence-Level Control
+
+The First Inaugural remains in the corpus as a Lincoln-primary presidential address, but authorship-sensitive claims require a sentence-level control rather than a document-level exclusion. Use three tiers:
+
+1. **Received First Inaugural text**: all six annotated instances, used for claims about the public address as delivered/published.
+2. **Lincoln-adopted text with Seward caveat**: retain inst_00076 because Lincoln accepted and revised the phrase in the final address, but do not use it as evidence that the "bonds of affection" wording originated independently with Lincoln.
+3. **Strict Lincoln-origin evidence**: exclude both inst_00076 and inst_00077 when the claim depends on Lincoln's independent lexical invention or on a Lincoln-sole metaphor profile.
+
+| Instance | Sentence | Attribution Control | Analysis Decision |
+| --- | --- | --- | --- |
+| inst_00072 | p16_s05 | Lincoln-primary / no Seward caveat recorded for this sentence | Retain for full, Lincoln-adopted, and strict Lincoln-origin readings. |
+| inst_00073 | p35_s04 | Lincoln-primary / no Seward caveat recorded for this sentence | Retain for full, Lincoln-adopted, and strict Lincoln-origin readings. |
+| inst_00074 | p38_s06 | Lincoln-primary / no Seward caveat recorded for this sentence | Retain for full, Lincoln-adopted, and strict Lincoln-origin readings. |
+| inst_00075 | p39_s04 | Lincoln-primary / no Seward caveat recorded for this sentence | Retain for full, Lincoln-adopted, and strict Lincoln-origin readings. |
+| inst_00076 | p40_s04 | Seward-origin phrase adopted/revised by Lincoln | Retain for received-text and Lincoln-adopted analysis; caveat claims about phrase origination; exclude only from strict Lincoln-origin lexical claims. |
+| inst_00077 | p40_s05 | Seward-origin/revised peroration, marked `suppression_flag=true` | Retain only for received-text analysis; exclude from Lincoln-sole or strict Lincoln-origin analysis; caveat any Gettysburg-anticipation claim. |
+
+Materiality: the central doc_009 finding does not depend on the Seward-origin sentences. If both inst_00076 and inst_00077 are excluded, doc_009 still contains four strict Lincoln-origin instances: two cluster_02 covenant/oath instances and two cluster_06 Providence/theodicy instances. The only claims that materially change are (a) the affective-community submode of cluster_02, which becomes Lincoln-adopted rather than Lincoln-originated evidence, and (b) the novel cluster_01 "mystic chords" organism-as-instrument image, which should not carry Lincoln-sole claims.
 
 ## Primary Finding: Phase 1c — Cluster_02 Activates as Dominant Frame
 
-The First Inaugural is the document that activates cluster_02 (covenant/oath) as a dominant frame for the first time in the corpus. Three clusters are now active (01, 02, 06) where House Divided had one (01) and Cooper Union had one (05). The developmental arc continues toward the six-cluster system at Gettysburg. The cluster_02 activation tracks Lincoln's understanding of the impending crisis: the Union's perpetuity is not just a legal conclusion but a covenant promise that the founding States plighted and engaged, and that Lincoln himself has sworn to preserve under divine witness.
+The First Inaugural is the document that activates cluster_02 (covenant/oath) as a dominant frame for the first time in the corpus. Three clusters are active in the received address (01, 02, 06), while the strict Lincoln-origin control preserves the core cluster_02 and cluster_06 finding without relying on the Seward-origin peroration. The developmental arc continues toward the six-cluster system at Gettysburg. The cluster_02 activation tracks Lincoln's understanding of the impending crisis: the Union's perpetuity is not just a legal conclusion but a covenant promise that the founding States plighted and engaged, and that Lincoln himself has sworn to preserve under divine witness.
 
 ## The "Oath Registered in Heaven" (inst_00075): Most Theologically Explicit Cluster_02 in Corpus
 
@@ -41,18 +60,18 @@ The three cluster_02 instances span the full range of the covenant frame:
 
 1. **Historical-reference mode** (inst_00072, p16_s05): The thirteen States' "faith plighted" at the Articles of Confederation (1778) — Lincoln reporting the historical covenant that established the Union's perpetuity as a sworn promise.
 2. **Theological-obligation mode** (inst_00075, p39_s04): "Oath registered in heaven" — Lincoln's own presidential oath as a divine contract with God as witness.
-3. **Affective-community mode** (inst_00076, p40_s04): "Bonds of affection" — the Union as a community of feeling whose covenant ties passion has strained but must not break.
+3. **Affective-community mode** (inst_00076, p40_s04): "Bonds of affection" — the Union as a community of feeling whose covenant ties passion has strained but must not break. This is Seward-origin wording adopted/revised by Lincoln and should be caveated in authorship-sensitive claims.
 
 Together: historical precedent (inst_00072) → divine obligation (inst_00075) → affective community (inst_00076). The three modes show cluster_02 operating simultaneously at legal-historical, theological, and emotional registers.
 
-## The "Mystic Chords" Closing (inst_00077): Cluster_01's Most Novel Pre-War Instance
+## The "Mystic Chords" Closing (inst_00077): Received-Text Evidence, Not Lincoln-Sole Evidence
 
-The closing sentence (p40_s05, Seward-revised, suppression_flag=true) introduces cluster_01 in its most novel pre-war form: the nation as a living organism connected by "mystic chords of memory" — tissue that stretches from battlefields and patriot graves to every living heart. The chords can be touched and made to swell the chorus of the Union. This is cluster_01's organism-as-musical-instrument hybrid — a source domain that does not appear elsewhere in the corpus.
+The closing sentence (p40_s05, Seward-revised, suppression_flag=true) introduces cluster_01 in its most novel pre-war received-text form: the nation as a living organism connected by "mystic chords of memory" — tissue that stretches from battlefields and patriot graves to every living heart. The chords can be touched and made to swell the chorus of the Union. This is cluster_01's organism-as-musical-instrument hybrid — a source domain that does not appear elsewhere in the corpus.
 
 Key features:
 - The national dead (battle-fields, patriot graves) remain part of the living body through memory — the organism includes its historical dead. This anticipates Gettysburg's logic where the dead consecrate the ground and constitute the nation.
 - The "better angels of our nature" are internal forces, not external — the national body carries within it the capacity for self-resonance and reunion.
-- suppression_flag=true: exclude from Lincoln-sole analysis (Seward primary author; Lincoln substantially revised but did not originate).
+- suppression_flag=true: exclude from Lincoln-sole or strict Lincoln-origin analysis (Seward primary source; Lincoln substantially revised but did not originate).
 
 ## Cluster_06's Pre-War Mode: Protective, Not Punishing
 
@@ -70,7 +89,7 @@ This is Phase 1c cluster_06: Providence as a benevolent and reliable guardian wh
 
 ## Stage 3 Labeling Error (Annotator Notice)
 
-All sentences in doc_009 carry `authorship_note: "douglas_speech"` — a Stage 3 pipeline error. The document is not a debate; the pipeline defaulted to "douglas_speech" for the initial section because the script defaults non-Lincoln-opening-debate sections to "douglas_speech". All text in doc_009_s01 is Lincoln-authored (authorship: "lincoln_primary", authorship_confidence: 0.93), except p40_s05 which is Seward-revised. The authorship_note field should be null for Lincoln body sentences. Flag for Stage 3 correction; does not affect annotation quality.
+All sentences in doc_009 carry `authorship_note: "douglas_speech"` — a Stage 3 pipeline error. The document is not a debate; the pipeline defaulted non-Lincoln-opening debate sections to "douglas_speech". The correct sentence-level control is Lincoln-primary for the body text, with p40_s04 marked as Seward-origin wording adopted/revised by Lincoln and p40_s05 marked as Seward-origin/revised with `suppression_flag=true`. The authorship_note field should be null for Lincoln body sentences and variant-aware for the two closing sentences. Flag for Stage 3 correction; does not affect current annotation quality because the Stage 4 instance notes carry the relevant caveats.
 
 ## Absence Flags
 

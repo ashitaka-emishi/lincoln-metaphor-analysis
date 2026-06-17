@@ -188,16 +188,16 @@ The Blind Memorandum (doc_018) contains cluster_06 in a private context — Linc
 
 | Document | Date | Co-activated clusters | Significance |
 |----------|------|-----------------------|--------------|
-| doc_009 First Inaugural | 1861 | C01 + C02 + C06 | War-launch: body, covenant, and Providence simultaneously active |
+| doc_009 First Inaugural | 1861 | C01 + C02 + C06 in received text; C02 + C06 under strict Lincoln-origin control | War-launch: covenant and Providence are Lincoln-origin stable; the received-text body-memory instance carries a Seward-origin caveat |
 | doc_017 Gettysburg | 1863 | C03 + C04 + C05 | Three-cluster hinge: experiment tests the birth; founding passes the torch |
 | doc_021 Second Inaugural | 1865 | C01 + C02 + C06 | War-close: same three clusters as First Inaugural, but transformed |
 
-**First Inaugural → Second Inaugural comparison**: Both documents activate clusters 01, 02, and 06. But the content is transformed:
+**First Inaugural → Second Inaugural comparison**: The received First Inaugural activates clusters 01, 02, and 06, but the cluster_01 "mystic chords" instance is Seward-origin/revised and must not carry Lincoln-sole claims. Under strict Lincoln-origin control, the stable comparison is cluster_02 and cluster_06. The content is transformed:
 - Cluster_01: body division (1861) → body healing (1865)
 - Cluster_02: oath obligation to defend (1861) → oath registered in heaven as both parties' bond (1865)
 - Cluster_06: God as witness (1861) → "Almighty has His own purposes" (1865)
 
-The Second Inaugural is not a new metaphor system — it is the First Inaugural's metaphor system deepened by four years of war.
+The Second Inaugural is not a new metaphor system — it deepens the First Inaugural's covenant/Providence system through four years of war. Claims about a direct cluster_01 line from doc_009 to doc_021 should be framed as received-text continuity, not strict Lincoln-origin continuity.
 
 ---
 

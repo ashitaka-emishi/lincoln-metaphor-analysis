@@ -408,7 +408,7 @@
       "register": "formal_public_address",
       "authorship": "lincoln_primary",
       "authorship_confidence": 0.93,
-      "authorship_notes": "Seward drafted closing paragraphs ('mystic chords'). Tag seward_revised sentences. Run analysis twice: full and lincoln-sole-only.",
+      "authorship_notes": "Seward-origin/revised closing peroration. Use three tiers: received First Inaugural text, Lincoln-adopted Seward-origin wording, and strict Lincoln-origin evidence.",
       "source_text": "Collected Works vol.4 pp.262-271",
       "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:60",
       "risk_flags": [
@@ -417,14 +417,14 @@
       "analytical_priority": "critical",
       "word_count_approx": 3600,
       "pipeline_stage_completed": 4,
-      "notes": "Seward drafted 'mystic chords' closing. Tag seward_revised sentences. Run analysis twice: full and lincoln-sole-only.",
+      "notes": "Seward-origin/revised closing peroration. Caveat inst_00076 as Lincoln-adopted Seward-origin wording and exclude inst_00077 from strict Lincoln-origin claims.",
       "period": "phase_3_obligation",
       "genre": "inaugural_address",
       "source_edition": "Collected Works of Abraham Lincoln, University of Michigan digital edition; Collected Works vol.4 pp.262-271",
       "editorial_status": "collaborative_revision_with_seward_passages",
-      "inclusion_rationale": "Seward drafted 'mystic chords' closing. Tag seward_revised sentences. Run analysis twice: full and lincoln-sole-only.",
+      "inclusion_rationale": "Retain as a Lincoln-primary inaugural address while applying sentence-level Seward controls: received text, Lincoln-adopted wording, and strict Lincoln-origin evidence.",
       "known_limitations": [
-        "Includes Seward-drafted or Seward-revised passages; authorship-sensitive analysis should isolate Lincoln-sole sentences where possible."
+        "Includes Seward-origin/revised closing passages; authorship-sensitive analysis should caveat inst_00076 and exclude inst_00077 from Lincoln-sole or strict Lincoln-origin claims."
       ]
     },
     {

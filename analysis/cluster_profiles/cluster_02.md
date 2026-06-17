@@ -32,9 +32,9 @@ draft: false
 | instance_id | document | date | span_text | confidence |
 |-------------|----------|------|-----------|------------|
 | inst_00062 | doc_008 Springfield Farewell | 1861-01-11 | oath to preserve, protect, and defend | 0.90 |
-| inst_00072 | doc_009 First Inaugural | 1861-03-04 | constitutional oath as covenanted bond | 0.92 |
-| inst_00075 | doc_009 First Inaugural | 1861-03-04 | "plighting faith" (novel) | 0.95 |
-| inst_00076 | doc_009 First Inaugural | 1861-03-04 | covenant with God as witness | 0.90 |
+| inst_00072 | doc_009 First Inaugural | 1861-03-04 | "faith ... plighted and engaged" | 0.72 |
+| inst_00075 | doc_009 First Inaugural | 1861-03-04 | "oath registered in heaven" | 0.90 |
+| inst_00076 | doc_009 First Inaugural | 1861-03-04 | "bonds of affection" (Seward-origin wording adopted/revised by Lincoln) | 0.78 |
 | inst_00027–028 | doc_011 Constitution Fragment | 1861 | explicit theorization of oath logic (suppressed) | — |
 | inst_00039 | doc_010 Annual Message 1861 | 1861-12-03 | novel covenant deployment | 0.88 |
 | inst_00052–053 | doc_012 Greeley Letter | 1862-08-22 | covenant deployed against emancipation (suppressed) | — |
@@ -56,7 +56,7 @@ draft: false
 
 ### Novel Instances
 
-- `inst_00075` — "plighting faith": archaic covenant vocabulary elevating the founding to a sacred bond registered before God
+- `inst_00072` — "plighting faith": archaic covenant vocabulary elevating the founding to a sacred bond of perpetuity
 - `inst_00039` — Annual Message 1861: Lincoln innovates within the established covenant frame for congressional audience
 
 ### Extended Metaphor Groups in This Cluster
@@ -178,6 +178,9 @@ Archaic covenant vocabulary elevating the founding to a sacred bond. Lincoln rep
 
 ### "Registered in heaven" (doc_009 First Inaugural, 1861)
 The presidential oath is covenantal, not merely legal — God is the witness and enforcer. This bridges cluster_02 and cluster_06 (Providence): the oath-logic and the divine-witness logic co-activate. Secession becomes a sin against God, not merely a violation of law.
+
+### "Bonds of affection" (doc_009 First Inaugural, 1861)
+The affective-community mode of cluster_02 appears in the received First Inaugural, but the wording is Seward-origin language adopted/revised by Lincoln. Retain it for received-text and Lincoln-adopted analysis; do not use it as strict Lincoln-origin evidence.
 
 ### Greeley Letter covenant (doc_012, 1862) — suppressed
 "If I could save the Union without freeing any slave, I would do it." Lincoln deploys covenant logic against emancipation — the Union-saving covenant is primary; everything else is contingent. The cluster's political ambiguity made explicit. This is the suppression that most clearly documents the gap between Lincoln's covenant framework and an emancipatory framework.

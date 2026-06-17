@@ -60,6 +60,14 @@
 **Future condition**: A later expansion can add the two messages if a new research question requires a complete congressional-message subcorpus or if publication review specifically asks for annual-message coverage. That work should be filed as a separate implementation issue with source acquisition, segmentation, annotation, validation, and generated-output updates.
 **Status**: Resolved for the current publication package. No corpus files are added under this decision.
 
+### Seward-origin passages in the First Inaugural
+**Decision**: Keep the First Inaugural (`doc_009`) in the corpus as a Lincoln-primary address, but use sentence-level authorship controls for the closing peroration.
+**Control tiers**: (1) received First Inaugural text for claims about the public address; (2) Lincoln-adopted Seward-origin wording for passages Lincoln accepted and revised; (3) strict Lincoln-origin evidence for claims about Lincoln's independent metaphor profile.
+**Affected instances**: `inst_00076` ("bonds of affection") is retained for received-text and Lincoln-adopted analysis but caveated as Seward-origin wording. `inst_00077` ("mystic chords of memory") is retained only for received-text analysis and excluded from Lincoln-sole or strict Lincoln-origin claims.
+**Rationale**: Document-level exclusion would throw out stable Lincoln-origin covenant and Providence evidence. Unqualified inclusion would let the most novel cluster_01 image carry too much Lincoln-sole weight. Sentence-level control preserves both the public address and the authorship limitation.
+**Implication**: The First Inaugural still supports the claim that covenant and Providence are active at the war's opening. Claims about the novel body-memory/chord metaphor must be caveated as received-text evidence rather than Lincoln-origin evidence.
+**Status**: Resolved for the current publication package. Future diplomatic collation or a Seward comparison corpus can refine the boundary without changing the current Stage 4 files.
+
 ---
 
 ## Unresolved

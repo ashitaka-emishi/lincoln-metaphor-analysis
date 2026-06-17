@@ -22,17 +22,23 @@ draft: false
 
 ---
 
-## 2. The Seward Problem
+## 2. The Seward Control
 
-**Problem**: The closing paragraphs of the First Inaugural (doc_009) were substantially drafted by Seward. The "mystic chords of memory" passage is Seward's most notable contribution. Lincoln's revisions are on record.
+**Problem**: The closing paragraphs of the First Inaugural (doc_009) were substantially drafted or revised through Seward's intervention. The "bonds of affection" sentence (inst_00076) preserves Seward-origin wording adopted/revised by Lincoln, and the "mystic chords of memory" passage (inst_00077) is the highest-risk Seward-origin/revised metaphor instance.
 
-**Questions**:
-- Does the metaphor profile of the Seward-revised passages differ from Lincoln's own passages in the same document?
-- Does the "mystic chords" cluster_02 instance fit Lincoln's pattern or Seward's?
-- If Lincoln's revisions preserved Seward's metaphors, does that constitute Lincoln's endorsement of them?
-- Can we use the First Inaugural to make claims about Lincoln's metaphor system, or must all Seward-origin sentences be excluded?
+**Resolved control for the current publication package**:
+- Keep doc_009 in the corpus as a Lincoln-primary presidential address.
+- Use the received First Inaugural text for claims about the address as a public rhetorical object.
+- Retain inst_00076 for Lincoln-adopted analysis, but caveat it as Seward-origin wording when claims depend on phrase origination.
+- Exclude inst_00077 from Lincoln-sole or strict Lincoln-origin analysis; use it only as received-text evidence with the Seward caveat attached.
+- Treat the strict Lincoln-origin doc_009 profile as four instances: two cluster_02 covenant/oath instances and two cluster_06 Providence/theodicy instances. The document-level claim that the First Inaugural activates covenant and Providence therefore survives the control; the novel cluster_01 "mystic chords" claim does not carry Lincoln-sole weight.
 
-**Analytical approach**: Run cluster_distribution twice for doc_009: full document and lincoln_sole_only. If the distributions differ significantly, the Seward contribution is analytically material.
+**Remaining questions**:
+- Would a diplomatic collation of Seward's draft, Lincoln's revisions, and the delivered/published text refine the exact boundary between Seward-origin and Lincoln-revised language?
+- Does Seward's own broader metaphor profile make inst_00076 or inst_00077 look distinct from Lincoln's surrounding covenant/Providence profile?
+- If Lincoln preserved Seward-origin metaphors in a final presidential address, should future comparison modules treat them as executive-rhetorical evidence even when they are not Lincoln-originated phrasing?
+
+**Analytical approach**: Current synthesis uses the three-tier control in `analysis/document_notes/doc_009_notes.md`: received text, Lincoln-adopted Seward-origin wording, and strict Lincoln-origin evidence. A future Seward comparison corpus could test whether the closing peroration fits Seward's independent metaphor system.
 
 ---
 
