@@ -33,7 +33,7 @@
     "check:quarto": "quarto --version || (echo 'Quarto not found. Install from https://quarto.org/docs/get-started/ or: brew install quarto' && exit 1)"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "devDependencies": {
     "playwright": "^1.59.1"
