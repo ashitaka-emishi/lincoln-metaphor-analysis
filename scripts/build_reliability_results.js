@@ -565,6 +565,8 @@ draft: false
 
 These are Stage 4B reliability results for the five-document sample defined in [Reliability Sample and Adjudication Workflow](reliability-report.md).
 
+The future two-human study design is defined in [Human Double-Coding Follow-Up Protocol](human-double-coding-protocol.md). No human-human reliability metrics are reported here.
+
 ## Coding Design
 
 Coder A is the Stage 4A reference annotation layer. Coder B is a Codex second-pass reliability review. This is a completed AI-assisted reliability pass, not a two-human blind inter-annotator study.

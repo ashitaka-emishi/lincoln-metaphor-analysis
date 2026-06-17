@@ -7,6 +7,8 @@ draft: false
 
 These are Stage 4B reliability results for the five-document sample defined in [Reliability Sample and Adjudication Workflow](reliability-report.md).
 
+The future two-human study design is defined in [Human Double-Coding Follow-Up Protocol](human-double-coding-protocol.md). No human-human reliability metrics are reported here.
+
 ## Coding Design
 
 Coder A is the Stage 4A reference annotation layer. Coder B is a Codex second-pass reliability review. This is a completed AI-assisted reliability pass, not a two-human blind inter-annotator study.
@@ -72,4 +74,5 @@ Total adjudicated disagreements: 8.
 
 - This is a completed AI-assisted reliability pass, not a two-human blind coding study.
 - The results are useful for locating unstable fields and documenting adjudication, but should not be reported as independent human-human inter-annotator reliability.
+- The human double-coding follow-up protocol is designed separately; no human-human reliability metrics exist until the derivative human coding sheets, adjudication log, and results are produced.
 - The second pass is intentionally conservative: it records explicit disagreements only where the reliability review found a concrete rival coding.

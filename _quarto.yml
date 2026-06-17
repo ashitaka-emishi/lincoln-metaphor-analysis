@@ -73,6 +73,8 @@ website:
             text: Claim Audit Method
           - href: docs/methodology/reliability-report.md
             text: Reliability Workflow
+          - href: docs/methodology/human-double-coding-protocol.md
+            text: Human Coding Protocol
           - href: docs/methodology/reliability-results.md
             text: Reliability Results
           - href: docs/methodology/external-benchmarks.md

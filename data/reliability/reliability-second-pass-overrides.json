@@ -9,6 +9,7 @@
   "limitations": [
     "This is a completed AI-assisted reliability pass, not a two-human blind coding study.",
     "The results are useful for locating unstable fields and documenting adjudication, but should not be reported as independent human-human inter-annotator reliability.",
+    "The human double-coding follow-up protocol is designed separately; no human-human reliability metrics exist until the derivative human coding sheets, adjudication log, and results are produced.",
     "The second pass is intentionally conservative: it records explicit disagreements only where the reliability review found a concrete rival coding."
   ],
   "identification_overrides": [

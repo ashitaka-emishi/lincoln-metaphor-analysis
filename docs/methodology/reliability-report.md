@@ -7,6 +7,8 @@ draft: false
 
 This page defines the reliability layer for the publication-upgrade milestone. The current Stage 4B result compares the Stage 4A reference annotation layer with a Codex second-pass reliability review. It reports completed coding, adjudication, and metrics while explicitly avoiding a two-human blind inter-annotator reliability claim.
 
+The follow-up design for a future two-human blind study is defined separately in [Human Double-Coding Follow-Up Protocol](human-double-coding-protocol.md). That protocol is not yet a completed human reliability result.
+
 Generate the reliability artifacts with:
 
 ```bash
@@ -111,3 +113,9 @@ The sample, completed coding sheet, adjudication log, and metrics are implemente
 | Adjudicated disagreements | 8 |
 
 The limits are part of the result. Coder A is the Stage 4A reference layer. Coder B is a Codex second-pass review. The results are useful for surfacing unstable fields and documenting adjudication, but they should not be cited as a two-human blind reliability study.
+
+## Human Follow-Up Boundary
+
+The human follow-up protocol preserves the same five-document sample and uses derivative reliability artifacts rather than edits to validated Stage 4 files. Human coders would be blind to Stage 4A reference values, Codex second-pass overrides, and each other's sheets until both have completed coding.
+
+Until those human artifacts exist, the current reliability claim remains limited to the AI-assisted Stage 4B pass. Future human-human metrics should be reported beside the current result, not averaged into it.
