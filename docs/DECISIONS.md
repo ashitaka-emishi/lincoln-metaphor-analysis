@@ -52,15 +52,17 @@
 **Rationale**: Major interpretive claims need a stable handle and a reviewer-readable path back to clusters, CMT mappings, lexical units, sentence IDs, document metadata, and source text. A generated audit keeps selected examples readable while preserving the full matching audit-ID universe in JSON.
 **Implication**: Synthesis pages should cite claim IDs for major claims. Adding or changing a major claim should update `scripts/build_claim_audit.js` so the audit remains reproducible.
 
+### Add 1863 and 1864 Annual Messages?
+**Decision**: Do not add the 1863 and 1864 Annual Messages to the current 28-document publication corpus.
+**Arguments for adding**: The two messages would provide fuller diachronic coverage of the `congressional_message` register after emancipation; the 1863 message would test post-Gettysburg administrative rhetoric; the 1864 message would test the re-election and late-war congressional register.
+**Arguments against adding now**: The current publication claims do not generalize across the full annual-message series. They use register controls to show that congressional messages are a distinct, lower-density administrative register. The existing corpus already includes two high-priority congressional messages, `doc_010` and `doc_014`, with 12 total metaphor instances and strong cluster_03 experiment/proof coverage. Adding two long official documents would require source acquisition, segmentation, annotation, validation, controlled-output regeneration, and synthesis review; that is implementation work beyond this decision-only issue.
+**Sufficiency for current claims**: Current synthesis claims remain bounded to the annotated 28-document corpus and to register-controlled outputs. Congressional-message evidence is used to support register sensitivity and the experiment/proof cluster's legislative-administrative mode, not to claim exhaustive coverage of every annual message. The absence of the 1863 and 1864 messages should therefore be named as a corpus boundary, not treated as a blocker.
+**Future condition**: A later expansion can add the two messages if a new research question requires a complete congressional-message subcorpus or if publication review specifically asks for annual-message coverage. That work should be filed as a separate implementation issue with source acquisition, segmentation, annotation, validation, and generated-output updates.
+**Status**: Resolved for the current publication package. No corpus files are added under this decision.
+
 ---
 
 ## Unresolved
-
-### Add 1863 and 1864 Annual Messages?
-**Question**: The 1862 Annual Message (doc_014) is included. Should the 1863 and 1864 Annual Messages be added?
-**Arguments for**: More complete diachronic coverage of the congressional_message register; the 1863 message responds to emancipation; the 1864 message responds to re-election context.
-**Arguments against**: Corpus is already wide; marginal analytical return; would require adding 2 documents and extending annotation work.
-**Status**: Open. Revisit after Stage 4 is complete; if congressional_message register is analytically thin, add the 1863/1864 messages.
 
 ### Debate transcription variant strategy
 **Question**: The Lincoln-Douglas debates exist in two newspaper transcriptions with known discrepancies. How should variants be handled?

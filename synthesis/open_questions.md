@@ -92,6 +92,8 @@ draft: false
 
 5. **20th-century political rhetoric**: Does the experiment/proof cluster persist in American political rhetoric after Lincoln? Does the disease_and_purification cluster appear in 20th-century American politics in ways it does not appear in Lincoln?
 
+6. **Annual-message expansion**: The 1863 and 1864 Annual Messages are not added to the current publication corpus. A future issue may add them if the project needs a complete congressional-message subcorpus, but current publication claims remain bounded to the existing annotated corpus and register-controlled outputs.
+
 ---
 
 ## Stage 7 LCC Validation: What Was Resolved and What Remains Open

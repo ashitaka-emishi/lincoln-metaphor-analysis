@@ -73,6 +73,7 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 ## Limitations
 
 - The corpus is Lincoln-only and contains 28 selected documents, not the whole Lincoln archive.
+- The 1863 and 1864 Annual Messages are not included; current congressional-message claims are bounded to `doc_010`, `doc_014`, and register-controlled outputs rather than a complete annual-message series.
 - Debate, manuscript, date, version, and collaborative-revision traditions carry source risk; those risks are recorded in the corpus register and textual variant apparatus.
 - The reliability workflow now reports an AI-assisted second-pass reliability result, not a two-human blind inter-annotator study; the human double-coding follow-up protocol is designed but not yet executed.
 - The purification-rhetoric contrast is structural, not moral equivalence; Koenigsberg's Hitler analysis is used as bounded theoretical background, not as the project's headline comparative object.
