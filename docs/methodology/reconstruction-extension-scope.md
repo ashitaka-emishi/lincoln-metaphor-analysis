@@ -137,4 +137,4 @@ It should not say:
 
 Status: scoped follow-up, not implemented.
 
-Next implementation step: create a separate issue for a `reconstruction_comparison_corpus` pilot, beginning with a source-list manifest and rights review before any text collection or annotation.
+Next implementation step: create a separate issue for a `reconstruction_comparison_corpus` pilot only after the comparison-corpus milestone gate in [External Benchmarks](external-benchmarks.md) is satisfied, beginning with a source-list manifest and rights review before any text collection or annotation.

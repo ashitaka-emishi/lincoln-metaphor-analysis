@@ -4,6 +4,14 @@
   "status": "complete",
   "source": "scripts/build_external_benchmark_registry.py",
   "total_benchmarks": 6,
+  "comparison_corpus_milestone_gate": [
+    "Approve a source-list manifest that names candidate documents, stable URLs or archival citations, speaker/body, date, genre, register, and comparison role.",
+    "Complete item-level rights review before collecting text; underlying public-domain status does not waive repository redistribution and site-term checks.",
+    "Define a balanced pilot size for each subcorpus and an annotation budget before creating ingestion or annotation issues.",
+    "Keep comparison manifests separate from the Lincoln corpus manifest; no new documents enter the 28-document Lincoln corpus.",
+    "State the research question before collection, especially whether the pilot tests purification rhetoric, Lincoln-specific clusters, register effects, or broader nineteenth-century political metaphor.",
+    "Treat uncollected corpora as hypotheses only; no synthesis claim may cite a candidate comparison corpus until its data is collected, validated, and audited."
+  ],
   "benchmarks": [
     {
       "benchmark_id": "lcc_en_small",
@@ -88,10 +96,27 @@
       "license": "mixed_public_domain_and_site_specific_terms_expected",
       "license_url": null,
       "size_and_scope": null,
+      "candidate_source_notes": [
+        {
+          "candidate_source": "Congressional Globe, 36th-38th Congresses, Library of Congress / Congress.gov",
+          "source_url": "https://www.loc.gov/collections/century-of-lawmaking/articles-and-essays/debates-of-congress/congressional-globe/",
+          "rights_note": "Pre-1873 federal legislative record is expected to be public domain, but OCR/text redistribution and any downloaded derivatives need item-level source-term review.",
+          "size_note": "Source series contains 46 volumes for the 23rd-42nd Congresses; recommended pilot is 12-20 speeches by Union Republicans and War Democrats, sampled by speaker, chamber, date, and topic.",
+          "rationale_note": "Best first control for Seward, Chase, Sumner, Stevens, Trumbull, Wade, and other Union political rhetoric in the same legislative crisis field as Lincoln."
+        },
+        {
+          "candidate_source": "Thaddeus Stevens Papers, Library of Congress",
+          "source_url": "https://www.loc.gov/collections/thaddeus-stevens-papers/about-this-collection/",
+          "rights_note": "Manuscript collection requires item-level rights review before transcription reuse; use as a named-speaker supplement, not the primary Union corpus.",
+          "size_note": "Collection-level source; recommended supplement is 3-6 public speeches or printed items after the Congressional Globe pilot is scoped.",
+          "rationale_note": "Adds a high-salience Radical Republican comparator without letting a single speaker stand in for Union rhetoric as a whole."
+        }
+      ],
       "decision": "Candidate comparison module for testing whether Lincoln-specific clusters appear in other Union rhetoric. Not implemented for the current negative-finding baseline; no contemporary Union control result is available yet.",
       "limitations": [
         "Requires a named source list, stable document IDs, provenance, and inclusion rationale before collection.",
-        "Should be a comparison corpus, not an expansion of the Lincoln corpus."
+        "Should be a comparison corpus, not an expansion of the Lincoln corpus.",
+        "Congressional debate records mix speeches, procedural summaries, reprinted documents, and appendices; selection rules must prevent cherry-picking famous passages."
       ]
     },
     {
@@ -109,10 +134,27 @@
       "license": "mixed_public_domain_and_site_specific_terms_expected",
       "license_url": null,
       "size_and_scope": null,
+      "candidate_source_notes": [
+        {
+          "candidate_source": "Confederate States of America Records, Library of Congress",
+          "source_url": "https://www.loc.gov/collections/confederate-states-of-america-records/about-this-collection/",
+          "rights_note": "Library of Congress item pages for this collection identify public-domain reuse for digitized contents; still perform item-level citation and transcription checks.",
+          "size_note": "Collection spans 1854-1889, bulk 1861-1865; recommended pilot is 8-12 Davis messages/proclamations, Confederate congressional acts/resolutions, and secession/government formation documents.",
+          "rationale_note": "Provides official and semiofficial Confederate rhetoric for testing purification, racial hierarchy, constitutional compact, sovereignty, and enemy-construction patterns."
+        },
+        {
+          "candidate_source": "Journal of the Congress of the Confederate States of America, Library of Congress",
+          "source_url": "https://www.loc.gov/collections/century-of-lawmaking/articles-and-essays/century-presentations/journal-of-the-congress-of-the-csa/",
+          "rights_note": "Printed 1904-1905 in the U.S. Serial Set; expected public-domain government publication, with source-term and OCR review required before reuse.",
+          "size_note": "Seven-volume printed set; recommended supplement is targeted excerpts only after defining whether institutional proceedings count as rhetoric.",
+          "rationale_note": "Adds institutional Confederate legislative context while preserving separation from presidential messages and state secession documents."
+        }
+      ],
       "decision": "Candidate contrast corpus for testing purification, covenant, providence, and annihilation/reconciliation differences. Not implemented for the current negative-finding baseline; no contemporary Confederate contrast result is available yet.",
       "limitations": [
         "Risk of false symmetry with the purification-rhetoric contrast; research questions must be stated before collection.",
-        "Requires speaker, genre, date, and provenance controls."
+        "Requires speaker, genre, date, and provenance controls.",
+        "Official Confederate records cannot be treated as representative of all Southern public rhetoric; state, newspaper, sermon, and military genres would require separate controls."
       ]
     },
     {
@@ -130,10 +172,27 @@
       "license": "mixed_public_domain_and_site_specific_terms_expected",
       "license_url": null,
       "size_and_scope": null,
+      "candidate_source_notes": [
+        {
+          "candidate_source": "African American Perspectives: Materials Selected from the Rare Book Collection, Library of Congress",
+          "source_url": "https://www.loc.gov/collections/african-american-perspectives-rare-books/about-this-collection/",
+          "rights_note": "Library of Congress item pages state no known copyright restrictions for this collection; still record item-level rights and citation data.",
+          "size_note": "More than 800 titles, 1822-1909; recommended pilot is 12-20 pamphlets or speeches from 1854-1865, balanced across Black authors, white abolitionists, organizational reports, and congressional anti-slavery speeches.",
+          "rationale_note": "Best first source for testing whether anti-slavery moral rhetoric uses purification, confinement, agency, citizenship, or protection frames that Lincoln avoids or suppresses."
+        },
+        {
+          "candidate_source": "National Anti-Slavery Standard, digitized newspaper runs",
+          "source_url": "https://archive.org/details/nationalantis18600609roge",
+          "rights_note": "Underlying newspaper issues are nineteenth-century public-domain candidates, but digitized runs vary by host; source-specific download and OCR reuse terms must be checked.",
+          "size_note": "Weekly newspaper published 1840-1870; recommended supplement is an item-level sample around 1854, 1858, 1861, and 1863 rather than a full newspaper corpus.",
+          "rationale_note": "Adds movement-press reception and advocacy language, but should stay separate from pamphlet/speech evidence and from the reception-evidence module."
+        }
+      ],
       "decision": "Candidate corpus for separating Lincoln rhetorical restraint from broader anti-slavery moral language. Not implemented for the current negative-finding baseline; no contemporary abolitionist result is available yet.",
       "limitations": [
         "Needs genre control across speeches, newspapers, pamphlets, and letters.",
-        "Reception and movement rhetoric should remain distinct from Lincoln-only findings."
+        "Reception and movement rhetoric should remain distinct from Lincoln-only findings.",
+        "Abolitionist rhetoric is internally diverse; a pilot must separate Black reform speech, white abolitionist speech, organizational reports, and movement newspapers."
       ]
     },
     {
@@ -151,10 +210,27 @@
       "license": "source_specific_terms_required",
       "license_url": null,
       "size_and_scope": null,
+      "candidate_source_notes": [
+        {
+          "candidate_source": "The American Presidency Project, UC Santa Barbara",
+          "source_url": "https://www.presidency.ucsb.edu/",
+          "rights_note": "Underlying historical presidential documents are generally public records, but the APP site asserts copyright and terms of service; reuse of APP text requires site-term review or an alternate public-domain transcription source.",
+          "size_note": "APP reports 187,842 presidential and non-presidential records; recommended pilot is 12-18 annual messages, inaugurals, proclamations, and veto/special messages from Buchanan, Lincoln, Johnson, and Grant.",
+          "rationale_note": "Best first register control for distinguishing Lincoln-specific patterns from generic presidential address conventions across adjacent administrations."
+        },
+        {
+          "candidate_source": "Messages and Papers of the Presidents, APP or public-domain book scans",
+          "source_url": "https://www.presidency.ucsb.edu/",
+          "rights_note": "Use public-domain scans or transcriptions where possible; if APP is used for convenience, cite APP and confirm terms before committing text.",
+          "size_note": "Focused source family for nineteenth-century presidential messages; recommended supplement is a register-balanced sample, not a full presidency archive.",
+          "rationale_note": "Supports consistent presidential-register controls for annual messages, veto messages, and inaugurals without pulling in modern presidential-document categories."
+        }
+      ],
       "decision": "Candidate register-control corpus for distinguishing Lincoln from generic presidential address conventions. Not implemented for the current negative-finding baseline; no contemporary presidential-register result is available yet.",
       "limitations": [
         "Must avoid flattening inaugural addresses, annual messages, proclamations, and informal speeches into one register.",
-        "Requires a boundary decision before Reconstruction-era documents are added."
+        "Requires a boundary decision before Reconstruction-era documents are added.",
+        "APP is a discovery and citation source unless terms review approves text reuse; nineteenth-century presidential texts may need public-domain scan/OCR alternatives."
       ]
     }
   ]
