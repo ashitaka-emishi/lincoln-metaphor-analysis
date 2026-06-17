@@ -83,7 +83,7 @@ The current milestone excludes:
 - New primary-source expansion unless a later issue explicitly adds it.
 - The 1863 and 1864 Annual Messages, which are a resolved non-addition for the current publication package and can only be added by a future implementation issue.
 - A parallel Confederate, abolitionist, Democratic, or broader nineteenth-century comparison corpus.
-- Audience reception analysis, public-opinion effects, or claims about how specific listeners processed Lincoln's metaphors.
+- Audience reception analysis, public-opinion effects, or claims about how specific listeners processed Lincoln's metaphors, except for separately bounded reception-pilot records that do not enter the Lincoln corpus.
 - Biographical claims about Lincoln's private psychology beyond what the corpus can support.
 - Moral-equivalence claims in the purification-rhetoric contrast.
 - Any ad hoc edit to a completed Stage N file when the work belongs in Stage N+1 or in a documented migration.

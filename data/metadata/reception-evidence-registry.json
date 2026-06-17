@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated": "2026-06-15",
+  "generated": "2026-06-17",
   "status": "complete",
   "source": "scripts/build_reception_evidence_registry.py",
   "placement_decision": {
     "decision": "synthesis_appendix_or_comparison_module_not_core_corpus_stage",
     "rationale": "Reception evidence answers a different question from the Lincoln-only metaphor corpus. It may test how readers, listeners, editors, and political actors received or transformed Lincoln rhetoric, but it must not change the Stage 1-8 Lincoln annotation universe.",
-    "implementation_status": "protocol_defined_no_reception_claims_added"
+    "implementation_status": "item_level_pilot_defined_no_core_corpus_changes"
   },
   "claim_boundary": {
     "rhetoric_in_text": "Claims about metaphor structure inside Lincoln-authored or Lincoln-primary documents may use the existing corpus, concordance, controlled outputs, and claim audit.",
@@ -110,7 +110,7 @@
       "source_id": "chronicling_america_newspapers",
       "name": "Chronicling America: Historic American Newspapers",
       "source_type": "newspaper_reception",
-      "status": "candidate_not_collected",
+      "status": "pilot_items_selected",
       "source_url": "https://www.loc.gov/collections/chronicling-america/about-this-collection/",
       "archival_citation": "Library of Congress, Chronicling America: Historic American Newspapers.",
       "rights_note": "Collection-level terms and individual newspaper rights must be checked before redistribution.",
@@ -184,5 +184,65 @@
     "Every quoted or summarized reception example must include a source URL or archival citation.",
     "Candidate collections do not count as evidence until individual items are selected, cited, and rights-checked."
   ],
-  "total_candidate_sources": 5
+  "total_candidate_sources": 5,
+  "pilot_records": [
+    {
+      "reception_id": "rec_pilot_001",
+      "source_id": "chronicling_america_newspapers",
+      "source_type": "newspaper_reception",
+      "source_title": "Page containing \"With malice toward none / with charity for all\" motto",
+      "publication_title": "Mower County Transcript",
+      "date": "1872-07-04",
+      "place": "Lansing, Minnesota",
+      "audience_position": "postwar newspaper readership / civic memory context",
+      "lincoln_text_anchor": "doc_021 Second Inaugural Address; \"with malice toward none; with charity for all\"",
+      "reception_action": "repeat",
+      "evidence_quote_or_summary": "LOC text view identifies the Second Inaugural phrase \"with malice toward none / with charity for all\" on this newspaper page. The item is selected to test phrase-circulation metadata for postwar civic memory.",
+      "source_url_or_archival_citation": "Mower County Transcript (Lansing, MN), July 4, 1872, p. 2, Chronicling America: Historic American Newspapers, Library of Congress, https://www.loc.gov/resource/sn85025431/1872-07-04/ed-1/?sp=2&st=text",
+      "rights_note": "Published in the United States in 1872; treated as public domain in the United States. Pilot records summarize the item and do not redistribute page images or extended OCR text.",
+      "claim_allowed": "Supports only a phrase-circulation reception claim for selected Second Inaugural language in one newspaper item. It does not establish audience magnitude, reader belief, or Lincoln textual evidence.",
+      "claim_boundary": "reception_only_not_lincoln_corpus",
+      "rights_checked": true,
+      "pilot_status": "selected_for_pilot"
+    },
+    {
+      "reception_id": "rec_pilot_002",
+      "source_id": "chronicling_america_newspapers",
+      "source_type": "newspaper_reception",
+      "source_title": "Page containing \"with malice toward none and charity\" language",
+      "publication_title": "New Orleans Republican",
+      "date": "1876-06-01",
+      "place": "New Orleans, Louisiana",
+      "audience_position": "postwar Southern Republican newspaper readership",
+      "lincoln_text_anchor": "doc_021 Second Inaugural Address; \"with malice toward none; with charity for all\"",
+      "reception_action": "repeat",
+      "evidence_quote_or_summary": "LOC text view identifies \"with malice toward none\" and charity language on this Reconstruction-era Southern newspaper page. The item is selected to test whether a regional newspaper occurrence can be represented with a clear reception-only boundary.",
+      "source_url_or_archival_citation": "New Orleans Republican (New Orleans, LA), June 1, 1876, p. 1, Chronicling America: Historic American Newspapers, Library of Congress, https://www.loc.gov/resource/sn83016555/1876-06-01/ed-1/?st=text",
+      "rights_note": "Published in the United States in 1876; treated as public domain in the United States. Pilot records summarize the item and do not redistribute page images or extended OCR text.",
+      "claim_allowed": "Supports only a selected phrase-circulation claim for Second Inaugural language in one Reconstruction-era Southern newspaper item. It does not quantify public opinion or prove reader uptake.",
+      "claim_boundary": "reception_only_not_lincoln_corpus",
+      "rights_checked": true,
+      "pilot_status": "selected_for_pilot"
+    },
+    {
+      "reception_id": "rec_pilot_003",
+      "source_id": "chronicling_america_newspapers",
+      "source_type": "newspaper_reception",
+      "source_title": "Image 1 text page containing Gettysburg Address language",
+      "publication_title": "The Morning News",
+      "date": "1895-09-16",
+      "place": "Savannah, Georgia",
+      "audience_position": "postwar newspaper readership / sectional memory context",
+      "lincoln_text_anchor": "doc_017 Gettysburg Address; new birth of freedom and government-of-the-people clauses",
+      "reception_action": "repeat",
+      "evidence_quote_or_summary": "LOC text view identifies Gettysburg Address language on the page, including the new-birth and government-of-the-people clauses. The item is selected to test phrase-circulation metadata for a Southern newspaper context.",
+      "source_url_or_archival_citation": "The Morning News (Savannah, GA), September 16, 1895, p. 1, Chronicling America: Historic American Newspapers, Library of Congress, https://www.loc.gov/resource/sn86063034/1895-09-16/ed-1/?sp=1&st=text",
+      "rights_note": "Published in the United States in 1895; treated as public domain in the United States. Pilot records summarize the item and do not redistribute page images or extended OCR text.",
+      "claim_allowed": "Supports only a phrase-circulation reception claim for Gettysburg Address language in a later newspaper item. It cannot prove how readers understood the phrase and does not change corpus-internal Gettysburg claims.",
+      "claim_boundary": "reception_only_not_lincoln_corpus",
+      "rights_checked": true,
+      "pilot_status": "selected_for_pilot"
+    }
+  ],
+  "total_pilot_records": 3
 }

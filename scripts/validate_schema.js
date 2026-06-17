@@ -879,6 +879,8 @@ function validateReceptionEvidenceRegistry() {
     'candidate_sources',
     'evidence_rules',
     'total_candidate_sources',
+    'pilot_records',
+    'total_pilot_records',
   ];
   for (const field of required) {
     if (data[field] === undefined) err(filePath, `Missing field: ${field}`);
@@ -953,8 +955,8 @@ function validateReceptionEvidenceRegistry() {
       err(filePath, `${loc}: unknown source_type '${source.source_type}'`);
     }
     if (source.source_type) candidateSourceTypes.add(source.source_type);
-    if (source.status !== 'candidate_not_collected') {
-      err(filePath, `${loc}: status must be candidate_not_collected until item-level evidence exists`);
+    if (!['candidate_not_collected', 'pilot_items_selected'].includes(source.status)) {
+      err(filePath, `${loc}: status must be candidate_not_collected or pilot_items_selected`);
     }
     if (source.source_url && !/^https?:\/\//.test(source.source_url)) {
       err(filePath, `${loc}: source_url must be an http(s) URL`);
@@ -966,6 +968,59 @@ function validateReceptionEvidenceRegistry() {
   for (const sourceType of sourceTypes) {
     if (!candidateSourceTypes.has(sourceType)) {
       err(filePath, `No candidate source represents source_type '${sourceType}'`);
+    }
+  }
+
+  if (!Array.isArray(data.pilot_records)) {
+    err(filePath, 'pilot_records must be an array');
+  }
+  if (data.total_pilot_records !== (data.pilot_records || []).length) {
+    err(filePath, `total_pilot_records ${data.total_pilot_records} does not match pilot_records length ${(data.pilot_records || []).length}`);
+  }
+
+  const pilotIds = new Set();
+  const requiredPilotFields = [
+    'reception_id',
+    'source_id',
+    'source_type',
+    'source_title',
+    'publication_title',
+    'date',
+    'place',
+    'audience_position',
+    'lincoln_text_anchor',
+    'reception_action',
+    'evidence_quote_or_summary',
+    'source_url_or_archival_citation',
+    'rights_note',
+    'claim_allowed',
+    'claim_boundary',
+    'pilot_status',
+  ];
+  for (const record of data.pilot_records || []) {
+    const loc = record.reception_id || 'NO_RECEPTION_ID';
+    if (!record.reception_id) err(filePath, 'pilot record missing reception_id');
+    else if (pilotIds.has(record.reception_id)) err(filePath, `Duplicate reception_id: ${record.reception_id}`);
+    pilotIds.add(record.reception_id);
+
+    for (const field of requiredPilotFields) {
+      if (!record[field]) err(filePath, `${loc}: missing field '${field}'`);
+    }
+    if (record.rights_checked !== true) err(filePath, `${loc}: rights_checked must be true`);
+    if (record.claim_boundary !== 'reception_only_not_lincoln_corpus') {
+      err(filePath, `${loc}: claim_boundary must be reception_only_not_lincoln_corpus`);
+    }
+    if (!sourceIds.has(record.source_id)) {
+      err(filePath, `${loc}: source_id '${record.source_id}' not found in candidate_sources`);
+    }
+    if (!sourceTypes.has(record.source_type)) {
+      err(filePath, `${loc}: source_type '${record.source_type}' not found in source_types`);
+    }
+    if (!candidateSourceTypes.has(record.source_type)) {
+      err(filePath, `${loc}: source_type '${record.source_type}' not used by candidate_sources`);
+    }
+    if (!/https?:\/\//.test(record.source_url_or_archival_citation)) {
+      err(filePath, `${loc}: source_url_or_archival_citation must include an http(s) URL`);
     }
   }
 
