@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { generatedDateForFile, pipelineLogForFile } = require('./generated_metadata');
 const { ABSENCE_FLAGS, CLUSTER_IDS, emptyArrayIndex } = require('./schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -119,26 +120,17 @@ function main() {
     console.log(`  ${docId}: ${docInstanceCount} instances`);
   }
 
-  // Load existing concordance to preserve pipeline_log
-  let existingLog = [];
-  if (fs.existsSync(CONCORDANCE_PATH)) {
-    try {
-      const existing = JSON.parse(fs.readFileSync(CONCORDANCE_PATH, 'utf8'));
-      existingLog = existing.pipeline_log || [];
-    } catch (_) {}
-  }
-
-  existingLog.push({
+  const generated = generatedDateForFile(CONCORDANCE_PATH);
+  const pipelineLog = pipelineLogForFile(CONCORDANCE_PATH, {
     stage: 5,
     agent: 'build_concordance.js',
-    date: new Date().toISOString().split('T')[0],
     total_instances: allInstances.length,
     documents_processed: processedDocIds.size
   });
 
   const concordance = {
     version: '1.0',
-    generated: new Date().toISOString().split('T')[0],
+    generated,
     corpus_version: '1.0',
     status: allInstances.length > 0 ? 'complete' : 'stub',
     total_documents: processedDocIds.size,
@@ -146,7 +138,7 @@ function main() {
     total_instances: allInstances.length,
     instances: allInstances,
     indexes,
-    pipeline_log: existingLog
+    pipeline_log: pipelineLog
   };
 
   fs.writeFileSync(CONCORDANCE_PATH, JSON.stringify(concordance, null, 2));

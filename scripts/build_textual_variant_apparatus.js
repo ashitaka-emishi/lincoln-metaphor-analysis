@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { generatedDateForFile } = require('./generated_metadata');
 
 const ROOT = path.resolve(__dirname, '..');
 const MANIFEST_PATH = path.join(ROOT, 'corpus', 'corpus_manifest.json');
@@ -12,7 +13,7 @@ const OUTPUT_PATH = path.join(ROOT, 'data', 'metadata', 'textual-variant-apparat
 const PAGE_PATH = path.join(ROOT, 'docs', 'methodology', 'textual-variant-apparatus.md');
 
 function today() {
-  return new Date().toISOString().slice(0, 10);
+  return generatedDateForFile(OUTPUT_PATH);
 }
 
 function readJSON(filePath) {

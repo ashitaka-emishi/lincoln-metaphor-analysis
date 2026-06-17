@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { generatedDateForFile } = require('./generated_metadata');
 
 const ROOT = path.resolve(__dirname, '..');
 const MANIFEST_PATH = path.join(ROOT, 'corpus', 'corpus_manifest.json');
@@ -109,7 +110,7 @@ function readJSON(filePath) {
 }
 
 function today() {
-  return new Date().toISOString().slice(0, 10);
+  return generatedDateForFile(SAMPLE_PATH);
 }
 
 function csvEscape(value) {
