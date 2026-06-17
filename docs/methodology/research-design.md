@@ -70,12 +70,16 @@ Texts are included when they meet all or most of these conditions:
 - They can be assigned stable document, section, paragraph, and sentence identifiers.
 - Source provenance and risk flags can be documented.
 
+## Corpus-Design Boundary Decisions
+
+The 1863 and 1864 Annual Messages are not added to the current publication corpus. The corpus already includes two congressional messages (`doc_010` and `doc_014`) and uses [Controlled Outputs](../../analysis/controlled_outputs.md) to keep congressional-message evidence register-bounded. Current claims do not depend on complete annual-message coverage. Adding the two later messages would be a future expansion requiring source acquisition, segmentation, annotation, validation, and generated-output updates.
+
 ## Exclusion Criteria
 
 The current milestone excludes:
 
 - New primary-source expansion unless a later issue explicitly adds it.
-- The unresolved 1863 and 1864 Annual Messages question, which remains a future corpus-design decision.
+- The 1863 and 1864 Annual Messages, which are a resolved non-addition for the current publication package and can only be added by a future implementation issue.
 - A parallel Confederate, abolitionist, Democratic, or broader nineteenth-century comparison corpus.
 - Audience reception analysis, public-opinion effects, or claims about how specific listeners processed Lincoln's metaphors.
 - Biographical claims about Lincoln's private psychology beyond what the corpus can support.
