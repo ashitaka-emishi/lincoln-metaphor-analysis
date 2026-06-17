@@ -54,6 +54,13 @@ Size and scope:
 - Conceptual mapping annotations: 7,941
 - Affect annotations: 3,932
 
+Evaluation summary:
+
+- Evaluated locally: 2026-06-17
+- Valid annotations parsed: 8,724
+- Metaphorical annotations: 4,417
+- DISEASE source-concept rank/count: 4 / 100
+
 Decision: Use as the committed Stage 7 baseline because it is small enough to download on demand and already supported by the parser.
 
 Limits:
@@ -89,6 +96,13 @@ Size and scope:
 - Conceptual mapping annotations: 51,324
 - Affect annotations: 25,277
 
+Evaluation summary:
+
+- Evaluated locally: 2026-06-17
+- Valid annotations parsed: 52,118
+- Metaphorical annotations: 27,956
+- DISEASE source-concept rank/count: 10 / 538
+
 Decision: Support as an optional reproducible benchmark through public commands; keep outputs local because the archive is larger and redistribution is unnecessary.
 
 Limits:
@@ -116,7 +130,11 @@ Size and scope:
 
 - Not defined yet.
 
-Decision: Candidate comparison module for testing whether Lincoln-specific clusters appear in other Union rhetoric.
+Evaluation summary:
+
+No implemented evaluation yet.
+
+Decision: Candidate comparison module for testing whether Lincoln-specific clusters appear in other Union rhetoric. Not implemented for the current negative-finding baseline; no contemporary Union control result is available yet.
 
 Limits:
 
@@ -143,7 +161,11 @@ Size and scope:
 
 - Not defined yet.
 
-Decision: Candidate contrast corpus for testing purification, covenant, providence, and annihilation/reconciliation differences.
+Evaluation summary:
+
+No implemented evaluation yet.
+
+Decision: Candidate contrast corpus for testing purification, covenant, providence, and annihilation/reconciliation differences. Not implemented for the current negative-finding baseline; no contemporary Confederate contrast result is available yet.
 
 Limits:
 
@@ -170,7 +192,11 @@ Size and scope:
 
 - Not defined yet.
 
-Decision: Candidate corpus for separating Lincoln rhetorical restraint from broader anti-slavery moral language.
+Evaluation summary:
+
+No implemented evaluation yet.
+
+Decision: Candidate corpus for separating Lincoln rhetorical restraint from broader anti-slavery moral language. Not implemented for the current negative-finding baseline; no contemporary abolitionist result is available yet.
 
 Limits:
 
@@ -197,7 +223,11 @@ Size and scope:
 
 - Not defined yet.
 
-Decision: Candidate register-control corpus for distinguishing Lincoln from generic presidential address conventions.
+Evaluation summary:
+
+No implemented evaluation yet.
+
+Decision: Candidate register-control corpus for distinguishing Lincoln from generic presidential address conventions. Not implemented for the current negative-finding baseline; no contemporary presidential-register result is available yet.
 
 Limits:
 

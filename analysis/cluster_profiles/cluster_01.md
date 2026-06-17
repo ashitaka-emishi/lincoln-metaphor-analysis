@@ -182,7 +182,7 @@ The NATION IS A BODY metaphor makes several rhetorical moves unavailable to othe
 
 **Purification-specific constructs**: `disease_and_purification`; ethnic exclusion; purifying violence
 
-**Key negative finding**: Fifteen `disease_purification_absent` flags in cluster_01 — the largest absence-flag count in any cluster for this flag type. Every candidate instance where disease/purification logic was available but not deployed is documented. Confirmed: zero instances of `disease_and_purification` fantasy type in Lincoln's corpus.
+**Key negative finding**: Fifteen `disease_purification_absent` flags in cluster_01 — the largest absence-flag count in any cluster for this flag type. Every candidate instance where disease/purification logic was available but not deployed is documented. Confirmed: zero instances of `disease_and_purification` fantasy type in Lincoln's corpus. Stage 7 LCC checks show DISEASE is common in general English metaphor (`en_small`: rank 4, 100 instances; `en_large`: rank 10, 538 instances), so the absence is not explained by source-domain rarity.
 
 ---
 

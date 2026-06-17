@@ -4,7 +4,7 @@ draft: false
 
 # Findings
 
-*Based on 136 annotated instances across 28 documents (1838–1865), six metaphor clusters, and 144 absence flags. Findings 2 and 4 are additionally supported by Stage 7 external validation against the LCC Metaphor Dataset (8,724 general English annotations). See [LCC Benchmark Validation](../analysis/lcc_validation.md) and [Claim-To-Source Audit](claim_audit.md).*
+*Based on 136 annotated instances across 28 documents (1838–1865), six metaphor clusters, and 144 absence flags. Findings 2 and 4 are additionally supported by Stage 7 external validation against the LCC Metaphor Dataset: `en_small` (8,724 valid annotations) and optional `en_large` (52,118 valid annotations). See [LCC Benchmark Validation](../analysis/lcc_validation.md) and [Claim-To-Source Audit](claim_audit.md).*
 
 **Publication status**: Evidence-backed synthesis page. Claims are stated at publication strength only when they have a Stage 4A evidence chain, Stage 6A controlled-output context, and a claim-audit handle. Remaining interpretive uncertainties are named in the limitations and open-questions sections.
 
@@ -60,7 +60,7 @@ Lincoln's corpus contains **zero instances** of `disease_and_purification` fanta
 - Flags span all 6 clusters, all phases 1838–1865, all registers
 - Highest rate in cluster_03 (experiment, 0.600 flags/instances) and cluster_01 (body, 0.441)
 - Register-independent: absent from formal addresses, debates, congressional messages, letters alike
-- **LCC baseline (Stage 7)**: DISEASE is the 4th most common source concept in general English metaphor (100 of 4,417 metaphorical instances in the LCC en_small corpus). Lincoln uses disease language in cluster_01, but exclusively as wound/injury — never as pathogen requiring expulsion. The zero count for `disease_and_purification` is therefore anomalous against a measurable general-language baseline, not merely against an assumed norm.
+- **LCC baselines (Stage 7)**: DISEASE is the 4th most common source concept in `en_small` general English metaphor (100 of 4,417 metaphorical instances) and remains prominent in `en_large` (rank 10; 538 of 27,956 metaphorical instances). Lincoln uses disease language in cluster_01, but exclusively as wound/injury — never as pathogen requiring expulsion. The zero count for `disease_and_purification` is therefore anomalous against measurable general-language baselines, not merely against an assumed norm.
 
 **Candidate instances examined and excluded**:
 - doc_004 Peoria (1854): cancer/surgery language for slavery-as-institution (inst_00108) — disease targets the institution, not any social group
@@ -78,9 +78,9 @@ Disease/purification logic (absent from Lincoln) requires the pathogen to be exp
 "Malice toward none, charity for all" is not merely a moral aspiration — it is a structural consequence of Lincoln's metaphor system. A rhetoric that has no disease/purification logic has no mechanism for constructing permanent enemies. The wound can heal; the oath can be fulfilled; the proposition can be proven; the debt can be paid; God's punishment can run its course. None of these has an infinitely extendable logic. This is the structural reason Lincoln's rhetoric could move toward reconciliation while purification-based political fantasy has no internal exit condition.
 
 **Limitations**:
-- The absence from Lincoln's rhetoric does not mean its absence from his era's broader political culture
+- The absence from Lincoln's rhetoric does not mean its absence from his era's broader political culture; no implemented contemporary Union, Confederate, abolitionist, or presidential-register benchmark currently tests that broader historical question
 - Some Lincoln contemporaries (radical abolitionists) did use purification language about slavery and slaveholders
-- The finding requires negative confirmation, which is methodologically weaker than positive finding — the 56 absence flags are the evidence that this negative result is structural rather than coincidental; the LCC baseline partially addresses this weakness by establishing that the absent domain is not rare in English but actively common
+- The finding requires negative confirmation, which is methodologically weaker than positive finding — the 56 absence flags are the evidence that this negative result is structural rather than coincidental; the LCC baselines partially address this weakness by establishing that the absent domain is not rare in English but actively common
 
 ---
 
@@ -138,7 +138,7 @@ The obligatory frame — the structural feature that makes violence feel mandato
 
 The universality of the obligatory frame is the most important single structural feature of Lincoln's rhetoric as an authorization of mass violence. Lincoln is never *choosing* to prosecute the war — he is *fulfilling obligations* imposed by prior commitments (the oath, the founding, the experiment, the inheritance, God's purposes). The war is not a policy choice; it is a logical necessity. This effaces the political nature of the decision to continue fighting at each critical juncture where negotiated peace was possible.
 
-**LCC validation (Stage 7)**: The two clusters with 100% obligatory frame rates — cluster_02 (covenant/oath) and cluster_05 (founding fathers/inheritance) — have no significant parallel in the LCC general English metaphor baseline. CONTRACT/OATH and INHERITANCE/PATRIMONY do not appear as prominent source-concept categories in the LCC taxonomy. This confirms that the obligatory force of these clusters was not inherited from common English figurative usage; it was architecturally constructed by Lincoln's specific choice of source domains. The war felt obligatory in part because Lincoln's rhetoric selected the two source domains in the English language most saturated with binding duty — and both are domains ordinary English speakers rarely use for political metaphor.
+**LCC validation (Stage 7)**: The two clusters with 100% obligatory frame rates — cluster_02 (covenant/oath) and cluster_05 (founding fathers/inheritance) — have no significant parallel in the LCC general English metaphor baselines. CONTRACT/OATH and INHERITANCE/PATRIMONY do not appear as prominent source-concept categories in the LCC taxonomy. This confirms that the obligatory force of these clusters was not inherited from common English figurative usage; it was architecturally constructed by Lincoln's specific choice of source domains. The war felt obligatory in part because Lincoln's rhetoric selected the two source domains in the English language most saturated with binding duty — and both are domains ordinary English speakers rarely use for political metaphor.
 
 **Limitations**:
 - The obligatory frame does not prove that Lincoln cynically manufactured justifications — it may reflect his genuine psychological experience of the war as obligatory

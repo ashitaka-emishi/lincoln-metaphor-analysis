@@ -4,7 +4,7 @@ title: "Stage 7: LCC Benchmark Validation"
 
 # Stage 7: LCC Metaphor Dataset Validation
 
-*Completed 2026-05-02. Baseline page based on en_small.xml (8,724 parsed valid annotations). Stage 7 now also supports the larger LCC English dataset as an optional local benchmark.*
+*Completed 2026-05-02 and updated 2026-06-17. Baseline page originally based on en_small.xml (8,724 parsed valid annotations). Stage 7 now also supports and has evaluated the larger LCC English dataset as an optional local benchmark.*
 
 ---
 
@@ -75,6 +75,17 @@ This has two analytical uses:
 | 19 | HUMAN_BODY | 63 |
 | 20 | OBJECT_HANDLING | 60 |
 
+### Large LCC Cross-Check
+
+The optional `en_large` path was evaluated locally on 2026-06-17 with `npm run stage7:large`. It parsed 52,118 valid annotations from `en_large.xml`, including 27,956 metaphorical annotations. DISEASE remains a prominent source concept in the larger path: rank 10, with 538 metaphorical instances.
+
+| LCC path | Valid annotations | Metaphorical annotations | DISEASE rank | DISEASE count |
+| --- | ---: | ---: | ---: | ---: |
+| `en_small` | 8,724 | 4,417 | 4 | 100 |
+| `en_large` | 52,118 | 27,956 | 10 | 538 |
+
+The large cross-check strengthens the baseline inference by showing that DISEASE prominence is not an artifact of the small subset. It does not remove the main benchmark limitation: both LCC paths are general English/news-text baselines, not nineteenth-century American political corpora.
+
 ---
 
 ## Domain Coverage Analysis
@@ -125,9 +136,17 @@ These are source-concept categories that rank in the top 20 of general English m
 
 ## Analytical Significance
 
-### Confirmed: Disease/Purification Absence Is Statistically Anomalous
+### Confirmed: Disease/Purification Absence Is Anomalous Against LCC General-English Baselines
 
-DISEASE is the 4th most common source concept in general English metaphor (100 instances in the LCC baseline). Lincoln's corpus does use disease language — but exclusively to mark the wound/healing cluster_01, never to construct a social group as pathogen. This confirms that the absence of `disease_and_purification` logic ([Finding 2](../synthesis/findings.md)) is not a general feature of political restraint but a specific structural choice: Lincoln deploys the DISEASE source domain as wound, not as infection requiring expulsion.
+DISEASE is the 4th most common source concept in `en_small` general English metaphor (100 instances) and remains prominent in `en_large` (rank 10; 538 instances). Lincoln's corpus does use disease language — but exclusively to mark the wound/healing cluster_01, never to construct a social group as pathogen. This confirms that the absence of `disease_and_purification` logic ([Finding 2](../synthesis/findings.md)) is not explained by DISEASE being a rare or unavailable English source domain. Lincoln deploys the DISEASE source domain as wound, not as infection requiring expulsion.
+
+This evidence has three layers and they should not be collapsed:
+
+1. **Validated zero count**: the Stage 4-6 Lincoln corpus contains zero `disease_and_purification` fantasy-type instances.
+2. **Positive absence evidence**: 56 `disease_purification_absent` flags mark cases where purification logic was structurally available but not deployed.
+3. **External-baseline inference**: LCC `en_small` and `en_large` show that DISEASE is common in general English metaphor, so Lincoln's zero pathogen-group mapping is anomalous against general-English baselines.
+
+No implemented contemporary comparison corpus currently tests the same absence against Union, Confederate, abolitionist, or presidential-register controls. Those corpora remain candidate benchmarks in [External Benchmarks](../docs/methodology/external-benchmarks.md). The current external claim is therefore a general-English benchmark claim, not yet a period-specific political-culture claim.
 
 ### Confirmed: Covenant and Inheritance Are Lincoln-Specific Constructs
 
