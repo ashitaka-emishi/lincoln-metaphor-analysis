@@ -19,7 +19,7 @@ PLACEMENT_DECISION = {
         'political actors received or transformed Lincoln rhetoric, but it must '
         'not change the Stage 1-8 Lincoln annotation universe.'
     ),
-    'implementation_status': 'protocol_defined_no_reception_claims_added',
+    'implementation_status': 'item_level_pilot_defined_no_core_corpus_changes',
 }
 
 
@@ -142,7 +142,7 @@ CANDIDATE_SOURCES = [
         'source_id': 'chronicling_america_newspapers',
         'name': 'Chronicling America: Historic American Newspapers',
         'source_type': 'newspaper_reception',
-        'status': 'candidate_not_collected',
+        'status': 'pilot_items_selected',
         'source_url': 'https://www.loc.gov/collections/chronicling-america/about-this-collection/',
         'archival_citation': 'Library of Congress, Chronicling America: Historic American Newspapers.',
         'rights_note': 'Collection-level terms and individual newspaper rights must be checked before redistribution.',
@@ -220,6 +220,116 @@ EVIDENCE_RULES = [
 ]
 
 
+PILOT_RECORDS = [
+    {
+        'reception_id': 'rec_pilot_001',
+        'source_id': 'chronicling_america_newspapers',
+        'source_type': 'newspaper_reception',
+        'source_title': 'Page containing "With malice toward none / with charity for all" motto',
+        'publication_title': 'Mower County Transcript',
+        'date': '1872-07-04',
+        'place': 'Lansing, Minnesota',
+        'audience_position': 'postwar newspaper readership / civic memory context',
+        'lincoln_text_anchor': 'doc_021 Second Inaugural Address; "with malice toward none; with charity for all"',
+        'reception_action': 'repeat',
+        'evidence_quote_or_summary': (
+            'LOC text view identifies the Second Inaugural phrase "with malice '
+            'toward none / with charity for all" on this newspaper page. The item '
+            'is selected to test phrase-circulation metadata for postwar civic memory.'
+        ),
+        'source_url_or_archival_citation': (
+            'Mower County Transcript (Lansing, MN), July 4, 1872, p. 2, '
+            'Chronicling America: Historic American Newspapers, Library of Congress, '
+            'https://www.loc.gov/resource/sn85025431/1872-07-04/ed-1/?sp=2&st=text'
+        ),
+        'rights_note': (
+            'Published in the United States in 1872; treated as public domain in the '
+            'United States. Pilot records summarize the item and do not redistribute '
+            'page images or extended OCR text.'
+        ),
+        'claim_allowed': (
+            'Supports only a phrase-circulation reception claim for selected Second '
+            'Inaugural language in one newspaper item. It does not establish audience '
+            'magnitude, reader belief, or Lincoln textual evidence.'
+        ),
+        'claim_boundary': 'reception_only_not_lincoln_corpus',
+        'rights_checked': True,
+        'pilot_status': 'selected_for_pilot',
+    },
+    {
+        'reception_id': 'rec_pilot_002',
+        'source_id': 'chronicling_america_newspapers',
+        'source_type': 'newspaper_reception',
+        'source_title': 'Page containing "with malice toward none and charity" language',
+        'publication_title': 'New Orleans Republican',
+        'date': '1876-06-01',
+        'place': 'New Orleans, Louisiana',
+        'audience_position': 'postwar Southern Republican newspaper readership',
+        'lincoln_text_anchor': 'doc_021 Second Inaugural Address; "with malice toward none; with charity for all"',
+        'reception_action': 'repeat',
+        'evidence_quote_or_summary': (
+            'LOC text view identifies "with malice toward none" and charity language '
+            'on this Reconstruction-era Southern newspaper page. The item is selected '
+            'to test whether a regional newspaper occurrence can be represented with '
+            'a clear reception-only boundary.'
+        ),
+        'source_url_or_archival_citation': (
+            'New Orleans Republican (New Orleans, LA), June 1, 1876, p. 1, '
+            'Chronicling America: Historic American Newspapers, Library of Congress, '
+            'https://www.loc.gov/resource/sn83016555/1876-06-01/ed-1/?st=text'
+        ),
+        'rights_note': (
+            'Published in the United States in 1876; treated as public domain in the '
+            'United States. Pilot records summarize the item and do not redistribute '
+            'page images or extended OCR text.'
+        ),
+        'claim_allowed': (
+            'Supports only a selected phrase-circulation claim for Second Inaugural '
+            'language in one Reconstruction-era Southern newspaper item. It does not '
+            'quantify public opinion or prove reader uptake.'
+        ),
+        'claim_boundary': 'reception_only_not_lincoln_corpus',
+        'rights_checked': True,
+        'pilot_status': 'selected_for_pilot',
+    },
+    {
+        'reception_id': 'rec_pilot_003',
+        'source_id': 'chronicling_america_newspapers',
+        'source_type': 'newspaper_reception',
+        'source_title': 'Image 1 text page containing Gettysburg Address language',
+        'publication_title': 'The Morning News',
+        'date': '1895-09-16',
+        'place': 'Savannah, Georgia',
+        'audience_position': 'postwar newspaper readership / sectional memory context',
+        'lincoln_text_anchor': 'doc_017 Gettysburg Address; new birth of freedom and government-of-the-people clauses',
+        'reception_action': 'repeat',
+        'evidence_quote_or_summary': (
+            'LOC text view identifies Gettysburg Address language on the page, '
+            'including the new-birth and government-of-the-people clauses. The item '
+            'is selected to test phrase-circulation metadata for a Southern newspaper context.'
+        ),
+        'source_url_or_archival_citation': (
+            'The Morning News (Savannah, GA), September 16, 1895, p. 1, '
+            'Chronicling America: Historic American Newspapers, Library of Congress, '
+            'https://www.loc.gov/resource/sn86063034/1895-09-16/ed-1/?sp=1&st=text'
+        ),
+        'rights_note': (
+            'Published in the United States in 1895; treated as public domain in the '
+            'United States. Pilot records summarize the item and do not redistribute '
+            'page images or extended OCR text.'
+        ),
+        'claim_allowed': (
+            'Supports only a phrase-circulation reception claim for Gettysburg '
+            'Address language in a later newspaper item. It cannot prove how readers '
+            'understood the phrase and does not change corpus-internal Gettysburg claims.'
+        ),
+        'claim_boundary': 'reception_only_not_lincoln_corpus',
+        'rights_checked': True,
+        'pilot_status': 'selected_for_pilot',
+    },
+]
+
+
 def render_bool(value: bool) -> str:
     return 'yes' if value else 'no'
 
@@ -232,6 +342,10 @@ def render_page(registry: dict) -> str:
     source_rows = [
         '| {source_id} | {source_type} | {status} | {source_url} |'.format(**item)
         for item in registry['candidate_sources']
+    ]
+    pilot_rows = [
+        '| {reception_id} | {source_type} | {date} | {publication_title} | {lincoln_text_anchor} | {reception_action} |'.format(**item)
+        for item in registry['pilot_records']
     ]
     metadata_rows = [
         '| {field} | {required} | {rule} |'.format(
@@ -273,7 +387,7 @@ def render_page(registry: dict) -> str:
         '',
         '# Reception Evidence',
         '',
-        'This page defines the boundary between Lincoln rhetoric-in-text claims and audience reception claims. It does not add reception evidence to the Lincoln corpus. It records the rules a later reception appendix or comparison module must satisfy before making claims about how audiences received, repeated, resisted, or transformed Lincoln rhetoric.',
+        'This page defines the boundary between Lincoln rhetoric-in-text claims and audience reception claims. It does not add reception evidence to the Lincoln corpus. It records the rules a reception appendix or comparison module must satisfy before making claims about how audiences received, repeated, resisted, or transformed Lincoln rhetoric.',
         '',
         f"Generated: {registry['generated']}",
         '',
@@ -315,6 +429,48 @@ def render_page(registry: dict) -> str:
         '| --- | --- | --- | --- |',
         *source_rows,
         '',
+        '## Item-Level Pilot Records',
+        '',
+        'These pilot records test item-level citation, rights, and claim-boundary metadata. They are reception-only records: they do not become Lincoln corpus annotations and they do not support claims about public opinion magnitude.',
+        '',
+        '| Reception ID | Type | Date | Publication | Lincoln Anchor | Action |',
+        '| --- | --- | --- | --- | --- | --- |',
+        *pilot_rows,
+        '',
+        '## Pilot Claim Boundary',
+        '',
+        '- The pilot can support narrow claims about circulation, repetition, or later civic reframing in selected items.',
+        '- The pilot cannot establish audience magnitude, representative public opinion, reader belief, or causal political effect.',
+        '- Corpus-internal Lincoln claims must continue to cite the Lincoln annotation, concordance, controlled-output, and claim-audit layers, not reception records.',
+        '',
+        '## Pilot Record Details',
+        '',
+        *(
+            '\n'.join([
+                f"### {item['reception_id']}: {item['source_title']}",
+                '',
+                f"Source type: `{item['source_type']}`",
+                '',
+                f"Publication: {item['publication_title']}",
+                '',
+                f"Date/place: {item['date']}; {item['place']}",
+                '',
+                f"Lincoln anchor: {item['lincoln_text_anchor']}",
+                '',
+                f"Reception action: `{item['reception_action']}`",
+                '',
+                f"Evidence summary: {item['evidence_quote_or_summary']}",
+                '',
+                f"Citation: {item['source_url_or_archival_citation']}",
+                '',
+                f"Rights note: {item['rights_note']}",
+                '',
+                f"Claim allowed: {item['claim_allowed']}",
+                '',
+            ])
+            for item in registry['pilot_records']
+        ),
+        '',
         '## Candidate Records',
         '',
         *source_sections,
@@ -334,6 +490,8 @@ def main() -> None:
         'candidate_sources': CANDIDATE_SOURCES,
         'evidence_rules': EVIDENCE_RULES,
         'total_candidate_sources': len(CANDIDATE_SOURCES),
+        'pilot_records': PILOT_RECORDS,
+        'total_pilot_records': len(PILOT_RECORDS),
     }
 
     JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -345,6 +503,7 @@ def main() -> None:
     print(f"Reception evidence registry written to {JSON_PATH.relative_to(ROOT)}")
     print(f"Reception evidence page written to {PAGE_PATH.relative_to(ROOT)}")
     print(f"Candidate sources exported: {len(CANDIDATE_SOURCES)}")
+    print(f"Pilot records exported: {len(PILOT_RECORDS)}")
 
 
 if __name__ == '__main__':

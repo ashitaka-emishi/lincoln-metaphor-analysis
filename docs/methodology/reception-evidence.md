@@ -5,9 +5,9 @@ draft: false
 
 # Reception Evidence
 
-This page defines the boundary between Lincoln rhetoric-in-text claims and audience reception claims. It does not add reception evidence to the Lincoln corpus. It records the rules a later reception appendix or comparison module must satisfy before making claims about how audiences received, repeated, resisted, or transformed Lincoln rhetoric.
+This page defines the boundary between Lincoln rhetoric-in-text claims and audience reception claims. It does not add reception evidence to the Lincoln corpus. It records the rules a reception appendix or comparison module must satisfy before making claims about how audiences received, repeated, resisted, or transformed Lincoln rhetoric.
 
-Generated: 2026-06-15
+Generated: 2026-06-17
 
 ## Placement Decision
 
@@ -15,7 +15,7 @@ Decision: `synthesis_appendix_or_comparison_module_not_core_corpus_stage`
 
 Reception evidence answers a different question from the Lincoln-only metaphor corpus. It may test how readers, listeners, editors, and political actors received or transformed Lincoln rhetoric, but it must not change the Stage 1-8 Lincoln annotation universe.
 
-Implementation status: `protocol_defined_no_reception_claims_added`
+Implementation status: `item_level_pilot_defined_no_core_corpus_changes`
 
 ## Claim Boundary
 
@@ -63,11 +63,90 @@ These are candidate collection-level sources only. They are not reception exampl
 
 | Source | Type | Status | URL |
 | --- | --- | --- | --- |
-| chronicling_america_newspapers | newspaper_reception | candidate_not_collected | https://www.loc.gov/collections/chronicling-america/about-this-collection/ |
+| chronicling_america_newspapers | newspaper_reception | pilot_items_selected | https://www.loc.gov/collections/chronicling-america/about-this-collection/ |
 | loc_abraham_lincoln_papers_correspondence | private_letter_or_diary | candidate_not_collected | https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/ |
 | valley_of_the_shadow | private_letter_or_diary | candidate_not_collected | https://valley.newamericanhistory.org/ |
 | beecher_public_meetings_britain | meeting_report | candidate_not_collected | https://archive.org/details/americanrebellio00beec |
 | rebellion_record | political_commentary | candidate_not_collected | https://onlinebooks.library.upenn.edu/webbin/serial?id=rebellionrecord |
+
+## Item-Level Pilot Records
+
+These pilot records test item-level citation, rights, and claim-boundary metadata. They are reception-only records: they do not become Lincoln corpus annotations and they do not support claims about public opinion magnitude.
+
+| Reception ID | Type | Date | Publication | Lincoln Anchor | Action |
+| --- | --- | --- | --- | --- | --- |
+| rec_pilot_001 | newspaper_reception | 1872-07-04 | Mower County Transcript | doc_021 Second Inaugural Address; "with malice toward none; with charity for all" | repeat |
+| rec_pilot_002 | newspaper_reception | 1876-06-01 | New Orleans Republican | doc_021 Second Inaugural Address; "with malice toward none; with charity for all" | repeat |
+| rec_pilot_003 | newspaper_reception | 1895-09-16 | The Morning News | doc_017 Gettysburg Address; new birth of freedom and government-of-the-people clauses | repeat |
+
+## Pilot Claim Boundary
+
+- The pilot can support narrow claims about circulation, repetition, or later civic reframing in selected items.
+- The pilot cannot establish audience magnitude, representative public opinion, reader belief, or causal political effect.
+- Corpus-internal Lincoln claims must continue to cite the Lincoln annotation, concordance, controlled-output, and claim-audit layers, not reception records.
+
+## Pilot Record Details
+
+### rec_pilot_001: Page containing "With malice toward none / with charity for all" motto
+
+Source type: `newspaper_reception`
+
+Publication: Mower County Transcript
+
+Date/place: 1872-07-04; Lansing, Minnesota
+
+Lincoln anchor: doc_021 Second Inaugural Address; "with malice toward none; with charity for all"
+
+Reception action: `repeat`
+
+Evidence summary: LOC text view identifies the Second Inaugural phrase "with malice toward none / with charity for all" on this newspaper page. The item is selected to test phrase-circulation metadata for postwar civic memory.
+
+Citation: Mower County Transcript (Lansing, MN), July 4, 1872, p. 2, Chronicling America: Historic American Newspapers, Library of Congress, https://www.loc.gov/resource/sn85025431/1872-07-04/ed-1/?sp=2&st=text
+
+Rights note: Published in the United States in 1872; treated as public domain in the United States. Pilot records summarize the item and do not redistribute page images or extended OCR text.
+
+Claim allowed: Supports only a phrase-circulation reception claim for selected Second Inaugural language in one newspaper item. It does not establish audience magnitude, reader belief, or Lincoln textual evidence.
+
+### rec_pilot_002: Page containing "with malice toward none and charity" language
+
+Source type: `newspaper_reception`
+
+Publication: New Orleans Republican
+
+Date/place: 1876-06-01; New Orleans, Louisiana
+
+Lincoln anchor: doc_021 Second Inaugural Address; "with malice toward none; with charity for all"
+
+Reception action: `repeat`
+
+Evidence summary: LOC text view identifies "with malice toward none" and charity language on this Reconstruction-era Southern newspaper page. The item is selected to test whether a regional newspaper occurrence can be represented with a clear reception-only boundary.
+
+Citation: New Orleans Republican (New Orleans, LA), June 1, 1876, p. 1, Chronicling America: Historic American Newspapers, Library of Congress, https://www.loc.gov/resource/sn83016555/1876-06-01/ed-1/?st=text
+
+Rights note: Published in the United States in 1876; treated as public domain in the United States. Pilot records summarize the item and do not redistribute page images or extended OCR text.
+
+Claim allowed: Supports only a selected phrase-circulation claim for Second Inaugural language in one Reconstruction-era Southern newspaper item. It does not quantify public opinion or prove reader uptake.
+
+### rec_pilot_003: Image 1 text page containing Gettysburg Address language
+
+Source type: `newspaper_reception`
+
+Publication: The Morning News
+
+Date/place: 1895-09-16; Savannah, Georgia
+
+Lincoln anchor: doc_017 Gettysburg Address; new birth of freedom and government-of-the-people clauses
+
+Reception action: `repeat`
+
+Evidence summary: LOC text view identifies Gettysburg Address language on the page, including the new-birth and government-of-the-people clauses. The item is selected to test phrase-circulation metadata for a Southern newspaper context.
+
+Citation: The Morning News (Savannah, GA), September 16, 1895, p. 1, Chronicling America: Historic American Newspapers, Library of Congress, https://www.loc.gov/resource/sn86063034/1895-09-16/ed-1/?sp=1&st=text
+
+Rights note: Published in the United States in 1895; treated as public domain in the United States. Pilot records summarize the item and do not redistribute page images or extended OCR text.
+
+Claim allowed: Supports only a phrase-circulation reception claim for Gettysburg Address language in a later newspaper item. It cannot prove how readers understood the phrase and does not change corpus-internal Gettysburg claims.
+
 
 ## Candidate Records
 
@@ -75,7 +154,7 @@ These are candidate collection-level sources only. They are not reception exampl
 
 Type: `newspaper_reception`
 
-Status: `candidate_not_collected`
+Status: `pilot_items_selected`
 
 Source: https://www.loc.gov/collections/chronicling-america/about-this-collection/
 
