@@ -16,6 +16,7 @@
     "reliability:results": "node scripts/build_reliability_results.js",
     "stage4m:ingest": "node scripts/stage4m/ingest-model-outputs.js",
     "stage4m:compare": "node scripts/stage4m/compare-model-runs.js",
+    "stage4m:disagreements": "node scripts/stage4m/classify-model-disagreements.js",
     "variants:apparatus": "node scripts/build_textual_variant_apparatus.js",
     "benchmarks:registry": "python3 scripts/build_external_benchmark_registry.py",
     "reception:registry": "python3 scripts/build_reception_evidence_registry.py",

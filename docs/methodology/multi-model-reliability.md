@@ -20,6 +20,7 @@ Validate current submissions without writing generated artifacts, or ingest them
 npm run validate:stage4m
 npm run stage4m:ingest
 npm run stage4m:compare
+npm run stage4m:disagreements
 ```
 
 ## Why the Stage Is Called 4M
@@ -121,6 +122,7 @@ An empty submission directory is expected during setup and produces a clear warn
 - Model-family agreement must not be mistaken for independent corroboration.
 - Agreement is reported by identification, lexical-boundary, CMT, Koenigsberg, agency/absence, and confidence/ambiguity layers; no single aggregate score substitutes for those denominators.
 - Primary model-vs-reference metrics use immutable Stage 4A coder-A values. Stage 4B adjudications remain visible as review context but do not silently replace the reference layer.
+- Item-level disagreement records distinguish methodological disagreement from consensus: all-model challenges to Stage 4A, CMT-agree/Koenigsberg-disagree cases, sacrifice/providence/purification over-reads, and every agency/absence dispute remain explicit human-review priorities.
 - Identification agreement, CMT mapping, Koenigsbergian interpretation, agency/absence flags, and confidence must remain separately reportable rather than collapsed into one score.
 - Negative controls and prompt/run variation may be added later, but they must be labeled and reported separately from primary review runs.
 - No model output, consensus result, or adjudication queue may automatically revise Stage 4A.
@@ -133,7 +135,7 @@ This architecture intentionally leaves implementation to the ordered v2 issues:
 - #68 generates blind input packets and establishes the packet-ready state.
 - #69 defines the model-output schema and JSON/CSV field mapping.
 - #70 ingests and validates JSON/CSV submissions and generates normalized runs plus validation reports.
-- #71 computes layered model-vs-reference and model-vs-model agreement; #72–#73 classify disagreement and create the human queue.
+- #71 computes layered model-vs-reference and model-vs-model agreement; #72 classifies item-level disagreement and instability; #73 creates the human queue.
 - #74 and #79 integrate commands and publication-gate validation.
 - #80 verifies overwrite guardrails across the completed scripts.
 - #75–#78 and #81–#84 complete instructions, reporting, codebook notes, publication integration, and release checks.
