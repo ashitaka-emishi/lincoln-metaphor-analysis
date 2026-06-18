@@ -1,0 +1,58 @@
+{
+  "schema_version": "stage4m-model-agreement-fixture-1.0",
+  "description": "Expected layered agreement shape for future Stage 4M metric tests; values are synthetic and are not research findings.",
+  "packet_unit_id": "stage4m_unit_00056",
+  "reference_id": "stage4a_reference",
+  "model_run_ids": [
+    "fixture_json_run_001",
+    "fixture_csv_run_001"
+  ],
+  "layers": {
+    "metaphor_identification": {
+      "model_vs_reference_agreement": 1,
+      "model_vs_model_agreement": 1
+    },
+    "lexical_unit_boundary": {
+      "exact_match_count": 2,
+      "partial_overlap_count": 0,
+      "no_overlap_count": 0,
+      "missing_boundary_count": 0
+    },
+    "cmt_mapping": {
+      "source_domain_agreement": 1,
+      "target_domain_agreement": 1,
+      "cluster_agreement": 1
+    },
+    "koenigsberg_interpretation": {
+      "koenigsberg_function_agreement": 0.5,
+      "violence_logic_agreement": 0.5,
+      "obligatory_frame_agreement": 0.5
+    },
+    "agency_absence": {
+      "agency_or_absence_flag_agreement": 1
+    },
+    "confidence_ambiguity": {
+      "confidence_agreement": 0.5,
+      "ambiguity_agreement": 1,
+      "rival_reading_presence_agreement": 1
+    }
+  },
+  "agreement_patterns": {
+    "unanimous_with_reference": 1,
+    "unanimous_against_reference": 0,
+    "majority_with_reference": 0,
+    "majority_against_reference": 0,
+    "split_no_majority": 1,
+    "single_model_outlier": 0
+  },
+  "stability": {
+    "stable_categories": [
+      "metaphor_identification",
+      "cluster_assignment"
+    ],
+    "unstable_categories": [
+      "koenigsberg_function",
+      "violence_logic"
+    ]
+  }
+}

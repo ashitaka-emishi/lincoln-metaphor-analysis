@@ -1,0 +1,37 @@
+{
+  "run_id": "fixture_bad_sentence_001",
+  "model_id": "fixture-model-invalid-sentence",
+  "provider": "Fixture Provider",
+  "model_name": "Fixture Invalid Sentence Model",
+  "model_version": "1.0",
+  "run_date": "2026-06-18",
+  "operator": "fixture-operator",
+  "input_packet_id": "stage4m_d45620cd10dd4be1",
+  "input_packet_hash": "eeee9ecdc2f9ff04b8e07fcea415f25d56926f35c34a4f7365ba6e12813a3c04",
+  "prompt_hash": "999f4947f7bcd23fb3872101840c1bb442e13f54ead6db6d1494bac7c827b6fb",
+  "temperature": null,
+  "notes": "Semantically invalid sentence-ID fixture.",
+  "items": [
+    {
+      "task_type": "sentence_identification",
+      "doc_id": "doc_001",
+      "sentence_id": "doc_001_s99_p99_s99",
+      "span_id": "stage4m_unit_00001",
+      "metaphor_present": "no",
+      "lexical_unit": null,
+      "lexical_unit_start": null,
+      "lexical_unit_end": null,
+      "source_domain": null,
+      "target_domain": null,
+      "cluster_id": null,
+      "koenigsberg_function": null,
+      "violence_logic": null,
+      "obligatory_frame": null,
+      "agency_or_absence_flag": null,
+      "confidence": "low",
+      "ambiguity_flag": "yes",
+      "rival_reading": "The identifier may have been copied incorrectly.",
+      "justification": "Fixture intentionally points to a nonexistent canonical sentence."
+    }
+  ]
+}

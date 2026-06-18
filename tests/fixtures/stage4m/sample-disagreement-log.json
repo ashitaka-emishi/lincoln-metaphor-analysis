@@ -1,0 +1,66 @@
+{
+  "schema_version": "stage4m-disagreement-fixture-1.0",
+  "description": "Synthetic classification vectors for future Stage 4M disagreement tests; these are not research findings.",
+  "cases": [
+    {
+      "case_id": "fixture_disagreement_001",
+      "packet_unit_id": "stage4m_unit_00056",
+      "field_name": "cluster_id",
+      "reference_value": "cluster_05_fathers_inheritance",
+      "model_values": {
+        "fixture_json_run_001": "cluster_05_fathers_inheritance",
+        "fixture_csv_run_001": "cluster_02_covenant_oath"
+      },
+      "expected_disagreement_category": "cluster_assignment",
+      "expected_agreement_pattern": "majority_with_reference",
+      "cmt_agreement_koenigsberg_disagreement": false,
+      "purification_over_read": false,
+      "requires_human_adjudication": false
+    },
+    {
+      "case_id": "fixture_disagreement_002",
+      "packet_unit_id": "stage4m_unit_00056",
+      "field_name": "koenigsberg_function",
+      "reference_value": "ancestral_debt",
+      "model_values": {
+        "fixture_json_run_001": "oath_and_obligation",
+        "fixture_csv_run_001": "ancestral_debt"
+      },
+      "expected_disagreement_category": "koenigsberg_function",
+      "expected_agreement_pattern": "split_no_majority",
+      "cmt_agreement_koenigsberg_disagreement": true,
+      "purification_over_read": false,
+      "requires_human_adjudication": true
+    },
+    {
+      "case_id": "fixture_disagreement_003",
+      "packet_unit_id": "stage4m_unit_00056",
+      "field_name": "agency_or_absence_flag",
+      "reference_value": null,
+      "model_values": {
+        "fixture_json_run_001": null,
+        "fixture_csv_run_001": "enslaved_people_non_agent"
+      },
+      "expected_disagreement_category": "agency_or_absence_flag",
+      "expected_agreement_pattern": "single_model_outlier",
+      "cmt_agreement_koenigsberg_disagreement": false,
+      "purification_over_read": false,
+      "requires_human_adjudication": true
+    },
+    {
+      "case_id": "fixture_disagreement_004",
+      "packet_unit_id": "stage4m_unit_00056",
+      "field_name": "koenigsberg_function",
+      "reference_value": "ancestral_debt",
+      "model_values": {
+        "fixture_json_run_001": "disease_and_purification",
+        "fixture_csv_run_001": "disease_and_purification"
+      },
+      "expected_disagreement_category": "over_interpretation",
+      "expected_agreement_pattern": "unanimous_against_reference",
+      "cmt_agreement_koenigsberg_disagreement": true,
+      "purification_over_read": true,
+      "requires_human_adjudication": true
+    }
+  ]
+}
