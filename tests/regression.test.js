@@ -7,7 +7,7 @@ const test = require('node:test');
 const { ABSENCE_FLAGS, CLUSTER_IDS, FANTASY_TYPES } = require('../scripts/schema_constants');
 
 const ROOT = path.resolve(__dirname, '..');
-const FIXTURE_DIRS = ['analysis', 'corpus', 'data', 'docs', 'scripts', 'synthesis'];
+const FIXTURE_DIRS = ['analysis', 'corpus', 'data', 'docs', 'schemas', 'scripts', 'synthesis'];
 
 function copyFixtureWorkspace(t) {
   const workspace = fs.mkdtempSync(path.join(os.tmpdir(), 'lincoln-regression-'));

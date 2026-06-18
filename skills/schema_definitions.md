@@ -571,3 +571,26 @@ Required rules:
 - Every `selected_records[].audit_id` must exist in Stage 4A.
 - Every selected record must include cluster, CMT mapping, lexical unit, sentence ID, document metadata, source URL, Koenigsberg fields, absence flags, and confidence.
 - Public synthesis pages should cite `claim_id` handles for major claims.
+
+---
+
+## Stage 4M: Model Reliability Output
+
+File: `schemas/stage4m-model-output.schema.json`
+
+Stage 4M submissions use one canonical JSON contract for a single model run. Required run-level provenance includes `run_id`, model/provider identifiers, `run_date`, `operator`, the input packet ID and SHA-256 hash, the prompt SHA-256 hash, nullable `temperature`, and `notes`. The required `items` array contains sentence-identification or field-agreement judgments.
+
+Controlled item labels are canonical and closed:
+
+- `task_type`: `sentence_identification` or `field_agreement`
+- `metaphor_present`: `yes`, `no`, or `uncertain`
+- `cluster_id`: one of the six canonical cluster IDs or `null`
+- `koenigsberg_function`: one of the eight canonical fantasy types or `null`
+- `violence_logic`: a canonical violence-logic label or `null`
+- `agency_or_absence_flag`: one canonical absence flag or `null`
+- `confidence`: `high`, `medium`, or `low`
+- `ambiguity_flag`: `yes` or `no`
+
+Nullable analytical fields preserve uncertainty without inventing a label. `rival_reading` records a plausible alternative, while non-empty `justification` records the reason for the submitted judgment.
+
+CSV uses the schema's `x-stage4m-csv` mapping. Run metadata is repeated identically on every row; each row becomes one JSON `items` entry; empty nullable cells become JSON `null`; numeric fields are parsed before schema validation. CSV and JSON therefore normalize to the same canonical object rather than creating separate analytical contracts.

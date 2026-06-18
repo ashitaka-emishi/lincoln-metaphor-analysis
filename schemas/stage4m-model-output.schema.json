@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/schemas/stage4m-model-output.schema.json",
+  "title": "Stage 4M model reliability output",
+  "description": "Canonical submission contract for one model reliability run. CSV submissions use the flattened mapping in x-stage4m-csv and normalize to this JSON shape before validation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "model_id",
+    "provider",
+    "model_name",
+    "model_version",
+    "run_date",
+    "operator",
+    "input_packet_id",
+    "input_packet_hash",
+    "prompt_hash",
+    "temperature",
+    "notes",
+    "items"
+  ],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 1 },
+    "model_id": { "type": "string", "minLength": 1 },
+    "provider": { "type": "string", "minLength": 1 },
+    "model_name": { "type": "string", "minLength": 1 },
+    "model_version": { "type": "string", "minLength": 1 },
+    "run_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Calendar date in YYYY-MM-DD format."
+    },
+    "operator": { "type": "string", "minLength": 1 },
+    "input_packet_id": {
+      "type": "string",
+      "pattern": "^stage4m_[a-f0-9]{16}$"
+    },
+    "input_packet_hash": { "$ref": "#/$defs/sha256" },
+    "prompt_hash": { "$ref": "#/$defs/sha256" },
+    "temperature": {
+      "type": ["number", "null"],
+      "minimum": 0
+    },
+    "notes": { "type": "string" },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/item" }
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "nullableString": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_type",
+        "doc_id",
+        "sentence_id",
+        "span_id",
+        "metaphor_present",
+        "lexical_unit",
+        "lexical_unit_start",
+        "lexical_unit_end",
+        "source_domain",
+        "target_domain",
+        "cluster_id",
+        "koenigsberg_function",
+        "violence_logic",
+        "obligatory_frame",
+        "agency_or_absence_flag",
+        "confidence",
+        "ambiguity_flag",
+        "rival_reading",
+        "justification"
+      ],
+      "properties": {
+        "task_type": {
+          "enum": ["sentence_identification", "field_agreement"]
+        },
+        "doc_id": {
+          "type": "string",
+          "pattern": "^doc_[0-9]{3}[a-z]?$"
+        },
+        "sentence_id": {
+          "type": "string",
+          "pattern": "^doc_[0-9]{3}[a-z]?_s[0-9]{2}_p[0-9]{2}_s[0-9]{2}$"
+        },
+        "span_id": { "$ref": "#/$defs/nullableString" },
+        "metaphor_present": { "enum": ["yes", "no", "uncertain"] },
+        "lexical_unit": { "$ref": "#/$defs/nullableString" },
+        "lexical_unit_start": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "lexical_unit_end": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "source_domain": { "$ref": "#/$defs/nullableString" },
+        "target_domain": { "$ref": "#/$defs/nullableString" },
+        "cluster_id": {
+          "oneOf": [
+            { "enum": [
+              "cluster_01_body_organism",
+              "cluster_02_covenant_oath",
+              "cluster_03_experiment_proposition",
+              "cluster_04_birth_creation",
+              "cluster_05_fathers_inheritance",
+              "cluster_06_providence_theodicy"
+            ] },
+            { "type": "null" }
+          ]
+        },
+        "koenigsberg_function": {
+          "oneOf": [
+            { "enum": [
+              "wound_and_healing",
+              "birth_and_creation",
+              "sacrifice_and_redemption",
+              "oath_and_obligation",
+              "punishment_and_theodicy",
+              "ancestral_debt",
+              "experiment_and_proof",
+              "disease_and_purification"
+            ] },
+            { "type": "null" }
+          ]
+        },
+        "violence_logic": {
+          "oneOf": [
+            { "enum": ["restorative", "generative", "punitive", "purifying", "evidentiary", "obligatory"] },
+            { "type": "null" }
+          ]
+        },
+        "obligatory_frame": { "$ref": "#/$defs/nullableString" },
+        "agency_or_absence_flag": {
+          "oneOf": [
+            { "enum": [
+              "enslaved_people_non_agent",
+              "black_soldiers_erased",
+              "lincoln_non_agent",
+              "confederates_depersonalized",
+              "death_abstracted",
+              "women_absent",
+              "disease_purification_absent"
+            ] },
+            { "type": "null" }
+          ]
+        },
+        "confidence": { "enum": ["high", "medium", "low"] },
+        "ambiguity_flag": { "enum": ["yes", "no"] },
+        "rival_reading": { "$ref": "#/$defs/nullableString" },
+        "justification": { "type": "string", "minLength": 1 }
+      }
+    }
+  },
+  "x-stage4m-csv": {
+    "layout": "flattened-items",
+    "description": "Repeat identical run metadata on every row. Each row maps to one items entry. Empty nullable cells normalize to JSON null; temperature and lexical offsets normalize to numbers.",
+    "metadata_columns": [
+      "run_id",
+      "model_id",
+      "provider",
+      "model_name",
+      "model_version",
+      "run_date",
+      "operator",
+      "input_packet_id",
+      "input_packet_hash",
+      "prompt_hash",
+      "temperature",
+      "notes"
+    ],
+    "item_columns": [
+      "task_type",
+      "doc_id",
+      "sentence_id",
+      "span_id",
+      "metaphor_present",
+      "lexical_unit",
+      "lexical_unit_start",
+      "lexical_unit_end",
+      "source_domain",
+      "target_domain",
+      "cluster_id",
+      "koenigsberg_function",
+      "violence_logic",
+      "obligatory_frame",
+      "agency_or_absence_flag",
+      "confidence",
+      "ambiguity_flag",
+      "rival_reading",
+      "justification"
+    ],
+    "null_value": "",
+    "metadata_consistency": "All metadata columns must have identical values on every row."
+  }
+}

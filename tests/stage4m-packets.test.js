@@ -19,7 +19,7 @@ const GENERATED_FILES = [
 function copyWorkspace(t) {
   const workspace = fs.mkdtempSync(path.join(os.tmpdir(), 'lincoln-stage4m-'));
   t.after(() => fs.rmSync(workspace, { recursive: true, force: true }));
-  for (const directory of ['corpus', 'data', 'docs', 'scripts']) {
+  for (const directory of ['corpus', 'data', 'docs', 'schemas', 'scripts']) {
     fs.cpSync(path.join(ROOT, directory), path.join(workspace, directory), { recursive: true });
   }
   return workspace;
@@ -111,12 +111,55 @@ test('Stage 4M generator is deterministic and preserves canonical sentence IDs',
   assert.deepEqual(actualSentenceIds, expectedSentenceIds);
 
   const jsonTemplate = JSON.parse(first['model-output-template.json']);
-  assert.equal(jsonTemplate.responses.length, 106);
-  assert.equal(jsonTemplate.responses.filter(row => row.packet_type === 'sentence_identification').length, 55);
-  assert.equal(jsonTemplate.responses.filter(row => row.packet_type === 'field_agreement').length, 51);
-  assert.ok(jsonTemplate.responses
-    .filter(row => row.packet_type === 'field_agreement')
-    .every(row => row.provided_span_text && row.candidate_lexical_unit === row.provided_span_text));
+  assert.equal(jsonTemplate.items.length, 106);
+  assert.equal(jsonTemplate.input_packet_id, manifest.packet_id);
+  assert.equal(jsonTemplate.input_packet_hash, manifest.model_output_contract.input_packet_hash);
+  assert.equal(jsonTemplate.prompt_hash, manifest.model_output_contract.prompt_hash);
+  assert.equal(jsonTemplate.items.filter(row => row.task_type === 'sentence_identification').length, 55);
+  assert.equal(jsonTemplate.items.filter(row => row.task_type === 'field_agreement').length, 51);
+  assert.ok(jsonTemplate.items
+    .filter(row => row.task_type === 'field_agreement')
+    .every(row => row.lexical_unit));
+  assert.ok(jsonTemplate.items.every(row => /^stage4m_unit_[0-9]{5}$/.test(row.span_id)));
+});
+
+test('model-output schema defines strict JSON labels and the equivalent CSV mapping', () => {
+  const schema = JSON.parse(fs.readFileSync(
+    path.join(ROOT, 'schemas', 'stage4m-model-output.schema.json'),
+    'utf8'
+  ));
+  const requiredTopLevel = [
+    'run_id', 'model_id', 'provider', 'model_name', 'model_version', 'run_date',
+    'operator', 'input_packet_id', 'input_packet_hash', 'prompt_hash',
+    'temperature', 'notes', 'items'
+  ];
+  const requiredItem = [
+    'task_type', 'doc_id', 'sentence_id', 'span_id', 'metaphor_present',
+    'lexical_unit', 'lexical_unit_start', 'lexical_unit_end', 'source_domain',
+    'target_domain', 'cluster_id', 'koenigsberg_function', 'violence_logic',
+    'obligatory_frame', 'agency_or_absence_flag', 'confidence', 'ambiguity_flag',
+    'rival_reading', 'justification'
+  ];
+
+  assert.equal(schema.additionalProperties, false);
+  assert.deepEqual(schema.required, requiredTopLevel);
+  assert.equal(schema.$defs.item.additionalProperties, false);
+  assert.deepEqual(schema.$defs.item.required, requiredItem);
+  assert.deepEqual(schema.$defs.item.properties.task_type.enum, ['sentence_identification', 'field_agreement']);
+  assert.deepEqual(schema.$defs.item.properties.metaphor_present.enum, ['yes', 'no', 'uncertain']);
+  assert.deepEqual(schema.$defs.item.properties.confidence.enum, ['high', 'medium', 'low']);
+  assert.deepEqual(schema.$defs.item.properties.ambiguity_flag.enum, ['yes', 'no']);
+  assert.equal(schema.$defs.item.properties.cluster_id.oneOf[0].enum.length, 6);
+  assert.equal(schema.$defs.item.properties.koenigsberg_function.oneOf[0].enum.length, 8);
+  assert.equal(schema.$defs.item.properties.agency_or_absence_flag.oneOf[0].enum.length, 7);
+  assert.deepEqual(schema['x-stage4m-csv'].metadata_columns, requiredTopLevel.filter(field => field !== 'items'));
+  assert.deepEqual(schema['x-stage4m-csv'].item_columns, requiredItem);
+
+  const csvHeader = fs.readFileSync(
+    path.join(ROOT, 'data', 'reliability', 'model-input-packets', 'model-output-template.csv'),
+    'utf8'
+  ).split('\n', 1)[0].split(',');
+  assert.deepEqual(csvHeader, [...schema['x-stage4m-csv'].metadata_columns, ...requiredItem]);
 });
 
 test('blind packets omit reference, control, audit, and adjudication fields', t => {

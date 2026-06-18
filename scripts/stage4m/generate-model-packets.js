@@ -8,13 +8,14 @@ const path = require('path');
 const { ABSENCE_FLAGS, CLUSTER_IDS, FANTASY_TYPES } = require('../schema_constants');
 
 const ROOT = path.resolve(__dirname, '..', '..');
-const SCRIPT_VERSION = '1.0.0';
+const SCRIPT_VERSION = '2.0.0';
 const SAMPLE_PATH = path.join(ROOT, 'data', 'reliability', 'reliability-sample.json');
 const CODING_TEMPLATE_PATH = path.join(ROOT, 'data', 'reliability', 'double-coding-template.csv');
 const SEGMENTED_DIR = path.join(ROOT, 'corpus', 'segmented');
 const CODEBOOK_PATH = path.join(ROOT, 'docs', 'methodology', 'annotation-codebook.md');
 const RELIABILITY_METHOD_PATH = path.join(ROOT, 'docs', 'methodology', 'reliability-report.md');
 const SCHEMA_CONSTANTS_PATH = path.join(ROOT, 'scripts', 'schema_constants.js');
+const MODEL_OUTPUT_SCHEMA_PATH = path.join(ROOT, 'schemas', 'stage4m-model-output.schema.json');
 const OUTPUT_DIR = path.join(ROOT, 'data', 'reliability', 'model-input-packets');
 
 const OUTPUT_PATHS = Object.freeze({
@@ -27,32 +28,37 @@ const OUTPUT_PATHS = Object.freeze({
 });
 
 const RESPONSE_COLUMNS = Object.freeze([
-  'packet_id',
-  'packet_unit_id',
-  'response_id',
-  'packet_type',
-  'reviewer_id',
-  'document_id',
+  'run_id',
+  'model_id',
+  'provider',
+  'model_name',
+  'model_version',
+  'run_date',
+  'operator',
+  'input_packet_id',
+  'input_packet_hash',
+  'prompt_hash',
+  'temperature',
+  'notes',
+  'task_type',
+  'doc_id',
   'sentence_id',
-  'provided_span_text',
-  'candidate_lexical_unit',
-  'span_char_start',
-  'span_char_end',
-  'mipvu_decision',
-  'contextual_meaning',
-  'basic_meaning',
-  'historical_semantics_note',
-  'cluster_id',
+  'span_id',
+  'metaphor_present',
+  'lexical_unit',
+  'lexical_unit_start',
+  'lexical_unit_end',
   'source_domain',
   'target_domain',
-  'entailments',
-  'fantasy_type',
+  'cluster_id',
+  'koenigsberg_function',
   'violence_logic',
   'obligatory_frame',
-  'absence_flags',
-  'confidence_score',
+  'agency_or_absence_flag',
+  'confidence',
   'ambiguity_flag',
-  'reviewer_notes'
+  'rival_reading',
+  'justification'
 ]);
 
 const REFERENCE_COLUMNS = Object.freeze([
@@ -302,6 +308,7 @@ function sourceFiles(sample) {
     CODEBOOK_PATH,
     RELIABILITY_METHOD_PATH,
     SCHEMA_CONSTANTS_PATH,
+    MODEL_OUTPUT_SCHEMA_PATH,
     __filename
   ];
 }
@@ -380,43 +387,35 @@ function buildPackets(sample, sentenceIndexes) {
   return { identification: identified, fieldAgreement: fielded };
 }
 
-function responseRow(packetId, unit) {
-  const providedSpan = unit.packet_type === 'field_agreement' ? unit.provided_span_text : '';
+function responseItem(unit, nullValue) {
+  const lexicalUnit = unit.packet_type === 'field_agreement' ? unit.provided_span_text : nullValue;
   return {
-    packet_id: packetId,
-    packet_unit_id: unit.packet_unit_id,
-    response_id: `${unit.packet_unit_id}_r01`,
-    packet_type: unit.packet_type,
-    reviewer_id: '',
-    document_id: unit.document_id,
+    task_type: unit.packet_type,
+    doc_id: unit.document_id,
     sentence_id: unit.sentence_id,
-    provided_span_text: providedSpan,
-    candidate_lexical_unit: providedSpan,
-    span_char_start: '',
-    span_char_end: '',
-    mipvu_decision: '',
-    contextual_meaning: '',
-    basic_meaning: '',
-    historical_semantics_note: '',
-    cluster_id: '',
-    source_domain: '',
-    target_domain: '',
-    entailments: '',
-    fantasy_type: '',
-    violence_logic: '',
-    obligatory_frame: '',
-    absence_flags: '',
-    confidence_score: '',
+    span_id: unit.packet_unit_id,
+    metaphor_present: '',
+    lexical_unit: lexicalUnit,
+    lexical_unit_start: nullValue,
+    lexical_unit_end: nullValue,
+    source_domain: nullValue,
+    target_domain: nullValue,
+    cluster_id: nullValue,
+    koenigsberg_function: nullValue,
+    violence_logic: nullValue,
+    obligatory_frame: nullValue,
+    agency_or_absence_flag: nullValue,
+    confidence: '',
     ambiguity_flag: '',
-    reviewer_notes: ''
+    rival_reading: nullValue,
+    justification: ''
   };
 }
 
-function jsonResponse(row) {
+function csvResponse(metadata, item) {
   return {
-    ...row,
-    entailments: [],
-    absence_flags: []
+    ...metadata,
+    ...Object.fromEntries(Object.entries(item).map(([key, value]) => [key, value === null ? '' : value]))
   };
 }
 
@@ -433,9 +432,9 @@ This is an AI-assisted reliability stress test, not an invitation to revise the 
 
 ## Return Format
 
-Return **only one completed structured template**: either \`model-output-template.json\` or \`model-output-template.csv\`. Do not add prose before or after the structured data. Preserve \`packet_id\`, \`packet_unit_id\`, \`response_id\`, \`packet_type\`, \`document_id\`, and \`sentence_id\` exactly.
+Return **only one completed structured template**: either \`model-output-template.json\` or \`model-output-template.csv\`. Do not add prose before or after the structured data. Preserve \`input_packet_id\`, \`task_type\`, \`doc_id\`, \`sentence_id\`, and seeded \`span_id\` values exactly.
 
-Set \`reviewer_id\` to a stable identifier for this review run. In JSON, set both \`reviewer.reviewer_id\` and each response's \`reviewer_id\`; in CSV, set \`reviewer_id\` on every row. In CSV, encode \`entailments\` and \`absence_flags\` as JSON arrays. In JSON, keep them as arrays.
+Complete every run-level provenance field. In CSV, repeat the same provenance values on every row; empty nullable cells normalize to JSON \`null\`. The canonical contract is \`schemas/stage4m-model-output.schema.json\`.
 
 Character offsets are zero-based and end-exclusive relative to \`sentence_text\`.
 
@@ -446,33 +445,33 @@ For every row in \`model-packet-sentences.jsonl\`, independently identify metaph
 1. Compare the lexical unit's contextual meaning with a more basic meaning.
 2. Decide whether the contextual meaning can be understood by comparison with that basic meaning.
 3. Use the narrowest span that activates the mapping.
-4. If the sentence has multiple metaphor-related units, duplicate the template response, retain the same \`packet_unit_id\`, and increment the suffix of \`response_id\` (\`_r02\`, \`_r03\`, and so on).
-5. If no unit qualifies, retain one response with \`mipvu_decision\` set to \`not_metaphor_related\` and leave mapping fields blank.
+4. If the sentence has multiple metaphor-related units, duplicate the item and give each identified span a unique \`span_id\` derived from the seeded value (for example, suffixes \`_r01\`, \`_r02\`).
+5. If no unit qualifies, retain one item with \`metaphor_present\` set to \`no\` and leave nullable mapping fields null or blank.
 
 Do not infer whether a sentence was selected as a positive example or control. That information is intentionally absent.
 
 ## Field-Agreement Tasks (${counts.fieldAgreement})
 
-For every row in \`model-packet-field-agreement.jsonl\`, code the supplied \`provided_span_text\` independently. Copy it unchanged into \`candidate_lexical_unit\`, then complete the MIPVU, CMT, Koenigsberg, absence, confidence, and ambiguity fields. Do not add a second span unless the supplied span itself contains separable lexical units that require distinct judgments; explain that split in \`reviewer_notes\`.
+For every row in \`model-packet-field-agreement.jsonl\`, code the supplied \`provided_span_text\` independently. Keep it unchanged in \`lexical_unit\`, then complete the MIPVU, CMT, Koenigsberg, agency/absence, confidence, ambiguity, rival-reading, and justification fields.
 
 ## Controlled Values
 
-\`mipvu_decision\`:
-${bulletValues(['metaphor_related', 'not_metaphor_related', 'uncertain'])}
+\`metaphor_present\`:
+${bulletValues(['yes', 'no', 'uncertain'])}
 
 \`cluster_id\` (leave blank when not metaphor-related):
 ${bulletValues(CLUSTER_IDS)}
 
-\`fantasy_type\` (leave blank when not metaphor-related):
+\`koenigsberg_function\` (leave null or blank when not metaphor-related):
 ${bulletValues(FANTASY_TYPES)}
 
 \`violence_logic\`:
 ${bulletValues(VIOLENCE_LOGIC_VALUES)}
 
-\`absence_flags\`:
+\`agency_or_absence_flag\`:
 ${bulletValues(ABSENCE_FLAGS)}
 
-\`obligatory_frame\` and \`ambiguity_flag\` must be \`true\` or \`false\` when applicable. \`confidence_score\` must be a number from 0 to 1. Describe passage-specific source and target domains rather than copying cluster labels. Record concise entailments as an array.
+\`confidence\` must be \`high\`, \`medium\`, or \`low\`. \`ambiguity_flag\` must be \`yes\` or \`no\`. Describe passage-specific source and target domains rather than copying cluster labels. Use \`rival_reading\` and \`justification\` to preserve genuine uncertainty rather than forcing false precision.
 
 ## Blindness and Independence
 
@@ -519,30 +518,38 @@ function main() {
   const sentenceIndexes = buildSentenceIndex(selectedDocumentIds);
   const packets = buildPackets(sample, sentenceIndexes);
   const allUnits = [...packets.identification, ...packets.fieldAgreement];
-  const responseRows = allUnits.map(unit => responseRow(packetId, unit));
+  const instructions = makeInstructions(packetId, {
+    identification: packets.identification.length,
+    fieldAgreement: packets.fieldAgreement.length
+  });
+  const inputPacketHash = sha256Bytes(JSON.stringify(canonicalJSON(allUnits)));
+  const promptHash = sha256Bytes(instructions);
+  const metadata = {
+    run_id: '',
+    model_id: '',
+    provider: '',
+    model_name: '',
+    model_version: '',
+    run_date: '',
+    operator: '',
+    input_packet_id: packetId,
+    input_packet_hash: inputPacketHash,
+    prompt_hash: promptHash,
+    temperature: '',
+    notes: ''
+  };
+  const jsonItems = allUnits.map(unit => responseItem(unit, null));
+  const responseRows = allUnits.map(unit => csvResponse(metadata, responseItem(unit, '')));
 
   const artifactContents = new Map([
     [OUTPUT_PATHS.sentences, makeJSONL(packets.identification)],
     [OUTPUT_PATHS.fieldAgreement, makeJSONL(packets.fieldAgreement)],
-    [OUTPUT_PATHS.instructions, makeInstructions(packetId, {
-      identification: packets.identification.length,
-      fieldAgreement: packets.fieldAgreement.length
-    })],
+    [OUTPUT_PATHS.instructions, instructions],
     [OUTPUT_PATHS.csvTemplate, makeCSV(responseRows)],
     [OUTPUT_PATHS.jsonTemplate, JSON.stringify({
-      schema_version: 'stage4m-model-output-template-draft-0.1',
-      packet_id: packetId,
-      reviewer: {
-        reviewer_id: '',
-        model_system: '',
-        model_version: '',
-        provider_family: '',
-        review_date: '',
-        instruction_version: SCRIPT_VERSION,
-        generation_settings: '',
-        tools_or_external_context: ''
-      },
-      responses: responseRows.map(jsonResponse)
+      ...metadata,
+      temperature: null,
+      items: jsonItems
     }, null, 2) + '\n']
   ]);
 
@@ -572,6 +579,11 @@ function main() {
       runtime: 'node'
     },
     status: 'packet_ready',
+    model_output_contract: {
+      schema: relative(MODEL_OUTPUT_SCHEMA_PATH),
+      input_packet_hash: inputPacketHash,
+      prompt_hash: promptHash
+    },
     blindness: {
       reference_values_included: false,
       stage4_anchor_metadata_included: false,

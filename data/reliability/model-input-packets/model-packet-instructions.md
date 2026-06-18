@@ -1,14 +1,14 @@
 # Stage 4M Blind Model Review Instructions
 
-Packet ID: `stage4m_b5372081183f7265`
+Packet ID: `stage4m_d45620cd10dd4be1`
 
 This is an AI-assisted reliability stress test, not an invitation to revise the reference corpus. Work only from these instructions and the supplied packet files. Do not inspect repository annotations, evidence chains, reliability results, adjudication records, synthesis claims, or prior model submissions.
 
 ## Return Format
 
-Return **only one completed structured template**: either `model-output-template.json` or `model-output-template.csv`. Do not add prose before or after the structured data. Preserve `packet_id`, `packet_unit_id`, `response_id`, `packet_type`, `document_id`, and `sentence_id` exactly.
+Return **only one completed structured template**: either `model-output-template.json` or `model-output-template.csv`. Do not add prose before or after the structured data. Preserve `input_packet_id`, `task_type`, `doc_id`, `sentence_id`, and seeded `span_id` values exactly.
 
-Set `reviewer_id` to a stable identifier for this review run. In JSON, set both `reviewer.reviewer_id` and each response's `reviewer_id`; in CSV, set `reviewer_id` on every row. In CSV, encode `entailments` and `absence_flags` as JSON arrays. In JSON, keep them as arrays.
+Complete every run-level provenance field. In CSV, repeat the same provenance values on every row; empty nullable cells normalize to JSON `null`. The canonical contract is `schemas/stage4m-model-output.schema.json`.
 
 Character offsets are zero-based and end-exclusive relative to `sentence_text`.
 
@@ -19,20 +19,20 @@ For every row in `model-packet-sentences.jsonl`, independently identify metaphor
 1. Compare the lexical unit's contextual meaning with a more basic meaning.
 2. Decide whether the contextual meaning can be understood by comparison with that basic meaning.
 3. Use the narrowest span that activates the mapping.
-4. If the sentence has multiple metaphor-related units, duplicate the template response, retain the same `packet_unit_id`, and increment the suffix of `response_id` (`_r02`, `_r03`, and so on).
-5. If no unit qualifies, retain one response with `mipvu_decision` set to `not_metaphor_related` and leave mapping fields blank.
+4. If the sentence has multiple metaphor-related units, duplicate the item and give each identified span a unique `span_id` derived from the seeded value (for example, suffixes `_r01`, `_r02`).
+5. If no unit qualifies, retain one item with `metaphor_present` set to `no` and leave nullable mapping fields null or blank.
 
 Do not infer whether a sentence was selected as a positive example or control. That information is intentionally absent.
 
 ## Field-Agreement Tasks (51)
 
-For every row in `model-packet-field-agreement.jsonl`, code the supplied `provided_span_text` independently. Copy it unchanged into `candidate_lexical_unit`, then complete the MIPVU, CMT, Koenigsberg, absence, confidence, and ambiguity fields. Do not add a second span unless the supplied span itself contains separable lexical units that require distinct judgments; explain that split in `reviewer_notes`.
+For every row in `model-packet-field-agreement.jsonl`, code the supplied `provided_span_text` independently. Keep it unchanged in `lexical_unit`, then complete the MIPVU, CMT, Koenigsberg, agency/absence, confidence, ambiguity, rival-reading, and justification fields.
 
 ## Controlled Values
 
-`mipvu_decision`:
-  - `metaphor_related`
-  - `not_metaphor_related`
+`metaphor_present`:
+  - `yes`
+  - `no`
   - `uncertain`
 
 `cluster_id` (leave blank when not metaphor-related):
@@ -43,7 +43,7 @@ For every row in `model-packet-field-agreement.jsonl`, code the supplied `provid
   - `cluster_05_fathers_inheritance`
   - `cluster_06_providence_theodicy`
 
-`fantasy_type` (leave blank when not metaphor-related):
+`koenigsberg_function` (leave null or blank when not metaphor-related):
   - `wound_and_healing`
   - `birth_and_creation`
   - `sacrifice_and_redemption`
@@ -61,7 +61,7 @@ For every row in `model-packet-field-agreement.jsonl`, code the supplied `provid
   - `evidentiary`
   - `obligatory`
 
-`absence_flags`:
+`agency_or_absence_flag`:
   - `enslaved_people_non_agent`
   - `black_soldiers_erased`
   - `lincoln_non_agent`
@@ -70,7 +70,7 @@ For every row in `model-packet-field-agreement.jsonl`, code the supplied `provid
   - `women_absent`
   - `disease_purification_absent`
 
-`obligatory_frame` and `ambiguity_flag` must be `true` or `false` when applicable. `confidence_score` must be a number from 0 to 1. Describe passage-specific source and target domains rather than copying cluster labels. Record concise entailments as an array.
+`confidence` must be `high`, `medium`, or `low`. `ambiguity_flag` must be `yes` or `no`. Describe passage-specific source and target domains rather than copying cluster labels. Use `rival_reading` and `justification` to preserve genuine uncertainty rather than forcing false precision.
 
 ## Blindness and Independence
 
