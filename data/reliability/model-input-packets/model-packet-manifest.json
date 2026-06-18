@@ -1,0 +1,106 @@
+{
+  "schema_version": "stage4m-packet-manifest-1.0",
+  "packet_id": "stage4m_b5372081183f7265",
+  "generated_at": "2026-06-18T05:26:00.121Z",
+  "generation_timestamp_source": "system clock at first generation for packet_id",
+  "generator": {
+    "path": "scripts/stage4m/generate-model-packets.js",
+    "version": "1.0.0",
+    "runtime": "node"
+  },
+  "status": "packet_ready",
+  "blindness": {
+    "reference_values_included": false,
+    "stage4_anchor_metadata_included": false,
+    "control_classifications_included": false,
+    "source_audit_ids_included": false,
+    "second_pass_labels_included": false,
+    "adjudication_results_included": false,
+    "reliability_results_included": false
+  },
+  "selected_document_ids": [
+    "doc_001",
+    "doc_006g",
+    "doc_010",
+    "doc_017",
+    "doc_021"
+  ],
+  "counts": {
+    "sentence_identification_units": 55,
+    "field_agreement_units": 51,
+    "output_template_seed_rows": 106
+  },
+  "source_files": [
+    {
+      "path": "corpus/segmented/doc_001.json",
+      "sha256": "6dc448102bd0dc56ffb71edf5f8296b8347bc19a88c72d6b48750d96d5a2a156"
+    },
+    {
+      "path": "corpus/segmented/doc_006g.json",
+      "sha256": "34ef794aa2d8295542bd2fd00770d7dd0fa691e3f07126647182b6acecd80344"
+    },
+    {
+      "path": "corpus/segmented/doc_010.json",
+      "sha256": "4b0b450fd9cb844172889e9b10b75c0fcf512095ffa96705b2090e4903eca51d"
+    },
+    {
+      "path": "corpus/segmented/doc_017.json",
+      "sha256": "5e824e0668570a85fd7d3089c7cc017ff36156f64c092fc8fca100e7731e9bab"
+    },
+    {
+      "path": "corpus/segmented/doc_021.json",
+      "sha256": "40848b6deeb91eab3cc515a5d673089f0d9bf796be7f03a1aa5f43d8a5145920"
+    },
+    {
+      "path": "data/reliability/double-coding-template.csv",
+      "sha256": "dd62bcef4d702536f17c0d188d4080ce37c0fa6f51dadab82f6865987fd7189d"
+    },
+    {
+      "path": "data/reliability/reliability-sample.json",
+      "sha256": "498294f373fbb09921233986f768c1e6c982c108f1e9e12862249cf225df2f6a"
+    },
+    {
+      "path": "docs/methodology/annotation-codebook.md",
+      "sha256": "1c6d5582e0696f209215cc8eb27a544293a2be7500eeede46062ce6297a05093"
+    },
+    {
+      "path": "docs/methodology/reliability-report.md",
+      "sha256": "c45d193c21d3dce34555d69a3e4ca2154a2207bfd787acf20df73d6fd6792412"
+    },
+    {
+      "path": "scripts/schema_constants.js",
+      "sha256": "e9d6e35a6eca21f9271fffbe44dd9b74795392b6a42fdb1b6251b8136737fe98"
+    },
+    {
+      "path": "scripts/stage4m/generate-model-packets.js",
+      "sha256": "c69fef4f5fc40e166879170dba1a25020cdf222f40369c2acaebe6dc9b1e869f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/reliability/model-input-packets/model-packet-sentences.jsonl",
+      "sha256": "95a1031da82ede5fab9625e6cb6ca705fb3995aa09aa27373715b5530202377b",
+      "records": 55
+    },
+    {
+      "path": "data/reliability/model-input-packets/model-packet-field-agreement.jsonl",
+      "sha256": "244171169a5c6d970a0fdb629c3993ee3ba57b756c99a117a65ca4459b273c82",
+      "records": 51
+    },
+    {
+      "path": "data/reliability/model-input-packets/model-packet-instructions.md",
+      "sha256": "bc4d68bd7eb3ca7f65530273498cd349f366c57bccebebad7a6adbba7f69fa79",
+      "records": null
+    },
+    {
+      "path": "data/reliability/model-input-packets/model-output-template.csv",
+      "sha256": "68622b182cb23687f861c3ea2286186a54e29bda0a820cde345be760daec6473",
+      "records": 106
+    },
+    {
+      "path": "data/reliability/model-input-packets/model-output-template.json",
+      "sha256": "7a0bde88f407ba2d47d4af62f8d2825309c7f06861db9d9486dcdc087e97ef6d",
+      "records": 106
+    }
+  ]
+}

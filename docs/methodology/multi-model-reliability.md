@@ -2,11 +2,17 @@
 
 ## Status and Scope
 
-Stage 4M is the planned multi-model reliability stress-test layer. It uses existing Stage 4A evidence records and Stage 4B reliability artifacts as immutable inputs, packages blind review tasks for external AI model systems, compares returned judgments, and sends substantive disagreements to human review.
+Stage 4M is the multi-model reliability stress-test layer. It uses existing Stage 4A evidence records and Stage 4B reliability artifacts as immutable inputs, packages blind review tasks for external AI model systems, compares returned judgments, and sends substantive disagreements to human review.
 
 Stage 4M is an **AI-assisted diagnostic stress test**. It is not a human inter-annotator reliability study, a source of authoritative annotations, or an automatic correction mechanism. Human-human reliability belongs to a separate future stage with its own blindness, training, sampling, and adjudication controls.
 
-This document defines the architectural boundary for the v2 implementation. Packet formats, submission schemas, metrics, and rendered results are specified by later issues in the [v2 tracker](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85).
+This document defines the architectural boundary for the v2 implementation. Blind input packets are implemented; submission schemas, metrics, and rendered results remain assigned to later issues in the [v2 tracker](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85).
+
+Generate the deterministic blind packet with:
+
+```bash
+node scripts/stage4m/generate-model-packets.js
+```
 
 ## Why the Stage Is Called 4M
 
@@ -61,7 +67,7 @@ Stage 4M owns the following paths:
 | `data/reliability/model-adjudication/` | Human-review queues, decisions, and codebook-revision candidates |
 | `scripts/stage4m/` | Packet, validation, comparison, reporting, and guardrail scripts |
 
-The exact packet and submission schemas are deferred to issues #68 and #69. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
+The generator implemented by issue #68 defines the committed blind input-packet contract. The final model-submission schema remains deferred to issue #69; the current CSV and JSON files are manually fillable draft templates. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
 
 ## Immutable Inputs and Write Boundary
 
@@ -114,7 +120,7 @@ An empty submission directory is expected during setup and must eventually produ
 
 This architecture intentionally leaves implementation to the ordered v2 issues:
 
-- #68 generates blind input packets.
+- #68 generates blind input packets and establishes the packet-ready state.
 - #69 defines the model-output schema.
 - #70 ingests and validates submissions.
 - #71–#73 compute agreement, classify disagreement, and create the human queue.
@@ -122,4 +128,4 @@ This architecture intentionally leaves implementation to the ordered v2 issues:
 - #80 verifies overwrite guardrails across the completed scripts.
 - #75–#78 and #81–#84 complete instructions, reporting, codebook notes, publication integration, and release checks.
 
-Until those issues land, Stage 4M is **designed**, not operational, and no multi-model reliability result should be claimed.
+Stage 4M is now **packet-ready**, but it is not submission-ready or comparable. No multi-model reliability result should be claimed until validated submissions and comparison outputs exist.
