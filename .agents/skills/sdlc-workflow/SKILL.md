@@ -128,6 +128,7 @@ Only do this when the user explicitly asks.
    - check off the issue
    - note out-of-order completion or dependency changes
    - close the tracking issue only when its completion definition is met
+6. After tracker updates, inspect its dependency order and recommend the next open, unblocked issue. Briefly name any blocker when nothing is ready, and do not start the next issue without a new user request.
 
 ## If Blocked
 

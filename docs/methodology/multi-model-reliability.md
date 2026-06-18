@@ -14,6 +14,13 @@ Generate the deterministic blind packet with:
 node scripts/stage4m/generate-model-packets.js
 ```
 
+Validate current submissions without writing generated artifacts, or ingest them and write the comparison-ready outputs, with:
+
+```bash
+npm run validate:stage4m
+npm run stage4m:ingest
+```
+
 ## Why the Stage Is Called 4M
 
 The `M` identifies a model-review branch of the Stage 4 reliability work. It prevents three ambiguities:
@@ -105,7 +112,7 @@ The Stage 4M lifecycle has five distinguishable states:
 4. **Comparable** — enough valid submissions exist for model-vs-reference and model-vs-model metrics.
 5. **Review-ready** — disagreements and correction candidates are available for human adjudication.
 
-An empty submission directory is expected during setup and must eventually produce a clear warning rather than a pipeline failure. Malformed submissions, packet mismatches, provenance failures, or attempted writes outside Stage 4M-owned paths must fail validation.
+An empty submission directory is expected during setup and produces a clear warning rather than a pipeline failure. Malformed submissions, packet mismatches, provenance failures, or attempted writes outside Stage 4M-owned paths fail validation. Invalid files remain represented in both machine-readable and reviewer-readable validation reports and are never partially admitted to `normalized-model-runs.json`.
 
 ## Implementation Constraints
 
@@ -122,10 +129,10 @@ This architecture intentionally leaves implementation to the ordered v2 issues:
 
 - #68 generates blind input packets and establishes the packet-ready state.
 - #69 defines the model-output schema and JSON/CSV field mapping.
-- #70 ingests and validates submissions.
+- #70 ingests and validates JSON/CSV submissions and generates normalized runs plus validation reports.
 - #71–#73 compute agreement, classify disagreement, and create the human queue.
 - #74 and #79 integrate commands and publication-gate validation.
 - #80 verifies overwrite guardrails across the completed scripts.
 - #75–#78 and #81–#84 complete instructions, reporting, codebook notes, publication integration, and release checks.
 
-Stage 4M is now **packet-ready**, but it is not submission-ready or comparable. No multi-model reliability result should be claimed until validated submissions and comparison outputs exist.
+Stage 4M is now **packet-ready** and **submission-ready**, but it is not comparable while no valid model submissions exist. No multi-model reliability result should be claimed until validated submissions and comparison outputs exist.
