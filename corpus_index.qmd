@@ -3,11 +3,11 @@ title: "Corpus"
 subtitle: "28 documents, 1838–1865"
 ---
 
-The corpus spans Lincoln's public career from the Lyceum Address (1838) to the Last Public Address (1865), drawn from the University of Michigan *Collected Works of Abraham Lincoln* digital edition.
+The corpus spans Lincoln's public career from the Lyceum Address (1838) to the Last Public Address (1865), drawn from the University of Michigan *Collected Works of Abraham Lincoln* digital edition. Use the table to move directly to a primary text or its document-level close reading.
 
 Register, authorship confidence, and analytical priority are the three primary corpus-control variables. All frequency claims in the analysis must be register-controlled before publication. See [Corpus Register](docs/methodology/corpus-register.qmd) for publication-facing provenance metadata, [Register Definitions](skills/corpus_register.md) for register definitions, and [Annotation Protocol](skills/annotation_protocol.md) for the confidence scoring procedure.
 
-Source texts (Stage 2 markdown) are rendered at `corpus/text/{id}.html` and are linked in the table below.
+Source texts (Stage 2 markdown) and close-reading notes are linked in the table below. The [Corpus Register](docs/methodology/corpus-register.qmd) provides the more detailed publication and provenance view.
 
 ```{ojs}
 manifest = await FileAttachment("corpus/corpus_manifest.json").json()
@@ -40,6 +40,7 @@ Inputs.table(
   filtered.map(d => ({
     id: d.id,
     title: d.short_title,
+    notes: d.id,
     date: d.date,
     period: d.period,
     genre: d.genre,
@@ -53,10 +54,11 @@ Inputs.table(
     risk: d.risk_flags.length > 0 ? d.risk_flags.join(", ") : "—"
   })),
   {
-    columns: ["id", "title", "date", "period", "genre", "register", "authorship", "conf", "source", "status", "priority", "stage", "risk"],
+    columns: ["id", "title", "notes", "date", "period", "genre", "register", "authorship", "conf", "source", "status", "priority", "stage", "risk"],
     header: {
       id: "ID",
       title: "Document",
+      notes: "Analysis Notes",
       date: "Date",
       period: "Period",
       genre: "Genre",
@@ -71,7 +73,8 @@ Inputs.table(
     },
     format: {
       conf: x => x.toFixed(2),
-      id: id => htl.html`<a href="corpus/text/${id}.html">${id}</a>`
+      id: id => htl.html`<a href="corpus/text/${id}.html">${id}</a>`,
+      notes: id => htl.html`<a href="analysis/document_notes/${id}_notes.html">notes</a>`
     },
     rows: 30
   }

@@ -3,95 +3,44 @@ title: "Lincoln Metaphor Analysis"
 subtitle: "Metaphor, obligation, agency, and reconciliation in Lincoln's rhetoric, 1838–1865"
 ---
 
-## Project Overview
+This project studies how Abraham Lincoln's metaphors made the Civil War appear not merely chosen, but required by national injury, sworn obligation, democratic experiment, inherited duty, birth, and Providence.
 
-This project studies Abraham Lincoln's metaphor system across a selected 28-document corpus (1838–1865). It combines a linguistic identification and mapping method with a bounded interpretive framework:
+## Central Argument
 
-1. **Conceptual Metaphor Theory** maps source→target domains, entailments, and linguistic forms for each metaphor instance [@lakoff1980].
-2. **Koenigsberg's ideological-fantasy analysis** supplies a later interpretive layer for examining violence logic, obligation, sacrifice, and systematic absence [@koenigsberg2009].
+Lincoln's rhetoric repeatedly authorizes violence through obligation while retaining possible stopping points: wounds can heal, oaths can be fulfilled, experiments can conclude, debts can be paid, and punishment can end. Across the selected corpus, no social group is cast as a pathogen whose elimination is necessary to restore the nation.
 
-Output is structured JSON at every pipeline stage, enabling programmatic analysis of metaphor frequency, diachronic change, and systematic absence.
+That combination—strong obligation without pathogen-group purification—is the project's principal explanation for how a rhetoric of war could still make reconciliation imaginable. It is a structural account, not a complete explanation of Lincoln's politics, theology, or historical choices.
 
-For review, start with the [Publication Package](publication_package.md). It gathers the reader path, reproducibility commands, data availability note, AI-use statement, limitations, and publication checklist.
+[Read the principal findings →](synthesis/findings.md)
+
+## Findings in Brief
+
+1. **Obligation is pervasive.** All six metaphor clusters frame action as substantially constrained; none has an obligatory-frame rate below 0.750.
+2. **Purification logic is absent.** The corpus contains zero `disease_and_purification` instances and 56 coded opportunities where that logic was available but not used.
+3. **Black agency is structurally limited.** Enslaved people appear within the metaphor system but are repeatedly absent from roles such as healer, prover, inheritor, covenant party, or agent.
+4. **The late-war architecture changes.** Founding-father inheritance recedes after Gettysburg while Providence and national healing become more prominent.
+
+Each claim is qualified, register-controlled, and connected to sentence-level evidence in the [findings](synthesis/findings.md) and [claim audit](synthesis/claim_audit.md).
+
+## Evidence at a Glance
+
+| Corpus | Annotation | Audit controls |
+|---|---|---|
+| 28 documents, 1838–1865 | 136 metaphor instances in six clusters | 144 absence flags, authorship and register controls |
+
+The evidence moves through stable source, segmentation, annotation, concordance, analysis, and claim-audit layers. The [Method Summary](methods_summary.md) explains the interpretive sequence; [Data / Reproducibility](data_reproducibility.md) documents the generated pipeline.
+
+## Choose a Reading Path
+
+- **For the argument:** begin with [Principal Findings](synthesis/findings.md), then [Conclusions](synthesis/final_conclusions.md).
+- **For the analytical evidence:** use the [Analysis Guide](analysis_overview.md) to reach absence, diachronic, controlled-output, benchmark, and cluster-level results.
+- **For method and limitations:** read the [Method Summary](methods_summary.md) and [Research Design](docs/methodology/research-design.md).
+- **For primary texts:** browse the [Corpus](corpus_index.qmd), where each document links to its source text and close-reading notes.
+- **For protocols and project records:** open the [Research Appendix](research_appendix.md).
 
 ## Research Questions
 
 - What conceptual metaphors structured Lincoln's understanding of the Civil War?
-- How did his metaphor system make the war feel necessary rather than chosen?
-- What entities does his metaphor system systematically erase — enslaved people, Black soldiers?
-- What structural differences separate Lincoln's rhetoric from purification-based political fantasy, and how do those differences make reconciliation rhetorically available?
-
-## Pipeline Status
-
-```{ojs}
-manifest = await FileAttachment("corpus/corpus_manifest.json").json()
-docs = manifest.documents
-annotated = docs.filter(d => d.pipeline_stage_completed >= 4).length
-```
-
-```{ojs}
-md`**Stage 4 (Annotation): ${annotated} of ${docs.length} documents complete.**
-Generated evidence, reliability, concordance, analysis, controlled-output, and claim-audit layers are implemented for all ${docs.length} documents.`
-```
-
-```{ojs}
-Inputs.table(
-  docs.map(d => ({
-    id: d.id,
-    document: d.short_title,
-    date: d.date,
-    priority: d.analytical_priority,
-    stage: d.pipeline_stage_completed,
-    status: d.pipeline_stage_completed >= 4 ? "✓ annotated" : "pending"
-  })),
-  {
-    columns: ["id", "document", "date", "priority", "stage", "status"],
-    header: {
-      id: "ID",
-      document: "Document",
-      date: "Date",
-      priority: "Priority",
-      stage: "Stage",
-      status: "Annotation"
-    },
-    rows: 28
-  }
-)
-```
-
-## Six Metaphor Clusters
-
-| ID | Cluster | Source Domain |
-|----|---------|---------------|
-| cluster_01 | Nation as organism / body | wound, healing, birth, severance |
-| cluster_02 | Union as covenant / oath | sworn oath, contract, sacred bond |
-| cluster_03 | Republic as experiment / proposition | logical proof, scientific test |
-| cluster_04 | War as birth / new creation | labor, nativity, generative act |
-| cluster_05 | Founding fathers as inheritance | patrimony, lineage, ancestral debt |
-| cluster_06 | Providence / divine will | God's judgment, punishment, theodicy |
-
-## Pipeline Stages
-
-| Stage | Description | Output |
-|-------|-------------|--------|
-| 1 | Source text acquisition | `corpus/raw/` |
-| 2 | Markdown + YAML frontmatter | `corpus/text/` |
-| 3 | Segmented JSON (sections / paragraphs / sentences) | `corpus/segmented/` |
-| 4 | Annotated JSON (metaphor instances embedded) | `corpus/annotated/` |
-| 4A | Evidence chains | `data/evidence/annotation-evidence.json` |
-| 4B | Reliability sample, adjudication, and metrics | `data/reliability/` |
-| 5 | Concordance (corpus-wide index) | `data/concordance.json` |
-| 6 | Analysis (cluster statistics) | `analysis/` |
-| 6A | Controlled analysis | `analysis/controlled-analysis.json` |
-| 7 | LCC benchmark scaffold | `analysis/lcc_validation.md` / `reports/stage7/` |
-| 8 | Claim-to-source audit | `data/audit/claim-audit.json` |
-
-Stages 1–8 are implemented across all 28 documents. 136 metaphor instances are annotated (inst_00001–inst_00136); concordance, cluster analysis, controlled outputs, reliability metrics, and claim audit are built. The synthesis documents include explicit limitations and follow-up questions and have passed the documented publication review.
-
-## Key Analytical Constraints
-
-- Sentence IDs are permanent after Stage 3 — never renumber
-- All frequency claims must have register-controlled versions
-- Run all analyses twice: full corpus and `authorship_confidence ≥ 0.95` subset
-- `disease_and_purification` must be tracked exhaustively; its absence is a central structural finding
-- Legal document metaphor flatness is a positive finding, not a null result
+- How did those metaphors make war feel necessary rather than chosen?
+- Whose agency does the metaphor system systematically limit or erase?
+- What separates Lincoln's rhetoric from purification-based political fantasy, and how does that difference make reconciliation rhetorically available?

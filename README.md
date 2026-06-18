@@ -143,7 +143,7 @@ lincoln-analysis/
 
 ## Quarto Research Site
 
-The repository builds a Quarto static website from the Markdown and QMD files. The top navigation exposes the major reader paths: **Home**, **Corpus**, **Methodology**, **Analysis**, and **Synthesis**. The sidebar preserves the full project structure, with Design Decisions placed under Methodology alongside the theoretical framework, reproducibility notes, protocols, and schema documentation.
+The repository builds a Quarto static website from the Markdown and QMD files. The top navigation exposes five reader paths: **Overview**, **Findings**, **Analysis**, **Method**, and **Corpus**. A concise sidebar keeps the publication path visible; the Research Appendix preserves protocols, schemas, audits, and project records without exposing the full repository structure in primary navigation.
 
 The site uses `draft-mode: visible` so future draft pages remain inspectable during development. The current publication-facing methodology, analysis, synthesis, and reviewer-package pages are marked final; [Publication Package](publication_package.md) is the canonical reviewer path.
 

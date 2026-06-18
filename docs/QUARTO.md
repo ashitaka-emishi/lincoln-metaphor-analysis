@@ -1,26 +1,43 @@
-# Quarto Site — How to Generate
+# Quarto Site — Architecture and Generation
 
-The Quarto site renders all research documentation into a shareable static website. Configuration lives in `_quarto.yml` at the project root.
+The Quarto site presents the research as a concise scholarly publication with a discoverable evidence archive behind it. Configuration lives in `_quarto.yml` at the project root.
+
+## Reader Architecture
+
+The top navigation contains five destinations:
+
+| Destination | Purpose |
+|---|---|
+| Overview | Central argument, evidence snapshot, and reading paths |
+| Findings | Evidence-backed findings and final conclusions |
+| Analysis | Corpus-level analysis and cluster-profile hub |
+| Method | Public method, research design, and reproducibility |
+| Corpus | Primary texts, metadata controls, and document notes |
+
+The global sidebar intentionally contains only the principal reader-facing pages. Detailed protocols, audit pages, schemas, publication records, and project history remain rendered and searchable through `research_appendix.md`.
+
+Detail pages use hubs rather than global navigation:
+
+- `analysis_overview.md` links the six cluster profiles and major analysis layers.
+- `corpus_index.qmd` links each source text and its document-level close-reading notes.
+- `research_appendix.md` links protocols, audits, benchmark details, publication records, and project history.
+
+Adding a rendered page does not automatically justify adding it to the sidebar. Prefer linking new detail pages from the relevant hub; reserve primary navigation for destinations that orient a general scholarly reader.
 
 ## Prerequisites
 
 Install Quarto 1.9.37, matching the version pinned in the GitHub Pages workflow. On macOS, Homebrew may install a newer stable release over time, so verify the version after install:
 
 ```bash
-brew install quarto      # macOS via Homebrew
-```
-
-If Homebrew does not provide 1.9.37, download the pinned release from <https://github.com/quarto-dev/quarto-cli/releases/tag/v1.9.37>.
-
-Verify:
-
-```bash
+brew install quarto
 quarto --version
 ```
 
-Expected version: `1.9.37`.
+Expected version: `1.9.37`. If Homebrew does not provide it, use the pinned release from the [Quarto CLI releases](https://github.com/quarto-dev/quarto-cli/releases/tag/v1.9.37).
 
-## Preview locally
+## Preview and Render
+
+Preview with live reload:
 
 ```bash
 quarto preview
@@ -28,9 +45,9 @@ quarto preview
 npm run site:preview
 ```
 
-Opens a live-reloading browser at `http://localhost:4444`. Edit any `.md` or `.qmd` file and the browser updates automatically.
+The preview runs at `http://localhost:4444`.
 
-## Render to static HTML
+Render the static site:
 
 ```bash
 quarto render
@@ -38,47 +55,36 @@ quarto render
 npm run site
 ```
 
-Outputs the complete site to `_site/`. All HTML, CSS, and data assets are self-contained in that directory.
+Output is written to `_site/`.
 
-## Share the rendered site
+## Render Boundary
 
-**Option 1 — Zip and send**
+Quarto renders the project's `.md` and `.qmd` research pages, including the source texts in `corpus/text/`. The following repository-facing files and directories are excluded in `_quarto.yml`:
 
-Zip the `_site/` directory. The recipient opens `_site/index.html` locally in any browser. No server required.
+- `SCAFFOLD.md`
+- `docs/PROMPT.md`
+- `docs/QUARTO.md`
+- `docs/agents.md`
+- `README.md`
+- `reports/**`
+- `data/**`
+- `scaffolds/**`
 
-**Option 2 — Quarto Pub (free, public URL)**
+Exclusion from the sidebar is different from exclusion from rendering. Appendix and detail pages remain rendered even when they do not appear in primary navigation.
+
+## Publication Validation
+
+For changes to navigation, content architecture, or publication pages, run:
 
 ```bash
-quarto publish quarto-pub
+npm run status
+npm run validate
+npm run pipeline
+quarto render
 ```
 
-Creates a URL at `username.quarto.pub/lincoln-analysis`. Free; no login required for visitors.
+Then inspect at least the Overview, Findings, Analysis, Method, Corpus, and Research Appendix pages at desktop and mobile widths. Confirm that source-text and document-note links work, wide tables scroll, and the collapsed mobile navigation remains usable.
 
-**Option 3 — GitHub Pages**
+## Sharing
 
-```bash
-quarto publish gh-pages
-```
-
-Requires the project to be in a GitHub repository. Publishes to `username.github.io/repo-name`.
-
-## What is and is not included
-
-**Included**: All `.md` and `.qmd` files except the four listed below. Source texts (`corpus/text/*.md`) are rendered and accessible via links from the Corpus page.
-
-**Excluded from rendering**:
-
-| File | Reason |
-|------|--------|
-| `SCAFFOLD.md` | Agent build instructions, not research content |
-| `PROMPT.md` | Agent entry point, not research content |
-| `README.md` | Superseded by `index.qmd` |
-| `QUARTO.md` | This file |
-
-Exclusions are defined in the `project.render` field of `_quarto.yml`.
-
-## Regenerating after new annotations
-
-Re-run `quarto render` after completing Stage 4 annotation on any document. The pipeline status table on the home page reads `corpus/corpus_manifest.json` at render time and automatically reflects updated `pipeline_stage_completed` values.
-
-After Stages 5–6 complete (`npm run pipeline`), re-render to include populated cluster statistics and absence counts in the Analysis section.
+The rendered `_site/` directory can be archived and shared, published through the configured GitHub Pages workflow, or deployed with Quarto Pub. Regenerate the site after changes to annotations, aggregate outputs, analysis prose, or navigation.
