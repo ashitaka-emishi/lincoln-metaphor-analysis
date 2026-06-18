@@ -1,0 +1,274 @@
+{
+  "schema_version": "stage4m-model-agreement-results-1.0",
+  "status": "no_submissions",
+  "source_normalized_runs": "data/reliability/model-comparison/normalized-model-runs.json",
+  "source_reliability_sample": "data/reliability/reliability-sample.json",
+  "source_completed_coding": "data/reliability/double-coding-completed.csv",
+  "source_adjudication_log": "data/reliability/adjudication-log.csv",
+  "packet_id": "stage4m_d45620cd10dd4be1",
+  "reference_policy": "Primary agreement is scored against immutable Stage 4A coder-A values. Stage 4B adjudications are carried as review context and never overwrite Stage 4A in this output.",
+  "metric_notes": {
+    "sacrifice_and_redemption": "Binary detection of koenigsberg_function=sacrifice_and_redemption.",
+    "guilt_or_theodicy": "Binary detection of koenigsberg_function=punishment_and_theodicy.",
+    "reconciliation_or_restoration": "Binary proxy using violence_logic=restorative.",
+    "disease_or_purification": "Binary detection of disease_and_purification function or purifying violence logic.",
+    "stability": "Stability pools explicit comparisons across both scopes and never treats missing denominators as agreement."
+  },
+  "totals": {
+    "model_runs": 0,
+    "packet_units": 106,
+    "identification_units": 55,
+    "field_agreement_units": 51,
+    "adjudicated_context_units": 8
+  },
+  "model_vs_reference": [],
+  "model_vs_model": [],
+  "agreement_patterns": {
+    "totals": {
+      "unanimity": 0,
+      "majority": 0,
+      "split": 0,
+      "outlier": 0,
+      "insufficient_coverage": 707
+    },
+    "by_field": {
+      "metaphor_present": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 106,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "lexical_unit_boundary": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 91,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "source_domain": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "target_domain": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "cluster_id": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "koenigsberg_function": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "violence_logic": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "obligatory_frame": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "agency_or_absence_flag": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "confidence": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "ambiguity_flag": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      },
+      "rival_reading_presence": {
+        "unanimity": 0,
+        "majority": 0,
+        "split": 0,
+        "outlier": 0,
+        "insufficient_coverage": 51,
+        "unanimous_with_reference": 0,
+        "unanimous_against_reference": 0,
+        "majority_with_reference": 0,
+        "majority_against_reference": 0
+      }
+    }
+  },
+  "stability": {
+    "policy": "Stable requires at least 10 pooled model-reference/model-model comparisons and >=80% exact agreement; lower observed agreement is unstable; smaller denominators are insufficient evidence.",
+    "stable_categories": [],
+    "unstable_categories": [],
+    "insufficient_evidence_categories": [
+      "metaphor_present",
+      "lexical_unit_boundary",
+      "source_domain",
+      "target_domain",
+      "cluster_id",
+      "koenigsberg_function",
+      "violence_logic",
+      "obligatory_frame",
+      "agency_or_absence_flag",
+      "confidence",
+      "ambiguity_flag",
+      "rival_reading_presence"
+    ],
+    "categories": {
+      "metaphor_present": {
+        "layer": "metaphor_identification",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "lexical_unit_boundary": {
+        "layer": "lexical_unit_boundary",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "source_domain": {
+        "layer": "cmt_mapping",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "target_domain": {
+        "layer": "cmt_mapping",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "cluster_id": {
+        "layer": "cmt_mapping",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "koenigsberg_function": {
+        "layer": "koenigsberg_interpretation",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "violence_logic": {
+        "layer": "koenigsberg_interpretation",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "obligatory_frame": {
+        "layer": "koenigsberg_interpretation",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "agency_or_absence_flag": {
+        "layer": "agency_absence",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "confidence": {
+        "layer": "confidence_ambiguity",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "ambiguity_flag": {
+        "layer": "confidence_ambiguity",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      },
+      "rival_reading_presence": {
+        "layer": "confidence_ambiguity",
+        "agreements": 0,
+        "comparisons": 0,
+        "agreement_rate_pct": null,
+        "classification": "insufficient_evidence"
+      }
+    }
+  }
+}
