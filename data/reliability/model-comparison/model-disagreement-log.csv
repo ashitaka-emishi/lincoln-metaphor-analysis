@@ -1,0 +1,1 @@
+disagreement_id,packet_unit_id,task_type,doc_id,sentence_id,field_name,disagreement_category,agreement_pattern,reference_value,model_values,all_models_against_reference,cmt_agreement_koenigsberg_disagreement,over_read_type,requires_human_adjudication,rationale
