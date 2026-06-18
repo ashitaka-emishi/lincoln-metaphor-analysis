@@ -7,8 +7,6 @@ instances: inst_00030–inst_00036 (7 total)
 extension_groups: ext_006 (amputation arc), ext_007 (theodicy arc)
 ---
 
-# doc_019 — Hodges Letter: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

@@ -7,8 +7,6 @@ instances: inst_00043–inst_00046 (4 total)
 extension_groups: ext_009 (Providence arc, inst_00044–inst_00046)
 ---
 
-# doc_008 — Springfield Farewell: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

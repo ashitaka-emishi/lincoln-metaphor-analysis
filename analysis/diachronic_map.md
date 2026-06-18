@@ -50,7 +50,7 @@ draft: false
 
 5. **Cluster_01 peaks in 1865** (8 instances — its largest single-year count, all from doc_021 Second Inaugural). The body/organism frame transforms in Phase 4 into its Reconstruction form: physician-president binding wounds.
 
-6. **Cluster_06 is the only cluster that grows monotonically** through the war. It never declines. Its 5-instance 1865 count is the second-highest single-year figure for any cluster.
+6. **Cluster_06 becomes increasingly important after a 1862 trough**. Its yearly counts are 6 in 1861, 1 in 1862, 4 in 1863, 4 in 1864, and 5 in 1865. The trend is late-war resurgence, not monotonic growth.
 
 ---
 
@@ -92,7 +92,7 @@ The war's launch. Four documents, 25 instances. The most structurally important 
 
 **Cluster_03 reactivates**: 6 instances, all in the Annual Message to Congress (doc_010). The experiment/proof frame re-emerges for a legislative audience after 9 years of dormancy. The war is the decisive test.
 
-**Cluster_06 begins**: 6 instances spread across Springfield Farewell (doc_008) and First Inaugural (doc_009). The Providence/theodicy frame is beginning its monotonic growth that will carry through 1865.
+**Cluster_06 becomes prominent**: 6 instances spread across Springfield Farewell (doc_008), First Inaugural (doc_009), and the July 4 Message (doc_010). Its count falls in 1862 before rising again from 1863 through 1865.
 
 **Cluster_05 persists**: 4 instances in 1861 — the founding-fathers frame survives into the early war, still anchoring constitutional legitimacy. But its peak is behind it.
 
@@ -146,7 +146,7 @@ The guilt_distribution arc is the most important single diachronic series: it tr
 
 **Register-controlled check**: Within formal_public_address alone (excluding debates and letters), the arc holds. First Inaugural (1861) is still external-guilt; Second Inaugural (1865) is distributed-cosmic. The arc is not an artifact of register shifts.
 
-**Why this matters for Reconstruction**: "Malice toward none, charity for all" is not a moral aspiration tacked onto a punitive war — it is a structural consequence of the guilt_distribution arc. If both sides are guilty of the national sin of slavery, neither deserves malice. The distributed-guilt theodicy of the Second Inaugural structurally precludes a punitive Reconstruction.
+**Why this matters for Reconstruction**: The distributed-guilt arc makes "malice toward none, charity for all" rhetorically coherent with the preceding theodicy. If both sides share guilt for slavery, neither is isolated as the sole enemy. That structure supports a non-punitive reading, but it does not determine a Reconstruction policy that Lincoln did not live to implement.
 
 ---
 
@@ -204,7 +204,7 @@ The Second Inaugural is not a new metaphor system — it deepens the First Inaug
 ## Summary Answers to Narrative Questions
 
 **1. Which cluster shows the strongest diachronic development?**
-Cluster_06 (Providence/theodicy). First attested 1852 in a eulogistic form (providential provision), it grows through every phase of the war, achieving its most developed form at the Second Inaugural. Its trajectory is the most sustained and directional of any cluster.
+Cluster_06 (Providence/theodicy). First attested in 1852 in a eulogistic form (providential provision), it becomes prominent in 1861, dips in 1862, and returns at sustained levels from 1863 through 1865. Its most developed form appears in the Second Inaugural.
 
 **2. Which cluster is most stable?**
 Cluster_01 (body/organism). It appears across the entire corpus (1838–1865), in every register, and transforms rather than disappears: from "suicide of the republic" (1838) through "house divided" (1858) through "binding up the nation's wounds" (1865). The body cluster is the backbone of the metaphor system.
@@ -216,7 +216,7 @@ Cluster_02 (covenant) maintains external guilt throughout its lifespan — the c
 Complement. Both are active at the Second Inaugural and Last Address. The wound is being healed; simultaneously, something new is being born. The cluster_01 peak in 1865 and the cluster_04 presence in 1865 are concurrent. They are not competing — the birth is what emerges from the healing.
 
 **5. Where does disease_and_purification NOT appear?**
-Everywhere. It is systematically absent from all 11 years of the corpus, all registers, all six clusters. The most notable absence points:
+The validated fantasy-type count is zero across the selected corpus. Positive opportunity flags cover all six clusters but are concentrated in texts dated 1838–1862, four phases, and three registers. The most notable reviewed absence points are:
 - 1858 debates: cancer language used for slavery (cluster_01) but explicitly refuses the purifying-spread logic
 - 1863 Gettysburg: maximum sacrificial economy, maximum opportunity for purification logic — none
 - 1865 Second Inaugural: maximum violence-authorization moment — no purification, only distributed guilt and restorative healing

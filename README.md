@@ -1,6 +1,6 @@
 # Lincoln Metaphor Analysis
 
-A structured research project applying Richard Koenigsberg's ideological fantasy analysis to Abraham Lincoln's corpus (1838–1865), using Conceptual Metaphor Theory (Lakoff & Johnson) as the linguistic foundation.
+A structured study of metaphor, obligation, agency, and reconciliation across a selected corpus of Abraham Lincoln's rhetoric (1838–1865). Conceptual Metaphor Theory provides the linguistic foundation; Richard Koenigsberg's ideological-fantasy analysis supplies a bounded interpretive contrast.
 
 **[View the research site →](https://ashitaka-emishi.github.io/lincoln-metaphor-analysis/)** — a browsable HTML version of the full project, including the annotated corpus status, all methodology documentation, per-document annotation notes, cluster profiles, the purification-rhetoric contrast, and synthesis findings. The site is rebuilt automatically on every commit.
 
@@ -260,8 +260,8 @@ Sentence splitting uses regex with abbreviation protection (Mr., Mrs., Dr., Gov.
 ## Theoretical References
 
 - Lakoff, G. & Johnson, M. (1980). *Metaphors We Live By*. University of Chicago Press.
-- Koenigsberg, R. (2009). *Nations Have the Right to Kill*. Library of Social Science.
-- Koenigsberg, R. (2014). *Psychological Sources of War and Genocide*. Library of Social Science.
+- Steen, G. J., Dorst, A. G., Herrmann, J. B., Kaal, A. A., Krennmayr, T., & Pasma, T. (2010). *A Method for Linguistic Metaphor Identification: From MIP to MIPVU*. John Benjamins.
+- Koenigsberg, R. A. (2009). *Nations Have the Right to Kill: Hitler, the Holocaust and War*. Library of Social Science.
 
 ## Changelog
 

@@ -26,12 +26,12 @@ Enslaved people are structurally present in Lincoln's metaphor universe — as c
 
 **The sharpest test case — Black soldiers**:
 
-~180,000 Black Union soldiers served after January 1863. They are the most literal embodiment of all three war-period clusters:
+Approximately 180,000 Black soldiers served in the Union army by the end of the war [@locBlackSoldiers]. Within this project's interpretive framework, they are especially direct potential agents in three war-period clusters:
 - cluster_03: their performance was cited as proof of the democratic proposition
 - cluster_04: their deaths contributed literally to the "new birth of freedom"
 - cluster_06: their suffering fits the theodicy's shared punishment framework
 
-`black_soldiers_erased` in post-1863 formal public addresses: **7** — Black soldiers are absent from the agent roles of every formal address after January 1863. The Gettysburg Address (November 1863, two months after the 54th Massachusetts's assault on Fort Wagner) does not mention Black soldiers.
+`black_soldiers_erased` in post-1863 formal public-address instances: **7**. The Gettysburg Address does not mention Black soldiers; it followed the 54th Massachusetts's July 1863 assault on Fort Wagner [@nara54th]. These flags count annotated metaphor instances, not seven distinct speeches.
 
 The partial exception: Conkling Letter (doc_016, semi-public letter) — inst_00059 acknowledges Black soldiers as proof-evidence for the democratic proposition. This acknowledgment appears in a letter, not in a formal public address.
 
@@ -56,11 +56,11 @@ Lincoln's corpus contains **zero instances** of `disease_and_purification` fanta
 
 **Evidence**:
 - Total `disease_and_purification` instances: **0**
-- `disease_purification_absent` flags (marking every opportunity where it was available but not deployed): **56** — the largest absence category in the corpus
-- Flags span all 6 clusters, all phases 1838–1865, all registers
+- `disease_purification_absent` flags (marking coded opportunities where it was available but not deployed): **56** — the largest absence category in the corpus
+- Flags span all 6 clusters but are concentrated in four phases, three registers, and texts dated 1838–1862; the full-corpus zero count extends through 1865
 - Highest rate in cluster_03 (experiment, 0.600 flags/instances) and cluster_01 (body, 0.441)
-- Register-independent: absent from formal addresses, debates, congressional messages, letters alike
-- **LCC baselines (Stage 7)**: DISEASE is the 4th most common source concept in `en_small` general English metaphor (100 of 4,417 metaphorical instances) and remains prominent in `en_large` (rank 10; 538 of 27,956 metaphorical instances). Lincoln uses disease language in cluster_01, but exclusively as wound/injury — never as pathogen requiring expulsion. The zero count for `disease_and_purification` is therefore anomalous against measurable general-language baselines, not merely against an assumed norm.
+- The positive flags occur in formal addresses, campaign/debate speeches, and congressional messages; the corpus-wide zero count also covers the other included registers
+- **LCC baselines (Stage 7)**: DISEASE is the 4th most common source concept in `en_small` (100 of 4,417 metaphorical instances) and ranks 10th in `en_large` (538 of 27,956 metaphorical instances) [@mohler2016]. Lincoln uses disease language in cluster_01, but never maps a social group as a pathogen requiring expulsion. The zero count is therefore notable relative to these modern general-English/news baselines, though they are not nineteenth-century political controls.
 
 **Candidate instances examined and excluded**:
 - doc_004 Peoria (1854): cancer/surgery language for slavery-as-institution (inst_00108) — disease targets the institution, not any social group
@@ -75,12 +75,12 @@ Disease/purification logic (absent from Lincoln) requires the pathogen to be exp
 
 **Significance**:
 
-"Malice toward none, charity for all" is not merely a moral aspiration — it is a structural consequence of Lincoln's metaphor system. A rhetoric that has no disease/purification logic has no mechanism for constructing permanent enemies. The wound can heal; the oath can be fulfilled; the proposition can be proven; the debt can be paid; God's punishment can run its course. None of these has an infinitely extendable logic. This is the structural reason Lincoln's rhetoric could move toward reconciliation while purification-based political fantasy has no internal exit condition.
+The coded architecture helps make "malice toward none, charity for all" rhetorically available. In this corpus, the wound can heal; the oath can be fulfilled; the proposition can be proven; the debt can be paid; and divine punishment can run its course. None of these mappings requires a permanent enemy. This supports a structural account of reconciliation without excluding political prudence, theology, genre, or historical circumstance.
 
 **Limitations**:
 - The absence from Lincoln's rhetoric does not mean its absence from his era's broader political culture; no implemented contemporary Union, Confederate, abolitionist, or presidential-register benchmark currently tests that broader historical question
 - Some Lincoln contemporaries (radical abolitionists) did use purification language about slavery and slaveholders
-- The finding requires negative confirmation, which is methodologically weaker than positive finding — the 56 absence flags are the evidence that this negative result is structural rather than coincidental; the LCC baselines partially address this weakness by establishing that the absent domain is not rare in English but actively common
+- The finding requires negative confirmation, which is methodologically weaker than a positive finding. The 56 opportunity flags strengthen the zero count but are concentrated in 1838–1862; the LCC baselines establish only that DISEASE is prominent in modern general-news English, not in Lincoln's political context
 
 ---
 
@@ -88,13 +88,13 @@ Disease/purification logic (absent from Lincoln) requires the pathogen to be exp
 
 **Claim** (emerging from analysis data):
 
-Lincoln's metaphor system undergoes a fundamental phase transition between 1863 and 1865. Cluster_05 (founding fathers as inheritance) — the largest cluster in the corpus (35 instances) — disappears entirely after the Gettysburg Address (last attestation: 1863-11-19). Cluster_06 (Providence/theodicy) grows monotonically through the war and dominates the Second Inaugural (1865). The founding-fathers frame is replaced by divine-will theodicy as the primary ground of the war's legitimacy.
+Lincoln's metaphor system shows a marked late-war shift. Cluster_05 (founding fathers as inheritance) — the largest cluster in the corpus (35 instances) — disappears after the Gettysburg Address (last attestation: 1863-11-19). Cluster_06 (Providence/theodicy) falls from 6 instances in 1861 to 1 in 1862, then rises to 4 in 1863, 4 in 1864, and 5 in 1865. The data support a late-war movement from founding inheritance toward providential interpretation, not monotonic growth.
 
 **Audit**: [CLAIM-003](claim_audit.md#claim-003)
 
 **Evidence**:
 - cluster_05 by year: 1838:4, 1854:5, 1858:17 (peak), 1860:4, 1861:4, 1863:1 (terminal), then 0 through 1865
-- cluster_06 by year: 1852:2, 1861:6, 1862:1, 1863:4, 1864:4, 1865:5 (growing through war)
+- cluster_06 by year: 1852:2, 1861:6, 1862:1, 1863:4, 1864:4, 1865:5 (a 1862 trough followed by late-war growth)
 - Gettysburg (1863) is the hinge: cluster_05 appears ("our fathers brought forth") and then passes the torch to cluster_03 ("testing whether that nation can long endure") and cluster_04 ("new birth of freedom") — founding generation acknowledged and superseded in the same address
 - Second Inaugural (1865): cluster_05 entirely absent; cluster_06 at 4 instances; cluster_01 at 8 instances (Reconstruction form)
 
@@ -102,15 +102,15 @@ Lincoln's metaphor system undergoes a fundamental phase transition between 1863 
 
 The founding-fathers frame was politically powerful for the anti-extension argument (1854–1860): Lincoln could oppose slavery extension as a conservative defending the founders' intent. But after emancipation (January 1863), defending the founders' legacy became a liability — the founders tolerated slavery. Invoking them to justify emancipation required acknowledging their ambivalence.
 
-Theodicy (cluster_06) solved this problem: it grounded the war's meaning not in the founders' intention but in God's will. God's purposes exceed the founders' — and God's theodicy can accommodate emancipation as divine punishment for slavery in a way the founders' legacy cannot.
+Theodicy (cluster_06) offered a different warrant: it grounded the war's meaning in God's will rather than solely in the founders' intention. In the coded late-war texts, that frame can accommodate emancipation as divine punishment for slavery in a way the idealized inheritance frame does not.
 
 **Significance**:
 
-The cluster shift is not merely rhetorical; it is theological and political. Lincoln's deepest public persuasion resource shifts from civic-rational (the founders, the proposition, the experiment) to theological (God's inscrutable purposes, punishment for sin, providential instrument). The Second Inaugural is the result. It is unanswerable as rhetoric precisely because it grounds the war's meaning in God's will — which cannot be contested by human argument.
+The cluster shift is theological as well as political: the late corpus places greater weight on God's inscrutable purposes, punishment for sin, and providential instrumentality. The Second Inaugural is the clearest concentration of that pattern. The corpus supports this rhetorical description; it does not establish how audiences received or contested it.
 
 ---
 
-## Finding 4: Obligatory Frame as Universal Feature
+## Finding 4: Obligatory Frame as Near-Universal Feature
 
 **Claim** (confirmed from analysis data):
 
@@ -136,9 +136,9 @@ The obligatory frame — the structural feature that makes violence feel mandato
 
 **Significance**:
 
-The universality of the obligatory frame is the most important single structural feature of Lincoln's rhetoric as an authorization of mass violence. Lincoln is never *choosing* to prosecute the war — he is *fulfilling obligations* imposed by prior commitments (the oath, the founding, the experiment, the inheritance, God's purposes). The war is not a policy choice; it is a logical necessity. This effaces the political nature of the decision to continue fighting at each critical juncture where negotiated peace was possible.
+The prevalence of the obligatory frame is a major structural feature of Lincoln's violence-authorizing rhetoric. Across annotated instances, Lincoln repeatedly presents prosecuting the war as fulfilling obligations imposed by oaths, founding commitments, experiments, inheritances, wounds, or divine purposes. This framing can background the contingency of political decisions without proving that Lincoln or his audiences experienced no choice.
 
-**LCC validation (Stage 7)**: The two clusters with 100% obligatory frame rates — cluster_02 (covenant/oath) and cluster_05 (founding fathers/inheritance) — have no significant parallel in the LCC general English metaphor baselines. CONTRACT/OATH and INHERITANCE/PATRIMONY do not appear as prominent source-concept categories in the LCC taxonomy. This confirms that the obligatory force of these clusters was not inherited from common English figurative usage; it was architecturally constructed by Lincoln's specific choice of source domains. The war felt obligatory in part because Lincoln's rhetoric selected the two source domains in the English language most saturated with binding duty — and both are domains ordinary English speakers rarely use for political metaphor.
+**LCC benchmark context (Stage 7)**: cluster_02 (covenant/oath) and cluster_05 (founding fathers/inheritance) have no direct category match in the LCC taxonomy. This makes them analytically distinctive relative to that dataset, but it does not establish that they were rare in nineteenth-century political rhetoric or unique to Lincoln. A contemporary comparison corpus is required for that stronger claim.
 
 **Limitations**:
 - The obligatory frame does not prove that Lincoln cynically manufactured justifications — it may reflect his genuine psychological experience of the war as obligatory

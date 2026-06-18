@@ -122,7 +122,7 @@ The 21-year dormancy is analytically significant: the birth/creation frame is no
 | `confederates_depersonalized` | 0 | |
 | `lincoln_non_agent` | 0 | |
 
-**Critical absence — `black_soldiers_erased`**: By November 1863 (~180,000 Black Union soldiers were serving), the Black soldier is the most literal embodiment of the "new birth of freedom" cluster. They are dying so that the nation might be reborn — the sacrificial economy of cluster_04 is being enacted by their bodies. Yet the Gettysburg Address does not mention them. The birth-frame erases its own most literal agents.
+**Critical absence — `black_soldiers_erased`**: Approximately 180,000 Black soldiers served in the Union army by war's end [@locBlackSoldiers]. Black soldiers are direct potential agents in the "new birth of freedom" cluster, yet the Gettysburg Address does not mention them. The birth-frame leaves those agents unnamed.
 
 **Critical absence — `women_absent`**: The birth metaphor borrows its logic from female reproductive labor while making women invisible. "Bringing forth" a new nation is literally maternal — but the political birth is attributed to founding fathers (cluster_05) and to soldiers (male). The structural irony is acute in the one cluster where women's labor is the source domain.
 

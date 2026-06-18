@@ -232,8 +232,6 @@ function renderPage(apparatus) {
     'draft: false',
     '---',
     '',
-    '# Textual Variant Apparatus',
-    '',
     'This page records the source-risk layer for corpus documents whose transmission, transcription, manuscript, date, or collaborative-revision traditions could affect interpretation.',
     '',
     'The apparatus is generated from `corpus/corpus_manifest.json` and the Stage 4 annotated files:',

@@ -7,8 +7,6 @@ instances: inst_00118–inst_00123 (6 total)
 extension_groups: ext_020 (cluster_01, p15 arc, 2 sentences), ext_021 (cluster_05, p04 arc, 3 sentences)
 ---
 
-# doc_006c — Jonesboro Debate: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

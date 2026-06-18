@@ -204,8 +204,6 @@ function writeMarkdown(output) {
     'draft: false',
     '---',
     '',
-    '# Controlled Analysis Outputs',
-    '',
     'These tables are generated from the Stage 4A evidence-chain file by `npm run analysis:controlled`. They are the publication-control layer for aggregate claims: raw counts remain useful, but register and authorship-confidence controls determine how strong a claim can be.',
     '',
     'The high-confidence subset is defined as documents with `authorship_confidence >= 0.95`. This is an authorship-confidence filter, not the Stage 4 annotation-confidence filter.',

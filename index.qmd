@@ -1,14 +1,14 @@
 ---
 title: "Lincoln Metaphor Analysis"
-subtitle: "Koenigsberg ideological fantasy analysis applied to Lincoln's corpus, 1838–1865"
+subtitle: "Metaphor, obligation, agency, and reconciliation in Lincoln's rhetoric, 1838–1865"
 ---
 
 ## Project Overview
 
-This project applies two theoretical frameworks simultaneously to Abraham Lincoln's 28-document corpus (1838–1865):
+This project studies Abraham Lincoln's metaphor system across a selected 28-document corpus (1838–1865). It combines a linguistic identification and mapping method with a bounded interpretive framework:
 
-1. **Conceptual Metaphor Theory** (Lakoff & Johnson 1980) — maps source→target domain, entailments, and linguistic forms for each metaphor instance
-2. **Koenigsberg's ideological fantasy analysis** — identifies the psychological constructs (fantasy type, violence logic, obligatory frame, sacrificial economy, systematic absence) that made the Civil War feel obligatory rather than chosen
+1. **Conceptual Metaphor Theory** maps source→target domains, entailments, and linguistic forms for each metaphor instance [@lakoff1980].
+2. **Koenigsberg's ideological-fantasy analysis** supplies a later interpretive layer for examining violence logic, obligation, sacrifice, and systematic absence [@koenigsberg2009].
 
 Output is structured JSON at every pipeline stage, enabling programmatic analysis of metaphor frequency, diachronic change, and systematic absence.
 
@@ -19,7 +19,7 @@ For review, start with the [Publication Package](publication_package.md). It gat
 - What conceptual metaphors structured Lincoln's understanding of the Civil War?
 - How did his metaphor system make the war feel necessary rather than chosen?
 - What entities does his metaphor system systematically erase — enslaved people, Black soldiers?
-- What is the structural difference between Lincoln's rhetoric and purification-based political fantasy that explains why Lincoln could say "malice toward none" while a purification system has no internal exit condition?
+- What structural differences separate Lincoln's rhetoric from purification-based political fantasy, and how do those differences make reconciliation rhetorically available?
 
 ## Pipeline Status
 
@@ -86,7 +86,7 @@ Inputs.table(
 | 7 | LCC benchmark scaffold | `analysis/lcc_validation.md` / `reports/stage7/` |
 | 8 | Claim-to-source audit | `data/audit/claim-audit.json` |
 
-Stages 1–8 are implemented across all 28 documents. 136 metaphor instances are annotated (inst_00001–inst_00136); concordance, cluster analysis, controlled outputs, reliability metrics, and claim audit are built; synthesis documents are publication-ready with explicit limitations and follow-up questions.
+Stages 1–8 are implemented across all 28 documents. 136 metaphor instances are annotated (inst_00001–inst_00136); concordance, cluster analysis, controlled outputs, reliability metrics, and claim audit are built. The synthesis documents include explicit limitations and follow-up questions and have passed the documented publication review.
 
 ## Key Analytical Constraints
 
@@ -95,9 +95,3 @@ Stages 1–8 are implemented across all 28 documents. 136 metaphor instances are
 - Run all analyses twice: full corpus and `authorship_confidence ≥ 0.95` subset
 - `disease_and_purification` must be tracked exhaustively; its absence is a central structural finding
 - Legal document metaphor flatness is a positive finding, not a null result
-
-## Theoretical References
-
-- Lakoff, G. & Johnson, M. (1980). *Metaphors We Live By*. University of Chicago Press.
-- Koenigsberg, R. (2009). *Nations Have the Right to Kill*. Library of Social Science.
-- Koenigsberg, R. (2014). *Psychological Sources of War and Genocide*. Library of Social Science.

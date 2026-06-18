@@ -7,8 +7,6 @@ instances: inst_00065–inst_00067 (3 total)
 extension_groups: ext_012
 ---
 
-# doc_005 — House Divided Speech: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

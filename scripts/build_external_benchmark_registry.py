@@ -319,8 +319,6 @@ def render_page(registry: dict) -> str:
         'draft: false',
         '---',
         '',
-        '# External Benchmarks',
-        '',
         'This page records Stage 7 benchmark choices and candidate comparison corpora. It distinguishes implemented, reproducible baselines from candidate corpora that require source-list and rights review before collection.',
         '',
         f"Generated: {registry['generated']}",

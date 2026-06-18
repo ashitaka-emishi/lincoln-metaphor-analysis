@@ -101,7 +101,7 @@ None — cluster_06 has zero novel instances. Providence language in Lincoln is 
 | 1862-08-22 | Greeley Letter | Suppression context | Providence in tension with covenant frame |
 | 1863-08-26 | Conkling Letter | Mid-war development | Providence deployed in war justification |
 | 1864-04-04 | Hodges Letter | Proto-Second-Inaugural | "I claim not to have controlled events… God alone can claim it" — lincoln_non_agent at maximum |
-| 1865-03-04 | Second Inaugural | **Cluster peak and synthesis** | Full theodicy arc — both sides punished, God's will inscrutable, malice toward none as structural consequence |
+| 1865-03-04 | Second Inaugural | **Cluster peak and synthesis** | Full theodicy arc — both sides punished, God's will inscrutable, malice toward none made rhetorically available |
 
 ---
 
@@ -189,4 +189,4 @@ The proto-Second-Inaugural formulation. Lincoln as pure instrument — the linco
 The earliest bridge between cluster_05 and cluster_06 — Jefferson's fear of divine punishment for slavery anticipates the Second Inaugural's theodicy by seven years. Lincoln uses Jefferson's own words to introduce the idea that the founding generation incurred a debt to God that would eventually be collected. This instance marks the moment when the founding-fathers frame (cluster_05) begins to convert into the Providence frame (cluster_06).
 
 ### "Both read the same Bible, and pray to the same God, and each invokes His aid against the other" (doc_021 Second Inaugural, 1865)
-The canonical distributed-guilt instance. The irony is precise: both sides claim God; God cannot side with both; therefore God's purposes exceed both sides' understanding. The structural consequence is "malice toward none" — if both are guilty, neither deserves malice.
+The canonical distributed-guilt instance. Both sides claim God, but God's purposes exceed both sides' understanding. That shared guilt makes "malice toward none" rhetorically coherent without establishing that the metaphor alone caused Lincoln's reconciliatory language.

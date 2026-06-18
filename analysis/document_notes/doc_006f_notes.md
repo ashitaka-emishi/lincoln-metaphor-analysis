@@ -7,8 +7,6 @@ instances: inst_00125–inst_00128 (4 total)
 extension_groups: "ext_022 (cluster_05, p04 arc, 2 sentences: p04_s06, p04_s07)"
 ---
 
-# doc_006f — Quincy Debate: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

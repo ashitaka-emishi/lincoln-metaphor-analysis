@@ -25,7 +25,7 @@ They do not appear as:
 - Agents in the sacrificial economy
 - Recipients of the "new birth of freedom"
 
-The sharpest test case is the ~180,000 Black Union soldiers post-1863. They are the most literal embodiment of all three active clusters in the war period (sacrifice and redemption, experiment and proof, birth and creation), and they are nearly absent from Lincoln's public rhetoric of sacrifice and rebirth. The Conkling Letter (doc_016) partially acknowledges them, but even there they are positioned as instruments of Union policy rather than agents of national transformation.
+The sharpest test case is Black Union military service after 1863; approximately 180,000 Black soldiers served in the Union army by war's end [@locBlackSoldiers]. They are direct potential agents in three active war-period clusters (sacrifice and redemption, experiment and proof, birth and creation), and they are nearly absent from the selected public rhetoric of sacrifice and rebirth. The Conkling Letter (doc_016) partially acknowledges them, but even there they are positioned as instruments of Union policy rather than agents of national transformation.
 
 ---
 

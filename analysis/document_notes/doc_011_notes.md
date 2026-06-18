@@ -7,8 +7,6 @@ instances: inst_00037–inst_00042 (6 total)
 extension_groups: ext_008 (apple of gold arc, inst_00038–inst_00042)
 ---
 
-# doc_011 — Constitution Fragment: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

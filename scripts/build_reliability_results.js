@@ -561,8 +561,6 @@ title: "Reliability Results"
 draft: false
 ---
 
-# Reliability Results
-
 These are Stage 4B reliability results for the five-document sample defined in [Reliability Sample and Adjudication Workflow](reliability-report.md).
 
 The future two-human study design is defined in [Human Double-Coding Follow-Up Protocol](human-double-coding-protocol.md). No human-human reliability metrics are reported here.

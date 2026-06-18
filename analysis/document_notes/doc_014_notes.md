@@ -8,8 +8,6 @@ instances: inst_00095–inst_00097 (3 total)
 extension_groups: none
 ---
 
-# doc_014 — Annual Message to Congress (December 1861): Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

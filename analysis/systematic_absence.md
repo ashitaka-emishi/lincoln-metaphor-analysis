@@ -31,9 +31,9 @@ The two dominant flags — `disease_purification_absent` (56) and `enslaved_peop
 
 ### The Central Structural Finding
 
-`disease_purification_absent` is the largest absence category in the corpus with 56 instances — spanning **all six clusters**, **all phases** of the corpus (1838–1862 tracked in by_year data; all clusters through 1865), and **all registers**. No other flag achieves this scope.
+`disease_purification_absent` is the largest absence category in the corpus with 56 instances across **all six clusters**. The positive flags occur in texts dated 1838–1862, four corpus phases, and three registers. The separate validated zero count covers all 136 instances through 1865.
 
-This flag marks every instance where the metaphor's source domain made disease/purification logic available but Lincoln did not deploy it. The repeated non-deployment across 27 years and 136 instances constitutes a structural pattern, not coincidence.
+This flag marks instances where the annotation judged disease/purification logic structurally available but not deployed. The 56 flags cover texts dated 1838–1862; the separate zero count covers all 136 instances across the selected 1838–1865 corpus. Together they support a recurring pattern while leaving the later opportunity coding incomplete.
 
 **Definition**: An instance receives `disease_purification_absent` when: (a) the source domain involves body, organism, purity, covenant, founding lineage, divine judgment, or birth/creation, and (b) the entailments structurally permit applying disease/contamination/purification logic to a social group, and (c) Lincoln does not do so.
 
@@ -75,15 +75,15 @@ The non-deployment is **register-independent**. It is not that Lincoln avoids di
 
 ### Mechanism: Why This Is Structurally Significant
 
-Disease/purification logic is the fantasy type that makes genocide feel medically necessary. When a social group is constructed as a pathogen infecting the national body:
+In the bounded purification model, disease/purification logic makes eliminatory violence appear medically necessary. When a social group is constructed as a pathogen infecting the national body:
 
 1. The national body cannot be healthy while the pathogen remains
 2. The purification is never complete while any carrier survives
 3. The violence has no exit condition — it must continue until the pathogen is fully expelled
 
-This is the fantasy structure Richard Koenigsberg identifies in Hitler's speeches as the ideological engine of the Holocaust; this project uses that case as the bounded theoretical model for purification rhetoric.
+This is the fantasy structure Richard Koenigsberg identifies in Hitler's rhetoric; this project uses that case as a bounded theoretical model rather than a complete explanation of the Holocaust [@koenigsberg2009].
 
-Lincoln's corpus has **zero instances** of this fantasy type. The 56 flags mark every opportunity where it was structurally available — and Lincoln took a different path at each one:
+Lincoln's selected corpus has **zero instances** of this fantasy type. The 56 flags mark coded opportunities in the earlier and middle corpus; the later examples below are reviewed negative cases supported by the full-corpus zero count rather than additional flags:
 
 - **Alton debate (1858)**: Cancer language for slavery-as-institution, but explicitly: spreading would not be a cure. The anti-purification logic is stated directly.
 - **Gettysburg (1863)**: Maximum sacrificial economy, maximum opportunity for purification framing (the war could purify the national body of its slave-holding element) — Lincoln frames it as proof and new birth instead.
@@ -98,7 +98,7 @@ The `disease_purification_absent` finding is the project's central negative resu
 3. This non-deployment is structural — built into the metaphor system's architecture
 4. Every fantasy type in Lincoln's corpus has a logical terminus: the wound heals, the experiment concludes, the oath is fulfilled, the debt is paid, God's punishment runs its course
 5. Disease/purification logic (absent from Lincoln, central to the purification model) has no terminus — it drives totalizing violence indefinitely
-6. "Malice toward none" is not merely a moral aspiration; it is a structural consequence of a metaphor system that has no mechanism for constructing permanent enemies
+6. This architecture helps make "malice toward none" coherent because none of its coded mappings requires a permanent enemy
 
 ---
 
@@ -137,7 +137,7 @@ The `disease_purification_absent` finding is the project's central negative resu
 
 ### The Gettysburg Irony
 
-The Gettysburg Address (November 1863) was delivered two months after the 54th Massachusetts's assault on Fort Wagner, with approximately 180,000 Black Union soldiers serving. It activates:
+The Gettysburg Address followed the 54th Massachusetts's July 1863 assault on Fort Wagner [@nara54th]. Approximately 180,000 Black soldiers would serve in the Union army by war's end [@locBlackSoldiers]. It activates:
 
 - cluster_03: "testing whether that nation can long endure" — Black soldiers are literally proving the proposition with their bodies
 - cluster_04: "new birth of freedom" — Black soldiers' deaths are literally purchasing the new birth
@@ -170,7 +170,7 @@ The metaphors could not accommodate agents the political system had not yet reco
 
 **Political function**: Lincoln-as-non-agent places the war's moral weight outside Lincoln's personal accountability. The 600,000 deaths are the oath's requirement, God's punishment for slavery, the experiment's cost — not Lincoln's decision. The self-effacement is psychically protective and politically useful simultaneously.
 
-**Epistemic test**: The Blind Memorandum (doc_018, 1864, fragment_private) contains a cluster_06 instance in a private, no-audience context. The lincoln_non_agent pattern appearing in private confirms the sincerity of the public self-effacement.
+**Cross-register check**: The Blind Memorandum (doc_018, 1864, `fragment_private`) contains a cluster_06 instance in a non-public context. This shows that the `lincoln_non_agent` pattern is not confined to public oratory, but it cannot establish sincerity on its own.
 
 ---
 

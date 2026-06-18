@@ -7,8 +7,6 @@ instances: inst_00061–inst_00064 (4 total)
 extension_groups: ext_011
 ---
 
-# doc_022 — Last Public Address: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

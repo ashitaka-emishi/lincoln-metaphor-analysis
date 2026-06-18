@@ -7,8 +7,6 @@ instances: inst_00078–inst_00085 (8 total)
 extension_groups: ext_014 (cluster_03, p17 arc), ext_015 (cluster_05, p02 arc)
 ---
 
-# doc_001 — Lyceum Address: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

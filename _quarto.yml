@@ -13,9 +13,11 @@ project:
     - "!data/**"
     - "!scaffolds/**"
 
+bibliography: references.bib
+
 website:
   title: "Lincoln Metaphor Analysis"
-  description: "Koenigsberg ideological fantasy analysis applied to Lincoln's corpus, 1838–1865"
+  description: "A structured study of metaphor, obligation, agency, and reconciliation in Lincoln's rhetoric, 1838–1865"
   draft-mode: visible
 
   navbar:
@@ -51,6 +53,8 @@ website:
         text: How To Read This Site
       - href: publication_package.md
         text: Publication Package
+      - href: docs/publication-review.md
+        text: Publication Review
       - href: corpus_index.qmd
         text: Corpus
       - section: Methodology
@@ -143,8 +147,24 @@ website:
                 text: "doc_002 — Temperance Address"
               - href: analysis/document_notes/doc_003_notes.md
                 text: "doc_003 — Clay Eulogy"
+              - href: analysis/document_notes/doc_004_notes.md
+                text: "doc_004 — Peoria Speech"
               - href: analysis/document_notes/doc_005_notes.md
                 text: "doc_005 — House Divided"
+              - href: analysis/document_notes/doc_006a_notes.md
+                text: "doc_006a — L-D Debate 1 Ottawa"
+              - href: analysis/document_notes/doc_006b_notes.md
+                text: "doc_006b — L-D Debate 2 Freeport"
+              - href: analysis/document_notes/doc_006c_notes.md
+                text: "doc_006c — L-D Debate 3 Jonesboro"
+              - href: analysis/document_notes/doc_006d_notes.md
+                text: "doc_006d — L-D Debate 4 Charleston"
+              - href: analysis/document_notes/doc_006e_notes.md
+                text: "doc_006e — L-D Debate 5 Galesburg"
+              - href: analysis/document_notes/doc_006f_notes.md
+                text: "doc_006f — L-D Debate 6 Quincy"
+              - href: analysis/document_notes/doc_006g_notes.md
+                text: "doc_006g — L-D Debate 7 Alton"
               - href: analysis/document_notes/doc_007_notes.md
                 text: "doc_007 — Cooper Union"
               - href: analysis/document_notes/doc_008_notes.md

@@ -7,8 +7,6 @@ instances: inst_00052–inst_00053 (2 total)
 extension_groups: none
 ---
 
-# doc_013 — Preliminary Emancipation Proclamation: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

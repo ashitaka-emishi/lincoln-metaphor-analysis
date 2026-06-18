@@ -7,8 +7,6 @@ instances: inst_00098–inst_00101 (4 total)
 extension_groups: ext_017 (cluster_04, p31 arc, 2 sentences)
 ---
 
-# doc_002 — Temperance Address: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

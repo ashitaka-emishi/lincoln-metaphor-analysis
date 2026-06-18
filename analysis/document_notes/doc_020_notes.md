@@ -7,8 +7,6 @@ instances: inst_00047–inst_00051 (5 total)
 extension_groups: ext_010 (experiment arc, inst_00047–inst_00049)
 ---
 
-# doc_020 — Re-election Serenade: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

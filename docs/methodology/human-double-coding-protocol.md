@@ -3,8 +3,6 @@ title: "Human Double-Coding Follow-Up Protocol"
 draft: false
 ---
 
-# Human Double-Coding Follow-Up Protocol
-
 This protocol defines a small blind human double-coding study that can supplement the current Stage 4B AI-assisted reliability pass. It is a design for future human data collection, not a completed human-human inter-annotator reliability result.
 
 The current implemented reliability result remains the Stage 4A reference layer compared with a Codex second-pass reliability review. Human results should be reported beside that result only after two independent human coders complete the protocol below.

@@ -7,8 +7,6 @@ instances: none (0 total)
 extension_groups: none
 ---
 
-# doc_006d — Charleston Debate: Key Findings
-
 ## Instance Summary
 
 No instances annotated. Zero candidates met the 0.70 confidence threshold across 632 Lincoln-authored sentences.

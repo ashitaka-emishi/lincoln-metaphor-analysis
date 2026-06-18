@@ -162,6 +162,22 @@ thead {
   color: #202020;
 }
 
+// Keep wide audit and methodology tables inside the reading column.
+main.content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+// Long repository paths should wrap instead of widening mobile pages.
+p code,
+li code,
+td code {
+  overflow-wrap: anywhere;
+  white-space: normal;
+  word-break: break-word;
+}
+
 // Callout
 .callout {
   border-left-color: #800000;

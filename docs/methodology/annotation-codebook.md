@@ -3,11 +3,9 @@ title: "Annotation Codebook"
 draft: false
 ---
 
-# Annotation Codebook
-
 This codebook is the reviewer-readable guide for Stage 4 metaphor annotation. It separates three operations that must not be collapsed:
 
-1. **MIPVU identification**: decide whether a lexical unit is metaphor-related in context.
+1. **MIPVU identification**: decide whether a lexical unit is metaphor-related in context [@steen2010].
 2. **CMT mapping**: describe the source-target mapping and entailments.
 3. **Koenigsbergian interpretation**: interpret the political-psychological function of the mapping.
 

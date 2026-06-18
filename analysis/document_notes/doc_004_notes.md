@@ -7,8 +7,6 @@ instances: inst_00106–inst_00112 (7 total)
 extension_groups: none
 ---
 
-# doc_004 — Peoria Speech: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |
