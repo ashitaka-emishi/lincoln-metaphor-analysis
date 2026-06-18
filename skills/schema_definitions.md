@@ -594,3 +594,5 @@ Controlled item labels are canonical and closed:
 Nullable analytical fields preserve uncertainty without inventing a label. `rival_reading` records a plausible alternative, while non-empty `justification` records the reason for the submitted judgment.
 
 CSV uses the schema's `x-stage4m-csv` mapping. Run metadata is repeated identically on every row; each row becomes one JSON `items` entry; empty nullable cells become JSON `null`; numeric fields are parsed before schema validation. CSV and JSON therefore normalize to the same canonical object rather than creating separate analytical contracts.
+
+Ingestion writes `data/reliability/model-comparison/normalized-model-runs.json` and paired JSON/Markdown validation reports. A normalized run preserves source filename, source format, source SHA-256, all run metadata, and every accepted item; each item also receives its mapped `packet_unit_id`. Invalid runs contribute no normalized items, but every source record remains counted in the validation report. With no submissions, all three artifacts use `no_submissions` status and validation emits a warning rather than failing.

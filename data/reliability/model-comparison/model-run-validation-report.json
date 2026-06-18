@@ -1,0 +1,18 @@
+{
+  "schema_version": "stage4m-model-run-validation-report-1.0",
+  "status": "no_submissions",
+  "source_directory": "data/reliability/model-output-submissions",
+  "source_schema": "schemas/stage4m-model-output.schema.json",
+  "packet_id": "stage4m_d45620cd10dd4be1",
+  "input_packet_hash": "eeee9ecdc2f9ff04b8e07fcea415f25d56926f35c34a4f7365ba6e12813a3c04",
+  "totals": {
+    "submission_files": 0,
+    "valid_runs": 0,
+    "invalid_runs": 0,
+    "input_items": 0,
+    "normalized_items": 0,
+    "errors": 0,
+    "warnings": 1
+  },
+  "files": []
+}

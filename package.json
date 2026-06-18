@@ -5,14 +5,16 @@
   "scripts": {
     "status": "node scripts/pipeline_status.js",
     "migrate:annotations": "node scripts/migrate_annotations_to_stage4.js",
-    "validate": "node scripts/validate_schema.js && npm run validate:source-provenance",
+    "validate": "node scripts/validate_schema.js && npm run validate:stage4m && npm run validate:source-provenance",
     "validate:annotation": "node scripts/validate_annotation_output.js",
+    "validate:stage4m": "node scripts/stage4m/ingest-model-outputs.js --check",
     "validate:source-provenance": "node scripts/validate_source_provenance.js",
     "source:provenance": "node scripts/validate_source_provenance.js --write",
     "corpus:register": "node scripts/build_corpus_register.js",
     "evidence:chains": "node scripts/build_evidence_chains.js",
     "reliability:sample": "node scripts/build_reliability_sample.js",
     "reliability:results": "node scripts/build_reliability_results.js",
+    "stage4m:ingest": "node scripts/stage4m/ingest-model-outputs.js",
     "variants:apparatus": "node scripts/build_textual_variant_apparatus.js",
     "benchmarks:registry": "python3 scripts/build_external_benchmark_registry.py",
     "reception:registry": "python3 scripts/build_reception_evidence_registry.py",
@@ -40,5 +42,8 @@
   },
   "devDependencies": {
     "playwright": "^1.59.1"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0"
   }
 }
