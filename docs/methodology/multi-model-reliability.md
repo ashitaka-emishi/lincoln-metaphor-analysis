@@ -21,6 +21,7 @@ npm run validate:stage4m
 npm run stage4m:ingest
 npm run stage4m:compare
 npm run stage4m:disagreements
+npm run stage4m:queue
 ```
 
 ## Why the Stage Is Called 4M
@@ -76,7 +77,7 @@ Stage 4M owns the following paths:
 | `data/reliability/model-adjudication/` | Human-review queues, decisions, and codebook-revision candidates |
 | `scripts/stage4m/` | Packet, validation, comparison, reporting, and guardrail scripts |
 
-The generator implemented by issue #68 defines the committed blind input-packet contract. Model submissions use the canonical JSON Schema at `schemas/stage4m-model-output.schema.json`. The generated JSON template follows that shape directly; the CSV template repeats run metadata on every row and maps each row to one `items` entry, as declared by the schema's `x-stage4m-csv` annotation. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
+The generator implemented by issue #68 defines the committed blind input-packet contract. Model submissions use the canonical JSON Schema at `schemas/stage4m-model-output.schema.json`. The generated JSON template follows that shape directly; the CSV template repeats run metadata on every row and maps each row to one `items` entry, as declared by the schema's `x-stage4m-csv` annotation. After comparison and disagreement classification, `npm run stage4m:queue` creates deterministic JSON and CSV review queues, a human completion template, and the rendered adjudication guide. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
 
 ## Immutable Inputs and Write Boundary
 
@@ -140,4 +141,4 @@ This architecture intentionally leaves implementation to the ordered v2 issues:
 - #80 verifies overwrite guardrails across the completed scripts.
 - #75–#78 and #81–#84 complete instructions, reporting, codebook notes, publication integration, and release checks.
 
-Stage 4M is now **packet-ready** and **submission-ready**, but it is not comparable while no valid model submissions exist. No multi-model reliability result should be claimed until validated submissions and comparison outputs exist.
+Stage 4M is now **packet-ready**, **submission-ready**, and capable of generating the human-review queue. It is not comparable while no valid model submissions exist. No multi-model reliability result should be claimed until validated submissions and comparison outputs exist.
