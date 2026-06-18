@@ -7,8 +7,6 @@ instances: inst_00027–inst_00028 (2 total)
 extension_groups: none
 ---
 
-# doc_012 — Greeley Letter: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

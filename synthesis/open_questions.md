@@ -58,7 +58,7 @@ draft: false
 
 ## 4. The Black Soldiers Gap
 
-**Problem**: ~180,000 Black Union soldiers served after January 1863. They are the most literal embodiment of Lincoln's war-period clusters (experiment/proof, sacrifice/redemption, new birth). They are largely absent from Lincoln's public rhetoric of sacrifice and rebirth.
+**Problem**: Approximately 180,000 Black soldiers served in the Union army by war's end [@locBlackSoldiers]. They are direct potential agents in Lincoln's war-period clusters (experiment/proof, sacrifice/redemption, new birth), yet are largely absent from the selected public rhetoric of sacrifice and rebirth.
 
 **Questions**:
 - Is Black soldiers' absence from the sacrificial economy complete, or do any documents partially include them?

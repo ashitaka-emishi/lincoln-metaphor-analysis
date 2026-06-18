@@ -13,13 +13,13 @@ draft: false
 
 ## Overview
 
-Lincoln remains the object of study on this page. Richard Koenigsberg's analysis of Hitler's speeches supplies the theoretical contrast: a purification-based political fantasy in which violence appears obligatory, redemptive, and endless because a social group is imagined as a pathogen inside the national body.
+Lincoln remains the object of study on this page. Richard Koenigsberg's analysis supplies the bounded theoretical contrast: a purification-based political fantasy in which violence appears obligatory and open-ended because a social group is imagined as a pathogen inside the national body [@koenigsberg2009].
 
 This project asks a narrower question: does Lincoln's violence-authorizing rhetoric activate that purification structure, or does it authorize violence through different metaphorical mechanisms?
 
 **The central analytical question**: What separates Lincoln's rhetoric, which makes mass violence feel necessary while still opening toward reconciliation, from a purification rhetoric that makes violence necessary and gives it no internal stopping point?
 
-**The answer from the corpus**: The difference is the presence or absence of disease/purification logic applied to a social group.
+**The primary coded difference**: Lincoln's selected corpus lacks disease/purification logic applied to a social group.
 
 Audit trail: [CLAIM-002](../synthesis/claim_audit.md#claim-002), [CLAIM-006](../synthesis/claim_audit.md#claim-006)
 
@@ -111,9 +111,9 @@ Purification rhetoric keeps guilt external. The contaminating enemy bears respon
 
 ### Disease and Purification Logic (`disease_and_purification`, `purifying` violence logic)
 
-**Absent from Lincoln.** Confirmed by the corpus: 0 instances of `disease_and_purification` fantasy type; 56 `disease_purification_absent` flags documenting every opportunity where it was available but not deployed.
+**Absent from the selected Lincoln corpus.** The validated data contain 0 instances of `disease_and_purification` fantasy type. The 56 `disease_purification_absent` flags document coded opportunities concentrated in 1838–1862; later war texts supply additional negative cases through the corpus-wide zero count and selected audit records.
 
-Koenigsberg's Hitler case provides the theoretical model: a social group is constructed as a biological pathogen infecting the racial body. Violence becomes purifying because it removes contamination. The political body cannot be healthy while the pathogen remains.
+Koenigsberg's Hitler case provides the theoretical model: a social group is constructed as a biological pathogen infecting the racial body, making removal appear necessary to collective health [@koenigsberg2009].
 
 Lincoln's national body has wounds, which are reparable damage, but no pathogen groups, which would be irremovable contamination. No group in Lincoln's corpus is constructed as disease.
 
@@ -150,7 +150,7 @@ Lincoln's guilt distribution ends at `distributed + cosmic`: both sides guilty, 
 | Guilt distribution | External -> distributed -> cosmic | External only | **Key difference**: distributed guilt enables reconciliation |
 | Founding generation | Civic founders and proposition | Biological ancestors or racial inheritance | Civic vs. closed inheritance |
 | Violence exit condition | Yes: wounds heal, propositions are proven, debts paid, punishments end | No: contamination can always remain | **Primary structural divergence** |
-| Reconciliation possible? | Yes, structurally | No, structurally | The political consequence of the structural difference |
+| Reconciliation available within the rhetoric? | Yes | No internal stopping point | A rhetorical affordance, not a complete causal account of political outcomes |
 | Lincoln-specific constructs | experiment_and_proof; oath_and_obligation | Not parallel | Rationalist and civic |
 | Purification-specific constructs | Not present | disease_and_purification; ethnic body | Absent from Lincoln |
 
@@ -164,7 +164,7 @@ Lincoln's absence of disease/purification logic is not a moral accident. It is a
 
 Purifying violence has no terminus. As long as a single carrier of the pathogen exists, purification is incomplete. The corpus finding is that this mechanism is absent from Lincoln.
 
-**The 56 `disease_purification_absent` flags are the evidentiary basis** for this claim: at 56 separate opportunities across 27 years, 6 clusters, and all registers, when disease/purification logic was structurally available, Lincoln took a different path. This is not one absence; it is a structural pattern confirmed across the entire corpus.
+**The evidentiary basis has two parts**: a corpus-wide zero count across 136 instances and 56 positive opportunity flags across six clusters, four corpus phases, and three registers. The flags are concentrated in texts dated 1838–1862, so later-war claims rely on the zero count and the explicitly reviewed negative cases rather than on flag coverage alone.
 
 ### The Deeper Question
 
@@ -184,6 +184,6 @@ The corpus establishes the structural finding. Explaining the sources of that st
 
 **Does not establish**: Lincoln was morally pure; Lincoln was morally equivalent to the Nazi case; metaphor structure is the only or primary cause of political outcomes; or the absence of disease/purification logic guarantees benign political consequences. Lincoln's obligatory frame authorized enormous violence, and the `enslaved_people_non_agent` finding documents significant structural exclusions.
 
-**The irreducible finding**: A political rhetoric organized around reparable wounds, fulfillable oaths, provable propositions, payable debts, and finite punishments cannot be driven, by its own internal logic, toward genocide. A political rhetoric organized around biological contamination requiring expulsion cannot stop short of annihilation without violating its own internal logic. Lincoln's corpus contains the former structure and lacks the latter.
+**The bounded finding**: Lincoln's selected corpus organizes obligation through reparable wounds, fulfillable oaths, provable propositions, payable debts, and finite punishments, while lacking the pathogen-group mechanism in Koenigsberg's purification model. That difference preserves rhetorical stopping points; it does not by itself predict political conduct or rule out violence arising through other mechanisms.
 
 Audit trail: [CLAIM-006](../synthesis/claim_audit.md#claim-006)

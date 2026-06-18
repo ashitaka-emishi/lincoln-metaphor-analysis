@@ -3,8 +3,6 @@ title: "Claim Audit Method"
 draft: false
 ---
 
-# Claim Audit Method
-
 The claim audit connects publication-level claims to the structured evidence chain. It is generated with:
 
 ```bash

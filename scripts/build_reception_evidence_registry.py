@@ -385,8 +385,6 @@ def render_page(registry: dict) -> str:
         'draft: false',
         '---',
         '',
-        '# Reception Evidence',
-        '',
         'This page defines the boundary between Lincoln rhetoric-in-text claims and audience reception claims. It does not add reception evidence to the Lincoln corpus. It records the rules a reception appendix or comparison module must satisfy before making claims about how audiences received, repeated, resisted, or transformed Lincoln rhetoric.',
         '',
         f"Generated: {registry['generated']}",

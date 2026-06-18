@@ -7,8 +7,6 @@ instances: inst_00001–inst_00013 (13 total)
 extension_groups: ext_001, ext_002, ext_003
 ---
 
-# doc_017 — Gettysburg Address: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |
@@ -65,7 +63,7 @@ extension_groups: ext_001, ext_002, ext_003
 ## Absence Flags
 
 - `enslaved_people_absent`: flagged on 6 of 13 instances — the proposition "all men are created equal" never names enslaved people as its subject in the address itself
-- `black_soldiers_absent`: flagged on 5 of 13 — USCT had been fighting since spring 1863; 180,000 Black soldiers in Union army; none appear
+- `black_soldiers_absent`: flagged on 5 of 13 — Black military service was established by late 1863; approximately 180,000 Black soldiers served in the Union army by war's end [@locBlackSoldiers], and none appear in the address
 - `disease_and_purification`: **ABSENT** — no pathogen, contamination, or purification logic anywhere in the address. Wound healing is also absent. This is structurally significant for the purification-rhetoric contrast.
 - `confederate_soldiers_absent`: not flagged (implied by "those who here gave their lives" covering all fallen)
 

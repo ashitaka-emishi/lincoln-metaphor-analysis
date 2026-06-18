@@ -7,8 +7,6 @@ instances: inst_00068–inst_00071 (4 total)
 extension_groups: ext_013
 ---
 
-# doc_007 — Cooper Union Address: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

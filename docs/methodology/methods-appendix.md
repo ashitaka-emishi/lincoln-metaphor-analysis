@@ -3,8 +3,6 @@ title: "Methods Appendix"
 draft: false
 ---
 
-# Methods Appendix
-
 This appendix condenses the publication method into a reproducible checklist.
 
 ## Sequence

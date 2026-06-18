@@ -172,7 +172,7 @@ draft: false
 ## Key Quoted Instances
 
 ### "Testing whether that nation… can long endure" (doc_017 Gettysburg, 1863)
-The canonical experiment instance. The war is a test — not a punishment, not a crusade, but an experiment whose outcome will determine whether democratic self-government is viable. The dead soldiers are the evidence. This formulation appears after the 54th Massachusetts's assault on Fort Wagner — but does not mention Black soldiers, who are simultaneously proving the proposition with their bodies while being erased from the proof-frame.
+The canonical experiment instance. The war is framed as a test whose outcome bears on whether democratic self-government is viable. The dead soldiers become evidence within that frame. The formulation follows the 54th Massachusetts's July 1863 assault on Fort Wagner [@nara54th] but does not mention Black soldiers, who are plausible agents in the proof-frame.
 
 ### Annual Message 1861 decisive-test arc (doc_010, ext_014/016)
 Six instances in one document — the densest cluster_03 concentration in the corpus. Lincoln writing to Congress deploys the experiment frame for a legislative audience. The congressional message register explains the density: this is argument-to-argument, not oratory.

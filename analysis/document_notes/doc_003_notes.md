@@ -7,8 +7,6 @@ instances: inst_00102–inst_00105 (4 total)
 extension_groups: ext_018 (cluster_06, p38 arc, 2 sentences)
 ---
 
-# doc_003 — Eulogy on Henry Clay: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

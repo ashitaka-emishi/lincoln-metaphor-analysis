@@ -7,8 +7,6 @@ instances: inst_00117 (1 total)
 extension_groups: none
 ---
 
-# doc_006b — Freeport Debate: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

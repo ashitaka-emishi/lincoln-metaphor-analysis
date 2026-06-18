@@ -3,8 +3,6 @@ title: "Evidence Chain Schema"
 draft: false
 ---
 
-# Evidence Chain Schema
-
 The evidence-chain layer makes publication claims auditable without rewriting validated Stage 4 annotations.
 
 ## Migration Decision

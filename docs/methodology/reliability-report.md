@@ -3,8 +3,6 @@ title: "Reliability Sample and Adjudication Workflow"
 draft: false
 ---
 
-# Reliability Sample and Adjudication Workflow
-
 This page defines the reliability layer for the publication-upgrade milestone. The current Stage 4B result compares the Stage 4A reference annotation layer with a Codex second-pass reliability review. It reports completed coding, adjudication, and metrics while explicitly avoiding a two-human blind inter-annotator reliability claim.
 
 The follow-up design for a future two-human blind study is defined separately in [Human Double-Coding Follow-Up Protocol](human-double-coding-protocol.md). That protocol is not yet a completed human reliability result.

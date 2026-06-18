@@ -8,8 +8,6 @@ extension_groups: none
 risk_flags: co_authored_seward (inst_00076 Seward-origin phrase retained with caveat; inst_00077 suppression_flag=true)
 ---
 
-# doc_009 — First Inaugural Address: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

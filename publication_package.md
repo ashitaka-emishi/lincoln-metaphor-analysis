@@ -3,8 +3,6 @@ title: "Publication Package"
 draft: false
 ---
 
-# Publication Package
-
 This page is the reviewer landing path for the upgraded pipeline and publication package. It explains what the project claims, how the evidence can be inspected, what is reproducible from committed files, where AI assistance enters the workflow, and which limits remain outside the milestone.
 
 ## Reader Path
@@ -79,7 +77,7 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 - The purification-rhetoric contrast is structural, not moral equivalence; Koenigsberg's Hitler analysis is used as bounded theoretical background, not as the project's headline comparative object.
 - The project studies public rhetoric and selected fragments; it does not establish audience reception, private belief, or full political causality.
 - Reception evidence is protocolized separately; candidate collections are not evidence until item-level records are cited and rights-checked.
-- Negative findings, especially `disease_and_purification` absence, depend on validated zero counts plus positive opportunity-structure flags.
+- Negative findings, especially `disease_and_purification` absence, depend on a validated corpus-wide zero count plus 56 positive opportunity-structure flags concentrated in texts dated 1838–1862. Later-war support comes from reviewed negative cases, not complete opportunity-flag coverage.
 
 ## Publication Checklist
 
@@ -97,10 +95,9 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 | Claim-to-source audit | Complete | [Claim-To-Source Audit](synthesis/claim_audit.md) |
 | Synthesis revision | Complete | [Findings](synthesis/findings.md), [Final Conclusions](synthesis/final_conclusions.md) |
 | AI-use statement | Complete | This page and [Methods Appendix](docs/methodology/methods-appendix.md) |
+| Publication-focused review | Complete for release candidate | [Publication Review](docs/publication-review.md) |
 | Final validation/render gate | Required per PR | `npm run status`, `npm run validate`, `npm run pipeline`, `quarto render` |
 
 ## Follow-Up Work
 
-Non-blocking follow-up work is tracked outside this milestone:
-
-- [#26 Evaluate Reconstruction-era continuation beyond Lincoln corpus boundary](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/26): scoped in [Reconstruction Extension Scope](docs/methodology/reconstruction-extension-scope.md)
+Future research directions are bounded in [Open Questions](synthesis/open_questions.md), [External Benchmarks](docs/methodology/external-benchmarks.md), and [Reconstruction Extension Scope](docs/methodology/reconstruction-extension-scope.md). They are not prerequisites for the current publication package.

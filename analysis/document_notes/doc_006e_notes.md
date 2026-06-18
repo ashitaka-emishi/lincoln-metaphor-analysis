@@ -7,8 +7,6 @@ instances: inst_00124 (1 total)
 extension_groups: none
 ---
 
-# doc_006e — Galesburg Debate: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

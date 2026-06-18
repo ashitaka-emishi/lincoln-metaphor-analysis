@@ -25,4 +25,4 @@ The six metaphor clusters are the project's organizing map:
 
 The document notes are close readings of individual texts. The cluster profiles aggregate metaphor behavior across documents. The controlled-output and claim-audit pages show how aggregate claims are checked before the synthesis pages convert those patterns into broader claims about political violence, moral obligation, and systematic absence.
 
-Publication-facing pages are finalized. Stages 1–8 are implemented across all 28 documents: Stage 4 annotation covers 136 metaphor instances, Stage 5–6 corpus-wide analysis is complete, Stage 6A controlled outputs are generated, and Stage 8 claim audit links major synthesis claims to source evidence.
+Publication-facing pages have passed the documented release-candidate review. Stages 1–8 are implemented across all 28 documents: Stage 4 annotation covers 136 metaphor instances, Stage 5–6 corpus-wide analysis is complete, Stage 6A controlled outputs are generated, and Stage 8 claim audit links major synthesis claims to source evidence.

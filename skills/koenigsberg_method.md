@@ -130,7 +130,7 @@ Entities that the metaphor's logic requires to be **passive, invisible, or struc
 | Flag | Definition |
 |------|------------|
 | `enslaved_people_non_agent` | Enslaved people appear as cause of the wound, object of the proposition, or subject of divine punishment — not as actors, healers, provers, or inheritors |
-| `black_soldiers_erased` | ~180,000 Black Union soldiers are absent from the sacrificial economy and birth-of-freedom narrative despite being its most literal embodiment |
+| `black_soldiers_erased` | Black Union soldiers are absent from an instance's sacrificial economy or birth-of-freedom narrative despite being plausible agents; approximately 180,000 served by war's end [@locBlackSoldiers] |
 | `lincoln_non_agent` | Lincoln constructs himself as instrument of Providence, covenant, or history — not as a choosing agent |
 | `confederates_depersonalized` | Confederate soldiers or leaders are abstracted away; violence is against the Confederacy as system, not against persons |
 | `death_abstracted` | Individual deaths are converted into data points (the proposition proven, the wound healing) rather than human losses |

@@ -3,8 +3,6 @@ title: "Corpus Register"
 draft: false
 ---
 
-# Corpus Register
-
 The corpus register makes the Lincoln corpus a documented scholarly object rather than a folder of source files. The canonical structured source is `corpus/corpus_manifest.json`; the publication table is generated from that source with:
 
 ```bash

@@ -3,8 +3,6 @@ title: "Reconstruction Extension Scope"
 draft: false
 ---
 
-# Reconstruction Extension Scope
-
 ## Decision
 
 Reconstruction-era material should be treated as a **separate comparison module**, not as a direct continuation of the Lincoln corpus.

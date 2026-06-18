@@ -7,8 +7,6 @@ instances: inst_00054 (1 total)
 extension_groups: none
 ---
 
-# doc_015 — Final Emancipation Proclamation: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

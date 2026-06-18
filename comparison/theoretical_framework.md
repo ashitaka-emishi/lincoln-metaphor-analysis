@@ -3,17 +3,17 @@
 ## Overview
 
 This project applies two complementary theoretical frameworks to Lincoln's corpus:
-1. **Conceptual Metaphor Theory** (Lakoff & Johnson, 1980) — the cognitive architecture of metaphor
-2. **Koenigsberg's ideological fantasy analysis** — the psychological and political function of metaphor
+1. **Conceptual Metaphor Theory** — the cognitive architecture of metaphor [@lakoff1980]
+2. **Koenigsberg's ideological fantasy analysis** — an interpretive account of the psychological and political function of violent national fantasy [@koenigsberg2009]
 
-Neither framework alone is sufficient. CMT maps the structure; Koenigsberg maps the function. Together they enable the project's central claim: that Lincoln's metaphor system made the Civil War feel *obligatory* rather than chosen, and that the specific structure of his metaphors explains both why the war was prosecutable and why reconciliation was conceivable.
+CMT maps linguistic and conceptual structure; Koenigsberg's framework is used here to interpret political function. Together they support the narrower claim that Lincoln's metaphors repeatedly frame war as obligation and preserve rhetorical exit conditions compatible with reconciliation.
 
 ---
 
 ## Part 1: Conceptual Metaphor Theory
 
 ### Core Claim
-Metaphors are not rhetorical ornaments added to thought — they are the cognitive structures through which abstract political reality is understood. When Lincoln's audience hears "binding up the nation's wounds," they are not receiving a decorative image. They are receiving a cognitive schema that determines what the national situation *is* and what responses are possible.
+CMT treats metaphor as a mode of conceptual organization rather than merely a rhetorical ornament [@lakoff1980]. In this analysis, "binding up the nation's wounds" activates a schema that frames the national situation and makes some responses more salient than others; the corpus cannot establish that the schema determines audience response.
 
 ### Key CMT Constructs
 
@@ -46,7 +46,7 @@ For these questions, Koenigsberg's framework is required.
 ## Part 2: Koenigsberg's Ideological Fantasy Analysis
 
 ### The Magical Object
-Mass political violence is sustained not by rational calculation but by ideological fantasy — the unconscious treatment of a collective entity (the nation, the race, the party) as a "magical object": an extension of the collective self requiring violent defense. The magical object generates obligatory violence because threats to it feel like threats to the self.
+Koenigsberg interprets mass political violence through ideological fantasy, including the treatment of a collective entity as a "magical object" requiring violent defense [@koenigsberg2009]. This project uses that account as an interpretive framework, not as an exclusive causal explanation.
 
 In Lincoln's corpus, the magical objects are:
 - The national body (cluster_01)
@@ -119,7 +119,7 @@ Lincoln remains the object of study. Koenigsberg's Hitler analysis supplies a bo
 
 ### The Purification-Logic Absence as Key Finding
 
-**Hypothesis (confirm against corpus)**:
+**Corpus finding**:
 
 Lincoln's corpus contains zero instances of `disease_and_purification` fantasy type. No group is constructed as a pathogen that the national body must expel.
 
@@ -131,16 +131,16 @@ This absence is structural, not accidental. Slavery is constructed as a **wound*
 - Punitive violence (theodicy logic) has an exit: the punishment is paid
 - Purifying violence has **no exit**: the pathogen is never fully expelled
 
-This is the structural reason Lincoln's rhetoric could accommodate "malice toward none" while purification rhetoric has no internal exit condition. The architecture of Lincoln's metaphor system has off-ramps built in. Purification rhetoric does not.
+This contrast helps explain how Lincoln's rhetoric could accommodate "malice toward none": its coded fantasy types retain possible termini, whereas the bounded purification model does not. Political prudence, theology, genre, and historical circumstance remain viable additional explanations.
 
 ---
 
 ## Scope and Limitations
 
-**Corpus scope**: 29 documents, 1838–1865. Wide by design to prevent cherry-picking.
+**Corpus scope**: 28 selected documents, 1838–1865. The corpus spans multiple registers but is not the complete Lincoln archive.
 
 **Method scope**: CMT + Koenigsberg analysis of metaphor instances. Does not include prosodic analysis, audience reception data, or comparative rhetorical analysis of contemporaries.
 
 **The purification-rhetoric contrast is structural, not moral**: The project does not claim that Lincoln and Hitler are morally equivalent. It uses Koenigsberg's Hitler analysis as a bounded theoretical background for purification-based political fantasy. The contrast claims that Lincoln's rhetoric shares certain structural features with dangerous political fantasy (obligatory frame, sacrificial economy, magical object) and differs in one decisive structural feature (purification logic). The shared features explain why mass political violence is possible under any political system that uses ideological fantasy; the difference explains why Lincoln's framework had an exit condition.
 
-**Confidence limits**: All claims are provisional until confirmed against annotation data. Two pre-stated findings (enslaved people as non-agents; absence of disease_and_purification) must be confirmed or disconfirmed against actual corpus annotation.
+**Confidence limits**: Corpus claims are checked against the validated annotation, controlled outputs, and claim audit. Interpretive and causal claims remain bounded by the selected corpus, source risks, AI-assisted reliability limitation, and absence of a contemporary comparison corpus.

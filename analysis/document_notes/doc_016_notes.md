@@ -7,8 +7,6 @@ instances: inst_00055–inst_00060 (6 total)
 extension_groups: none
 ---
 
-# doc_016 — Conkling Letter: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

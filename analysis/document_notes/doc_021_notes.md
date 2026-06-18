@@ -7,8 +7,6 @@ instances: inst_00014–inst_00026 (13 total)
 extension_groups: ext_004, ext_005
 ---
 
-# doc_021 — Second Inaugural Address: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

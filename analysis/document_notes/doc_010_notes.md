@@ -7,8 +7,6 @@ instances: inst_00086–inst_00094 (9 total)
 extension_groups: ext_016 (cluster_03, p51 arc, 4 sentences)
 ---
 
-# doc_010 — July 4 Message: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

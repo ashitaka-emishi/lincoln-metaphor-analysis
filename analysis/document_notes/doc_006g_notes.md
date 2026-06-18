@@ -7,8 +7,6 @@ instances: inst_00129–inst_00136 (8 total)
 extension_groups: ext_023 (cluster_01, p33 arc, 3 sentences), ext_024 (cluster_05, p38 arc, 2 sentences)
 ---
 
-# doc_006g — Alton Debate: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |

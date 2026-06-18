@@ -3,8 +3,6 @@ title: "Research Design"
 draft: false
 ---
 
-# Research Design
-
 ## Project Aim
 
 This project studies how Abraham Lincoln's metaphor system authorized Civil War violence while preserving structural exit conditions that made reconciliation possible rather than annihilation.
@@ -111,12 +109,12 @@ Sentence IDs are permanent. Any schema upgrade must preserve Stage 3 identifiers
 The study uses a staged sequence:
 
 1. **Corpus provenance and segmentation**: establish stable texts, metadata, register categories, authorship confidence, and sentence IDs.
-2. **MIPVU identification**: identify metaphor-related lexical units before assigning conceptual or ideological meaning.
+2. **MIPVU identification**: identify metaphor-related lexical units before assigning conceptual or ideological meaning [@steen2010].
 3. **Historical semantics control**: document period-specific basic meanings for difficult lexical units.
-4. **CMT mapping**: interpret metaphor-related lexical units as source-target mappings with entailments and rival readings.
+4. **CMT mapping**: interpret metaphor-related lexical units as source-target mappings with entailments and rival readings [@lakoff1980].
 5. **Corpus-assisted discourse analysis**: measure distribution, chronology, register effects, co-activation, concentration, and confidence-subset stability.
 6. **Rhetorical, genre, and absence analysis**: interpret how occasion, audience, agency, and systematic silence shape the metaphors' function.
-7. **Koenigsbergian synthesis**: interpret obligatory frame, sacrificial economy, guilt distribution, psychic defense, violence logic, and reconciliation only after the linguistic and corpus layers are established.
+7. **Koenigsbergian synthesis**: interpret obligatory frame, sacrificial economy, guilt distribution, psychic defense, violence logic, and reconciliation only after the linguistic and corpus layers are established [@koenigsberg2009].
 8. **Claim audit and publication synthesis**: connect major claims back to cluster, mapping, lexical unit, sentence ID, document metadata, and source text.
 
 This order is a methodological commitment. MIPVU identifies metaphor-related words; CMT maps conceptual structure; corpus and discourse analysis test distribution and rhetorical patterning; Koenigsbergian analysis synthesizes political-psychological function.

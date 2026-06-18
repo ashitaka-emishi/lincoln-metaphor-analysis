@@ -2,15 +2,13 @@
 title: "Stage 7: LCC Benchmark Validation"
 ---
 
-# Stage 7: LCC Metaphor Dataset Validation
-
 *Completed 2026-05-02 and updated 2026-06-17. Baseline page originally based on en_small.xml (8,724 parsed valid annotations). Stage 7 now also supports and has evaluated the larger LCC English dataset as an optional local benchmark.*
 
 ---
 
 ## What the LCC Dataset Is
 
-The **LCC Metaphor Dataset** (Mohler et al. 2016) is the largest publicly available annotated metaphor corpus. The English small subset contains 8,724 valid annotations drawn from general news text, with human metaphoricity scores (0–3), source-concept labels from a ~114-category taxonomy, and target-concept labels from a ~32-category taxonomy. Multiple annotators score each instance; the aggregated score is used here.
+The **LCC Metaphor Dataset** is a multilingual annotated metaphor resource [@mohler2016]. The English small subset used here contains 8,724 valid annotations drawn from general news text, with human metaphoricity scores (0–3), source-concept labels from a roughly 114-category taxonomy, and target-concept labels from a roughly 32-category taxonomy. Multiple annotators score each instance; the aggregated score is used here.
 
 It provides a baseline for what a general English metaphor system looks like — what source-concept categories appear, and at what frequency. Lincoln's six clusters can then be situated against that baseline.
 
@@ -18,12 +16,12 @@ It provides a baseline for what a general English metaphor system looks like —
 
 ## Why This Matters for the Lincoln Project
 
-Lincoln's metaphor system was identified and described from within the corpus. Stage 7 asks a comparative question: how does Lincoln's metaphor vocabulary look against the full range of concepts English speakers use metaphorically?
+Lincoln's metaphor system was identified and described from within the corpus. Stage 7 asks a bounded comparative question: how do the project's six Lincoln clusters align with the source-concept taxonomy represented in LCC?
 
 This has two analytical uses:
 
-1. **External validation of scope**: clusters that appear prominently in both Lincoln and LCC are doing common English metaphor work. Clusters with no LCC parallel are Lincoln-specific constructions.
-2. **Absence quantification**: LCC establishes which conceptual domains appear frequently in general English but are absent from Lincoln. Those absences are analytically significant, not just null results.
+1. **External benchmark context**: clusters can be compared with categories represented in modern general-news English. A missing direct category match is descriptive of the LCC taxonomy, not proof that a construction is unique to Lincoln.
+2. **Category comparison**: LCC shows which prominent source concepts have no equivalent among the project's six predefined Lincoln clusters. Because the Lincoln scheme is cluster-bounded, this is not a complete inventory of every metaphor Lincoln used.
 
 ---
 
@@ -113,52 +111,52 @@ The large cross-check strengthens the baseline inference by showing that DISEASE
 | `cluster_02_covenant_oath` | Union as covenant / oath | CONTRACT, OATH, OBLIGATION are not prominent LCC source-concept categories |
 | `cluster_05_fathers_inheritance` | Founding fathers as inheritance | INHERITANCE, PATRIMONY, ANCESTRAL_DEBT have no LCC category equivalent |
 
-These two clusters represent Lincoln-specific political constructions with no strong parallel in general English metaphor. They are not common ways English speakers metaphorize social reality; they are Lincoln's particular rhetorical architecture.
+These two clusters have no direct category match in the LCC taxonomy. That makes them distinctive relative to this benchmark, but the dataset cannot establish whether they were uncommon in nineteenth-century American political rhetoric or unique to Lincoln.
 
-### LCC Concepts Absent from Lincoln
+### LCC Concepts Without Lincoln Cluster Equivalents
 
 These are source-concept categories that rank in the top 20 of general English metaphor usage but have no Lincoln cluster equivalent:
 
 | LCC Concept | LCC Count | Interpretation |
 | --- | --- | --- |
-| MOVEMENT | 132 | Lincoln does not frame politics as a journey or progress path |
-| PROTECTION | 106 | Defensive/shielding logic absent; Lincoln frames obligation, not safety |
-| BUILDING | 91 | Architecture metaphors for institutions are absent |
-| PHYSICAL_HARM | 88 | Non-war physical harm (assault, damage) absent; harm is framed as wound or war |
-| VISION | 85 | Sight/light metaphors exist only in the Providence cluster (LIGHT), not as general epistemic tools |
-| RESOURCE | 80 | Economic/resource metaphors absent from Lincoln's political language |
-| MACHINE | 74 | Mechanical logic for political institutions entirely absent |
-| CONFINEMENT | 70 | Containment/enclosure logic absent (notable given slavery as the central subject) |
-| GAME | 57 | Competition/game framing absent; Lincoln does not frame politics as contest |
-| ANIMAL | 55 | Animal metaphors absent |
+| MOVEMENT | 132 | No equivalent among the six Lincoln clusters |
+| PROTECTION | 106 | No equivalent among the six Lincoln clusters |
+| BUILDING | 91 | No equivalent among the six Lincoln clusters |
+| PHYSICAL_HARM | 88 | No equivalent among the six Lincoln clusters |
+| VISION | 85 | LIGHT maps only to the Providence cluster; VISION has no direct equivalent |
+| RESOURCE | 80 | No equivalent among the six Lincoln clusters |
+| MACHINE | 74 | No equivalent among the six Lincoln clusters |
+| CONFINEMENT | 70 | No equivalent among the six Lincoln clusters |
+| GAME | 57 | No equivalent among the six Lincoln clusters |
+| ANIMAL | 55 | No equivalent among the six Lincoln clusters |
 
 ---
 
 ## Analytical Significance
 
-### Confirmed: Disease/Purification Absence Is Anomalous Against LCC General-English Baselines
+### Benchmark Result: DISEASE Is Available in LCC General English
 
-DISEASE is the 4th most common source concept in `en_small` general English metaphor (100 instances) and remains prominent in `en_large` (rank 10; 538 instances). Lincoln's corpus does use disease language — but exclusively to mark the wound/healing cluster_01, never to construct a social group as pathogen. This confirms that the absence of `disease_and_purification` logic ([Finding 2](../synthesis/findings.md)) is not explained by DISEASE being a rare or unavailable English source domain. Lincoln deploys the DISEASE source domain as wound, not as infection requiring expulsion.
+DISEASE is the 4th most common source concept in `en_small` (100 instances) and ranks 10th in `en_large` (538 instances). Lincoln's corpus uses disease language but never constructs a social group as pathogen. The benchmark shows that DISEASE is available in modern general-news English; it does not establish a nineteenth-century norm or explain Lincoln's selection by itself.
 
 This evidence has three layers and they should not be collapsed:
 
 1. **Validated zero count**: the Stage 4-6 Lincoln corpus contains zero `disease_and_purification` fantasy-type instances.
 2. **Positive absence evidence**: 56 `disease_purification_absent` flags mark cases where purification logic was structurally available but not deployed.
-3. **External-baseline inference**: LCC `en_small` and `en_large` show that DISEASE is common in general English metaphor, so Lincoln's zero pathogen-group mapping is anomalous against general-English baselines.
+3. **External-baseline inference**: LCC `en_small` and `en_large` show that DISEASE is represented prominently in these modern general-news datasets, making Lincoln's zero pathogen-group mapping notable relative to that limited benchmark.
 
 No implemented contemporary comparison corpus currently tests the same absence against Union, Confederate, abolitionist, or presidential-register controls. Those corpora remain candidate benchmarks in [External Benchmarks](../docs/methodology/external-benchmarks.md). The current external claim is therefore a general-English benchmark claim, not yet a period-specific political-culture claim.
 
-### Confirmed: Covenant and Inheritance Are Lincoln-Specific Constructs
+### Benchmark Result: Covenant and Inheritance Lack Direct LCC Categories
 
-The two clusters without LCC matches — cluster_02 (covenant/oath) and cluster_05 (founding fathers/inheritance) — are Lincoln's most distinctively political constructions. General English speakers do not commonly frame social reality through the metaphors of sworn covenants and patrimonial inheritance. These are not default metaphors; they are Lincoln's rhetorical architecture, built specifically to make the Union's continuation feel obligatory.
+The two clusters without direct LCC matches — cluster_02 (covenant/oath) and cluster_05 (founding fathers/inheritance) — are important parts of Lincoln's coded political architecture. The LCC comparison does not show how common those mappings were among Lincoln's contemporaries.
 
-This confirms the [Finding 4](../synthesis/findings.md) analysis: the obligatory frame is not a side effect of common metaphor use. It is a product of Lincoln's specific choice of source domains — domains that carry binding obligation in a way that MOVEMENT, BUILDING, or MACHINE do not.
+This contextualizes [Finding 4](../synthesis/findings.md): covenant and inheritance carry binding entailments in Lincoln's corpus and are not represented by direct LCC category matches. A contemporary political corpus is needed before attributing that pattern specifically to Lincoln.
 
-### Confirmed: Lincoln Avoids the Full Range of English Figurative Vocabulary
+### Benchmark Result: Several Prominent LCC Categories Lack Lincoln Cluster Equivalents
 
-The absence of MOVEMENT, BUILDING, MACHINE, RESOURCE, GAME, and ANIMAL from Lincoln's political rhetoric is now measurable against a baseline. These are prominent in general English but absent from Lincoln. Lincoln's political language is not just selective — it is drastically narrowed compared to the full range of English metaphor.
+MOVEMENT, BUILDING, MACHINE, RESOURCE, GAME, and ANIMAL are prominent LCC categories with no equivalent among this project's six Lincoln clusters. Because the Lincoln annotation scheme is cluster-bounded, this is a comparison of coded category systems rather than proof that Lincoln never used expressions from those domains.
 
-The strategic consequence: Lincoln's six clusters are mutually reinforcing and self-consistent. A narrower vocabulary is a more controlled one. Every major Lincoln metaphor activates obligation; none activates competition, progress, construction, or resource allocation. The system was built to do one thing.
+The benchmark supports category-level comparison only. Claims that Lincoln's total metaphor vocabulary excludes these domains would require an open-ended annotation scheme or a separately designed corpus search.
 
 ---
 

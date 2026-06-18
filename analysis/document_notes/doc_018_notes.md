@@ -7,8 +7,6 @@ instances: inst_00029 (1 total)
 extension_groups: none
 ---
 
-# doc_018 — Blind Memorandum: Key Findings
-
 ## Instance Summary
 
 | Instance | Sentence | Cluster | Linguistic Form | Notable |
