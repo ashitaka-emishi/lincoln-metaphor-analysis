@@ -1,14 +1,19 @@
 {
   "schema_version": "stage4m-packet-manifest-1.0",
-  "packet_id": "stage4m_b5372081183f7265",
-  "generated_at": "2026-06-18T05:26:00.121Z",
+  "packet_id": "stage4m_d45620cd10dd4be1",
+  "generated_at": "2026-06-18T13:21:28.588Z",
   "generation_timestamp_source": "system clock at first generation for packet_id",
   "generator": {
     "path": "scripts/stage4m/generate-model-packets.js",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "runtime": "node"
   },
   "status": "packet_ready",
+  "model_output_contract": {
+    "schema": "schemas/stage4m-model-output.schema.json",
+    "input_packet_hash": "eeee9ecdc2f9ff04b8e07fcea415f25d56926f35c34a4f7365ba6e12813a3c04",
+    "prompt_hash": "999f4947f7bcd23fb3872101840c1bb442e13f54ead6db6d1494bac7c827b6fb"
+  },
   "blindness": {
     "reference_values_included": false,
     "stage4_anchor_metadata_included": false,
@@ -68,12 +73,16 @@
       "sha256": "c45d193c21d3dce34555d69a3e4ca2154a2207bfd787acf20df73d6fd6792412"
     },
     {
+      "path": "schemas/stage4m-model-output.schema.json",
+      "sha256": "fc1826ba532fc0222349c86db0872037ab494d5f033af75d3e758ad84f78d20b"
+    },
+    {
       "path": "scripts/schema_constants.js",
       "sha256": "e9d6e35a6eca21f9271fffbe44dd9b74795392b6a42fdb1b6251b8136737fe98"
     },
     {
       "path": "scripts/stage4m/generate-model-packets.js",
-      "sha256": "c69fef4f5fc40e166879170dba1a25020cdf222f40369c2acaebe6dc9b1e869f"
+      "sha256": "4ebfa7553fe1adb8c48076c5ce2d4566e8e4b84802683009f8c7077135f97fb1"
     }
   ],
   "outputs": [
@@ -89,17 +98,17 @@
     },
     {
       "path": "data/reliability/model-input-packets/model-packet-instructions.md",
-      "sha256": "bc4d68bd7eb3ca7f65530273498cd349f366c57bccebebad7a6adbba7f69fa79",
+      "sha256": "999f4947f7bcd23fb3872101840c1bb442e13f54ead6db6d1494bac7c827b6fb",
       "records": null
     },
     {
       "path": "data/reliability/model-input-packets/model-output-template.csv",
-      "sha256": "68622b182cb23687f861c3ea2286186a54e29bda0a820cde345be760daec6473",
+      "sha256": "79394bc946567863db948851e09bf6cc24159e087b30dee5fd2d0c24f35bf4c0",
       "records": 106
     },
     {
       "path": "data/reliability/model-input-packets/model-output-template.json",
-      "sha256": "7a0bde88f407ba2d47d4af62f8d2825309c7f06861db9d9486dcdc087e97ef6d",
+      "sha256": "ac94578fe3e70f4a7c599102eb5fed6e334d9aabb9463c7e8fd2983c1647cba1",
       "records": 106
     }
   ]

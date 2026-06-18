@@ -672,6 +672,85 @@ function validateReliabilityArtifacts() {
   if (!exists(resultsPagePath)) err(resultsPagePath, 'File not found');
 }
 
+// ─── Stage 4M model-output contract ─────────────────────────────────────────
+
+function validateStage4mModelOutputContract() {
+  const schemaPath = path.join(ROOT, 'schemas', 'stage4m-model-output.schema.json');
+  const templatePath = path.join(ROOT, 'data', 'reliability', 'model-input-packets', 'model-output-template.json');
+  const csvPath = path.join(ROOT, 'data', 'reliability', 'model-input-packets', 'model-output-template.csv');
+  const manifestPath = path.join(ROOT, 'data', 'reliability', 'model-input-packets', 'model-packet-manifest.json');
+  console.log('\nValidating Stage 4M model-output contract...');
+
+  if (!exists(schemaPath)) { err(schemaPath, 'File not found'); return; }
+  const schema = readJSON(schemaPath);
+  if (!schema) return;
+  const item = schema.$defs && schema.$defs.item;
+  const csv = schema['x-stage4m-csv'];
+  if (!item || !item.properties || !Array.isArray(item.required)) {
+    err(schemaPath, '$defs.item must define properties and required fields');
+    return;
+  }
+  if (!csv || !Array.isArray(csv.metadata_columns) || !Array.isArray(csv.item_columns)) {
+    err(schemaPath, 'x-stage4m-csv must define metadata_columns and item_columns');
+    return;
+  }
+
+  const enumAt = (field) => {
+    const property = item.properties[field];
+    return property && (property.enum || (property.oneOf && property.oneOf[0] && property.oneOf[0].enum));
+  };
+  const compareEnum = (field, expected) => {
+    const actual = enumAt(field);
+    if (!Array.isArray(actual) || actual.join('|') !== expected.join('|')) {
+      err(schemaPath, `${field} enum does not match canonical schema constants`);
+    }
+  };
+  compareEnum('cluster_id', CLUSTER_IDS);
+  compareEnum('koenigsberg_function', FANTASY_TYPES);
+  compareEnum('agency_or_absence_flag', ABSENCE_FLAGS);
+
+  const expectedHeader = [...csv.metadata_columns, ...csv.item_columns];
+  if (exists(csvPath)) {
+    const actualHeader = readCSVHeader(csvPath);
+    if (actualHeader.join('|') !== expectedHeader.join('|')) {
+      err(csvPath, 'CSV columns do not match the schema x-stage4m-csv mapping');
+    }
+  } else {
+    err(csvPath, 'File not found');
+  }
+
+  const template = exists(templatePath) ? readJSON(templatePath) : null;
+  const manifest = exists(manifestPath) ? readJSON(manifestPath) : null;
+  if (!template) {
+    if (!exists(templatePath)) err(templatePath, 'File not found');
+    return;
+  }
+  const expectedTopLevel = schema.required || [];
+  if (Object.keys(template).join('|') !== expectedTopLevel.join('|')) {
+    err(templatePath, 'Top-level template fields do not match schema.required');
+  }
+  if (!Array.isArray(template.items) || template.items.length === 0) {
+    err(templatePath, 'items must be a non-empty array');
+  } else {
+    for (const [index, response] of template.items.entries()) {
+      if (Object.keys(response).join('|') !== item.required.join('|')) {
+        err(templatePath, `items[${index}] fields do not match schema item requirements`);
+        break;
+      }
+      if (!['sentence_identification', 'field_agreement'].includes(response.task_type)) {
+        err(templatePath, `items[${index}] has invalid task_type '${response.task_type}'`);
+      }
+    }
+  }
+  if (manifest && manifest.model_output_contract) {
+    if (template.input_packet_id !== manifest.packet_id) err(templatePath, 'input_packet_id does not match manifest packet_id');
+    if (template.input_packet_hash !== manifest.model_output_contract.input_packet_hash) err(templatePath, 'input_packet_hash does not match manifest');
+    if (template.prompt_hash !== manifest.model_output_contract.prompt_hash) err(templatePath, 'prompt_hash does not match manifest');
+  } else if (manifest) {
+    err(manifestPath, 'model_output_contract missing');
+  }
+}
+
 // ─── Textual Variant Apparatus ──────────────────────────────────────────────
 
 function collectAnnotatedAnchors(docId) {
@@ -1192,6 +1271,7 @@ function main() {
   validateAnalysis();
   validateEvidenceChains();
   validateReliabilityArtifacts();
+  validateStage4mModelOutputContract();
   validateTextualVariantApparatus();
   validateExternalBenchmarkRegistry();
   validateReceptionEvidenceRegistry();

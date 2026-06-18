@@ -67,7 +67,7 @@ Stage 4M owns the following paths:
 | `data/reliability/model-adjudication/` | Human-review queues, decisions, and codebook-revision candidates |
 | `scripts/stage4m/` | Packet, validation, comparison, reporting, and guardrail scripts |
 
-The generator implemented by issue #68 defines the committed blind input-packet contract. The final model-submission schema remains deferred to issue #69; the current CSV and JSON files are manually fillable draft templates. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
+The generator implemented by issue #68 defines the committed blind input-packet contract. Model submissions use the canonical JSON Schema at `schemas/stage4m-model-output.schema.json`. The generated JSON template follows that shape directly; the CSV template repeats run metadata on every row and maps each row to one `items` entry, as declared by the schema's `x-stage4m-csv` annotation. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
 
 ## Immutable Inputs and Write Boundary
 
@@ -91,7 +91,7 @@ Any proposed annotation correction remains a review-only record under `model-adj
 
 Input packets must be reproducible from committed inputs and must separate task material from answer keys. A packet manifest should eventually record source hashes, generator version, task counts, and a deterministic packet identifier without recording reference answers in the reviewer-facing payload.
 
-Every accepted model submission must eventually identify enough provenance to interpret the result, including the model system and version, provider family, review date, packet identifier, prompt or instruction version, declared generation settings, and whether tools or external context were available. The final field contract belongs to issue #69.
+Every model submission identifies enough provenance to interpret the result: stable run and model identifiers, provider, model name and version, run date, operator, packet identifier and hash, prompt hash, temperature when known, and free-text notes for other generation settings or context. The canonical schema also preserves explicit uncertainty through `metaphor_present`, `confidence`, `ambiguity_flag`, and `rival_reading` rather than forcing a definitive label.
 
 Submissions are untrusted external data. They must be validated before comparison and preserved as submitted after acceptance; normalization belongs in generated comparison artifacts rather than silent rewrites of the submission.
 
@@ -121,7 +121,7 @@ An empty submission directory is expected during setup and must eventually produ
 This architecture intentionally leaves implementation to the ordered v2 issues:
 
 - #68 generates blind input packets and establishes the packet-ready state.
-- #69 defines the model-output schema.
+- #69 defines the model-output schema and JSON/CSV field mapping.
 - #70 ingests and validates submissions.
 - #71–#73 compute agreement, classify disagreement, and create the human queue.
 - #74 and #79 integrate commands and publication-gate validation.
