@@ -79,6 +79,8 @@ Stage 4M owns the following paths:
 
 The generator implemented by issue #68 defines the committed blind input-packet contract. Model submissions use the canonical JSON Schema at `schemas/stage4m-model-output.schema.json`. The generated JSON template follows that shape directly; the CSV template repeats run metadata on every row and maps each row to one `items` entry, as declared by the schema's `x-stage4m-csv` annotation. After comparison and disagreement classification, `npm run stage4m:queue` creates deterministic JSON and CSV review queues, a human completion template, and the rendered adjudication guide. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
 
+`scripts/stage4m/generate-model-consensus-report.js` then synthesizes the agreement results, disagreement log, and human queue into `model-consensus-report.json` and `model-consensus-report.md`. The report separates stable, unstable, and insufficient-evidence fields; ranks document, cluster, and interpretive-category risk; distinguishes all-model challenges from cases where models support the reference; and carries human-review priorities forward. Its consensus language is deliberately non-decisive.
+
 ## Immutable Inputs and Write Boundary
 
 Stage 4M may read:
@@ -136,9 +138,9 @@ This architecture intentionally leaves implementation to the ordered v2 issues:
 - #68 generates blind input packets and establishes the packet-ready state.
 - #69 defines the model-output schema and JSON/CSV field mapping.
 - #70 ingests and validates JSON/CSV submissions and generates normalized runs plus validation reports.
-- #71 computes layered model-vs-reference and model-vs-model agreement; #72 classifies item-level disagreement and instability; #73 creates the human queue.
+- #71 computes layered model-vs-reference and model-vs-model agreement; #72 classifies item-level disagreement and instability; #73 creates the human queue; #81 synthesizes those artifacts into the model consensus report.
 - #74 and #79 integrate commands and publication-gate validation.
 - #80 verifies overwrite guardrails across the completed scripts.
-- #75–#78 and #81–#84 complete instructions, reporting, codebook notes, publication integration, and release checks.
+- #75–#78 and #82–#84 complete instructions, rendered reporting, codebook notes, publication integration, and release checks.
 
 Stage 4M is now **packet-ready**, **submission-ready**, and capable of generating the human-review queue. It is not comparable while no valid model submissions exist. No multi-model reliability result should be claimed until validated submissions and comparison outputs exist.

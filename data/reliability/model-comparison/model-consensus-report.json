@@ -1,0 +1,129 @@
+{
+  "schema_version": "stage4m-model-consensus-report-1.0",
+  "status": "no_submissions",
+  "source_agreement_results": "data/reliability/model-comparison/model-agreement-results.json",
+  "source_disagreement_log": "data/reliability/model-comparison/model-disagreement-log.json",
+  "source_adjudication_queue": "data/reliability/model-adjudication/stage4m-adjudication-queue.json",
+  "interpretation_policy": "Model convergence and divergence are diagnostic evidence. No majority, unanimity, or aggregate score is decisive, and this report cannot revise Stage 4A.",
+  "summary": {
+    "model_runs": 0,
+    "packet_units": 106,
+    "stable_fields": 0,
+    "unstable_fields": 0,
+    "insufficient_evidence_fields": 12,
+    "disagreement_records": 0,
+    "reference_challenges": 0,
+    "strong_reference_cases": 0,
+    "human_review_items": 0,
+    "high_priority_review_items": 0
+  },
+  "stable_coding_fields": [],
+  "unstable_coding_fields": [],
+  "insufficient_evidence_fields": [
+    {
+      "field": "agency_or_absence_flag",
+      "layer": "agency_absence",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "cluster_id",
+      "layer": "cmt_mapping",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "source_domain",
+      "layer": "cmt_mapping",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "target_domain",
+      "layer": "cmt_mapping",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "ambiguity_flag",
+      "layer": "confidence_ambiguity",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "confidence",
+      "layer": "confidence_ambiguity",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "rival_reading_presence",
+      "layer": "confidence_ambiguity",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "koenigsberg_function",
+      "layer": "koenigsberg_interpretation",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "obligatory_frame",
+      "layer": "koenigsberg_interpretation",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "violence_logic",
+      "layer": "koenigsberg_interpretation",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "lexical_unit_boundary",
+      "layer": "lexical_unit_boundary",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "field": "metaphor_present",
+      "layer": "metaphor_identification",
+      "agreements": 0,
+      "comparisons": 0,
+      "agreement_rate_pct": null,
+      "classification": "insufficient_evidence"
+    }
+  ],
+  "high_risk_documents": [],
+  "high_risk_clusters": [],
+  "high_risk_interpretive_categories": [],
+  "cases_where_models_challenge_reference": [],
+  "cases_where_reference_remains_strong": [],
+  "human_review_priorities": [],
+  "annotation_codebook_implications": [
+    "Do not revise the codebook from model evidence alone for insufficient-evidence fields: agency_or_absence_flag, cluster_id, source_domain, target_domain, ambiguity_flag, confidence, rival_reading_presence, koenigsberg_function, obligatory_frame, violence_logic, lexical_unit_boundary, metaphor_present."
+  ]
+}
