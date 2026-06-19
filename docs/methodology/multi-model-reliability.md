@@ -1,157 +1,144 @@
-# Stage 4M Multi-Model Reliability Architecture
+---
+title: "Stage 4M — Multi-Model Reliability Stress Test"
+description: "Methodology, interpretive limits, and publication role of the project's blind multi-model reliability layer."
+---
 
-## Status and Scope
+## Purpose
 
-Stage 4M is the multi-model reliability stress-test layer. It uses existing Stage 4A evidence records and Stage 4B reliability artifacts as immutable inputs, packages blind review tasks for external AI model systems, compares returned judgments, and sends substantive disagreements to human review.
+Stage 4M is an **AI-assisted reliability stress test**. It evaluates whether the coding scheme produces stable outputs across multiple model systems. It does not establish human inter-annotator reliability and does not treat AI output as evidence about Lincoln's rhetoric or as authority over the reference annotations.
 
-Stage 4M is an **AI-assisted diagnostic stress test**. It is not a human inter-annotator reliability study, a source of authoritative annotations, or an automatic correction mechanism. Human-human reliability belongs to a separate future stage with its own blindness, training, sampling, and adjudication controls.
+The stage asks external model systems to review the same blind packet, validates their structured responses, and measures where their judgments converge with or diverge from each other and from the Stage 4A reference layer. Its purpose is diagnostic: to locate stable coding rules, fragile interpretive fields, ambiguous passages, prompt-sensitive decisions, and questions that require human review.
 
-This document defines the architectural boundary for the v2 implementation. Blind input packets are implemented; submission schemas, metrics, and rendered results remain assigned to later issues in the [v2 tracker](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85).
+Stage 4M is not a new annotation authority. It cannot decide what a passage means, vote an annotation into correctness, or automatically revise any validated corpus file.
 
-Run the complete deterministic Stage 4M sequence with:
+## Relation to Stage 4A and Stage 4B
+
+The `M` identifies a model-review branch of the Stage 4 reliability work rather than a later canonical stage.
+
+| Layer | Role | Authority |
+| --- | --- | --- |
+| **Stage 4A** | Validated sentence- and span-level reference annotations and evidence chains | Canonical reference input; immutable during Stage 4M |
+| **Stage 4B** | Existing Codex second-pass sample, adjudication record, and reliability results | AI-assisted within-project reliability context; immutable during Stage 4M |
+| **Stage 4M** | Blind comparison across manually operated external model systems | Diagnostic stress test; derivative and non-authoritative |
+| **Future human protocol** | A separately designed blind study with independent human coders | Not yet executed; the only route to a human-human inter-annotator reliability claim |
+
+Stage 4M reads Stage 4A evidence and Stage 4B sampling artifacts to build and score the exercise, but it does not supersede either layer. Primary model-vs-reference metrics use immutable Stage 4A coder-A values. Stage 4B adjudications may remain visible as review context, but they do not silently replace that reference.
+
+The separate [human double-coding protocol](human-double-coding-protocol.md) defines the design required for future human-human reliability. The current [Stage 4B reliability report](reliability-report.md) explains the limits of the existing Codex second pass.
+
+```mermaid
+flowchart LR
+  A["Stage 4A reference<br/>immutable"] --> P["Blind packet generator"]
+  B["Stage 4B sample<br/>immutable"] --> P
+  P --> M["External model reviews"]
+  M --> C["Validated comparison"]
+  A --> C
+  C --> H["Human adjudication queue"]
+  H -. "review candidate only" .-> R["Separately authorized migration"]
+```
+
+## Why This Is Not Human Inter-Annotator Reliability
+
+Human inter-annotator reliability requires independent human coders, documented training, controlled blindness, a shared sampling design, and human adjudication. Stage 4M substitutes none of those requirements. Model systems can share training data, architectures, provider defaults, and characteristic failure modes, so apparent agreement across models is not necessarily independent corroboration.
+
+Model convergence can indicate that a field is easy for the tested systems under the supplied prompt. It cannot establish that humans would apply the field consistently, that the interpretation is historically correct, or that the model families reached their answers independently. Model disagreement can reveal useful pressure points, but it cannot by itself determine whether the problem lies in a passage, the codebook, the prompt, a model, or the Stage 4A reference judgment.
+
+For those reasons, Stage 4M results must always be labeled **AI-assisted model reliability**, never human inter-annotator reliability.
+
+## Model Packet Design
+
+The deterministic generator creates a packet from the committed Stage 4B sample and canonical segmented text. The current packet contains two task families:
+
+- **Sentence identification (55 units):** reviewers independently decide whether each sentence contains a metaphor-related lexical unit and identify its narrowest span.
+- **Field agreement (51 units):** reviewers independently code a supplied lexical span across CMT, Koenigsbergian function, violence logic, obligation, agency/absence, confidence, ambiguity, rival reading, and justification fields.
+
+Positive examples and controls are not identified in reviewer-facing files. Packet-unit IDs and permanent corpus sentence IDs allow returned judgments to be checked without exposing Stage 4A audit IDs or answers. The manifest records generator version, source and output hashes, packet identity, prompt hash, task counts, and blindness assertions so a run can be traced to the exact packet it received.
+
+Generate the packet and complete workflow with:
 
 ```bash
 npm run stage4m
 ```
 
-The full sequence generates blind packets, ingests any manually supplied submissions, computes agreement and disagreement, creates the human adjudication queue, and writes the consensus report. It requires no API keys. With no submissions it completes successfully while emitting explicit warnings and preserving empty/insufficient-evidence outputs.
+The command requires no vendor API key. With no submissions it succeeds with explicit warnings and preserves an **insufficient evidence** state rather than inventing agreement results.
 
-The publication gates include Stage 4M directly. `npm run validate` checks submission schemas, packet hashes, corpus and packet identities, generated artifact shapes, and cross-file counts. `npm run status` reports packet, submission, validation, comparison, adjudication, and consensus states. Before any model output is supplied, both commands identify the layer as **Stage 4M designed but not executed** rather than treating the absence of runs as a failure.
+## Blind Review Rules
 
-Run or validate individual stages with:
+External reviewers receive only the generated instructions, the two blind packet files, and one JSON or CSV output template. They must not receive:
 
-```bash
-npm run validate:stage4m
-npm run stage4m:packets
-npm run stage4m:ingest
-npm run stage4m:compare
-npm run stage4m:disagreements
-npm run stage4m:adjudication
-npm run stage4m:consensus
-```
+- Stage 4A annotations or evidence chains;
+- Stage 4B completed coding, adjudication, or reliability results;
+- previous model submissions;
+- comparison, consensus, or human-queue outputs; or
+- synthesis and claim-audit material that could reveal expected judgments.
 
-## Why the Stage Is Called 4M
+Review runs should begin in fresh sessions without browsing, repository retrieval, or cross-run memory where the interface permits. Reviewers preserve seeded packet, document, sentence, and span identifiers and return only the completed structured template.
 
-The `M` identifies a model-review branch of the Stage 4 reliability work. It prevents three ambiguities:
+The complete operator workflow, filename convention, provenance checklist, and validated examples are in [Running External Stage 4M Model Reviews](model-review-instructions.md).
 
-1. **Stage 4C already exists.** It is the textual-variant apparatus, so assigning that identifier to model reliability would overwrite an established methodological meaning.
-2. **Stage 4M is not the next canonical annotation stage.** It reads Stage 4A and Stage 4B but does not supersede either one.
-3. **Model and human reliability must remain distinguishable.** The mnemonic suffix makes it harder to accidentally describe model agreement as human inter-annotator reliability.
+## Output Schema
 
-The identifier is therefore categorical, not a claim that Stage 4M produces a later or more authoritative annotation layer.
+Every submission must conform to `schemas/stage4m-model-output.schema.json`. JSON represents one run with an `items` array; CSV flattens the same contract by repeating identical run metadata on every row. Required provenance includes run and model identifiers, provider, model name and version, run date, operator, packet ID and hash, prompt hash, temperature when known, and notes about other settings.
 
-## What Stage 4M Is and Is Not
+The response contract preserves uncertainty through `metaphor_present`, `confidence`, `ambiguity_flag`, `rival_reading`, and `justification`. Reviewers are not forced into false precision, but they must use the controlled vocabulary and the fields defined by the schema.
 
-| Stage 4M is | Stage 4M is not |
-| --- | --- |
-| A blind stress test across multiple AI model systems | A two-human blind coding study |
-| A way to identify stable and unstable annotation fields | A vote that determines the correct annotation |
-| A derivative comparison layer | A replacement for Stage 4A or Stage 4B |
-| A source of human-review queues and codebook questions | Permission to edit validated Stage 4 files |
-| Runnable from committed packets and manually supplied submissions | A vendor API integration or paid automation requirement |
+Submissions are untrusted external data. Ingestion checks syntax, schema labels, run identity, packet and prompt hashes, corpus and sentence IDs, packet-unit mappings, duplicate responses, and cross-row CSV metadata. Invalid runs remain visible in the validation report but are excluded from normalized comparison data.
 
-Agreement is diagnostic rather than authoritative. Repeated agreement may indicate a stable coding rule; repeated disagreement may indicate an ambiguous passage, an underspecified codebook rule, model-family correlation, prompt sensitivity, or a weakness in the Stage 4A reference judgment. None of those interpretations can be selected by model consensus alone.
+## Agreement Metrics
 
-## Position in the Evidence System
+Agreement is reported by layer rather than collapsed into one headline score:
 
-```mermaid
-flowchart LR
-  A["Stage 4A evidence chains<br/>immutable reference input"] --> P["Blind packet generator"]
-  B["Stage 4B reliability sample<br/>immutable sampling input"] --> P
-  P --> I["Model input packets"]
-  I --> X["External model reviews<br/>manual, blind submissions"]
-  X --> S["Validated submissions"]
-  A --> C["Comparison and metrics"]
-  B --> C
-  S --> C
-  C --> Q["Human adjudication queue"]
-  Q -. "review-only correction candidates" .-> R["Future documented migration"]
-```
+- metaphor identification;
+- lexical-unit boundary;
+- CMT source domain, target domain, and cluster assignment;
+- Koenigsbergian function, violence logic, and obligatory frame;
+- agency and absence flags; and
+- confidence, ambiguity, and rival-reading presence.
 
-The reference values become available to comparison code only after a model submission has been completed and stored. Blind input packets must not expose Stage 4A answers, Stage 4B second-pass answers, adjudication decisions, synthesis claims, or aggregate results that reveal expected judgments.
+The comparison stage reports model-vs-reference and model-vs-model metrics with explicit denominators. Identification misses remain false negatives rather than disappearing from field-level summaries. Lexical boundaries distinguish exact, partial, absent, and missing spans. A field is not called stable until it has a meaningful comparison denominator.
 
-## Repository Contract
+No aggregate score substitutes for these separate layers. A model can agree on a CMT mapping while disagreeing on its Koenigsbergian function, or identify the same passage while drawing a different lexical boundary; those are methodologically different outcomes.
 
-Stage 4M owns the following paths:
+## Disagreement Typology
 
-| Path | Responsibility |
-| --- | --- |
-| `docs/methodology/multi-model-reliability.md` | Architectural and methodological boundary |
-| `docs/methodology/model-review-instructions.md` | Manual external-review workflow and blindness checklist |
-| `data/reliability/model-input-packets/` | Deterministically generated blind task packets |
-| `data/reliability/model-output-submissions/` | Manually supplied model responses plus provenance metadata |
-| `data/reliability/model-comparison/` | Generated model-vs-reference and model-vs-model results |
-| `data/reliability/model-adjudication/` | Human-review queues, decisions, and codebook-revision candidates |
-| `scripts/stage4m/` | Packet, validation, comparison, reporting, and guardrail scripts |
+Item-level records distinguish disagreement patterns that would be hidden by an aggregate rate. The classifier preserves:
 
-The generator implemented by issue #68 defines the committed blind input-packet contract. Model submissions use the canonical JSON Schema at `schemas/stage4m-model-output.schema.json`. The generated JSON template follows that shape directly; the CSV template repeats run metadata on every row and maps each row to one `items` entry, as declared by the schema's `x-stage4m-csv` annotation. After comparison and disagreement classification, `npm run stage4m:adjudication` creates deterministic JSON and CSV review queues, a human completion template, and the rendered adjudication guide. The legacy `stage4m:queue` alias remains available. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
+- unanimous or majority agreement with the Stage 4A reference;
+- unanimous or majority challenges to the reference;
+- split decisions and single-model outliers;
+- all-model uncertainty;
+- CMT agreement with Koenigsbergian disagreement;
+- lexical-span invention or other model hallucination;
+- sacrifice, providence, and purification over-reads; and
+- every agency/absence dispute.
 
-For the operator-facing manual workflow, including the exact send/do-not-send boundary, provenance fields, filename convention, validated JSON/CSV examples, and ingestion steps, see [Running External Stage 4M Model Reviews](model-review-instructions.md).
+All-model disagreement with Stage 4A is a **reference challenge**, not a correction. Agency/absence disputes and purification-related interpretations remain mandatory human-review priorities even when models converge.
 
-`scripts/stage4m/generate-model-consensus-report.js` then synthesizes the agreement results, disagreement log, and human queue into `model-consensus-report.json` and `model-consensus-report.md`. The report separates stable, unstable, and insufficient-evidence fields; ranks document, cluster, and interpretive-category risk; distinguishes all-model challenges from cases where models support the reference; and carries human-review priorities forward. Its consensus language is deliberately non-decisive.
+## Human Adjudication Boundary
 
-## Immutable Inputs and Write Boundary
+The adjudication queue converts substantive disagreements into reviewable records with source context, reference and model values, priority reasons, and fields for a human decision. Model consensus is diagnostic evidence, not a vote.
 
-Stage 4M may read:
+Stage 4M may write only to its packet, comparison, and adjudication directories plus the generated adjudication guide. A shared symlink-aware guard rejects writes to `corpus/annotated/`, `data/evidence/`, existing Stage 4B files, submission inputs, and any unlisted path.
 
-- `data/evidence/annotation-evidence.json` (Stage 4A reference evidence)
-- `data/reliability/reliability-sample.json` (Stage 4B sample definition)
-- `data/reliability/double-coding-template.csv` and other Stage 4B artifacts when required to reproduce task structure
-- canonical corpus metadata and source text needed to render blind context
+No model output, consensus report, or queue decision can automatically revise Stage 4A. A proposed correction remains a review candidate under `data/reliability/model-adjudication/`. Applying one requires a separately authorized, documented migration that follows Stage immutability, schema propagation, and validation rules.
 
-Stage 4M must never write to:
+## Publication Use
 
-- `corpus/annotated/`
-- `data/evidence/`
-- existing Stage 4B files directly under `data/reliability/`
-- concordance, analysis, synthesis, or claim-audit outputs
+Stage 4M strengthens the publication package by making coding sensitivity inspectable. It can show which fields remain stable across the tested systems, which interpretations are prompt- or model-sensitive, which documents and clusters attract concentrated disagreement, and where the codebook needs clarification. It also makes negative results explicit: **no submissions**, **insufficient evidence**, and **no stable field** are reportable methodological states rather than gaps to conceal.
 
-Any proposed annotation correction remains a review-only record under `model-adjudication/`. Applying a correction requires a separately authorized, documented migration that observes the repository's Stage-immutability and schema-propagation rules.
+The publication may use validated Stage 4M outputs to qualify confidence, describe robustness checks, identify limitations, and explain why certain cases were sent to human review. It may not present model agreement as evidence for a historical claim, independent corroboration, human reliability, or permission to alter the reference corpus.
 
-This boundary is technically enforced by `scripts/stage4m/write-guard.js`. Every Stage 4M writer uses the same symlink-aware allowlist: generated files may be written only beneath `model-input-packets/`, `model-comparison/`, `model-adjudication/`, or to the single generated adjudication-guide path. Writes to `corpus/annotated/`, `data/evidence/`, existing Stage 4B files directly under `data/reliability/`, or any unlisted path fail before filesystem mutation. Queue decisions and suggested corrections are review candidates only; Stage 4M contains no operation that applies them to Stage 4A.
+Publication gates include Stage 4M directly. `npm run validate` checks submissions and generated artifacts; `npm run status` reports lifecycle state; `npm run pipeline` validates inputs before rebuilding analytical outputs; and `quarto render` verifies the rendered methodology package.
 
-## Blindness and Provenance
+## Limitations
 
-Input packets must be reproducible from committed inputs and must separate task material from answer keys. A packet manifest should eventually record source hashes, generator version, task counts, and a deterministic packet identifier without recording reference answers in the reviewer-facing payload.
+- The repository currently contains no external model submissions, so Stage 4M is **designed but not executed** and supports no empirical convergence or divergence claim yet.
+- Model systems are not independent human coders and may share training data, architectures, provider infrastructure, or prompt-response conventions.
+- Results are conditional on the sampled passages, packet construction, prompt, model versions, interface settings, and run date.
+- Model-vs-reference metrics inherit the strengths and possible errors of Stage 4A; reference agreement is not synonymous with truth.
+- Hidden provider instructions and undisclosed inference settings can limit exact reproducibility even when project provenance is complete.
+- The reliability sample does not license corpus-wide frequency claims about model behavior.
+- Consensus thresholds and denominators are diagnostic conventions, not epistemic guarantees.
+- Human adjudication can identify a correction candidate, but only a separate migration can alter canonical data.
 
-Every model submission identifies enough provenance to interpret the result: stable run and model identifiers, provider, model name and version, run date, operator, packet identifier and hash, prompt hash, temperature when known, and free-text notes for other generation settings or context. The canonical schema also preserves explicit uncertainty through `metaphor_present`, `confidence`, `ambiguity_flag`, and `rival_reading` rather than forcing a definitive label.
-
-Submissions are untrusted external data. They must be validated before comparison and preserved as submitted after acceptance; normalization belongs in generated comparison artifacts rather than silent rewrites of the submission.
-
-## Execution and Failure Semantics
-
-The Stage 4M lifecycle has five distinguishable states:
-
-1. **Designed** — architecture and directories exist.
-2. **Packet-ready** — blind packets can be generated deterministically.
-3. **Submission-ready** — model outputs can be ingested and validated.
-4. **Comparable** — enough valid submissions exist for model-vs-reference and model-vs-model metrics.
-5. **Review-ready** — disagreements and correction candidates are available for human adjudication.
-
-An empty submission directory is expected during setup and produces a clear warning rather than a pipeline failure. Malformed submissions, packet mismatches, provenance failures, or attempted writes outside Stage 4M-owned paths fail validation. Invalid files remain represented in both machine-readable and reviewer-readable validation reports and are never partially admitted to `normalized-model-runs.json`.
-
-## Implementation Constraints
-
-- Manual model review must remain possible without vendor API keys or paid API automation.
-- Model-family agreement must not be mistaken for independent corroboration.
-- Agreement is reported by identification, lexical-boundary, CMT, Koenigsberg, agency/absence, and confidence/ambiguity layers; no single aggregate score substitutes for those denominators.
-- Primary model-vs-reference metrics use immutable Stage 4A coder-A values. Stage 4B adjudications remain visible as review context but do not silently replace the reference layer.
-- Item-level disagreement records distinguish methodological disagreement from consensus: all-model challenges to Stage 4A, CMT-agree/Koenigsberg-disagree cases, sacrifice/providence/purification over-reads, and every agency/absence dispute remain explicit human-review priorities.
-- Identification agreement, CMT mapping, Koenigsbergian interpretation, agency/absence flags, and confidence must remain separately reportable rather than collapsed into one score.
-- Negative controls and prompt/run variation may be added later, but they must be labeled and reported separately from primary review runs.
-- No model output, consensus result, or adjudication queue may automatically revise Stage 4A.
-- Stage 4M scripts must use explicit, allowlisted output paths under the repository contract above.
-
-## Follow-Up Issue Boundaries
-
-This architecture intentionally leaves implementation to the ordered v2 issues:
-
-- #68 generates blind input packets and establishes the packet-ready state.
-- #69 defines the model-output schema and JSON/CSV field mapping.
-- #70 ingests and validates JSON/CSV submissions and generates normalized runs plus validation reports.
-- #71 computes layered model-vs-reference and model-vs-model agreement; #72 classifies item-level disagreement and instability; #73 creates the human queue; #81 synthesizes those artifacts into the model consensus report.
-- #74 and #79 integrate commands and publication-gate validation.
-- #80 verifies overwrite guardrails across the completed scripts.
-- #75–#78 and #82–#84 complete instructions, rendered reporting, codebook notes, publication integration, and release checks.
-
-Stage 4M is now runnable end to end with `npm run stage4m`: it generates packets, validates and normalizes submissions, computes comparison and disagreement artifacts, creates the human-review queue, and writes the consensus report. It is not comparable while no valid model submissions exist. No multi-model reliability result should be claimed until validated submissions and comparison outputs exist.
+Until validated submissions exist, the appropriate conclusion is limited: the workflow, contracts, safeguards, and reporting states are operational, but multi-model reliability has not yet been measured.

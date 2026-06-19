@@ -59,6 +59,8 @@ website:
         text: Method Summary
       - href: docs/methodology/research-design.md
         text: Research Design
+      - href: docs/methodology/multi-model-reliability.md
+        text: Stage 4M Reliability
       - href: corpus_index.qmd
         text: Corpus
       - href: data_reproducibility.md
