@@ -1,0 +1,22 @@
+{
+  "schema_version": "stage4m-adjudication-queue-1.0",
+  "status": "no_items",
+  "source_disagreement_log": "data/reliability/model-comparison/model-disagreement-log.json",
+  "source_instability_report": "data/reliability/model-comparison/model-instability-report.md",
+  "source_normalized_runs": "data/reliability/model-comparison/normalized-model-runs.json",
+  "reference_policy": "This queue supports independent human adjudication. Model agreement is evidence about reliability, not authority to revise Stage 4A.",
+  "mutation_policy": "Generated queue records are immutable review inputs. Any Stage 4A change requires a separately authorized, documented migration.",
+  "decision_values": [
+    "retain_stage4a",
+    "document_migration_candidate",
+    "defer_insufficient_evidence",
+    "codebook_clarification"
+  ],
+  "totals": {
+    "queue_items": 0,
+    "high_priority": 0,
+    "medium_priority": 0,
+    "low_priority": 0
+  },
+  "items": []
+}
