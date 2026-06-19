@@ -8,20 +8,24 @@ Stage 4M is an **AI-assisted diagnostic stress test**. It is not a human inter-a
 
 This document defines the architectural boundary for the v2 implementation. Blind input packets are implemented; submission schemas, metrics, and rendered results remain assigned to later issues in the [v2 tracker](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85).
 
-Generate the deterministic blind packet with:
+Run the complete deterministic Stage 4M sequence with:
 
 ```bash
-node scripts/stage4m/generate-model-packets.js
+npm run stage4m
 ```
 
-Validate current submissions without writing generated artifacts, or ingest them and write the comparison-ready outputs, with:
+The full sequence generates blind packets, ingests any manually supplied submissions, computes agreement and disagreement, creates the human adjudication queue, and writes the consensus report. It requires no API keys. With no submissions it completes successfully while emitting explicit warnings and preserving empty/insufficient-evidence outputs.
+
+Run or validate individual stages with:
 
 ```bash
 npm run validate:stage4m
+npm run stage4m:packets
 npm run stage4m:ingest
 npm run stage4m:compare
 npm run stage4m:disagreements
-npm run stage4m:queue
+npm run stage4m:adjudication
+npm run stage4m:consensus
 ```
 
 ## Why the Stage Is Called 4M
@@ -77,7 +81,7 @@ Stage 4M owns the following paths:
 | `data/reliability/model-adjudication/` | Human-review queues, decisions, and codebook-revision candidates |
 | `scripts/stage4m/` | Packet, validation, comparison, reporting, and guardrail scripts |
 
-The generator implemented by issue #68 defines the committed blind input-packet contract. Model submissions use the canonical JSON Schema at `schemas/stage4m-model-output.schema.json`. The generated JSON template follows that shape directly; the CSV template repeats run metadata on every row and maps each row to one `items` entry, as declared by the schema's `x-stage4m-csv` annotation. After comparison and disagreement classification, `npm run stage4m:queue` creates deterministic JSON and CSV review queues, a human completion template, and the rendered adjudication guide. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
+The generator implemented by issue #68 defines the committed blind input-packet contract. Model submissions use the canonical JSON Schema at `schemas/stage4m-model-output.schema.json`. The generated JSON template follows that shape directly; the CSV template repeats run metadata on every row and maps each row to one `items` entry, as declared by the schema's `x-stage4m-csv` annotation. After comparison and disagreement classification, `npm run stage4m:adjudication` creates deterministic JSON and CSV review queues, a human completion template, and the rendered adjudication guide. The legacy `stage4m:queue` alias remains available. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
 
 `scripts/stage4m/generate-model-consensus-report.js` then synthesizes the agreement results, disagreement log, and human queue into `model-consensus-report.json` and `model-consensus-report.md`. The report separates stable, unstable, and insufficient-evidence fields; ranks document, cluster, and interpretive-category risk; distinguishes all-model challenges from cases where models support the reference; and carries human-review priorities forward. Its consensus language is deliberately non-decisive.
 
@@ -143,4 +147,4 @@ This architecture intentionally leaves implementation to the ordered v2 issues:
 - #80 verifies overwrite guardrails across the completed scripts.
 - #75–#78 and #82–#84 complete instructions, rendered reporting, codebook notes, publication integration, and release checks.
 
-Stage 4M is now **packet-ready**, **submission-ready**, and capable of generating the human-review queue. It is not comparable while no valid model submissions exist. No multi-model reliability result should be claimed until validated submissions and comparison outputs exist.
+Stage 4M is now runnable end to end with `npm run stage4m`: it generates packets, validates and normalizes submissions, computes comparison and disagreement artifacts, creates the human-review queue, and writes the consensus report. It is not comparable while no valid model submissions exist. No multi-model reliability result should be claimed until validated submissions and comparison outputs exist.
