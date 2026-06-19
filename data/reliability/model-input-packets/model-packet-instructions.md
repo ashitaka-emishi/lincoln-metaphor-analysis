@@ -1,6 +1,6 @@
 # Stage 4M Blind Model Review Instructions
 
-Packet ID: `stage4m_f7ed246824bbe524`
+Packet ID: `stage4m_0b71d40df438058f`
 
 This is an AI-assisted reliability stress test, not an invitation to revise the reference corpus. Work only from these instructions and the supplied packet files. Do not inspect repository annotations, evidence chains, reliability results, adjudication records, synthesis claims, or prior model submissions.
 
@@ -77,4 +77,4 @@ For every row in `model-packet-field-agreement.jsonl`, code the supplied `provid
 - Do not search for the sentence or span in project outputs.
 - Do not guess the reference answer or optimize for agreement with another reviewer.
 - Do not treat model consensus as authority.
-- Use `historical_semantics_note` and `reviewer_notes` for genuine uncertainty rather than forcing a confident label.
+- Calibrate uncertainty with `confidence`; set `ambiguity_flag` to `yes` when a genuine alternative exists, describe it in `rival_reading`, and explain the uncertainty in `justification`.
