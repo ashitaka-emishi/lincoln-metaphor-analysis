@@ -1,6 +1,6 @@
 # Stage 4M Blind Model Review Instructions
 
-Packet ID: `stage4m_d45620cd10dd4be1`
+Packet ID: `stage4m_f7ed246824bbe524`
 
 This is an AI-assisted reliability stress test, not an invitation to revise the reference corpus. Work only from these instructions and the supplied packet files. Do not inspect repository annotations, evidence chains, reliability results, adjudication records, synthesis claims, or prior model submissions.
 

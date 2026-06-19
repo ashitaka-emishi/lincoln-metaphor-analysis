@@ -6,6 +6,7 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 const Ajv2020 = require('ajv/dist/2020');
+const { writeAtomic } = require('./write-guard');
 
 const ROOT = process.env.STAGE4M_ROOT
   ? path.resolve(process.env.STAGE4M_ROOT)
@@ -328,16 +329,6 @@ function renderMarkdown(report) {
     lines.push('');
   }
   return lines.join('\n').trimEnd() + '\n';
-}
-
-function writeAtomic(filePath, contents) {
-  const resolved = path.resolve(filePath);
-  const outputRoot = path.resolve(OUTPUT_DIR) + path.sep;
-  if (!resolved.startsWith(outputRoot)) throw new Error(`Refusing write outside Stage 4M comparison directory: ${filePath}`);
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  const temporaryPath = `${filePath}.tmp-${process.pid}`;
-  fs.writeFileSync(temporaryPath, contents);
-  fs.renameSync(temporaryPath, filePath);
 }
 
 function loadContext() {

@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeAtomic } = require('./write-guard');
 
 const ROOT = process.env.STAGE4M_ROOT
   ? path.resolve(process.env.STAGE4M_ROOT)
@@ -613,15 +614,6 @@ function renderMarkdown(results) {
     markdownTable(['Pattern', 'Count'], Object.entries(results.agreement_patterns.totals).map(([key, value]) => [key, String(value)])), '',
     '## Reference Policy', '', results.reference_policy);
   return lines.join('\n').trimEnd() + '\n';
-}
-
-function writeAtomic(filePath, contents) {
-  const resolved = path.resolve(filePath);
-  if (!resolved.startsWith(path.resolve(OUTPUT_DIR) + path.sep)) throw new Error(`Refusing write outside Stage 4M comparison directory: ${filePath}`);
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  const temporaryPath = `${filePath}.tmp-${process.pid}`;
-  fs.writeFileSync(temporaryPath, contents);
-  fs.renameSync(temporaryPath, filePath);
 }
 
 function compare({ write }) {

@@ -71,6 +71,24 @@ function npmRun(workspace, script) {
   });
 }
 
+function installValidSubmission(workspace) {
+  const manifest = JSON.parse(fs.readFileSync(
+    path.join(workspace, 'data', 'reliability', 'model-input-packets', 'model-packet-manifest.json'),
+    'utf8'
+  ));
+  const submission = JSON.parse(fs.readFileSync(
+    path.join(ROOT, 'tests', 'fixtures', 'stage4m', 'valid-model-output.json'),
+    'utf8'
+  ));
+  submission.input_packet_id = manifest.packet_id;
+  submission.input_packet_hash = manifest.model_output_contract.input_packet_hash;
+  submission.prompt_hash = manifest.model_output_contract.prompt_hash;
+  fs.writeFileSync(
+    path.join(workspace, 'data', 'reliability', 'model-output-submissions', 'valid-model-output.json'),
+    JSON.stringify(submission, null, 2) + '\n'
+  );
+}
+
 test('package exposes every independent Stage 4M command and the ordered full workflow', () => {
   const scripts = require('../package.json').scripts;
   assert.equal(scripts['stage4m:packets'], 'node scripts/stage4m/generate-model-packets.js');
@@ -169,10 +187,9 @@ test('Stage 4M artifact validation rejects malformed artifact fields', t => {
 
 test('Stage 4M artifact validation rejects normalized packet identity drift', t => {
   const workspace = copyWorkspace(t);
-  fs.cpSync(
-    path.join(ROOT, 'tests', 'fixtures', 'stage4m', 'valid-model-output.json'),
-    path.join(workspace, 'data', 'reliability', 'model-output-submissions', 'valid-model-output.json')
-  );
+  const packets = npmRun(workspace, 'stage4m:packets');
+  assert.equal(packets.status, 0, `${packets.stdout}\n${packets.stderr}`);
+  installValidSubmission(workspace);
   const run = npmRun(workspace, 'stage4m');
   assert.equal(run.status, 0, `${run.stdout}\n${run.stderr}`);
 
@@ -196,10 +213,7 @@ test('Stage 4M validation requires generated outputs when submissions exist', t 
   const workspace = copyWorkspace(t);
   const packets = npmRun(workspace, 'stage4m:packets');
   assert.equal(packets.status, 0, `${packets.stdout}\n${packets.stderr}`);
-  fs.cpSync(
-    path.join(ROOT, 'tests', 'fixtures', 'stage4m', 'valid-model-output.json'),
-    path.join(workspace, 'data', 'reliability', 'model-output-submissions', 'valid-model-output.json')
-  );
+  installValidSubmission(workspace);
 
   const validation = npmRun(workspace, 'validate:stage4m');
   assert.notEqual(validation.status, 0);

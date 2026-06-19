@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeAtomic } = require('./write-guard');
 
 const ROOT = process.env.STAGE4M_ROOT
   ? path.resolve(process.env.STAGE4M_ROOT)
@@ -426,17 +427,6 @@ function renderGuide(queue) {
   return lines.join('\n').trimEnd() + '\n';
 }
 
-function writeAtomic(filePath, contents, root) {
-  const resolved = path.resolve(filePath);
-  if (!resolved.startsWith(path.resolve(root) + path.sep)) {
-    throw new Error(`Refusing write outside allowed Stage 4M path: ${filePath}`);
-  }
-  fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  const temporaryPath = `${filePath}.tmp-${process.pid}`;
-  fs.writeFileSync(temporaryPath, contents);
-  fs.renameSync(temporaryPath, filePath);
-}
-
 function run({ write }) {
   if (!fs.existsSync(INSTABILITY_PATH)) throw new Error(`Instability report missing: ${relative(INSTABILITY_PATH)}`);
   const disagreementLog = readJSON(DISAGREEMENT_PATH);
@@ -446,10 +436,10 @@ function run({ write }) {
   const queue = generateQueue(disagreementLog, normalized, sample, claimAudit);
   const templateRows = makeTemplateRows(queue);
   if (write) {
-    writeAtomic(OUTPUT_PATHS.queueJson, JSON.stringify(queue, null, 2) + '\n', OUTPUT_DIR);
-    writeAtomic(OUTPUT_PATHS.queueCsv, makeCSV(queue.items, QUEUE_COLUMNS), OUTPUT_DIR);
-    writeAtomic(OUTPUT_PATHS.templateCsv, makeCSV(templateRows, TEMPLATE_COLUMNS), OUTPUT_DIR);
-    writeAtomic(GUIDE_PATH, renderGuide(queue), path.dirname(GUIDE_PATH));
+    writeAtomic(OUTPUT_PATHS.queueJson, JSON.stringify(queue, null, 2) + '\n');
+    writeAtomic(OUTPUT_PATHS.queueCsv, makeCSV(queue.items, QUEUE_COLUMNS));
+    writeAtomic(OUTPUT_PATHS.templateCsv, makeCSV(templateRows, TEMPLATE_COLUMNS));
+    writeAtomic(GUIDE_PATH, renderGuide(queue));
   }
   if (queue.status === 'no_items') {
     console.warn('WARN: No Stage 4M disagreement records are available for human adjudication.');

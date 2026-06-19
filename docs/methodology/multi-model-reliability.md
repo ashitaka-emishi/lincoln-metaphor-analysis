@@ -105,6 +105,8 @@ Stage 4M must never write to:
 
 Any proposed annotation correction remains a review-only record under `model-adjudication/`. Applying a correction requires a separately authorized, documented migration that observes the repository's Stage-immutability and schema-propagation rules.
 
+This boundary is technically enforced by `scripts/stage4m/write-guard.js`. Every Stage 4M writer uses the same symlink-aware allowlist: generated files may be written only beneath `model-input-packets/`, `model-comparison/`, `model-adjudication/`, or to the single generated adjudication-guide path. Writes to `corpus/annotated/`, `data/evidence/`, existing Stage 4B files directly under `data/reliability/`, or any unlisted path fail before filesystem mutation. Queue decisions and suggested corrections are review candidates only; Stage 4M contains no operation that applies them to Stage 4A.
+
 ## Blindness and Provenance
 
 Input packets must be reproducible from committed inputs and must separate task material from answer keys. A packet manifest should eventually record source hashes, generator version, task counts, and a deterministic packet identifier without recording reference answers in the reviewer-facing payload.
