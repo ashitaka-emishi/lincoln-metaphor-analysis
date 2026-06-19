@@ -11,7 +11,7 @@ const { writeAtomic } = require('./write-guard');
 const ROOT = process.env.STAGE4M_ROOT
   ? path.resolve(process.env.STAGE4M_ROOT)
   : path.resolve(__dirname, '..', '..');
-const SCRIPT_VERSION = '2.0.0';
+const SCRIPT_VERSION = '2.0.1';
 const SAMPLE_PATH = path.join(ROOT, 'data', 'reliability', 'reliability-sample.json');
 const CODING_TEMPLATE_PATH = path.join(ROOT, 'data', 'reliability', 'double-coding-template.csv');
 const SEGMENTED_DIR = path.join(ROOT, 'corpus', 'segmented');
@@ -481,7 +481,7 @@ ${bulletValues(ABSENCE_FLAGS)}
 - Do not search for the sentence or span in project outputs.
 - Do not guess the reference answer or optimize for agreement with another reviewer.
 - Do not treat model consensus as authority.
-- Use \`historical_semantics_note\` and \`reviewer_notes\` for genuine uncertainty rather than forcing a confident label.
+- Calibrate uncertainty with \`confidence\`; set \`ambiguity_flag\` to \`yes\` when a genuine alternative exists, describe it in \`rival_reading\`, and explain the uncertainty in \`justification\`.
 `;
 }
 

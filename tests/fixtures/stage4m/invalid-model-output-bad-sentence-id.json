@@ -6,9 +6,9 @@
   "model_version": "1.0",
   "run_date": "2026-06-18",
   "operator": "fixture-operator",
-  "input_packet_id": "stage4m_f7ed246824bbe524",
+  "input_packet_id": "stage4m_0b71d40df438058f",
   "input_packet_hash": "eeee9ecdc2f9ff04b8e07fcea415f25d56926f35c34a4f7365ba6e12813a3c04",
-  "prompt_hash": "5175e04f85103ab5064fa4a49b6ccbcb709e8308f823593ece20fafa9f821a4c",
+  "prompt_hash": "d82b8b530f18ee6be7a980fd2f514fdcbfeec306fd17970e4bd7acfa5adefa3d",
   "temperature": null,
   "notes": "Semantically invalid sentence-ID fixture.",
   "items": [

@@ -124,9 +124,9 @@ This is a schema-valid one-item example for the current packet. It intentionally
   "model_version": "1.0",
   "run_date": "2026-06-19",
   "operator": "example-operator",
-  "input_packet_id": "stage4m_f7ed246824bbe524",
+  "input_packet_id": "stage4m_0b71d40df438058f",
   "input_packet_hash": "eeee9ecdc2f9ff04b8e07fcea415f25d56926f35c34a4f7365ba6e12813a3c04",
-  "prompt_hash": "5175e04f85103ab5064fa4a49b6ccbcb709e8308f823593ece20fafa9f821a4c",
+  "prompt_hash": "d82b8b530f18ee6be7a980fd2f514fdcbfeec306fd17970e4bd7acfa5adefa3d",
   "temperature": null,
   "notes": "Format example only; provider settings unavailable.",
   "items": [
@@ -161,7 +161,7 @@ This one-row CSV expresses the same example. Keep the header unchanged. A real s
 
 ```csv
 run_id,model_id,provider,model_name,model_version,run_date,operator,input_packet_id,input_packet_hash,prompt_hash,temperature,notes,task_type,doc_id,sentence_id,span_id,metaphor_present,lexical_unit,lexical_unit_start,lexical_unit_end,source_domain,target_domain,cluster_id,koenigsberg_function,violence_logic,obligatory_frame,agency_or_absence_flag,confidence,ambiguity_flag,rival_reading,justification
-example-csv-2026-06-19-run01,example-csv-model,Example Provider,Example Model,1.0,2026-06-19,example-operator,stage4m_f7ed246824bbe524,eeee9ecdc2f9ff04b8e07fcea415f25d56926f35c34a4f7365ba6e12813a3c04,5175e04f85103ab5064fa4a49b6ccbcb709e8308f823593ece20fafa9f821a4c,,"Format example only; provider settings unavailable.",sentence_identification,doc_001,doc_001_s01_p01_s01,stage4m_unit_00001,no,,,,,,,,,,,medium,no,,No metaphor-related lexical unit was identified.
+example-csv-2026-06-19-run01,example-csv-model,Example Provider,Example Model,1.0,2026-06-19,example-operator,stage4m_0b71d40df438058f,eeee9ecdc2f9ff04b8e07fcea415f25d56926f35c34a4f7365ba6e12813a3c04,d82b8b530f18ee6be7a980fd2f514fdcbfeec306fd17970e4bd7acfa5adefa3d,,"Format example only; provider settings unavailable.",sentence_identification,doc_001,doc_001_s01_p01_s01,stage4m_unit_00001,no,,,,,,,,,,,medium,no,,No metaphor-related lexical unit was identified.
 ```
 
 ## Validate and Ingest

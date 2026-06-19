@@ -121,6 +121,24 @@ test('Stage 4M generator is deterministic and preserves canonical sentence IDs',
     .filter(row => row.task_type === 'field_agreement')
     .every(row => row.lexical_unit));
   assert.ok(jsonTemplate.items.every(row => /^stage4m_unit_[0-9]{5}$/.test(row.span_id)));
+
+  const instructions = first['model-packet-instructions.md'];
+  const outputSchema = JSON.parse(fs.readFileSync(
+    path.join(workspace, 'schemas', 'stage4m-model-output.schema.json'),
+    'utf8'
+  ));
+  for (const field of ['confidence', 'ambiguity_flag', 'rival_reading', 'justification']) {
+    assert.match(instructions, new RegExp(`\\\`${field}\\\``));
+    assert.ok(
+      Object.hasOwn(outputSchema.$defs.item.properties, field),
+      `Reviewer instructions reference '${field}', but the output schema does not accept it`
+    );
+    assert.ok(
+      Object.hasOwn(jsonTemplate.items[0], field),
+      `Reviewer instructions reference '${field}', but the output template does not expose it`
+    );
+  }
+  assert.doesNotMatch(instructions, /`historical_semantics_note`|`reviewer_notes`/);
 });
 
 test('model-output schema defines strict JSON labels and the equivalent CSV mapping', () => {

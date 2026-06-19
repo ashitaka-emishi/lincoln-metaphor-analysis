@@ -5,7 +5,7 @@
   "source_reliability_sample": "data/reliability/reliability-sample.json",
   "source_completed_coding": "data/reliability/double-coding-completed.csv",
   "source_adjudication_log": "data/reliability/adjudication-log.csv",
-  "packet_id": "stage4m_f7ed246824bbe524",
+  "packet_id": "stage4m_0b71d40df438058f",
   "reference_policy": "Primary agreement is scored against immutable Stage 4A coder-A values. Stage 4B adjudications are carried as review context and never overwrite Stage 4A in this output.",
   "metric_notes": {
     "sacrifice_and_redemption": "Binary detection of koenigsberg_function=sacrifice_and_redemption.",
