@@ -83,6 +83,7 @@ test('package exposes every independent Stage 4M command and the ordered full wo
     scripts.stage4m,
     'npm run stage4m:packets && npm run stage4m:ingest && npm run stage4m:compare && npm run stage4m:disagreements && npm run stage4m:adjudication && npm run stage4m:consensus'
   );
+  assert.match(scripts.validate, /npm run validate:stage4m/);
   assert.match(scripts['validate:stage4m'], /validate-artifacts\.js/);
 });
 
@@ -121,6 +122,7 @@ test('full Stage 4M command runs without API keys and preserves the empty-submis
   const validation = npmRun(workspace, 'validate:stage4m');
   assert.equal(validation.status, 0, `${validation.stdout}\n${validation.stderr}`);
   assert.match(validation.stdout, /generated artifacts valid \(6\/6 present\)/);
+  assert.match(validation.stderr, /Stage 4M designed but not executed/);
 });
 
 test('Stage 4M artifact validation rejects cross-file count drift', t => {
@@ -163,4 +165,44 @@ test('Stage 4M artifact validation rejects malformed artifact fields', t => {
   const validation = npmRun(workspace, 'validate:stage4m');
   assert.notEqual(validation.status, 0);
   assert.match(validation.stderr, /human_review_priorities.*must be an array/);
+});
+
+test('Stage 4M artifact validation rejects normalized packet identity drift', t => {
+  const workspace = copyWorkspace(t);
+  fs.cpSync(
+    path.join(ROOT, 'tests', 'fixtures', 'stage4m', 'valid-model-output.json'),
+    path.join(workspace, 'data', 'reliability', 'model-output-submissions', 'valid-model-output.json')
+  );
+  const run = npmRun(workspace, 'stage4m');
+  assert.equal(run.status, 0, `${run.stdout}\n${run.stderr}`);
+
+  const normalizedPath = path.join(
+    workspace,
+    'data',
+    'reliability',
+    'model-comparison',
+    'normalized-model-runs.json'
+  );
+  const normalized = JSON.parse(fs.readFileSync(normalizedPath, 'utf8'));
+  normalized.runs[0].items[0].packet_unit_id = 'stage4m_unit_99999';
+  fs.writeFileSync(normalizedPath, JSON.stringify(normalized, null, 2) + '\n');
+
+  const validation = npmRun(workspace, 'validate:stage4m');
+  assert.notEqual(validation.status, 0);
+  assert.match(validation.stderr, /references unknown packet item 'stage4m_unit_99999'/);
+});
+
+test('Stage 4M validation requires generated outputs when submissions exist', t => {
+  const workspace = copyWorkspace(t);
+  const packets = npmRun(workspace, 'stage4m:packets');
+  assert.equal(packets.status, 0, `${packets.stdout}\n${packets.stderr}`);
+  fs.cpSync(
+    path.join(ROOT, 'tests', 'fixtures', 'stage4m', 'valid-model-output.json'),
+    path.join(workspace, 'data', 'reliability', 'model-output-submissions', 'valid-model-output.json')
+  );
+
+  const validation = npmRun(workspace, 'validate:stage4m');
+  assert.notEqual(validation.status, 0);
+  assert.match(validation.stderr, /generated Stage 4M artifacts are incomplete/);
+  assert.match(validation.stderr, /run 'npm run stage4m'/);
 });

@@ -1,11 +1,13 @@
 #!/usr/bin/env node
-// Pipeline status: shows S1-S4 completion per document, plus concordance and analysis status.
+// Pipeline status: shows S1-S4, aggregate analysis, and Stage 4M status.
 'use strict';
 
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.resolve(__dirname, '..');
+const ROOT = process.env.PIPELINE_ROOT
+  ? path.resolve(process.env.PIPELINE_ROOT)
+  : path.resolve(__dirname, '..');
 const MANIFEST = path.join(ROOT, 'corpus', 'corpus_manifest.json');
 
 function exists(p) {
@@ -18,6 +20,50 @@ function tick(flag) {
 
 function pad(str, len) {
   return String(str).padEnd(len);
+}
+
+function readJSON(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+}
+
+function stage4mStatus(root = ROOT) {
+  const reliability = path.join(root, 'data', 'reliability');
+  const submissionDir = path.join(reliability, 'model-output-submissions');
+  const packetManifestPath = path.join(reliability, 'model-input-packets', 'model-packet-manifest.json');
+  const comparison = path.join(reliability, 'model-comparison');
+  const queuePath = path.join(reliability, 'model-adjudication', 'stage4m-adjudication-queue.json');
+  const submissionFiles = exists(submissionDir)
+    ? fs.readdirSync(submissionDir).filter(name => /\.(json|csv)$/i.test(name) && !name.startsWith('.'))
+    : [];
+  const readOptional = filePath => exists(filePath) ? readJSON(filePath) : null;
+  const packet = readOptional(packetManifestPath);
+  const validation = readOptional(path.join(comparison, 'model-run-validation-report.json'));
+  const normalized = readOptional(path.join(comparison, 'normalized-model-runs.json'));
+  const agreement = readOptional(path.join(comparison, 'model-agreement-results.json'));
+  const disagreements = readOptional(path.join(comparison, 'model-disagreement-log.json'));
+  const queue = readOptional(queuePath);
+  const consensus = readOptional(path.join(comparison, 'model-consensus-report.json'));
+
+  let summary;
+  if (submissionFiles.length === 0) summary = 'Stage 4M designed but not executed';
+  else if (validation?.status === 'validation_failed' || normalized?.status === 'validation_failed') {
+    summary = 'Stage 4M validation failed';
+  } else if (consensus?.status === 'review_ready') summary = 'Stage 4M review ready';
+  else if (agreement?.status === 'complete') summary = 'Stage 4M comparison complete';
+  else summary = 'Stage 4M submissions present; run npm run stage4m';
+
+  return {
+    summary,
+    packet_status: packet?.status || 'not_generated',
+    submission_files: submissionFiles.length,
+    validation_status: validation?.status || 'not_generated',
+    valid_runs: validation?.totals?.valid_runs ?? 0,
+    normalized_status: normalized?.status || 'not_generated',
+    agreement_status: agreement?.status || 'not_generated',
+    disagreement_status: disagreements?.status || 'not_generated',
+    queue_status: queue?.status || 'not_generated',
+    consensus_status: consensus?.status || 'not_generated'
+  };
 }
 
 function main() {
@@ -123,7 +169,20 @@ function main() {
     console.log('  analysis.json not found.');
   }
 
+  const stage4m = stage4mStatus();
+  console.log('\n--- Stage 4M Multi-Model Reliability ---');
+  console.log(`  Status: ${stage4m.summary}`);
+  console.log(`  Packet: ${stage4m.packet_status}`);
+  console.log(`  Submission files: ${stage4m.submission_files}`);
+  console.log(`  Validation: ${stage4m.validation_status} (${stage4m.valid_runs} valid runs)`);
+  console.log(`  Agreement: ${stage4m.agreement_status}`);
+  console.log(`  Disagreements: ${stage4m.disagreement_status}`);
+  console.log(`  Adjudication queue: ${stage4m.queue_status}`);
+  console.log(`  Consensus report: ${stage4m.consensus_status}`);
+
   console.log('');
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = { stage4mStatus };
