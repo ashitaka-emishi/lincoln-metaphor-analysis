@@ -97,12 +97,14 @@ test('package exposes every independent Stage 4M command and the ordered full wo
   assert.equal(scripts['stage4m:disagreements'], 'node scripts/stage4m/classify-model-disagreements.js');
   assert.equal(scripts['stage4m:adjudication'], 'node scripts/stage4m/generate-adjudication-queue.js');
   assert.equal(scripts['stage4m:consensus'], 'node scripts/stage4m/generate-model-consensus-report.js');
+  assert.equal(scripts['stage4m:results'], 'node scripts/stage4m/generate-results-page.js');
   assert.equal(
     scripts.stage4m,
-    'npm run stage4m:packets && npm run stage4m:ingest && npm run stage4m:compare && npm run stage4m:disagreements && npm run stage4m:adjudication && npm run stage4m:consensus'
+    'npm run stage4m:packets && npm run stage4m:ingest && npm run stage4m:compare && npm run stage4m:disagreements && npm run stage4m:adjudication && npm run stage4m:consensus && npm run stage4m:results'
   );
   assert.match(scripts.validate, /npm run validate:stage4m/);
   assert.match(scripts['validate:stage4m'], /validate-artifacts\.js/);
+  assert.match(scripts['validate:stage4m'], /generate-results-page\.js --check/);
 });
 
 test('full Stage 4M command runs without API keys and preserves the empty-submission state', t => {
@@ -131,11 +133,13 @@ test('full Stage 4M command runs without API keys and preserves the empty-submis
     path.join(comparison, 'model-agreement-results.json'),
     path.join(comparison, 'model-disagreement-log.json'),
     path.join(adjudication, 'stage4m-adjudication-queue.json'),
-    path.join(comparison, 'model-consensus-report.json')
+    path.join(comparison, 'model-consensus-report.json'),
+    path.join(workspace, 'docs', 'methodology', 'multi-model-reliability-results.md')
   ];
   assert.ok(expected.every(filePath => fs.existsSync(filePath)));
   assert.equal(JSON.parse(fs.readFileSync(expected[1], 'utf8')).status, 'no_submissions');
   assert.equal(JSON.parse(fs.readFileSync(expected[5], 'utf8')).status, 'no_submissions');
+  assert.match(fs.readFileSync(expected[6], 'utf8'), /designed but not yet executed/);
 
   const validation = npmRun(workspace, 'validate:stage4m');
   assert.equal(validation.status, 0, `${validation.stdout}\n${validation.stderr}`);

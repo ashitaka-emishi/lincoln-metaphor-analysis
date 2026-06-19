@@ -118,13 +118,15 @@ All-model disagreement with Stage 4A is a **reference challenge**, not a correct
 
 The adjudication queue converts substantive disagreements into reviewable records with source context, reference and model values, priority reasons, and fields for a human decision. Model consensus is diagnostic evidence, not a vote.
 
-Stage 4M may write only to its packet, comparison, and adjudication directories plus the generated adjudication guide. A shared symlink-aware guard rejects writes to `corpus/annotated/`, `data/evidence/`, existing Stage 4B files, submission inputs, and any unlisted path.
+Stage 4M may write only to its packet, comparison, and adjudication directories plus the generated adjudication guide and results page. A shared symlink-aware guard rejects writes to `corpus/annotated/`, `data/evidence/`, existing Stage 4B files, submission inputs, and any unlisted path.
 
 No model output, consensus report, or queue decision can automatically revise Stage 4A. A proposed correction remains a review candidate under `data/reliability/model-adjudication/`. Applying one requires a separately authorized, documented migration that follows Stage immutability, schema propagation, and validation rules.
 
 ## Publication Use
 
 Stage 4M strengthens the publication package by making coding sensitivity inspectable. It can show which fields remain stable across the tested systems, which interpretations are prompt- or model-sensitive, which documents and clusters attract concentrated disagreement, and where the codebook needs clarification. It also makes negative results explicit: **no submissions**, **insufficient evidence**, and **no stable field** are reportable methodological states rather than gaps to conceal.
+
+The generated [Multi-Model Reliability Results](multi-model-reliability-results.md) page reports the current run, metric, disagreement, and adjudication state directly from validated Stage 4M JSON artifacts.
 
 The publication may use validated Stage 4M outputs to qualify confidence, describe robustness checks, identify limitations, and explain why certain cases were sent to human review. It may not present model agreement as evidence for a historical claim, independent corroboration, human reliability, or permission to alter the reference corpus.
 

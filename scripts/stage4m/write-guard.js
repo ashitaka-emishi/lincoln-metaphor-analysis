@@ -32,7 +32,8 @@ function createWriteGuard(root) {
     path.join(projectRoot, 'data', 'reliability', 'model-adjudication')
   ];
   const allowedFiles = [
-    path.join(projectRoot, 'docs', 'methodology', 'stage4m-adjudication-guide.md')
+    path.join(projectRoot, 'docs', 'methodology', 'stage4m-adjudication-guide.md'),
+    path.join(projectRoot, 'docs', 'methodology', 'multi-model-reliability-results.md')
   ];
 
   function assertStage4mWritePath(filePath) {
