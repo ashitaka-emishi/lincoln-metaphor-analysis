@@ -6,8 +6,11 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 const { ABSENCE_FLAGS, CLUSTER_IDS, FANTASY_TYPES } = require('../schema_constants');
+const { writeAtomic } = require('./write-guard');
 
-const ROOT = path.resolve(__dirname, '..', '..');
+const ROOT = process.env.STAGE4M_ROOT
+  ? path.resolve(process.env.STAGE4M_ROOT)
+  : path.resolve(__dirname, '..', '..');
 const SCRIPT_VERSION = '2.0.0';
 const SAMPLE_PATH = path.join(ROOT, 'data', 'reliability', 'reliability-sample.json');
 const CODING_TEMPLATE_PATH = path.join(ROOT, 'data', 'reliability', 'double-coding-template.csv');
@@ -482,19 +485,6 @@ ${bulletValues(ABSENCE_FLAGS)}
 `;
 }
 
-function assertOutputPath(filePath) {
-  const resolved = path.resolve(filePath);
-  const outputRoot = path.resolve(OUTPUT_DIR) + path.sep;
-  if (!resolved.startsWith(outputRoot)) throw new Error(`Refusing write outside Stage 4M packet directory: ${filePath}`);
-}
-
-function writeAtomic(filePath, contents) {
-  assertOutputPath(filePath);
-  const temporaryPath = `${filePath}.tmp-${process.pid}`;
-  fs.writeFileSync(temporaryPath, contents);
-  fs.renameSync(temporaryPath, filePath);
-}
-
 function main() {
   const sample = readJSON(SAMPLE_PATH);
   const codingRows = parseCSV(fs.readFileSync(CODING_TEMPLATE_PATH, 'utf8'));
@@ -553,7 +543,6 @@ function main() {
     }, null, 2) + '\n']
   ]);
 
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   for (const [filePath, contents] of artifactContents) writeAtomic(filePath, contents);
 
   const outputs = [...artifactContents.entries()].map(([filePath, contents]) => ({
