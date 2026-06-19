@@ -8,6 +8,9 @@ const path = require('path');
 const ROOT = process.env.STAGE4M_ROOT
   ? path.resolve(process.env.STAGE4M_ROOT)
   : path.resolve(__dirname, '..', '..');
+const RELIABILITY_DIR = path.join(ROOT, 'data', 'reliability');
+const PACKET_DIR = path.join(RELIABILITY_DIR, 'model-input-packets');
+const SUBMISSION_DIR = path.join(RELIABILITY_DIR, 'model-output-submissions');
 
 const CONTRACTS = Object.freeze([
   {
@@ -117,7 +120,87 @@ function assertEqual(left, right, message) {
   if (left !== right) throw new Error(`${message}: ${left} !== ${right}`);
 }
 
-function validateCrossFile(artifacts) {
+function readPacketContext() {
+  const manifestPath = path.join(PACKET_DIR, 'model-packet-manifest.json');
+  if (!fs.existsSync(manifestPath)) return null;
+  const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+  const units = new Map();
+  for (const name of ['model-packet-sentences.jsonl', 'model-packet-field-agreement.jsonl']) {
+    const filePath = path.join(PACKET_DIR, name);
+    if (!fs.existsSync(filePath)) throw new Error(`${relative(filePath)} is required by the packet manifest.`);
+    const lines = fs.readFileSync(filePath, 'utf8').split(/\r?\n/).filter(Boolean);
+    for (const [index, line] of lines.entries()) {
+      let unit;
+      try {
+        unit = JSON.parse(line);
+      } catch (error) {
+        throw new Error(`${relative(filePath)} line ${index + 1} is not valid JSON: ${error.message}`);
+      }
+      if (!unit.packet_unit_id || units.has(unit.packet_unit_id)) {
+        throw new Error(`${relative(filePath)} has a missing or duplicate packet_unit_id at line ${index + 1}.`);
+      }
+      units.set(unit.packet_unit_id, {
+        doc_id: unit.document_id,
+        sentence_id: unit.sentence_id
+      });
+    }
+  }
+  return { manifest, units };
+}
+
+function validatePacketIdentity(artifacts, packetContext) {
+  const [normalized, validation, agreement, disagreements, queue] = artifacts;
+  if (!packetContext) {
+    if (artifacts.some(Boolean)) throw new Error('Generated Stage 4M artifacts exist but the packet manifest is missing.');
+    return;
+  }
+  const { manifest, units } = packetContext;
+  const packetId = manifest.packet_id;
+  const packetHash = manifest.model_output_contract?.input_packet_hash;
+  if (!packetId || !packetHash) throw new Error('Packet manifest is missing packet identity fields.');
+
+  for (const [label, artifact] of [
+    ['normalized runs', normalized],
+    ['validation report', validation],
+    ['agreement results', agreement]
+  ]) {
+    if (!artifact) continue;
+    assertEqual(artifact.packet_id, packetId, `${label} packet ID mismatch`);
+  }
+  for (const [label, artifact] of [
+    ['normalized runs', normalized],
+    ['validation report', validation]
+  ]) {
+    if (!artifact) continue;
+    assertEqual(artifact.input_packet_hash, packetHash, `${label} packet hash mismatch`);
+  }
+
+  for (const run of normalized?.runs || []) {
+    assertEqual(run.input_packet_id, packetId, `Normalized run '${run.run_id}' packet ID mismatch`);
+    assertEqual(run.input_packet_hash, packetHash, `Normalized run '${run.run_id}' packet hash mismatch`);
+    for (const item of run.items || []) {
+      const expected = units.get(item.packet_unit_id);
+      if (!expected) throw new Error(`Normalized run '${run.run_id}' references unknown packet item '${item.packet_unit_id}'.`);
+      assertEqual(item.doc_id, expected.doc_id, `Normalized item '${item.packet_unit_id}' document mismatch`);
+      assertEqual(item.sentence_id, expected.sentence_id, `Normalized item '${item.packet_unit_id}' sentence mismatch`);
+    }
+  }
+
+  for (const item of [...(disagreements?.item_results || []), ...(disagreements?.disagreements || [])]) {
+    const expected = units.get(item.packet_unit_id);
+    if (!expected) throw new Error(`Disagreement artifact references unknown packet item '${item.packet_unit_id}'.`);
+    assertEqual(item.doc_id, expected.doc_id, `Disagreement item '${item.packet_unit_id}' document mismatch`);
+    assertEqual(item.sentence_id, expected.sentence_id, `Disagreement item '${item.packet_unit_id}' sentence mismatch`);
+  }
+  const disagreementIds = new Set((disagreements?.disagreements || []).map(item => item.disagreement_id));
+  for (const item of queue?.items || []) {
+    if (!disagreementIds.has(item.disagreement_id)) {
+      throw new Error(`Adjudication queue references unknown disagreement '${item.disagreement_id}'.`);
+    }
+  }
+}
+
+function validateCrossFile(artifacts, packetContext) {
   const [
     normalized,
     validation,
@@ -150,12 +233,26 @@ function validateCrossFile(artifacts) {
     assertEqual(consensus.summary.disagreement_records, disagreements.disagreements.length, 'Consensus disagreement count mismatch');
     assertEqual(consensus.summary.human_review_items, queue.items.length, 'Consensus review-item count mismatch');
   }
+  validatePacketIdentity(artifacts, packetContext);
 }
 
 function validate() {
   const artifacts = CONTRACTS.map(readArtifact);
   const present = artifacts.filter(Boolean).length;
-  validateCrossFile(artifacts);
+  const packetContext = readPacketContext();
+  const submissionFiles = fs.existsSync(SUBMISSION_DIR)
+    ? fs.readdirSync(SUBMISSION_DIR).filter(name => /\.(json|csv)$/i.test(name) && !name.startsWith('.'))
+    : [];
+  if (submissionFiles.length > 0 && present !== CONTRACTS.length) {
+    const missing = CONTRACTS
+      .filter((contract, index) => !artifacts[index])
+      .map(contract => contract.path.join('/'));
+    throw new Error(`Model submissions exist but generated Stage 4M artifacts are incomplete; run 'npm run stage4m'. Missing: ${missing.join(', ')}`);
+  }
+  validateCrossFile(artifacts, packetContext);
+  if (submissionFiles.length === 0) {
+    console.warn('WARN: Stage 4M designed but not executed (no model-output submissions).');
+  }
   if (present === 0) {
     console.warn('WARN: No generated Stage 4M JSON artifacts exist yet.');
   } else {

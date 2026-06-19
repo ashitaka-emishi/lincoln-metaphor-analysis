@@ -16,6 +16,8 @@ npm run stage4m
 
 The full sequence generates blind packets, ingests any manually supplied submissions, computes agreement and disagreement, creates the human adjudication queue, and writes the consensus report. It requires no API keys. With no submissions it completes successfully while emitting explicit warnings and preserving empty/insufficient-evidence outputs.
 
+The publication gates include Stage 4M directly. `npm run validate` checks submission schemas, packet hashes, corpus and packet identities, generated artifact shapes, and cross-file counts. `npm run status` reports packet, submission, validation, comparison, adjudication, and consensus states. Before any model output is supplied, both commands identify the layer as **Stage 4M designed but not executed** rather than treating the absence of runs as a failure.
+
 Run or validate individual stages with:
 
 ```bash
