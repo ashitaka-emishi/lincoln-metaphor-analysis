@@ -77,6 +77,7 @@ Stage 4M owns the following paths:
 | Path | Responsibility |
 | --- | --- |
 | `docs/methodology/multi-model-reliability.md` | Architectural and methodological boundary |
+| `docs/methodology/model-review-instructions.md` | Manual external-review workflow and blindness checklist |
 | `data/reliability/model-input-packets/` | Deterministically generated blind task packets |
 | `data/reliability/model-output-submissions/` | Manually supplied model responses plus provenance metadata |
 | `data/reliability/model-comparison/` | Generated model-vs-reference and model-vs-model results |
@@ -84,6 +85,8 @@ Stage 4M owns the following paths:
 | `scripts/stage4m/` | Packet, validation, comparison, reporting, and guardrail scripts |
 
 The generator implemented by issue #68 defines the committed blind input-packet contract. Model submissions use the canonical JSON Schema at `schemas/stage4m-model-output.schema.json`. The generated JSON template follows that shape directly; the CSV template repeats run metadata on every row and maps each row to one `items` entry, as declared by the schema's `x-stage4m-csv` annotation. After comparison and disagreement classification, `npm run stage4m:adjudication` creates deterministic JSON and CSV review queues, a human completion template, and the rendered adjudication guide. The legacy `stage4m:queue` alias remains available. The directory contract is stable: scripts may add files beneath these Stage 4M paths but must not repurpose existing Stage 4A or Stage 4B locations.
+
+For the operator-facing manual workflow, including the exact send/do-not-send boundary, provenance fields, filename convention, validated JSON/CSV examples, and ingestion steps, see [Running External Stage 4M Model Reviews](model-review-instructions.md).
 
 `scripts/stage4m/generate-model-consensus-report.js` then synthesizes the agreement results, disagreement log, and human queue into `model-consensus-report.json` and `model-consensus-report.md`. The report separates stable, unstable, and insufficient-evidence fields; ranks document, cluster, and interpretive-category risk; distinguishes all-model challenges from cases where models support the reference; and carries human-review priorities forward. Its consensus language is deliberately non-decisive.
 
