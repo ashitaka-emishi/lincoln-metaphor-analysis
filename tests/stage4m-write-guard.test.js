@@ -24,7 +24,8 @@ test('write guard permits only declared Stage 4M output locations', t => {
     path.join(root, 'data', 'reliability', 'model-input-packets', 'manifest.json'),
     path.join(root, 'data', 'reliability', 'model-comparison', 'agreement.json'),
     path.join(root, 'data', 'reliability', 'model-adjudication', 'candidate.csv'),
-    path.join(root, 'docs', 'methodology', 'stage4m-adjudication-guide.md')
+    path.join(root, 'docs', 'methodology', 'stage4m-adjudication-guide.md'),
+    path.join(root, 'docs', 'methodology', 'multi-model-reliability-results.md')
   ];
   for (const filePath of allowed) {
     assert.doesNotThrow(() => guard.assertStage4mWritePath(filePath));
@@ -84,7 +85,8 @@ test('all Stage 4M writers use the shared guard and avoid direct filesystem writ
     'compare-model-runs.js',
     'classify-model-disagreements.js',
     'generate-adjudication-queue.js',
-    'generate-model-consensus-report.js'
+    'generate-model-consensus-report.js',
+    'generate-results-page.js'
   ];
   for (const name of writerNames) {
     const source = fs.readFileSync(path.join(stage4mDir, name), 'utf8');

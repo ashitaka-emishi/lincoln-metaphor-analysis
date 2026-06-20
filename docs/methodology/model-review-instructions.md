@@ -207,6 +207,7 @@ Start with these generated files:
 | `model-consensus-report.md` | Summarizes stable, unstable, and insufficient-evidence fields |
 | `stage4m-adjudication-queue.csv` | Lists disagreements requiring human review |
 | `stage4m-adjudication-guide.md` | Explains the human review process |
+| `multi-model-reliability-results.md` | Provides the generated publication-facing run and results summary |
 
 Interpret agreement conservatively:
 
