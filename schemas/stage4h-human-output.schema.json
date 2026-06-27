@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/schemas/stage4h-human-output.schema.json",
+  "title": "Stage 4H human reliability output",
+  "description": "Canonical submission contract for one human coder's blind reliability worksheet. CSV submissions use the flattened mapping in x-stage4h-csv and normalize to this JSON shape before validation. Runtime validators must additionally cross-check doc_id and sentence_id values against the known IDs in the Stage 4H input packet manifest.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "submission_id",
+    "coder_id",
+    "coder_role",
+    "submission_date",
+    "input_packet_id",
+    "input_packet_hash",
+    "training_completed",
+    "conflict_disclosure",
+    "notes",
+    "items"
+  ],
+  "properties": {
+    "submission_id": { "type": "string", "minLength": 1 },
+    "coder_id": { "type": "string", "minLength": 1 },
+    "coder_role": { "const": "human_coder" },
+    "submission_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Calendar date in YYYY-MM-DD format."
+    },
+    "input_packet_id": {
+      "type": "string",
+      "pattern": "^stage4h_[a-f0-9]{16}$"
+    },
+    "input_packet_hash": { "$ref": "#/$defs/sha256" },
+    "training_completed": { "type": "boolean" },
+    "conflict_disclosure": { "type": "string" },
+    "notes": { "type": "string" },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/item" }
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "nullableString": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "yesNoUncertain": {
+      "enum": ["yes", "no", "uncertain"]
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "One coded unit. Multiple lexical units in a single sentence are submitted as separate items sharing the same sentence_id with distinct span_id values.",
+      "required": [
+        "task_type",
+        "doc_id",
+        "sentence_id",
+        "span_id",
+        "metaphor_present",
+        "lexical_unit",
+        "lexical_unit_start",
+        "lexical_unit_end",
+        "basic_meaning",
+        "contextual_meaning",
+        "semantic_contrast",
+        "source_domain",
+        "target_domain",
+        "cluster_id",
+        "mapping_description",
+        "koenigsberg_function",
+        "violence_logic",
+        "obligatory_frame",
+        "sacrifice_logic",
+        "guilt_logic",
+        "providence_logic",
+        "reconciliation_logic",
+        "primary_actor",
+        "acted_upon_entity",
+        "agency_status",
+        "absence_flag",
+        "enslaved_people_present",
+        "black_soldiers_present",
+        "disease_or_purification_present",
+        "confidence",
+        "ambiguity_flag",
+        "rival_reading",
+        "out_of_scope",
+        "coder_comment"
+      ],
+      "properties": {
+        "task_type": {
+          "enum": ["sentence_identification", "field_agreement"]
+        },
+        "doc_id": {
+          "type": "string",
+          "pattern": "^doc_[0-9]{3}[a-z]?$"
+        },
+        "sentence_id": {
+          "type": "string",
+          "pattern": "^doc_[0-9]{3}[a-z]?_s[0-9]{2}_p[0-9]{2}_s[0-9]{2}$"
+        },
+        "span_id": { "$ref": "#/$defs/nullableString" },
+        "metaphor_present": { "$ref": "#/$defs/yesNoUncertain" },
+        "lexical_unit": { "$ref": "#/$defs/nullableString" },
+        "lexical_unit_start": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "lexical_unit_end": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "basic_meaning": { "$ref": "#/$defs/nullableString" },
+        "contextual_meaning": { "$ref": "#/$defs/nullableString" },
+        "semantic_contrast": { "$ref": "#/$defs/yesNoUncertain" },
+        "source_domain": { "$ref": "#/$defs/nullableString" },
+        "target_domain": { "$ref": "#/$defs/nullableString" },
+        "cluster_id": {
+          "oneOf": [
+            {
+              "enum": [
+                "cluster_01_body_organism",
+                "cluster_02_covenant_oath",
+                "cluster_03_experiment_proposition",
+                "cluster_04_birth_creation",
+                "cluster_05_fathers_inheritance",
+                "cluster_06_providence_theodicy"
+              ]
+            },
+            { "type": "null" }
+          ]
+        },
+        "mapping_description": { "$ref": "#/$defs/nullableString" },
+        "koenigsberg_function": {
+          "oneOf": [
+            {
+              "enum": [
+                "wound_and_healing",
+                "birth_and_creation",
+                "sacrifice_and_redemption",
+                "oath_and_obligation",
+                "punishment_and_theodicy",
+                "ancestral_debt",
+                "experiment_and_proof",
+                "disease_and_purification"
+              ]
+            },
+            { "type": "null" }
+          ]
+        },
+        "violence_logic": {
+          "description": "One or more pipe-separated values from: restorative, generative, punitive, purifying, evidentiary, obligatory. Null when not applicable.",
+          "$ref": "#/$defs/nullableString"
+        },
+        "obligatory_frame": { "$ref": "#/$defs/nullableString" },
+        "sacrifice_logic": { "$ref": "#/$defs/nullableString" },
+        "guilt_logic": { "$ref": "#/$defs/nullableString" },
+        "providence_logic": { "$ref": "#/$defs/nullableString" },
+        "reconciliation_logic": { "$ref": "#/$defs/nullableString" },
+        "primary_actor": { "$ref": "#/$defs/nullableString" },
+        "acted_upon_entity": { "$ref": "#/$defs/nullableString" },
+        "agency_status": {
+          "enum": ["active", "passive", "displaced", "erased", "abstracted", "uncertain", "none"]
+        },
+        "absence_flag": {
+          "description": "One absence flag per item row. Submit additional rows to record multiple flags for the same sentence.",
+          "oneOf": [
+            {
+              "enum": [
+                "enslaved_people_non_agent",
+                "black_soldiers_erased",
+                "lincoln_non_agent",
+                "confederates_depersonalized",
+                "death_abstracted",
+                "women_absent",
+                "disease_purification_absent"
+              ]
+            },
+            { "type": "null" }
+          ]
+        },
+        "enslaved_people_present": { "$ref": "#/$defs/yesNoUncertain" },
+        "black_soldiers_present": { "$ref": "#/$defs/yesNoUncertain" },
+        "disease_or_purification_present": { "$ref": "#/$defs/yesNoUncertain" },
+        "confidence": { "enum": ["high", "medium", "low"] },
+        "ambiguity_flag": { "enum": ["yes", "no"] },
+        "rival_reading": { "$ref": "#/$defs/nullableString" },
+        "out_of_scope": { "enum": ["yes", "no"] },
+        "coder_comment": { "type": "string" }
+      }
+    }
+  },
+  "x-stage4h-csv": {
+    "layout": "flattened-items",
+    "description": "Repeat identical submission metadata on every row. Each row maps to one items entry. Empty nullable cells normalize to JSON null; lexical offsets normalize to integers; training_completed normalizes from 'true'/'false' string to boolean.",
+    "metadata_columns": [
+      "submission_id",
+      "coder_id",
+      "coder_role",
+      "submission_date",
+      "input_packet_id",
+      "input_packet_hash",
+      "training_completed",
+      "conflict_disclosure",
+      "notes"
+    ],
+    "item_columns": [
+      "task_type",
+      "doc_id",
+      "sentence_id",
+      "span_id",
+      "metaphor_present",
+      "lexical_unit",
+      "lexical_unit_start",
+      "lexical_unit_end",
+      "basic_meaning",
+      "contextual_meaning",
+      "semantic_contrast",
+      "source_domain",
+      "target_domain",
+      "cluster_id",
+      "mapping_description",
+      "koenigsberg_function",
+      "violence_logic",
+      "obligatory_frame",
+      "sacrifice_logic",
+      "guilt_logic",
+      "providence_logic",
+      "reconciliation_logic",
+      "primary_actor",
+      "acted_upon_entity",
+      "agency_status",
+      "absence_flag",
+      "enslaved_people_present",
+      "black_soldiers_present",
+      "disease_or_purification_present",
+      "confidence",
+      "ambiguity_flag",
+      "rival_reading",
+      "out_of_scope",
+      "coder_comment"
+    ],
+    "null_value": "",
+    "metadata_consistency": "All metadata columns must have identical values on every row."
+  }
+}
