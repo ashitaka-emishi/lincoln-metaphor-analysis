@@ -1,0 +1,7 @@
+calibration_id,task_type,document_id,sentence_id,mipvu_decision,span_text,span_char_start,span_char_end,cluster_id,source_domain,target_domain,entailments,fantasy_type,violence_logic,obligatory_frame,obligatory_frame_notes,absence_flags,absence_notes,confidence_score,ambiguity_flag,ambiguity_notes,rival_reading,coder_notes
+cal_001,sentence_identification,doc_002,doc_002_training_cal001,,,,,,,,,,,,,,,,,,
+cal_002,sentence_identification,doc_015,doc_015_training_cal002,,,,,,,,,,,,,,,,,,
+cal_003,sentence_identification,doc_012,doc_012_training_cal003,,,,,,,,,,,,,,,,,,
+cal_004,field_agreement,doc_009,doc_009_training_cal004,metaphor_related,oath registered in heaven,11,36,,,,,,,,,,,,,,
+cal_005,field_agreement,doc_016,doc_016_training_cal005,metaphor_related,"a just God, in his own good time, will give us the rightful result",55,120,cluster_06_providence_theodicy,,,,,,,,,,,,
+cal_006,field_agreement,doc_004,doc_004_training_cal006,metaphor_related,Near eighty years ago we began by declaring,0,42,cluster_05_fathers_inheritance,,,,,,,,,,,,
