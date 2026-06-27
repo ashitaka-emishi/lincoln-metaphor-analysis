@@ -476,6 +476,7 @@ function main() {
       reliability_results_included: false,
       synthesis_claims_included: false
     },
+    input_packet_hash: inputPacketHash,
     selected_document_ids: selectedDocumentIds,
     counts: {
       sentence_identification_units: packets.identification.length,

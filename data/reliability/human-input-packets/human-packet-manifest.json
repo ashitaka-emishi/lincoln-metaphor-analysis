@@ -1,7 +1,7 @@
 {
   "schema_version": "stage4h-packet-manifest-1.0",
-  "packet_id": "stage4h_351d4c720190980e",
-  "generated_at": "2026-06-27T15:04:28.014Z",
+  "packet_id": "stage4h_464cb792dc71a0db",
+  "generated_at": "2026-06-27T15:05:36.781Z",
   "generation_timestamp_source": "system clock at first generation for packet_id",
   "generator": {
     "path": "scripts/stage4h/generate-human-packets.js",
@@ -17,6 +17,7 @@
     "reliability_results_included": false,
     "synthesis_claims_included": false
   },
+  "input_packet_hash": "2e413a38d5588500d636bfd1fbec694ee0f7f0c9b56fdba1778bc3313d22ed2d",
   "selected_document_ids": [
     "doc_001",
     "doc_006g",
@@ -72,7 +73,7 @@
     },
     {
       "path": "scripts/stage4h/generate-human-packets.js",
-      "sha256": "1c31d89257464d47166437ab2c9c510cdf6a390b96f82e2b8bb9f675eb0cb970"
+      "sha256": "f48c08d94014b7eb29097b0ff7c0e74a7c107a8ce7484a27ade6a6fc492c998b"
     }
   ],
   "outputs": [
@@ -88,7 +89,7 @@
     },
     {
       "path": "data/reliability/human-input-packets/human-packet-instructions.md",
-      "sha256": "db83f0de5ef984ff36d26db6f09cf1cef57a0995a91d916e74b74b5cd778e08f",
+      "sha256": "ff1191d63f83512ad7beed4a2076a0b50a8e5bbc8d8b79bdbd418f039040445c",
       "records": null
     },
     {
@@ -98,7 +99,7 @@
     },
     {
       "path": "data/reliability/human-input-packets/human-coder-template.json",
-      "sha256": "62456c66a1abb543f4fb01a9dc56373567beaeec55d884cc2e80126700463a4e",
+      "sha256": "bbb1bc0c51c758dc0b51df481d398a7b5b0404e41071b076af76066b26a09044",
       "records": 106
     }
   ]
