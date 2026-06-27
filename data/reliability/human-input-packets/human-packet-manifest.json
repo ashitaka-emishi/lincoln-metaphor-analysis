@@ -1,0 +1,105 @@
+{
+  "schema_version": "stage4h-packet-manifest-1.0",
+  "packet_id": "stage4h_351d4c720190980e",
+  "generated_at": "2026-06-27T15:04:28.014Z",
+  "generation_timestamp_source": "system clock at first generation for packet_id",
+  "generator": {
+    "path": "scripts/stage4h/generate-human-packets.js",
+    "version": "1.0.0",
+    "runtime": "node"
+  },
+  "status": "packet_ready",
+  "blindness": {
+    "stage4a_reference_values_included": false,
+    "stage4b_values_included": false,
+    "stage4m_values_included": false,
+    "adjudication_results_included": false,
+    "reliability_results_included": false,
+    "synthesis_claims_included": false
+  },
+  "selected_document_ids": [
+    "doc_001",
+    "doc_006g",
+    "doc_010",
+    "doc_017",
+    "doc_021"
+  ],
+  "counts": {
+    "sentence_identification_units": 55,
+    "field_agreement_units": 51,
+    "template_rows": 106
+  },
+  "source_files": [
+    {
+      "path": "corpus/segmented/doc_001.json",
+      "sha256": "6dc448102bd0dc56ffb71edf5f8296b8347bc19a88c72d6b48750d96d5a2a156"
+    },
+    {
+      "path": "corpus/segmented/doc_006g.json",
+      "sha256": "34ef794aa2d8295542bd2fd00770d7dd0fa691e3f07126647182b6acecd80344"
+    },
+    {
+      "path": "corpus/segmented/doc_010.json",
+      "sha256": "4b0b450fd9cb844172889e9b10b75c0fcf512095ffa96705b2090e4903eca51d"
+    },
+    {
+      "path": "corpus/segmented/doc_017.json",
+      "sha256": "5e824e0668570a85fd7d3089c7cc017ff36156f64c092fc8fca100e7731e9bab"
+    },
+    {
+      "path": "corpus/segmented/doc_021.json",
+      "sha256": "40848b6deeb91eab3cc515a5d673089f0d9bf796be7f03a1aa5f43d8a5145920"
+    },
+    {
+      "path": "data/reliability/human-input-packets/human-sample-design.md",
+      "sha256": "14c30d119789d10f64c97abab896353ff9be18eae89ab842e2ef91a5ec6ca67d"
+    },
+    {
+      "path": "data/reliability/reliability-sample.json",
+      "sha256": "498294f373fbb09921233986f768c1e6c982c108f1e9e12862249cf225df2f6a"
+    },
+    {
+      "path": "docs/methodology/annotation-codebook.md",
+      "sha256": "1c6d5582e0696f209215cc8eb27a544293a2be7500eeede46062ce6297a05093"
+    },
+    {
+      "path": "docs/methodology/human-coder-training-guide.md",
+      "sha256": "fdb7b12d67aeaac6632860895fda8bfbc97967c9f87b785e11ef574137043a4f"
+    },
+    {
+      "path": "scripts/schema_constants.js",
+      "sha256": "e9d6e35a6eca21f9271fffbe44dd9b74795392b6a42fdb1b6251b8136737fe98"
+    },
+    {
+      "path": "scripts/stage4h/generate-human-packets.js",
+      "sha256": "1c31d89257464d47166437ab2c9c510cdf6a390b96f82e2b8bb9f675eb0cb970"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/reliability/human-input-packets/human-sentence-identification-packet.jsonl",
+      "sha256": "3e526ddaee1911f78ddf3c20aaa05d13672a8402d9461e1adea6d596ce9d9104",
+      "records": 55
+    },
+    {
+      "path": "data/reliability/human-input-packets/human-field-agreement-packet.jsonl",
+      "sha256": "b436020e580600f06e52621b0fee43fb38955ecf44c6857ab662c7acd9ad88e3",
+      "records": 51
+    },
+    {
+      "path": "data/reliability/human-input-packets/human-packet-instructions.md",
+      "sha256": "db83f0de5ef984ff36d26db6f09cf1cef57a0995a91d916e74b74b5cd778e08f",
+      "records": null
+    },
+    {
+      "path": "data/reliability/human-input-packets/human-coder-template.csv",
+      "sha256": "1263e5dc13c13ca7373cb82796b058f0fda5a6ccc30a8071533142ebf1b85f3c",
+      "records": 106
+    },
+    {
+      "path": "data/reliability/human-input-packets/human-coder-template.json",
+      "sha256": "62456c66a1abb543f4fb01a9dc56373567beaeec55d884cc2e80126700463a4e",
+      "records": 106
+    }
+  ]
+}
