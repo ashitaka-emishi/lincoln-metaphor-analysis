@@ -47,8 +47,8 @@
       "sentence_id": "doc_009_training_cal004",
       "sentence_text": "You have no oath registered in heaven to destroy the government, while I shall have the most solemn one to preserve, protect, and defend it.",
       "span_text": "oath registered in heaven",
-      "span_char_start": 11,
-      "span_char_end": 36,
+      "span_char_start": 12,
+      "span_char_end": 37,
       "instruction": "This span has been identified as metaphor-related. Assign the CMT cluster, source domain, target domain, and at least one entailment."
     },
     {
