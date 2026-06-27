@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "purpose": "TRAINING ONLY — calibration practice packet for Stage 4H human coders",
+  "warning": "This packet includes answer-key guidance. The actual blind reliability packet will not include answers or explanations.",
+  "reliability_sample_contamination_check": "None of these sentences appear in doc_001, doc_006g, doc_010, doc_017, or doc_021.",
+  "items": [
+    {
+      "calibration_id": "cal_001",
+      "task_type": "sentence_identification",
+      "focus": "positive metaphor identification",
+      "document_id": "doc_002",
+      "document_title": "Temperance Address",
+      "document_date": "1842-02-22",
+      "sentence_id": "doc_002_training_cal001",
+      "sentence_text": "In it the world has found a solution of the long mooted problem, as to the capability of man to govern himself.",
+      "instruction": "Does this sentence contain at least one metaphor-related lexical unit? If yes, identify the narrowest span that activates the mapping."
+    },
+    {
+      "calibration_id": "cal_002",
+      "task_type": "sentence_identification",
+      "focus": "negative control — not metaphor-related",
+      "document_id": "doc_015",
+      "document_title": "Final Emancipation Proclamation",
+      "document_date": "1863-01-01",
+      "sentence_id": "doc_015_training_cal002",
+      "sentence_text": "I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free.",
+      "instruction": "Does this sentence contain at least one metaphor-related lexical unit? If yes, identify the narrowest span that activates the mapping."
+    },
+    {
+      "calibration_id": "cal_003",
+      "task_type": "sentence_identification",
+      "focus": "ambiguous case",
+      "document_id": "doc_012",
+      "document_title": "Greeley Letter",
+      "document_date": "1862-08-22",
+      "sentence_id": "doc_012_training_cal003",
+      "sentence_text": "My paramount object in this struggle is to save the Union, and is not either to save or to destroy slavery.",
+      "instruction": "Does this sentence contain at least one metaphor-related lexical unit? If yes, identify the narrowest span. If uncertain, record your reasoning and set ambiguity_flag."
+    },
+    {
+      "calibration_id": "cal_004",
+      "task_type": "field_agreement",
+      "focus": "CMT source/target domain and cluster assignment",
+      "document_id": "doc_009",
+      "document_title": "First Inaugural Address",
+      "document_date": "1861-03-04",
+      "sentence_id": "doc_009_training_cal004",
+      "sentence_text": "You have no oath registered in heaven to destroy the government, while I shall have the most solemn one to preserve, protect, and defend it.",
+      "span_text": "oath registered in heaven",
+      "span_char_start": 12,
+      "span_char_end": 37,
+      "instruction": "This span has been identified as metaphor-related. Assign the CMT cluster, source domain, target domain, and at least one entailment."
+    },
+    {
+      "calibration_id": "cal_005",
+      "task_type": "field_agreement",
+      "focus": "Koenigsberg fantasy type, violence logic, and obligatory frame",
+      "document_id": "doc_016",
+      "document_title": "Conkling Letter",
+      "document_date": "1863-08-26",
+      "sentence_id": "doc_016_training_cal005",
+      "sentence_text": "Let us diligently apply the means, never doubting that a just God, in his own good time, will give us the rightful result.",
+      "span_text": "a just God, in his own good time, will give us the rightful result",
+      "span_char_start": 55,
+      "span_char_end": 120,
+      "instruction": "This span has been identified as metaphor-related (cluster_06_providence_theodicy). Assign the fantasy type, violence logic, and obligatory frame. Explain the source of obligation in obligatory_frame_notes."
+    },
+    {
+      "calibration_id": "cal_006",
+      "task_type": "field_agreement",
+      "focus": "absence and agency coding",
+      "document_id": "doc_004",
+      "document_title": "Peoria Speech",
+      "document_date": "1854-10-16",
+      "sentence_id": "doc_004_training_cal006",
+      "sentence_text": "Near eighty years ago we began by declaring that all men are created equal; but now from that beginning we have run down to the other declaration, that for SOME men to enslave OTHERS is a \"sacred right of self-government.\" These principles can not stand together.",
+      "span_text": "Near eighty years ago we began by declaring",
+      "span_char_start": 0,
+      "span_char_end": 42,
+      "instruction": "This span has been identified as metaphor-related (cluster_05_fathers_inheritance, ancestral_debt). Focus on absence and agency: which groups are implied by the inheritance frame and which are withheld from the agentive or inheriting role?"
+    }
+  ]
+}

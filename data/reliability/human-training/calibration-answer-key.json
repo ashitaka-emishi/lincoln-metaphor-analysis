@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "purpose": "TRAINING ONLY — answer key for calibration-packet.json",
+  "warning": "This file contains explanations for training purposes only. Do not share with coders before or during the blind reliability study. The actual blind reliability packet does not include answers.",
+  "items": [
+    {
+      "calibration_id": "cal_001",
+      "expected_mipvu_decision": "metaphor_related",
+      "expected_span": "solution of the long mooted problem, as to the capability of man to govern himself",
+      "expected_span_char_start": 29,
+      "expected_span_char_end": 110,
+      "expected_cluster_id": "cluster_03_experiment_proposition",
+      "expected_source_domain": "resolution of a logical or scientific problem",
+      "expected_target_domain": "democratic self-governance as a question answerable by evidence",
+      "expected_entailments": [
+        "Self-governance is a proposition subject to proof, not an assumption",
+        "Temperance reform constitutes positive evidence that humans can govern themselves",
+        "The question has now been answered by the observed result"
+      ],
+      "expected_fantasy_type": "experiment_and_proof",
+      "expected_confidence": 0.88,
+      "explanation": "The phrase draws on the vocabulary of logical and scientific problem-solving ('solution', 'mooted problem') to frame political self-governance as an empirical question with an observable answer. The entailments are active: the result (successful reform) counts as proof. This is cluster_03 in its early formulation, before the Civil War makes the proof-through-sacrifice version dominant."
+    },
+    {
+      "calibration_id": "cal_002",
+      "expected_mipvu_decision": "not_metaphor_related",
+      "expected_span": null,
+      "expected_cluster_id": null,
+      "explanation": "This is operative legal language performing a declaration. 'Order', 'declare', 'held as slaves', 'free' are all used in their direct legal and literal senses. There is no concrete source domain being applied to a political target through contrast and comparison. The legal register here suppresses body, covenant, birth, and inheritance language. This is a negative control: the correct answer is no metaphor-related unit. Coders who mark this as metaphor-related should review the MIPVU contrast-and-comparison test."
+    },
+    {
+      "calibration_id": "cal_003",
+      "expected_mipvu_decision": "uncertain — acceptable range: metaphor_related (confidence 0.70) or not_metaphor_related",
+      "expected_span": "to save the Union",
+      "expected_cluster_id": "cluster_01_body_organism (if annotated)",
+      "expected_ambiguity_flag": true,
+      "expected_confidence_range": "0.50–0.72",
+      "explanation": "'Save' carries bodily entailments (rescuing a body from destruction or death), but by 1862 'save the Union' is highly conventionalized. The body-organism entailments (wound, illness, healing) are not explicitly activated in context. A coder who marks it metaphor-related should set ambiguity_flag and score confidence at 0.70 or below, and record the rival reading that this may be idiomatic. A coder who marks it not metaphor-related is also correct if they cannot state the active entailments. Both are valid results; this is an ambiguity case."
+    },
+    {
+      "calibration_id": "cal_004",
+      "expected_mipvu_decision": "metaphor_related",
+      "expected_span": "oath registered in heaven",
+      "expected_span_char_start": 12,
+      "expected_span_char_end": 37,
+      "expected_cluster_id": "cluster_02_covenant_oath",
+      "expected_source_domain": "legal document registration in a formal registry",
+      "expected_target_domain": "the presidential oath as a transcendent, divinely witnessed obligation",
+      "expected_entailments": [
+        "Heaven functions as a registry or witness institution with binding authority",
+        "The presidential oath acquires a character beyond ordinary law — it is unbreakable",
+        "Lincoln's oath binds him in a way that supersedes political calculation"
+      ],
+      "expected_fantasy_type": "oath_and_obligation",
+      "expected_violence_logic": "obligatory",
+      "expected_obligatory_frame": true,
+      "expected_obligatory_frame_notes": "The oath makes preservation of the government mandatory, not chosen. Oaths registered in heaven cannot be set aside.",
+      "expected_confidence": 0.90,
+      "explanation": "The core mapping is 'oath registered in heaven': oath-keeping is framed as a legal registration in a transcendent registry. The entailments are that Lincoln's presidential oath binds him with divine-legal force; Confederates have no equivalent divine-legal obligation to destroy the government; Lincoln's obligation is unbreakable. Cluster_02, fantasy oath_and_obligation, obligatory frame true."
+    },
+    {
+      "calibration_id": "cal_005",
+      "expected_mipvu_decision": "metaphor_related",
+      "expected_span": "a just God, in his own good time, will give us the rightful result",
+      "expected_span_char_start": 55,
+      "expected_span_char_end": 120,
+      "expected_cluster_id": "cluster_06_providence_theodicy",
+      "expected_source_domain": "divine justice as a guarantor operating on its own schedule",
+      "expected_target_domain": "Union military and moral success as divinely assured",
+      "expected_fantasy_type": "punishment_and_theodicy",
+      "expected_violence_logic": "divinely_guaranteed",
+      "expected_obligatory_frame": true,
+      "expected_obligatory_frame_notes": "Human actors must apply the means diligently but may not doubt the outcome; God's timing supersedes human impatience. The frame makes trust and diligence obligatory.",
+      "expected_absence_flags": ["lincoln_non_agent"],
+      "expected_absence_notes": "Lincoln positions himself and his audience as instruments of divine will rather than as independent agents choosing an outcome. The result is given by God; humans supply diligence.",
+      "expected_confidence": 0.88,
+      "explanation": "The mapping frames Union success as a divine guarantee: God is just, God acts in good time, God will give the rightful result. Human agents must diligently apply means but cannot and should not doubt the outcome — Providence controls the result. Fantasy_type is punishment_and_theodicy (the just God will vindicate the righteous cause). lincoln_non_agent applies because Lincoln places himself and his audience in the instrument role."
+    },
+    {
+      "calibration_id": "cal_006",
+      "expected_mipvu_decision": "metaphor_related",
+      "expected_span": "Near eighty years ago we began by declaring",
+      "expected_span_char_start": 0,
+      "expected_span_char_end": 42,
+      "expected_cluster_id": "cluster_05_fathers_inheritance",
+      "expected_source_domain": "founding as an inherited starting point that establishes a trajectory",
+      "expected_target_domain": "the Declaration of Independence as the beginning point of an obligatory political arc",
+      "expected_entailments": [
+        "The Declaration is the starting point from which all subsequent political positions must be measured",
+        "Eighty years of trajectory measures the distance from the founding standard",
+        "Kansas-Nebraska represents departure from the founding beginning"
+      ],
+      "expected_fantasy_type": "ancestral_debt",
+      "expected_obligatory_frame": true,
+      "expected_absence_flags": ["enslaved_people_non_agent"],
+      "expected_absence_notes": "The sentence frames 'all men are created equal' as the founding declaration, but enslaved people are the object of the slavery debate, not agents, inheritors, or covenant parties in the frame Lincoln is constructing. The inheritance logic extends to 'we' — an implied political community that does not include enslaved people as active participants.",
+      "expected_confidence": 0.85,
+      "explanation": "The span frames the Declaration of Independence as a 'beginning' — a founding starting point that creates a trajectory and an inherited obligation. The contrast is between 'began by declaring all men equal' and the subsequent drift toward treating some men's enslavement as a 'sacred right.' Cluster_05 (fathers_inheritance), fantasy ancestral_debt. The absence flag enslaved_people_non_agent applies: the inheritance logic is structured around 'we' (white male political actors) while enslaved people appear only as the object of the debate."
+    }
+  ]
+}
