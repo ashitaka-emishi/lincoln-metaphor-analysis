@@ -1,0 +1,46 @@
+{
+  "schema_version": "stage4h-human-agreement-fixture-1.0",
+  "status": "fixture_only",
+  "packet_id": "stage4h_dac4a065fdfff159",
+  "coder_ids": ["human_coder_a", "human_coder_b"],
+  "layers": {
+    "metaphor_identification": {
+      "agreement": 1,
+      "disagreement": 0,
+      "percent_agreement": 1
+    },
+    "lexical_unit_boundary": {
+      "exact": 1,
+      "partial": 0,
+      "missing": 0
+    },
+    "cmt_mapping": {
+      "cluster_agreement": 1,
+      "source_target_agreement": 1
+    },
+    "koenigsberg_interpretation": {
+      "function_agreement": 1,
+      "violence_logic_agreement": 1
+    },
+    "agency_absence": {
+      "agency_agreement": 1,
+      "absence_flag_agreement": 1
+    },
+    "confidence_ambiguity": {
+      "confidence_agreement": 1,
+      "ambiguity_agreement": 1
+    }
+  },
+  "items": [
+    {
+      "packet_unit_id": "stage4h_ident_00001",
+      "agreement_pattern": "unanimous_no_metaphor",
+      "requires_stage4j": false
+    },
+    {
+      "packet_unit_id": "stage4h_field_00001",
+      "agreement_pattern": "full_field_match",
+      "requires_stage4j": false
+    }
+  ]
+}

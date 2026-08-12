@@ -1,0 +1,3 @@
+decision_id,disagreement_id,packet_unit_id,field_name,decision,adjudicated_value,rationale,stage4a_correction_candidate,codebook_revision_needed
+stage4j_decision_0001,stage4h_disagreement_0001,stage4h_field_00001,koenigsberg_function,select_coder_a,ancestral_debt,Coder A better captures the explicit inheritance frame.,false,false
+stage4j_decision_0002,stage4h_disagreement_0002,stage4h_field_00001,agency_status,document_migration_candidate,active,The acting subject is explicit in the fixture sentence.,true,true
