@@ -1,0 +1,29 @@
+{
+  "schema_version": "stage4j-adjudication-queue-1.0",
+  "status": "no_items",
+  "source_disagreement_log": "data/reliability/human-comparison/human-disagreement-log.json",
+  "source_human_vs_reference": "data/reliability/human-comparison/human-vs-reference-results.json",
+  "source_instability_report": "data/reliability/human-comparison/human-instability-report.md",
+  "packet_id": "stage4h_dac4a065fdfff159",
+  "input_packet_hash": "2e413a38d5588500d636bfd1fbec694ee0f7f0c9b56fdba1778bc3313d22ed2d",
+  "adjudication_policy": "Stage 4J adjudication resolves human-coder disagreements for review. It does not automatically modify Stage 4A.",
+  "mutation_policy": "Queue and template records are review inputs only. Stage 4A correction candidates require a separately authorized migration.",
+  "decision_values": [
+    "accept_coder_a",
+    "accept_coder_b",
+    "accept_stage4a",
+    "synthesize",
+    "mark_uncertain",
+    "exclude",
+    "defer"
+  ],
+  "totals": {
+    "queue_items": 0,
+    "high_priority": 0,
+    "medium_priority": 0,
+    "low_priority": 0,
+    "agency_or_absence_items": 0,
+    "disease_or_purification_items": 0
+  },
+  "items": []
+}
