@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/schemas/corpus-inventory.schema.json",
+  "title": "Corpus inventory",
+  "description": "Inventory-level contract for v1 and v4 corpus inventories. Each document record validates against corpus-document.schema.json, while inventory-level counts support coverage and expansion reporting.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "inventory_id",
+    "corpus_version",
+    "created_date",
+    "description",
+    "source_files",
+    "document_count",
+    "tier_counts",
+    "documents"
+  ],
+  "properties": {
+    "inventory_id": {
+      "type": "string",
+      "pattern": "^corpus_inventory_[a-z0-9_-]+$"
+    },
+    "corpus_version": {
+      "type": "string",
+      "pattern": "^v?[0-9]+(?:\\.[0-9]+)?$"
+    },
+    "created_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_files": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sourceFile" },
+      "uniqueItems": true
+    },
+    "document_count": {
+      "type": "number",
+      "minimum": 0
+    },
+    "tier_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "v1",
+        "v4_core",
+        "v4_validation",
+        "v4_reference"
+      ],
+      "properties": {
+        "v1": { "type": "number", "minimum": 0 },
+        "v4_core": { "type": "number", "minimum": 0 },
+        "v4_validation": { "type": "number", "minimum": 0 },
+        "v4_reference": { "type": "number", "minimum": 0 }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "items": { "$ref": "corpus-document.schema.json" },
+      "uniqueItems": true
+    }
+  },
+  "$defs": {
+    "sourceFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "role"],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "enum": [
+            "schema",
+            "source_authority",
+            "inventory_source",
+            "generated_output",
+            "manual_review"
+          ]
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
