@@ -1,0 +1,53 @@
+{
+  "schema_version": "stage4h-human-reliability-report-1.0",
+  "status": "designed_but_not_executed",
+  "adjudication_status": "no_decisions",
+  "source_human_agreement": "data/reliability/human-comparison/human-agreement-results.json",
+  "source_human_vs_reference": "data/reliability/human-comparison/human-vs-reference-results.json",
+  "source_human_disagreement_log": "data/reliability/human-comparison/human-disagreement-log.json",
+  "source_stage4j_adjudication_decisions": "data/reliability/human-adjudication/stage4j-adjudication-decisions-normalized.json",
+  "packet_id": "stage4h_dac4a065fdfff159",
+  "input_packet_hash": "2e413a38d5588500d636bfd1fbec694ee0f7f0c9b56fdba1778bc3313d22ed2d",
+  "separation_policy": "Human-human agreement, human-vs-Stage 4A comparison, Stage 4B AI-assisted review, and Stage 4M model-consensus diagnostics are reported separately and are not averaged.",
+  "stage4a_policy": "Stage 4H and Stage 4J outputs are review layers. They do not modify Stage 4A.",
+  "totals": {
+    "primary_human_coders": 0,
+    "packet_units": 106,
+    "identification_units": 55,
+    "field_agreement_units": 51,
+    "disagreements": 0,
+    "adjudication_decisions": 0,
+    "stage4a_correction_candidates": 0
+  },
+  "summaries": {
+    "identification": null,
+    "lexical_boundary": null,
+    "cmt_mapping": [],
+    "koenigsberg_interpretation": [],
+    "absence_agency": [],
+    "disease_purification": [],
+    "confidence_ambiguity": [],
+    "human_vs_reference_subjects": [],
+    "disagreement_categories": []
+  },
+  "required_sections": [
+    "Study Design",
+    "Human Coders",
+    "Blindness Protocol",
+    "Sample",
+    "Coding Tasks",
+    "Identification Reliability",
+    "Lexical Boundary Agreement",
+    "CMT Mapping Agreement",
+    "Koenigsberg Interpretive Agreement",
+    "Absence and Agency Agreement",
+    "Disease and Purification Checks",
+    "Confidence and Ambiguity",
+    "Human-vs-Reference Comparison",
+    "Disagreement Categories",
+    "Adjudication Summary",
+    "Codebook Implications",
+    "Limitations",
+    "Publication Use"
+  ]
+}

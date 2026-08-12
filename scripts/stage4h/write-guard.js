@@ -14,7 +14,9 @@ const STAGE4H_ALLOWED_DIRECTORIES = [
   canonicalPath(path.join(DEFAULT_ROOT, 'data', 'reliability', 'human-adjudication'))
 ];
 
-const STAGE4H_ALLOWED_FILES = [];
+const STAGE4H_ALLOWED_FILES = [
+  canonicalPath(path.join(DEFAULT_ROOT, 'docs', 'methodology', 'human-reliability-results.md'))
+];
 
 function writeAtomic(filePath, contents) {
   const target = canonicalPath(filePath);
