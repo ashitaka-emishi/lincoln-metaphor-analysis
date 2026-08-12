@@ -1,0 +1,61 @@
+{
+  "register_id": "source_authority_register_v4_seed",
+  "created_date": "2026-08-12",
+  "description": "Preferred and fallback source authorities for v4 corpus provenance. Preferred authorities should be used for core and validation corpus records whenever available.",
+  "source_authorities": [
+    {
+      "source_id": "collected_works_michigan",
+      "name": "Collected Works of Abraham Lincoln, University of Michigan Digital Edition",
+      "type": "scholarly_edition",
+      "authority_level": "preferred",
+      "base_url": "https://quod.lib.umich.edu/l/lincoln/",
+      "citation_format": "Collected Works of Abraham Lincoln, volume and page range, University of Michigan Digital Edition.",
+      "notes": "Primary preferred source for the current v1 corpus and v4 core carry-forward records."
+    },
+    {
+      "source_id": "abraham_lincoln_papers_loc",
+      "name": "Abraham Lincoln Papers at the Library of Congress",
+      "type": "archival_site",
+      "authority_level": "preferred",
+      "base_url": "https://www.loc.gov/collections/abraham-lincoln-papers/",
+      "citation_format": "Abraham Lincoln Papers, Library of Congress, item title, date, and collection identifier.",
+      "notes": "Preferred authority for manuscript provenance, disputed variants, and item-level archival confirmation when available."
+    },
+    {
+      "source_id": "national_archives",
+      "name": "National Archives",
+      "type": "archival_site",
+      "authority_level": "acceptable",
+      "base_url": "https://www.archives.gov/",
+      "citation_format": "National Archives, record group or exhibit title, item title, date, and URL.",
+      "notes": "Acceptable authority for official documents and federal records where a more specific scholarly edition is not available."
+    },
+    {
+      "source_id": "miller_center",
+      "name": "Miller Center Presidential Speeches",
+      "type": "documentary_project",
+      "authority_level": "supplemental",
+      "base_url": "https://millercenter.org/the-presidency/presidential-speeches",
+      "citation_format": "Miller Center Presidential Speeches, speech title, date, and URL.",
+      "notes": "Supplemental public-facing transcription source; should not replace scholarly edition or archival provenance for core claims."
+    },
+    {
+      "source_id": "teaching_american_history",
+      "name": "Teaching American History",
+      "type": "documentary_project",
+      "authority_level": "supplemental",
+      "base_url": "https://teachingamericanhistory.org/",
+      "citation_format": "Teaching American History, document title, date, and URL.",
+      "notes": "Useful for discovery and classroom-facing access, but core and validation records require preferred or acceptable authority confirmation."
+    },
+    {
+      "source_id": "uncurated_public_domain_site",
+      "name": "Uncurated public-domain transcription site",
+      "type": "public_domain_site",
+      "authority_level": "avoid_unless_needed",
+      "base_url": null,
+      "citation_format": "Site name, page title, date accessed, and URL.",
+      "notes": "Use only for reference-corpus discovery or when no stronger source is available; mark all such records with text-integrity cautions."
+    }
+  ]
+}

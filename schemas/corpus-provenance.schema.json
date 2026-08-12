@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/schemas/corpus-provenance.schema.json",
+  "title": "Corpus provenance and source authority",
+  "description": "Contracts for corpus source-authority registers and document-level provenance records used by v4 corpus expansion.",
+  "oneOf": [
+    { "$ref": "#/$defs/sourceAuthorityRegister" },
+    { "$ref": "#/$defs/corpusProvenance" }
+  ],
+  "$defs": {
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "sourceId": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "nullableString": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "null" }
+      ]
+    },
+    "sourceAuthority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "name",
+        "type",
+        "authority_level",
+        "base_url",
+        "citation_format",
+        "notes"
+      ],
+      "properties": {
+        "source_id": { "$ref": "#/$defs/sourceId" },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "enum": [
+            "scholarly_edition",
+            "documentary_project",
+            "archival_site",
+            "public_domain_site",
+            "secondary_reference",
+            "other"
+          ]
+        },
+        "authority_level": {
+          "enum": [
+            "preferred",
+            "acceptable",
+            "supplemental",
+            "avoid_unless_needed"
+          ]
+        },
+        "base_url": { "$ref": "#/$defs/nullableString" },
+        "citation_format": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "sourceAuthorityRegister": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "register_id",
+        "created_date",
+        "description",
+        "source_authorities"
+      ],
+      "properties": {
+        "register_id": {
+          "type": "string",
+          "pattern": "^source_authority_register_[a-z0-9_-]+$"
+        },
+        "created_date": { "$ref": "#/$defs/date" },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_authorities": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceAuthority" },
+          "uniqueItems": true
+        }
+      }
+    },
+    "provenanceRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "doc_id",
+        "source_id",
+        "source_url",
+        "retrieval_date",
+        "edition_or_collection",
+        "volume_or_identifier",
+        "text_integrity_notes",
+        "known_variants",
+        "authorship_notes",
+        "license_or_rights_notes"
+      ],
+      "properties": {
+        "doc_id": {
+          "type": "string",
+          "pattern": "^doc_[0-9]{3}[a-z]?$"
+        },
+        "source_id": { "$ref": "#/$defs/sourceId" },
+        "source_url": { "$ref": "#/$defs/nullableString" },
+        "retrieval_date": { "$ref": "#/$defs/date" },
+        "edition_or_collection": {
+          "type": "string",
+          "minLength": 1
+        },
+        "volume_or_identifier": { "$ref": "#/$defs/nullableString" },
+        "text_integrity_notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "known_variants": {
+          "type": "string"
+        },
+        "authorship_notes": {
+          "type": "string"
+        },
+        "license_or_rights_notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "corpusProvenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provenance_id",
+        "corpus_version",
+        "created_date",
+        "description",
+        "source_authority_register",
+        "provenance_count",
+        "records"
+      ],
+      "properties": {
+        "provenance_id": {
+          "type": "string",
+          "pattern": "^corpus_provenance_[a-z0-9_-]+$"
+        },
+        "corpus_version": {
+          "type": "string",
+          "pattern": "^v?[0-9]+(?:\\.[0-9]+)?$"
+        },
+        "created_date": { "$ref": "#/$defs/date" },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_authority_register": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance_count": {
+          "type": "number",
+          "minimum": 0
+        },
+        "records": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/provenanceRecord" },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}
