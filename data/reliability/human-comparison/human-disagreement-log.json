@@ -1,0 +1,23 @@
+{
+  "schema_version": "stage4h-human-disagreement-log-1.0",
+  "status": "no_submissions",
+  "source_human_agreement": "data/reliability/human-comparison/human-agreement-results.json",
+  "source_normalized_runs": "data/reliability/human-comparison/normalized-human-runs.json",
+  "source_human_vs_reference": "data/reliability/human-comparison/human-vs-reference-results.json",
+  "source_claim_audit": "data/audit/claim-audit.json",
+  "packet_id": "stage4h_dac4a065fdfff159",
+  "input_packet_hash": "2e413a38d5588500d636bfd1fbec694ee0f7f0c9b56fdba1778bc3313d22ed2d",
+  "policy": "Human disagreement categories are Stage 4J review signals. They do not revise Stage 4A and are not blended with AI-assisted reliability layers.",
+  "totals": {
+    "primary_human_coders": 0,
+    "disagreements": 0,
+    "requires_human_adjudication": 0,
+    "major_document_disagreements": 0,
+    "major_synthesis_claim_disagreements": 0,
+    "agency_or_absence_disagreements": 0,
+    "disease_or_purification_disagreements": 0
+  },
+  "category_counts": {},
+  "agreement_pattern_counts": {},
+  "disagreements": []
+}
