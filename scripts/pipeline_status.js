@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Pipeline status: shows S1-S4, aggregate analysis, and Stage 4M status.
+// Pipeline status: shows S1-S4, aggregate analysis, and reliability status.
 'use strict';
 
 const fs = require('fs');
@@ -63,6 +63,87 @@ function stage4mStatus(root = ROOT) {
     disagreement_status: disagreements?.status || 'not_generated',
     queue_status: queue?.status || 'not_generated',
     consensus_status: consensus?.status || 'not_generated'
+  };
+}
+
+function jsonOrCsvFiles(directory) {
+  return exists(directory)
+    ? fs.readdirSync(directory).filter(name => /\.(json|csv)$/i.test(name) && !name.startsWith('.'))
+    : [];
+}
+
+function stage4hStatus(root = ROOT) {
+  const reliability = path.join(root, 'data', 'reliability');
+  const submissionDir = path.join(reliability, 'human-output-submissions');
+  const packetManifestPath = path.join(reliability, 'human-input-packets', 'human-packet-manifest.json');
+  const comparison = path.join(reliability, 'human-comparison');
+  const readOptional = filePath => exists(filePath) ? readJSON(filePath) : null;
+  const submissionFiles = jsonOrCsvFiles(submissionDir);
+  const packet = readOptional(packetManifestPath);
+  const validation = readOptional(path.join(comparison, 'human-output-validation-report.json'));
+  const normalized = readOptional(path.join(comparison, 'normalized-human-runs.json'));
+  const agreement = readOptional(path.join(comparison, 'human-agreement-results.json'));
+  const reference = readOptional(path.join(comparison, 'human-vs-reference-results.json'));
+  const disagreements = readOptional(path.join(comparison, 'human-disagreement-log.json'));
+  const report = readOptional(path.join(comparison, 'human-reliability-report.json'));
+
+  let summary;
+  if (validation?.status === 'validation_failed' || normalized?.status === 'validation_failed') {
+    summary = 'Stage 4H validation failed';
+  } else if (report?.status === 'complete_enough_for_metrics' || agreement?.status === 'complete') {
+    summary = 'Stage 4H complete enough for metrics';
+  } else if (report?.status === 'partially_executed' || validation?.totals?.primary_coders === 1) {
+    summary = 'Stage 4H partially executed';
+  } else if (submissionFiles.length === 0) {
+    summary = 'Stage 4H designed but not executed';
+  } else {
+    summary = 'Stage 4H submissions present; run npm run stage4h';
+  }
+
+  return {
+    summary,
+    packet_status: packet?.status || 'not_generated',
+    submission_files: submissionFiles.length,
+    validation_status: validation?.status || 'not_generated',
+    valid_submissions: validation?.totals?.valid_submissions ?? 0,
+    primary_coders: validation?.totals?.primary_coders ?? 0,
+    normalized_status: normalized?.status || 'not_generated',
+    agreement_status: agreement?.status || 'not_generated',
+    reference_status: reference?.status || 'not_generated',
+    disagreement_status: disagreements?.status || 'not_generated',
+    reliability_report_status: report?.status || 'not_generated'
+  };
+}
+
+function stage4jStatus(root = ROOT) {
+  const reliability = path.join(root, 'data', 'reliability');
+  const adjudication = path.join(reliability, 'human-adjudication');
+  const readOptional = filePath => exists(filePath) ? readJSON(filePath) : null;
+  const queue = readOptional(path.join(adjudication, 'stage4j-adjudication-queue.json'));
+  const decisions = readOptional(path.join(adjudication, 'stage4j-adjudication-decisions-normalized.json'));
+  const correctionCandidates = readOptional(path.join(adjudication, 'stage4j-stage4a-correction-candidates.json'));
+  const decisionFiles = [
+    path.join(adjudication, 'stage4j-adjudication-decisions.json'),
+    path.join(adjudication, 'stage4j-adjudication-decisions.csv')
+  ].filter(filePath => exists(filePath)).length;
+
+  let summary;
+  if (decisions?.status === 'validation_failed') summary = 'Stage 4J validation failed';
+  else if (decisions?.status === 'valid') summary = 'Stage 4J adjudication executed';
+  else if (decisions?.status === 'incomplete') summary = 'Stage 4J adjudication incomplete';
+  else if (queue || decisions?.status === 'no_decisions') summary = 'Stage 4J adjudication pending';
+  else summary = 'Stage 4J not generated';
+
+  return {
+    summary,
+    queue_status: queue?.status || 'not_generated',
+    queue_items: queue?.totals?.queue_items ?? 0,
+    decision_files: decisionFiles,
+    decision_status: decisions?.status || 'not_generated',
+    valid_decisions: decisions?.totals?.valid_decisions ?? 0,
+    missing_decisions: decisions?.totals?.missing_decisions ?? 0,
+    correction_candidate_status: correctionCandidates?.status || 'not_generated',
+    stage4a_correction_candidates: correctionCandidates?.candidates?.length ?? 0
   };
 }
 
@@ -180,9 +261,28 @@ function main() {
   console.log(`  Adjudication queue: ${stage4m.queue_status}`);
   console.log(`  Consensus report: ${stage4m.consensus_status}`);
 
+  const stage4h = stage4hStatus();
+  console.log('\n--- Stage 4H Human Inter-Annotator Reliability ---');
+  console.log(`  Status: ${stage4h.summary}`);
+  console.log(`  Packet: ${stage4h.packet_status}`);
+  console.log(`  Submission files: ${stage4h.submission_files}`);
+  console.log(`  Validation: ${stage4h.validation_status} (${stage4h.valid_submissions} valid submissions; ${stage4h.primary_coders} primary coders)`);
+  console.log(`  Agreement: ${stage4h.agreement_status}`);
+  console.log(`  Human-vs-reference: ${stage4h.reference_status}`);
+  console.log(`  Disagreements: ${stage4h.disagreement_status}`);
+  console.log(`  Reliability report: ${stage4h.reliability_report_status}`);
+
+  const stage4j = stage4jStatus();
+  console.log('\n--- Stage 4J Human Adjudication ---');
+  console.log(`  Status: ${stage4j.summary}`);
+  console.log(`  Adjudication queue: ${stage4j.queue_status} (${stage4j.queue_items} items)`);
+  console.log(`  Decision files: ${stage4j.decision_files}`);
+  console.log(`  Decisions: ${stage4j.decision_status} (${stage4j.valid_decisions} valid; ${stage4j.missing_decisions} missing)`);
+  console.log(`  Stage 4A correction candidates: ${stage4j.correction_candidate_status} (${stage4j.stage4a_correction_candidates})`);
+
   console.log('');
 }
 
 if (require.main === module) main();
 
-module.exports = { stage4mStatus };
+module.exports = { stage4mStatus, stage4hStatus, stage4jStatus };
