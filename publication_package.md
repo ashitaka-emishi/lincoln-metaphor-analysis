@@ -128,6 +128,7 @@ Stage 4M model agreement or disagreement, once submissions exist, can identify c
 | Stage 4M model-review workflow | Designed and operational; no submissions yet | [Stage 4M Methodology](docs/methodology/multi-model-reliability.md), [Stage 4M Results](docs/methodology/multi-model-reliability-results.md), [Stage 4M Codebook Revision Notes](docs/methodology/stage4m-codebook-revision-notes.md), [V2 Release Checklist](docs/release/v2-stage4m-release-checklist.md) |
 | Stage 4H human reliability workflow | Designed and operational; no human submissions yet | [Stage 4H Methodology](docs/methodology/human-interannotator-reliability.md), [Stage 4H Results](docs/methodology/human-reliability-results.md), `data/reliability/human-input-packets/`, `data/reliability/human-comparison/` |
 | Stage 4J human adjudication workflow | Pending; no adjudication decisions yet | [Stage 4J Guide](docs/methodology/human-adjudication-guide.md), [Stage 4J Results](docs/methodology/stage4j-adjudication-results.md), [Stage 4H/4J Codebook Revision Notes](docs/methodology/stage4h-codebook-revision-notes.md), `data/reliability/human-adjudication/` |
+| V3 human reliability release gate | Checklist ready; human execution items remain unchecked | [V3 Human Reliability Release Checklist](docs/release/v3-human-reliability-release-checklist.md) |
 | Register/authorship controls | Complete | [Controlled Outputs](analysis/controlled_outputs.md) |
 | Claim-to-source audit | Complete | [Claim-To-Source Audit](synthesis/claim_audit.md) |
 | Synthesis revision | Complete | [Findings](synthesis/findings.md), [Final Conclusions](synthesis/final_conclusions.md) |
@@ -139,4 +140,4 @@ Stage 4M model agreement or disagreement, once submissions exist, can identify c
 
 Future research directions are bounded in [Open Questions](synthesis/open_questions.md), [External Benchmarks](docs/methodology/external-benchmarks.md), and [Reconstruction Extension Scope](docs/methodology/reconstruction-extension-scope.md). They are not prerequisites for the current publication package.
 
-The v2 Stage 4M release-readiness gate is tracked in the [V2 Stage 4M Release Checklist](docs/release/v2-stage4m-release-checklist.md).
+The v2 Stage 4M release-readiness gate is tracked in the [V2 Stage 4M Release Checklist](docs/release/v2-stage4m-release-checklist.md). The v3 human reliability release gate is tracked in the [V3 Human Reliability Release Checklist](docs/release/v3-human-reliability-release-checklist.md).
