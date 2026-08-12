@@ -70,6 +70,8 @@ website:
         text: Stage 4H Results
       - href: docs/methodology/stage4j-adjudication-results.md
         text: Stage 4J Results
+      - href: docs/methodology/stage4h-codebook-revision-notes.md
+        text: Stage 4H/4J Codebook Notes
       - href: corpus_index.qmd
         text: Corpus
       - href: data_reproducibility.md
