@@ -3,8 +3,8 @@
 const path = require('path');
 const { canonicalPath, pathWithin } = require('../stage4m/write-guard');
 
-const DEFAULT_ROOT = process.env.STAGE4H_ROOT
-  ? path.resolve(process.env.STAGE4H_ROOT)
+const DEFAULT_ROOT = (process.env.STAGE4H_ROOT || process.env.STAGE4J_ROOT)
+  ? path.resolve(process.env.STAGE4H_ROOT || process.env.STAGE4J_ROOT)
   : path.resolve(__dirname, '..', '..');
 
 // Use canonicalPath so symlinked roots resolve the same way as write targets.

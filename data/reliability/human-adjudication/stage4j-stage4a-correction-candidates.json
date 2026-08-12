@@ -1,0 +1,7 @@
+{
+  "schema_version": "stage4j-stage4a-correction-candidates-1.0",
+  "status": "no_candidates",
+  "source_normalized_decisions": "data/reliability/human-adjudication/stage4j-adjudication-decisions-normalized.json",
+  "mutation_policy": "Correction candidates are review-only and do not modify Stage 4A.",
+  "candidates": []
+}
