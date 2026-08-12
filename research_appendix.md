@@ -39,6 +39,9 @@ Document-level close readings are linked beside their source texts in the [Corpu
 - [Reliability Workflow](docs/methodology/reliability-report.md)
 - [Human Double-Coding Protocol](docs/methodology/human-double-coding-protocol.md)
 - [Reliability Results](docs/methodology/reliability-results.md)
+- [Stage 4M Multi-Model Reliability](docs/methodology/multi-model-reliability.md)
+- [Stage 4M Multi-Model Results](docs/methodology/multi-model-reliability-results.md)
+- [Stage 4M Codebook Revision Notes](docs/methodology/stage4m-codebook-revision-notes.md)
 - [External Benchmarks](docs/methodology/external-benchmarks.md)
 - [Reception Evidence](docs/methodology/reception-evidence.md)
 - [Reconstruction Extension Scope](docs/methodology/reconstruction-extension-scope.md)
@@ -60,4 +63,5 @@ Document-level close readings are linked beside their source texts in the [Corpu
 ## Project Record
 
 - [Design Decisions](docs/DECISIONS.md)
+- [V2 Stage 4M Release Checklist](docs/release/v2-stage4m-release-checklist.md)
 - [Change Log](changelog.md)

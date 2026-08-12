@@ -63,6 +63,8 @@ website:
         text: Stage 4M Reliability
       - href: docs/methodology/multi-model-reliability-results.md
         text: Stage 4M Results
+      - href: docs/methodology/stage4m-codebook-revision-notes.md
+        text: Stage 4M Codebook Notes
       - href: corpus_index.qmd
         text: Corpus
       - href: data_reproducibility.md
