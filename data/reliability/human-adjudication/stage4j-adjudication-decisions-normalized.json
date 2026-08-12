@@ -1,0 +1,21 @@
+{
+  "schema_version": "stage4j-adjudication-decisions-normalized-1.0",
+  "status": "no_decisions",
+  "source_schema": "schemas/stage4j-adjudication.schema.json",
+  "source_adjudication_queue": "data/reliability/human-adjudication/stage4j-adjudication-queue.json",
+  "decision_files": [],
+  "totals": {
+    "decision_files": 0,
+    "valid_files": 0,
+    "invalid_files": 0,
+    "valid_decisions": 0,
+    "queue_items": 0,
+    "missing_decisions": 0,
+    "stage4a_correction_candidates": 0,
+    "errors": 0,
+    "warnings": 1
+  },
+  "decisions": [],
+  "missing_decision_ids": [],
+  "stage4a_correction_candidates": []
+}
