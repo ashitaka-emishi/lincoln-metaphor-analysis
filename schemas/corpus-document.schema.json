@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/schemas/corpus-document.schema.json",
+  "title": "Corpus document metadata",
+  "description": "Document-level metadata contract for v1 and v4 corpus inventories. The schema supports fully annotated core records, light validation-corpus records, and search-only reference-corpus records without requiring every reference item to be fully annotated.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "doc_id",
+    "corpus_version",
+    "corpus_tier",
+    "title",
+    "short_title",
+    "date",
+    "date_precision",
+    "year",
+    "period",
+    "genre",
+    "audience",
+    "rhetorical_function",
+    "research_relevance",
+    "source_authority",
+    "source_url",
+    "source_citation",
+    "edition_notes",
+    "text_status",
+    "authorship_status",
+    "included_in_v1",
+    "included_in_v4_core",
+    "included_in_v4_validation",
+    "included_in_v4_reference",
+    "annotation_status",
+    "provenance_notes",
+    "selection_rationale"
+  ],
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "pattern": "^doc_[0-9]{3}[a-z]?$"
+    },
+    "corpus_version": {
+      "type": "string",
+      "pattern": "^v?[0-9]+(?:\\.[0-9]+)?$"
+    },
+    "corpus_tier": {
+      "enum": ["v1", "v4-core", "v4-validation", "v4-reference"]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "short_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date_precision": {
+      "enum": ["exact", "approximate", "uncertain"]
+    },
+    "year": {
+      "type": "number",
+      "minimum": 1800,
+      "maximum": 1900
+    },
+    "period": {
+      "enum": [
+        "early",
+        "antebellum",
+        "secession_crisis",
+        "early_war",
+        "emancipation",
+        "late_war",
+        "reconstruction_transition"
+      ]
+    },
+    "genre": {
+      "enum": [
+        "speech",
+        "public_letter",
+        "private_letter",
+        "proclamation",
+        "annual_message",
+        "military_letter",
+        "legal_message",
+        "condolence",
+        "note",
+        "fragment",
+        "other"
+      ]
+    },
+    "audience": {
+      "enum": [
+        "public",
+        "congress",
+        "military",
+        "private_correspondent",
+        "political_allies",
+        "grieving_family",
+        "african_american_delegation",
+        "general_unspecified",
+        "other"
+      ]
+    },
+    "rhetorical_function": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "research_relevance": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "source_authority": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "source_citation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "edition_notes": {
+      "type": "string"
+    },
+    "text_status": {
+      "enum": ["complete", "excerpt", "fragment", "disputed", "uncertain"]
+    },
+    "authorship_status": {
+      "enum": ["secure", "probable", "disputed", "attributed"]
+    },
+    "included_in_v1": {
+      "type": "boolean"
+    },
+    "included_in_v4_core": {
+      "type": "boolean"
+    },
+    "included_in_v4_validation": {
+      "type": "boolean"
+    },
+    "included_in_v4_reference": {
+      "type": "boolean"
+    },
+    "annotation_status": {
+      "enum": ["unprocessed", "segmented", "lightly_annotated", "fully_annotated", "excluded"]
+    },
+    "provenance_notes": {
+      "type": "string"
+    },
+    "selection_rationale": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "corpus_tier": { "const": "v1" } },
+        "required": ["corpus_tier"]
+      },
+      "then": {
+        "properties": {
+          "included_in_v1": { "const": true }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "corpus_tier": { "const": "v4-core" } },
+        "required": ["corpus_tier"]
+      },
+      "then": {
+        "properties": {
+          "included_in_v4_core": { "const": true }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "corpus_tier": { "const": "v4-validation" } },
+        "required": ["corpus_tier"]
+      },
+      "then": {
+        "properties": {
+          "included_in_v4_validation": { "const": true }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "corpus_tier": { "const": "v4-reference" } },
+        "required": ["corpus_tier"]
+      },
+      "then": {
+        "properties": {
+          "included_in_v4_reference": { "const": true },
+          "annotation_status": {
+            "enum": ["unprocessed", "segmented", "lightly_annotated", "excluded"]
+          }
+        }
+      }
+    }
+  ]
+}
