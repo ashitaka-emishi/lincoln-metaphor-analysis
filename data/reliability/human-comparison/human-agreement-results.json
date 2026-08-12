@@ -1,0 +1,18 @@
+{
+  "schema_version": "stage4h-human-agreement-results-1.0",
+  "status": "no_submissions",
+  "source_normalized_runs": "data/reliability/human-comparison/normalized-human-runs.json",
+  "source_packet_manifest": "data/reliability/human-input-packets/human-packet-manifest.json",
+  "source_reliability_sample": "data/reliability/reliability-sample.json",
+  "packet_id": "stage4h_dac4a065fdfff159",
+  "input_packet_hash": "2e413a38d5588500d636bfd1fbec694ee0f7f0c9b56fdba1778bc3313d22ed2d",
+  "metric_policy": "Metrics are reported by layer. Stage 4H human-human agreement is not averaged with Stage 4B or Stage 4M.",
+  "stage4a_policy": "Human-vs-Stage 4A comparison is intentionally not included in this artifact; #94 reports that separately.",
+  "totals": {
+    "primary_human_coders": 0,
+    "packet_units": 106,
+    "identification_units": 55,
+    "field_agreement_units": 51
+  },
+  "human_human": null
+}
