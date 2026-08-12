@@ -16,7 +16,8 @@ const STAGE4H_ALLOWED_DIRECTORIES = [
 
 const STAGE4H_ALLOWED_FILES = [
   canonicalPath(path.join(DEFAULT_ROOT, 'docs', 'methodology', 'human-reliability-results.md')),
-  canonicalPath(path.join(DEFAULT_ROOT, 'docs', 'methodology', 'stage4j-adjudication-results.md'))
+  canonicalPath(path.join(DEFAULT_ROOT, 'docs', 'methodology', 'stage4j-adjudication-results.md')),
+  canonicalPath(path.join(DEFAULT_ROOT, 'docs', 'methodology', 'stage4h-codebook-revision-notes.md'))
 ];
 
 function writeAtomic(filePath, contents) {
