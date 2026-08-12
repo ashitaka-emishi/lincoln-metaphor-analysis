@@ -15,9 +15,10 @@ This page is the reviewer landing path for the upgraded pipeline and publication
 6. Check [External Benchmarks](docs/methodology/external-benchmarks.md) for Stage 7 benchmark choices, candidate comparison corpora, and redistribution limits.
 7. Check [Reception Evidence](docs/methodology/reception-evidence.md) for the boundary between Lincoln rhetoric-in-text claims and audience reception claims.
 8. Review [Stage 4M Methodology](docs/methodology/multi-model-reliability.md), [Stage 4M Results](docs/methodology/multi-model-reliability-results.md), and [Stage 4M Codebook Revision Notes](docs/methodology/stage4m-codebook-revision-notes.md) for the multi-model reliability stress-test boundary.
-9. Use [Controlled Outputs](analysis/controlled_outputs.md) before relying on any aggregate count.
-10. Use [Claim-To-Source Audit](synthesis/claim_audit.md) to trace major claims back to instance IDs, sentence IDs, document metadata, and source URLs.
-11. End with [Findings](synthesis/findings.md) and [Final Conclusions](synthesis/final_conclusions.md).
+9. Review [Stage 4H Human Inter-Annotator Reliability Study](docs/methodology/human-interannotator-reliability.md), [Stage 4H Results](docs/methodology/human-reliability-results.md), [Stage 4J Human Adjudication Guide](docs/methodology/human-adjudication-guide.md), [Stage 4J Results](docs/methodology/stage4j-adjudication-results.md), and [Stage 4H/4J Codebook Revision Notes](docs/methodology/stage4h-codebook-revision-notes.md) for the human reliability design, current execution status, and adjudication boundary.
+10. Use [Controlled Outputs](analysis/controlled_outputs.md) before relying on any aggregate count.
+11. Use [Claim-To-Source Audit](synthesis/claim_audit.md) to trace major claims back to instance IDs, sentence IDs, document metadata, and source URLs.
+12. End with [Findings](synthesis/findings.md) and [Final Conclusions](synthesis/final_conclusions.md).
 
 ## Reproducibility Commands
 
@@ -40,13 +41,22 @@ npm run stage4m
 
 With no external model submissions, Stage 4M reports an explicit no-submissions state rather than agreement, disagreement, stability, or consensus findings.
 
+Stage 4H and Stage 4J are integrated into `npm run validate` and can also be regenerated directly:
+
+```bash
+npm run stage4h
+npm run stage4j
+```
+
+With no human coder submissions, Stage 4H reports `designed_but_not_executed`, `no_submissions`, and no human-human agreement metric. With no completed adjudication decision packets, Stage 4J reports `no_decisions`, no Stage 4A correction candidates, and pending adjudication results.
+
 The reception evidence protocol can be regenerated independently with:
 
 ```bash
 npm run reception:registry
 ```
 
-## Public Data Package
+## Public Data Package And Data Availability
 
 Committed and reviewable:
 
@@ -63,6 +73,10 @@ Committed and reviewable:
 - `data/reliability/model-input-packets/`
 - `data/reliability/model-comparison/`
 - `data/reliability/model-adjudication/`
+- `data/reliability/human-input-packets/`
+- `data/reliability/human-output-submissions/` (currently contains no human-filled submission packets)
+- `data/reliability/human-comparison/`
+- `data/reliability/human-adjudication/`
 - `data/metadata/textual-variant-apparatus.json`
 - `data/metadata/external-benchmark-corpora.json`
 - `data/metadata/reception-evidence-registry.json`
@@ -78,15 +92,22 @@ Generated or local-only:
 
 ## AI-Use Statement
 
-This project is human-directed, AI-assisted research infrastructure. Andrew Hammer is responsible for research design, source selection, method, interpretation, and final claims. AI tools assist with corpus preparation, schema design, validation scripting, annotation support, generated data products, prose revision, and Stage 4M diagnostic model-review scaffolding. AI output is not treated as evidence. Stage 4M model agreement or disagreement, once submissions exist, can identify coding sensitivity and human-review priorities; it cannot prove a historical claim, establish human-human reliability, or revise Stage 4A. Claims become evidence-backed only when they are represented in validated structured data and traceable through the audit chain.
+This project is human-directed, AI-assisted research infrastructure. Andrew Hammer is responsible for research design, source selection, method, interpretation, and final claims. AI tools assist with corpus preparation, schema design, validation scripting, annotation support, generated data products, prose revision, and Stage 4M diagnostic model-review scaffolding. AI output is not treated as evidence.
+
+Stage 4B and Stage 4M are AI-assisted reliability layers. Stage 4H is the separate blind two-human inter-annotator reliability layer. Stage 4H reports a two-human blind inter-annotator reliability study when completed. This study is methodologically distinct from Stage 4B AI-assisted reliability review and Stage 4M multi-model AI stress testing. Human-human agreement is reported separately by annotation layer and is not averaged with AI-assisted agreement results.
+
+Stage 4M model agreement or disagreement, once submissions exist, can identify coding sensitivity and human-review priorities; it cannot prove a historical claim, establish human-human reliability, or revise Stage 4A. Stage 4H human agreement, once completed, can report coding reliability under the blind protocol; it cannot prove that an interpretation is historically correct and cannot automatically revise Stage 4A. Claims become evidence-backed only when they are represented in validated structured data and traceable through the audit chain.
 
 ## Limitations
 
 - The corpus is Lincoln-only and contains 28 selected documents, not the whole Lincoln archive.
 - The 1863 and 1864 Annual Messages are not included; current congressional-message claims are bounded to `doc_010`, `doc_014`, and register-controlled outputs rather than a complete annual-message series.
 - Debate, manuscript, date, version, and collaborative-revision traditions carry source risk; those risks are recorded in the corpus register and textual variant apparatus.
-- The reliability workflow reports an AI-assisted Stage 4B second-pass result, not a two-human blind inter-annotator study; the human double-coding follow-up protocol is designed but not yet executed.
+- The Stage 4B reliability workflow reports an AI-assisted second-pass result, not a two-human blind inter-annotator study.
 - Stage 4M reports multi-model AI reliability stress testing. It is a methodological triangulation layer, not a two-human blind inter-annotator reliability result. In the current repository state, Stage 4M is designed and operational but not executed because no validated external model submissions are present; it therefore supports no model-convergence, model-disagreement, or field-stability claim yet.
+- Stage 4H is designed and operational but not executed because no validated human coder submissions are present. It therefore supports no human-human agreement, human-vs-reference comparison, or human disagreement claim yet.
+- Stage 4J adjudication is pending because no completed human adjudication decision packets are present. It exports no Stage 4A correction candidates, codebook change candidates, or claim-audit review candidates in the current repository state.
+- Human agreement, once available, measures coding reliability under the documented protocol. It does not prove that the interpretation is correct, and disagreement does not automatically correct Stage 4A.
 - The purification-rhetoric contrast is structural, not moral equivalence; Koenigsberg's Hitler analysis is used as bounded theoretical background, not as the project's headline comparative object.
 - The project studies public rhetoric and selected fragments; it does not establish audience reception, private belief, or full political causality.
 - Reception evidence is protocolized separately; candidate collections are not evidence until item-level records are cited and rights-checked.
@@ -105,13 +126,14 @@ This project is human-directed, AI-assisted research infrastructure. Andrew Hamm
 | Evidence-chain schema | Complete | [Evidence Chain Schema](docs/methodology/evidence-chain-schema.md) |
 | Stage 4B reliability workflow | Complete with AI-assisted limitation | [Reliability Workflow](docs/methodology/reliability-report.md), [Reliability Results](docs/methodology/reliability-results.md) |
 | Stage 4M model-review workflow | Designed and operational; no submissions yet | [Stage 4M Methodology](docs/methodology/multi-model-reliability.md), [Stage 4M Results](docs/methodology/multi-model-reliability-results.md), [Stage 4M Codebook Revision Notes](docs/methodology/stage4m-codebook-revision-notes.md), [V2 Release Checklist](docs/release/v2-stage4m-release-checklist.md) |
-| Future human double-coding | Designed, not executed | [Human Coding Protocol](docs/methodology/human-double-coding-protocol.md) |
+| Stage 4H human reliability workflow | Designed and operational; no human submissions yet | [Stage 4H Methodology](docs/methodology/human-interannotator-reliability.md), [Stage 4H Results](docs/methodology/human-reliability-results.md), `data/reliability/human-input-packets/`, `data/reliability/human-comparison/` |
+| Stage 4J human adjudication workflow | Pending; no adjudication decisions yet | [Stage 4J Guide](docs/methodology/human-adjudication-guide.md), [Stage 4J Results](docs/methodology/stage4j-adjudication-results.md), [Stage 4H/4J Codebook Revision Notes](docs/methodology/stage4h-codebook-revision-notes.md), `data/reliability/human-adjudication/` |
 | Register/authorship controls | Complete | [Controlled Outputs](analysis/controlled_outputs.md) |
 | Claim-to-source audit | Complete | [Claim-To-Source Audit](synthesis/claim_audit.md) |
 | Synthesis revision | Complete | [Findings](synthesis/findings.md), [Final Conclusions](synthesis/final_conclusions.md) |
 | AI-use statement | Complete | This page and [Methods Appendix](docs/methodology/methods-appendix.md) |
 | Publication-focused review | Complete for release candidate | [Publication Review](docs/publication-review.md) |
-| Final validation/render gate | Required per PR | `npm run status`, `npm run validate`, `npm run pipeline`, `quarto render` |
+| Final validation/render gate | Required per PR | `npm run status`, `npm run validate`, `npm run stage4h`, `npm run stage4j`, `npm run pipeline`, `quarto render` |
 
 ## Follow-Up Work
 
