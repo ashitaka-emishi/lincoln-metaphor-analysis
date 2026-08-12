@@ -1,0 +1,20 @@
+{
+  "schema_version": "stage4h-human-output-validation-report-1.0",
+  "status": "no_submissions",
+  "source_directory": "data/reliability/human-output-submissions",
+  "source_schema": "schemas/stage4h-human-output.schema.json",
+  "packet_id": "stage4h_dac4a065fdfff159",
+  "input_packet_hash": "2e413a38d5588500d636bfd1fbec694ee0f7f0c9b56fdba1778bc3313d22ed2d",
+  "totals": {
+    "submission_files": 0,
+    "valid_submissions": 0,
+    "invalid_submissions": 0,
+    "primary_coders": 0,
+    "supplemental_coders": 0,
+    "input_items": 0,
+    "normalized_items": 0,
+    "errors": 0,
+    "warnings": 1
+  },
+  "files": []
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "stage4h-packet-manifest-1.0",
-  "packet_id": "stage4h_464cb792dc71a0db",
-  "generated_at": "2026-06-27T15:05:36.781Z",
+  "packet_id": "stage4h_dac4a065fdfff159",
+  "generated_at": "2026-08-12T02:21:29.614Z",
   "generation_timestamp_source": "system clock at first generation for packet_id",
   "generator": {
     "path": "scripts/stage4h/generate-human-packets.js",
@@ -68,12 +68,16 @@
       "sha256": "fdb7b12d67aeaac6632860895fda8bfbc97967c9f87b785e11ef574137043a4f"
     },
     {
+      "path": "schemas/stage4h-human-output.schema.json",
+      "sha256": "c305e4a20d78fa646be4d87b2c046777b3976b9224cea61c1bccdcaa2c2264f5"
+    },
+    {
       "path": "scripts/schema_constants.js",
       "sha256": "e9d6e35a6eca21f9271fffbe44dd9b74795392b6a42fdb1b6251b8136737fe98"
     },
     {
       "path": "scripts/stage4h/generate-human-packets.js",
-      "sha256": "f48c08d94014b7eb29097b0ff7c0e74a7c107a8ce7484a27ade6a6fc492c998b"
+      "sha256": "c28b4fed596b8e972892572bb14e2fe4ffe3317069beccb62fecacd962a216f2"
     }
   ],
   "outputs": [
@@ -89,17 +93,17 @@
     },
     {
       "path": "data/reliability/human-input-packets/human-packet-instructions.md",
-      "sha256": "ff1191d63f83512ad7beed4a2076a0b50a8e5bbc8d8b79bdbd418f039040445c",
+      "sha256": "435feec6f59548802d7d1912e9dc3d23689d06ea533c405e839d6df6b812a225",
       "records": null
     },
     {
       "path": "data/reliability/human-input-packets/human-coder-template.csv",
-      "sha256": "1263e5dc13c13ca7373cb82796b058f0fda5a6ccc30a8071533142ebf1b85f3c",
+      "sha256": "38226487b551ea218806296bba9b306462b4f34956f43b395116b96779d3a0bb",
       "records": 106
     },
     {
       "path": "data/reliability/human-input-packets/human-coder-template.json",
-      "sha256": "bbb1bc0c51c758dc0b51df481d398a7b5b0404e41071b076af76066b26a09044",
+      "sha256": "7575736024721c368636eeb45375bd08c1eb5a8b5b4d003d185ecb3cb5f28306",
       "records": 106
     }
   ]

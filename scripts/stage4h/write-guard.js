@@ -9,7 +9,8 @@ const DEFAULT_ROOT = process.env.STAGE4H_ROOT
 
 // Use canonicalPath so symlinked roots resolve the same way as write targets.
 const STAGE4H_ALLOWED_DIRECTORIES = [
-  canonicalPath(path.join(DEFAULT_ROOT, 'data', 'reliability', 'human-input-packets'))
+  canonicalPath(path.join(DEFAULT_ROOT, 'data', 'reliability', 'human-input-packets')),
+  canonicalPath(path.join(DEFAULT_ROOT, 'data', 'reliability', 'human-comparison'))
 ];
 
 const STAGE4H_ALLOWED_FILES = [];

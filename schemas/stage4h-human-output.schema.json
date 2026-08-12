@@ -59,6 +59,7 @@
       "additionalProperties": false,
       "description": "One coded unit. Multiple lexical units in a single sentence are submitted as separate items sharing the same sentence_id with distinct span_id values.",
       "required": [
+        "packet_unit_id",
         "task_type",
         "doc_id",
         "sentence_id",
@@ -95,6 +96,11 @@
         "coder_comment"
       ],
       "properties": {
+        "packet_unit_id": {
+          "type": "string",
+          "pattern": "^stage4h_(?:ident|field)_[0-9]{5}$",
+          "description": "Stable packet item identifier from the blind Stage 4H packet. Repeat this value only to document multiple lexical units for one sentence-identification item."
+        },
         "task_type": {
           "enum": ["sentence_identification", "field_agreement"]
         },
@@ -212,6 +218,7 @@
       "notes"
     ],
     "item_columns": [
+      "packet_unit_id",
       "task_type",
       "doc_id",
       "sentence_id",
