@@ -80,6 +80,28 @@ Stage 4J may not edit:
 
 A correction candidate becomes a real change only through a separately authorized and validated migration.
 
+## Technical Write Guardrails
+
+Stage 4H/4J scripts must write only through `scripts/stage4h/write-guard.js`. The guard rejects writes to these protected Stage 4A and derivative paths, including symlinked attempts to reach them:
+
+- `corpus/annotated/`
+- `data/evidence/annotation-evidence.json`
+- `data/concordance.json`
+- `analysis/`
+- `data/audit/claim-audit.json`
+
+The only Stage 4H/4J output locations allowed by the guard are:
+
+- `data/reliability/human-input-packets/`
+- `data/reliability/human-output-submissions/`
+- `data/reliability/human-comparison/`
+- `data/reliability/human-adjudication/`
+- `docs/methodology/human-reliability-results.md`
+- `docs/methodology/stage4j-adjudication-results.md`
+- `docs/methodology/stage4h-codebook-revision-notes.md`
+
+Any future process that applies a Stage 4A correction candidate must be implemented as a separate documented migration with its own issue, validation gate, and changelog entry. Stage 4J artifacts may export correction candidates, but they must not perform that migration.
+
 ## Artifacts
 
 | Artifact | Role |
