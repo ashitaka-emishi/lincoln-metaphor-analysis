@@ -1,6 +1,6 @@
 # Stage 4H Blind Human Coding Packet
 
-Packet ID: `stage4h_464cb792dc71a0db`
+Packet ID: `stage4h_dac4a065fdfff159`
 
 This is a blind two-human inter-annotator reliability study. You are one of two independent coders applying the project's annotation scheme to Lincoln passages. Your work must be completed independently of the other coder.
 
@@ -18,9 +18,9 @@ Before and during coding, do not consult:
 
 ## Return Format
 
-Return your completed `human-coder-template.csv`. Fill in `coder_id` on every row using the identifier your coordinator assigned you (`human_coder_a` or `human_coder_b`). Preserve `packet_unit_id`, `task_type`, `doc_id`, `sentence_id`, and pre-filled span values exactly.
+Return your completed `human-coder-template.csv`. Fill in the submission metadata columns on every row using the identifier your coordinator assigned you (`human_coder_a` or `human_coder_b`). Preserve `packet_unit_id`, `task_type`, `doc_id`, `sentence_id`, `input_packet_id`, `input_packet_hash`, and pre-filled field-agreement span values exactly.
 
-Character offsets (`span_char_start`, `span_char_end`) are zero-based and end-exclusive relative to `sentence_text`.
+Character offsets (`lexical_unit_start`, `lexical_unit_end`) are zero-based and end-exclusive relative to the sentence text in the JSONL packet.
 
 ## Sentence-Identification Tasks (55)
 
@@ -28,19 +28,19 @@ For each row in `human-sentence-identification-packet.jsonl`:
 
 1. Read the sentence and its paragraph context.
 2. Decide whether the sentence contains a metaphor-related lexical unit using the MIPVU procedure in the training guide.
-3. If yes: record `mipvu_decision` as `metaphor_related`, enter the span in `span_text`, and record character start/end positions. Add one row per additional unit if the sentence contains more than one.
-4. If no: record `mipvu_decision` as `not_metaphor_related` and leave all other fields blank.
-5. If uncertain: record `mipvu_decision` as `uncertain`, set `ambiguity_flag` to `true`, and explain in `ambiguity_notes`.
+3. If yes: record `metaphor_present` as `yes`, enter the span in `lexical_unit`, and record character start/end positions. Add one row per additional unit if the sentence contains more than one.
+4. If no: record `metaphor_present` as `no`, set `semantic_contrast` to `no`, and use `null` or empty values for fields that do not apply.
+5. If uncertain: record `metaphor_present` as `uncertain`, set `ambiguity_flag` to `yes`, and explain in `coder_comment`.
 
 ## Field-Agreement Tasks (51)
 
-For each row in `human-field-agreement-packet.jsonl`, the span has been identified for you in `span_text`. Code it across all fields. If you believe the span is not metaphor-related, record `mipvu_decision` as `not_metaphor_related`, leave downstream fields blank, and explain in `coder_notes`.
+For each row in `human-field-agreement-packet.jsonl`, the span has been identified for you in `lexical_unit`. Code it across all fields. If you believe the span is not metaphor-related, record `metaphor_present` as `no`, use `null` or empty values for downstream fields that do not apply, and explain in `coder_comment`.
 
 ## Controlled Values
 
-`mipvu_decision`:
-  - `metaphor_related`
-  - `not_metaphor_related`
+`metaphor_present`:
+  - `yes`
+  - `no`
   - `uncertain`
 
 `cluster_id`:
@@ -51,7 +51,7 @@ For each row in `human-field-agreement-packet.jsonl`, the span has been identifi
   - `cluster_05_fathers_inheritance`
   - `cluster_06_providence_theodicy`
 
-`fantasy_type`:
+`koenigsberg_function`:
   - `wound_and_healing`
   - `birth_and_creation`
   - `sacrifice_and_redemption`
@@ -69,7 +69,7 @@ For each row in `human-field-agreement-packet.jsonl`, the span has been identifi
   - `evidentiary`
   - `obligatory`
 
-`absence_flags` (one or more, pipe-separated):
+`absence_flag` (one flag per row):
   - `enslaved_people_non_agent`
   - `black_soldiers_erased`
   - `lincoln_non_agent`
@@ -78,10 +78,12 @@ For each row in `human-field-agreement-packet.jsonl`, the span has been identifi
   - `women_absent`
   - `disease_purification_absent`
 
-`obligatory_frame`: `true` or `false`
+`obligatory_frame`: free text or `null` when not applicable
 
-`ambiguity_flag`: `true` or `false`
+`semantic_contrast`: `yes`, `no`, or `uncertain`
 
-`confidence_score`: decimal between 0.50 and 1.00 (do not annotate below 0.50)
+`ambiguity_flag`: `yes` or `no`
 
-Use `rival_reading` to describe an alternative you considered but rejected. Use `coder_notes` for any other observations. Pipe-separate multiple values in `entailments`, `absence_flags`, and `violence_logic`.
+`confidence`: `high`, `medium`, or `low`
+
+Use `rival_reading` to describe an alternative you considered but rejected. Use `coder_comment` for any other observations. Pipe-separate multiple values in `violence_logic` when needed.

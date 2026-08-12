@@ -1,0 +1,8 @@
+{
+  "schema_version": "stage4h-normalized-human-runs-1.0",
+  "status": "no_submissions",
+  "source_schema": "schemas/stage4h-human-output.schema.json",
+  "packet_id": "stage4h_dac4a065fdfff159",
+  "input_packet_hash": "2e413a38d5588500d636bfd1fbec694ee0f7f0c9b56fdba1778bc3313d22ed2d",
+  "submissions": []
+}
