@@ -1,0 +1,19 @@
+{
+  "schema_version": "stage4j-adjudication-decisions-fixture-1.0",
+  "adjudicator_id": "stage4j_adjudicator_fixture",
+  "decision_date": "2026-08-12",
+  "source_disagreement_log": "tests/fixtures/stage4h/sample-human-disagreement-log.json",
+  "decisions": [
+    {
+      "decision_id": "stage4j_decision_0001",
+      "disagreement_id": "stage4h_disagreement_0001",
+      "packet_unit_id": "stage4h_field_00001",
+      "field_name": "koenigsberg_function",
+      "decision": "invent_new_reference_value",
+      "adjudicated_value": "ancestral_debt",
+      "rationale": "Invalid adjudication decision value fixture.",
+      "stage4a_correction_candidate": false,
+      "codebook_revision_needed": false
+    }
+  ]
+}

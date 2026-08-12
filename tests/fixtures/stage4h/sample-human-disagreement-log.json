@@ -1,0 +1,25 @@
+{
+  "schema_version": "stage4h-human-disagreement-fixture-1.0",
+  "status": "fixture_only",
+  "packet_id": "stage4h_dac4a065fdfff159",
+  "disagreements": [
+    {
+      "disagreement_id": "stage4h_disagreement_0001",
+      "packet_unit_id": "stage4h_field_00001",
+      "disagreement_category": "koenigsberg_function",
+      "coder_a_value": "ancestral_debt",
+      "coder_b_value": "oath_and_obligation",
+      "expected_classification": "substantive_interpretive_disagreement",
+      "requires_stage4j": true
+    },
+    {
+      "disagreement_id": "stage4h_disagreement_0002",
+      "packet_unit_id": "stage4h_field_00001",
+      "disagreement_category": "agency_or_absence_flag",
+      "coder_a_value": "active",
+      "coder_b_value": "abstracted",
+      "expected_classification": "mandatory_human_review",
+      "requires_stage4j": true
+    }
+  ]
+}

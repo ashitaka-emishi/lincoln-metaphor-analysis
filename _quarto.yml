@@ -12,6 +12,7 @@ project:
     - "!reports/**"
     - "!data/**"
     - "!scaffolds/**"
+    - "!tests/**"
 
 bibliography: references.bib
 
