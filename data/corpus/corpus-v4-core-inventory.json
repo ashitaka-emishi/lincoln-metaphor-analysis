@@ -1648,16 +1648,16 @@
       "doc_id": "doc_042",
       "corpus_version": "v4",
       "corpus_tier": "v4-core",
-      "title": "Response to a Serenade",
-      "short_title": "July 1864 Serenade Response",
-      "date": "1864-07-07",
+      "title": "Response to a Serenade by the Ohio Delegation",
+      "short_title": "Ohio Delegation Serenade Response",
+      "date": "1864-06-09",
       "date_precision": "exact",
       "year": 1864,
       "period": "late_war",
       "genre": "speech",
       "audience": "public",
       "rhetorical_function": [
-        "reelection_public_response",
+        "renomination_public_response",
         "late_war_public_persuasion"
       ],
       "research_relevance": [
@@ -1666,8 +1666,8 @@
       ],
       "source_authority": "collected_works_michigan",
       "source_url": null,
-      "source_citation": "Collected Works of Abraham Lincoln, vol. 7, Response to a Serenade, July 7, 1864.",
-      "edition_notes": "Candidate v4 core inventory record; source URL and text-integrity details to be confirmed in provenance validation before raw text ingestion.",
+      "source_citation": "Collected Works of Abraham Lincoln, vol. 7, Response to a Serenade by the Ohio Delegation, June 9, 1864.",
+      "edition_notes": "Candidate v4 core inventory record corrected during issue #119 raw-text verification; prior placeholder cited a non-existent July 7, 1864 serenade response.",
       "text_status": "complete",
       "authorship_status": "secure",
       "included_in_v1": false,
@@ -1675,8 +1675,8 @@
       "included_in_v4_validation": false,
       "included_in_v4_reference": false,
       "annotation_status": "unprocessed",
-      "provenance_notes": "Collected Works source citation recorded; item-level URL pending provenance validation.",
-      "selection_rationale": "Adds a late-war public response before the November reelection serenade to improve campaign-register comparison."
+      "provenance_notes": "Raw-source verification maps this record to the June 9, 1864 Ohio delegation serenade response; July 7, 1864 is a prayer proclamation in the Collected Works.",
+      "selection_rationale": "Adds a late-war public response after the Baltimore renomination and before the November reelection serenade to improve campaign-register comparison."
     }
   ]
 }
