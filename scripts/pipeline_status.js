@@ -26,6 +26,143 @@ function readJSON(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
+function readOptionalJSON(filePath) {
+  return exists(filePath) ? readJSON(filePath) : null;
+}
+
+function txtFileCount(directory) {
+  return exists(directory)
+    ? fs.readdirSync(directory).filter(name => name.endsWith('.txt') && !name.startsWith('.')).length
+    : 0;
+}
+
+function envFlag(name) {
+  return ['1', 'true', 'yes'].includes(String(process.env[name] || '').toLowerCase());
+}
+
+function v4ReleaseMarker(root) {
+  const marker = readOptionalJSON(path.join(root, 'data', 'corpus', 'corpus-v4-release-status.json'));
+  if (!marker) return { marked: false, status: 'not_marked' };
+  const marked = marker.release_ready === true || ['release_candidate', 'release-ready', 'release_ready'].includes(marker.status);
+  return { marked, status: marker.status || (marked ? 'release_candidate' : 'not_marked') };
+}
+
+function reportStatus(report) {
+  return report?.status || 'not_generated';
+}
+
+function reportWarnings(report) {
+  return report?.summary?.warnings ?? report?.warnings?.length ?? 0;
+}
+
+function reportErrors(report) {
+  return report?.summary?.errors ?? report?.errors?.length ?? 0;
+}
+
+function statusFailures(statuses) {
+  return statuses.filter(status => !['pass', 'generated'].includes(status)).length;
+}
+
+function v4CorpusStatus(root = ROOT) {
+  const corpusDir = path.join(root, 'data', 'corpus');
+  const coreInventory = readOptionalJSON(path.join(corpusDir, 'corpus-v4-core-inventory.json'));
+  const validationInventory = readOptionalJSON(path.join(corpusDir, 'corpus-v4-validation-inventory.json'));
+  const referenceInventory = readOptionalJSON(path.join(corpusDir, 'corpus-v4-reference-inventory.json'));
+  const inventoryReport = readOptionalJSON(path.join(corpusDir, 'corpus-v4-inventory-validation-report.json'));
+  const provenanceReport = readOptionalJSON(path.join(corpusDir, 'corpus-v4-provenance-validation-report.json'));
+  const ingestion = readOptionalJSON(path.join(corpusDir, 'corpus-v4-ingestion-manifest.json'));
+  const segmentation = readOptionalJSON(path.join(corpusDir, 'corpus-v4-segmentation-manifest.json'));
+  const sentenceIds = readOptionalJSON(path.join(corpusDir, 'corpus-v4-sentence-id-validation-report.json'));
+  const coverage = readOptionalJSON(path.join(corpusDir, 'corpus-v4-coverage-summary.json'));
+  const impact = readOptionalJSON(path.join(corpusDir, 'corpus-v4-expansion-impact-report.json'));
+  const reliability = readOptionalJSON(path.join(corpusDir, 'corpus-v4-reliability-sample-frame.json'));
+  const lightAnnotation = exists(path.join(corpusDir, 'v4-validation-light-annotation-template.csv'));
+  const coreRawFiles = txtFileCount(path.join(root, 'corpus', 'raw', 'v4-core'));
+  const validationRawFiles = txtFileCount(path.join(root, 'corpus', 'raw', 'v4-validation'));
+  const release = v4ReleaseMarker(root);
+  const releaseMode = release.marked || envFlag('CORPUS_V4_RELEASE_MODE') || envFlag('V4_RELEASE_MODE');
+  const v4FilesExist = Boolean(
+    release.marked || coreInventory || validationInventory || referenceInventory || ingestion || segmentation || coreRawFiles || validationRawFiles
+  );
+  const missingRawFiles = ingestion?.summary?.missing_raw_files ?? null;
+  const baseStatuses = coreInventory ? [reportStatus(inventoryReport)] : [];
+  const coreProgressStatuses = coreInventory && coreRawFiles > 0
+    ? [reportStatus(provenanceReport), reportStatus(ingestion), reportStatus(segmentation), reportStatus(sentenceIds)]
+    : [];
+  const releaseStatuses = releaseMode
+    ? [
+        reportStatus(coverage),
+        reportStatus(impact),
+        reportStatus(reliability),
+        lightAnnotation ? 'generated' : 'not_generated'
+      ]
+    : [];
+  const requiredStatusFailures = statusFailures(baseStatuses.concat(coreProgressStatuses, releaseStatuses));
+  const errors = [
+    reportErrors(inventoryReport),
+    reportErrors(provenanceReport),
+    ingestion?.summary?.errors ?? 0,
+    sentenceIds?.summary?.errors ?? 0,
+    requiredStatusFailures
+  ].reduce((sum, count) => sum + count, 0);
+  const warnings = [
+    reportWarnings(inventoryReport),
+    reportWarnings(provenanceReport),
+    ingestion?.summary?.warnings ?? 0
+  ].reduce((sum, count) => sum + count, 0);
+
+  let summary;
+  if (!v4FilesExist) {
+    summary = 'not implemented';
+  } else if (releaseMode) {
+    summary = 'release candidate';
+  } else if (coreInventory && coreRawFiles > 0) {
+    summary = 'core corpus in progress';
+  } else if (coreInventory) {
+    summary = 'inventory drafted, ingestion incomplete';
+  } else {
+    summary = 'not implemented';
+  }
+
+  let validationSummary;
+  if (!v4FilesExist) {
+    validationSummary = 'pass';
+  } else if (errors > 0 || (releaseMode && (missingRawFiles ?? 0) > 0)) {
+    validationSummary = 'fail';
+  } else if (warnings > 0 || (missingRawFiles ?? 0) > 0) {
+    validationSummary = 'pass_with_warnings';
+  } else {
+    validationSummary = 'pass';
+  }
+
+  return {
+    summary,
+    validation_summary: validationSummary,
+    release_mode: releaseMode,
+    release_marker_status: release.status,
+    inventory_status: reportStatus(inventoryReport),
+    provenance_status: reportStatus(provenanceReport),
+    ingestion_status: reportStatus(ingestion),
+    segmentation_status: reportStatus(segmentation),
+    sentence_id_status: reportStatus(sentenceIds),
+    coverage_status: reportStatus(coverage),
+    impact_status: reportStatus(impact),
+    reliability_sample_status: reportStatus(reliability),
+    light_annotation_status: lightAnnotation ? 'generated' : 'not_generated',
+    core_documents: coreInventory?.document_count ?? 0,
+    validation_documents: validationInventory?.document_count ?? 0,
+    reference_documents: referenceInventory?.document_count ?? 0,
+    core_raw_files: coreRawFiles,
+    validation_raw_files: validationRawFiles,
+    normalized_files: ingestion?.summary?.normalized_files_written ?? 0,
+    missing_raw_files: missingRawFiles ?? 0,
+    segmented_documents: segmentation?.summary?.documents ?? 0,
+    required_status_failures: requiredStatusFailures,
+    warnings,
+    errors
+  };
+}
+
 function stage4mStatus(root = ROOT) {
   const reliability = path.join(root, 'data', 'reliability');
   const submissionDir = path.join(reliability, 'model-output-submissions');
@@ -250,6 +387,23 @@ function main() {
     console.log('  analysis.json not found.');
   }
 
+  const v4 = v4CorpusStatus();
+  console.log('\n--- V4 Corpus Expansion ---');
+  console.log(`  V4 corpus status: ${v4.summary}`);
+  console.log(`  Validation: ${v4.validation_summary}`);
+  console.log(`  Release mode: ${v4.release_mode ? 'on' : 'off'} (${v4.release_marker_status})`);
+  console.log(`  Inventories: ${v4.inventory_status} (${v4.core_documents} core; ${v4.validation_documents} validation; ${v4.reference_documents} reference)`);
+  console.log(`  Provenance: ${v4.provenance_status}`);
+  console.log(`  Raw files: ${v4.core_raw_files} core; ${v4.validation_raw_files} validation; missing ${v4.missing_raw_files}`);
+  console.log(`  Ingestion: ${v4.ingestion_status} (${v4.normalized_files} normalized)`);
+  console.log(`  Segmentation: ${v4.segmentation_status} (${v4.segmented_documents} documents)`);
+  console.log(`  Sentence IDs: ${v4.sentence_id_status}`);
+  console.log(`  Coverage: ${v4.coverage_status}`);
+  console.log(`  Impact: ${v4.impact_status}`);
+  console.log(`  Reliability sample: ${v4.reliability_sample_status}`);
+  console.log(`  Light annotation: ${v4.light_annotation_status}`);
+  console.log(`  Findings: ${v4.errors} error(s); ${v4.warnings} warning(s)`);
+
   const stage4m = stage4mStatus();
   console.log('\n--- Stage 4M Multi-Model Reliability ---');
   console.log(`  Status: ${stage4m.summary}`);
@@ -285,4 +439,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { stage4mStatus, stage4hStatus, stage4jStatus };
+module.exports = { v4CorpusStatus, stage4mStatus, stage4hStatus, stage4jStatus };
