@@ -435,6 +435,11 @@ function printReadable(manifest, changed, options) {
 function main() {
   const options = parseArgs(process.argv.slice(2));
   const { manifest, outputs } = buildManifest(options);
+  if (options.check && manifest.errors.length > 0) {
+    printReadable(manifest, false, options);
+    process.exitCode = 1;
+    return;
+  }
   const changed = writeOutputs(manifest, outputs, options);
   printReadable(manifest, changed, options);
   if (manifest.errors.length > 0) {
