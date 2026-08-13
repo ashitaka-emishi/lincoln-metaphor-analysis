@@ -6,7 +6,7 @@ draft: false
 
 # V4 Validation Corpus Inventory
 
-This page is kept in sync with `data/corpus/corpus-v4-validation-inventory.json`. It records the Tier 2 v4 validation inventory: all 48 v4-core records plus 30 additional stratified validation candidates. The validation corpus is designed for light annotation, coverage testing, recurrence checks, and negative-finding audits. It is not fully interpreted Stage 4 evidence.
+This page is generated from `data/corpus/corpus-v4-validation-inventory.json`. It records the Tier 2 v4 validation inventory: all v4-core records plus stratified validation candidates. The validation corpus is designed for light annotation, coverage testing, recurrence checks, and negative-finding audits. It is not fully interpreted Stage 4 evidence.
 
 ## Count Summary
 

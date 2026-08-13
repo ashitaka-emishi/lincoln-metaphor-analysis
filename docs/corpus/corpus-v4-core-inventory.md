@@ -6,7 +6,7 @@ draft: false
 
 # V4 Core Corpus Inventory
 
-This page is kept in sync with `data/corpus/corpus-v4-core-inventory.json`. It records the Tier 1 v4 core inventory: all 28 current v1 documents plus 20 deterministic v4 additions assigned `doc_023` through `doc_042`. Existing v1 document IDs remain unchanged.
+This page is generated from `data/corpus/corpus-v4-core-inventory.json`. It records the Tier 1 v4 core inventory: all current v1 documents plus deterministic v4 additions. Existing v1 document IDs remain unchanged.
 
 ## Count Summary
 
