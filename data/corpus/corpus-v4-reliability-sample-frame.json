@@ -1,0 +1,553 @@
+{
+  "frame_id": "corpus_v4_reliability_sample_frame",
+  "corpus_version": "v4",
+  "created_date": "2026-08-13",
+  "status": "pass",
+  "inputs": {
+    "legacy_sample": "data/reliability/reliability-sample.json",
+    "core_inventory": "data/corpus/corpus-v4-core-inventory.json",
+    "validation_inventory": "data/corpus/corpus-v4-validation-inventory.json",
+    "coverage_summary": "data/corpus/corpus-v4-coverage-summary.json",
+    "impact_report": "data/corpus/corpus-v4-expansion-impact-report.json",
+    "segmented_core_dir": "corpus/segmented/v4-core"
+  },
+  "outputs": {
+    "sample_frame": "data/corpus/corpus-v4-reliability-sample-frame.json",
+    "report_markdown": "docs/corpus/corpus-v4-reliability-sampling-update.md"
+  },
+  "summary": {
+    "legacy_corpus_version": "v1",
+    "legacy_sample_documents": 5,
+    "legacy_sample_scope": "v3/v1 human reliability remains valid as a prior study tied to the 28-document annotated corpus.",
+    "v4_core_documents": 48,
+    "v4_validation_documents": 78,
+    "selected_documents_total": 9,
+    "selected_core_documents": 8,
+    "selected_validation_documents": 1,
+    "selected_v1_documents": 3,
+    "selected_new_v4_core_documents": 5,
+    "selected_core_percentage": 16.67,
+    "future_use": "Use this frame to generate future v4 human coding packets after v4 additions and selected validation candidates receive the appropriate annotation layer."
+  },
+  "criteria_coverage": [
+    {
+      "criterion": "documents_from_original_v1_corpus",
+      "status": "covered",
+      "doc_ids": [
+        "doc_001",
+        "doc_004",
+        "doc_022"
+      ]
+    },
+    {
+      "criterion": "documents_from_new_v4_core_additions",
+      "status": "covered",
+      "doc_ids": [
+        "doc_023",
+        "doc_027",
+        "doc_028",
+        "doc_035",
+        "doc_041"
+      ]
+    },
+    {
+      "criterion": "early_political_formation_text",
+      "status": "covered",
+      "doc_ids": [
+        "doc_023"
+      ]
+    },
+    {
+      "criterion": "antebellum_slavery_text",
+      "status": "covered",
+      "doc_ids": [
+        "doc_004"
+      ]
+    },
+    {
+      "criterion": "secession_crisis_text",
+      "status": "covered",
+      "doc_ids": [
+        "doc_027"
+      ]
+    },
+    {
+      "criterion": "early_war_text",
+      "status": "covered",
+      "doc_ids": [
+        "doc_028"
+      ]
+    },
+    {
+      "criterion": "emancipation_text",
+      "status": "covered",
+      "doc_ids": [
+        "doc_035"
+      ]
+    },
+    {
+      "criterion": "late_war_providence_sacrifice_text",
+      "status": "covered",
+      "doc_ids": [
+        "doc_041"
+      ]
+    },
+    {
+      "criterion": "reconstruction_transition_text",
+      "status": "covered",
+      "doc_ids": [
+        "doc_022"
+      ]
+    },
+    {
+      "criterion": "positive_metaphor_cases",
+      "status": "covered",
+      "doc_ids": [
+        "doc_001",
+        "doc_004",
+        "doc_027",
+        "doc_022"
+      ]
+    },
+    {
+      "criterion": "negative_controls",
+      "status": "covered",
+      "doc_ids": [
+        "doc_023",
+        "doc_028",
+        "doc_070"
+      ]
+    },
+    {
+      "criterion": "agency_absence_cases",
+      "status": "covered",
+      "doc_ids": [
+        "doc_035"
+      ]
+    },
+    {
+      "criterion": "disease_purification_negative_check_cases",
+      "status": "covered",
+      "doc_ids": [
+        "doc_001",
+        "doc_070"
+      ]
+    },
+    {
+      "criterion": "ambiguous_cases",
+      "status": "covered",
+      "doc_ids": [
+        "doc_004",
+        "doc_035",
+        "doc_041"
+      ]
+    }
+  ],
+  "selected_documents": [
+    {
+      "doc_id": "doc_001",
+      "short_title": "Lyceum Address",
+      "date": "1838-01-27",
+      "corpus_tier": "v4-core",
+      "period": "early",
+      "genre": "speech",
+      "audience": "public",
+      "included_in_v1": true,
+      "annotation_status": "fully_annotated",
+      "role": "legacy_positive_anchor",
+      "rationale": "Carries current Stage 4A positive metaphor anchors and disease/purification absence flags from the v1 reliability frame.",
+      "required_criteria": [
+        "documents_from_original_v1_corpus",
+        "positive_metaphor_cases",
+        "disease_purification_negative_check_cases"
+      ],
+      "readiness": "ready_as_legacy_stage4a_anchor",
+      "legacy_reliability_context": {
+        "included_in_v3_sample": true,
+        "evidence_records_total": 8,
+        "identification_units_total": 11
+      },
+      "sentence_denominator": 110,
+      "negative_control_candidates": [
+        {
+          "sentence_id": "doc_001_s01_p01_s01",
+          "sentence_text": "As a subject for the remarks of the evening, _the perpetuation of our political institutions,_ is selected.",
+          "status": "existing_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_001_s01_p14_s02",
+          "sentence_text": "But I do mean to say, that, although bad laws, if they exist, should be repealed as soon as possible, still while they continue in force, for the sake of example, they should be religiously observed.",
+          "status": "existing_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_001_s01_p24_s01",
+          "sentence_text": "Upon these let the proud fabric of freedom rest, as the rock of its basis; and as truly as has been said of the only greater institution, \"_the gates of hell shall not prevail against it_.\"",
+          "status": "existing_negative_control_candidate"
+        }
+      ]
+    },
+    {
+      "doc_id": "doc_004",
+      "short_title": "Peoria Speech",
+      "date": "1854-10-16",
+      "corpus_tier": "v4-core",
+      "period": "antebellum",
+      "genre": "speech",
+      "audience": "public",
+      "included_in_v1": true,
+      "annotation_status": "fully_annotated",
+      "role": "legacy_antebellum_slavery_anchor",
+      "rationale": "Preserves a high-priority antebellum slavery argument with known transcription and boundary-risk cautions.",
+      "required_criteria": [
+        "documents_from_original_v1_corpus",
+        "antebellum_slavery_text",
+        "positive_metaphor_cases",
+        "ambiguous_cases"
+      ],
+      "readiness": "ready_as_legacy_stage4a_anchor",
+      "legacy_reliability_context": {
+        "included_in_v3_sample": false
+      },
+      "sentence_denominator": 766,
+      "negative_control_candidates": [
+        {
+          "sentence_id": "doc_004_s01_p01_s01",
+          "sentence_text": "Speech at Peoria, IllinoisOctober 16, 1854",
+          "status": "existing_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_004_s02_p77_s03",
+          "sentence_text": "I extend the principles to communities of men, as well as to individuals.",
+          "status": "existing_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_004_s03_p01_s03",
+          "sentence_text": "Editorials in Illinois newspapers prior to this speech refer to the villain ``Nebraska Bill'' as a person, indicating a common usage during the campaign.[4]   Charles Phillips, famed British orator, to whose oration The Character of Napoleon. . . . (1817) Lincoln probably refers.",
+          "status": "existing_negative_control_candidate"
+        }
+      ]
+    },
+    {
+      "doc_id": "doc_023",
+      "short_title": "First Political Announcement",
+      "date": "1832-03-09",
+      "corpus_tier": "v4-core",
+      "period": "early",
+      "genre": "speech",
+      "audience": "public",
+      "included_in_v1": false,
+      "annotation_status": "unprocessed",
+      "role": "new_early_political_formation",
+      "rationale": "Adds pre-Lyceum political self-definition as an early formation check absent from the old reliability sample.",
+      "required_criteria": [
+        "documents_from_new_v4_core_additions",
+        "early_political_formation_text",
+        "negative_controls"
+      ],
+      "readiness": "requires_v4_annotation_before_metric_use",
+      "legacy_reliability_context": {
+        "included_in_v3_sample": false
+      },
+      "sentence_denominator": 41,
+      "negative_control_candidates": [
+        {
+          "sentence_id": "doc_023_s01_p01_s01",
+          "sentence_text": "ADDRESS TO THE PEOPLE OF SANGAMON COUNTY.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_023_s01_p09_s01",
+          "sentence_text": "Upon the subject of education, not presuming to dictate any plan or system respecting it, I can only say that I view it as the most important subject which we as a people can be engaged in.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_023_s01_p16_s01",
+          "sentence_text": "1833",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        }
+      ]
+    },
+    {
+      "doc_id": "doc_027",
+      "short_title": "Independence Hall Address",
+      "date": "1861-02-22",
+      "corpus_tier": "v4-core",
+      "period": "secession_crisis",
+      "genre": "speech",
+      "audience": "public",
+      "included_in_v1": false,
+      "annotation_status": "unprocessed",
+      "role": "new_secession_crisis",
+      "rationale": "Adds a secession-crisis public address to test founding-proposition and Union legitimation language.",
+      "required_criteria": [
+        "documents_from_new_v4_core_additions",
+        "secession_crisis_text",
+        "positive_metaphor_cases"
+      ],
+      "readiness": "requires_v4_annotation_before_metric_use",
+      "legacy_reliability_context": {
+        "included_in_v3_sample": false
+      },
+      "sentence_denominator": 24,
+      "negative_control_candidates": [
+        {
+          "sentence_id": "doc_027_s01_p01_s01",
+          "sentence_text": "ADDRESS IN THE HALL OF INDEPENDENCE, PHILADELPHIA,",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_027_s01_p03_s11",
+          "sentence_text": "This is the sentiment embodied in the Declaration of Independence.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_027_s01_p04_s04",
+          "sentence_text": "I have said nothing but what I am willing to live by and, if it be the pleasure of Almighty God, die by.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        }
+      ]
+    },
+    {
+      "doc_id": "doc_028",
+      "short_title": "Annual Message 1861",
+      "date": "1861-12-03",
+      "corpus_tier": "v4-core",
+      "period": "early_war",
+      "genre": "annual_message",
+      "audience": "congress",
+      "included_in_v1": false,
+      "annotation_status": "unprocessed",
+      "role": "new_early_war_policy",
+      "rationale": "Adds an early-war congressional-policy text and a longer denominator for sentence-level identification controls.",
+      "required_criteria": [
+        "documents_from_new_v4_core_additions",
+        "early_war_text",
+        "negative_controls"
+      ],
+      "readiness": "requires_v4_annotation_before_metric_use",
+      "legacy_reliability_context": {
+        "included_in_v3_sample": false
+      },
+      "sentence_denominator": 218,
+      "negative_control_candidates": [
+        {
+          "sentence_id": "doc_028_s01_p01_s01",
+          "sentence_text": "ANNUAL MESSAGE TO CONGRESS.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_028_s01_p52_s02",
+          "sentence_text": "The Indian country south of Kansas is in the possession of insurgents from Texas and Arkansas.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_028_s01_p83_s01",
+          "sentence_text": "WASHINGTON, December 20, 1861.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        }
+      ]
+    },
+    {
+      "doc_id": "doc_035",
+      "short_title": "Colonization Address",
+      "date": "1862-08-14",
+      "corpus_tier": "v4-core",
+      "period": "emancipation",
+      "genre": "speech",
+      "audience": "african_american_delegation",
+      "included_in_v1": false,
+      "annotation_status": "unprocessed",
+      "role": "new_race_agency_boundary",
+      "rationale": "Adds the African American delegation address as a race, agency, audience, and emancipation boundary case.",
+      "required_criteria": [
+        "documents_from_new_v4_core_additions",
+        "emancipation_text",
+        "agency_absence_cases",
+        "ambiguous_cases"
+      ],
+      "readiness": "requires_v4_annotation_before_metric_use",
+      "legacy_reliability_context": {
+        "included_in_v3_sample": false
+      },
+      "sentence_denominator": 105,
+      "negative_control_candidates": [
+        {
+          "sentence_id": "doc_035_s01_p01_s01",
+          "sentence_text": "ADDRESS ON COLONIZATION TO A DEPUTATION OF COLORED MEN.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_035_s01_p10_s05",
+          "sentence_text": "They are not all American colonists or their descendants.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_035_s01_p24_s01",
+          "sentence_text": "A. LINCOLN.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        }
+      ]
+    },
+    {
+      "doc_id": "doc_041",
+      "short_title": "Bixby Letter",
+      "date": "1864-11-21",
+      "corpus_tier": "v4-core",
+      "period": "late_war",
+      "genre": "condolence",
+      "audience": "grieving_family",
+      "included_in_v1": false,
+      "annotation_status": "unprocessed",
+      "role": "new_late_war_sacrifice",
+      "rationale": "Adds a late-war condolence text for sacrifice/mourning and authorship-boundary review.",
+      "required_criteria": [
+        "documents_from_new_v4_core_additions",
+        "late_war_providence_sacrifice_text",
+        "ambiguous_cases"
+      ],
+      "readiness": "requires_v4_annotation_before_metric_use",
+      "legacy_reliability_context": {
+        "included_in_v3_sample": false
+      },
+      "sentence_denominator": 11,
+      "negative_control_candidates": [
+        {
+          "sentence_id": "doc_041_s01_p01_s01",
+          "sentence_text": "TO MRS.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_041_s01_p04_s01",
+          "sentence_text": "DEAR MADAM:--I have been shown in the files of the War Department a statement of the Adjutant-General of Massachusetts that you are the mother of five sons who have died gloriously on the field of battle.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_041_s01_p06_s01",
+          "sentence_text": "A. LINCOLN.",
+          "status": "pending_v4_annotation_negative_control_candidate"
+        }
+      ]
+    },
+    {
+      "doc_id": "doc_022",
+      "short_title": "Last Address",
+      "date": "1865-04-11",
+      "corpus_tier": "v4-core",
+      "period": "reconstruction_transition",
+      "genre": "speech",
+      "audience": "public",
+      "included_in_v1": true,
+      "annotation_status": "fully_annotated",
+      "role": "legacy_reconstruction_transition",
+      "rationale": "Keeps the v1 Last Address as the reconstruction-transition anchor for continuity with existing coded evidence.",
+      "required_criteria": [
+        "documents_from_original_v1_corpus",
+        "reconstruction_transition_text",
+        "positive_metaphor_cases"
+      ],
+      "readiness": "ready_as_legacy_stage4a_anchor",
+      "legacy_reliability_context": {
+        "included_in_v3_sample": false
+      },
+      "sentence_denominator": 66,
+      "negative_control_candidates": [
+        {
+          "sentence_id": "doc_022_s01_p01_s01",
+          "sentence_text": "We meet this evening, not in sorrow, but in gladness of heart.",
+          "status": "existing_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_022_s01_p04_s01",
+          "sentence_text": "I have been shown a letter on this subject, supposed to be an able one, in which the writer expresses regret that my mind has not seemed to be definitely fixed on the question whether the seceding States, so called, are in the Union or out of it.",
+          "status": "existing_negative_control_candidate"
+        },
+        {
+          "sentence_id": "doc_022_s01_p10_s02",
+          "sentence_text": "I am considering, and shall not fail to act, when satisfied that action will be proper.",
+          "status": "existing_negative_control_candidate"
+        }
+      ]
+    },
+    {
+      "doc_id": "doc_070",
+      "short_title": "Commercial Intercourse Proclamation",
+      "date": "1864-02-18",
+      "corpus_tier": "v4-validation",
+      "period": "late_war",
+      "genre": "proclamation",
+      "audience": "public",
+      "included_in_v1": false,
+      "annotation_status": "lightly_annotated",
+      "role": "validation_negative_check",
+      "rationale": "Adds the validation-corpus negative-finding candidate identified by the v4 coverage summary; it requires light annotation before coding use.",
+      "required_criteria": [
+        "disease_purification_negative_check_cases",
+        "negative_controls"
+      ],
+      "readiness": "requires_v4_annotation_before_metric_use",
+      "legacy_reliability_context": {
+        "included_in_v3_sample": false
+      },
+      "sentence_denominator": null,
+      "negative_control_candidates": []
+    }
+  ],
+  "claim_alignment": [
+    {
+      "key": "slavery_emancipation",
+      "title": "Slavery and Emancipation Coverage",
+      "assessment": "supports_claims_with_tier_limits",
+      "selected_doc_ids": [
+        "doc_004",
+        "doc_035"
+      ]
+    },
+    {
+      "key": "war_powers",
+      "title": "War Powers Coverage",
+      "assessment": "requires_caution_or_follow_up",
+      "selected_doc_ids": [
+        "doc_028"
+      ]
+    },
+    {
+      "key": "sacrifice_mourning",
+      "title": "Sacrifice and Mourning Coverage",
+      "assessment": "requires_caution_or_follow_up",
+      "selected_doc_ids": [
+        "doc_041"
+      ]
+    },
+    {
+      "key": "providence",
+      "title": "Providence Coverage",
+      "assessment": "requires_caution_or_follow_up",
+      "selected_doc_ids": [
+        "doc_041"
+      ]
+    },
+    {
+      "key": "race_black_military_agency",
+      "title": "Race and Black Military Agency Coverage",
+      "assessment": "supports_claims_with_tier_limits",
+      "selected_doc_ids": [
+        "doc_035"
+      ]
+    },
+    {
+      "key": "disease_purification_negative_check",
+      "title": "Disease/Purification Negative-Check Coverage",
+      "assessment": "requires_caution_or_follow_up",
+      "selected_doc_ids": [
+        "doc_001",
+        "doc_070"
+      ]
+    }
+  ],
+  "methodological_boundaries": [
+    "Claims remain limited to the currently annotated core until v4 additions receive full Stage 4A re-analysis.",
+    "Corpus v1/v3 reliability results remain valid for their original corpus version and should not be restated as v4 reliability results.",
+    "New v4 reliability sampling can be used for future human coding only after packet generation, coder assignment, submission ingestion, and adjudication gates run.",
+    "Validation-corpus targets are lightly annotated candidates; they are included to force denominator and negative-check review, not to inflate the fully annotated core."
+  ]
+}
