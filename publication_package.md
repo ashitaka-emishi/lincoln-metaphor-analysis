@@ -148,6 +148,7 @@ Stage 4M model agreement or disagreement, once submissions exist, can identify c
 | V4 validation and reference tiers | Defined; validation raw files remain a future release-mode gate | [V4 Validation Corpus Inventory](docs/corpus/corpus-v4-validation-inventory.md), [V4 Reference Corpus Inventory](docs/corpus/corpus-v4-reference-inventory.md) |
 | V4 coverage and expansion limits | Complete | [V4 Coverage Report](docs/corpus/corpus-v4-coverage-report.md), [V4 Expansion Impact and Limitations](docs/corpus/corpus-v4-expansion-impact-report.md) |
 | V4 reliability sampling plan | Complete; future human coding required before v4 reliability metrics | [V4 Reliability Sampling Update](docs/corpus/corpus-v4-reliability-sampling-update.md) |
+| V4 corpus expansion release gate | Checklist ready; release-mode raw validation and v4 annotation/re-analysis remain future gates | [V4 Corpus Expansion Release Checklist](docs/release/v4-corpus-expansion-release-checklist.md) |
 | Textual variant apparatus | Complete | [Textual Variant Apparatus](docs/methodology/textual-variant-apparatus.md) |
 | External benchmark registry | Complete | [External Benchmarks](docs/methodology/external-benchmarks.md) |
 | Reception evidence protocol | Complete | [Reception Evidence](docs/methodology/reception-evidence.md) |
@@ -169,4 +170,4 @@ Stage 4M model agreement or disagreement, once submissions exist, can identify c
 
 Future research directions are bounded in [Open Questions](synthesis/open_questions.md), [External Benchmarks](docs/methodology/external-benchmarks.md), and [Reconstruction Extension Scope](docs/methodology/reconstruction-extension-scope.md). They are not prerequisites for the current publication package.
 
-The v2 Stage 4M release-readiness gate is tracked in the [V2 Stage 4M Release Checklist](docs/release/v2-stage4m-release-checklist.md). The v3 human reliability release gate is tracked in the [V3 Human Reliability Release Checklist](docs/release/v3-human-reliability-release-checklist.md).
+The v2 Stage 4M release-readiness gate is tracked in the [V2 Stage 4M Release Checklist](docs/release/v2-stage4m-release-checklist.md). The v3 human reliability release gate is tracked in the [V3 Human Reliability Release Checklist](docs/release/v3-human-reliability-release-checklist.md). The v4 corpus expansion release gate is tracked in the [V4 Corpus Expansion Release Checklist](docs/release/v4-corpus-expansion-release-checklist.md).
