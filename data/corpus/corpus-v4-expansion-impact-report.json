@@ -1,0 +1,482 @@
+{
+  "report_id": "corpus_v4_expansion_impact_report",
+  "corpus_version": "v4",
+  "created_date": "2026-08-13",
+  "status": "pass",
+  "inputs": {
+    "v1_inventory": "data/corpus/corpus-v1-inventory.json",
+    "core_inventory": "data/corpus/corpus-v4-core-inventory.json",
+    "validation_inventory": "data/corpus/corpus-v4-validation-inventory.json",
+    "coverage_summary": "data/corpus/corpus-v4-coverage-summary.json"
+  },
+  "generated_from": {
+    "v1_manifest": "corpus/corpus_manifest.json"
+  },
+  "outputs": {
+    "report_json": "data/corpus/corpus-v4-expansion-impact-report.json",
+    "report_markdown": "docs/corpus/corpus-v4-expansion-impact-report.md"
+  },
+  "summary": {
+    "v1_documents": 28,
+    "v4_core_documents": 48,
+    "v4_core_additions": 20,
+    "v4_validation_documents": 78,
+    "expansion_statement": "The v4 core expands the baseline from 28 to 48 core documents and adds a 78-document validation corpus.",
+    "selection_bias_effect": "reduced_not_eliminated",
+    "annotation_boundary": "Claims remain limited to the currently annotated core until v4 additions receive full Stage 4A re-analysis."
+  },
+  "core_additions": [
+    {
+      "doc_id": "doc_023",
+      "short_title": "First Political Announcement",
+      "date": "1832-03-09",
+      "period": "early",
+      "genre": "speech",
+      "audience": "public",
+      "research_relevance": [
+        "early_political_baseline",
+        "pre_lyceum_civic_rhetoric"
+      ]
+    },
+    {
+      "doc_id": "doc_024",
+      "short_title": "Robertson Letter",
+      "date": "1855-08-15",
+      "period": "antebellum",
+      "genre": "private_letter",
+      "audience": "private_correspondent",
+      "research_relevance": [
+        "antebellum_private_register",
+        "slavery_argument_development"
+      ]
+    },
+    {
+      "doc_id": "doc_025",
+      "short_title": "Speed Letter",
+      "date": "1855-08-24",
+      "period": "antebellum",
+      "genre": "private_letter",
+      "audience": "private_correspondent",
+      "research_relevance": [
+        "antebellum_private_register",
+        "moral_psychology_of_slavery"
+      ]
+    },
+    {
+      "doc_id": "doc_026",
+      "short_title": "Dred Scott Speech",
+      "date": "1857-06-26",
+      "period": "antebellum",
+      "genre": "speech",
+      "audience": "public",
+      "research_relevance": [
+        "dred_scott_coverage",
+        "antebellum_argument_bridge"
+      ]
+    },
+    {
+      "doc_id": "doc_027",
+      "short_title": "Independence Hall Address",
+      "date": "1861-02-22",
+      "period": "secession_crisis",
+      "genre": "speech",
+      "audience": "public",
+      "research_relevance": [
+        "secession_crisis_public_address",
+        "founding_proposition_language"
+      ]
+    },
+    {
+      "doc_id": "doc_028",
+      "short_title": "Annual Message 1861",
+      "date": "1861-12-03",
+      "period": "early_war",
+      "genre": "annual_message",
+      "audience": "congress",
+      "research_relevance": [
+        "early_war_congressional_message",
+        "annual_message_series"
+      ]
+    },
+    {
+      "doc_id": "doc_029",
+      "short_title": "Corning Letter",
+      "date": "1863-06-12",
+      "period": "emancipation",
+      "genre": "public_letter",
+      "audience": "political_allies",
+      "research_relevance": [
+        "wartime_civil_liberties",
+        "public_letter_register"
+      ]
+    },
+    {
+      "doc_id": "doc_030",
+      "short_title": "Meditation on Divine Will",
+      "date": "1862-09",
+      "period": "emancipation",
+      "genre": "fragment",
+      "audience": "general_unspecified",
+      "research_relevance": [
+        "theodicy_cluster_development",
+        "emancipation_private_fragment"
+      ]
+    },
+    {
+      "doc_id": "doc_031",
+      "short_title": "Fragment on Slavery",
+      "date": "1854",
+      "period": "antebellum",
+      "genre": "fragment",
+      "audience": "general_unspecified",
+      "research_relevance": [
+        "antebellum_fragment_register",
+        "slavery_argument_development"
+      ]
+    },
+    {
+      "doc_id": "doc_032",
+      "short_title": "Kalamazoo Speech",
+      "date": "1856-08-27",
+      "period": "antebellum",
+      "genre": "speech",
+      "audience": "public",
+      "research_relevance": [
+        "antebellum_campaign_register",
+        "regional_audience_comparison"
+      ]
+    },
+    {
+      "doc_id": "doc_033",
+      "short_title": "New Haven Speech",
+      "date": "1860-03-06",
+      "period": "antebellum",
+      "genre": "speech",
+      "audience": "public",
+      "research_relevance": [
+        "cooper_union_tour_context",
+        "antebellum_regional_comparison"
+      ]
+    },
+    {
+      "doc_id": "doc_034",
+      "short_title": "Pierce Letter",
+      "date": "1859-04-06",
+      "period": "antebellum",
+      "genre": "public_letter",
+      "audience": "political_allies",
+      "research_relevance": [
+        "founders_inheritance_cluster",
+        "public_letter_register"
+      ]
+    },
+    {
+      "doc_id": "doc_035",
+      "short_title": "Colonization Address",
+      "date": "1862-08-14",
+      "period": "emancipation",
+      "genre": "speech",
+      "audience": "african_american_delegation",
+      "research_relevance": [
+        "emancipation_boundary_case",
+        "audience_expansion"
+      ]
+    },
+    {
+      "doc_id": "doc_036",
+      "short_title": "Chicago Emancipation Reply",
+      "date": "1862-09-13",
+      "period": "emancipation",
+      "genre": "speech",
+      "audience": "political_allies",
+      "research_relevance": [
+        "emancipation_decision_context",
+        "policy_boundary_testing"
+      ]
+    },
+    {
+      "doc_id": "doc_037",
+      "short_title": "Fanny McCullough Letter",
+      "date": "1862-12-23",
+      "period": "emancipation",
+      "genre": "condolence",
+      "audience": "grieving_family",
+      "research_relevance": [
+        "condolence_register",
+        "theodicy_cluster_development"
+      ]
+    },
+    {
+      "doc_id": "doc_038",
+      "short_title": "Amnesty Proclamation",
+      "date": "1863-12-08",
+      "period": "emancipation",
+      "genre": "proclamation",
+      "audience": "public",
+      "research_relevance": [
+        "reconstruction_transition_boundary",
+        "legal_policy_register"
+      ]
+    },
+    {
+      "doc_id": "doc_039",
+      "short_title": "Annual Message 1863",
+      "date": "1863-12-08",
+      "period": "emancipation",
+      "genre": "annual_message",
+      "audience": "congress",
+      "research_relevance": [
+        "annual_message_series",
+        "reconstruction_transition_boundary"
+      ]
+    },
+    {
+      "doc_id": "doc_040",
+      "short_title": "Annual Message 1864",
+      "date": "1864-12-06",
+      "period": "late_war",
+      "genre": "annual_message",
+      "audience": "congress",
+      "research_relevance": [
+        "annual_message_series",
+        "late_war_coverage"
+      ]
+    },
+    {
+      "doc_id": "doc_041",
+      "short_title": "Bixby Letter",
+      "date": "1864-11-21",
+      "period": "late_war",
+      "genre": "condolence",
+      "audience": "grieving_family",
+      "research_relevance": [
+        "condolence_register",
+        "authorship_boundary_case"
+      ]
+    },
+    {
+      "doc_id": "doc_042",
+      "short_title": "Ohio Delegation Serenade Response",
+      "date": "1864-06-09",
+      "period": "late_war",
+      "genre": "speech",
+      "audience": "public",
+      "research_relevance": [
+        "late_war_campaign_register",
+        "public_response_comparison"
+      ]
+    }
+  ],
+  "expansion_coverage": {
+    "period": [
+      {
+        "value": "antebellum",
+        "v1": 10,
+        "v4_core_additions": 7,
+        "v4_core_total": 17
+      },
+      {
+        "value": "emancipation",
+        "v1": 6,
+        "v4_core_additions": 7,
+        "v4_core_total": 13
+      },
+      {
+        "value": "late_war",
+        "v1": 4,
+        "v4_core_additions": 3,
+        "v4_core_total": 7
+      },
+      {
+        "value": "early",
+        "v1": 3,
+        "v4_core_additions": 1,
+        "v4_core_total": 4
+      },
+      {
+        "value": "early_war",
+        "v1": 1,
+        "v4_core_additions": 1,
+        "v4_core_total": 2
+      },
+      {
+        "value": "secession_crisis",
+        "v1": 3,
+        "v4_core_additions": 1,
+        "v4_core_total": 4
+      },
+      {
+        "value": "reconstruction_transition",
+        "v1": 1,
+        "v4_core_additions": 0,
+        "v4_core_total": 1
+      }
+    ],
+    "genre": [
+      {
+        "value": "speech",
+        "v1": 19,
+        "v4_core_additions": 8,
+        "v4_core_total": 27
+      },
+      {
+        "value": "annual_message",
+        "v1": 1,
+        "v4_core_additions": 3,
+        "v4_core_total": 4
+      },
+      {
+        "value": "condolence",
+        "v1": 0,
+        "v4_core_additions": 2,
+        "v4_core_total": 2
+      },
+      {
+        "value": "fragment",
+        "v1": 2,
+        "v4_core_additions": 2,
+        "v4_core_total": 4
+      },
+      {
+        "value": "private_letter",
+        "v1": 0,
+        "v4_core_additions": 2,
+        "v4_core_total": 2
+      },
+      {
+        "value": "public_letter",
+        "v1": 3,
+        "v4_core_additions": 2,
+        "v4_core_total": 5
+      },
+      {
+        "value": "proclamation",
+        "v1": 2,
+        "v4_core_additions": 1,
+        "v4_core_total": 3
+      },
+      {
+        "value": "legal_message",
+        "v1": 1,
+        "v4_core_additions": 0,
+        "v4_core_total": 1
+      }
+    ],
+    "audience": [
+      {
+        "value": "public",
+        "v1": 27,
+        "v4_core_additions": 7,
+        "v4_core_total": 34
+      },
+      {
+        "value": "congress",
+        "v1": 1,
+        "v4_core_additions": 3,
+        "v4_core_total": 4
+      },
+      {
+        "value": "political_allies",
+        "v1": 0,
+        "v4_core_additions": 3,
+        "v4_core_total": 3
+      },
+      {
+        "value": "general_unspecified",
+        "v1": 0,
+        "v4_core_additions": 2,
+        "v4_core_total": 2
+      },
+      {
+        "value": "grieving_family",
+        "v1": 0,
+        "v4_core_additions": 2,
+        "v4_core_total": 2
+      },
+      {
+        "value": "private_correspondent",
+        "v1": 0,
+        "v4_core_additions": 2,
+        "v4_core_total": 2
+      },
+      {
+        "value": "african_american_delegation",
+        "v1": 0,
+        "v4_core_additions": 1,
+        "v4_core_total": 1
+      }
+    ],
+    "added_periods": [],
+    "added_genres": [
+      "condolence",
+      "private_letter"
+    ],
+    "key_added_counts": {
+      "emancipation_core_additions": 7,
+      "late_war_core_additions": 3,
+      "annual_message_core_additions": 3,
+      "condolence_core_additions": 2,
+      "private_letter_core_additions": 2
+    }
+  },
+  "claim_impacts": {
+    "strengthened": [
+      {
+        "claim_area": "Slavery and emancipation",
+        "basis": "20 core records and 36 validation records now match this area."
+      },
+      {
+        "claim_area": "Race and Black military agency",
+        "basis": "2 core records and 4 validation records now match this area."
+      },
+      {
+        "claim_area": "Register and genre breadth",
+        "basis": "The core expansion adds private letters, public letters, annual messages, proclamations, fragments, condolences, and campaign/public speeches."
+      }
+    ],
+    "still_limited": [
+      {
+        "claim_area": "Currently coded interpretive findings",
+        "basis": "Until the v4 additions are fully re-annotated, interpretive claims remain limited to the currently annotated core evidence."
+      },
+      {
+        "claim_area": "Disease/purification negative finding",
+        "basis": "0 core records match the metadata-level negative-check proxy, so this absence remains a re-testing target rather than a settled corpus-expansion result."
+      }
+    ],
+    "requiring_retesting": [
+      {
+        "claim_area": "Metaphor frequency and distribution claims",
+        "basis": "The denominator changes from 28 v1 documents to a 48-document v4 core, so counts and proportions must be regenerated before publication claims are updated."
+      },
+      {
+        "claim_area": "War powers",
+        "basis": "2 core records and 13 validation records indicate useful coverage, but the coverage summary still marks this area as caution/follow-up."
+      },
+      {
+        "claim_area": "Providence and sacrifice",
+        "basis": "The added condolence, fragment, and late-war materials broaden the evidence base, but Stage 4A coding is needed before interpretive language changes."
+      }
+    ],
+    "not_supported_by_expansion_alone": [
+      {
+        "claim_area": "Claims based only on validation or reference records",
+        "basis": "The extended validation corpus is lightly annotated, and reference records are search-only leads."
+      },
+      {
+        "claim_area": "Claims about all Lincoln writings",
+        "basis": "V4 improves coverage but remains a curated research corpus, not a complete population of Lincoln texts."
+      },
+      {
+        "claim_area": "Revised absence claims",
+        "basis": "Selection expansion can expose risk, but absence findings require full annotation and concordance-backed re-analysis."
+      }
+    ]
+  },
+  "limitations": [
+    "V4 reduces but does not eliminate selection-bias risk.",
+    "The v4 core is the full-annotation target; new v4 core additions still require Stage 4A re-analysis before they can revise coded interpretive claims.",
+    "The validation corpus is lightly annotated and supports coverage checks, denominator checks, and source-discovery review rather than direct metaphor-count claims.",
+    "Reference records remain search-only leads and cannot support claims without later ingestion, segmentation, annotation, and validation."
+  ]
+}
