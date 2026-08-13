@@ -1,5 +1,10 @@
 # Lincoln Metaphor Analysis
 
+> **This repository is inactive.**
+> Evidence work, implementation planning, documentation updates, and publication for this project have moved to the [Political Pathology Workbench](https://github.com/ashitaka-emishi/political-pathology-workbench). This repository is preserved as source history, citation context, and audit provenance. The GitHub Pages site remains published for reference.
+>
+> For new issues, follow-up work, or questions, please use the [PPW issue tracker](https://github.com/ashitaka-emishi/political-pathology-workbench/issues).
+
 A structured study of metaphor, obligation, agency, and reconciliation across a selected corpus of Abraham Lincoln's rhetoric (1838–1865). Conceptual Metaphor Theory provides the linguistic foundation; Richard Koenigsberg's ideological-fantasy analysis supplies a bounded interpretive contrast.
 
 **[View the research site →](https://ashitaka-emishi.github.io/lincoln-metaphor-analysis/)** — a browsable HTML version of the full project, including the annotated corpus status, all methodology documentation, per-document annotation notes, cluster profiles, the purification-rhetoric contrast, and synthesis findings. The site is rebuilt automatically on every commit.
