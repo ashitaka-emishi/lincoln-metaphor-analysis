@@ -1,0 +1,12 @@
+{
+  "doc_id": "doc_901",
+  "source_id": "collected_works_michigan",
+  "source_url": "https://example.test/lincoln/doc_901",
+  "retrieval_date": "2026-08-13",
+  "edition_or_collection": "Synthetic fixture collection.",
+  "volume_or_identifier": "fixture-doc-901",
+  "text_integrity_notes": "Synthetic complete text for isolated pipeline tests.",
+  "known_variants": "",
+  "authorship_notes": "Fixture record uses secure Lincoln authorship metadata.",
+  "license_or_rights_notes": "Synthetic test fixture; no publication rights claim."
+}

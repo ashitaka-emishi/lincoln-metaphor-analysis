@@ -1,0 +1,7 @@
+Sample V4 Fixture Address
+Date: 1860-01-01
+Doc ID: doc_901
+
+Fellow citizens, this synthetic fixture exists only to test corpus ingestion plumbing.
+
+It supplies two stable sentences so downstream sentence identifiers can be checked without loading the full corpus.
