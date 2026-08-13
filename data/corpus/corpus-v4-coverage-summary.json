@@ -1,0 +1,2110 @@
+{
+  "coverage_id": "corpus_v4_coverage_summary",
+  "corpus_version": "v4",
+  "created_date": "2026-08-13",
+  "status": "pass",
+  "inputs": {
+    "core_inventory": "data/corpus/corpus-v4-core-inventory.json",
+    "validation_inventory": "data/corpus/corpus-v4-validation-inventory.json",
+    "document_metadata": "data/corpus/corpus-v4-document-metadata.json"
+  },
+  "outputs": {
+    "summary": "data/corpus/corpus-v4-coverage-summary.json",
+    "report": "docs/corpus/corpus-v4-coverage-report.md"
+  },
+  "source_counts": {
+    "core_inventory_documents": 48,
+    "validation_inventory_documents": 78,
+    "metadata_documents": 96
+  },
+  "tier_counts": {
+    "core": 48,
+    "validation": 78,
+    "reference": 18,
+    "v1_preserved_in_core": 28,
+    "new_core_additions": 20
+  },
+  "distributions": {
+    "period": {
+      "rows": [
+        {
+          "value": "emancipation",
+          "core": 13,
+          "validation": 27,
+          "reference": 4,
+          "total": 44
+        },
+        {
+          "value": "antebellum",
+          "core": 17,
+          "validation": 20,
+          "reference": 6,
+          "total": 43
+        },
+        {
+          "value": "late_war",
+          "core": 7,
+          "validation": 14,
+          "reference": 0,
+          "total": 21
+        },
+        {
+          "value": "early",
+          "core": 4,
+          "validation": 6,
+          "reference": 7,
+          "total": 17
+        },
+        {
+          "value": "secession_crisis",
+          "core": 4,
+          "validation": 4,
+          "reference": 1,
+          "total": 9
+        },
+        {
+          "value": "early_war",
+          "core": 2,
+          "validation": 5,
+          "reference": 0,
+          "total": 7
+        },
+        {
+          "value": "reconstruction_transition",
+          "core": 1,
+          "validation": 2,
+          "reference": 0,
+          "total": 3
+        }
+      ],
+      "overrepresented": [
+        "emancipation",
+        "antebellum"
+      ],
+      "underrepresented": [
+        "secession_crisis",
+        "early_war",
+        "reconstruction_transition"
+      ]
+    },
+    "genre": {
+      "rows": [
+        {
+          "value": "speech",
+          "core": 27,
+          "validation": 32,
+          "reference": 4,
+          "total": 63
+        },
+        {
+          "value": "public_letter",
+          "core": 5,
+          "validation": 13,
+          "reference": 6,
+          "total": 24
+        },
+        {
+          "value": "fragment",
+          "core": 4,
+          "validation": 4,
+          "reference": 3,
+          "total": 11
+        },
+        {
+          "value": "proclamation",
+          "core": 3,
+          "validation": 8,
+          "reference": 0,
+          "total": 11
+        },
+        {
+          "value": "private_letter",
+          "core": 2,
+          "validation": 5,
+          "reference": 2,
+          "total": 9
+        },
+        {
+          "value": "annual_message",
+          "core": 4,
+          "validation": 4,
+          "reference": 0,
+          "total": 8
+        },
+        {
+          "value": "legal_message",
+          "core": 1,
+          "validation": 3,
+          "reference": 3,
+          "total": 7
+        },
+        {
+          "value": "condolence",
+          "core": 2,
+          "validation": 3,
+          "reference": 0,
+          "total": 5
+        },
+        {
+          "value": "military_letter",
+          "core": 0,
+          "validation": 5,
+          "reference": 0,
+          "total": 5
+        },
+        {
+          "value": "note",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        }
+      ],
+      "overrepresented": [
+        "speech",
+        "public_letter"
+      ],
+      "underrepresented": [
+        "legal_message",
+        "condolence",
+        "military_letter",
+        "note"
+      ]
+    },
+    "audience": {
+      "rows": [
+        {
+          "value": "public",
+          "core": 28,
+          "validation": 37,
+          "reference": 3,
+          "total": 68
+        },
+        {
+          "value": "political_allies",
+          "core": 6,
+          "validation": 13,
+          "reference": 6,
+          "total": 25
+        },
+        {
+          "value": "congress",
+          "core": 5,
+          "validation": 7,
+          "reference": 2,
+          "total": 14
+        },
+        {
+          "value": "general_unspecified",
+          "core": 4,
+          "validation": 5,
+          "reference": 3,
+          "total": 12
+        },
+        {
+          "value": "private_correspondent",
+          "core": 2,
+          "validation": 5,
+          "reference": 2,
+          "total": 9
+        },
+        {
+          "value": "military",
+          "core": 0,
+          "validation": 6,
+          "reference": 1,
+          "total": 7
+        },
+        {
+          "value": "grieving_family",
+          "core": 2,
+          "validation": 3,
+          "reference": 0,
+          "total": 5
+        },
+        {
+          "value": "african_american_delegation",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "other",
+          "core": 0,
+          "validation": 1,
+          "reference": 1,
+          "total": 2
+        }
+      ],
+      "overrepresented": [
+        "public",
+        "political_allies"
+      ],
+      "underrepresented": [
+        "military",
+        "grieving_family",
+        "african_american_delegation",
+        "other"
+      ]
+    },
+    "rhetorical_function": {
+      "rows": [
+        {
+          "value": "v1_function_high",
+          "core": 11,
+          "validation": 11,
+          "reference": 0,
+          "total": 22
+        },
+        {
+          "value": "formal_public_address",
+          "core": 10,
+          "validation": 10,
+          "reference": 0,
+          "total": 20
+        },
+        {
+          "value": "v1_function_medium",
+          "core": 10,
+          "validation": 10,
+          "reference": 0,
+          "total": 20
+        },
+        {
+          "value": "campaign_speech",
+          "core": 9,
+          "validation": 9,
+          "reference": 1,
+          "total": 19
+        },
+        {
+          "value": "search_context",
+          "core": 0,
+          "validation": 0,
+          "reference": 18,
+          "total": 18
+        },
+        {
+          "value": "v1_function_critical",
+          "core": 7,
+          "validation": 7,
+          "reference": 0,
+          "total": 14
+        },
+        {
+          "value": "semi_public_letter",
+          "core": 3,
+          "validation": 3,
+          "reference": 0,
+          "total": 6
+        },
+        {
+          "value": "anti_slavery_private_reasoning",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "congressional_message",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "consolation",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "fragment_private",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "legal_document",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "reconstruction_policy_justification",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "wartime_accounting",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "wartime_public_persuasion",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "additional_debate_context",
+          "core": 0,
+          "validation": 3,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "executive_proclamation",
+          "core": 1,
+          "validation": 2,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "military_command",
+          "core": 0,
+          "validation": 3,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "providential_language",
+          "core": 0,
+          "validation": 3,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "public_letter_context",
+          "core": 0,
+          "validation": 3,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "public_political_letter",
+          "core": 0,
+          "validation": 0,
+          "reference": 3,
+          "total": 3
+        },
+        {
+          "value": "reconstruction_policy",
+          "core": 1,
+          "validation": 2,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "sacrificial_memory",
+          "core": 1,
+          "validation": 2,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "anti_slavery_public_letter",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "anti_slavery_reasoning",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "autobiographical_statement",
+          "core": 0,
+          "validation": 0,
+          "reference": 2,
+          "total": 2
+        },
+        {
+          "value": "campaign_persuasion",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "civil_liberties_defense",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "colonization_policy_argument",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "conceptual_drafting",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "constitutional_argument",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "constitutional_reflection",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "early_public_argument",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "eastern_campaign_argument",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "emancipation_policy_response",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "executive_policy_justification",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "founding_memory",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "free_soil_argument",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "jefferson_memory",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "judicial_response",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "labor_and_slavery_argument",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "late_war_accounting",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "late_war_public_persuasion",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "moral_self_disclosure",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "national_ritual",
+          "core": 0,
+          "validation": 2,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "political_fragment",
+          "core": 0,
+          "validation": 0,
+          "reference": 2,
+          "total": 2
+        },
+        {
+          "value": "political_self_definition",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "private_correspondence",
+          "core": 0,
+          "validation": 2,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "private_theological_reflection",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "providential_grief_language",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "providential_reasoning",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "renomination_public_response",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "union_legitimation",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "war_powers_argument",
+          "core": 0,
+          "validation": 2,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "wartime_governance",
+          "core": 0,
+          "validation": 2,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "wartime_racial_address",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "administrative_boundary",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "administrative_proclamation",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "adversarial_rhetoric",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "black_soldier_policy",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "black_suffrage_boundary",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "campaign_boundary_testing",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "campaign_organization",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "character_judgment",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "civil_liberties_policy",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "condolence_context",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "congressional_policy_message",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "congressional_resolution",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "congressional_speech",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "diplomatic_correspondence",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "early_style_boundary",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "early_union_language",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "emancipation_policy_argument",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "emancipation_policy_boundary",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "emancipation_policy_control",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "emancipation_policy_defense",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "emancipation_policy_support",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "emancipation_retrospection",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "executive_justification",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "executive_strategy",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "final_policy_note",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "informal_public_address",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "late_war_strategy",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "legislative_statement",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "military_authority",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "military_mobilization",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "military_order",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "military_reconstruction_policy",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "party_political_argument",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "political_alliance",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "popular_sovereignty_argument",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "private_policy_reasoning",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "private_political_letter",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "private_political_reflection",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "professional_fragment",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "providential_reflection",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "public_letter_argument",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "reconstruction_transition_context",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "religious_public_reply",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "sacrifice_language",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "soldier_address",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "war_powers_reflection",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "wartime_sacrifice_language",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        }
+      ],
+      "overrepresented": [
+        "v1_function_high",
+        "formal_public_address",
+        "v1_function_medium",
+        "campaign_speech",
+        "search_context",
+        "v1_function_critical",
+        "semi_public_letter"
+      ],
+      "underrepresented": [
+        "administrative_boundary",
+        "administrative_proclamation",
+        "adversarial_rhetoric",
+        "black_soldier_policy",
+        "black_suffrage_boundary",
+        "campaign_boundary_testing",
+        "campaign_organization",
+        "character_judgment",
+        "civil_liberties_policy",
+        "condolence_context",
+        "congressional_policy_message",
+        "congressional_resolution",
+        "congressional_speech",
+        "diplomatic_correspondence",
+        "early_style_boundary",
+        "early_union_language",
+        "emancipation_policy_argument",
+        "emancipation_policy_boundary",
+        "emancipation_policy_control",
+        "emancipation_policy_defense",
+        "emancipation_policy_support",
+        "emancipation_retrospection",
+        "executive_justification",
+        "executive_strategy",
+        "final_policy_note",
+        "informal_public_address",
+        "late_war_strategy",
+        "legislative_statement",
+        "military_authority",
+        "military_mobilization",
+        "military_order",
+        "military_reconstruction_policy",
+        "party_political_argument",
+        "political_alliance",
+        "popular_sovereignty_argument",
+        "private_policy_reasoning",
+        "private_political_letter",
+        "private_political_reflection",
+        "professional_fragment",
+        "providential_reflection",
+        "public_letter_argument",
+        "reconstruction_transition_context",
+        "religious_public_reply",
+        "sacrifice_language",
+        "soldier_address",
+        "war_powers_reflection",
+        "wartime_sacrifice_language"
+      ]
+    },
+    "research_relevance": {
+      "rows": [
+        {
+          "value": "v1_preserved_baseline",
+          "core": 28,
+          "validation": 28,
+          "reference": 0,
+          "total": 56
+        },
+        {
+          "value": "high_priority",
+          "core": 11,
+          "validation": 11,
+          "reference": 0,
+          "total": 22
+        },
+        {
+          "value": "medium_priority",
+          "core": 10,
+          "validation": 10,
+          "reference": 0,
+          "total": 20
+        },
+        {
+          "value": "source_risk_transcription_variants",
+          "core": 7,
+          "validation": 7,
+          "reference": 1,
+          "total": 15
+        },
+        {
+          "value": "critical_priority",
+          "core": 7,
+          "validation": 7,
+          "reference": 0,
+          "total": 14
+        },
+        {
+          "value": "public_letters",
+          "core": 0,
+          "validation": 8,
+          "reference": 1,
+          "total": 9
+        },
+        {
+          "value": "negative_findings",
+          "core": 0,
+          "validation": 1,
+          "reference": 7,
+          "total": 8
+        },
+        {
+          "value": "war_powers",
+          "core": 0,
+          "validation": 6,
+          "reference": 2,
+          "total": 8
+        },
+        {
+          "value": "candidate_for_validation",
+          "core": 0,
+          "validation": 0,
+          "reference": 7,
+          "total": 7
+        },
+        {
+          "value": "annual_message_series",
+          "core": 3,
+          "validation": 3,
+          "reference": 0,
+          "total": 6
+        },
+        {
+          "value": "military_letters",
+          "core": 0,
+          "validation": 6,
+          "reference": 0,
+          "total": 6
+        },
+        {
+          "value": "recurrence_testing",
+          "core": 0,
+          "validation": 1,
+          "reference": 5,
+          "total": 6
+        },
+        {
+          "value": "private_letters",
+          "core": 0,
+          "validation": 4,
+          "reference": 1,
+          "total": 5
+        },
+        {
+          "value": "antebellum_private_register",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "condolence_register",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "emancipation_related_documents",
+          "core": 0,
+          "validation": 4,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "late_war_coverage",
+          "core": 1,
+          "validation": 3,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "providence",
+          "core": 0,
+          "validation": 4,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "public_letter_register",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "reconstruction",
+          "core": 0,
+          "validation": 3,
+          "reference": 1,
+          "total": 4
+        },
+        {
+          "value": "reconstruction_transition_boundary",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "slavery_argument_development",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "source_risk_transcription_noise",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "theodicy_cluster_development",
+          "core": 2,
+          "validation": 2,
+          "reference": 0,
+          "total": 4
+        },
+        {
+          "value": "additional_lincoln_douglas_debate_material",
+          "core": 0,
+          "validation": 3,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "authorship_boundary_case",
+          "core": 1,
+          "validation": 2,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "fragment_boundary",
+          "core": 0,
+          "validation": 0,
+          "reference": 3,
+          "total": 3
+        },
+        {
+          "value": "period_coverage",
+          "core": 0,
+          "validation": 3,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "proclamations",
+          "core": 0,
+          "validation": 3,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "sacrifice",
+          "core": 0,
+          "validation": 3,
+          "reference": 0,
+          "total": 3
+        },
+        {
+          "value": "source_context_boundary",
+          "core": 0,
+          "validation": 2,
+          "reference": 1,
+          "total": 3
+        },
+        {
+          "value": "annual_messages",
+          "core": 0,
+          "validation": 2,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "antebellum_argument_bridge",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "antebellum_campaign_register",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "antebellum_fragment_register",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "antebellum_regional_comparison",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "audience_expansion",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "black_soldier_and_emancipation_related_documents",
+          "core": 0,
+          "validation": 2,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "campaign_context",
+          "core": 0,
+          "validation": 0,
+          "reference": 2,
+          "total": 2
+        },
+        {
+          "value": "cooper_union_tour_context",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "dred_scott_coverage",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "early_political_baseline",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "early_slavery_language",
+          "core": 0,
+          "validation": 0,
+          "reference": 2,
+          "total": 2
+        },
+        {
+          "value": "early_war_congressional_message",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "emancipation_boundary_case",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "emancipation_decision_context",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "emancipation_private_fragment",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "founders_inheritance_cluster",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "founding_proposition_language",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "genre_coverage",
+          "core": 0,
+          "validation": 2,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "late_war_campaign_register",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "legal_language",
+          "core": 0,
+          "validation": 0,
+          "reference": 2,
+          "total": 2
+        },
+        {
+          "value": "legal_policy_register",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "moral_psychology_of_slavery",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "policy_boundary_testing",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "pre_lyceum_civic_rhetoric",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "public_response_comparison",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "regional_audience_comparison",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "secession_crisis_public_address",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "self_presentation",
+          "core": 0,
+          "validation": 0,
+          "reference": 2,
+          "total": 2
+        },
+        {
+          "value": "source_risk_co_authored_seward",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "source_risk_date_uncertain",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "source_risk_manuscript_variants",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "source_risk_two_versions",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "thanksgiving_and_national_ritual_proclamations",
+          "core": 0,
+          "validation": 2,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "wartime_civil_liberties",
+          "core": 1,
+          "validation": 1,
+          "reference": 0,
+          "total": 2
+        },
+        {
+          "value": "antebellum_campaign_context",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "antebellum_slavery_language",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "black_soldier_language",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "boundary_condition_testing",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "civil_liberties",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "condolence_letters",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "congressional_speech",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "constitutional_language",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "early_party_language",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "emancipation_policy",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "genre_context",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "immigration_and_party_language",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "informal_speech",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "leadership_language",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "lost_speech_boundary",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "military_policy",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "national_ritual_context",
+          "core": 0,
+          "validation": 1,
+          "reference": 0,
+          "total": 1
+        },
+        {
+          "value": "political_network_language",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "political_theory_language",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "public_reception_context",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        },
+        {
+          "value": "secession_crisis",
+          "core": 0,
+          "validation": 0,
+          "reference": 1,
+          "total": 1
+        }
+      ],
+      "overrepresented": [
+        "v1_preserved_baseline",
+        "high_priority",
+        "medium_priority",
+        "source_risk_transcription_variants",
+        "critical_priority",
+        "public_letters",
+        "negative_findings",
+        "war_powers",
+        "candidate_for_validation",
+        "annual_message_series",
+        "military_letters",
+        "recurrence_testing"
+      ],
+      "underrepresented": [
+        "antebellum_campaign_context",
+        "antebellum_slavery_language",
+        "black_soldier_language",
+        "boundary_condition_testing",
+        "civil_liberties",
+        "condolence_letters",
+        "congressional_speech",
+        "constitutional_language",
+        "early_party_language",
+        "emancipation_policy",
+        "genre_context",
+        "immigration_and_party_language",
+        "informal_speech",
+        "leadership_language",
+        "lost_speech_boundary",
+        "military_policy",
+        "national_ritual_context",
+        "political_network_language",
+        "political_theory_language",
+        "public_reception_context",
+        "secession_crisis"
+      ]
+    }
+  },
+  "claim_coverage": [
+    {
+      "key": "slavery_emancipation",
+      "title": "Slavery and Emancipation Coverage",
+      "support_label": "race, agency, and emancipation claims",
+      "tier_counts": {
+        "core": 20,
+        "validation": 36,
+        "reference": 7
+      },
+      "assessment": "supports_claims_with_tier_limits",
+      "core_support": "supported_for_core_claims",
+      "validation_support": "supported_for_validation_checks",
+      "examples": {
+        "core": [
+          {
+            "doc_id": "doc_012",
+            "short_title": "Greeley Letter",
+            "date": "1862-08-22"
+          },
+          {
+            "doc_id": "doc_013",
+            "short_title": "Prelim Emancipation",
+            "date": "1862-09-22"
+          },
+          {
+            "doc_id": "doc_014",
+            "short_title": "Annual Message 1862",
+            "date": "1862-12-01"
+          },
+          {
+            "doc_id": "doc_015",
+            "short_title": "Final Emancipation",
+            "date": "1863-01-01"
+          },
+          {
+            "doc_id": "doc_016",
+            "short_title": "Conkling Letter",
+            "date": "1863-08-26"
+          },
+          {
+            "doc_id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19"
+          }
+        ],
+        "validation": [
+          {
+            "doc_id": "doc_012",
+            "short_title": "Greeley Letter",
+            "date": "1862-08-22"
+          },
+          {
+            "doc_id": "doc_013",
+            "short_title": "Prelim Emancipation",
+            "date": "1862-09-22"
+          },
+          {
+            "doc_id": "doc_014",
+            "short_title": "Annual Message 1862",
+            "date": "1862-12-01"
+          },
+          {
+            "doc_id": "doc_015",
+            "short_title": "Final Emancipation",
+            "date": "1863-01-01"
+          },
+          {
+            "doc_id": "doc_016",
+            "short_title": "Conkling Letter",
+            "date": "1863-08-26"
+          },
+          {
+            "doc_id": "doc_017",
+            "short_title": "Gettysburg",
+            "date": "1863-11-19"
+          }
+        ],
+        "reference": [
+          {
+            "doc_id": "doc_073",
+            "short_title": "Slavery Protest",
+            "date": "1837-03-03"
+          },
+          {
+            "doc_id": "doc_076",
+            "short_title": "Durley Letter",
+            "date": "1845-10-03"
+          },
+          {
+            "doc_id": "doc_082",
+            "short_title": "Sectional Controversy Fragment",
+            "date": "1856"
+          },
+          {
+            "doc_id": "doc_087",
+            "short_title": "Bullitt Letter",
+            "date": "1862-07-28"
+          },
+          {
+            "doc_id": "doc_088",
+            "short_title": "Seymour Letter",
+            "date": "1863-08-07"
+          },
+          {
+            "doc_id": "doc_089",
+            "short_title": "Retaliation Order",
+            "date": "1863-07-30"
+          }
+        ]
+      }
+    },
+    {
+      "key": "war_powers",
+      "title": "War Powers Coverage",
+      "support_label": "war-powers claims",
+      "tier_counts": {
+        "core": 2,
+        "validation": 13,
+        "reference": 3
+      },
+      "assessment": "requires_caution_or_follow_up",
+      "core_support": "limited_for_core_claims",
+      "validation_support": "supported_for_validation_checks",
+      "examples": {
+        "core": [
+          {
+            "doc_id": "doc_028",
+            "short_title": "Annual Message 1861",
+            "date": "1861-12-03"
+          },
+          {
+            "doc_id": "doc_029",
+            "short_title": "Corning Letter",
+            "date": "1863-06-12"
+          }
+        ],
+        "validation": [
+          {
+            "doc_id": "doc_028",
+            "short_title": "Annual Message 1861",
+            "date": "1861-12-03"
+          },
+          {
+            "doc_id": "doc_029",
+            "short_title": "Corning Letter",
+            "date": "1863-06-12"
+          },
+          {
+            "doc_id": "doc_046",
+            "short_title": "Compensated Emancipation Message",
+            "date": "1862-03-06"
+          },
+          {
+            "doc_id": "doc_047",
+            "short_title": "Special Session Message",
+            "date": "1861-07-04"
+          },
+          {
+            "doc_id": "doc_048",
+            "short_title": "Militia Proclamation",
+            "date": "1861-04-15"
+          },
+          {
+            "doc_id": "doc_049",
+            "short_title": "Habeas Proclamation",
+            "date": "1862-09-24"
+          }
+        ],
+        "reference": [
+          {
+            "doc_id": "doc_077",
+            "short_title": "Spot Resolutions",
+            "date": "1847-12-22"
+          },
+          {
+            "doc_id": "doc_078",
+            "short_title": "Mexican War Speech",
+            "date": "1848-01-12"
+          },
+          {
+            "doc_id": "doc_088",
+            "short_title": "Seymour Letter",
+            "date": "1863-08-07"
+          }
+        ]
+      }
+    },
+    {
+      "key": "sacrifice_mourning",
+      "title": "Sacrifice and Mourning Coverage",
+      "support_label": "sacrifice and mourning claims",
+      "tier_counts": {
+        "core": 2,
+        "validation": 6,
+        "reference": 0
+      },
+      "assessment": "requires_caution_or_follow_up",
+      "core_support": "limited_for_core_claims",
+      "validation_support": "supported_for_validation_checks",
+      "examples": {
+        "core": [
+          {
+            "doc_id": "doc_037",
+            "short_title": "Fanny McCullough Letter",
+            "date": "1862-12-23"
+          },
+          {
+            "doc_id": "doc_041",
+            "short_title": "Bixby Letter",
+            "date": "1864-11-21"
+          }
+        ],
+        "validation": [
+          {
+            "doc_id": "doc_037",
+            "short_title": "Fanny McCullough Letter",
+            "date": "1862-12-23"
+          },
+          {
+            "doc_id": "doc_041",
+            "short_title": "Bixby Letter",
+            "date": "1864-11-21"
+          },
+          {
+            "doc_id": "doc_050",
+            "short_title": "Thanksgiving Proclamation 1863",
+            "date": "1863-10-03"
+          },
+          {
+            "doc_id": "doc_063",
+            "short_title": "Gurney Letter",
+            "date": "1864-09-04"
+          },
+          {
+            "doc_id": "doc_064",
+            "short_title": "Bixby Context",
+            "date": "1864-11-21"
+          },
+          {
+            "doc_id": "doc_068",
+            "short_title": "166th Ohio Address",
+            "date": "1864-08-22"
+          }
+        ],
+        "reference": []
+      }
+    },
+    {
+      "key": "providence",
+      "title": "Providence Coverage",
+      "support_label": "providence claims",
+      "tier_counts": {
+        "core": 2,
+        "validation": 6,
+        "reference": 0
+      },
+      "assessment": "requires_caution_or_follow_up",
+      "core_support": "limited_for_core_claims",
+      "validation_support": "supported_for_validation_checks",
+      "examples": {
+        "core": [
+          {
+            "doc_id": "doc_030",
+            "short_title": "Meditation on Divine Will",
+            "date": "1862-09"
+          },
+          {
+            "doc_id": "doc_037",
+            "short_title": "Fanny McCullough Letter",
+            "date": "1862-12-23"
+          }
+        ],
+        "validation": [
+          {
+            "doc_id": "doc_030",
+            "short_title": "Meditation on Divine Will",
+            "date": "1862-09"
+          },
+          {
+            "doc_id": "doc_037",
+            "short_title": "Fanny McCullough Letter",
+            "date": "1862-12-23"
+          },
+          {
+            "doc_id": "doc_050",
+            "short_title": "Thanksgiving Proclamation 1863",
+            "date": "1863-10-03"
+          },
+          {
+            "doc_id": "doc_051",
+            "short_title": "National Fast Day",
+            "date": "1863-03-30"
+          },
+          {
+            "doc_id": "doc_063",
+            "short_title": "Gurney Letter",
+            "date": "1864-09-04"
+          },
+          {
+            "doc_id": "doc_069",
+            "short_title": "Presbyterian Reply",
+            "date": "1863-06-02"
+          }
+        ],
+        "reference": []
+      }
+    },
+    {
+      "key": "race_black_military_agency",
+      "title": "Race and Black Military Agency Coverage",
+      "support_label": "race and Black military agency claims",
+      "tier_counts": {
+        "core": 2,
+        "validation": 4,
+        "reference": 1
+      },
+      "assessment": "supports_claims_with_tier_limits",
+      "core_support": "supported_for_core_claims",
+      "validation_support": "supported_for_validation_checks",
+      "examples": {
+        "core": [
+          {
+            "doc_id": "doc_030",
+            "short_title": "Meditation on Divine Will",
+            "date": "1862-09"
+          },
+          {
+            "doc_id": "doc_035",
+            "short_title": "Colonization Address",
+            "date": "1862-08-14"
+          }
+        ],
+        "validation": [
+          {
+            "doc_id": "doc_030",
+            "short_title": "Meditation on Divine Will",
+            "date": "1862-09"
+          },
+          {
+            "doc_id": "doc_035",
+            "short_title": "Colonization Address",
+            "date": "1862-08-14"
+          },
+          {
+            "doc_id": "doc_056",
+            "short_title": "Conkling Context",
+            "date": "1863-08-26"
+          },
+          {
+            "doc_id": "doc_067",
+            "short_title": "Hahn Letter",
+            "date": "1864-03-13"
+          }
+        ],
+        "reference": [
+          {
+            "doc_id": "doc_089",
+            "short_title": "Retaliation Order",
+            "date": "1863-07-30"
+          }
+        ]
+      }
+    },
+    {
+      "key": "disease_purification_negative_check",
+      "title": "Disease/Purification Negative-Check Coverage",
+      "support_label": "disease/purification negative-check claims",
+      "tier_counts": {
+        "core": 0,
+        "validation": 1,
+        "reference": 7
+      },
+      "assessment": "requires_caution_or_follow_up",
+      "core_support": "limited_for_core_claims",
+      "validation_support": "supported_for_validation_checks",
+      "examples": {
+        "core": [],
+        "validation": [
+          {
+            "doc_id": "doc_070",
+            "short_title": "Commercial Intercourse Proclamation",
+            "date": "1864-02-18"
+          }
+        ],
+        "reference": [
+          {
+            "doc_id": "doc_073",
+            "short_title": "Slavery Protest",
+            "date": "1837-03-03"
+          },
+          {
+            "doc_id": "doc_074",
+            "short_title": "Subtreasury Speech",
+            "date": "1839-12-26"
+          },
+          {
+            "doc_id": "doc_077",
+            "short_title": "Spot Resolutions",
+            "date": "1847-12-22"
+          },
+          {
+            "doc_id": "doc_079",
+            "short_title": "Law Lecture Notes",
+            "date": "1850"
+          },
+          {
+            "doc_id": "doc_082",
+            "short_title": "Sectional Controversy Fragment",
+            "date": "1856"
+          },
+          {
+            "doc_id": "doc_088",
+            "short_title": "Seymour Letter",
+            "date": "1863-08-07"
+          }
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "The v4 core is the interpretive corpus; validation records widen denominator checks but are not fully Stage 4A annotated.",
+    "Reference records are search-only leads and cannot by themselves support coded interpretive claims.",
+    "The validation raw-text directory is not fully populated yet, so validation coverage is metadata-level until later ingestion work expands it."
+  ]
+}
