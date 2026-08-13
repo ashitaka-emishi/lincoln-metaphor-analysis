@@ -1,0 +1,997 @@
+{
+  "ingestion_id": "corpus_v4_ingestion",
+  "corpus_version": "v4",
+  "created_date": "2026-08-13",
+  "status": "pass",
+  "inputs": {
+    "core_raw_dir": "corpus/raw/v4-core",
+    "validation_raw_dir": "corpus/raw/v4-validation",
+    "core_inventory": "data/corpus/corpus-v4-core-inventory.json",
+    "validation_inventory": "data/corpus/corpus-v4-validation-inventory.json"
+  },
+  "outputs": {
+    "core_normalized_dir": "corpus/normalized/v4-core",
+    "validation_normalized_dir": "corpus/normalized/v4-validation",
+    "manifest": "data/corpus/corpus-v4-ingestion-manifest.json"
+  },
+  "options": {
+    "strip_boilerplate": true,
+    "preserve_paragraph_breaks": true,
+    "normalize_line_endings": true
+  },
+  "summary": {
+    "expected_v4_core_raw_records": 20,
+    "expected_v4_validation_raw_records": 30,
+    "raw_files_found": 20,
+    "normalized_files_written": 20,
+    "missing_raw_files": 30,
+    "skipped_v1_records": 28,
+    "errors": 0,
+    "warnings": 30
+  },
+  "records": [
+    {
+      "doc_id": "doc_023",
+      "tier": "v4-core",
+      "title": "First Political Announcement",
+      "date": "1832-03-09",
+      "raw_path": "corpus/raw/v4-core/doc_023--first-political-announcement--1832-03-09.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_023--first-political-announcement--1832-03-09.txt",
+      "status": "ingested",
+      "input_bytes": 6162,
+      "output_bytes": 6162,
+      "paragraph_count": 16,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_024",
+      "tier": "v4-core",
+      "title": "Letter to George Robertson",
+      "date": "1855-08-15",
+      "raw_path": "corpus/raw/v4-core/doc_024--robertson-letter--1855-08-15.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_024--robertson-letter--1855-08-15.txt",
+      "status": "ingested",
+      "input_bytes": 2832,
+      "output_bytes": 2832,
+      "paragraph_count": 9,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_025",
+      "tier": "v4-core",
+      "title": "Letter to Joshua Speed",
+      "date": "1855-08-24",
+      "raw_path": "corpus/raw/v4-core/doc_025--speed-letter--1855-08-24.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_025--speed-letter--1855-08-24.txt",
+      "status": "ingested",
+      "input_bytes": 8527,
+      "output_bytes": 8527,
+      "paragraph_count": 12,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_026",
+      "tier": "v4-core",
+      "title": "Speech on the Dred Scott Decision",
+      "date": "1857-06-26",
+      "raw_path": "corpus/raw/v4-core/doc_026--dred-scott-speech--1857-06-26.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_026--dred-scott-speech--1857-06-26.txt",
+      "status": "ingested",
+      "input_bytes": 30782,
+      "output_bytes": 30782,
+      "paragraph_count": 57,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_027",
+      "tier": "v4-core",
+      "title": "Address at Independence Hall",
+      "date": "1861-02-22",
+      "raw_path": "corpus/raw/v4-core/doc_027--independence-hall-address--1861-02-22.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_027--independence-hall-address--1861-02-22.txt",
+      "status": "ingested",
+      "input_bytes": 2569,
+      "output_bytes": 2569,
+      "paragraph_count": 4,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_028",
+      "tier": "v4-core",
+      "title": "Annual Message to Congress",
+      "date": "1861-12-03",
+      "raw_path": "corpus/raw/v4-core/doc_028--annual-message-1861--1861-12-03.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_028--annual-message-1861--1861-12-03.txt",
+      "status": "ingested",
+      "input_bytes": 41703,
+      "output_bytes": 41703,
+      "paragraph_count": 83,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_029",
+      "tier": "v4-core",
+      "title": "Letter to Erastus Corning and Others",
+      "date": "1863-06-12",
+      "raw_path": "corpus/raw/v4-core/doc_029--corning-letter--1863-06-12.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_029--corning-letter--1863-06-12.txt",
+      "status": "ingested",
+      "input_bytes": 21815,
+      "output_bytes": 21815,
+      "paragraph_count": 18,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_030",
+      "tier": "v4-core",
+      "title": "Meditation on the Divine Will",
+      "date": "1862-09",
+      "raw_path": "corpus/raw/v4-core/doc_030--meditation-on-divine-will--1862-09.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_030--meditation-on-divine-will--1862-09.txt",
+      "status": "ingested",
+      "input_bytes": 857,
+      "output_bytes": 857,
+      "paragraph_count": 3,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_031",
+      "tier": "v4-core",
+      "title": "Fragment on Slavery",
+      "date": "1854",
+      "raw_path": "corpus/raw/v4-core/doc_031--fragment-on-slavery--1854-07-01.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_031--fragment-on-slavery--1854-07-01.txt",
+      "status": "ingested",
+      "input_bytes": 1414,
+      "output_bytes": 1414,
+      "paragraph_count": 4,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_032",
+      "tier": "v4-core",
+      "title": "Speech at Kalamazoo, Michigan",
+      "date": "1856-08-27",
+      "raw_path": "corpus/raw/v4-core/doc_032--kalamazoo-speech--1856-08-27.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_032--kalamazoo-speech--1856-08-27.txt",
+      "status": "ingested",
+      "input_bytes": 15564,
+      "output_bytes": 15564,
+      "paragraph_count": 16,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_033",
+      "tier": "v4-core",
+      "title": "Speech at New Haven, Connecticut",
+      "date": "1860-03-06",
+      "raw_path": "corpus/raw/v4-core/doc_033--new-haven-speech--1860-03-06.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_033--new-haven-speech--1860-03-06.txt",
+      "status": "ingested",
+      "input_bytes": 43449,
+      "output_bytes": 43449,
+      "paragraph_count": 51,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_034",
+      "tier": "v4-core",
+      "title": "Letter to Henry L. Pierce and Others",
+      "date": "1859-04-06",
+      "raw_path": "corpus/raw/v4-core/doc_034--pierce-letter--1859-04-06.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_034--pierce-letter--1859-04-06.txt",
+      "status": "ingested",
+      "input_bytes": 3615,
+      "output_bytes": 3615,
+      "paragraph_count": 9,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_035",
+      "tier": "v4-core",
+      "title": "Address on Colonization to a Deputation of Negroes",
+      "date": "1862-08-14",
+      "raw_path": "corpus/raw/v4-core/doc_035--colonization-address--1862-08-14.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_035--colonization-address--1862-08-14.txt",
+      "status": "ingested",
+      "input_bytes": 10885,
+      "output_bytes": 10885,
+      "paragraph_count": 24,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_036",
+      "tier": "v4-core",
+      "title": "Reply to Chicago Emancipation Memorial",
+      "date": "1862-09-13",
+      "raw_path": "corpus/raw/v4-core/doc_036--chicago-emancipation-reply--1862-09-13.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_036--chicago-emancipation-reply--1862-09-13.txt",
+      "status": "ingested",
+      "input_bytes": 14753,
+      "output_bytes": 14753,
+      "paragraph_count": 61,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_037",
+      "tier": "v4-core",
+      "title": "Letter to Fanny McCullough",
+      "date": "1862-12-23",
+      "raw_path": "corpus/raw/v4-core/doc_037--fanny-mccullough-letter--1862-12-23.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_037--fanny-mccullough-letter--1862-12-23.txt",
+      "status": "ingested",
+      "input_bytes": 1106,
+      "output_bytes": 1106,
+      "paragraph_count": 7,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_038",
+      "tier": "v4-core",
+      "title": "Proclamation of Amnesty and Reconstruction",
+      "date": "1863-12-08",
+      "raw_path": "corpus/raw/v4-core/doc_038--amnesty-proclamation--1863-12-08.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_038--amnesty-proclamation--1863-12-08.txt",
+      "status": "ingested",
+      "input_bytes": 7095,
+      "output_bytes": 7095,
+      "paragraph_count": 19,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_039",
+      "tier": "v4-core",
+      "title": "Annual Message to Congress",
+      "date": "1863-12-08",
+      "raw_path": "corpus/raw/v4-core/doc_039--annual-message-1863--1863-12-08.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_039--annual-message-1863--1863-12-08.txt",
+      "status": "ingested",
+      "input_bytes": 37249,
+      "output_bytes": 37249,
+      "paragraph_count": 69,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_040",
+      "tier": "v4-core",
+      "title": "Annual Message to Congress",
+      "date": "1864-12-06",
+      "raw_path": "corpus/raw/v4-core/doc_040--annual-message-1864--1864-12-06.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_040--annual-message-1864--1864-12-06.txt",
+      "status": "ingested",
+      "input_bytes": 35674,
+      "output_bytes": 35674,
+      "paragraph_count": 74,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_041",
+      "tier": "v4-core",
+      "title": "Letter to Mrs. Lydia Bixby",
+      "date": "1864-11-21",
+      "raw_path": "corpus/raw/v4-core/doc_041--bixby-letter--1864-11-21.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_041--bixby-letter--1864-11-21.txt",
+      "status": "ingested",
+      "input_bytes": 863,
+      "output_bytes": 863,
+      "paragraph_count": 6,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_042",
+      "tier": "v4-core",
+      "title": "Response to a Serenade by the Ohio Delegation",
+      "date": "1864-06-09",
+      "raw_path": "corpus/raw/v4-core/doc_042--ohio-delegation-serenade-response--1864-06-09.txt",
+      "normalized_path": "corpus/normalized/v4-core/doc_042--ohio-delegation-serenade-response--1864-06-09.txt",
+      "status": "ingested",
+      "input_bytes": 969,
+      "output_bytes": 969,
+      "paragraph_count": 3,
+      "line_endings_normalized": false,
+      "boilerplate_removed_lines": 0
+    },
+    {
+      "doc_id": "doc_043",
+      "tier": "v4-validation",
+      "title": "First Lincoln-Douglas Debate, Ottawa, Illinois, Douglas-Lincoln Context",
+      "date": "1858-08-21",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_044",
+      "tier": "v4-validation",
+      "title": "Second Lincoln-Douglas Debate, Freeport, Illinois, Douglas-Lincoln Context",
+      "date": "1858-08-27",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_045",
+      "tier": "v4-validation",
+      "title": "Sixth Lincoln-Douglas Debate, Quincy, Illinois, Context Expansion",
+      "date": "1858-10-13",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_046",
+      "tier": "v4-validation",
+      "title": "Message to Congress Recommending Compensated Emancipation",
+      "date": "1862-03-06",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_047",
+      "tier": "v4-validation",
+      "title": "Message to Congress in Special Session",
+      "date": "1861-07-04",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_048",
+      "tier": "v4-validation",
+      "title": "Proclamation Calling Militia and Convening Congress",
+      "date": "1861-04-15",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_049",
+      "tier": "v4-validation",
+      "title": "Proclamation Suspending the Writ of Habeas Corpus",
+      "date": "1862-09-24",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_050",
+      "tier": "v4-validation",
+      "title": "Thanksgiving Proclamation",
+      "date": "1863-10-03",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_051",
+      "tier": "v4-validation",
+      "title": "Proclamation Appointing a National Fast Day",
+      "date": "1863-03-30",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_052",
+      "tier": "v4-validation",
+      "title": "Letter to General George B. McClellan",
+      "date": "1862-04-09",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_053",
+      "tier": "v4-validation",
+      "title": "Letter to General Joseph Hooker",
+      "date": "1863-01-26",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_054",
+      "tier": "v4-validation",
+      "title": "Letter to Ulysses S. Grant",
+      "date": "1864-04-30",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_055",
+      "tier": "v4-validation",
+      "title": "Letter to James A. McDougall",
+      "date": "1863-09-05",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_056",
+      "tier": "v4-validation",
+      "title": "Letter to James C. Conkling, Alternate Newspaper Context",
+      "date": "1863-08-26",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_057",
+      "tier": "v4-validation",
+      "title": "Letter to Owen Lovejoy",
+      "date": "1863-08-17",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_058",
+      "tier": "v4-validation",
+      "title": "Letter to A. G. Hodges, Draft and Circulation Context",
+      "date": "1864-04-04",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_059",
+      "tier": "v4-validation",
+      "title": "Letter to Mary Speed",
+      "date": "1841-09-27",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_060",
+      "tier": "v4-validation",
+      "title": "Letter to Mary Owens",
+      "date": "1837-05-07",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_061",
+      "tier": "v4-validation",
+      "title": "Letter to Orville H. Browning",
+      "date": "1861-09-22",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_062",
+      "tier": "v4-validation",
+      "title": "Letter to Greeley, Draft and Publication Context",
+      "date": "1862-08-22",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_063",
+      "tier": "v4-validation",
+      "title": "Letter to Mrs. Eliza P. Gurney",
+      "date": "1864-09-04",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_064",
+      "tier": "v4-validation",
+      "title": "Letter to Mrs. Lydia Bixby, Authorship Review Context",
+      "date": "1864-11-21",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_065",
+      "tier": "v4-validation",
+      "title": "Letter to King of Siam",
+      "date": "1862-02-03",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_066",
+      "tier": "v4-validation",
+      "title": "Letter to General David Hunter",
+      "date": "1862-05-19",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_067",
+      "tier": "v4-validation",
+      "title": "Letter to Michael Hahn",
+      "date": "1864-03-13",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_068",
+      "tier": "v4-validation",
+      "title": "Address to the 166th Ohio Regiment",
+      "date": "1864-08-22",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_069",
+      "tier": "v4-validation",
+      "title": "Reply to Committee from the Presbyterian General Assembly",
+      "date": "1863-06-02",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_070",
+      "tier": "v4-validation",
+      "title": "Proclamation Concerning Commercial Intercourse",
+      "date": "1864-02-18",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_071",
+      "tier": "v4-validation",
+      "title": "Letter to General Nathaniel P. Banks",
+      "date": "1863-08-05",
+      "status": "missing_raw"
+    },
+    {
+      "doc_id": "doc_072",
+      "tier": "v4-validation",
+      "title": "Last Written Statement",
+      "date": "1865-04-14",
+      "status": "missing_raw"
+    }
+  ],
+  "skipped_records": [
+    {
+      "doc_id": "doc_001",
+      "title": "Address Before the Young Men's Lyceum of Springfield, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_001.txt"
+    },
+    {
+      "doc_id": "doc_002",
+      "title": "Temperance Address",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_002.txt"
+    },
+    {
+      "doc_id": "doc_003",
+      "title": "Eulogy on Henry Clay",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_003.txt"
+    },
+    {
+      "doc_id": "doc_004",
+      "title": "Speech at Peoria, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_004.txt"
+    },
+    {
+      "doc_id": "doc_005",
+      "title": "House Divided Speech",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_005.txt"
+    },
+    {
+      "doc_id": "doc_006a",
+      "title": "First Lincoln-Douglas Debate, Ottawa, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_006a.txt"
+    },
+    {
+      "doc_id": "doc_006b",
+      "title": "Second Lincoln-Douglas Debate, Freeport, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_006b.txt"
+    },
+    {
+      "doc_id": "doc_006c",
+      "title": "Third Lincoln-Douglas Debate, Jonesboro, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_006c.txt"
+    },
+    {
+      "doc_id": "doc_006d",
+      "title": "Fourth Lincoln-Douglas Debate, Charleston, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_006d.txt"
+    },
+    {
+      "doc_id": "doc_006e",
+      "title": "Fifth Lincoln-Douglas Debate, Galesburg, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_006e.txt"
+    },
+    {
+      "doc_id": "doc_006f",
+      "title": "Sixth Lincoln-Douglas Debate, Quincy, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_006f.txt"
+    },
+    {
+      "doc_id": "doc_006g",
+      "title": "Seventh Lincoln-Douglas Debate, Alton, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_006g.txt"
+    },
+    {
+      "doc_id": "doc_007",
+      "title": "Address at Cooper Institute, New York City",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_007.txt"
+    },
+    {
+      "doc_id": "doc_008",
+      "title": "Farewell Address at Springfield, Illinois",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_008.txt"
+    },
+    {
+      "doc_id": "doc_009",
+      "title": "First Inaugural Address",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_009.txt"
+    },
+    {
+      "doc_id": "doc_010",
+      "title": "Message to Congress in Special Session, July 4, 1861",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_010.txt"
+    },
+    {
+      "doc_id": "doc_011",
+      "title": "Fragment on the Constitution and the Union",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_011.txt"
+    },
+    {
+      "doc_id": "doc_012",
+      "title": "Letter to Horace Greeley",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_012.txt"
+    },
+    {
+      "doc_id": "doc_013",
+      "title": "Preliminary Emancipation Proclamation",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_013.txt"
+    },
+    {
+      "doc_id": "doc_014",
+      "title": "Annual Message to Congress, December 1, 1862",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_014.txt"
+    },
+    {
+      "doc_id": "doc_015",
+      "title": "Emancipation Proclamation",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_015.txt"
+    },
+    {
+      "doc_id": "doc_016",
+      "title": "Letter to James C. Conkling",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_016.txt"
+    },
+    {
+      "doc_id": "doc_017",
+      "title": "Address Delivered at the Dedication of the Cemetery at Gettysburg",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_017.txt"
+    },
+    {
+      "doc_id": "doc_018",
+      "title": "Memorandum Concerning His Probable Failure of Re-election",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_018.txt"
+    },
+    {
+      "doc_id": "doc_019",
+      "title": "Letter to Albert G. Hodges",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_019.txt"
+    },
+    {
+      "doc_id": "doc_020",
+      "title": "Response to a Serenade, November 10, 1864",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_020.txt"
+    },
+    {
+      "doc_id": "doc_021",
+      "title": "Second Inaugural Address",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_021.txt"
+    },
+    {
+      "doc_id": "doc_022",
+      "title": "Last Public Address",
+      "reason": "included_in_v1_preserved",
+      "raw_path": "corpus/raw/doc_022.txt"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_043",
+        "title": "First Lincoln-Douglas Debate, Ottawa, Illinois, Douglas-Lincoln Context"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_044",
+        "title": "Second Lincoln-Douglas Debate, Freeport, Illinois, Douglas-Lincoln Context"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_045",
+        "title": "Sixth Lincoln-Douglas Debate, Quincy, Illinois, Context Expansion"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_046",
+        "title": "Message to Congress Recommending Compensated Emancipation"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_047",
+        "title": "Message to Congress in Special Session"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_048",
+        "title": "Proclamation Calling Militia and Convening Congress"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_049",
+        "title": "Proclamation Suspending the Writ of Habeas Corpus"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_050",
+        "title": "Thanksgiving Proclamation"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_051",
+        "title": "Proclamation Appointing a National Fast Day"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_052",
+        "title": "Letter to General George B. McClellan"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_053",
+        "title": "Letter to General Joseph Hooker"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_054",
+        "title": "Letter to Ulysses S. Grant"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_055",
+        "title": "Letter to James A. McDougall"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_056",
+        "title": "Letter to James C. Conkling, Alternate Newspaper Context"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_057",
+        "title": "Letter to Owen Lovejoy"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_058",
+        "title": "Letter to A. G. Hodges, Draft and Circulation Context"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_059",
+        "title": "Letter to Mary Speed"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_060",
+        "title": "Letter to Mary Owens"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_061",
+        "title": "Letter to Orville H. Browning"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_062",
+        "title": "Letter to Greeley, Draft and Publication Context"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_063",
+        "title": "Letter to Mrs. Eliza P. Gurney"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_064",
+        "title": "Letter to Mrs. Lydia Bixby, Authorship Review Context"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_065",
+        "title": "Letter to King of Siam"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_066",
+        "title": "Letter to General David Hunter"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_067",
+        "title": "Letter to Michael Hahn"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_068",
+        "title": "Address to the 166th Ohio Regiment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_069",
+        "title": "Reply to Committee from the Presbyterian General Assembly"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_070",
+        "title": "Proclamation Concerning Commercial Intercourse"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_071",
+        "title": "Letter to General Nathaniel P. Banks"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "inventory_record_missing_raw_file",
+      "message": "Inventory record does not yet have a raw v4 source file",
+      "context": {
+        "tier": "v4-validation",
+        "doc_id": "doc_072",
+        "title": "Last Written Statement"
+      }
+    }
+  ]
+}
