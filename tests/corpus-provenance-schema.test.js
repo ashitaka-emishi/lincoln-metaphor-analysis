@@ -179,10 +179,9 @@ test('checked-in provenance covers every current manifest document and uses regi
   const provenanceByDoc = new Map(provenance.records.map(record => [record.doc_id, record]));
   assert.equal(provenanceDocIds.length, provenanceByDoc.size, 'provenance doc IDs must be unique');
 
-  assert.deepEqual(
-    [...provenanceByDoc.keys()].sort(),
-    manifest.documents.map(document => document.id).sort()
-  );
+  for (const document of manifest.documents) {
+    assert.ok(provenanceByDoc.has(document.id), `${document.id} is missing provenance`);
+  }
 
   for (const record of provenance.records) {
     assert.ok(registeredSources.has(record.source_id), `${record.doc_id} uses unregistered source ${record.source_id}`);

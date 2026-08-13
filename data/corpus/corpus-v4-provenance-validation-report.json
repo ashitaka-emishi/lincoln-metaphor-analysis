@@ -1,0 +1,531 @@
+{
+  "validation_id": "corpus_v4_provenance_validation",
+  "created_date": "2026-08-13",
+  "status": "pass",
+  "inputs": {
+    "source_authority_register": "corpus/provenance/source-authority-register.json",
+    "provenance": "corpus/provenance/corpus-v4-provenance.json",
+    "core_inventory": "data/corpus/corpus-v4-core-inventory.json",
+    "validation_inventory": "data/corpus/corpus-v4-validation-inventory.json",
+    "schema": "schemas/corpus-provenance.schema.json"
+  },
+  "summary": {
+    "source_authorities": 6,
+    "provenance_records": 78,
+    "core_documents": 48,
+    "validation_documents": 78,
+    "errors": 0,
+    "warnings": 62
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "authorship_review",
+      "message": "Authorship status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_006a",
+        "authorship_status": "attributed"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "authorship_review",
+      "message": "Authorship status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_006b",
+        "authorship_status": "attributed"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "authorship_review",
+      "message": "Authorship status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_006c",
+        "authorship_status": "attributed"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "authorship_review",
+      "message": "Authorship status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_006d",
+        "authorship_status": "attributed"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "authorship_review",
+      "message": "Authorship status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_006e",
+        "authorship_status": "attributed"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "authorship_review",
+      "message": "Authorship status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_006f",
+        "authorship_status": "attributed"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "authorship_review",
+      "message": "Authorship status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_006g",
+        "authorship_status": "attributed"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "text_status_review",
+      "message": "Text status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_011",
+        "text_status": "fragment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "text_status_review",
+      "message": "Text status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_018",
+        "text_status": "fragment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_023"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_024"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_025"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_026"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_027"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_028"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_029"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "text_status_review",
+      "message": "Text status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_030",
+        "text_status": "fragment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_030"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "text_status_review",
+      "message": "Text status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_031",
+        "text_status": "fragment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_031"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_032"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_033"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_034"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_035"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_036"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_037"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_038"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_039"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_040"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_041"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_042"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_043"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_044"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_045"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_046"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_047"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_048"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_049"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_050"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_051"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_052"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_053"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_054"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_055"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_056"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_057"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_058"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_059"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_060"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_061"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_062"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_063"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_064"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_065"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_066"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_067"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_068"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_069"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_070"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_071"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "text_status_review",
+      "message": "Text status should receive reviewer attention before interpretive use",
+      "context": {
+        "doc_id": "doc_072",
+        "text_status": "fragment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "provenance_placeholder",
+      "message": "Provenance record is a placeholder pending item-level confirmation",
+      "context": {
+        "doc_id": "doc_072"
+      }
+    }
+  ]
+}
