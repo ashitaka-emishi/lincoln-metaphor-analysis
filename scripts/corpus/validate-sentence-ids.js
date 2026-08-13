@@ -3,6 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeFile: guardedWriteFile } = require('./write-guard');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const CREATED_DATE = '2026-08-13';
@@ -348,8 +349,7 @@ function writeReport(report, options) {
     }
     return false;
   }
-  fs.mkdirSync(path.dirname(reportPath), { recursive: true });
-  fs.writeFileSync(reportPath, contents);
+  guardedWriteFile(reportPath, contents);
   return existing !== contents;
 }
 

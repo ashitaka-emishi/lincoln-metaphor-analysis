@@ -3,6 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { assertCorpusV4WritePath, writeFile: guardedWriteFile } = require('./write-guard');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const CREATED_DATE = '2026-08-13';
@@ -69,29 +70,6 @@ function parseArgs(argv) {
   }
 
   return options;
-}
-
-function pathIsInside(parent, child) {
-  const relative = path.relative(parent, child);
-  return relative === '' || (!relative.startsWith('..') && !path.isAbsolute(relative));
-}
-
-function assertSafeOutput(outputPath) {
-  const target = absolute(outputPath);
-  if (!pathIsInside(ROOT, target)) {
-    return;
-  }
-
-  const relative = path.relative(ROOT, target);
-  const allowed = relative === DEFAULT_PATHS.manifest
-    || relative.startsWith(`${DEFAULT_PATHS.segmentedCore}/`);
-
-  if (!allowed) {
-    throw new Error(`Refusing to write undeclared v4 segmentation output path: ${relative}`);
-  }
-  if (/^corpus\/segmented\/doc_[^/]+\.json$/.test(relative)) {
-    throw new Error(`Refusing to overwrite preserved v1 segmented file: ${relative}`);
-  }
 }
 
 function words(text) {
@@ -371,8 +349,8 @@ function buildSegmentation(options) {
 }
 
 function writeFile(outputPath, contents, options) {
-  assertSafeOutput(outputPath);
   const target = absolute(outputPath);
+  assertCorpusV4WritePath(target);
   const existing = fs.existsSync(target) ? fs.readFileSync(target, 'utf8') : null;
   if (options.check) {
     if (existing !== contents) {
@@ -380,8 +358,7 @@ function writeFile(outputPath, contents, options) {
     }
     return false;
   }
-  fs.mkdirSync(path.dirname(target), { recursive: true });
-  fs.writeFileSync(target, contents);
+  guardedWriteFile(target, contents);
   return existing !== contents;
 }
 

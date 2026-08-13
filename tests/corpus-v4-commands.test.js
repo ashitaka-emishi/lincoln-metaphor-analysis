@@ -79,6 +79,10 @@ test('npm v4 ingestion validation fails when release mode is enabled with missin
       path.join(ROOT, 'scripts', 'corpus', 'ingest-corpus-documents.js'),
       path.join(workspace, 'scripts', 'corpus', 'ingest-corpus-documents.js')
     );
+    fs.cpSync(
+      path.join(ROOT, 'scripts', 'corpus', 'write-guard.js'),
+      path.join(workspace, 'scripts', 'corpus', 'write-guard.js')
+    );
     writeJSON(path.join(workspace, 'data', 'corpus', 'corpus-v4-core-inventory.json'), inventory([
       {
         doc_id: 'doc_901',
