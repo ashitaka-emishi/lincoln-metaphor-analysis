@@ -93,7 +93,7 @@ The issue #113 required list is fully represented. Texts already present in v1 r
 | doc_039 | Annual Message 1863 | 1863-12-08 | v4-core | no | emancipation | annual_message | congress | Adds the 1863 annual message to complete the wartime annual-message comparison series. |
 | doc_040 | Annual Message 1864 | 1864-12-06 | v4-core | no | late_war | annual_message | congress | Adds the final wartime annual message to support late-war congressional-message coverage. |
 | doc_041 | Bixby Letter | 1864-11-21 | v4-core | no | late_war | condolence | grieving_family | Adds a famous condolence text while explicitly retaining authorship caution for later provenance validation. |
-| doc_042 | July 1864 Serenade Response | 1864-07-07 | v4-core | no | late_war | speech | public | Adds a late-war public response before the November reelection serenade to improve campaign-register comparison. |
+| doc_042 | Ohio Delegation Serenade Response | 1864-06-09 | v4-core | no | late_war | speech | public | Adds a late-war public response after the Baltimore renomination and before the November reelection serenade to improve campaign-register comparison. |
 
 ## Method Notes
 

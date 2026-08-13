@@ -12,6 +12,7 @@
     "validate:stage4m": "node scripts/stage4m/ingest-model-outputs.js --check && node scripts/stage4m/validate-artifacts.js && node scripts/stage4m/generate-results-page.js --check",
     "validate:stage4h": "node scripts/stage4h/validate-artifacts.js && node scripts/stage4h/generate-human-reliability-report.js --check && node scripts/stage4j/generate-adjudication-results.js --check && node scripts/stage4j/generate-codebook-revision-notes.js --check",
     "validate:source-provenance": "node scripts/validate_source_provenance.js",
+    "corpus:v4-core-raw": "python3 scripts/corpus/build-v4-core-raw-texts.py",
     "source:provenance": "node scripts/validate_source_provenance.js --write",
     "corpus:register": "node scripts/build_corpus_register.js",
     "evidence:chains": "node scripts/build_evidence_chains.js",

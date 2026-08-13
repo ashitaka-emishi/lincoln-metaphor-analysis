@@ -56,6 +56,33 @@
       "base_url": null,
       "citation_format": "Site name, page title, date accessed, and URL.",
       "notes": "Use only for reference-corpus discovery or when no stronger source is available; mark all such records with text-integrity cautions."
+    },
+    {
+      "source_id": "project_gutenberg_lapsley",
+      "name": "Project Gutenberg, The Papers and Writings of Abraham Lincoln, Complete",
+      "type": "public_domain_site",
+      "authority_level": "supplemental",
+      "base_url": "https://www.gutenberg.org/ebooks/3253",
+      "citation_format": "Project Gutenberg eBook 3253, The Papers and Writings of Abraham Lincoln, Complete, edited by Arthur Brooks Lapsley, URL, and retrieval date.",
+      "notes": "Public-domain access transcription used for raw-text ingestion when Michigan item pages are not script-accessible; retain scholarly edition citations in inventory metadata."
+    },
+    {
+      "source_id": "abraham_lincoln_online",
+      "name": "Abraham Lincoln Online Speeches and Writings",
+      "type": "public_domain_site",
+      "authority_level": "supplemental",
+      "base_url": "https://www.abrahamlincolnonline.org/lincoln/speeches/",
+      "citation_format": "Abraham Lincoln Online, document page title, URL, and retrieval date.",
+      "notes": "Public-domain Lincoln text pages used for short writings where page text cites the Collected Works source and excludes site introductions during ingestion."
+    },
+    {
+      "source_id": "papers_of_abraham_lincoln",
+      "name": "The Papers of Abraham Lincoln Digital Library",
+      "type": "documentary_project",
+      "authority_level": "preferred",
+      "base_url": "https://papersofabrahamlincoln.org/documents/",
+      "citation_format": "The Papers of Abraham Lincoln Digital Library, document title, date, identifier, URL, and retrieval date.",
+      "notes": "Preferred documentary editing project for item-level transcriptions and Basler publication cross-checks when available."
     }
   ]
 }
