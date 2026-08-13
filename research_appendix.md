@@ -65,4 +65,5 @@ Document-level close readings are linked beside their source texts in the [Corpu
 - [Design Decisions](docs/DECISIONS.md)
 - [V2 Stage 4M Release Checklist](docs/release/v2-stage4m-release-checklist.md)
 - [V3 Human Reliability Release Checklist](docs/release/v3-human-reliability-release-checklist.md)
+- [V4 Corpus Expansion Release Checklist](docs/release/v4-corpus-expansion-release-checklist.md)
 - [Change Log](changelog.md)
