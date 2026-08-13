@@ -1,0 +1,330 @@
+{
+  "validation_id": "corpus_v4_inventory_validation",
+  "created_date": "2026-08-13",
+  "status": "pass",
+  "inputs": {
+    "manifest": "corpus/corpus_manifest.json",
+    "provenance": "corpus/provenance/corpus-v4-provenance.json",
+    "document_schema": "schemas/corpus-document.schema.json",
+    "inventory_schema": "schemas/corpus-inventory.schema.json",
+    "core_inventory": "data/corpus/corpus-v4-core-inventory.json",
+    "validation_inventory": "data/corpus/corpus-v4-validation-inventory.json",
+    "reference_inventory": "data/corpus/corpus-v4-reference-inventory.json"
+  },
+  "summary": {
+    "core_documents": 48,
+    "validation_documents": 78,
+    "reference_documents": 18,
+    "errors": 0,
+    "warnings": 32
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "duplicate_title",
+      "message": "core inventory contains a repeated title",
+      "context": {
+        "value": "Annual Message to Congress",
+        "doc_ids": [
+          "doc_028",
+          "doc_039",
+          "doc_040"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "core inventory contains a repeated date",
+      "context": {
+        "value": "1863-12-08",
+        "doc_ids": [
+          "doc_038",
+          "doc_039"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_title",
+      "message": "validation inventory contains a repeated title",
+      "context": {
+        "value": "Annual Message to Congress",
+        "doc_ids": [
+          "doc_028",
+          "doc_039",
+          "doc_040"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "validation inventory contains a repeated date",
+      "context": {
+        "value": "1858-08-21",
+        "doc_ids": [
+          "doc_006a",
+          "doc_043"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "validation inventory contains a repeated date",
+      "context": {
+        "value": "1858-08-27",
+        "doc_ids": [
+          "doc_006b",
+          "doc_044"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "validation inventory contains a repeated date",
+      "context": {
+        "value": "1858-10-13",
+        "doc_ids": [
+          "doc_006f",
+          "doc_045"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "validation inventory contains a repeated date",
+      "context": {
+        "value": "1861-07-04",
+        "doc_ids": [
+          "doc_010",
+          "doc_047"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "validation inventory contains a repeated date",
+      "context": {
+        "value": "1862-08-22",
+        "doc_ids": [
+          "doc_012",
+          "doc_062"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "validation inventory contains a repeated date",
+      "context": {
+        "value": "1863-08-26",
+        "doc_ids": [
+          "doc_016",
+          "doc_056"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "validation inventory contains a repeated date",
+      "context": {
+        "value": "1864-04-04",
+        "doc_ids": [
+          "doc_019",
+          "doc_058"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "validation inventory contains a repeated date",
+      "context": {
+        "value": "1863-12-08",
+        "doc_ids": [
+          "doc_038",
+          "doc_039"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_date",
+      "message": "validation inventory contains a repeated date",
+      "context": {
+        "value": "1864-11-21",
+        "doc_ids": [
+          "doc_041",
+          "doc_064"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_023"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_024"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_025"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_026"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_027"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_028"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_029"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_030"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_031"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_032"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_033"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_034"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_035"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_036"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_037"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_038"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_039"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_040"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_041"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "core_missing_item_provenance",
+      "message": "v4-core document lacks an item-level provenance record in corpus-v4-provenance.json",
+      "context": {
+        "doc_id": "doc_042"
+      }
+    }
+  ]
+}
