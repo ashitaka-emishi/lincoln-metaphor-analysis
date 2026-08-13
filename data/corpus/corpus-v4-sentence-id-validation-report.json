@@ -1,0 +1,21 @@
+{
+  "validation_id": "corpus_v4_sentence_id_validation",
+  "created_date": "2026-08-13",
+  "status": "pass",
+  "inputs": {
+    "legacy_segmented_dir": "corpus/segmented",
+    "v4_core_segmented_dir": "corpus/segmented/v4-core",
+    "segmentation_manifest": "data/corpus/corpus-v4-segmentation-manifest.json"
+  },
+  "outputs": {
+    "report": "data/corpus/corpus-v4-sentence-id-validation-report.json"
+  },
+  "summary": {
+    "legacy_documents": 28,
+    "v4_core_documents": 48,
+    "legacy_sentences": 7644,
+    "v4_core_sentences": 9623,
+    "errors": 0
+  },
+  "errors": []
+}
