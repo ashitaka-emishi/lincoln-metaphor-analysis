@@ -2,6 +2,14 @@
 
 Read this before `PROMPT.md`. It explains what kind of project this is and what disciplines apply to all work.
 
+## Repository Status
+
+This repository is in reduced-maintenance mode.
+
+- Treat `ashitaka-emishi/political-pathology-workbench` as the implementation home for new evidence work, new planning, new publication work, new claim promotion, new validation design, and new corpus expansion decisions.
+- Use this repository only for provenance-preserving maintenance: maintainer-approved lifecycle notices, broken-link repair, minor typo/citation correction, and source-history clarification.
+- Do not start new forward-looking implementation here unless the maintainer explicitly reopens the repository's lifecycle decision.
+
 ---
 
 ## Project Nature
@@ -59,13 +67,15 @@ Before closing any issue that belongs to a milestone, check for an open issue in
 
 Tracking issues should contain the issue order, dependency notes, and milestone-level completion definition. If work is completed out of order or the dependency sequence changes, leave a short note on the tracking issue explaining the change.
 
-Current tracker: https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/11
+Current tracker: none. Historical tracking issues may remain as provenance records, but new implementation tracking belongs in PPW.
 
 ---
 
 ## SDLC Workflow
 
 Use the repo skill `.agents/skills/sdlc-workflow` for branch, pull request, review, merge, and issue-tracking workflows.
+
+In reduced-maintenance mode, do not open new implementation branches or issues in this repository for corpus expansion, annotation, scoring, reliability-study design, or publication growth. Redirect that work to PPW unless the task is explicitly about repository preservation or source provenance.
 
 Default branch naming:
 

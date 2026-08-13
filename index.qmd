@@ -3,6 +3,12 @@ title: "Lincoln Metaphor Analysis"
 subtitle: "Metaphor, obligation, agency, and reconciliation in Lincoln's rhetoric, 1838–1865"
 ---
 
+::: {.callout-note}
+## This site is retained for reference
+
+This project has moved to the [Political Pathology Workbench](https://github.com/ashitaka-emishi/political-pathology-workbench). This site remains published for reference and citation. New work, documentation updates, and publication artifacts will appear at PPW.
+:::
+
 This project studies how Abraham Lincoln's metaphors made the Civil War appear not merely chosen, but required by national injury, sworn obligation, democratic experiment, inherited duty, birth, and Providence.
 
 ## Central Argument
