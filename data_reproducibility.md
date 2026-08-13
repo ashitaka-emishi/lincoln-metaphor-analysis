@@ -4,7 +4,7 @@ title: "Data / Reproducibility"
 
 The project is designed so the interpretive claims can be traced back to structured data.
 
-The corpus begins in `corpus/raw/`, moves through Markdown files with YAML metadata in `corpus/text/`, then becomes segmented JSON in `corpus/segmented/`. Annotated documents live in `corpus/annotated/`, where metaphor instances are embedded directly into the sentence structure that produced them.
+The v1/Stage 4A corpus begins in `corpus/raw/`, moves through Markdown files with YAML metadata in `corpus/text/`, then becomes segmented JSON in `corpus/segmented/`. Annotated documents live in `corpus/annotated/`, where metaphor instances are embedded directly into the sentence structure that produced them. The v4 corpus expansion uses separate versioned paths for raw, normalized, segmented, inventory, provenance, coverage, and sampling outputs so the current annotated corpus remains stable.
 
 ## Runtime Boundary
 
@@ -55,6 +55,14 @@ npm run pipeline
 ```
 
 That command validates JSON, builds `data/concordance.json`, computes `analysis/analysis.json`, writes the Stage 4A evidence-chain file at `data/evidence/annotation-evidence.json`, regenerates the Stage 4B reliability sample and results artifacts, writes the Stage 4C textual variant apparatus, writes the Stage 6A controlled-analysis outputs, and regenerates the claim-to-source audit.
+
+The v4 corpus expansion is regenerated before the publication gate with:
+
+```bash
+npm run corpus:v4
+```
+
+That command rebuilds the v4 core, validation, and reference inventories; validates inventory and provenance records; ingests available v4-core raw texts into normalized text; segments the 48-document v4 core with stable sentence IDs; validates sentence-ID stability; and refreshes coverage, expansion-impact, reliability-sampling, and validation-corpus light-annotation outputs.
 
 ## Stage 1 Source Provenance Checksums
 
@@ -150,7 +158,30 @@ Outputs:
 
 See [Claim Audit Method](docs/methodology/claim-audit.md) for the audit-chain format and [Claim-To-Source Audit](synthesis/claim_audit.md) for the public tables.
 
-Current status: Stages 1–8 are implemented across all 28 documents. Stage 7 (external benchmark validation) is scaffolded and runnable; Stage 7A defines the reception evidence protocol without adding reception claims to the Lincoln corpus. LCC datasets are not committed to the repository but are downloaded on demand. The [Publication Package](publication_package.md) records the public data package, generated/local-only boundary, limitations, AI-use statement, and non-blocking follow-up issues.
+## V4 Corpus Expansion Outputs
+
+The v4 project corpus consists of a 48-document core interpretive corpus selected by period, genre, audience, and rhetorical function. An extended 75-100 document validation corpus is used to test recurrence, absence, and negative findings. A larger search-only reference corpus supports phrase search and contextual checks but is not treated as fully annotated evidence.
+
+V4 corpus outputs:
+
+- `data/corpus/corpus-v4-core-inventory.json`
+- `data/corpus/corpus-v4-validation-inventory.json`
+- `data/corpus/corpus-v4-reference-inventory.json`
+- `corpus/provenance/corpus-v4-provenance.json`
+- `corpus/raw/v4-core/`
+- `corpus/normalized/v4-core/`
+- `corpus/segmented/v4-core/`
+- `data/corpus/corpus-v4-coverage-summary.json`
+- `data/corpus/corpus-v4-expansion-impact-report.json`
+- `data/corpus/corpus-v4-reliability-sample-frame.json`
+- `data/corpus/v4-validation-light-annotation-template.csv`
+- `docs/corpus/`
+
+The expanded v4 corpus reduces selection-bias risk but does not eliminate interpretive judgment. Claims based on the fully annotated core corpus should not be automatically generalized to the search-only reference corpus. The validation corpus supports recurrence and negative checks but is not equivalent to full Stage 4A annotation.
+
+Current interpretive claims remain tied to the fully annotated v1/Stage 4A corpus until v4 additions are fully annotated and re-analyzed.
+
+Current status: Stages 1–8 are implemented across all 28 v1/Stage 4A documents. V4 corpus architecture, inventories, core raw ingestion, segmentation, sentence-ID validation, coverage reporting, expansion-impact reporting, reliability sampling, and validation light-annotation templates are implemented. Stage 7 (external benchmark validation) is scaffolded and runnable; Stage 7A defines the reception evidence protocol without adding reception claims to the Lincoln corpus. LCC datasets are not committed to the repository but are downloaded on demand. The [Publication Package](publication_package.md) records the public data package, generated/local-only boundary, limitations, AI-use statement, and non-blocking follow-up issues.
 
 ## Stage 7: LCC Validation
 
