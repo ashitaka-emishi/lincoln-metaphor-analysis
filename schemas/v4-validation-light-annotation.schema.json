@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/schemas/v4-validation-light-annotation.schema.json",
+  "title": "V4 Validation Corpus Light Annotation Row",
+  "description": "CSV-row contract for light validation-corpus annotation. This is not full Stage 4A interpretive annotation; it records limited screening signals for coverage checks, negative checks, and future sampling decisions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "doc_id",
+    "sentence_id",
+    "metaphor_cluster_present",
+    "cluster_id",
+    "key_lexical_unit",
+    "agency_absence_flag",
+    "enslaved_people_present",
+    "black_soldiers_present",
+    "disease_purification_present",
+    "providence_present",
+    "sacrifice_present",
+    "war_powers_present",
+    "notes"
+  ],
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "pattern": "^doc_[0-9]{3}[a-z]?$"
+    },
+    "sentence_id": {
+      "type": "string",
+      "description": "Stable sentence ID when available. Blank cells are allowed in the generated template until validation-corpus segmentation exists."
+    },
+    "metaphor_cluster_present": {
+      "$ref": "#/$defs/light_presence"
+    },
+    "cluster_id": {
+      "type": "string",
+      "enum": [
+        "",
+        "cluster_01_body_organism",
+        "cluster_02_covenant_oath",
+        "cluster_03_experiment_proposition",
+        "cluster_04_birth_creation",
+        "cluster_05_fathers_inheritance",
+        "cluster_06_providence_theodicy"
+      ],
+      "description": "Cluster ID when metaphor_cluster_present is yes or uncertain; blank is permitted for no/blank template rows."
+    },
+    "key_lexical_unit": {
+      "type": "string"
+    },
+    "agency_absence_flag": {
+      "$ref": "#/$defs/light_presence"
+    },
+    "enslaved_people_present": {
+      "$ref": "#/$defs/light_presence"
+    },
+    "black_soldiers_present": {
+      "$ref": "#/$defs/light_presence"
+    },
+    "disease_purification_present": {
+      "$ref": "#/$defs/light_presence"
+    },
+    "providence_present": {
+      "$ref": "#/$defs/light_presence"
+    },
+    "sacrifice_present": {
+      "$ref": "#/$defs/light_presence"
+    },
+    "war_powers_present": {
+      "$ref": "#/$defs/light_presence"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "light_presence": {
+      "type": "string",
+      "enum": [
+        "",
+        "yes",
+        "no",
+        "uncertain"
+      ]
+    }
+  },
+  "x-v4-validation-light-annotation-csv": {
+    "description": "CSV rows use exactly these columns. Empty cells are valid in the generated template and should be replaced with yes/no/uncertain values during light annotation.",
+    "columns": [
+      "doc_id",
+      "sentence_id",
+      "metaphor_cluster_present",
+      "cluster_id",
+      "key_lexical_unit",
+      "agency_absence_flag",
+      "enslaved_people_present",
+      "black_soldiers_present",
+      "disease_purification_present",
+      "providence_present",
+      "sacrifice_present",
+      "war_powers_present",
+      "notes"
+    ]
+  }
+}

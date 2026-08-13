@@ -1,0 +1,79 @@
+doc_id,sentence_id,metaphor_cluster_present,cluster_id,key_lexical_unit,agency_absence_flag,enslaved_people_present,black_soldiers_present,disease_purification_present,providence_present,sacrifice_present,war_powers_present,notes
+doc_001,,,,,,,,,,,,Light annotation placeholder for Lyceum Address; not full Stage 4A annotation.
+doc_002,,,,,,,,,,,,Light annotation placeholder for Temperance Address; not full Stage 4A annotation.
+doc_003,,,,,,,,,,,,Light annotation placeholder for Clay Eulogy; not full Stage 4A annotation.
+doc_004,,,,,,,,,,,,Light annotation placeholder for Peoria Speech; not full Stage 4A annotation.
+doc_005,,,,,,,,,,,,Light annotation placeholder for House Divided; not full Stage 4A annotation.
+doc_006a,,,,,,,,,,,,Light annotation placeholder for L-D Debate 1 Ottawa; not full Stage 4A annotation.
+doc_006b,,,,,,,,,,,,Light annotation placeholder for L-D Debate 2 Freeport; not full Stage 4A annotation.
+doc_006c,,,,,,,,,,,,Light annotation placeholder for L-D Debate 3 Jonesboro; not full Stage 4A annotation.
+doc_006d,,,,,,,,,,,,Light annotation placeholder for L-D Debate 4 Charleston; not full Stage 4A annotation.
+doc_006e,,,,,,,,,,,,Light annotation placeholder for L-D Debate 5 Galesburg; not full Stage 4A annotation.
+doc_006f,,,,,,,,,,,,Light annotation placeholder for L-D Debate 6 Quincy; not full Stage 4A annotation.
+doc_006g,,,,,,,,,,,,Light annotation placeholder for L-D Debate 7 Alton; not full Stage 4A annotation.
+doc_007,,,,,,,,,,,,Light annotation placeholder for Cooper Union; not full Stage 4A annotation.
+doc_008,,,,,,,,,,,,Light annotation placeholder for Springfield Farewell; not full Stage 4A annotation.
+doc_009,,,,,,,,,,,,Light annotation placeholder for First Inaugural; not full Stage 4A annotation.
+doc_010,,,,,,,,,,,,Light annotation placeholder for July 4 Message 1861; not full Stage 4A annotation.
+doc_011,,,,,,,,,,,,Light annotation placeholder for Constitution Fragment; not full Stage 4A annotation.
+doc_012,,,,,,,,,,,,Light annotation placeholder for Greeley Letter; not full Stage 4A annotation.
+doc_013,,,,,,,,,,,,Light annotation placeholder for Prelim Emancipation; not full Stage 4A annotation.
+doc_014,,,,,,,,,,,,Light annotation placeholder for Annual Message 1862; not full Stage 4A annotation.
+doc_015,,,,,,,,,,,,Light annotation placeholder for Final Emancipation; not full Stage 4A annotation.
+doc_016,,,,,,,,,,,,Light annotation placeholder for Conkling Letter; not full Stage 4A annotation.
+doc_017,,,,,,,,,,,,Light annotation placeholder for Gettysburg; not full Stage 4A annotation.
+doc_018,,,,,,,,,,,,Light annotation placeholder for Blind Memorandum; not full Stage 4A annotation.
+doc_019,,,,,,,,,,,,Light annotation placeholder for Hodges Letter; not full Stage 4A annotation.
+doc_020,,,,,,,,,,,,Light annotation placeholder for Re-election Serenade; not full Stage 4A annotation.
+doc_021,,,,,,,,,,,,Light annotation placeholder for Second Inaugural; not full Stage 4A annotation.
+doc_022,,,,,,,,,,,,Light annotation placeholder for Last Address; not full Stage 4A annotation.
+doc_023,,,,,,,,,,,,Light annotation placeholder for First Political Announcement; not full Stage 4A annotation.
+doc_024,,,,,,,,,,,,Light annotation placeholder for Robertson Letter; not full Stage 4A annotation.
+doc_025,,,,,,,,,,,,Light annotation placeholder for Speed Letter; not full Stage 4A annotation.
+doc_026,,,,,,,,,,,,Light annotation placeholder for Dred Scott Speech; not full Stage 4A annotation.
+doc_027,,,,,,,,,,,,Light annotation placeholder for Independence Hall Address; not full Stage 4A annotation.
+doc_028,,,,,,,,,,,,Light annotation placeholder for Annual Message 1861; not full Stage 4A annotation.
+doc_029,,,,,,,,,,,,Light annotation placeholder for Corning Letter; not full Stage 4A annotation.
+doc_030,,,,,,,,,,,,Light annotation placeholder for Meditation on Divine Will; not full Stage 4A annotation.
+doc_031,,,,,,,,,,,,Light annotation placeholder for Fragment on Slavery; not full Stage 4A annotation.
+doc_032,,,,,,,,,,,,Light annotation placeholder for Kalamazoo Speech; not full Stage 4A annotation.
+doc_033,,,,,,,,,,,,Light annotation placeholder for New Haven Speech; not full Stage 4A annotation.
+doc_034,,,,,,,,,,,,Light annotation placeholder for Pierce Letter; not full Stage 4A annotation.
+doc_035,,,,,,,,,,,,Light annotation placeholder for Colonization Address; not full Stage 4A annotation.
+doc_036,,,,,,,,,,,,Light annotation placeholder for Chicago Emancipation Reply; not full Stage 4A annotation.
+doc_037,,,,,,,,,,,,Light annotation placeholder for Fanny McCullough Letter; not full Stage 4A annotation.
+doc_038,,,,,,,,,,,,Light annotation placeholder for Amnesty Proclamation; not full Stage 4A annotation.
+doc_039,,,,,,,,,,,,Light annotation placeholder for Annual Message 1863; not full Stage 4A annotation.
+doc_040,,,,,,,,,,,,Light annotation placeholder for Annual Message 1864; not full Stage 4A annotation.
+doc_041,,,,,,,,,,,,Light annotation placeholder for Bixby Letter; not full Stage 4A annotation.
+doc_042,,,,,,,,,,,,Light annotation placeholder for Ohio Delegation Serenade Response; not full Stage 4A annotation.
+doc_043,,,,,,,,,,,,Light annotation placeholder for Ottawa Debate Context; not full Stage 4A annotation.
+doc_044,,,,,,,,,,,,Light annotation placeholder for Freeport Debate Context; not full Stage 4A annotation.
+doc_045,,,,,,,,,,,,Light annotation placeholder for Quincy Debate Context; not full Stage 4A annotation.
+doc_046,,,,,,,,,,,,Light annotation placeholder for Compensated Emancipation Message; not full Stage 4A annotation.
+doc_047,,,,,,,,,,,,Light annotation placeholder for Special Session Message; not full Stage 4A annotation.
+doc_048,,,,,,,,,,,,Light annotation placeholder for Militia Proclamation; not full Stage 4A annotation.
+doc_049,,,,,,,,,,,,Light annotation placeholder for Habeas Proclamation; not full Stage 4A annotation.
+doc_050,,,,,,,,,,,,Light annotation placeholder for Thanksgiving Proclamation 1863; not full Stage 4A annotation.
+doc_051,,,,,,,,,,,,Light annotation placeholder for National Fast Day; not full Stage 4A annotation.
+doc_052,,,,,,,,,,,,Light annotation placeholder for McClellan Letter; not full Stage 4A annotation.
+doc_053,,,,,,,,,,,,Light annotation placeholder for Hooker Letter; not full Stage 4A annotation.
+doc_054,,,,,,,,,,,,Light annotation placeholder for Grant Letter; not full Stage 4A annotation.
+doc_055,,,,,,,,,,,,Light annotation placeholder for McDougall Letter; not full Stage 4A annotation.
+doc_056,,,,,,,,,,,,Light annotation placeholder for Conkling Context; not full Stage 4A annotation.
+doc_057,,,,,,,,,,,,Light annotation placeholder for Lovejoy Letter; not full Stage 4A annotation.
+doc_058,,,,,,,,,,,,Light annotation placeholder for Hodges Context; not full Stage 4A annotation.
+doc_059,,,,,,,,,,,,Light annotation placeholder for Mary Speed Letter; not full Stage 4A annotation.
+doc_060,,,,,,,,,,,,Light annotation placeholder for Mary Owens Letter; not full Stage 4A annotation.
+doc_061,,,,,,,,,,,,Light annotation placeholder for Browning Letter; not full Stage 4A annotation.
+doc_062,,,,,,,,,,,,Light annotation placeholder for Greeley Context; not full Stage 4A annotation.
+doc_063,,,,,,,,,,,,Light annotation placeholder for Gurney Letter; not full Stage 4A annotation.
+doc_064,,,,,,,,,,,,Light annotation placeholder for Bixby Context; not full Stage 4A annotation.
+doc_065,,,,,,,,,,,,Light annotation placeholder for King of Siam Letter; not full Stage 4A annotation.
+doc_066,,,,,,,,,,,,Light annotation placeholder for Hunter Letter; not full Stage 4A annotation.
+doc_067,,,,,,,,,,,,Light annotation placeholder for Hahn Letter; not full Stage 4A annotation.
+doc_068,,,,,,,,,,,,Light annotation placeholder for 166th Ohio Address; not full Stage 4A annotation.
+doc_069,,,,,,,,,,,,Light annotation placeholder for Presbyterian Reply; not full Stage 4A annotation.
+doc_070,,,,,,,,,,,,Light annotation placeholder for Commercial Intercourse Proclamation; not full Stage 4A annotation.
+doc_071,,,,,,,,,,,,Light annotation placeholder for Banks Letter; not full Stage 4A annotation.
+doc_072,,,,,,,,,,,,Light annotation placeholder for Last Written Statement; not full Stage 4A annotation.
