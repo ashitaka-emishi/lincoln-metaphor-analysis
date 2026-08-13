@@ -1,0 +1,20 @@
+{
+  "coverage_id": "corpus_v4_fixture_coverage",
+  "created_date": "2026-08-13",
+  "corpus_version": "v4",
+  "document_count": 1,
+  "sentence_count": 2,
+  "tier_counts": {
+    "v1": 0,
+    "v4_core": 1,
+    "v4_validation": 1,
+    "v4_reference": 1
+  },
+  "period_counts": {
+    "secession_crisis": 1
+  },
+  "genre_counts": {
+    "speech": 1
+  },
+  "fixture_scope": "Isolated corpus-v4 validation fixture; not part of the research corpus."
+}

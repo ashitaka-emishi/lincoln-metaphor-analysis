@@ -1,0 +1,32 @@
+{
+  "document_id": "doc_901",
+  "meta": {
+    "title": "Sample V4 Fixture Address",
+    "date": "1860-01-01",
+    "source": "tests/fixtures/corpus-v4/sample-raw-document.txt"
+  },
+  "sections": [
+    {
+      "section_id": "doc_901_s01",
+      "heading": "Fixture Section",
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_901_s01_p01",
+          "text": "Fellow citizens, this synthetic fixture exists only to test corpus ingestion plumbing. It supplies two stable sentences so downstream sentence identifiers can be checked without loading the full corpus.",
+          "sentences": [
+            {
+              "sentence_id": "doc_901_s01_p01_s01",
+              "text": "Fellow citizens, this synthetic fixture exists only to test corpus ingestion plumbing.",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_901_s01_p01_s02",
+              "text": "It supplies two stable sentences so downstream sentence identifiers can be checked without loading the full corpus.",
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

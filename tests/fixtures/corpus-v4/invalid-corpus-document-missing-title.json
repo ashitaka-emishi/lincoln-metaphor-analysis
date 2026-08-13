@@ -1,0 +1,31 @@
+{
+  "doc_id": "doc_902",
+  "corpus_version": "v4",
+  "corpus_tier": "v4-core",
+  "short_title": "Missing Title",
+  "date": "1860-01-02",
+  "date_precision": "exact",
+  "year": 1860,
+  "period": "secession_crisis",
+  "genre": "speech",
+  "audience": "public",
+  "rhetorical_function": [
+    "fixture_validation"
+  ],
+  "research_relevance": [
+    "pipeline_fixture"
+  ],
+  "source_authority": "Collected Works of Abraham Lincoln",
+  "source_url": "https://example.test/lincoln/doc_902",
+  "source_citation": "Fixture collected-works citation for doc_902.",
+  "edition_notes": "Synthetic invalid fixture record.",
+  "text_status": "complete",
+  "authorship_status": "secure",
+  "included_in_v1": false,
+  "included_in_v4_core": true,
+  "included_in_v4_validation": true,
+  "included_in_v4_reference": true,
+  "annotation_status": "segmented",
+  "provenance_notes": "Synthetic fixture provenance; not a research source.",
+  "selection_rationale": "Exercises missing required-title validation."
+}

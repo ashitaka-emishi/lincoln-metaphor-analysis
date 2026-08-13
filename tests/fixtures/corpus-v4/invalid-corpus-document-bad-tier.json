@@ -1,0 +1,32 @@
+{
+  "doc_id": "doc_903",
+  "corpus_version": "v4",
+  "corpus_tier": "v4-general",
+  "title": "Invalid Tier Fixture",
+  "short_title": "Bad Tier",
+  "date": "1860-01-03",
+  "date_precision": "exact",
+  "year": 1860,
+  "period": "secession_crisis",
+  "genre": "speech",
+  "audience": "public",
+  "rhetorical_function": [
+    "fixture_validation"
+  ],
+  "research_relevance": [
+    "pipeline_fixture"
+  ],
+  "source_authority": "Collected Works of Abraham Lincoln",
+  "source_url": "https://example.test/lincoln/doc_903",
+  "source_citation": "Fixture collected-works citation for doc_903.",
+  "edition_notes": "Synthetic invalid fixture record.",
+  "text_status": "complete",
+  "authorship_status": "secure",
+  "included_in_v1": false,
+  "included_in_v4_core": true,
+  "included_in_v4_validation": true,
+  "included_in_v4_reference": true,
+  "annotation_status": "segmented",
+  "provenance_notes": "Synthetic fixture provenance; not a research source.",
+  "selection_rationale": "Exercises invalid corpus tier validation."
+}
