@@ -1,0 +1,390 @@
+{
+  "document_id": "doc_020",
+  "meta": {
+    "id": "doc_020",
+    "title": "Response to a Serenade",
+    "short_title": "Re-election Serenade",
+    "date": "1864-11-10",
+    "date_precision": "exact",
+    "register": "campaign_speech",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.88,
+    "authorship_notes": "Extemporaneous response following Lincoln's re-election on November 8, 1864. Experiment/proof frame unguarded — election result as empirical evidence that democratic government can survive a major election in wartime.",
+    "source_text": "Collected Works vol.8 pp.96-101",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln8",
+    "risk_flags": [
+      "transcription_noise"
+    ],
+    "analytical_priority": "medium",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "doc_020_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_020_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Response to a SerenadeNovember 10, 1864",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "It has long been a grave question whether any government, not too strong for the liberties of its people, can be strong enough to maintain its own existence, in great emergencies.",
+              "word_offset_start": 6,
+              "word_offset_end": 37,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "On this point the present rebellion brought our republic to a severe test; and a presidential election occurring in regular course during the rebellion added not a little to the strain.",
+              "word_offset_start": 37,
+              "word_offset_end": 68,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "If the loyal people, united, were put to the utmost of their strength by the rebellion, must they not fail when divided, and partially paralized, by a political war among themselves?",
+              "word_offset_start": 68,
+              "word_offset_end": 99,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "But the election was a necessity.",
+              "word_offset_start": 99,
+              "word_offset_end": 105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "We can not have free government without elections; and if the rebellion could force us to forego, or postpone a national election, it might fairly claim to have already conquered and ruined us.",
+              "word_offset_start": 105,
+              "word_offset_end": 138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "The strife of the election is but human-nature practically applied to the facts of the case.",
+              "word_offset_start": 138,
+              "word_offset_end": 154,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "What has occurred in this case, must ever recur in similar cases.",
+              "word_offset_start": 154,
+              "word_offset_end": 166,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Human-nature will not change.",
+              "word_offset_start": 166,
+              "word_offset_end": 170,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "In any future great national trial, compared with the men of this, we shall have as weak, and as strong; as silly and as wise; as bad and good.",
+              "word_offset_start": 170,
+              "word_offset_end": 199,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p05_s06",
+              "sentence_ordinal": 6,
+              "text": "Let us, therefore, study the incidents of this, as philosophy to learn wisdom from, and none of them as wrongs to be revenged.",
+              "word_offset_start": 199,
+              "word_offset_end": 222,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "But the election, along with its incidental, and undesirable strife, has done good too.",
+              "word_offset_start": 222,
+              "word_offset_end": 236,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "It has demonstrated that a people's government can sustain a national election, in the midst of a great civil war.",
+              "word_offset_start": 236,
+              "word_offset_end": 256,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "Until now it has not been known to the world that this was a possibility.",
+              "word_offset_start": 256,
+              "word_offset_end": 271,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "It shows also how sound, and how strong we still are.",
+              "word_offset_start": 271,
+              "word_offset_end": 282,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "It shows that, even among candidates of the same party, he who is most devoted to the Union, and most opposed to treason, can receive most of the people's votes.",
+              "word_offset_start": 282,
+              "word_offset_end": 312,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s06",
+              "sentence_ordinal": 6,
+              "text": "It shows also, to the extent yet known, that we have more men now, than we had when the war began.",
+              "word_offset_start": 312,
+              "word_offset_end": 333,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p06_s07",
+              "sentence_ordinal": 7,
+              "text": "Gold is good in its place; but living, brave, patriotic men, are better than gold.",
+              "word_offset_start": 333,
+              "word_offset_end": 348,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "But the rebellion continues; and now that the election is over, may not all, having a common interest, re-unite in a common effort, to save our common country?",
+              "word_offset_start": 348,
+              "word_offset_end": 376,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "For my own part I have striven, and shall strive to avoid placing any obstacle in the way.",
+              "word_offset_start": 376,
+              "word_offset_end": 394,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "So long as I have been here I have not willingly planted a thorn in any man's bosom.",
+              "word_offset_start": 394,
+              "word_offset_end": 412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "While I am deeply sensible to the high compliment of a re-election; and duly grateful, as I trust, to Almighty God for having directed my countrymen to a right conclusion, as I think, for their own good, it adds nothing to my satisfaction that any other man may be disappointed or pained by the result.",
+              "word_offset_start": 412,
+              "word_offset_end": 467,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "May I ask those who have not differed with me, to join with me, in this same spirit towards those who have?",
+              "word_offset_start": 467,
+              "word_offset_end": 489,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "And now, let me close by asking three hearty cheers for our brave soldiers and seamen and their gallant and skilful commanders.",
+              "word_offset_start": 489,
+              "word_offset_end": 511,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_020_s02",
+      "section_label": "annotation",
+      "section_ordinal": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_020_s02_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s02_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "[1]   AD, NDry.",
+              "word_offset_start": 511,
+              "word_offset_end": 514,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s02_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "Concerning this speech and Lincoln's response to a serenade on November 8 (supra), John Hay's Diary records under date of November 11: ``The speeches of the President at the two last serenades are very highly spoken of.",
+              "word_offset_start": 514,
+              "word_offset_end": 551,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s02_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "The first I wrote after the fact to prevent the `loyal Pennsylvanians' getting a swing at it themselves.",
+              "word_offset_start": 551,
+              "word_offset_end": 569,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s02_p01_s04",
+              "sentence_ordinal": 4,
+              "text": "The second one, last night, the President himself",
+              "word_offset_start": 569,
+              "word_offset_end": 577,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_020_s02_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_020_s02_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "wrote late in the evening and read it from the window.",
+              "word_offset_start": 577,
+              "word_offset_end": 588,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_020_s02_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "`Not very graceful,' he said, `but I am growing old enough not to care much for the manner of doing things.'''",
+              "word_offset_start": 588,
+              "word_offset_end": 609,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    }
+  ]
+}

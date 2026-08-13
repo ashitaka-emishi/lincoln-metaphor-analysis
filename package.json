@@ -15,6 +15,7 @@
     "validate:source-provenance": "node scripts/validate_source_provenance.js",
     "corpus:v4-core-raw": "python3 scripts/corpus/build-v4-core-raw-texts.py",
     "corpus:v4-ingest": "node scripts/corpus/ingest-corpus-documents.js",
+    "corpus:v4-segment": "node scripts/corpus/segment-corpus-v4.js",
     "source:provenance": "node scripts/validate_source_provenance.js --write",
     "corpus:register": "node scripts/build_corpus_register.js",
     "evidence:chains": "node scripts/build_evidence_chains.js",

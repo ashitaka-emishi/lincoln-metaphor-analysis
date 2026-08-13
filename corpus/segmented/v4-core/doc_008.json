@@ -1,0 +1,128 @@
+{
+  "document_id": "doc_008",
+  "meta": {
+    "id": "doc_008",
+    "title": "Farewell Address at Springfield, Illinois",
+    "short_title": "Springfield Farewell",
+    "date": "1861-02-11",
+    "date_precision": "exact",
+    "register": "formal_public_address",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.95,
+    "authorship_notes": "Two versions exist: extemporaneous transcription and Lincoln's written reconstruction. Text below is the self-edited written version Lincoln approved.",
+    "source_text": "Collected Works vol.4 pp.190-191",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:40",
+    "risk_flags": [
+      "two_versions"
+    ],
+    "analytical_priority": "medium",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "doc_008_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_008_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_008_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "My friends, no one, not in my situation, can appreciate my feeling of sadness at this parting.",
+              "word_offset_start": 0,
+              "word_offset_end": 17,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_008_s01_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "To this place, and the kindness of these people, I owe everything.",
+              "word_offset_start": 17,
+              "word_offset_end": 29,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_008_s01_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "Here I have lived a quarter of a century, and have passed from a young to an old man.",
+              "word_offset_start": 29,
+              "word_offset_end": 48,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_008_s01_p01_s04",
+              "sentence_ordinal": 4,
+              "text": "Here my children have been born, and one is buried.",
+              "word_offset_start": 48,
+              "word_offset_end": 58,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_008_s01_p01_s05",
+              "sentence_ordinal": 5,
+              "text": "I now leave, not knowing when, or whether ever, I may return, with a task before me greater than that which rested upon Washington.",
+              "word_offset_start": 58,
+              "word_offset_end": 82,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_008_s01_p01_s06",
+              "sentence_ordinal": 6,
+              "text": "Without the assistance of the Divine Being who ever attended him, I cannot succeed.",
+              "word_offset_start": 82,
+              "word_offset_end": 96,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_008_s01_p01_s07",
+              "sentence_ordinal": 7,
+              "text": "With that assistance I cannot fail.",
+              "word_offset_start": 96,
+              "word_offset_end": 102,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_008_s01_p01_s08",
+              "sentence_ordinal": 8,
+              "text": "Trusting in Him who can go with me, and remain with you, and be everywhere for good, let us confidently hope that all will yet be well.",
+              "word_offset_start": 102,
+              "word_offset_end": 129,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_008_s01_p01_s09",
+              "sentence_ordinal": 9,
+              "text": "To His care commending you, as I hope in your prayers you will commend me, I bid you an affectionate farewell.",
+              "word_offset_start": 129,
+              "word_offset_end": 150,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    }
+  ]
+}

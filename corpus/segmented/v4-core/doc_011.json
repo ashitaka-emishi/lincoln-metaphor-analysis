@@ -1,0 +1,285 @@
+{
+  "document_id": "doc_011",
+  "meta": {
+    "id": "doc_011",
+    "title": "Fragment on the Constitution and the Union",
+    "short_title": "Constitution Fragment",
+    "date": "1861-01-01",
+    "date_precision": "approximate",
+    "register": "fragment_private",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.85,
+    "authorship_notes": "Date uncertain; CW places it c. January 1861. Likely written during preparation of First Inaugural. Stephens used the same Proverbs 25:11 metaphor in a letter to Lincoln dated December 30, 1860.",
+    "source_text": "Collected Works vol.4 pp.168-169",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4",
+    "risk_flags": [
+      "date_uncertain"
+    ],
+    "analytical_priority": "high",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "doc_011_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_011_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_011_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Fragment on the Constitution and the Union",
+              "word_offset_start": 0,
+              "word_offset_end": 7,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_011_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_011_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "[c.",
+              "word_offset_start": 7,
+              "word_offset_end": 8,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "January, 1861]",
+              "word_offset_start": 8,
+              "word_offset_end": 10,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_011_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_011_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "All this is not the result of accident.",
+              "word_offset_start": 10,
+              "word_offset_end": 18,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "It has a philosophical cause.",
+              "word_offset_start": 18,
+              "word_offset_end": 23,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "Without the Constitution and the Union, we could not have attained the result; but even these, are not the primary cause of our great prosperity.",
+              "word_offset_start": 23,
+              "word_offset_end": 48,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "There is something back of these, entwining itself more closely about the human heart.",
+              "word_offset_start": 48,
+              "word_offset_end": 62,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p03_s05",
+              "sentence_ordinal": 5,
+              "text": "That something, is the principle of ``Liberty to all'' ---the principle that clears the path for all---gives hope to all --- and, by consequence, enterprize, and industry to all.",
+              "word_offset_start": 62,
+              "word_offset_end": 91,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_011_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_011_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "The expression of that principle, in our Declaration of Independence, was most happy, and fortunate.",
+              "word_offset_start": 91,
+              "word_offset_end": 106,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "Without this, as well as with it, we could have declared our independence of Great Britain; but without it, we could not, I think, have secured our free government, and consequent prosperity.",
+              "word_offset_start": 106,
+              "word_offset_end": 138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "No oppressed, people will fight, and endure, as our fathers did, without the promise of something better, than a mere change of masters.",
+              "word_offset_start": 138,
+              "word_offset_end": 161,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_011_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_011_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "The assertion of that principle, at that time, was the word, ``fitly spoken'' which has proved an ``apple of gold'' to us.",
+              "word_offset_start": 161,
+              "word_offset_end": 183,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "The Union, and the Constitution, are the picture of silver, subsequently framed around it.",
+              "word_offset_start": 183,
+              "word_offset_end": 197,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "The picture was made, not to conceal, or destroy the apple; but to adorn, and preserve it.",
+              "word_offset_start": 197,
+              "word_offset_end": 214,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "The picture was made for the apple --- not the apple for the picture.",
+              "word_offset_start": 214,
+              "word_offset_end": 228,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_011_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_011_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "So let us act, that neither picture, or apple shall ever be blurred, or bruised or broken.",
+              "word_offset_start": 228,
+              "word_offset_end": 245,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_011_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_011_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "That we may so act, we must study, and understand the points of danger.",
+              "word_offset_start": 245,
+              "word_offset_end": 259,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_011_s02",
+      "section_label": "annotation",
+      "section_ordinal": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_011_s02_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_011_s02_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "[1]   AD, ORB.",
+              "word_offset_start": 259,
+              "word_offset_end": 262,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s02_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "This fragment may have been written earlier than January, 1861.",
+              "word_offset_start": 262,
+              "word_offset_end": 272,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s02_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "The only clue in the context as to a date is Lincoln's allusion to the metaphor in Proverbs 25:11, which Alexander Stephens had used in his letter to Lincoln of December 30, 1860 (vide supra), Lincoln to Stephens, December 22, note).",
+              "word_offset_start": 272,
+              "word_offset_end": 313,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_011_s02_p01_s04",
+              "sentence_ordinal": 4,
+              "text": "No speech which employs the language of the fragment has been found, but it seems probable that Lincoln wrote the passage some time prior to or during the preparation of his First Inaugural Address.",
+              "word_offset_start": 313,
+              "word_offset_end": 347,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "document_id": "doc_018",
+  "meta": {
+    "id": "doc_018",
+    "title": "Memorandum Concerning His Probable Failure of Re-Election",
+    "short_title": "Blind Memorandum",
+    "date": "1864-08-23",
+    "date_precision": "exact",
+    "register": "fragment_private",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": "Autograph document sealed and signed on the verso by cabinet members who had not read it. Opened at cabinet meeting November 11, 1864 after Lincoln's re-election. Multiple copies exist (ADS, DLC; copy in Welles papers; copy in Hay's hand). The short memorandum is Lincoln's; the annotation is CW editorial apparatus including John Hay's diary account of the November 11 unsealing.",
+    "source_text": "Collected Works vol.7 pp.514-515",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln7",
+    "risk_flags": [],
+    "analytical_priority": "high",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "doc_018_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_018_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Memorandum Concerning His Probable Failure of Re-Election",
+              "word_offset_start": 0,
+              "word_offset_end": 7,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Executive Mansion",
+              "word_offset_start": 7,
+              "word_offset_end": 9,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Washington, Aug. 23, 1864.",
+              "word_offset_start": 9,
+              "word_offset_end": 13,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "This morning, as for some days past, it seems exceedingly probable that this Administration will not be re-elected.",
+              "word_offset_start": 13,
+              "word_offset_end": 31,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "Then it will be my duty to so co-operate with the President elect, as to save the Union between the election and the inauguration; as he will have secured his election on such ground that he can not possibly save it afterwards.",
+              "word_offset_start": 31,
+              "word_offset_end": 73,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN",
+              "word_offset_start": 73,
+              "word_offset_end": 75,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_018_s02",
+      "section_label": "annotation",
+      "section_ordinal": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_018_s02_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s02_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "[1]   ADS, DLC; DS-F, Stan.",
+              "word_offset_start": 75,
+              "word_offset_end": 80,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "V. Henkels Catalog 114, No. 41, January 4, 1924.",
+              "word_offset_start": 80,
+              "word_offset_end": 89,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "The original autograph is endorsed on the verso with autograph signatures of cabinet members and Lincoln's autograph date.",
+              "word_offset_start": 89,
+              "word_offset_end": 107,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p01_s04",
+              "sentence_ordinal": 4,
+              "text": "A signed copy formerly in the papers of Gideon Welles is in the handwriting of Lincoln's secretary to sign land patents, Edward D. Neill, appointed on August 23, 1864, after having actually served for some time in that capacity while second class clerk in the Department of the Interior.",
+              "word_offset_start": 107,
+              "word_offset_end": 156,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p01_s05",
+              "sentence_ordinal": 5,
+              "text": "A third copy in John Hay's handwriting, not signed by Lincoln, but endorsed on the verso with autograph signatures of the members of the cabinet, is preserved in the Lincoln Papers (DLC).",
+              "word_offset_start": 156,
+              "word_offset_end": 188,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p01_s06",
+              "sentence_ordinal": 6,
+              "text": "John Hay's Diary records under date of November 11, 1864, the cabinet meeting of that date at which the memorandum was opened, following which, presumably, the later copies were transcribed:",
+              "word_offset_start": 188,
+              "word_offset_end": 218,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s02_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s02_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "``At the meeting of the Cabinet today, the President took out a paper from his desk and said, `Gentlemen, do you remember last summer when I asked you all to sign your names to the back of a paper of which I did not show you the inside?",
+              "word_offset_start": 218,
+              "word_offset_end": 266,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "This is it.",
+              "word_offset_start": 266,
+              "word_offset_end": 269,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p02_s03",
+              "sentence_ordinal": 3,
+              "text": "Now, Mr Hay, see if you can get this open without tearing it?' He had pasted it up in so singular style that it required some cutting to get it open.",
+              "word_offset_start": 269,
+              "word_offset_end": 300,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p02_s04",
+              "sentence_ordinal": 4,
+              "text": "He then read as follows: [memorandum]",
+              "word_offset_start": 300,
+              "word_offset_end": 306,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s02_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s02_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "``The President said, `You will remember that this was written at a time (6 days before the Chicago nominating Convention) when as yet we had no adversary, and seemed to have no friends.",
+              "word_offset_start": 306,
+              "word_offset_end": 339,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "I then solemnly resolved on the course of action indicated above.",
+              "word_offset_start": 339,
+              "word_offset_end": 350,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "I resolved, in case of the election of General McClellan, being certain that he would be the candidate, that I would see him and talk matters over with him.",
+              "word_offset_start": 350,
+              "word_offset_end": 379,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "I would say, ``General, the election has demonstrated that you are stronger, have more influence with the American people than I. Now let us together, you with your influence and I with all the executive power of the Government, try to save the country.",
+              "word_offset_start": 379,
+              "word_offset_end": 423,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p03_s05",
+              "sentence_ordinal": 5,
+              "text": "You raise as many troops as you possibly can for this final trial, and I will devote all my energies to assisting and finishing the war.'' '",
+              "word_offset_start": 423,
+              "word_offset_end": 450,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s02_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s02_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "``Seward said, `And the General would answer you ``Yes, Yes;'' and the next day when you saw him again and pressed these views upon him, he would say, ``Yes, Yes;'' & so on forever, and would have done nothing at all.'",
+              "word_offset_start": 450,
+              "word_offset_end": 491,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s02_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s02_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "`` `At least,' added Lincoln, `I should have done my duty and have stood clear before my own conscience.' . . . .''",
+              "word_offset_start": 491,
+              "word_offset_end": 514,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s02_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s02_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "The impulse which prompted Lincoln to his unusual procedure in preparing the memorandum derived from the unanimous pessimism of his advisers.",
+              "word_offset_start": 514,
+              "word_offset_end": 535,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Thurlow Weed wrote to Seward on August 22:",
+              "word_offset_start": 535,
+              "word_offset_end": 543,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s02_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s02_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "``When, ten or eleven days since, I told Mr Lincoln that his re-election was an impossibility, I also told him that the information would soon come to him through other channels.",
+              "word_offset_start": 543,
+              "word_offset_end": 574,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "It has doubtless, ere this, reached him.",
+              "word_offset_start": 574,
+              "word_offset_end": 581,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "At any rate, nobody here doubts it; nor do I see any body from other States who authorises the slightest hope of success.",
+              "word_offset_start": 581,
+              "word_offset_end": 604,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s02_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s02_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "``Mr. Raymond, who has, just left me, says that unless some prompt and bold step be now taken, all is lost.",
+              "word_offset_start": 604,
+              "word_offset_end": 625,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "``The People are wild for Peace.",
+              "word_offset_start": 625,
+              "word_offset_end": 631,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "They are told that the President will only listen to terms of Peace on condition Slavery be `abandoned.' ``Mr. Swett is well informed in relation to the public sentiment.",
+              "word_offset_start": 631,
+              "word_offset_end": 660,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "He has seen and heard much.",
+              "word_offset_start": 660,
+              "word_offset_end": 666,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "Mr Raymond thinks commissioners should be immediately sent, to Richmond, offering to treat for Peace on the basis of Union.",
+              "word_offset_start": 666,
+              "word_offset_end": 686,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_018_s02_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "That something should be done and promptly done, to give the Administration a chance for its life, is certain.'' (DLC-RTL).",
+              "word_offset_start": 686,
+              "word_offset_end": 706,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_018_s02_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_018_s02_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "See also Lincoln to Raymond, August 24, infra.",
+              "word_offset_start": 706,
+              "word_offset_end": 714,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    }
+  ]
+}

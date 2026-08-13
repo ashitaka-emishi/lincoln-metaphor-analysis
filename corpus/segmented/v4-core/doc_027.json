@@ -1,0 +1,279 @@
+{
+  "document_id": "doc_027",
+  "meta": {
+    "id": "doc_027",
+    "title": "Address at Independence Hall",
+    "short_title": "Independence Hall Address",
+    "date": "1861-02-22",
+    "date_precision": "exact",
+    "register": "speech",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 4, Address at Independence Hall, February 22, 1861.",
+    "source_url": null,
+    "risk_flags": [],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_027_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_027_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_027_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "ADDRESS IN THE HALL OF INDEPENDENCE, PHILADELPHIA,",
+              "word_offset_start": 0,
+              "word_offset_end": 7,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_027_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_027_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "FEBRUARY 22, 1861",
+              "word_offset_start": 7,
+              "word_offset_end": 10,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_027_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_027_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "MR.",
+              "word_offset_start": 10,
+              "word_offset_end": 11,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "CUYLER:--I am filled with deep emotion at finding myself standing here, in this place, where were collected together the wisdom, the devotion to principle, from which sprang the institutions under which we live.",
+              "word_offset_start": 11,
+              "word_offset_end": 44,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "You have kindly suggested to me that in my hands is the task of restoring peace to the present distracted condition of the country.",
+              "word_offset_start": 44,
+              "word_offset_end": 68,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "I can say in return, sir, that all the political sentiments I entertain have been drawn, so far as I have been able to draw them, from the sentiments which originated and were given to the world from this hall.",
+              "word_offset_start": 68,
+              "word_offset_end": 108,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s05",
+              "sentence_ordinal": 5,
+              "text": "I have never had a feeling politically that did not spring from the sentiments embodied in the Declaration of Independence.",
+              "word_offset_start": 108,
+              "word_offset_end": 128,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s06",
+              "sentence_ordinal": 6,
+              "text": "I have often pondered over the dangers which were incurred by the men who assembled here and framed and adopted that Declaration of Independence.",
+              "word_offset_start": 128,
+              "word_offset_end": 152,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s07",
+              "sentence_ordinal": 7,
+              "text": "I have pondered over the toils that were endured by the officers and soldiers of the army who achieved that independence.",
+              "word_offset_start": 152,
+              "word_offset_end": 173,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s08",
+              "sentence_ordinal": 8,
+              "text": "I have often inquired of myself what great principle or idea it was that kept the confederacy so long together.",
+              "word_offset_start": 173,
+              "word_offset_end": 193,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s09",
+              "sentence_ordinal": 9,
+              "text": "It was not the mere matter of separation of the colonies from the motherland, but that sentiment in the Declaration of Independence which gave liberty, not alone to the people of this country, but, I hope, to the world for all future time.",
+              "word_offset_start": 193,
+              "word_offset_end": 236,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s10",
+              "sentence_ordinal": 10,
+              "text": "It was that which gave promise that in due time the weight would be lifted from the shoulders of all men.",
+              "word_offset_start": 236,
+              "word_offset_end": 257,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s11",
+              "sentence_ordinal": 11,
+              "text": "This is the sentiment embodied in the Declaration of Independence.",
+              "word_offset_start": 257,
+              "word_offset_end": 267,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s12",
+              "sentence_ordinal": 12,
+              "text": "Now, my friends, can the country be saved upon that basis?",
+              "word_offset_start": 267,
+              "word_offset_end": 278,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s13",
+              "sentence_ordinal": 13,
+              "text": "If it can, I will consider myself one of the happiest men in the world if I can help to save it.",
+              "word_offset_start": 278,
+              "word_offset_end": 300,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s14",
+              "sentence_ordinal": 14,
+              "text": "If it cannot be saved upon that principle, it will be truly awful.",
+              "word_offset_start": 300,
+              "word_offset_end": 313,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s15",
+              "sentence_ordinal": 15,
+              "text": "But if this country cannot be saved without giving up that principle, I was about to say I would rather be assassinated on this spot than surrender it.",
+              "word_offset_start": 313,
+              "word_offset_end": 341,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s16",
+              "sentence_ordinal": 16,
+              "text": "Now, in my view of the present aspect of affairs, there need be no bloodshed or war.",
+              "word_offset_start": 341,
+              "word_offset_end": 358,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s17",
+              "sentence_ordinal": 17,
+              "text": "There is no necessity for it.",
+              "word_offset_start": 358,
+              "word_offset_end": 364,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p03_s18",
+              "sentence_ordinal": 18,
+              "text": "I am not in favor of such a course, and I may say, in advance, that there will be no bloodshed unless it is forced upon the Government, and then it will be compelled to act in self-defence.",
+              "word_offset_start": 364,
+              "word_offset_end": 402,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_027_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_027_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "My friends; this is wholly an unexpected speech, and I did not expect to be called upon to say a word when I came here.",
+              "word_offset_start": 402,
+              "word_offset_end": 427,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "I supposed it was merely to do something toward raising the flag.",
+              "word_offset_start": 427,
+              "word_offset_end": 439,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "I may, therefore, have said something indiscreet.",
+              "word_offset_start": 439,
+              "word_offset_end": 446,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_027_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "I have said nothing but what I am willing to live by and, if it be the pleasure of Almighty God, die by.",
+              "word_offset_start": 446,
+              "word_offset_end": 469,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

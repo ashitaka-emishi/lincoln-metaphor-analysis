@@ -1,0 +1,2325 @@
+{
+  "document_id": "doc_039",
+  "meta": {
+    "id": "doc_039",
+    "title": "Annual Message to Congress",
+    "short_title": "Annual Message 1863",
+    "date": "1863-12-08",
+    "date_precision": "exact",
+    "register": "annual_message",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 7, Annual Message to Congress, December 8, 1863.",
+    "source_url": null,
+    "risk_flags": [],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_039_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_039_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "ANNUAL MESSAGE TO CONGRESS, DECEMBER 8, 1863.",
+              "word_offset_start": 0,
+              "word_offset_end": 7,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "FELLOW-CITIZENS OF THE SENATE AND HOUSE OF REPRESENTATIVES:--",
+              "word_offset_start": 7,
+              "word_offset_end": 15,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Another year of health, and of sufficiently abundant harvests, has passed.",
+              "word_offset_start": 15,
+              "word_offset_end": 26,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "For these, and especially for the improved condition cf our national affairs, our renewed and profoundest gratitude to God is due.",
+              "word_offset_start": 26,
+              "word_offset_end": 47,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "We remain in peace and friendship with foreign powers.",
+              "word_offset_start": 47,
+              "word_offset_end": 56,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "The efforts of disloyal citizens of the United States to involve us in foreign wars, to aid an inexcusable insurrection, have been unavailing.",
+              "word_offset_start": 56,
+              "word_offset_end": 79,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "Her Britannic Majesty's government, as was justly expected, have exercised their authority to prevent the departure of new hostile expeditions from British ports.",
+              "word_offset_start": 79,
+              "word_offset_end": 102,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "The Emperor of France has, by a like proceeding, promptly vindicated the neutrality which he proclaimed at the beginning of the contest.",
+              "word_offset_start": 102,
+              "word_offset_end": 124,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Questions of great intricacy and importance have arisen out of the blockade, and other belligerent operations, between the Government and several of the maritime powers, but they have been discussed, and, as far as was possible, accommodated, in a spirit of frankness, justice, and mutual good-will.",
+              "word_offset_start": 124,
+              "word_offset_end": 170,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "It is especially gratifying that our prize courts, by the impartiality of their adjudications, have commanded the respect and confidence of maritime powers.",
+              "word_offset_start": 170,
+              "word_offset_end": 193,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "The supplemental treaty between the United States and Great Britain for the suppression of the African slave-trade, made on the 17th day of February last, has been duly ratified and carried into execution.",
+              "word_offset_start": 193,
+              "word_offset_end": 226,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "It is believed that, so far as American ports and American citizens are concerned, that inhuman and odious traffic has been brought to an end.",
+              "word_offset_start": 226,
+              "word_offset_end": 251,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "I shall submit, for the consideration of the Senate, a convention for the adjustment of possessory claims in Washington Territory, arising out of the treaty of the 15th of June, 1846, between the United States and Great Britain, and which have been the source of some disquiet among the citizens of that now rapidly improving part of the country.",
+              "word_offset_start": 251,
+              "word_offset_end": 310,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "A novel and important question, involving the extent of the maritime jurisdiction of Spain in the waters which surround the island of Cuba, has been debated without reaching an agreement, and it is proposed, in an amicable spirit, to refer it to the arbitrament of a friendly power.",
+              "word_offset_start": 310,
+              "word_offset_end": 358,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "A convention for that purpose will be submitted to the Senate.",
+              "word_offset_start": 358,
+              "word_offset_end": 369,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "I have thought it proper, subject to the approval of the Senate, to concur with the interested commercial powers in an arrangement for the liquidation of the Scheldt dues upon the principles which have been heretofore adopted in regard to the imposts upon navigation in the waters of Denmark.",
+              "word_offset_start": 369,
+              "word_offset_end": 418,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "The long-pending controversy between this government and that of Chile touching the seizure at Sitana, in Peru, by Chilean officers, of a large amount in treasure belonging to citizens of the United States has been brought to a close by the award of His Majesty the King of the Belgians, to whose arbitration the question was referred by the parties.",
+              "word_offset_start": 418,
+              "word_offset_end": 478,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "The subject was thoroughly and patiently examined by that justly respected magistrate, and although the sum awarded to the claimants may not have been as large as they expected there is no reason to distrust the wisdom of His Majesty's decision.",
+              "word_offset_start": 478,
+              "word_offset_end": 519,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "That decision was promptly complied with by Chile when intelligence in regard to it reached that country.",
+              "word_offset_start": 519,
+              "word_offset_end": 536,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "The joint commission under the act of the last session of carrying into effect the convention with Peru on the subject of claims has been organized at Lima, and is engaged in the business intrusted to it.",
+              "word_offset_start": 536,
+              "word_offset_end": 573,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Difficulties concerning interoceanic transit through Nicaragua are in course of amicable adjustment.",
+              "word_offset_start": 573,
+              "word_offset_end": 585,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "In conformity with principles set forth in my last annual message, I have received a representative from the United States of Colombia, and have accredited a minister to that Republic.",
+              "word_offset_start": 585,
+              "word_offset_end": 615,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "Incidents occurring in the progress of our civil war have forced upon my attention the uncertain state of international questions touching the rights of foreigners in this country and of United States citizens abroad.",
+              "word_offset_start": 615,
+              "word_offset_end": 649,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "In regard to some governments these rights are at least partially defined by treaties.",
+              "word_offset_start": 649,
+              "word_offset_end": 663,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "In no instance, however, is it expressly stipulated that in the event of civil war a foreigner residing in this country within the lines of the insurgents is to be exempted from the rule which classes him as a belligerent, in whose behalf the government of his country can not expect any privileges or immunities distinct from that character.",
+              "word_offset_start": 663,
+              "word_offset_end": 722,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p14_s04",
+              "sentence_ordinal": 4,
+              "text": "I regret to say, however, that such claims have been put forward, and in some instances in behalf of foreigners who have lived in the United States the greater part of their lives.",
+              "word_offset_start": 722,
+              "word_offset_end": 755,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "There is reason to believe that many persons born in foreign countries who have declared their intention to become citizens, or who have been fully naturalized have evaded the military duty required of them by denying the fact and thereby throwing upon the Government the burden of proof.",
+              "word_offset_start": 755,
+              "word_offset_end": 803,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "It has been found difficult or impracticable to obtain this proof from the want of guides to the proper sources of information.",
+              "word_offset_start": 803,
+              "word_offset_end": 825,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p15_s03",
+              "sentence_ordinal": 3,
+              "text": "These might be supplied by requiring clerks of courts where declarations of intention may be made or naturalizations effected to send periodically lists of the names of the persons naturalized or declaring their intention to become citizens to the Secretary of the Interior, in whose Department those names might be arranged and printed for general information.",
+              "word_offset_start": 825,
+              "word_offset_end": 881,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "There is also reason to believe that foreigners frequently become citizens of the United States for the sole purpose of evading duties imposed by the laws of their native countries, to which on becoming naturalized here they at once repair, and though never returning to the United States they still claim the interposition of this government as citizens.",
+              "word_offset_start": 881,
+              "word_offset_end": 939,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "Many altercations and great prejudices have heretofore arisen out of this abuse.",
+              "word_offset_start": 939,
+              "word_offset_end": 951,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "It is therefore submitted to your serious consideration.",
+              "word_offset_start": 951,
+              "word_offset_end": 959,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p16_s04",
+              "sentence_ordinal": 4,
+              "text": "It might be advisable to fix a limit beyond which no citizen of the United States residing abroad may claim the interposition of his government.",
+              "word_offset_start": 959,
+              "word_offset_end": 984,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "The right of suffrage has often been assumed and exercised by aliens under pretenses of naturalization, which they have disavowed when drafted into the military service.",
+              "word_offset_start": 984,
+              "word_offset_end": 1010,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p17_s02",
+              "sentence_ordinal": 2,
+              "text": "I submit the expediency of such an amendment of the law as will make the fact of voting an estoppe against any plea of exemption from military service or other civil obligation on the ground of alienage.",
+              "word_offset_start": 1010,
+              "word_offset_end": 1047,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "In common with other Western powers, our relations with Japan have been brought into serious jeopardy through the perverse opposition of the hereditary aristocracy of the Empire to the enlightened and liberal policy of the Tycoon, designed to bring the country into the society of nations.",
+              "word_offset_start": 1047,
+              "word_offset_end": 1093,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "It is hoped, although not with entire confidence, that these difficulties may be peacefully overcome.",
+              "word_offset_start": 1093,
+              "word_offset_end": 1108,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p18_s03",
+              "sentence_ordinal": 3,
+              "text": "I ask your attention to the claim of the minister residing there for the damages he sustained in the destruction by fire of the residence of the legation at Yedo.",
+              "word_offset_start": 1108,
+              "word_offset_end": 1138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Satisfactory arrangements have been made with the Emperor of Russia, which, it is believed, will result in effecting a continuous line of telegraph through that Empire from our Pacific coast.",
+              "word_offset_start": 1138,
+              "word_offset_end": 1168,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "I recommend to your favorable consideration the subject of an international telegraph across the Atlantic Ocean, and also of a telegraph between this capital and the national forts along the Atlantic seaboard and the Gulf of Mexico.",
+              "word_offset_start": 1168,
+              "word_offset_end": 1205,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "Such communications, established with any reasonable outlay, would be economical as well as effective aids to the diplomatic, military, and naval service.",
+              "word_offset_start": 1205,
+              "word_offset_end": 1227,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "The consular system of the United States, under the enactments of the last Congress, begins to be self-sustaining, and there is reason to hope that it may become entirely so with the increase of trade which will ensue whenever peace is restored.",
+              "word_offset_start": 1227,
+              "word_offset_end": 1269,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "Our ministers abroad have been faithful in defending American rights.",
+              "word_offset_start": 1269,
+              "word_offset_end": 1279,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p21_s03",
+              "sentence_ordinal": 3,
+              "text": "In protecting commercial interests our consuls have necessarily had to encounter increased labors and responsibilities growing out of the war.",
+              "word_offset_start": 1279,
+              "word_offset_end": 1299,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p21_s04",
+              "sentence_ordinal": 4,
+              "text": "These they have for the most part met and discharged with zeal and efficiency.",
+              "word_offset_start": 1299,
+              "word_offset_end": 1313,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p21_s05",
+              "sentence_ordinal": 5,
+              "text": "This acknowledgment justly includes those consuls who, residing in Morocco, Egypt, Turkey, Japan, China, and other Oriental countries, are charged with complex functions and extraordinary powers.",
+              "word_offset_start": 1313,
+              "word_offset_end": 1339,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "The condition of the several organized Territories is generally satisfactory, although Indian disturbances in New Mexico have not been entirely suppressed.",
+              "word_offset_start": 1339,
+              "word_offset_end": 1360,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "The mineral resources of Colorado, Nevada, Idaho, New Mexico, and Arizona are proving far richer than has been heretofore understood.",
+              "word_offset_start": 1360,
+              "word_offset_end": 1380,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "I lay before you a communication on this subject from the Governor of New Mexico.",
+              "word_offset_start": 1380,
+              "word_offset_end": 1395,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p22_s04",
+              "sentence_ordinal": 4,
+              "text": "I again submit to your consideration the expediency of establishing a system for the encouragement of immigration.",
+              "word_offset_start": 1395,
+              "word_offset_end": 1412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p22_s05",
+              "sentence_ordinal": 5,
+              "text": "Although this source of national wealth and strength is again flowing with greater freedom than for several years before the insurrection occurred, there is still a great deficiency of laborers in every field of industry, especially in agriculture and in our mines, as well of iron and coal as of the precious metals.",
+              "word_offset_start": 1412,
+              "word_offset_end": 1465,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p22_s06",
+              "sentence_ordinal": 6,
+              "text": "While the demand for labor is much increased here, tens of thousands of persons, destitute of remunerative occupation, are thronging our foreign consulates and offering to emigrate to the United States if essential, but very cheap, assistance can be afforded them.",
+              "word_offset_start": 1465,
+              "word_offset_end": 1506,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p22_s07",
+              "sentence_ordinal": 7,
+              "text": "It is easy to see that under the sharp discipline of civil war the nation is beginning a new life.",
+              "word_offset_start": 1506,
+              "word_offset_end": 1526,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p22_s08",
+              "sentence_ordinal": 8,
+              "text": "This noble effort demands the aid and ought to receive the attention and support of the Government.",
+              "word_offset_start": 1526,
+              "word_offset_end": 1543,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "Injuries unforeseen by the Government and unintended may in some cases have been inflicted on the subjects or citizens of foreign countries, both at sea and on land, by persons in the service of the United States.",
+              "word_offset_start": 1543,
+              "word_offset_end": 1580,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "As this government expects redress from other powers when similar injuries are inflicted by persons in their service upon citizens of the United States, we must be prepared to do justice to foreigners.",
+              "word_offset_start": 1580,
+              "word_offset_end": 1613,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p23_s03",
+              "sentence_ordinal": 3,
+              "text": "If the existing judicial tribunals are inadequate to this purpose, a special court may be authorized, with power to hear and decide such claims of the character referred to as may have arisen under treaties and the public law.",
+              "word_offset_start": 1613,
+              "word_offset_end": 1652,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p23_s04",
+              "sentence_ordinal": 4,
+              "text": "Conventions for adjusting the claims by joint commission have been proposed to some governments, but no definitive answer to the proposition has yet been received from any.",
+              "word_offset_start": 1652,
+              "word_offset_end": 1679,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "In the course of the session I shall probably have occasion to request you to provide indemnification to claimants where decrees of restitution have been rendered and damages awarded by admiralty courts, and in other cases where this government may be acknowledged to be liable in principle and where the amount of that liability has been ascertained by an informal arbitration.",
+              "word_offset_start": 1679,
+              "word_offset_end": 1740,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "The proper officers of the Treasury have deemed themselves required by the law of the United States upon the subject to demand a tax upon the incomes of foreign consuls in this country.",
+              "word_offset_start": 1740,
+              "word_offset_end": 1773,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "While such a demand may not in strictness be in derogation of public law, or perhaps of any existing treaty between the United States and a foreign country, the expediency of so far modifying the act as to exempt from tax the income of such consuls as are not citizens of the United States, derived from the emoluments of their office or from property not situated in the United States, is submitted to your serious consideration.",
+              "word_offset_start": 1773,
+              "word_offset_end": 1849,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p25_s03",
+              "sentence_ordinal": 3,
+              "text": "I make this suggestion upon the ground that a comity which ought to be reciprocated exempts our consuls in all other countries from taxation to the extent thus indicated.",
+              "word_offset_start": 1849,
+              "word_offset_end": 1878,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p25_s04",
+              "sentence_ordinal": 4,
+              "text": "The United States, I think, ought not to be exceptionally illiberal to international trade and commerce.",
+              "word_offset_start": 1878,
+              "word_offset_end": 1894,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "The operations of the Treasury during the last year have been successfully conducted.",
+              "word_offset_start": 1894,
+              "word_offset_end": 1907,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "The enactment by Congress of a national banking law has proved a valuable support of the public credit, and the general legislation in relation to loans has fully answered the expectations of its favorers.",
+              "word_offset_start": 1907,
+              "word_offset_end": 1941,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p26_s03",
+              "sentence_ordinal": 3,
+              "text": "Some amendments may be required to perfect existing laws, but no change in their principles or general scope is believed to be needed.",
+              "word_offset_start": 1941,
+              "word_offset_end": 1964,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "Since these measures have been in operation all demands on the Treasury, including the pay of the Army and Navy, have been promptly met and fully satisfied.",
+              "word_offset_start": 1964,
+              "word_offset_end": 1991,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "No considerable body of troops, it is believed, were ever more amply provided and more liberally and punctually paid, and it may be added that by no people were the burdens incident to a great war ever more cheerfully borne.",
+              "word_offset_start": 1991,
+              "word_offset_end": 2031,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "The receipts during the year from all sources, including loans and balance in the Treasury at its commencement, were $901,125,674.86, and the aggregate disbursements $895,796,630.65, leaving a balance on the 1st of July, 1863, of $5,329,044.21.",
+              "word_offset_start": 2031,
+              "word_offset_end": 2067,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "Of the receipts there were derived from customs $69,059,642.40, from internal revenue $37,640,787.95, from direct tax $1,485,103.61, from lands $167,617.17, from miscellaneous sources $3,046,615.35, and from loans $776,682,361.57, making the aggregate $901,125,674.86.",
+              "word_offset_start": 2067,
+              "word_offset_end": 2099,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p28_s03",
+              "sentence_ordinal": 3,
+              "text": "Of the disbursements there were for the civil service $23,253,922.08, for pensions and Indians $4,216,520.79, for interest on public debt $24,729,846.51, for the War Department $599,298,600.83, for the Navy Department $63,211,105.27, for payment of funded and temporary debt $181,086,635.07, making the aggregate $895,796,630.65 and leaving the balance of $5,329,044.21.",
+              "word_offset_start": 2099,
+              "word_offset_end": 2148,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p28_s04",
+              "sentence_ordinal": 4,
+              "text": "But the payment of funded and temporary debt, having been made from moneys borrowed during the year, must be regarded as merely nominal payments and the moneys borrowed to make them as merely nominal receipts, and their amount, $181,086,635.07, should therefore be deducted both from receipts and disbursements.",
+              "word_offset_start": 2148,
+              "word_offset_end": 2196,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p28_s05",
+              "sentence_ordinal": 5,
+              "text": "This being done there remains as actual receipts $720,039,039.79 and the actual disbursements $714,709,995.58, leaving the balance as already stated.",
+              "word_offset_start": 2196,
+              "word_offset_end": 2216,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "The actual receipts and disbursements for the first quarter and the estimated receipts and disbursements for the remaining three-quarters of the current fiscal year (1864) will be shown in detail by the report of the Secretary of the Treasury, to which I invite your attention.",
+              "word_offset_start": 2216,
+              "word_offset_end": 2261,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "It is sufficient to say here that it is not believed that actual results will exhibit a state of the finances less favorable to the country than the estimates of that officer heretofore submitted while it is confidently expected that at the close of the year both disbursements and debt will be found very considerably less than has been anticipated.",
+              "word_offset_start": 2261,
+              "word_offset_end": 2321,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "The report of the Secretary of War is a document of great interest.",
+              "word_offset_start": 2321,
+              "word_offset_end": 2334,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p30_s02",
+              "sentence_ordinal": 2,
+              "text": "It consists of:",
+              "word_offset_start": 2334,
+              "word_offset_end": 2337,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "1.",
+              "word_offset_start": 2337,
+              "word_offset_end": 2338,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "The military operations of the year, detailed in the report of the General in Chief.",
+              "word_offset_start": 2338,
+              "word_offset_end": 2353,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "2.",
+              "word_offset_start": 2353,
+              "word_offset_end": 2354,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "The organization of colored persons into the war service.",
+              "word_offset_start": 2354,
+              "word_offset_end": 2363,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "3.",
+              "word_offset_start": 2363,
+              "word_offset_end": 2364,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "The exchange of prisoners, fully set forth in the letter of General Hitchcock.",
+              "word_offset_start": 2364,
+              "word_offset_end": 2377,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "4.",
+              "word_offset_start": 2377,
+              "word_offset_end": 2378,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p34_s02",
+              "sentence_ordinal": 2,
+              "text": "The operations under the act for enrolling and calling out the national forces, detailed in the report of the Provost Marshal General.",
+              "word_offset_start": 2378,
+              "word_offset_end": 2400,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "5.",
+              "word_offset_start": 2400,
+              "word_offset_end": 2401,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p35_s02",
+              "sentence_ordinal": 2,
+              "text": "The organization of the invalid corps, and",
+              "word_offset_start": 2401,
+              "word_offset_end": 2408,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "6.",
+              "word_offset_start": 2408,
+              "word_offset_end": 2409,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p36_s02",
+              "sentence_ordinal": 2,
+              "text": "The operation of the several departments of the Quartermaster-General, Commissary- General, Paymaster-General, Chief of Engineers, Chief of Ordnance, and Surgeon-General.",
+              "word_offset_start": 2409,
+              "word_offset_end": 2429,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "It has appeared impossible to make a valuable summary of this report, except such as would be too extended for this place, and hence I content myself by asking your careful attention to the report itself.",
+              "word_offset_start": 2429,
+              "word_offset_end": 2465,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "The duties devolving on the naval branch of the service during the year and throughout the whole of this unhappy contest have been discharged with fidelity and eminent success.",
+              "word_offset_start": 2465,
+              "word_offset_end": 2494,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p38_s02",
+              "sentence_ordinal": 2,
+              "text": "The extensive blockade has been constantly increasing in efficiency as the Navy has expanded, yet on so long a line it has so far been impossible to entirely suppress illicit trade.",
+              "word_offset_start": 2494,
+              "word_offset_end": 2525,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p38_s03",
+              "sentence_ordinal": 3,
+              "text": "From returns received at the Navy Department it appears that more than 1,000 vessels have been captured since the blockade was instituted? and that the value of prizes already sent in for adjudication amounts to over $13,000,000.",
+              "word_offset_start": 2525,
+              "word_offset_end": 2562,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "The naval force of the United States consists at this time of five hundred and eighty- eight vessels completed and in the course of completion, and of these seventy-five are ironclad or armored steamers.",
+              "word_offset_start": 2562,
+              "word_offset_end": 2596,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p39_s02",
+              "sentence_ordinal": 2,
+              "text": "The events of the war give an increased interest and importance to the Navy which will probably extend beyond the war itself.",
+              "word_offset_start": 2596,
+              "word_offset_end": 2618,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "The armored vessels in our Navy completed and in service, or which are under contract and approaching completion, are believed to exceed in number those of any other power; but while these may be relied upon for harbor defense and coast service, others of greater strength and capacity will be necessary for cruising purposes and to maintain our rightful position on the ocean.",
+              "word_offset_start": 2618,
+              "word_offset_end": 2681,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "The change that has taken place in naval vessels and naval warfare since the introduction of steam as a motive power for ships of war demands either a corresponding change in some of our existing navy yards or the establishment of new ones for the construction and necessary repair of modern naval vessels.",
+              "word_offset_start": 2681,
+              "word_offset_end": 2734,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p41_s02",
+              "sentence_ordinal": 2,
+              "text": "No inconsiderable embarrassment, delay, and public injury have been experienced from the want of such governmental establishments.",
+              "word_offset_start": 2734,
+              "word_offset_end": 2751,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p41_s03",
+              "sentence_ordinal": 3,
+              "text": "The necessity of such a navy-yard, so furnished, at some suitable place upon the Atlantic seaboard has on repeated occasions been brought to the attention of Congress by the Navy Department, and is again presented in the report of the Secretary which accompanies this communication.",
+              "word_offset_start": 2751,
+              "word_offset_end": 2796,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p41_s04",
+              "sentence_ordinal": 4,
+              "text": "I think it my duty to invite your special attention to this subject, and also to that of establishing a yard and depot for naval purposes upon one of the Western rivers.",
+              "word_offset_start": 2796,
+              "word_offset_end": 2828,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p41_s05",
+              "sentence_ordinal": 5,
+              "text": "A naval force has been created on those interior waters, and under many disadvantages, within little more than two years, exceeding in numbers the whole naval force of the country at the commencement of the present Administration.",
+              "word_offset_start": 2828,
+              "word_offset_end": 2865,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p41_s06",
+              "sentence_ordinal": 6,
+              "text": "Satisfactory and important as have been the performances of the heroic men of the Navy at this interesting period, they are scarcely more wonderful than the success of our mechanics and artisans in the production of war vessels, which has created a new form of naval power.",
+              "word_offset_start": 2865,
+              "word_offset_end": 2912,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "Our country has advantages superior to any other nation in our resources of iron and timber, with inexhaustible quantities of fuel in the immediate vicinity of both, and all available and in close proximity to navigable waters.",
+              "word_offset_start": 2912,
+              "word_offset_end": 2949,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p42_s02",
+              "sentence_ordinal": 2,
+              "text": "Without the advantage of public works, the resources of the nation have been developed and its power displayed in the construction of a Navy of such magnitude, which has at the very period of its creation rendered signal service to the Union.",
+              "word_offset_start": 2949,
+              "word_offset_end": 2991,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "The increase of the number of seamen in the public service from 7,500 men in the spring of 1861 to about 34,000 at the present time has been accomplished without special legislation or extraordinary bounties to promote that increase.",
+              "word_offset_start": 2991,
+              "word_offset_end": 3030,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p43_s02",
+              "sentence_ordinal": 2,
+              "text": "It has been found, however, that the operation of the draft, with the high bounties paid for army recruits, is beginning to affect injuriously the naval service, and will, if not corrected, be likely to impair its efficiency by detaching seamen from their proper vocation and inducing them to enter the Army.",
+              "word_offset_start": 3030,
+              "word_offset_end": 3082,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p43_s03",
+              "sentence_ordinal": 3,
+              "text": "I therefore respectfully suggest that Congress might aid both the army and naval services by a definite provision on this subject which would at the same time be equitable to the communities more especially interested.",
+              "word_offset_start": 3082,
+              "word_offset_end": 3117,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "I commend to your consideration the suggestions of the Secretary of the Navy in regard to the policy of fostering and training seamen and also the education of officers and engineers for the naval service.",
+              "word_offset_start": 3117,
+              "word_offset_end": 3152,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p44_s02",
+              "sentence_ordinal": 2,
+              "text": "The Naval Academy is rendering signal service in preparing midshipmen for the highly responsible duties which in after life they will be required to perform.",
+              "word_offset_start": 3152,
+              "word_offset_end": 3177,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p44_s03",
+              "sentence_ordinal": 3,
+              "text": "In order that the country should not be deprived of the proper quota of educated officers, for which legal provision has been made at the naval school, the vacancies caused by the neglect or omission to make nominations from the States in insurrection have been filled by the Secretary of the Navy.",
+              "word_offset_start": 3177,
+              "word_offset_end": 3229,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p44_s04",
+              "sentence_ordinal": 4,
+              "text": "The school is now more full and complete than at any former period, and in every respect entitled to the favorable consideration of Congress.",
+              "word_offset_start": 3229,
+              "word_offset_end": 3253,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "During the past fiscal year the financial condition of the Post-Office Department has been one of increasing prosperity, and I am gratified in being able to state that the actual postal revenue has nearly equaled the entire expenditures, the latter amounting to $11,314,206.84 and the former to $11,163,789.59, leaving a deficiency of but $150,417.25.",
+              "word_offset_start": 3253,
+              "word_offset_end": 3307,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p45_s02",
+              "sentence_ordinal": 2,
+              "text": "In 1860, the year immediately preceding the rebellion, the deficiency amounted to $5,656,705.49, the postal receipts of that year being $2,645,722.19 less that those of 1863.",
+              "word_offset_start": 3307,
+              "word_offset_end": 3333,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p45_s03",
+              "sentence_ordinal": 3,
+              "text": "The decrease since 1860 in the annual amount of transportation has been only about twenty-five per cent, but the annual expenditure on account of the same has been reduced thirty-five per cent.",
+              "word_offset_start": 3333,
+              "word_offset_end": 3365,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p45_s04",
+              "sentence_ordinal": 4,
+              "text": "It is manifest, therefore, that the Post-Office Department may become self-sustaining in a few years, even with the restoration of the whole service.",
+              "word_offset_start": 3365,
+              "word_offset_end": 3388,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "The international conference of postal delegates from the principal countries of Europe and America, which was called at the suggestion of the Postmaster-General, met at Paris on the 11th of May last and concluded its deliberations on the 8th of June.",
+              "word_offset_start": 3388,
+              "word_offset_end": 3429,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p46_s02",
+              "sentence_ordinal": 2,
+              "text": "The principles established by the conference as best adapted to facilitate postal intercourse between nations and as the basis of future postal conventions inaugurate a general system of uniform international charges at reduced rates of postage, and can not fail to produce beneficial results.",
+              "word_offset_start": 3429,
+              "word_offset_end": 3473,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "I refer you to the report of the Secretary of the Interior, which is herewith laid before you, for useful and varied information in relation to the public lands, Indian affairs, patents, pensions, and other matters of public concern pertaining to his Department.",
+              "word_offset_start": 3473,
+              "word_offset_end": 3516,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "The quantity of land disposed of during the last and the first quarter of the present fiscal years was 3,841,549 acres, of which 161,911 acres were sold for cash, 1,456,514 acres were taken up under the homestead law, and the residue disposed of under laws granting lands for military bounties, for railroad and other purposes.",
+              "word_offset_start": 3516,
+              "word_offset_end": 3571,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p48_s02",
+              "sentence_ordinal": 2,
+              "text": "It also appears that the sale of the public lands is largely on the increase.",
+              "word_offset_start": 3571,
+              "word_offset_end": 3586,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "It has long been a cherished opinion of some of our wisest statesmen that the people of the United States had a higher and more enduring interest in the early settlement and substantial cultivation of the public lands than in the amount of direct revenue to be derived from the sale of them.",
+              "word_offset_start": 3586,
+              "word_offset_end": 3639,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p49_s02",
+              "sentence_ordinal": 2,
+              "text": "This opinion has had a controlling influence in shaping legislation upon the subject of our national domain.",
+              "word_offset_start": 3639,
+              "word_offset_end": 3656,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p49_s03",
+              "sentence_ordinal": 3,
+              "text": "I may cite as evidence of this the liberal measures adopted in reference to actual settlers; the grant to the States of the overflowed lands within their limits, in order to their being reclaimed and rendered fit for cultivation; the grants to railway companies of alternate sections of land upon the contemplated lines of their roads, which when completed will so largely multiply the facilities for reaching our distant possessions.",
+              "word_offset_start": 3656,
+              "word_offset_end": 3726,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p49_s04",
+              "sentence_ordinal": 4,
+              "text": "This policy has received its most signal and beneficent illustration in the recent enactment granting homesteads to actual settlers.",
+              "word_offset_start": 3726,
+              "word_offset_end": 3745,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p49_s05",
+              "sentence_ordinal": 5,
+              "text": "Since the 1st day of January last the before-mentioned quantity of 1,456,514 acres of land have been taken up under its provisions.",
+              "word_offset_start": 3745,
+              "word_offset_end": 3767,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p49_s06",
+              "sentence_ordinal": 6,
+              "text": "This fact and the amount of sales furnish gratifying evidence of increasing settlement upon the public lands, notwithstanding the great struggle in which the energies of the nation have been engaged, and which has required so large a withdrawal of our citizens from their accustomed pursuits.",
+              "word_offset_start": 3767,
+              "word_offset_end": 3813,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p49_s07",
+              "sentence_ordinal": 7,
+              "text": "I cordially concur in the recommendation of the Secretary of the Interior suggesting a modification of the act in favor of those engaged in the military and naval service of the United States.",
+              "word_offset_start": 3813,
+              "word_offset_end": 3846,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p49_s08",
+              "sentence_ordinal": 8,
+              "text": "I doubt not that Congress will cheerfully adopt such measures as will, without essentially changing the general features of the system, secure to the greatest practicable extent its benefits to those who have left their homes in the defense of the country in this arduous crisis.",
+              "word_offset_start": 3846,
+              "word_offset_end": 3892,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "I invite your attention to the views of the Secretary as to the propriety of raising by appropriate legislation a revenue from the mineral lands of the United States.",
+              "word_offset_start": 3892,
+              "word_offset_end": 3921,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "The measures provided at your last session for the removal of certain Indian tribes have been carried into effect.",
+              "word_offset_start": 3921,
+              "word_offset_end": 3940,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p51_s02",
+              "sentence_ordinal": 2,
+              "text": "Sundry treaties have been negotiated, which will in due time be submitted for the constitutional action of the Senate.",
+              "word_offset_start": 3940,
+              "word_offset_end": 3959,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p51_s03",
+              "sentence_ordinal": 3,
+              "text": "They contain stipulations for extinguishing the possessory rights of the Indians to large and valuable tracts of lands.",
+              "word_offset_start": 3959,
+              "word_offset_end": 3977,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p51_s04",
+              "sentence_ordinal": 4,
+              "text": "It is hoped that the effect of these treaties will result in the establishment of permanent friendly relations with such of these tribes as have been brought into frequent and bloody collision with our outlying settlements and emigrants.",
+              "word_offset_start": 3977,
+              "word_offset_end": 4015,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p51_s05",
+              "sentence_ordinal": 5,
+              "text": "Sound policy and our imperative duty to these wards of the Government demand our anxious and constant attention to their material well-being, to their progress in the arts of civilization, and, above all, to that moral training which under the blessing of Divine Providence will confer upon them the elevated and sanctifying influences, the hopes and consolations, of the Christian faith.",
+              "word_offset_start": 4015,
+              "word_offset_end": 4076,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "I suggested in my last annual message the propriety of remodeling our Indian system.",
+              "word_offset_start": 4076,
+              "word_offset_end": 4090,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p52_s02",
+              "sentence_ordinal": 2,
+              "text": "Subsequent events have satisfied me of its necessity.",
+              "word_offset_start": 4090,
+              "word_offset_end": 4098,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p52_s03",
+              "sentence_ordinal": 3,
+              "text": "The details set forth in the report of the Secretary evince the urgent need for immediate legislative action.",
+              "word_offset_start": 4098,
+              "word_offset_end": 4116,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p53",
+          "paragraph_ordinal": 53,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p53_s01",
+              "sentence_ordinal": 1,
+              "text": "I commend the benevolent institutions established or patronized by the Government in this District to your generous and fostering care.",
+              "word_offset_start": 4116,
+              "word_offset_end": 4136,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p54",
+          "paragraph_ordinal": 54,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p54_s01",
+              "sentence_ordinal": 1,
+              "text": "The attention of Congress during the last session was engaged to some extent with a proposition for enlarging the water communication between the Mississippi River and the northeastern seaboard, which proposition, however, failed for the time.",
+              "word_offset_start": 4136,
+              "word_offset_end": 4172,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p54_s02",
+              "sentence_ordinal": 2,
+              "text": "Since then, upon a call of the greatest respectability, a convention has been held at Chicago upon the same subject, a summary of whose views is contained in a memorial addressed to the President and Congress, and which I now have the honor to lay before you.",
+              "word_offset_start": 4172,
+              "word_offset_end": 4219,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p54_s03",
+              "sentence_ordinal": 3,
+              "text": "That this interest is one which ere long will force its own way I do not entertain a doubt, while it is submitted entirely to your wisdom as to what can be done now.",
+              "word_offset_start": 4219,
+              "word_offset_end": 4253,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p54_s04",
+              "sentence_ordinal": 4,
+              "text": "Augmented interest is given to this subject by the actual commencement of work upon the Pacific Railroad, under auspices so favorable to rapid progress and completion.",
+              "word_offset_start": 4253,
+              "word_offset_end": 4279,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p54_s05",
+              "sentence_ordinal": 5,
+              "text": "The enlarged navigation becomes a palpable need to the great road.",
+              "word_offset_start": 4279,
+              "word_offset_end": 4290,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p55",
+          "paragraph_ordinal": 55,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p55_s01",
+              "sentence_ordinal": 1,
+              "text": "I transmit the second annual report of the Commissioner of the Department of Agriculture, asking your attention to the developments in that vital interest of the nation.",
+              "word_offset_start": 4290,
+              "word_offset_end": 4317,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p56",
+          "paragraph_ordinal": 56,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p56_s01",
+              "sentence_ordinal": 1,
+              "text": "When Congress assembled a year ago, the war had already lasted nearly twenty months, and there had been many conflicts on both land and sea, with varying results; the rebellion had been pressed back into reduced limits; yet the tone of public feeling and opinion, at home and abroad, was not satisfactory.",
+              "word_offset_start": 4317,
+              "word_offset_end": 4369,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s02",
+              "sentence_ordinal": 2,
+              "text": "With other signs, the popular elections then just past indicated uneasiness among ourselves, while, amid much that was cold and menacing, the kindest words coming from Europe were uttered in accents of pity that we are too blind to surrender a hopeless cause.",
+              "word_offset_start": 4369,
+              "word_offset_end": 4412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s03",
+              "sentence_ordinal": 3,
+              "text": "Our commerce was suffering greatly by a few armed vessels built upon and furnished from foreign shores, and we were threatened with such additions from the same quarter as would sweep our trade from the sea and raise our blockade.",
+              "word_offset_start": 4412,
+              "word_offset_end": 4452,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s04",
+              "sentence_ordinal": 4,
+              "text": "We had failed to elicit from European governments anything hopeful upon this subject.",
+              "word_offset_start": 4452,
+              "word_offset_end": 4465,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s05",
+              "sentence_ordinal": 5,
+              "text": "The preliminary emancipation proclamation, issued in September, was running its assigned period to the beginning of the new year.",
+              "word_offset_start": 4465,
+              "word_offset_end": 4484,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s06",
+              "sentence_ordinal": 6,
+              "text": "A month later the final proclamation came, including the announcement that colored men of suitable condition would be received into the war service.",
+              "word_offset_start": 4484,
+              "word_offset_end": 4507,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s07",
+              "sentence_ordinal": 7,
+              "text": "The policy of emancipation and of employing black soldiers gave to the future a new aspect, about which hope and fear and doubt contended in uncertain conflict.",
+              "word_offset_start": 4507,
+              "word_offset_end": 4534,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s08",
+              "sentence_ordinal": 8,
+              "text": "According to our political system, as a matter of civil administration, the General Government had no lawful power to effect emancipation in any State, and for a long time it had been hoped that the rebellion could be suppressed without resorting to it as a military measure.",
+              "word_offset_start": 4534,
+              "word_offset_end": 4581,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s09",
+              "sentence_ordinal": 9,
+              "text": "It was all the while deemed possible that the necessity for it might come, and that if it should the crisis of the contest would then be presented.",
+              "word_offset_start": 4581,
+              "word_offset_end": 4609,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s10",
+              "sentence_ordinal": 10,
+              "text": "It came, and, as was anticipated, it was followed by dark and doubtful days.",
+              "word_offset_start": 4609,
+              "word_offset_end": 4623,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s11",
+              "sentence_ordinal": 11,
+              "text": "Eleven months having now passed, we are permitted to take another review.",
+              "word_offset_start": 4623,
+              "word_offset_end": 4635,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s12",
+              "sentence_ordinal": 12,
+              "text": "The rebel borders are pressed still farther back, and by the complete opening of the Mississippi the country dominated by the rebellion is divided into distinct parts, with no practical communication between them.",
+              "word_offset_start": 4635,
+              "word_offset_end": 4668,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s13",
+              "sentence_ordinal": 13,
+              "text": "Tennessee and Arkansas have been substantially cleared of insurgent control, and influential citizens in each, owners of slaves and advocates of slavery at the beginning of the rebellion, now declare openly for emancipation in their respective States.",
+              "word_offset_start": 4668,
+              "word_offset_end": 4705,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p56_s14",
+              "sentence_ordinal": 14,
+              "text": "Of those States not included in the emancipation proclamation, Maryland and Missouri, neither of which three years ago would tolerate any restraint upon the extension of slavery into new Territories, dispute now only as to the best mode of removing it within their own limits.",
+              "word_offset_start": 4705,
+              "word_offset_end": 4750,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p57",
+          "paragraph_ordinal": 57,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p57_s01",
+              "sentence_ordinal": 1,
+              "text": "Of those who were slaves at the beginning of the rebellion full 100,000 are now in the United States military service, about one-half of which number actually bear arms in the ranks, thus giving the double advantage of taking so much labor from the insurgent cause and supplying the places which otherwise must be filled with so many white men.",
+              "word_offset_start": 4750,
+              "word_offset_end": 4810,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p57_s02",
+              "sentence_ordinal": 2,
+              "text": "So far as tested, it is difficult to say they are not as good soldiers as any.",
+              "word_offset_start": 4810,
+              "word_offset_end": 4827,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p57_s03",
+              "sentence_ordinal": 3,
+              "text": "No servile insurrection or tendency to violence or cruelty has marked the measures of emancipation and arming the blacks.",
+              "word_offset_start": 4827,
+              "word_offset_end": 4846,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p57_s04",
+              "sentence_ordinal": 4,
+              "text": "These measures have been much discussed in foreign countries, and, contemporary with such discussion, the tone of public sentiment there is much improved.",
+              "word_offset_start": 4846,
+              "word_offset_end": 4869,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p57_s05",
+              "sentence_ordinal": 5,
+              "text": "At home the same measures have been fully discussed, supported, criticized, and denounced, and the annual elections following are highly encouraging to those whose official duty it is to bear the country through this great trial.",
+              "word_offset_start": 4869,
+              "word_offset_end": 4905,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p57_s06",
+              "sentence_ordinal": 6,
+              "text": "Thus we have the new reckoning.",
+              "word_offset_start": 4905,
+              "word_offset_end": 4911,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p57_s07",
+              "sentence_ordinal": 7,
+              "text": "The crisis which threatened to divide the friends of the Union is past.",
+              "word_offset_start": 4911,
+              "word_offset_end": 4924,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p58",
+          "paragraph_ordinal": 58,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p58_s01",
+              "sentence_ordinal": 1,
+              "text": "Looking now to the present and future, and with reference to a resumption of the national authority within the States wherein that authority has been suspended, I have thought fit to issue a proclamation, a copy of which is herewith transmitted.",
+              "word_offset_start": 4924,
+              "word_offset_end": 4965,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p58_s02",
+              "sentence_ordinal": 2,
+              "text": "On examination of this proclamation it will appear, as is believed, that nothing will be attempted beyond what is amply justified by the Constitution.",
+              "word_offset_start": 4965,
+              "word_offset_end": 4989,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p58_s03",
+              "sentence_ordinal": 3,
+              "text": "True, the form of an oath is given, but no man is coerced to take it.",
+              "word_offset_start": 4989,
+              "word_offset_end": 5005,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p58_s04",
+              "sentence_ordinal": 4,
+              "text": "The man is promised a pardon only in case he voluntarily takes the oath.",
+              "word_offset_start": 5005,
+              "word_offset_end": 5019,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p58_s05",
+              "sentence_ordinal": 5,
+              "text": "The Constitution authorizes the Executive to grant or withhold the pardon at his own absolute discretion, and this includes the power to grant on terms, as is fully established by judicial and other authorities.",
+              "word_offset_start": 5019,
+              "word_offset_end": 5053,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p59",
+          "paragraph_ordinal": 59,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p59_s01",
+              "sentence_ordinal": 1,
+              "text": "It is also proffered that if in any of the States named a State government shall be in the mode prescribed set up, such government shall be recognized and guaranteed by the United States, and that under it the State shall, on the constitutional conditions, be protected against invasion and domestic violence.",
+              "word_offset_start": 5053,
+              "word_offset_end": 5105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p59_s02",
+              "sentence_ordinal": 2,
+              "text": "The constitutional obligation of the United States to guarantee to every State in the Union a republican form of government and to protect the State in the cases stated is explicit and full.",
+              "word_offset_start": 5105,
+              "word_offset_end": 5138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p59_s03",
+              "sentence_ordinal": 3,
+              "text": "But why tender the benefits of this provision only to a State government set up in this particular way?",
+              "word_offset_start": 5138,
+              "word_offset_end": 5157,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p59_s04",
+              "sentence_ordinal": 4,
+              "text": "This section of the Constitution contemplates a case wherein the element within a State favorable to republican government in the Union may be too feeble for an opposite and hostile element external to or even within the State, and such are precisely the cases with which we are now dealing.",
+              "word_offset_start": 5157,
+              "word_offset_end": 5207,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p60",
+          "paragraph_ordinal": 60,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p60_s01",
+              "sentence_ordinal": 1,
+              "text": "An attempt to guarantee and protect a revived State government, constructed in whole or in preponderating part from the very element against whose hostility and violence it is to be protected, is simply absurd.",
+              "word_offset_start": 5207,
+              "word_offset_end": 5241,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p60_s02",
+              "sentence_ordinal": 2,
+              "text": "There must be a test by which to separate the opposing elements, so as to build only from the sound; and that test is a sufficiently liberal one which accepts as sound whoever will make a sworn recantation of his former unsoundness.",
+              "word_offset_start": 5241,
+              "word_offset_end": 5283,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p61",
+          "paragraph_ordinal": 61,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p61_s01",
+              "sentence_ordinal": 1,
+              "text": "But if it be proper to require as a test of admission to the political body an oath of allegiance to the Constitution of the United States and to the Union under it, why also to the laws and proclamations in regard to slavery?",
+              "word_offset_start": 5283,
+              "word_offset_end": 5327,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p61_s02",
+              "sentence_ordinal": 2,
+              "text": "Those laws and proclamations were enacted and put forth for the purpose of aiding in the suppression of the rebellion.",
+              "word_offset_start": 5327,
+              "word_offset_end": 5347,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p61_s03",
+              "sentence_ordinal": 3,
+              "text": "To give them their fullest effect there had to be a pledge for their maintenance.",
+              "word_offset_start": 5347,
+              "word_offset_end": 5362,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p61_s04",
+              "sentence_ordinal": 4,
+              "text": "In my judgment, they have aided and will further aid the cause for which they were intended.",
+              "word_offset_start": 5362,
+              "word_offset_end": 5379,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p61_s05",
+              "sentence_ordinal": 5,
+              "text": "To now abandon them would be not only to relinquish a lever of power, but would also be a cruel and an astounding breach of faith.",
+              "word_offset_start": 5379,
+              "word_offset_end": 5405,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p61_s06",
+              "sentence_ordinal": 6,
+              "text": "I may add at this point that while I remain in my present position I shall not attempt to retract or modify the emancipation proclamation, nor shall I return to slavery any person who is free by the terms of that proclamation or by any of the acts of Congress.",
+              "word_offset_start": 5405,
+              "word_offset_end": 5455,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p61_s07",
+              "sentence_ordinal": 7,
+              "text": "For these and other reasons it is thought best that support of these measures shall be included in the oath, and it is believed the Executive may lawfully claim it in return for pardon and restoration of forfeited rights, which he has clear constitutional power to withhold altogether or grant upon the terms which he shall deem wisest for the public interest.",
+              "word_offset_start": 5455,
+              "word_offset_end": 5517,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p61_s08",
+              "sentence_ordinal": 8,
+              "text": "It should be observed also that this part of the oath is subject to the modifying and abrogating power of legislation and supreme judicial decision.",
+              "word_offset_start": 5517,
+              "word_offset_end": 5542,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p62",
+          "paragraph_ordinal": 62,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p62_s01",
+              "sentence_ordinal": 1,
+              "text": "The proposed acquiescence of the National Executive in any reasonable temporary State arrangement for the freed people is made with the view of possibly modifying the confusion and destitution which must at best attend all classes by a total revolution of labor throughout whole States.",
+              "word_offset_start": 5542,
+              "word_offset_end": 5587,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p62_s02",
+              "sentence_ordinal": 2,
+              "text": "It is hoped that the already deeply afflicted people in those States may be somewhat more ready to give up the cause of their affliction if to this extent this vital matter be left to themselves, while no power of the National Executive to prevent an abuse is abridged by the proposition.",
+              "word_offset_start": 5587,
+              "word_offset_end": 5639,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p63",
+          "paragraph_ordinal": 63,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p63_s01",
+              "sentence_ordinal": 1,
+              "text": "The suggestion in the proclamation as to maintaining the political framework of the States on what is called reconstruction is made in the hope that it may do good without danger of harm.",
+              "word_offset_start": 5639,
+              "word_offset_end": 5672,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p63_s02",
+              "sentence_ordinal": 2,
+              "text": "It will save labor and avoid great confusion.",
+              "word_offset_start": 5672,
+              "word_offset_end": 5680,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p64",
+          "paragraph_ordinal": 64,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p64_s01",
+              "sentence_ordinal": 1,
+              "text": "But why any proclamation now upon this subject?",
+              "word_offset_start": 5680,
+              "word_offset_end": 5688,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p64_s02",
+              "sentence_ordinal": 2,
+              "text": "This question is beset with the conflicting views that the step might be delayed too long or be taken too soon.",
+              "word_offset_start": 5688,
+              "word_offset_end": 5709,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p64_s03",
+              "sentence_ordinal": 3,
+              "text": "In some States the elements for resumption seem ready for action, but remain inactive apparently for want of a rallying point--a plan of action.",
+              "word_offset_start": 5709,
+              "word_offset_end": 5733,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p64_s04",
+              "sentence_ordinal": 4,
+              "text": "Why shall A adopt the plan of B rather than B that of A?",
+              "word_offset_start": 5733,
+              "word_offset_end": 5747,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p64_s05",
+              "sentence_ordinal": 5,
+              "text": "And if A and B should agree, how can they know but that the General Government here will reject their plan?",
+              "word_offset_start": 5747,
+              "word_offset_end": 5768,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p64_s06",
+              "sentence_ordinal": 6,
+              "text": "By the proclamation a plan is presented which may be accepted by them as a rallying point, and which they are assured in advance will not be rejected here.",
+              "word_offset_start": 5768,
+              "word_offset_end": 5797,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p64_s07",
+              "sentence_ordinal": 7,
+              "text": "This may bring them to act sooner than they otherwise would.",
+              "word_offset_start": 5797,
+              "word_offset_end": 5808,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p65",
+          "paragraph_ordinal": 65,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p65_s01",
+              "sentence_ordinal": 1,
+              "text": "The objections to a premature presentation of a plan by the National Executive consist in the danger of committals on points which could be more safely left to further developments.",
+              "word_offset_start": 5808,
+              "word_offset_end": 5838,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p65_s02",
+              "sentence_ordinal": 2,
+              "text": "Care has been taken to so shape the document as to avoid embarrassments from this source.",
+              "word_offset_start": 5838,
+              "word_offset_end": 5854,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p65_s03",
+              "sentence_ordinal": 3,
+              "text": "Saying that on certain terms certain classes will be pardoned with rights restored, it is not said that other classes or other terms will never be included.",
+              "word_offset_start": 5854,
+              "word_offset_end": 5881,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p65_s04",
+              "sentence_ordinal": 4,
+              "text": "Saying that reconstruction will be accepted if presented in a specified way, it is not said it will never be accepted in any other way.",
+              "word_offset_start": 5881,
+              "word_offset_end": 5906,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p66",
+          "paragraph_ordinal": 66,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p66_s01",
+              "sentence_ordinal": 1,
+              "text": "The movements by State action for emancipation in several of the States not included in the emancipation proclamation are matters of profound gratulation.",
+              "word_offset_start": 5906,
+              "word_offset_end": 5929,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p66_s02",
+              "sentence_ordinal": 2,
+              "text": "And while I do not repeat in detail what I have heretofore so earnestly urged upon this subject my general views and feelings remain unchanged and I trust that Congress will omit no fair opportunity of aiding these important steps to a great consummation.",
+              "word_offset_start": 5929,
+              "word_offset_end": 5973,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p67",
+          "paragraph_ordinal": 67,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p67_s01",
+              "sentence_ordinal": 1,
+              "text": "In the midst of other cares, however important we must not lose sight of the fact that the war power is still our main reliance.",
+              "word_offset_start": 5973,
+              "word_offset_end": 5998,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p67_s02",
+              "sentence_ordinal": 2,
+              "text": "To that power alone we look yet for a time to give confidence to the people in the contested regions that the insurgent power will not again overrun them.",
+              "word_offset_start": 5998,
+              "word_offset_end": 6027,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p67_s03",
+              "sentence_ordinal": 3,
+              "text": "Until that confidence shall be established little can be done anywhere what is called reconstruction.",
+              "word_offset_start": 6027,
+              "word_offset_end": 6042,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p67_s04",
+              "sentence_ordinal": 4,
+              "text": "Hence our chiefest care must still be directed to the Army and Navy who have thus far borne their harder part so nobly and well; and it may be esteemed fortunate that giving the greatest efficiency to these indispensable arms we do also honorably recognize the gallant men, from commander to sentinel, who compose them, and to whom more than to others the world must stand indebted for the home of freedom disenthralled, regenerated, enlarged, and perpetuated.",
+              "word_offset_start": 6042,
+              "word_offset_end": 6119,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p68",
+          "paragraph_ordinal": 68,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p68_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 6119,
+              "word_offset_end": 6121,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_039_s01_p69",
+          "paragraph_ordinal": 69,
+          "sentences": [
+            {
+              "sentence_id": "doc_039_s01_p69_s01",
+              "sentence_ordinal": 1,
+              "text": "MESSAGE TO CONGRESS.",
+              "word_offset_start": 6121,
+              "word_offset_end": 6124,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_039_s01_p69_s02",
+              "sentence_ordinal": 2,
+              "text": "WASHINGTON D. C., December 8, 1863.",
+              "word_offset_start": 6124,
+              "word_offset_end": 6130,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}
