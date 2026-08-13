@@ -52,6 +52,12 @@ Existing v1 artifacts are preserved as historical and methodological inputs:
 
 V4 additions should use separate versioned inventory, metadata, provenance, validation, and output paths until later issues define exact file contracts. A source upgrade or correction to a v1 document requires a documented migration, not an ad hoc replacement.
 
+## Write Protection and Promotion
+
+V4 corpus scripts write through a shared guard that rejects protected v1 and Stage 4 paths. The protected surface includes `corpus/raw/` outside explicit v4 raw subdirectories, legacy `corpus/segmented/` files, `corpus/annotated/`, `data/evidence/`, `data/audit/`, and `analysis/`. This keeps v1 source texts, sentence IDs, Stage 4A annotations, evidence chains, claim audits, and analysis outputs stable while the v4 corpus is being assembled.
+
+The allowed v4 output surface is deliberately narrow: `corpus/raw/v4-core/`, `corpus/raw/v4-validation/`, `corpus/raw/v4-reference/`, `corpus/normalized/v4-core/`, `corpus/normalized/v4-validation/`, `corpus/segmented/v4-core/`, `corpus/segmented/v4-validation/`, `data/corpus/`, `docs/corpus/`, and `corpus/provenance/`. Any future migration, source upgrade, or promotion from reference to validation/core must be a separate tracked issue. That issue must name the target tier, update the appropriate inventory and provenance records, add or confirm raw text in the v4 path, regenerate derived v4 artifacts, and run the validation gate before any publication language changes.
+
 ## Reader Path
 
 Read this rationale with:

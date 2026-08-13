@@ -3,6 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { assertCorpusV4WritePath, writeFile: guardedWriteFile } = require('./write-guard');
 const Ajv2020 = require('ajv/dist/2020');
 
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -67,6 +68,7 @@ function parseArgs(argv) {
 
 function assertAllowedOutput(outputPath) {
   const target = absolute(outputPath);
+  assertCorpusV4WritePath(target);
   if (!pathIsInside(ROOT, target)) {
     return;
   }
@@ -319,8 +321,7 @@ function writeOutput(outputPath, contents, options) {
     }
     return false;
   }
-  fs.mkdirSync(path.dirname(target), { recursive: true });
-  fs.writeFileSync(target, contents);
+  guardedWriteFile(target, contents);
   return existing !== contents;
 }
 

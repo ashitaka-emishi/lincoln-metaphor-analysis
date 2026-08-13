@@ -3,6 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { assertCorpusV4WritePath, writeFile: guardedWriteFile } = require('./write-guard');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const CREATED_DATE = '2026-08-13';
@@ -140,6 +141,7 @@ function parseArgs(argv) {
 
 function assertAllowedOutput(outputPath) {
   const target = absolute(outputPath);
+  assertCorpusV4WritePath(target);
   if (!pathIsInside(ROOT, target)) {
     return;
   }
@@ -453,8 +455,7 @@ function writeOutput(outputPath, contents, options) {
     }
     return false;
   }
-  fs.mkdirSync(path.dirname(target), { recursive: true });
-  fs.writeFileSync(target, contents);
+  guardedWriteFile(target, contents);
   return existing !== contents;
 }
 

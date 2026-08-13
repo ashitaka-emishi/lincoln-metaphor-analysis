@@ -4,6 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 const Ajv2020 = require('ajv/dist/2020');
+const { writeFile: guardedWriteFile } = require('./write-guard');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const CREATED_DATE = '2026-08-13';
@@ -252,8 +253,7 @@ function writeReport(reportPath, contents, options) {
     }
     return false;
   }
-  fs.mkdirSync(path.dirname(absoluteReport), { recursive: true });
-  fs.writeFileSync(absoluteReport, contents);
+  guardedWriteFile(absoluteReport, contents);
   return existing !== contents;
 }
 

@@ -3,6 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { assertCorpusV4WritePath, ensureDirectory, writeFile: guardedWriteFile } = require('./write-guard');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const CREATED_DATE = '2026-08-13';
@@ -82,30 +83,6 @@ function parseArgs(argv) {
   }
 
   return options;
-}
-
-function pathIsInside(parent, child) {
-  const relative = path.relative(parent, child);
-  return relative === '' || (!relative.startsWith('..') && !path.isAbsolute(relative));
-}
-
-function assertSafeOutput(outputPath) {
-  const target = absolute(outputPath);
-  if (!pathIsInside(ROOT, target)) {
-    return;
-  }
-
-  const relative = path.relative(ROOT, target);
-  const allowed = relative === DEFAULT_PATHS.manifest
-    || relative.startsWith(`${DEFAULT_PATHS.coreNormalized}/`)
-    || relative.startsWith(`${DEFAULT_PATHS.validationNormalized}/`);
-
-  if (!allowed) {
-    throw new Error(`Refusing to write undeclared v4 ingestion output path: ${relative}`);
-  }
-  if (relative.startsWith('corpus/raw/') || relative.startsWith('corpus/text/')) {
-    throw new Error(`Refusing to modify preserved source text path: ${relative}`);
-  }
 }
 
 function listRawFiles(directory) {
@@ -376,8 +353,8 @@ function buildManifest(options) {
 }
 
 function writeFile(outputPath, contents, options) {
-  assertSafeOutput(outputPath);
   const target = absolute(outputPath);
+  assertCorpusV4WritePath(target);
   const existing = fs.existsSync(target) ? fs.readFileSync(target, 'utf8') : null;
   if (options.check) {
     if (existing !== contents) {
@@ -385,15 +362,13 @@ function writeFile(outputPath, contents, options) {
     }
     return false;
   }
-  fs.mkdirSync(path.dirname(target), { recursive: true });
-  fs.writeFileSync(target, contents);
+  guardedWriteFile(target, contents);
   return existing !== contents;
 }
 
 function ensureDir(dirPath, options) {
-  assertSafeOutput(path.join(dirPath, '.gitkeep'));
   if (!options.check) {
-    fs.mkdirSync(absolute(dirPath), { recursive: true });
+    ensureDirectory(absolute(dirPath));
   }
 }
 
@@ -404,7 +379,8 @@ function writeOutputs(manifest, outputs, options) {
   for (const output of outputs) {
     changed = writeFile(output.path, output.contents, options) || changed;
   }
-  if (outputs.filter(output => pathIsInside(absolute(options.paths.validationNormalized), absolute(output.path))).length === 0) {
+  if (outputs.filter(output => path.relative(absolute(options.paths.validationNormalized), absolute(output.path)) === ''
+      || !path.relative(absolute(options.paths.validationNormalized), absolute(output.path)).startsWith('..')).length === 0) {
     changed = writeFile(path.join(options.paths.validationNormalized, '.gitkeep'), '', options) || changed;
   }
   changed = writeFile(options.paths.manifest, stableJSON(manifest), options) || changed;

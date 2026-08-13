@@ -14,6 +14,28 @@ ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "corpus" / "raw" / "v4-core"
 USER_AGENT = "Mozilla/5.0"
 
+ALLOWED_OUTPUT_DIRS = [
+    ROOT / "corpus" / "raw" / "v4-core",
+    ROOT / "corpus" / "raw" / "v4-validation",
+    ROOT / "corpus" / "raw" / "v4-reference",
+    ROOT / "corpus" / "normalized" / "v4-core",
+    ROOT / "corpus" / "normalized" / "v4-validation",
+    ROOT / "corpus" / "segmented" / "v4-core",
+    ROOT / "corpus" / "segmented" / "v4-validation",
+    ROOT / "data" / "corpus",
+    ROOT / "docs" / "corpus",
+    ROOT / "corpus" / "provenance",
+]
+
+PROTECTED_DIRS = [
+    ROOT / "corpus" / "raw",
+    ROOT / "corpus" / "segmented",
+    ROOT / "corpus" / "annotated",
+    ROOT / "data" / "evidence",
+    ROOT / "data" / "audit",
+    ROOT / "analysis",
+]
+
 GUTENBERG_URL = "https://www.gutenberg.org/cache/epub/3253/pg3253.txt"
 
 
@@ -187,6 +209,34 @@ def fetch(url: str) -> str:
         return response.read().decode("utf-8", errors="replace")
 
 
+def path_within(candidate: Path, root: Path) -> bool:
+    return candidate == root or root in candidate.parents
+
+
+def canonical_path(path_value: Path) -> Path:
+    resolved = path_value.resolve(strict=False)
+    ancestor = resolved
+    while not ancestor.exists() and ancestor.parent != ancestor:
+        ancestor = ancestor.parent
+    if not ancestor.exists():
+        return resolved
+    return ancestor.resolve() / resolved.relative_to(ancestor)
+
+
+def assert_v4_write_path(path_value: Path) -> Path:
+    target = canonical_path(path_value)
+    project_root = ROOT.resolve()
+    if not path_within(target, project_root):
+        return target
+    allowed_dirs = [canonical_path(directory) for directory in ALLOWED_OUTPUT_DIRS]
+    if any(path_within(target, directory) for directory in allowed_dirs):
+        return target
+    protected_dirs = [canonical_path(directory) for directory in PROTECTED_DIRS]
+    if any(path_within(target, directory) for directory in protected_dirs):
+        raise ValueError(f"Refusing v4 corpus write to protected v1/Stage 4 path: {path_value}")
+    raise ValueError(f"Refusing v4 corpus write outside allowlisted output paths: {path_value}")
+
+
 def strip_html(value: str) -> str:
     value = re.sub(r"<script\b.*?</script>", "", value, flags=re.I | re.S)
     value = re.sub(r"<style\b.*?</style>", "", value, flags=re.I | re.S)
@@ -276,11 +326,13 @@ def output_path(document: dict[str, str]) -> Path:
 
 
 def main() -> None:
+    assert_v4_write_path(OUTPUT_DIR / ".gitkeep")
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     gutenberg = fetch(GUTENBERG_URL)
     expected = {output_path(document) for document in DOCUMENTS}
     for stale_path in OUTPUT_DIR.glob("doc_*.txt"):
         if stale_path not in expected:
+            assert_v4_write_path(stale_path)
             stale_path.unlink()
 
     for document in DOCUMENTS:
@@ -292,7 +344,9 @@ def main() -> None:
             text = extract_pal(document["url"])
         else:
             raise ValueError(f"Unknown source {document['source']}")
-        output_path(document).write_text(text, encoding="utf-8")
+        target = output_path(document)
+        assert_v4_write_path(target)
+        target.write_text(text, encoding="utf-8")
 
 
 if __name__ == "__main__":
