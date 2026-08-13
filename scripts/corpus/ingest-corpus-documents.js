@@ -45,10 +45,15 @@ function readJSON(inputPath) {
   return JSON.parse(fs.readFileSync(absolute(inputPath), 'utf8'));
 }
 
+function envFlag(name) {
+  return ['1', 'true', 'yes'].includes(String(process.env[name] || '').toLowerCase());
+}
+
 function parseArgs(argv) {
   const options = {
     check: false,
     json: false,
+    releaseMode: envFlag('CORPUS_V4_RELEASE_MODE') || envFlag('V4_RELEASE_MODE'),
     stripBoilerplate: true,
     paths: { ...DEFAULT_PATHS }
   };
@@ -59,6 +64,8 @@ function parseArgs(argv) {
       options.check = true;
     } else if (arg === '--json') {
       options.json = true;
+    } else if (arg === '--release') {
+      options.releaseMode = true;
     } else if (arg === '--no-strip-boilerplate') {
       options.stripBoilerplate = false;
     } else if (arg.startsWith('--')) {
@@ -240,11 +247,24 @@ function buildTierRecords({ tier, expectedRecords, rawFiles, normalizedDir, opti
   for (const record of expectedRecords) {
     const rawFile = rawMap.get(record.doc_id);
     if (!rawFile) {
-      warnings.push(issue('warning', 'inventory_record_missing_raw_file', 'Inventory record does not yet have a raw v4 source file', {
-        tier,
-        doc_id: record.doc_id,
-        title: record.title
-      }));
+      const missingRawIssue = issue(
+        options.releaseMode ? 'error' : 'warning',
+        'inventory_record_missing_raw_file',
+        options.releaseMode
+          ? 'Inventory record is missing a required raw v4 source file in release mode'
+          : 'Inventory record does not yet have a raw v4 source file',
+        {
+          tier,
+          doc_id: record.doc_id,
+          title: record.title,
+          release_mode: options.releaseMode
+        }
+      );
+      if (options.releaseMode) {
+        errors.push(missingRawIssue);
+      } else {
+        warnings.push(missingRawIssue);
+      }
       records.push({
         doc_id: record.doc_id,
         tier,
@@ -331,6 +351,7 @@ function buildManifest(options) {
       manifest: displayPath(options.paths.manifest)
     },
     options: {
+      release_mode: options.releaseMode,
       strip_boilerplate: options.stripBoilerplate,
       preserve_paragraph_breaks: true,
       normalize_line_endings: true

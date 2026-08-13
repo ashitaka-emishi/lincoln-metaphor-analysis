@@ -15,6 +15,7 @@
     "manifest": "data/corpus/corpus-v4-ingestion-manifest.json"
   },
   "options": {
+    "release_mode": false,
     "strip_boilerplate": true,
     "preserve_paragraph_breaks": true,
     "normalize_line_endings": true
@@ -700,7 +701,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_043",
-        "title": "First Lincoln-Douglas Debate, Ottawa, Illinois, Douglas-Lincoln Context"
+        "title": "First Lincoln-Douglas Debate, Ottawa, Illinois, Douglas-Lincoln Context",
+        "release_mode": false
       }
     },
     {
@@ -710,7 +712,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_044",
-        "title": "Second Lincoln-Douglas Debate, Freeport, Illinois, Douglas-Lincoln Context"
+        "title": "Second Lincoln-Douglas Debate, Freeport, Illinois, Douglas-Lincoln Context",
+        "release_mode": false
       }
     },
     {
@@ -720,7 +723,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_045",
-        "title": "Sixth Lincoln-Douglas Debate, Quincy, Illinois, Context Expansion"
+        "title": "Sixth Lincoln-Douglas Debate, Quincy, Illinois, Context Expansion",
+        "release_mode": false
       }
     },
     {
@@ -730,7 +734,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_046",
-        "title": "Message to Congress Recommending Compensated Emancipation"
+        "title": "Message to Congress Recommending Compensated Emancipation",
+        "release_mode": false
       }
     },
     {
@@ -740,7 +745,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_047",
-        "title": "Message to Congress in Special Session"
+        "title": "Message to Congress in Special Session",
+        "release_mode": false
       }
     },
     {
@@ -750,7 +756,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_048",
-        "title": "Proclamation Calling Militia and Convening Congress"
+        "title": "Proclamation Calling Militia and Convening Congress",
+        "release_mode": false
       }
     },
     {
@@ -760,7 +767,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_049",
-        "title": "Proclamation Suspending the Writ of Habeas Corpus"
+        "title": "Proclamation Suspending the Writ of Habeas Corpus",
+        "release_mode": false
       }
     },
     {
@@ -770,7 +778,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_050",
-        "title": "Thanksgiving Proclamation"
+        "title": "Thanksgiving Proclamation",
+        "release_mode": false
       }
     },
     {
@@ -780,7 +789,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_051",
-        "title": "Proclamation Appointing a National Fast Day"
+        "title": "Proclamation Appointing a National Fast Day",
+        "release_mode": false
       }
     },
     {
@@ -790,7 +800,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_052",
-        "title": "Letter to General George B. McClellan"
+        "title": "Letter to General George B. McClellan",
+        "release_mode": false
       }
     },
     {
@@ -800,7 +811,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_053",
-        "title": "Letter to General Joseph Hooker"
+        "title": "Letter to General Joseph Hooker",
+        "release_mode": false
       }
     },
     {
@@ -810,7 +822,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_054",
-        "title": "Letter to Ulysses S. Grant"
+        "title": "Letter to Ulysses S. Grant",
+        "release_mode": false
       }
     },
     {
@@ -820,7 +833,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_055",
-        "title": "Letter to James A. McDougall"
+        "title": "Letter to James A. McDougall",
+        "release_mode": false
       }
     },
     {
@@ -830,7 +844,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_056",
-        "title": "Letter to James C. Conkling, Alternate Newspaper Context"
+        "title": "Letter to James C. Conkling, Alternate Newspaper Context",
+        "release_mode": false
       }
     },
     {
@@ -840,7 +855,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_057",
-        "title": "Letter to Owen Lovejoy"
+        "title": "Letter to Owen Lovejoy",
+        "release_mode": false
       }
     },
     {
@@ -850,7 +866,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_058",
-        "title": "Letter to A. G. Hodges, Draft and Circulation Context"
+        "title": "Letter to A. G. Hodges, Draft and Circulation Context",
+        "release_mode": false
       }
     },
     {
@@ -860,7 +877,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_059",
-        "title": "Letter to Mary Speed"
+        "title": "Letter to Mary Speed",
+        "release_mode": false
       }
     },
     {
@@ -870,7 +888,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_060",
-        "title": "Letter to Mary Owens"
+        "title": "Letter to Mary Owens",
+        "release_mode": false
       }
     },
     {
@@ -880,7 +899,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_061",
-        "title": "Letter to Orville H. Browning"
+        "title": "Letter to Orville H. Browning",
+        "release_mode": false
       }
     },
     {
@@ -890,7 +910,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_062",
-        "title": "Letter to Greeley, Draft and Publication Context"
+        "title": "Letter to Greeley, Draft and Publication Context",
+        "release_mode": false
       }
     },
     {
@@ -900,7 +921,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_063",
-        "title": "Letter to Mrs. Eliza P. Gurney"
+        "title": "Letter to Mrs. Eliza P. Gurney",
+        "release_mode": false
       }
     },
     {
@@ -910,7 +932,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_064",
-        "title": "Letter to Mrs. Lydia Bixby, Authorship Review Context"
+        "title": "Letter to Mrs. Lydia Bixby, Authorship Review Context",
+        "release_mode": false
       }
     },
     {
@@ -920,7 +943,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_065",
-        "title": "Letter to King of Siam"
+        "title": "Letter to King of Siam",
+        "release_mode": false
       }
     },
     {
@@ -930,7 +954,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_066",
-        "title": "Letter to General David Hunter"
+        "title": "Letter to General David Hunter",
+        "release_mode": false
       }
     },
     {
@@ -940,7 +965,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_067",
-        "title": "Letter to Michael Hahn"
+        "title": "Letter to Michael Hahn",
+        "release_mode": false
       }
     },
     {
@@ -950,7 +976,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_068",
-        "title": "Address to the 166th Ohio Regiment"
+        "title": "Address to the 166th Ohio Regiment",
+        "release_mode": false
       }
     },
     {
@@ -960,7 +987,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_069",
-        "title": "Reply to Committee from the Presbyterian General Assembly"
+        "title": "Reply to Committee from the Presbyterian General Assembly",
+        "release_mode": false
       }
     },
     {
@@ -970,7 +998,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_070",
-        "title": "Proclamation Concerning Commercial Intercourse"
+        "title": "Proclamation Concerning Commercial Intercourse",
+        "release_mode": false
       }
     },
     {
@@ -980,7 +1009,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_071",
-        "title": "Letter to General Nathaniel P. Banks"
+        "title": "Letter to General Nathaniel P. Banks",
+        "release_mode": false
       }
     },
     {
@@ -990,7 +1020,8 @@
       "context": {
         "tier": "v4-validation",
         "doc_id": "doc_072",
-        "title": "Last Written Statement"
+        "title": "Last Written Statement",
+        "release_mode": false
       }
     }
   ]

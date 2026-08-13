@@ -188,3 +188,58 @@ test('v4 ingestion reports raw files missing inventory metadata as errors', () =
   assert.equal(output.status, 'fail');
   assert.ok(output.errors.some(error => error.code === 'raw_missing_inventory_record'));
 });
+
+test('v4 ingestion treats missing raw documents as release-mode errors', () => {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'lincoln-v4-ingest-'));
+  const paths = {
+    coreRaw: path.join(tmp, 'raw-core'),
+    validationRaw: path.join(tmp, 'raw-validation'),
+    coreInventory: path.join(tmp, 'core.json'),
+    validationInventory: path.join(tmp, 'validation.json'),
+    coreNormalized: path.join(tmp, 'normalized-core'),
+    validationNormalized: path.join(tmp, 'normalized-validation'),
+    manifest: path.join(tmp, 'manifest.json')
+  };
+  writeJSON(paths.coreInventory, inventory([
+    document({
+      doc_id: 'doc_901',
+      corpus_tier: 'v4-core',
+      included_in_v4_core: true
+    })
+  ]));
+  writeJSON(paths.validationInventory, inventory([]));
+
+  const earlyResult = runScript([
+    '--coreRaw', paths.coreRaw,
+    '--validationRaw', paths.validationRaw,
+    '--coreInventory', paths.coreInventory,
+    '--validationInventory', paths.validationInventory,
+    '--coreNormalized', paths.coreNormalized,
+    '--validationNormalized', paths.validationNormalized,
+    '--manifest', paths.manifest,
+    '--json'
+  ]);
+  assert.equal(earlyResult.status, 0, earlyResult.stderr || earlyResult.stdout);
+  const earlyOutput = JSON.parse(earlyResult.stdout);
+  assert.equal(earlyOutput.status, 'pass');
+  assert.ok(earlyOutput.warnings.some(warning => warning.code === 'inventory_record_missing_raw_file'));
+
+  const releaseResult = runScript([
+    '--coreRaw', paths.coreRaw,
+    '--validationRaw', paths.validationRaw,
+    '--coreInventory', paths.coreInventory,
+    '--validationInventory', paths.validationInventory,
+    '--coreNormalized', paths.coreNormalized,
+    '--validationNormalized', paths.validationNormalized,
+    '--manifest', paths.manifest,
+    '--json',
+    '--release'
+  ]);
+  assert.notEqual(releaseResult.status, 0);
+  const releaseOutput = JSON.parse(releaseResult.stdout);
+  assert.equal(releaseOutput.status, 'fail');
+  assert.ok(releaseOutput.errors.some(error => (
+    error.code === 'inventory_record_missing_raw_file'
+    && error.context.release_mode === true
+  )));
+});
