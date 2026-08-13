@@ -1,0 +1,138 @@
+{
+  "document_id": "doc_042",
+  "meta": {
+    "id": "doc_042",
+    "title": "Response to a Serenade by the Ohio Delegation",
+    "short_title": "Ohio Delegation Serenade Response",
+    "date": "1864-06-09",
+    "date_precision": "exact",
+    "register": "speech",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 7, Response to a Serenade by the Ohio Delegation, June 9, 1864.",
+    "source_url": null,
+    "risk_flags": [],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_042_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_042_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_042_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "REPLY TO A DELEGATION FROM OHIO,",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_042_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_042_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "JUNE 9, 1864.",
+              "word_offset_start": 6,
+              "word_offset_end": 9,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_042_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_042_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "GENTLEMEN:--I am very much obliged to you for this compliment.",
+              "word_offset_start": 9,
+              "word_offset_end": 19,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_042_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "I have just been saying, and will repeat it, that the hardest of all speeches I have to answer is a serenade.",
+              "word_offset_start": 19,
+              "word_offset_end": 41,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_042_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "I never know what to say on these occasions.",
+              "word_offset_start": 41,
+              "word_offset_end": 50,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_042_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "I suppose that you have done me this kindness in connection with the action of the Baltimore convention, which has recently taken place, and with which, of course, I am very well satisfied.",
+              "word_offset_start": 50,
+              "word_offset_end": 83,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_042_s01_p03_s05",
+              "sentence_ordinal": 5,
+              "text": "What we want still more than Baltimore conventions, or Presidential elections, is success under General Grant.",
+              "word_offset_start": 83,
+              "word_offset_end": 99,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_042_s01_p03_s06",
+              "sentence_ordinal": 6,
+              "text": "I propose that you constantly bear in mind that the support you owe to the brave officers and soldiers in the field is of the very first importance, and we should therefore bend all our energies to that point.",
+              "word_offset_start": 99,
+              "word_offset_end": 138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_042_s01_p03_s07",
+              "sentence_ordinal": 7,
+              "text": "Now without detaining you any longer, I propose that you help me to close up what I am now saying with three rousing cheers for General Grant and the officers and soldiers under his command.",
+              "word_offset_start": 138,
+              "word_offset_end": 173,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

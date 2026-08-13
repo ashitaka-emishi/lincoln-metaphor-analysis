@@ -1,0 +1,1653 @@
+{
+  "document_id": "doc_002",
+  "meta": {
+    "id": "doc_002",
+    "title": "Temperance Address",
+    "short_title": "Temperance Address",
+    "date": "1842-02-22",
+    "date_precision": "exact",
+    "register": "formal_public_address",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.1 pp.271-279",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln1/1:235",
+    "risk_flags": [],
+    "analytical_priority": "medium",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "doc_002_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_002_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Springfield, Illinois",
+              "word_offset_start": 0,
+              "word_offset_end": 2,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "February 22, 1842",
+              "word_offset_start": 2,
+              "word_offset_end": 5,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Although the Temperance cause has been in progress for near twenty years, it is apparent to all, that it is, just now, being crowned with a degree of success, hitherto unparalleled.",
+              "word_offset_start": 5,
+              "word_offset_end": 36,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "The list of its friends is daily swelled by the additions of fifties, of hundreds, and of thousands.",
+              "word_offset_start": 36,
+              "word_offset_end": 54,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "The cause itself seems suddenly transformed from a cold abstract theory, to a living, breathing, active, and powerful chieftain, going forth \"conquering and to conquer.\" The citadels of his great adversary are daily being stormed and dismantled; his temple and his altars, where the rites of his idolatrous worship have long been performed, and where human sacrifices have long been wont to be made, are daily desecrated and deserted.",
+              "word_offset_start": 54,
+              "word_offset_end": 123,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "The trump of the conqueror's fame is sounding from hill to hill, from sea to sea, and from land to land, and calling millions to his standard at a blast.",
+              "word_offset_start": 123,
+              "word_offset_end": 153,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "For this new and splendid success, we heartily rejoice.",
+              "word_offset_start": 153,
+              "word_offset_end": 162,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "That that success is so much greater now than heretofore, is doubtless owing to rational causes; and if we would have it continue, we shall do well to inquire what those causes are.",
+              "word_offset_start": 162,
+              "word_offset_end": 195,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "The warfare heretofore waged against the demon Intemperance, has, somehow or other, been erroneous.",
+              "word_offset_start": 195,
+              "word_offset_end": 209,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Either the champions engaged, or the tactics they adopted have not been the most proper.",
+              "word_offset_start": 209,
+              "word_offset_end": 224,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "These champions for the most part have been Preachers, Lawyers, and hired agents.",
+              "word_offset_start": 224,
+              "word_offset_end": 237,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p05_s06",
+              "sentence_ordinal": 6,
+              "text": "Between these and the mass of mankind, there is a want of approachability, if the term be admissible, partially, at least, fatal to their success.",
+              "word_offset_start": 237,
+              "word_offset_end": 262,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p05_s07",
+              "sentence_ordinal": 7,
+              "text": "They are supposed to have no sympathy of feeling or interest, with those very persons whom it is their object to convince and persuade.",
+              "word_offset_start": 262,
+              "word_offset_end": 286,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "And again, it is so common and so easy to ascribe motives to men of these classes, other than those they profess to act upon.",
+              "word_offset_start": 286,
+              "word_offset_end": 311,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "The preacher, it is said, advocates temperance because he is a fanatic, and desires a union of the Church and State; the lawyer, from his pride and vanity of hearing himself speak; and the hired agent, for his salary.",
+              "word_offset_start": 311,
+              "word_offset_end": 350,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "But when one, who has long been known as a victim of intemperance bursts the fetters that have bound him, and appears before his neighbors \"clothed, and in his right mind,\" a redeemed specimen of long-lost humanity, and stands up with tears of joy trembling in his eyes, to tell of the miseries once endured, now to be endured no more forever; of his once naked and starving children, now clad and fed comfortably; of a wife long weighed down with woe, weeping, and a broken heart, now restored to health, happiness, and a renewed affection; and how easily it is all done, once it is resolved to be done; how simple his language, there is a logic, and an eloquence in it, that few, with human feelings, can resist.",
+              "word_offset_start": 350,
+              "word_offset_end": 480,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "They cannot say that he desires a union of church and state, for he is not a church member; they cannot say he is vain of hearing himself speak, for his whole demeanor shows he would gladly avoid speaking at all; they cannot say he speaks for pay for he receives none, and asks for none.",
+              "word_offset_start": 480,
+              "word_offset_end": 536,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "Nor can his sincerity in any way be doubted; or his sympathy for those he would persuade to imitate his example be denied.",
+              "word_offset_start": 536,
+              "word_offset_end": 559,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "In my judgment, it is to the battles of this new class of champions that our late success is greatly, perhaps chiefly, owing.",
+              "word_offset_start": 559,
+              "word_offset_end": 582,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "But, had the old school champions themselves, been of the most wise selecting, was their system of tactics, the most judicious?",
+              "word_offset_start": 582,
+              "word_offset_end": 603,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "It seems to me, it was not.",
+              "word_offset_start": 603,
+              "word_offset_end": 610,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "Too much denunciation against dram sellers and dram drinkers was indulged in.",
+              "word_offset_start": 610,
+              "word_offset_end": 622,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p07_s05",
+              "sentence_ordinal": 5,
+              "text": "This, I think, was both impolitic and unjust.",
+              "word_offset_start": 622,
+              "word_offset_end": 630,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p07_s06",
+              "sentence_ordinal": 6,
+              "text": "It was impolitic, because, it is not much in the nature of man to be driven to anything; still less to be driven about that which is exclusively his own business; and least of all, where such driving is to be submitted to, at the expense of pecuniary interest, or burning appetite.",
+              "word_offset_start": 630,
+              "word_offset_end": 682,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p07_s07",
+              "sentence_ordinal": 7,
+              "text": "When the dram-seller and drinker, were incessantly told, not in accents of entreaty and persuasion, diffidently addressed by erring man to an erring brother; but in the thundering tones of anathema and denunciation, with which the lordly Judge often groups together all the crimes of the felon's life, and thrusts them in his face just ere he passes sentence of death upon him, that they were the authors of all the vice and misery and crime in the land; that they were the manufacturers and material of all the thieves and robbers and murderers that infested the earth; that their houses were the workshops of the devil; and that their persons should be shunned by all the good and virtuous, as moral pestilences -- I say, when they were told all this, and in this way, it is not wonderful that they were slow, very slow, to acknowledge the truth of such denunciations, and to join the ranks of their denouncers in a hue and cry against themselves.",
+              "word_offset_start": 682,
+              "word_offset_end": 850,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "To have expected them to do otherwise than they did -- to have expected them not to meet denunciation with denunciation, crimination with crimination, and anathema with anathema, was to expect a reversal of human nature, which is God's decree, and never can be reversed.",
+              "word_offset_start": 850,
+              "word_offset_end": 895,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "When the conduct of men is designed to be influenced, persuasion, kind, unassuming persuasion, should ever be adopted.",
+              "word_offset_start": 895,
+              "word_offset_end": 913,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "It is an old and a true maxim, that a \"drop of honey catches more flies than a gallon of gall.\" So with men.",
+              "word_offset_start": 913,
+              "word_offset_end": 937,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "If you would win a man to your cause, first convince him that you are his sincere friend.",
+              "word_offset_start": 937,
+              "word_offset_end": 955,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "Therein is a drop of honey that catches his heart, which, say what he will, is the great highroad to his reason, and which, when once gained, you will find but little trouble in convincing his judgment of the justice of your cause, if indeed that cause really be a just one.",
+              "word_offset_start": 955,
+              "word_offset_end": 1007,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "On the contrary, assume to dictate to his judgment, or to command his action, or to mark him as one to be shunned and despised, and he will retreat within himself, close all the avenues to his head and his heart; and though your cause be naked truth itself, transformed to the heaviest lance, harder than steel, and sharper than steel can be made, and though you throw it with more than Herculean force and precision, you shall be no more be able to pierce him, than to penetrate the hard shell of a tortoise with a rye straw.",
+              "word_offset_start": 1007,
+              "word_offset_end": 1106,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Such is man, and so must he be understood by those who would lead him, even to his own best interest.",
+              "word_offset_start": 1106,
+              "word_offset_end": 1127,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "On this point, the Washingtonians greatly excel the temperance advocates of former times.",
+              "word_offset_start": 1127,
+              "word_offset_end": 1140,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "Those whom they desire to convince and persuade, are their old friends and companions.",
+              "word_offset_start": 1140,
+              "word_offset_end": 1154,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "They know they are not demons, nor even the worst of men.",
+              "word_offset_start": 1154,
+              "word_offset_end": 1166,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p10_s04",
+              "sentence_ordinal": 4,
+              "text": "They know that generally, they are kind, generous, and charitable, even beyond the example of their more staid and sober neighbors.",
+              "word_offset_start": 1166,
+              "word_offset_end": 1187,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p10_s05",
+              "sentence_ordinal": 5,
+              "text": "They are practical philanthropists; and they glow with a generous and brotherly zeal, that mere theorizers are incapable of feeling.",
+              "word_offset_start": 1187,
+              "word_offset_end": 1207,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p10_s06",
+              "sentence_ordinal": 6,
+              "text": "Benevolence and charity possess their hearts entirely; and out of the abundance of their hearts, their tongues give utterance. \"Love through all their actions runs, and all their words are mild.\" In this spirit they speak and act, and in the same, they are heard and regarded.",
+              "word_offset_start": 1207,
+              "word_offset_end": 1254,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p10_s07",
+              "sentence_ordinal": 7,
+              "text": "And when such is the temper of the advocate, and such of the audience, no good cause can be unsuccessful.",
+              "word_offset_start": 1254,
+              "word_offset_end": 1274,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "But I have said that denunciations against dram-sellers and dram-drinkers are unjust as well as impolitic.",
+              "word_offset_start": 1274,
+              "word_offset_end": 1290,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "Let us see.",
+              "word_offset_start": 1290,
+              "word_offset_end": 1293,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "I have not enquired at what period of time the use of intoxicating drinks commenced; nor is it important to know.",
+              "word_offset_start": 1293,
+              "word_offset_end": 1314,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "It is sufficient that to all of us who now inhabit the world, the practice of drinking them, is just as old as the world itself, -- that is, we have seen the one, just as long as we have seen the other.",
+              "word_offset_start": 1314,
+              "word_offset_end": 1357,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "When all such of us, as have now reached the years of maturity, first opened our eyes upon the stage of existence, we found intoxicating liquor, recognized by everybody, used by every body, and repudiated by nobody.",
+              "word_offset_start": 1357,
+              "word_offset_end": 1394,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p12_s04",
+              "sentence_ordinal": 4,
+              "text": "It commonly entered into the first draught of the infant, and the last draught of the dying man.",
+              "word_offset_start": 1394,
+              "word_offset_end": 1412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p12_s05",
+              "sentence_ordinal": 5,
+              "text": "From the sideboard of the parson, down to the ragged pocket of the houseless loafer, it was constantly found.",
+              "word_offset_start": 1412,
+              "word_offset_end": 1431,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p12_s06",
+              "sentence_ordinal": 6,
+              "text": "Physicians prescribed it in this, that, and the other disease.",
+              "word_offset_start": 1431,
+              "word_offset_end": 1441,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p12_s07",
+              "sentence_ordinal": 7,
+              "text": "Government provided it for soldiers and sailors; and to have a rolling or raising, a husking or hoe-down, any where about without it, was positively insufferable.",
+              "word_offset_start": 1441,
+              "word_offset_end": 1467,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "So too, it was every where a respectable article of manufacture and merchandise.",
+              "word_offset_start": 1467,
+              "word_offset_end": 1480,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "The making of it was regarded as an honorable livelihood; and he who could make most, was the most enterprising and respectable.",
+              "word_offset_start": 1480,
+              "word_offset_end": 1502,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p13_s03",
+              "sentence_ordinal": 3,
+              "text": "Large and small manufactories of it were every where erected, in which all the earthly goods of their owners were invested.",
+              "word_offset_start": 1502,
+              "word_offset_end": 1523,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p13_s04",
+              "sentence_ordinal": 4,
+              "text": "Wagons drew it from town to town -- boats bore it from clime to clime, and the winds wafted it from nation to nation; and merchants bought and sold it, by wholesale and retail, with precisely the same feelings, on the part of the seller, buyer, and bystander, as are felt at the selling and buying of flour, beef, bacon, or any other of the real necessaries of life.",
+              "word_offset_start": 1523,
+              "word_offset_end": 1592,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p13_s05",
+              "sentence_ordinal": 5,
+              "text": "Universal public opinion not only tolerated, but recognized and adopted its use.",
+              "word_offset_start": 1592,
+              "word_offset_end": 1604,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "It is true, that even then, it was known and acknowledged, that many were greatly injured by it; but none seemed to think the injury arose from the use of a bad thing, but from the abuse of a very good thing.",
+              "word_offset_start": 1604,
+              "word_offset_end": 1646,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "The victims of it were pitied, and compassionated, just as now are the heirs of consumptions, and other hereditary diseases.",
+              "word_offset_start": 1646,
+              "word_offset_end": 1666,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "Their failing was treated as a misfortune, and not as a crime, or even as a disgrace.",
+              "word_offset_start": 1666,
+              "word_offset_end": 1683,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "If, then, what I have been saying be true, is it wonderful, that some should think and act now as all thought and acted twenty years ago?",
+              "word_offset_start": 1683,
+              "word_offset_end": 1710,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "And is it just to assail, contemn, or despise them, for doing so?",
+              "word_offset_start": 1710,
+              "word_offset_end": 1723,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p15_s03",
+              "sentence_ordinal": 3,
+              "text": "The universal sense of mankind, on any subject, is an argument, or at least an influence not easily overcome.",
+              "word_offset_start": 1723,
+              "word_offset_end": 1742,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p15_s04",
+              "sentence_ordinal": 4,
+              "text": "The success of the argument in favor of the existence of an over-ruling Providence, mainly depends upon that sense; and men ought not, in justice, to be denounced for yielding to it, in any case, or giving it up slowly, especially, where they are backed by interest, fixed habits, or burning appetites.",
+              "word_offset_start": 1742,
+              "word_offset_end": 1794,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "Another error, as it seems to me, into which the old reformers fell, was, the position that all habitual drunkards were utterly incorrigible, and therefore, must be turned adrift, and damned without remedy, in order that the grace of temperance might abound to the temperate then, and to all mankind some hundred years thereafter.",
+              "word_offset_start": 1794,
+              "word_offset_end": 1848,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "There is in this something so repugnant to humanity, so uncharitable, so cold-blooded and feelingless, that it never did, nor ever can enlist the enthusiasm of a popular cause.",
+              "word_offset_start": 1848,
+              "word_offset_end": 1877,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "We could not love the man who taught it -- we could not hear him with patience.",
+              "word_offset_start": 1877,
+              "word_offset_end": 1894,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p16_s04",
+              "sentence_ordinal": 4,
+              "text": "The heart could not throw open its portals to it.",
+              "word_offset_start": 1894,
+              "word_offset_end": 1904,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p16_s05",
+              "sentence_ordinal": 5,
+              "text": "The generous man could not adopt it.",
+              "word_offset_start": 1904,
+              "word_offset_end": 1911,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p16_s06",
+              "sentence_ordinal": 6,
+              "text": "It could not mix with his blood.",
+              "word_offset_start": 1911,
+              "word_offset_end": 1918,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p16_s07",
+              "sentence_ordinal": 7,
+              "text": "It looked so fiendishly selfish, so like throwing fathers and brothers overboard, to lighten the boat for our security -- that the noble minded shrank from the manifest meanness of the thing.",
+              "word_offset_start": 1918,
+              "word_offset_end": 1950,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "And besides this, the benefits of a reformation to be effected by such a system, were too remote in point of time, to warmly engage many in its behalf.",
+              "word_offset_start": 1950,
+              "word_offset_end": 1979,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p17_s02",
+              "sentence_ordinal": 2,
+              "text": "Few can be induced to labor exclusively for posterity; and none will do it enthusiastically.",
+              "word_offset_start": 1979,
+              "word_offset_end": 1994,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p17_s03",
+              "sentence_ordinal": 3,
+              "text": "Posterity has done nothing for us; and theorize on it as we may, practically we shall do very little for it, unless we are made to think, we are, at the same time, doing something for ourselves.",
+              "word_offset_start": 1994,
+              "word_offset_end": 2031,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p17_s04",
+              "sentence_ordinal": 4,
+              "text": "What an ignorance of human nature does it exhibit, to ask or expect a whole community to rise up and labor for the temporal happiness of others after themselves shall be consigned to the dust, a majority of which community take no pains whatever to secure their own eternal welfare, at a no greater distant day?",
+              "word_offset_start": 2031,
+              "word_offset_end": 2087,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p17_s05",
+              "sentence_ordinal": 5,
+              "text": "Great distance, in either time or space, has wonderful power to lull and render quiescent the human mind.",
+              "word_offset_start": 2087,
+              "word_offset_end": 2105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p17_s06",
+              "sentence_ordinal": 6,
+              "text": "Pleasures to be enjoyed, or pains to be endured, after we shall be dead and gone, are but little regarded, even in our own cases, and much less in the cases of others.",
+              "word_offset_start": 2105,
+              "word_offset_end": 2138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "Still, in addition to this, there is something so ludicrous in promises of good, or threats of evil, a great way off, as to render the whole subject with which they are connected, easily turned into ridicule. \"Better lay down that spade you are stealing, Paddy; --if you don't you'll pay for it at the day of judgment.\" \"Be the powers, if ye'll credit me so long, I'll take another, jist.\"",
+              "word_offset_start": 2138,
+              "word_offset_end": 2209,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "By the Washingtonians, this system of consigning the habitual drunkard to hopeless ruin, is repudiated.",
+              "word_offset_start": 2209,
+              "word_offset_end": 2224,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "They adopt a more enlarged philanthropy.",
+              "word_offset_start": 2224,
+              "word_offset_end": 2230,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "They go for present as well as future good.",
+              "word_offset_start": 2230,
+              "word_offset_end": 2239,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p19_s04",
+              "sentence_ordinal": 4,
+              "text": "They labor for all now living, as well as all hereafter to live.",
+              "word_offset_start": 2239,
+              "word_offset_end": 2252,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p19_s05",
+              "sentence_ordinal": 5,
+              "text": "They teach hope to all -- despair to none.",
+              "word_offset_start": 2252,
+              "word_offset_end": 2261,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p19_s06",
+              "sentence_ordinal": 6,
+              "text": "As applying to their cause, they deny the doctrine of unpardonable sin.",
+              "word_offset_start": 2261,
+              "word_offset_end": 2273,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p19_s07",
+              "sentence_ordinal": 7,
+              "text": "As in Christianity it is taught, so in this they teach, that",
+              "word_offset_start": 2273,
+              "word_offset_end": 2285,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "\"While the lamp holds out to burn,",
+              "word_offset_start": 2285,
+              "word_offset_end": 2292,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "The vilest sinner may return.\"",
+              "word_offset_start": 2292,
+              "word_offset_end": 2297,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "And, what is a matter of more profound gratulation, they, by experiment upon experiment, and example upon example, prove the maxim to be no less true in the one case than in the other.",
+              "word_offset_start": 2297,
+              "word_offset_end": 2331,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "On every hand we behold those, who but yesterday, were the chief of sinners, now the chief apostles of the cause.",
+              "word_offset_start": 2331,
+              "word_offset_end": 2352,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "Drunken devils are cast out by ones, by sevens, and by legions; and their unfortunate victims, like the poor possessed, who was redeemed from his long and lonely wanderings in the tombs, are publishing to the ends of the earth, how great things have been done for them.",
+              "word_offset_start": 2352,
+              "word_offset_end": 2400,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "To these new champions, and this new system of tactics, our late success is mainly owing; and to them we must mainly look for the final consummation.",
+              "word_offset_start": 2400,
+              "word_offset_end": 2427,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "The ball is now rolling gloriously on, and none are so able as they to increase its speed, and its bulk -- to add to its momentum, and its magnitude.",
+              "word_offset_start": 2427,
+              "word_offset_end": 2457,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p23_s03",
+              "sentence_ordinal": 3,
+              "text": "Even though unlearned in letters, for this task, none are so well educated.",
+              "word_offset_start": 2457,
+              "word_offset_end": 2470,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p23_s04",
+              "sentence_ordinal": 4,
+              "text": "To fit them for this work, they have been taught in the true school.",
+              "word_offset_start": 2470,
+              "word_offset_end": 2484,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p23_s05",
+              "sentence_ordinal": 5,
+              "text": "They have been in that gulf, from which they would teach others the means of escape.",
+              "word_offset_start": 2484,
+              "word_offset_end": 2500,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p23_s06",
+              "sentence_ordinal": 6,
+              "text": "They have passed that prison wall, which others have long declared impassable; and who that has not shall dare to weigh opinions with them, as to the mode of passing.",
+              "word_offset_start": 2500,
+              "word_offset_end": 2530,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "But if it be true, as I have insisted, that those who have suffered by intemperance personally, and have reformed, are the most powerful and efficient instruments to push the reformation to ultimate success, it does not follow, that those who have not suffered, have no part left them to perform.",
+              "word_offset_start": 2530,
+              "word_offset_end": 2581,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "Whether or not the world would be vastly benefitted by a total and final banishment from it of all intoxicating drinks, seems to me not now an open question.",
+              "word_offset_start": 2581,
+              "word_offset_end": 2610,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s03",
+              "sentence_ordinal": 3,
+              "text": "Three-fourths of mankind confess the affirmative with their tongues, and, I believe, all the rest acknowledge it in their hearts.",
+              "word_offset_start": 2610,
+              "word_offset_end": 2630,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s04",
+              "sentence_ordinal": 4,
+              "text": "Ought any, then, to refuse their aid in doing what the good of the whole demands?",
+              "word_offset_start": 2630,
+              "word_offset_end": 2646,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s05",
+              "sentence_ordinal": 5,
+              "text": "Shall he, who cannot do much, be, for that reason, excused if he do nothing? \"But,\" says one, \"what good can I do by signing the pledge?",
+              "word_offset_start": 2646,
+              "word_offset_end": 2673,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s06",
+              "sentence_ordinal": 6,
+              "text": "I never drink even without signing.\" This question has already been asked and answered more than millions of times.",
+              "word_offset_start": 2673,
+              "word_offset_end": 2692,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s07",
+              "sentence_ordinal": 7,
+              "text": "Let it be answered once more.",
+              "word_offset_start": 2692,
+              "word_offset_end": 2698,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s08",
+              "sentence_ordinal": 8,
+              "text": "For the man suddenly, or in any other way, to break off from the use of drams, who has indulged in them for a long course of years, and until his appetite for them has become ten or a hundred fold stronger, and more craving, than any natural appetite can be, requires a most powerful moral effort.",
+              "word_offset_start": 2698,
+              "word_offset_end": 2755,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s09",
+              "sentence_ordinal": 9,
+              "text": "In such an undertaking, he needs every moral support and influence, that can possibly be brought to his aid, and thrown around him.",
+              "word_offset_start": 2755,
+              "word_offset_end": 2778,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s10",
+              "sentence_ordinal": 10,
+              "text": "And not only so; but every moral prop, should be taken from whatever argument might rise in his mind to lure him to his backsliding.",
+              "word_offset_start": 2778,
+              "word_offset_end": 2803,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p24_s11",
+              "sentence_ordinal": 11,
+              "text": "When he casts his eyes around him, he should be able to see, all that he respects, all that he admires, and all that [he?] loves, kindly and anxiously pointing him onward; and none beckoning him back, to his former miserable \"wallowing in the mire.\"",
+              "word_offset_start": 2803,
+              "word_offset_end": 2848,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "But it is said by some, that men will think and act for themselves; that none will disuse spirits or anything else, merely because his neighbors do; and that moral influence is not that powerful engine contended for.",
+              "word_offset_start": 2848,
+              "word_offset_end": 2886,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "Let us examine this.",
+              "word_offset_start": 2886,
+              "word_offset_end": 2890,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s03",
+              "sentence_ordinal": 3,
+              "text": "Let me ask the man who could maintain this position most stiffly, what compensation he will accept to go to church some Sunday and sit during the sermon with his wife's bonnet upon his head?",
+              "word_offset_start": 2890,
+              "word_offset_end": 2925,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s04",
+              "sentence_ordinal": 4,
+              "text": "Not a trifle, I'll venture.",
+              "word_offset_start": 2925,
+              "word_offset_end": 2930,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s05",
+              "sentence_ordinal": 5,
+              "text": "And why not?",
+              "word_offset_start": 2930,
+              "word_offset_end": 2933,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s06",
+              "sentence_ordinal": 6,
+              "text": "There would be nothing irreligious in it: nothing immoral, nothing uncomfortable.",
+              "word_offset_start": 2933,
+              "word_offset_end": 2944,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s07",
+              "sentence_ordinal": 7,
+              "text": "Then why not?",
+              "word_offset_start": 2944,
+              "word_offset_end": 2947,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s08",
+              "sentence_ordinal": 8,
+              "text": "Is it not because there would be something egregiously unfashionable in it?",
+              "word_offset_start": 2947,
+              "word_offset_end": 2959,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s09",
+              "sentence_ordinal": 9,
+              "text": "Then it is the influence of fashion; and what is the influence of fashion, but the influence that other people's actions have [on our own?] actions, the strong inclination each of us feels to do as we see all our neighbors do?",
+              "word_offset_start": 2959,
+              "word_offset_end": 3001,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s10",
+              "sentence_ordinal": 10,
+              "text": "Nor is the influence of fashion confined to any particular thing or class of things.",
+              "word_offset_start": 3001,
+              "word_offset_end": 3016,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s11",
+              "sentence_ordinal": 11,
+              "text": "It is just as strong on one subject as another.",
+              "word_offset_start": 3016,
+              "word_offset_end": 3026,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p25_s12",
+              "sentence_ordinal": 12,
+              "text": "Let us make it as unfashionable to withhold our names from the temperance cause as for husbands to wear their wives bonnets to church, and instances will be just as rare in the one case as the other.",
+              "word_offset_start": 3026,
+              "word_offset_end": 3064,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "\"But,\" say some, \"we are no drunkards; and we shall not acknowledge ourselves such by joining a reformed drunkard's society, whatever our influence might be.\" Surely no Christian will adhere to this objection.",
+              "word_offset_start": 3064,
+              "word_offset_end": 3097,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "If they believe, as they profess, that Omnipotence condescended to take on himself the form of sinful man, and, as such, to die an ignominious death for their sakes, surely they will not refuse submission to the infinitely lesser condescension, for the temporal, and perhaps eternal salvation, of a large, erring, and unfortunate class of their own fellow creatures.",
+              "word_offset_start": 3097,
+              "word_offset_end": 3156,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p26_s03",
+              "sentence_ordinal": 3,
+              "text": "Nor is the condescension very great.",
+              "word_offset_start": 3156,
+              "word_offset_end": 3162,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "In my judgment, such of us as have never fallen victims, have been spared more by the absence of appetite, than from any mental or moral superiority over those who have.",
+              "word_offset_start": 3162,
+              "word_offset_end": 3193,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "Indeed, I believe, if we take habitual drunkards as a class, their heads and their hearts will bear an advantageous comparison with those of any other class.",
+              "word_offset_start": 3193,
+              "word_offset_end": 3220,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p27_s03",
+              "sentence_ordinal": 3,
+              "text": "There seems ever to have been a proneness in the brilliant, and warm-blooded to fall into this vice.",
+              "word_offset_start": 3220,
+              "word_offset_end": 3238,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p27_s04",
+              "sentence_ordinal": 4,
+              "text": "The demon of intemperance ever seems to have delighted in sucking the blood of genius and of generosity.",
+              "word_offset_start": 3238,
+              "word_offset_end": 3256,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p27_s05",
+              "sentence_ordinal": 5,
+              "text": "What one of us but can call to mind some dear relative, more promising in youth than all his fellows, who has fallen a sacrifice to his rapacity?",
+              "word_offset_start": 3256,
+              "word_offset_end": 3284,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p27_s06",
+              "sentence_ordinal": 6,
+              "text": "He ever seems to have gone forth, like the Egyptian angel of death, commissioned to slay if not the first, the fairest born of every family.",
+              "word_offset_start": 3284,
+              "word_offset_end": 3310,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p27_s07",
+              "sentence_ordinal": 7,
+              "text": "Shall he now be arrested in his desolating career?",
+              "word_offset_start": 3310,
+              "word_offset_end": 3319,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p27_s08",
+              "sentence_ordinal": 8,
+              "text": "In that arrest, all can give aid that will; and who shall be excused that can, and will not?",
+              "word_offset_start": 3319,
+              "word_offset_end": 3338,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p27_s09",
+              "sentence_ordinal": 9,
+              "text": "Far around as human breath has ever blown, he keeps our fathers, our brothers, our sons, and our friends, prostrate in the chains of moral death.",
+              "word_offset_start": 3338,
+              "word_offset_end": 3364,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p27_s10",
+              "sentence_ordinal": 10,
+              "text": "To all the living every where we cry, \"come sound the moral resurrection trump, that these may rise and stand up, an exceeding great army\" -- \"Come from the four winds, O breath! and breathe upon these slain, that they may live.\"",
+              "word_offset_start": 3364,
+              "word_offset_end": 3406,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "If the relative grandeur of revolutions shall be estimated by the great amount of human misery they alleviate, and the small amount they inflict, then, indeed, will this be the grandest the world shall ever have seen.",
+              "word_offset_start": 3406,
+              "word_offset_end": 3443,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "Of our political revolution of '76, we all are justly proud.",
+              "word_offset_start": 3443,
+              "word_offset_end": 3454,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p28_s03",
+              "sentence_ordinal": 3,
+              "text": "It has given us a degree of political freedom, far exceeding that of any other nation of the earth.",
+              "word_offset_start": 3454,
+              "word_offset_end": 3473,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p28_s04",
+              "sentence_ordinal": 4,
+              "text": "In it the world has found a solution of the long mooted problem, as to the capability of man to govern himself.",
+              "word_offset_start": 3473,
+              "word_offset_end": 3495,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p28_s05",
+              "sentence_ordinal": 5,
+              "text": "In it was the germ which has vegetated, and still is to grow and expand into the universal liberty of mankind.",
+              "word_offset_start": 3495,
+              "word_offset_end": 3516,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "But with all these glorious results, past, present, and to come, it had its evils too.",
+              "word_offset_start": 3516,
+              "word_offset_end": 3532,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "It breathed forth famine, swam in blood and rode in fire; and long, long after, the orphan's cry, and the widow's wail, continued to break the sad silence that ensued.",
+              "word_offset_start": 3532,
+              "word_offset_end": 3562,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p29_s03",
+              "sentence_ordinal": 3,
+              "text": "These were the price, the inevitable price, paid for the blessings it bought.",
+              "word_offset_start": 3562,
+              "word_offset_end": 3575,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "Turn now, to the temperance revolution.",
+              "word_offset_start": 3575,
+              "word_offset_end": 3581,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s02",
+              "sentence_ordinal": 2,
+              "text": "In it, we shall find a stronger bondage broken; a viler slavery, manumitted; a greater tyrant deposed.",
+              "word_offset_start": 3581,
+              "word_offset_end": 3598,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s03",
+              "sentence_ordinal": 3,
+              "text": "In it, more of want supplied, more disease healed, more sorrow assuaged.",
+              "word_offset_start": 3598,
+              "word_offset_end": 3610,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s04",
+              "sentence_ordinal": 4,
+              "text": "By it no orphans starving, no widows weeping.",
+              "word_offset_start": 3610,
+              "word_offset_end": 3618,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s05",
+              "sentence_ordinal": 5,
+              "text": "By it, none wounded in feeling, none injured in interest.",
+              "word_offset_start": 3618,
+              "word_offset_end": 3628,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s06",
+              "sentence_ordinal": 6,
+              "text": "Even the dram-maker, and dram seller, will have glided into other occupations so gradually, as never to have felt the change; and will stand ready to join all others in the universal song of gladness.",
+              "word_offset_start": 3628,
+              "word_offset_end": 3663,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s07",
+              "sentence_ordinal": 7,
+              "text": "And what a noble ally this, to the cause of political freedom.",
+              "word_offset_start": 3663,
+              "word_offset_end": 3675,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s08",
+              "sentence_ordinal": 8,
+              "text": "With such an aid, its march cannot fail to be on and on, till every son of earth shall drink in rich fruition, the sorrow quenching draughts of perfect liberty.",
+              "word_offset_start": 3675,
+              "word_offset_end": 3705,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s09",
+              "sentence_ordinal": 9,
+              "text": "Happy day, when, all appetites controlled, all poisons subdued, all matter subjected, mind, all conquering mind, shall live and move the monarch of the world.",
+              "word_offset_start": 3705,
+              "word_offset_end": 3730,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s10",
+              "sentence_ordinal": 10,
+              "text": "Glorious consummation!",
+              "word_offset_start": 3730,
+              "word_offset_end": 3732,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s11",
+              "sentence_ordinal": 11,
+              "text": "Hail fall of Fury!",
+              "word_offset_start": 3732,
+              "word_offset_end": 3736,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p30_s12",
+              "sentence_ordinal": 12,
+              "text": "Reign of Reason, all hail!",
+              "word_offset_start": 3736,
+              "word_offset_end": 3741,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "And when the victory shall be complete -- when there shall be neither a slave nor a drunkard on the earth -- how proud the title of that Land, which may truly claim to be the birth-place and the cradle of both those revolutions, that shall have ended in that victory.",
+              "word_offset_start": 3741,
+              "word_offset_end": 3792,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "How nobly distinguished that People, who shall have planted, and nurtured to maturity, both the political and moral freedom of their species.",
+              "word_offset_start": 3792,
+              "word_offset_end": 3814,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_002_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "doc_002_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "This is the one hundred and tenth anniversary of the birth-day of Washington.",
+              "word_offset_start": 3814,
+              "word_offset_end": 3827,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "We are met to celebrate this day.",
+              "word_offset_start": 3827,
+              "word_offset_end": 3834,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p32_s03",
+              "sentence_ordinal": 3,
+              "text": "Washington is the mightiest name of earth -- long since mightiest in the cause of civil liberty; still mightiest in moral reformation.",
+              "word_offset_start": 3834,
+              "word_offset_end": 3856,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p32_s04",
+              "sentence_ordinal": 4,
+              "text": "On that name, an eulogy is expected.",
+              "word_offset_start": 3856,
+              "word_offset_end": 3863,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p32_s05",
+              "sentence_ordinal": 5,
+              "text": "It cannot be.",
+              "word_offset_start": 3863,
+              "word_offset_end": 3866,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p32_s06",
+              "sentence_ordinal": 6,
+              "text": "To add brightness to the sun, or glory to the name of Washington, is alike impossible.",
+              "word_offset_start": 3866,
+              "word_offset_end": 3882,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p32_s07",
+              "sentence_ordinal": 7,
+              "text": "Let none attempt it.",
+              "word_offset_start": 3882,
+              "word_offset_end": 3886,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_002_s01_p32_s08",
+              "sentence_ordinal": 8,
+              "text": "In solemn awe pronounce the name, and in its naked deathless splendor, leave it shining on.",
+              "word_offset_start": 3886,
+              "word_offset_end": 3902,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    }
+  ]
+}

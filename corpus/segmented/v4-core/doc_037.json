@@ -1,0 +1,225 @@
+{
+  "document_id": "doc_037",
+  "meta": {
+    "id": "doc_037",
+    "title": "Letter to Fanny McCullough",
+    "short_title": "Fanny McCullough Letter",
+    "date": "1862-12-23",
+    "date_precision": "exact",
+    "register": "condolence",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 6, Letter to Fanny McCullough, December 23, 1862.",
+    "source_url": null,
+    "risk_flags": [],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_037_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_037_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_037_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "TO MISS FANNY McCULLOUGH.",
+              "word_offset_start": 0,
+              "word_offset_end": 4,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_037_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_037_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "EXECUTIVE MANSION, WASHINGTON, December, 23, 1862.",
+              "word_offset_start": 4,
+              "word_offset_end": 10,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_037_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_037_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "DEAR FANNY:--It is with deep regret that I learn of the death of your kind and brave father, and especially that it is affecting your young heart beyond what is common in such cases.",
+              "word_offset_start": 10,
+              "word_offset_end": 44,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_037_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "In this sad world of ours sorrow comes to all, and to the young it comes with bittered agony because it takes them unawares.",
+              "word_offset_start": 44,
+              "word_offset_end": 68,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_037_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_037_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "The older have learned ever to expect it.",
+              "word_offset_start": 68,
+              "word_offset_end": 76,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_037_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "I am anxious to afford some alleviation of your present distress, perfect relief is not possible, except with time.",
+              "word_offset_start": 76,
+              "word_offset_end": 95,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_037_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "You cannot now realize that you will ever feel better.",
+              "word_offset_start": 95,
+              "word_offset_end": 105,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_037_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "Is not this so?",
+              "word_offset_start": 105,
+              "word_offset_end": 109,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_037_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "And yet it is a mistake.",
+              "word_offset_start": 109,
+              "word_offset_end": 115,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_037_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "You are sure to be happy again.",
+              "word_offset_start": 115,
+              "word_offset_end": 122,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_037_s01_p04_s07",
+              "sentence_ordinal": 7,
+              "text": "To know this, which is certainly true, will make you some less miserable now.",
+              "word_offset_start": 122,
+              "word_offset_end": 136,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_037_s01_p04_s08",
+              "sentence_ordinal": 8,
+              "text": "I have had experience enough to know what I say, and you need only to believe it to feel better at once.",
+              "word_offset_start": 136,
+              "word_offset_end": 158,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_037_s01_p04_s09",
+              "sentence_ordinal": 9,
+              "text": "The memory of your dear father, instead of an agony, will yet be a sad, sweet feeling in your heart, of a purer and holier sort than you have known before.",
+              "word_offset_start": 158,
+              "word_offset_end": 189,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_037_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_037_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Please present my kind regards to your afflicted mother.",
+              "word_offset_start": 189,
+              "word_offset_end": 198,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_037_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_037_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Your sincere friend,",
+              "word_offset_start": 198,
+              "word_offset_end": 201,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_037_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_037_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 201,
+              "word_offset_end": 203,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

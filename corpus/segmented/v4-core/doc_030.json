@@ -1,0 +1,167 @@
+{
+  "document_id": "doc_030",
+  "meta": {
+    "id": "doc_030",
+    "title": "Meditation on the Divine Will",
+    "short_title": "Meditation on Divine Will",
+    "date": "1862-09",
+    "date_precision": "approximate",
+    "register": "fragment",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 5, Meditation on the Divine Will, September 1862.",
+    "source_url": null,
+    "risk_flags": [
+      "fragment"
+    ],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_030_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_030_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_030_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Washington, D.C.",
+              "word_offset_start": 0,
+              "word_offset_end": 2,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_030_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_030_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "September, 1862",
+              "word_offset_start": 2,
+              "word_offset_end": 4,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_030_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_030_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "The will of God prevails.",
+              "word_offset_start": 4,
+              "word_offset_end": 9,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_030_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "In great contests each party claims to act in accordance with the will of God.",
+              "word_offset_start": 9,
+              "word_offset_end": 24,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_030_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "Both may be, and one must be, wrong.",
+              "word_offset_start": 24,
+              "word_offset_end": 32,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_030_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "God cannot be for and against the same thing at the same time.",
+              "word_offset_start": 32,
+              "word_offset_end": 45,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_030_s01_p03_s05",
+              "sentence_ordinal": 5,
+              "text": "In the present civil war it is quite possible that God's purpose is something different from the purpose of either party -- and yet the human instrumentalities, working just as they do, are of the best adaptation to effect His purpose.",
+              "word_offset_start": 45,
+              "word_offset_end": 86,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_030_s01_p03_s06",
+              "sentence_ordinal": 6,
+              "text": "I am almost ready to say that this is probably true -- that God wills this contest, and wills that it shall not end yet.",
+              "word_offset_start": 86,
+              "word_offset_end": 111,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_030_s01_p03_s07",
+              "sentence_ordinal": 7,
+              "text": "By his mere great power, on the minds of the now contestants, He could have either saved or destroyed the Union without a human contest.",
+              "word_offset_start": 111,
+              "word_offset_end": 136,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_030_s01_p03_s08",
+              "sentence_ordinal": 8,
+              "text": "Yet the contest began.",
+              "word_offset_start": 136,
+              "word_offset_end": 140,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_030_s01_p03_s09",
+              "sentence_ordinal": 9,
+              "text": "And, having begun He could give the final victory to either side any day.",
+              "word_offset_start": 140,
+              "word_offset_end": 154,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_030_s01_p03_s10",
+              "sentence_ordinal": 10,
+              "text": "Yet the contest proceeds.",
+              "word_offset_start": 154,
+              "word_offset_end": 158,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

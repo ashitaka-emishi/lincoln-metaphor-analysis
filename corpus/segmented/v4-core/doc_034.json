@@ -1,0 +1,318 @@
+{
+  "document_id": "doc_034",
+  "meta": {
+    "id": "doc_034",
+    "title": "Letter to Henry L. Pierce and Others",
+    "short_title": "Pierce Letter",
+    "date": "1859-04-06",
+    "date_precision": "exact",
+    "register": "public_letter",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 3, Letter to Henry L. Pierce and Others, April 6, 1859.",
+    "source_url": null,
+    "risk_flags": [],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_034_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_034_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_034_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "TO H. L. PIERCE AND OTHERS.",
+              "word_offset_start": 0,
+              "word_offset_end": 6,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_034_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_034_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "SPRINGFIELD, ILLINOIS, April 6, 1859.",
+              "word_offset_start": 6,
+              "word_offset_end": 11,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_034_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_034_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "GENTLEMEN:--Your kind note inviting me to attend a festival in Boston, on the 28th instant, in honor of the birthday of Thomas Jefferson, was duly received.",
+              "word_offset_start": 11,
+              "word_offset_end": 37,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "My engagements are such that I cannot attend.",
+              "word_offset_start": 37,
+              "word_offset_end": 45,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_034_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_034_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Bearing in mind that about seventy years ago two great political parties were first formed in this country, that Thomas Jefferson was the head of one of them and Boston the headquarters of the other, it is both curious and interesting that those supposed to descend politically from the party opposed to Jefferson should now be celebrating his birthday in their own original seat of empire, while those claiming political descent from him have nearly ceased to breathe his name everywhere.",
+              "word_offset_start": 45,
+              "word_offset_end": 126,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_034_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_034_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Remembering, too, that the Jefferson party was formed upon its supposed superior devotion to the personal rights of men, holding the rights of property to be secondary only, and greatly inferior, and assuming that the so-called Democracy of to-day are the Jefferson, and their opponents the anti-Jefferson, party, it will be equally interesting to note how completely the two have changed hands as to the principle upon which they were originally supposed to be divided.",
+              "word_offset_start": 126,
+              "word_offset_end": 201,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "The Democracy of to-day hold the liberty of one man to be absolutely nothing, when in conflict with another man's right of property; Republicans, on the contrary, are for both the man and the dollar, but in case of conflict the man before the dollar.",
+              "word_offset_start": 201,
+              "word_offset_end": 246,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_034_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_034_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "I remember being once much amused at seeing two partially intoxicated men engaged in a fight with their great-coats on, which fight, after a long and rather harmless contest, ended in each having fought himself out of his own coat and into that of the other.",
+              "word_offset_start": 246,
+              "word_offset_end": 292,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "If the two leading parties of this day are really identical with the two in the days of Jefferson and Adams, they have performed the same feat as the two drunken men.",
+              "word_offset_start": 292,
+              "word_offset_end": 324,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_034_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_034_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "But soberly, it is now no child's play to save the principles of Jefferson from total overthrow in this nation.",
+              "word_offset_start": 324,
+              "word_offset_end": 344,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "One would state with great confidence that he could convince any sane child that the simpler propositions of Euclid are true; but nevertheless he would fail, utterly, with one who should deny the definitions and axioms.",
+              "word_offset_start": 344,
+              "word_offset_end": 380,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "The principles of Jefferson are the definitions and axioms of free society.",
+              "word_offset_start": 380,
+              "word_offset_end": 392,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "And yet they are denied and evaded, with no small show of success.",
+              "word_offset_start": 392,
+              "word_offset_end": 405,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s05",
+              "sentence_ordinal": 5,
+              "text": "One dashingly calls them \"glittering generalities.\"",
+              "word_offset_start": 405,
+              "word_offset_end": 411,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s06",
+              "sentence_ordinal": 6,
+              "text": "Another bluntly calls them \"self-evident lies.\"",
+              "word_offset_start": 411,
+              "word_offset_end": 417,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s07",
+              "sentence_ordinal": 7,
+              "text": "And others insidiously argue that they apply to \"superior races.\"",
+              "word_offset_start": 417,
+              "word_offset_end": 427,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s08",
+              "sentence_ordinal": 8,
+              "text": "These expressions, differing in form, are identical in object and effect--the supplanting the principles of free government, and restoring those of classification, caste, and legitimacy.",
+              "word_offset_start": 427,
+              "word_offset_end": 452,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s09",
+              "sentence_ordinal": 9,
+              "text": "They would delight a convocation of crowned heads plotting against the people.",
+              "word_offset_start": 452,
+              "word_offset_end": 464,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s10",
+              "sentence_ordinal": 10,
+              "text": "They are the vanguard, the miners and sappers, of returning despotism.",
+              "word_offset_start": 464,
+              "word_offset_end": 475,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s11",
+              "sentence_ordinal": 11,
+              "text": "We must repulse them, or they will subjugate us.",
+              "word_offset_start": 475,
+              "word_offset_end": 484,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s12",
+              "sentence_ordinal": 12,
+              "text": "This is a world of compensation; and he who would be no slave must consent to have no slave.",
+              "word_offset_start": 484,
+              "word_offset_end": 503,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s13",
+              "sentence_ordinal": 13,
+              "text": "Those who deny freedom to others deserve it not for themselves, and, under a just God, cannot long retain it.",
+              "word_offset_start": 503,
+              "word_offset_end": 523,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_034_s01_p07_s14",
+              "sentence_ordinal": 14,
+              "text": "All honor to Jefferson to the man who, in the concrete pressure of a struggle for national independence by a single people, had the coolness, forecast, and capacity to introduce into a mere revolutionary document an abstract truth, applicable to all men and all times, and so to embalm it there that to-day and in all coming days it shall be a rebuke and a stumbling-block to the very harbingers of reappearing tyranny and oppression.",
+              "word_offset_start": 523,
+              "word_offset_end": 598,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_034_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_034_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "Your obedient servant,",
+              "word_offset_start": 598,
+              "word_offset_end": 601,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_034_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_034_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 601,
+              "word_offset_end": 603,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

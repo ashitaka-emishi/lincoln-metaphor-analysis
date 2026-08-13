@@ -1,0 +1,176 @@
+{
+  "document_id": "doc_041",
+  "meta": {
+    "id": "doc_041",
+    "title": "Letter to Mrs. Lydia Bixby",
+    "short_title": "Bixby Letter",
+    "date": "1864-11-21",
+    "date_precision": "exact",
+    "register": "condolence",
+    "authorship": "probable",
+    "authorship_confidence": 0.75,
+    "authorship_notes": "Authorship has been debated in scholarship; retain caution before using as Lincoln-sole evidence.",
+    "source_text": "Collected Works of Abraham Lincoln, vol. 8, Letter to Mrs. Lydia Bixby, November 21, 1864.",
+    "source_url": null,
+    "risk_flags": [
+      "authorship_review"
+    ],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_041_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_041_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_041_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "TO MRS.",
+              "word_offset_start": 0,
+              "word_offset_end": 2,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_041_s01_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "BIXBY.",
+              "word_offset_start": 2,
+              "word_offset_end": 3,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_041_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_041_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "EXECUTIVE MANSION, WASHINGTON, November 21, 1864.",
+              "word_offset_start": 3,
+              "word_offset_end": 9,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_041_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_041_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "MRS.",
+              "word_offset_start": 9,
+              "word_offset_end": 10,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_041_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "BIXBY, Boston, Massachusetts.",
+              "word_offset_start": 10,
+              "word_offset_end": 13,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_041_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_041_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "DEAR MADAM:--I have been shown in the files of the War Department a statement of the Adjutant-General of Massachusetts that you are the mother of five sons who have died gloriously on the field of battle.",
+              "word_offset_start": 13,
+              "word_offset_end": 49,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_041_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "I feel how weak and fruitless must be any words of mine which should attempt to beguile you from the grief of a loss so overwhelming.",
+              "word_offset_start": 49,
+              "word_offset_end": 75,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_041_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "But I cannot refrain from tendering to you the consolation that may be found in the thanks of the Republic they died to save.",
+              "word_offset_start": 75,
+              "word_offset_end": 99,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_041_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "I pray that our Heavenly Father may assuage the anguish of your bereavement, and leave you only the cherished memory of the loved and lost, and the solemn pride that must be yours to have laid so costly a sacrifice upon the altar of freedom.",
+              "word_offset_start": 99,
+              "word_offset_end": 144,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_041_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_041_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "Yours very sincerely and respectfully,",
+              "word_offset_start": 144,
+              "word_offset_end": 149,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_041_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_041_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 149,
+              "word_offset_end": 151,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

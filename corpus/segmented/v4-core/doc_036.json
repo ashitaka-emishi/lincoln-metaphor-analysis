@@ -1,0 +1,1548 @@
+{
+  "document_id": "doc_036",
+  "meta": {
+    "id": "doc_036",
+    "title": "Reply to Chicago Emancipation Memorial",
+    "short_title": "Chicago Emancipation Reply",
+    "date": "1862-09-13",
+    "date_precision": "exact",
+    "register": "speech",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 5, Reply to Chicago Emancipation Memorial, September 13, 1862.",
+    "source_url": null,
+    "risk_flags": [],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_036_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_036_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "REPLY TO REQUEST THE PRESIDENT ISSUE A PROCLAMATION OF EMANCIPATION.",
+              "word_offset_start": 0,
+              "word_offset_end": 10,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "A COMMITTEE FROM THE RELIGIOUS DENOMINATIONS OF CHICAGO,",
+              "word_offset_start": 10,
+              "word_offset_end": 18,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "September 13,1862.",
+              "word_offset_start": 18,
+              "word_offset_end": 20,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "The subject presented in the memorial is one upon which I have thought much for weeks past, and I may even say for months.",
+              "word_offset_start": 20,
+              "word_offset_end": 44,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "I am approached with the most opposite opinions and advice, and that by religious men, who are equally certain that they represent the Divine will.",
+              "word_offset_start": 44,
+              "word_offset_end": 69,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "I am sure that either the one or the other class is mistaken in that belief, and perhaps in some respects both.",
+              "word_offset_start": 69,
+              "word_offset_end": 91,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "I hope it will not be irreverent for me to say that if it is probable that God would reveal his will to others, on a point so connected with my duty, it might be supposed he would reveal it directly to me; for, unless I am more deceived in myself than I often am, it is my earnest desire to know the will of Providence in this matter.",
+              "word_offset_start": 91,
+              "word_offset_end": 160,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "And if I can learn what it is I will do it!",
+              "word_offset_start": 160,
+              "word_offset_end": 172,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "These are not, however, the days of miracles, and I suppose it will be granted that I am not to expect a direct revelation.",
+              "word_offset_start": 172,
+              "word_offset_end": 196,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p04_s07",
+              "sentence_ordinal": 7,
+              "text": "I must study the plain physical facts of the case, ascertain what is possible, and learn what appears to be wise and right.",
+              "word_offset_start": 196,
+              "word_offset_end": 219,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "The subject is difficult, and good men do not agree.",
+              "word_offset_start": 219,
+              "word_offset_end": 229,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "For instance, the other day, four gentlemen of standing and intelligence from New York called as a delegation on business connected with the war; but before leaving two of them earnestly besought me to proclaim general emancipation, upon which the other two at once attacked them.",
+              "word_offset_start": 229,
+              "word_offset_end": 275,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "You know also that the last session of Congress had a decided majority of antislavery men, yet they could not unite on this policy.",
+              "word_offset_start": 275,
+              "word_offset_end": 299,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "And the same is true of the religious people.",
+              "word_offset_start": 299,
+              "word_offset_end": 308,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p05_s05",
+              "sentence_ordinal": 5,
+              "text": "Why, the rebel soldiers are praying with a great deal more earnestness, I fear, than our own troops, and expecting God to favor their side: for one of our soldiers who had been taken prisoner told Senator Wilson a few days since that he met nothing so discouraging as the evident sincerity of those he was among in their prayers.",
+              "word_offset_start": 308,
+              "word_offset_end": 368,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p05_s06",
+              "sentence_ordinal": 6,
+              "text": "But we will talk over the merits of the case.",
+              "word_offset_start": 368,
+              "word_offset_end": 378,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "What good would a proclamation of emancipation from me do, especially as we are now situated?",
+              "word_offset_start": 378,
+              "word_offset_end": 394,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "I do not want to issue a document that the whole world will see must necessarily be inoperative, like the Pope's bull against the comet!",
+              "word_offset_start": 394,
+              "word_offset_end": 419,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "Would my word free the slaves, when I cannot even enforce the Constitution in the rebel States?",
+              "word_offset_start": 419,
+              "word_offset_end": 436,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "Is there a single court, or magistrate or individual that would be influenced by it there?",
+              "word_offset_start": 436,
+              "word_offset_end": 452,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "And what reason is there to think it would have any greater effect upon the slaves than the late law of Congress, which I approved, and which offers protection and freedom to the slaves of rebel masters who come within our lines?",
+              "word_offset_start": 452,
+              "word_offset_end": 494,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s06",
+              "sentence_ordinal": 6,
+              "text": "Yet I cannot learn that that law has caused a single slave to come over to us.",
+              "word_offset_start": 494,
+              "word_offset_end": 511,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s07",
+              "sentence_ordinal": 7,
+              "text": "And suppose they could be induced by a proclamation of freedom from me to throw themselves upon us, what should we do with them?",
+              "word_offset_start": 511,
+              "word_offset_end": 535,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s08",
+              "sentence_ordinal": 8,
+              "text": "How can we feed and care for such a multitude?",
+              "word_offset_start": 535,
+              "word_offset_end": 545,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s09",
+              "sentence_ordinal": 9,
+              "text": "General Butler wrote me a few days since that he was issuing more rations to the slaves who have rushed to him than to all the white troops under his command.",
+              "word_offset_start": 545,
+              "word_offset_end": 576,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s10",
+              "sentence_ordinal": 10,
+              "text": "They eat, and that is all; though it is true General Butler is feeding the whites also by the thousand; for it nearly amounts to a famine there.",
+              "word_offset_start": 576,
+              "word_offset_end": 604,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s11",
+              "sentence_ordinal": 11,
+              "text": "If, now, the pressure of the war should call off our forces from New Orleans to defend some other point, what is to prevent the masters from reducing the blacks to slavery again? for I am told that whenever the rebels take any black prisoners, free or slave, they immediately auction them off.",
+              "word_offset_start": 604,
+              "word_offset_end": 657,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s12",
+              "sentence_ordinal": 12,
+              "text": "They did so with those they took from a boat that was aground in the Tennessee River a few days ago.",
+              "word_offset_start": 657,
+              "word_offset_end": 678,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s13",
+              "sentence_ordinal": 13,
+              "text": "And then I am very ungenerously attacked for it!",
+              "word_offset_start": 678,
+              "word_offset_end": 687,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s14",
+              "sentence_ordinal": 14,
+              "text": "For instance, when, after the late battles at and near Bull Run, an expedition went out from Washington under a flag of truce to bury the dead and bring in the wounded, and the rebels seized the blacks who went along to help, and sent them into slavery, Horace Greeley said in his paper that the government would probably do nothing about it.",
+              "word_offset_start": 687,
+              "word_offset_end": 750,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p06_s15",
+              "sentence_ordinal": 15,
+              "text": "What could I do?",
+              "word_offset_start": 750,
+              "word_offset_end": 754,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "Now, then, tell me, if you please, what possible result of good would follow the issuing of such a proclamation as you desire?",
+              "word_offset_start": 754,
+              "word_offset_end": 777,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "Understand, I raise no objections against it on legal or constitutional grounds; for, as commander-in-chief of the army and navy, in time of war I suppose I have a right to take any measure which may best subdue the enemy; nor do I urge objections of a moral nature, in view of possible consequences of insurrection and massacre at the South.",
+              "word_offset_start": 777,
+              "word_offset_end": 838,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "I view this matter as a practical war measure, to be decided on according to the advantages or disadvantages it may offer to the suppression of the rebellion.",
+              "word_offset_start": 838,
+              "word_offset_end": 866,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "I admit that slavery is the root of the rebellion, or at least its sine qua non.",
+              "word_offset_start": 866,
+              "word_offset_end": 883,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "The ambition of politicians may have instigated them to act, but they would have been impotent without slavery as their instrument.",
+              "word_offset_start": 883,
+              "word_offset_end": 904,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "I will also concede that emancipation would help us in Europe, and convince them that we are incited by something more than ambition.",
+              "word_offset_start": 904,
+              "word_offset_end": 927,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "I grant, further, that it would help somewhat at the North, though not so much, I fear, as you and those you represent imagine.",
+              "word_offset_start": 927,
+              "word_offset_end": 951,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "Still, some additional strength would be added in that way to the war, and then, unquestionably, it would weaken the rebels by drawing off their laborers, which is of great importance; but I am not so sure we could do much with the blacks.",
+              "word_offset_start": 951,
+              "word_offset_end": 995,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "If we were to arm them, I fear that in a few weeks the arms would be in the hands of the rebels; and, indeed, thus far we have not had arms enough to equip our white troops.",
+              "word_offset_start": 995,
+              "word_offset_end": 1033,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s07",
+              "sentence_ordinal": 7,
+              "text": "I will mention another thing, though it meet only your scorn and contempt.",
+              "word_offset_start": 1033,
+              "word_offset_end": 1046,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s08",
+              "sentence_ordinal": 8,
+              "text": "There are fifty thousand bayonets in the Union armies from the border slave States.",
+              "word_offset_start": 1046,
+              "word_offset_end": 1060,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s09",
+              "sentence_ordinal": 9,
+              "text": "It would be a serious matter if, in consequence of a proclamation such as you desire, they should go over to the rebels.",
+              "word_offset_start": 1060,
+              "word_offset_end": 1083,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s10",
+              "sentence_ordinal": 10,
+              "text": "I do not think they all would-- not so many, indeed, as a year ago, or as six months ago--not so many to-day as yesterday.",
+              "word_offset_start": 1083,
+              "word_offset_end": 1108,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s11",
+              "sentence_ordinal": 11,
+              "text": "Every day increases their Union feeling.",
+              "word_offset_start": 1108,
+              "word_offset_end": 1114,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s12",
+              "sentence_ordinal": 12,
+              "text": "They are also getting their pride enlisted, and want to beat the rebels.",
+              "word_offset_start": 1114,
+              "word_offset_end": 1127,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s13",
+              "sentence_ordinal": 13,
+              "text": "Let me say one thing more: I think you should admit that we already have an important principle to rally and unite the people, in the fact that constitutional government is at stake.",
+              "word_offset_start": 1127,
+              "word_offset_end": 1160,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p08_s14",
+              "sentence_ordinal": 14,
+              "text": "This is a fundamental idea going down about as deep as anything.",
+              "word_offset_start": 1160,
+              "word_offset_end": 1172,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Do not misunderstand me because I have mentioned these objections.",
+              "word_offset_start": 1172,
+              "word_offset_end": 1182,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "They indicate the difficulties that have thus far prevented my action in some such way as you desire.",
+              "word_offset_start": 1182,
+              "word_offset_end": 1200,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "I have not decided against a proclamation of liberty to the slaves, but hold the matter under advisement; and I can assure you that the subject is on my mind, by day and night, more than any other.",
+              "word_offset_start": 1200,
+              "word_offset_end": 1238,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "Whatever shall appear to be God's will, I will do.",
+              "word_offset_start": 1238,
+              "word_offset_end": 1248,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p09_s05",
+              "sentence_ordinal": 5,
+              "text": "I trust that in the freedom with which I have canvassed your views I have not in any respect injured your feelings.",
+              "word_offset_start": 1248,
+              "word_offset_end": 1270,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "TELEGRAM TO GENERAL H. G. WRIGHT.",
+              "word_offset_start": 1270,
+              "word_offset_end": 1276,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "WAR DEPARTMENT, WASHINGTON, D. C., September 14, 1862.",
+              "word_offset_start": 1276,
+              "word_offset_end": 1284,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "GENERAL WRIGHT, Cincinnati, Ohio:",
+              "word_offset_start": 1284,
+              "word_offset_end": 1288,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Thanks for your despatch.",
+              "word_offset_start": 1288,
+              "word_offset_end": 1292,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "Can you not pursue the retreating enemy, and relieve Cumberland Gap?",
+              "word_offset_start": 1292,
+              "word_offset_end": 1303,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 1303,
+              "word_offset_end": 1305,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "TELEGRAM TO GENERAL G. B. McCLELLAN.",
+              "word_offset_start": 1305,
+              "word_offset_end": 1311,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "WAR DEPARTMENT, WASHINGTON,",
+              "word_offset_start": 1311,
+              "word_offset_end": 1314,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "September 15, 1862.",
+              "word_offset_start": 1314,
+              "word_offset_end": 1317,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p17_s02",
+              "sentence_ordinal": 2,
+              "text": "2.45 P.M.",
+              "word_offset_start": 1317,
+              "word_offset_end": 1319,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "MAJOR-GENERAL McCLELLAN:",
+              "word_offset_start": 1319,
+              "word_offset_end": 1321,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Your despatch of to-day received.",
+              "word_offset_start": 1321,
+              "word_offset_end": 1326,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "God bless you, and all with you.",
+              "word_offset_start": 1326,
+              "word_offset_end": 1333,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "Destroy the rebel army if possible.",
+              "word_offset_start": 1333,
+              "word_offset_end": 1339,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 1339,
+              "word_offset_end": 1341,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "TELEGRAM TO J. K. DUBOIS.",
+              "word_offset_start": 1341,
+              "word_offset_end": 1346,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "WASHINGTON, D.C.,",
+              "word_offset_start": 1346,
+              "word_offset_end": 1348,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "September 15, 1862.",
+              "word_offset_start": 1348,
+              "word_offset_end": 1351,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "3 P.M.",
+              "word_offset_start": 1351,
+              "word_offset_end": 1353,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "HON.",
+              "word_offset_start": 1353,
+              "word_offset_end": 1354,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "K. DUBOIS, Springfield, Illinois:",
+              "word_offset_start": 1354,
+              "word_offset_end": 1358,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "I now consider it safe to say that General McClellan has gained a great victory over the great rebel army in Maryland, between Fredericktown and Hagerstown.",
+              "word_offset_start": 1358,
+              "word_offset_end": 1384,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "He is now pursuing the flying foe.",
+              "word_offset_start": 1384,
+              "word_offset_end": 1391,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 1391,
+              "word_offset_end": 1393,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "[But not very fast--and he did not catch them!",
+              "word_offset_start": 1393,
+              "word_offset_end": 1402,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "D.W.]",
+              "word_offset_start": 1402,
+              "word_offset_end": 1403,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "TELEGRAM TO GOVERNOR CURTIN,",
+              "word_offset_start": 1403,
+              "word_offset_end": 1407,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "WASHINGTON, D. C., September 16, 1862.",
+              "word_offset_start": 1407,
+              "word_offset_end": 1413,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "Noon.",
+              "word_offset_start": 1413,
+              "word_offset_end": 1414,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "GOVERNOR CURTIN, Harrisburg:",
+              "word_offset_start": 1414,
+              "word_offset_end": 1417,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "What do you hear from General McClellan's army?",
+              "word_offset_start": 1417,
+              "word_offset_end": 1425,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p30_s02",
+              "sentence_ordinal": 2,
+              "text": "We have nothing from him to-day.",
+              "word_offset_start": 1425,
+              "word_offset_end": 1431,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 1431,
+              "word_offset_end": 1433,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "TELEGRAM TO GOVERNOR MORTON.",
+              "word_offset_start": 1433,
+              "word_offset_end": 1437,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "WASHINGTON, D.C., September 17, 1862.",
+              "word_offset_start": 1437,
+              "word_offset_end": 1442,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "GOVERNOR O. P. MORTON, Indianapolis, Indiana:",
+              "word_offset_start": 1442,
+              "word_offset_end": 1448,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "I have received your despatch in regard to recommendations of General Wright.",
+              "word_offset_start": 1448,
+              "word_offset_end": 1460,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p35_s02",
+              "sentence_ordinal": 2,
+              "text": "I have received no such despatch from him, at least not that I can remember.",
+              "word_offset_start": 1460,
+              "word_offset_end": 1475,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p35_s03",
+              "sentence_ordinal": 3,
+              "text": "I refer yours for General Halleck's consideration.",
+              "word_offset_start": 1475,
+              "word_offset_end": 1482,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 1482,
+              "word_offset_end": 1484,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "TELEGRAM TO GENERAL KETCHUM.",
+              "word_offset_start": 1484,
+              "word_offset_end": 1488,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "EXECUTIVE MANSION, WASHINGTON, September 20, 1862.",
+              "word_offset_start": 1488,
+              "word_offset_end": 1494,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "GENERAL KETCHUM, Springfield, Illinois:",
+              "word_offset_start": 1494,
+              "word_offset_end": 1498,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "How many regiments are there in Illinois, ready for service but for want of arms?",
+              "word_offset_start": 1498,
+              "word_offset_end": 1513,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p40_s02",
+              "sentence_ordinal": 2,
+              "text": "How many arms have you there ready for distribution?",
+              "word_offset_start": 1513,
+              "word_offset_end": 1522,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 1522,
+              "word_offset_end": 1524,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "PRELIMINARY EMANCIPATION PROCLAMATION, SEPTEMBER 22, 1862.",
+              "word_offset_start": 1524,
+              "word_offset_end": 1530,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "THE PRESIDENT OF THE UNITED STATES OF AMERICA:",
+              "word_offset_start": 1530,
+              "word_offset_end": 1538,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "A Proclamation.",
+              "word_offset_start": 1538,
+              "word_offset_end": 1540,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "I, Abraham Lincoln, President of the United States of America and Commander-in-Chief of the Army and Navy thereof, do hereby proclaim and declare that hereafter, as heretofore, the war will be prosecuted for the object of practically restoring the constitutional relation between the United States and each of the States and the people thereof in which States that relation is or may be suspended or disturbed.",
+              "word_offset_start": 1540,
+              "word_offset_end": 1606,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "That it is my purpose, upon the next meeting of Congress, to again recommend the adoption of a practical measure tendering pecuniary aid to the free acceptance or rejection of all slave States, so called, the people whereof may not then be in rebellion against the United States, and which States may then have voluntarily adopted, or thereafter may voluntarily adopt, immediate or gradual abolishment of slavery within their respective limits; and that the effort to colonize persons of African descent with their consent upon this continent or elsewhere, with the previously obtained consent of the governments existing there, will be continued.",
+              "word_offset_start": 1606,
+              "word_offset_end": 1708,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "That on the 1st day of January, A.D.",
+              "word_offset_start": 1708,
+              "word_offset_end": 1716,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p47_s02",
+              "sentence_ordinal": 2,
+              "text": "1863, all persons held as slaves within any State or designated part of a State the people whereof shall then be in rebellion against the United States shall be then, thenceforward, and forever free; and the executive government of the United States, including the military and naval authority thereof, will recognize and maintain the freedom of such persons and will do no act or acts to repress such persons, or any of them, in any efforts they may make for their actual freedom.",
+              "word_offset_start": 1716,
+              "word_offset_end": 1799,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "That the Executive will on the 1st day of January aforesaid, by proclamation, designate the States and parts of States, if any, in which the people thereof, respectively, shall then be in rebellion against the United States; and the fact that any State or the people thereof shall on that day be in good faith represented in the Congress of the United States by members chosen thereto at elections wherein a majority of the qualified voters of such State shall have participated shall, in the absence of strong countervailing testimony, be deemed conclusive evidence that such State and the people thereof are not then in rebellion against the United States.",
+              "word_offset_start": 1799,
+              "word_offset_end": 1909,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "That attention is hereby called to an act of Congress entitled \"An act to make an additional article of war,\" approved March 13, 1862, and which act is in the words and figure following:",
+              "word_offset_start": 1909,
+              "word_offset_end": 1943,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "\"Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled, That hereafter the following shall be promulgated as an additional article of war for the government of the Army of the United States and shall be obeyed and observed as such.",
+              "word_offset_start": 1943,
+              "word_offset_end": 1993,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "\"ART.",
+              "word_offset_start": 1993,
+              "word_offset_end": 1994,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p51_s02",
+              "sentence_ordinal": 2,
+              "text": "All officers or persons in the military or naval service of the United States are prohibited from employing any of the forces under their respective commands for the purpose of returning fugitives from service or labor who may have escaped from any person, to whom such service or labor is claimed to be due, and any officer who shall be found guilty by a court-martial of violating this article shall be dismissed from the service.",
+              "word_offset_start": 1994,
+              "word_offset_end": 2069,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "\"SEC.",
+              "word_offset_start": 2069,
+              "word_offset_end": 2070,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p52_s02",
+              "sentence_ordinal": 2,
+              "text": "2.",
+              "word_offset_start": 2070,
+              "word_offset_end": 2071,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p52_s03",
+              "sentence_ordinal": 3,
+              "text": "And be it further enacted, That this act shall take effect from and after its passage.\"",
+              "word_offset_start": 2071,
+              "word_offset_end": 2087,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p53",
+          "paragraph_ordinal": 53,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p53_s01",
+              "sentence_ordinal": 1,
+              "text": "Also to the ninth and tenth sections of an act entitled \"An act to suppress insurrection, to punish treason and rebellion, to seize and confiscate the property of rebels, and for other purposes,\" approved July 17, 1862, and which sections are in the words and figures following:",
+              "word_offset_start": 2087,
+              "word_offset_end": 2134,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p54",
+          "paragraph_ordinal": 54,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p54_s01",
+              "sentence_ordinal": 1,
+              "text": "\"SEC.",
+              "word_offset_start": 2134,
+              "word_offset_end": 2135,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p54_s02",
+              "sentence_ordinal": 2,
+              "text": "9.",
+              "word_offset_start": 2135,
+              "word_offset_end": 2136,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p54_s03",
+              "sentence_ordinal": 3,
+              "text": "And be it further enacted, That all slaves of persons who shall hereafter be engaged in rebellion against the Government of the United States, or who shall in any way give aid or comfort thereto, escaping from such persons and taking refuge within the lines of the army, and all slaves captured from such persons or deserted by them and coming under the control of the Government of the United States, and all slaves of such persons found on (or) being within any place occupied by rebel forces and afterwards occupied by the forces of the United States, shall be deemed captives of war and shall be forever free of their servitude and not again held as slaves.",
+              "word_offset_start": 2136,
+              "word_offset_end": 2254,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p55",
+          "paragraph_ordinal": 55,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p55_s01",
+              "sentence_ordinal": 1,
+              "text": "\"SEC.",
+              "word_offset_start": 2254,
+              "word_offset_end": 2255,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p55_s02",
+              "sentence_ordinal": 2,
+              "text": "9.",
+              "word_offset_start": 2255,
+              "word_offset_end": 2256,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_036_s01_p55_s03",
+              "sentence_ordinal": 3,
+              "text": "And be it further enacted, That no slave escaping into any State, Territory, or the District of Columbia from any other State shall be delivered up or in any way impeded or hindered of his liberty, except for crime, or some offence against the laws, unless the person claiming said fugitive shall first make oath that the person to whom the labor or service of such fugitive is alleged to be due is his lawful owner, and has not borne arms against the United States in the present rebellion, nor in any way given aid and comfort thereto; and no person engaged in the military or naval service of the United States shall, under any pretense whatever, assume to decide on the validity of the claim of any person to the service or labor of any other person, or surrender up any such person to the claimant, on pain of being dismissed from the service.\"",
+              "word_offset_start": 2256,
+              "word_offset_end": 2411,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p56",
+          "paragraph_ordinal": 56,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p56_s01",
+              "sentence_ordinal": 1,
+              "text": "And I do hereby enjoin upon and order all persons engaged in the military and naval service of the United States to observe, obey, and enforce, within their respective spheres of service, the act and sections above recited.",
+              "word_offset_start": 2411,
+              "word_offset_end": 2449,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p57",
+          "paragraph_ordinal": 57,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p57_s01",
+              "sentence_ordinal": 1,
+              "text": "And the Executive will in due time recommend that all citizens of the United States who shall have remained loyal thereto throughout the rebellion shall (upon the restoration of the constitutional relation between the United States and their respective States and people, if that relation shall have been suspended or disturbed) be compensated for all losses by acts of the United States, including the loss of slaves.",
+              "word_offset_start": 2449,
+              "word_offset_end": 2516,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p58",
+          "paragraph_ordinal": 58,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p58_s01",
+              "sentence_ordinal": 1,
+              "text": "In witness whereof, I have hereunto set my hand and caused the seal of the United States to be affixed.",
+              "word_offset_start": 2516,
+              "word_offset_end": 2536,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p59",
+          "paragraph_ordinal": 59,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p59_s01",
+              "sentence_ordinal": 1,
+              "text": "Done at the City of Washington, this twenty-second day of September, in the year of our Lord one thousand eight hundred and sixty-two, and of the independence of the United States the eighty-seventh.",
+              "word_offset_start": 2536,
+              "word_offset_end": 2569,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p60",
+          "paragraph_ordinal": 60,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p60_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 2569,
+              "word_offset_end": 2571,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_036_s01_p61",
+          "paragraph_ordinal": 61,
+          "sentences": [
+            {
+              "sentence_id": "doc_036_s01_p61_s01",
+              "sentence_ordinal": 1,
+              "text": "By the President: WILLIAM H. SEWARD, Secretary of State.",
+              "word_offset_start": 2571,
+              "word_offset_end": 2580,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

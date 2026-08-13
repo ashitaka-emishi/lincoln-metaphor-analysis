@@ -1,0 +1,1128 @@
+{
+  "document_id": "doc_035",
+  "meta": {
+    "id": "doc_035",
+    "title": "Address on Colonization to a Deputation of Negroes",
+    "short_title": "Colonization Address",
+    "date": "1862-08-14",
+    "date_precision": "exact",
+    "register": "speech",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 5, Address on Colonization to a Deputation of Negroes, August 14, 1862.",
+    "source_url": null,
+    "risk_flags": [],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_035_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_035_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "ADDRESS ON COLONIZATION TO A DEPUTATION OF COLORED MEN.",
+              "word_offset_start": 0,
+              "word_offset_end": 9,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "WASHINGTON, Thursday, August 14, 1862.",
+              "word_offset_start": 9,
+              "word_offset_end": 14,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "This afternoon the President of the United States gave an audience to a committee of colored men at the White House.",
+              "word_offset_start": 14,
+              "word_offset_end": 35,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "They were introduced by Rev.",
+              "word_offset_start": 35,
+              "word_offset_end": 40,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "J. Mitchell, Commissioner of Emigration, E. M. Thomas, the chairman, remarked that they were there by invitation to hear what the Executive had to say to them.",
+              "word_offset_start": 40,
+              "word_offset_end": 67,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Having all been seated, the President, after a few preliminary observations, informed them that a sum of money had been appropriated by Congress, and placed at his disposition, for the purpose of aiding the colonization, in some country, of the people, or a portion of them, of African descent, thereby making it his duty, as it had for a long time been his inclination, to favor that cause.",
+              "word_offset_start": 67,
+              "word_offset_end": 135,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "And why, he asked, should the people of your race be colonized, and where?",
+              "word_offset_start": 135,
+              "word_offset_end": 149,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "Why should they leave this country?",
+              "word_offset_start": 149,
+              "word_offset_end": 155,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "This is, perhaps, the first question for proper consideration.",
+              "word_offset_start": 155,
+              "word_offset_end": 164,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "You and we are different races.",
+              "word_offset_start": 164,
+              "word_offset_end": 170,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "We have between us a broader difference than exists between almost any other two races.",
+              "word_offset_start": 170,
+              "word_offset_end": 185,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s07",
+              "sentence_ordinal": 7,
+              "text": "Whether it is right or wrong I need not discuss; but this physical difference is a great disadvantage to us both, as I think.",
+              "word_offset_start": 185,
+              "word_offset_end": 209,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s08",
+              "sentence_ordinal": 8,
+              "text": "Your race suffer very greatly, many of them, by living among us, while ours suffer from your presence.",
+              "word_offset_start": 209,
+              "word_offset_end": 227,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s09",
+              "sentence_ordinal": 9,
+              "text": "In a word, we suffer on each side.",
+              "word_offset_start": 227,
+              "word_offset_end": 235,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s10",
+              "sentence_ordinal": 10,
+              "text": "If this is admitted, it affords a reason, at least, why we should be separated.",
+              "word_offset_start": 235,
+              "word_offset_end": 250,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p04_s11",
+              "sentence_ordinal": 11,
+              "text": "You here are free men, I suppose.",
+              "word_offset_start": 250,
+              "word_offset_end": 257,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "[A voice--\"Yes, sir!\"]",
+              "word_offset_start": 257,
+              "word_offset_end": 260,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Perhaps you have long been free, or all your lives.",
+              "word_offset_start": 260,
+              "word_offset_end": 270,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Your race are suffering, in my judgment, the greatest wrong inflicted on any people.",
+              "word_offset_start": 270,
+              "word_offset_end": 284,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "But even when you cease to be slaves, you are yet far removed from being placed on an equality with the white race.",
+              "word_offset_start": 284,
+              "word_offset_end": 307,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "You are cut off from many of the advantages which the other race enjoys.",
+              "word_offset_start": 307,
+              "word_offset_end": 321,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "The aspiration of men is to enjoy equality with the best when free, but on this broad continent not a single man of your race is made the equal of a single man of ours.",
+              "word_offset_start": 321,
+              "word_offset_end": 356,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s06",
+              "sentence_ordinal": 6,
+              "text": "Go where you are treated the best, and the ban is still upon you.",
+              "word_offset_start": 356,
+              "word_offset_end": 370,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s07",
+              "sentence_ordinal": 7,
+              "text": "I do not propose to discuss this, but to present it as a fact, with which we have to deal.",
+              "word_offset_start": 370,
+              "word_offset_end": 390,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s08",
+              "sentence_ordinal": 8,
+              "text": "I cannot alter it if I would.",
+              "word_offset_start": 390,
+              "word_offset_end": 397,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s09",
+              "sentence_ordinal": 9,
+              "text": "It is a fact about which we all think and feel alike, I and you.",
+              "word_offset_start": 397,
+              "word_offset_end": 412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s10",
+              "sentence_ordinal": 10,
+              "text": "We look to our condition.",
+              "word_offset_start": 412,
+              "word_offset_end": 417,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p06_s11",
+              "sentence_ordinal": 11,
+              "text": "Owing to the existence of the two races on this continent, I need not recount to you the effects upon white men, growing out of the institution of slavery.",
+              "word_offset_start": 417,
+              "word_offset_end": 446,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "I believe in its general evil effects on the white race.",
+              "word_offset_start": 446,
+              "word_offset_end": 457,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "See our present condition--the country engaged in war--white men cutting one another's throats--none knowing how far it will extend--and then consider what we know to be the truth: But for your race among us there could not be war, although many men engaged on either side do not care for you one way or the other.",
+              "word_offset_start": 457,
+              "word_offset_end": 513,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "Nevertheless I repeat, without the institution of slavery and the colored race as a basis, the war could not have an existence.",
+              "word_offset_start": 513,
+              "word_offset_end": 535,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "It is better for us both, therefore, to be separated.",
+              "word_offset_start": 535,
+              "word_offset_end": 545,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p07_s05",
+              "sentence_ordinal": 5,
+              "text": "I know that there are free men among you, who, even if they could better their condition, are not as much inclined to go out of the country as those who, being slaves, could obtain their freedom on this condition.",
+              "word_offset_start": 545,
+              "word_offset_end": 585,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p07_s06",
+              "sentence_ordinal": 6,
+              "text": "I suppose one of the principal difficulties in the way of colonization is that the free colored man cannot see that his comfort would be advanced by it.",
+              "word_offset_start": 585,
+              "word_offset_end": 613,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p07_s07",
+              "sentence_ordinal": 7,
+              "text": "You may believe that you can live in WASHINGTON, or elsewhere in the United States, the remainder of your life, as easily, perhaps more so, than you can in any foreign Country; and hence you may come to the conclusion that you have nothing to do with the idea of going to a foreign country.",
+              "word_offset_start": 613,
+              "word_offset_end": 668,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "This is (I speak in no unkind sense) an extremely selfish view of the case.",
+              "word_offset_start": 668,
+              "word_offset_end": 683,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "You ought to do something to help those who are not so fortunate as yourselves.",
+              "word_offset_start": 683,
+              "word_offset_end": 698,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "There is an unwillingness on the part of our people, harsh as it may be, for you free colored people to remain with us.",
+              "word_offset_start": 698,
+              "word_offset_end": 722,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "Now, if you could give a start to the white people, you would open a wide door for many to be made free.",
+              "word_offset_start": 722,
+              "word_offset_end": 745,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "If we deal with those who are not free at the beginning, and whose intellects are clouded by slavery, we have very poor material to start with.",
+              "word_offset_start": 745,
+              "word_offset_end": 772,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "If intelligent colored men, such as are before me, would move in this matter, much might be accomplished.",
+              "word_offset_start": 772,
+              "word_offset_end": 790,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "It is exceedingly important that we have men at the beginning capable of thinking as white men, and not those who have been systematically oppressed.",
+              "word_offset_start": 790,
+              "word_offset_end": 815,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "There is much to encourage you.",
+              "word_offset_start": 815,
+              "word_offset_end": 821,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "For the sake of your race you should sacrifice something of your present comfort for the purpose of being as grand in that respect as the white people.",
+              "word_offset_start": 821,
+              "word_offset_end": 849,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "It is a cheering thought throughout life that something can be done to ameliorate the condition of those who have been subject to the hard usages of the world.",
+              "word_offset_start": 849,
+              "word_offset_end": 878,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p09_s05",
+              "sentence_ordinal": 5,
+              "text": "It is difficult to make a man miserable while he feels he is worthy of himself and claims kindred to the great God who made him.",
+              "word_offset_start": 878,
+              "word_offset_end": 904,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p09_s06",
+              "sentence_ordinal": 6,
+              "text": "In the American Revolutionary war sacrifices were made by men engaged in it, but they were cheered by the future.",
+              "word_offset_start": 904,
+              "word_offset_end": 924,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p09_s07",
+              "sentence_ordinal": 7,
+              "text": "General WASHINGTON himself endured greater physical hardships than if he had remained a British subject, yet he was a happy man because he had engaged in benefiting his race, in doing something for the children of his neighbors, having none of his own.",
+              "word_offset_start": 924,
+              "word_offset_end": 967,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "The colony of Liberia has been in existence a long time.",
+              "word_offset_start": 967,
+              "word_offset_end": 978,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "In a certain sense it is a success.",
+              "word_offset_start": 978,
+              "word_offset_end": 986,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "The old President of Liberia, Roberts, has just been with me--the first time I ever saw him.",
+              "word_offset_start": 986,
+              "word_offset_end": 1003,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p10_s04",
+              "sentence_ordinal": 4,
+              "text": "He says they have within the bounds of that colony between three and four hundred thousand people, or more than in some of our old States, such as Rhode Island or Delaware, or in some of our newer States, and less than in some of our larger ones.",
+              "word_offset_start": 1003,
+              "word_offset_end": 1051,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p10_s05",
+              "sentence_ordinal": 5,
+              "text": "They are not all American colonists or their descendants.",
+              "word_offset_start": 1051,
+              "word_offset_end": 1060,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p10_s06",
+              "sentence_ordinal": 6,
+              "text": "Something less than 12,000 have been sent thither from this country.",
+              "word_offset_start": 1060,
+              "word_offset_end": 1071,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p10_s07",
+              "sentence_ordinal": 7,
+              "text": "Many of the original settlers have died; yet, like people else-where, their offspring outnumber those deceased.",
+              "word_offset_start": 1071,
+              "word_offset_end": 1087,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p10_s08",
+              "sentence_ordinal": 8,
+              "text": "The question is, if the colored people are persuaded to go anywhere, why not there?",
+              "word_offset_start": 1087,
+              "word_offset_end": 1102,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "One reason for unwillingness to do so is that some of you would rather remain within reach of the country of your nativity.",
+              "word_offset_start": 1102,
+              "word_offset_end": 1125,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "I do not know how much attachment you may have toward our race.",
+              "word_offset_start": 1125,
+              "word_offset_end": 1138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p11_s03",
+              "sentence_ordinal": 3,
+              "text": "It does not strike me that you have the greatest reason to love them.",
+              "word_offset_start": 1138,
+              "word_offset_end": 1152,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p11_s04",
+              "sentence_ordinal": 4,
+              "text": "But still you are attached to them, at all events.",
+              "word_offset_start": 1152,
+              "word_offset_end": 1162,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "The place I am thinking about for a colony is in Central America.",
+              "word_offset_start": 1162,
+              "word_offset_end": 1175,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "It is nearer to us than Liberia not much more than one fourth as far as Liberia, and within seven days' run by steamers.",
+              "word_offset_start": 1175,
+              "word_offset_end": 1199,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "Unlike Liberia, it is a great line of travel--it is a highway.",
+              "word_offset_start": 1199,
+              "word_offset_end": 1211,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s04",
+              "sentence_ordinal": 4,
+              "text": "The country is a very excellent one for any people, and with great natural resources and advantages, and especially because of the similarity of climate with your native soil, thus being suited to your physical condition.",
+              "word_offset_start": 1211,
+              "word_offset_end": 1247,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s05",
+              "sentence_ordinal": 5,
+              "text": "The particular place I have in view is to be a great highway from the Atlantic or Caribbean Sea to the Pacific Ocean, and this particular place has all the advantages for a colony.",
+              "word_offset_start": 1247,
+              "word_offset_end": 1281,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s06",
+              "sentence_ordinal": 6,
+              "text": "On both sides there are harbors--among the finest in the world.",
+              "word_offset_start": 1281,
+              "word_offset_end": 1292,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s07",
+              "sentence_ordinal": 7,
+              "text": "Again, there is evidence of very rich coal-mines.",
+              "word_offset_start": 1292,
+              "word_offset_end": 1300,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s08",
+              "sentence_ordinal": 8,
+              "text": "A certain amount of coal is valuable in any country.",
+              "word_offset_start": 1300,
+              "word_offset_end": 1310,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s09",
+              "sentence_ordinal": 9,
+              "text": "Why I attach so much importance to coal is, it will afford an opportunity to the inhabitants for immediate employment till they get ready to settle permanently in their homes.",
+              "word_offset_start": 1310,
+              "word_offset_end": 1340,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s10",
+              "sentence_ordinal": 10,
+              "text": "If you take colonists where there is no good landing, there is a bad show; and so where there is nothing to cultivate and of which to make a farm.",
+              "word_offset_start": 1340,
+              "word_offset_end": 1370,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s11",
+              "sentence_ordinal": 11,
+              "text": "But if something is started so that you can get your daily bread as soon as reach you there, it is a great advantage.",
+              "word_offset_start": 1370,
+              "word_offset_end": 1394,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s12",
+              "sentence_ordinal": 12,
+              "text": "Coal land is the best thing I know of with which to commence an enterprise.",
+              "word_offset_start": 1394,
+              "word_offset_end": 1409,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s13",
+              "sentence_ordinal": 13,
+              "text": "To return--you have been talked to upon this subject, and told that a speculation is intended by gentlemen who have an interest in the country, including the coal-mines.",
+              "word_offset_start": 1409,
+              "word_offset_end": 1437,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s14",
+              "sentence_ordinal": 14,
+              "text": "We have been mistaken all our lives if we do not know whites, as well as blacks, look to their self-interest.",
+              "word_offset_start": 1437,
+              "word_offset_end": 1458,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s15",
+              "sentence_ordinal": 15,
+              "text": "Unless among those deficient of intellect, everybody you trade with makes something.",
+              "word_offset_start": 1458,
+              "word_offset_end": 1470,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s16",
+              "sentence_ordinal": 16,
+              "text": "You meet with these things here and everywhere.",
+              "word_offset_start": 1470,
+              "word_offset_end": 1478,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s17",
+              "sentence_ordinal": 17,
+              "text": "If such persons have what will be an advantage to them, the question is whether it cannot be made of advantage to you.",
+              "word_offset_start": 1478,
+              "word_offset_end": 1501,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s18",
+              "sentence_ordinal": 18,
+              "text": "You are intelligent, and know that success does not so much depend on external help as on self-reliance.",
+              "word_offset_start": 1501,
+              "word_offset_end": 1519,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s19",
+              "sentence_ordinal": 19,
+              "text": "Much, therefore, depends upon yourselves.",
+              "word_offset_start": 1519,
+              "word_offset_end": 1524,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s20",
+              "sentence_ordinal": 20,
+              "text": "As to the coal-mines, I think I see the means available for your self-reliance.",
+              "word_offset_start": 1524,
+              "word_offset_end": 1538,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s21",
+              "sentence_ordinal": 21,
+              "text": "I shall, if I get a sufficient number of you engaged, have provision made that you shall not be wronged.",
+              "word_offset_start": 1538,
+              "word_offset_end": 1558,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s22",
+              "sentence_ordinal": 22,
+              "text": "If you will engage in the enterprise, I will spend some of the money intrusted to me.",
+              "word_offset_start": 1558,
+              "word_offset_end": 1575,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s23",
+              "sentence_ordinal": 23,
+              "text": "I am not sure you will succeed.",
+              "word_offset_start": 1575,
+              "word_offset_end": 1582,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s24",
+              "sentence_ordinal": 24,
+              "text": "The government may lose the money; but we cannot succeed unless we try, and we think with care we can succeed.",
+              "word_offset_start": 1582,
+              "word_offset_end": 1603,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s25",
+              "sentence_ordinal": 25,
+              "text": "The political affairs in Central America are not in quite as satisfactory a condition as I wish.",
+              "word_offset_start": 1603,
+              "word_offset_end": 1620,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p12_s26",
+              "sentence_ordinal": 26,
+              "text": "There are contending factions in that quarter, but it is true all the factions are agreed alike on the subject of colonization, and want it, and are more generous than we are here.",
+              "word_offset_start": 1620,
+              "word_offset_end": 1653,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "To your colored race they have no objection I would endeavor to have you made the equals, and have the best assurance that you should be the equals, of the best.",
+              "word_offset_start": 1653,
+              "word_offset_end": 1684,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "The practical thing I want to ascertain is whether I can get a number of able-bodied men, with their wives and children, who are willing to go when I present evidence of encouragement and protection.",
+              "word_offset_start": 1684,
+              "word_offset_end": 1719,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "Could I get a hundred tolerably intelligent men, with their wives and children, and able to \"cut their own fodder,\" so to speak?",
+              "word_offset_start": 1719,
+              "word_offset_end": 1742,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "Can I have fifty?",
+              "word_offset_start": 1742,
+              "word_offset_end": 1746,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p14_s04",
+              "sentence_ordinal": 4,
+              "text": "If I could find twenty-five able-bodied men, with a mixture of women and children --good things in the family relation, I think,--I could make a successful commencement.",
+              "word_offset_start": 1746,
+              "word_offset_end": 1773,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p14_s05",
+              "sentence_ordinal": 5,
+              "text": "I want you to let me know whether this can be done or not.",
+              "word_offset_start": 1773,
+              "word_offset_end": 1787,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p14_s06",
+              "sentence_ordinal": 6,
+              "text": "This is the practical part of my wish to see you.",
+              "word_offset_start": 1787,
+              "word_offset_end": 1798,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p14_s07",
+              "sentence_ordinal": 7,
+              "text": "These are subjects of very great importance, worthy of a month's study, instead of a speech delivered in an hour.",
+              "word_offset_start": 1798,
+              "word_offset_end": 1818,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_035_s01_p14_s08",
+              "sentence_ordinal": 8,
+              "text": "I ask you, then, to consider seriously, not pertaining to yourselves merely, nor for your race and ours for the present time, but as one of the things, if successfully managed, the good of mankind--not confined to the present generation, but as",
+              "word_offset_start": 1818,
+              "word_offset_end": 1860,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "\"From age to age descends the lay To millions yet to be, Till far its echoes roll away Into eternity.\"",
+              "word_offset_start": 1860,
+              "word_offset_end": 1880,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "The above is merely given as the substance of the President's remarks.",
+              "word_offset_start": 1880,
+              "word_offset_end": 1892,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "The chairman of the delegation briefly replied that they would hold a consultation, and in a short time give an answer.",
+              "word_offset_start": 1892,
+              "word_offset_end": 1913,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "The President said: Take your full time-no hurry at all.",
+              "word_offset_start": 1913,
+              "word_offset_end": 1923,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "The delegation then withdrew.",
+              "word_offset_start": 1923,
+              "word_offset_end": 1927,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "TELEGRAM TO OFFICER AT CAMP CHASE, OHIO.",
+              "word_offset_start": 1927,
+              "word_offset_end": 1934,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "WAR DEPARTMENT, WASHINGTON, D. C., August 14, 1862.",
+              "word_offset_start": 1934,
+              "word_offset_end": 1942,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "OFFICER in charge of Confederate prisoners at Camp Chase, Ohio:",
+              "word_offset_start": 1942,
+              "word_offset_end": 1952,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "It is believed that a Dr. J. J. Williams is a prisoner in your charge, and if so tell him his wife is here and allow him to telegraph to her.",
+              "word_offset_start": 1952,
+              "word_offset_end": 1983,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_035_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "doc_035_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "A. LINCOLN.",
+              "word_offset_start": 1983,
+              "word_offset_end": 1985,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

@@ -1,0 +1,3396 @@
+{
+  "document_id": "doc_033",
+  "meta": {
+    "id": "doc_033",
+    "title": "Speech at New Haven, Connecticut",
+    "short_title": "New Haven Speech",
+    "date": "1860-03-06",
+    "date_precision": "exact",
+    "register": "speech",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 4, Speech at New Haven, Connecticut, March 6, 1860.",
+    "source_url": null,
+    "risk_flags": [],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_033_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_033_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "SPEECH AT NEW HAVEN, CONNECTICUT, MARCH 6, 1860",
+              "word_offset_start": 0,
+              "word_offset_end": 8,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "MR.",
+              "word_offset_start": 8,
+              "word_offset_end": 9,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p02_s02",
+              "sentence_ordinal": 2,
+              "text": "PRESIDENT, AND FELLOW-CITIZENS OF NEW HAVEN:--If the Republican party of this nation shall ever have the national House entrusted to its keeping, it will be the duty of that party to attend to all the affairs of national housekeeping.",
+              "word_offset_start": 9,
+              "word_offset_end": 48,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p02_s03",
+              "sentence_ordinal": 3,
+              "text": "Whatever matters of importance may come up, whatever difficulties may arise in its way of administration of the Government, that party will then have to attend to.",
+              "word_offset_start": 48,
+              "word_offset_end": 75,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p02_s04",
+              "sentence_ordinal": 4,
+              "text": "It will then be compelled to attend to other questions, besides this question which now assumes an overwhelming importance--the question of slavery.",
+              "word_offset_start": 75,
+              "word_offset_end": 97,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p02_s05",
+              "sentence_ordinal": 5,
+              "text": "It is true that in the organization of the Republican party this question of slavery was more important than any other: indeed, so much more important has it become that no more national question can even get a hearing just at present.",
+              "word_offset_start": 97,
+              "word_offset_end": 139,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p02_s06",
+              "sentence_ordinal": 6,
+              "text": "The old question of tariff--a matter that will remain one of the chief affairs of national house-keeping to all time; the question of the management of financial affairs; the question of the disposition of the public domain how shall it be managed for the purpose of getting it well settled, and of making there the homes of a free and happy people? these will remain open and require attention for a great while yet, and these questions will have to be attended to by whatever party has the control of the Government.",
+              "word_offset_start": 139,
+              "word_offset_end": 231,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p02_s07",
+              "sentence_ordinal": 7,
+              "text": "Yet, just now, they cannot even obtain a hearing, and I do not propose to detain you upon these topics or what sort of hearing they should have when opportunity shall come.",
+              "word_offset_start": 231,
+              "word_offset_end": 263,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "For, whether we will or not, the question of slavery is the question, the all-absorbing topic of the day.",
+              "word_offset_start": 263,
+              "word_offset_end": 282,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "It is true that all of us--and by that I mean, not the Republican party alone, but the whole American people, here and elsewhere--all of us wish this question settled, wish it out of the way.",
+              "word_offset_start": 282,
+              "word_offset_end": 318,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "It stands in the way, and prevents the adjustment, and the giving of necessary attention to other questions of national house- keeping.",
+              "word_offset_start": 318,
+              "word_offset_end": 340,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "The people of the whole nation agree that this question ought to be settled, and yet it is not settled.",
+              "word_offset_start": 340,
+              "word_offset_end": 360,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p03_s05",
+              "sentence_ordinal": 5,
+              "text": "And the reason is that they are not yet agreed how it shall be settled.",
+              "word_offset_start": 360,
+              "word_offset_end": 375,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p03_s06",
+              "sentence_ordinal": 6,
+              "text": "All wish it done, but some wish one way and some another, and some a third, or fourth, or fifth; different bodies are pulling in different directions, and none of them, having a decided majority, are able to accomplish the common object.",
+              "word_offset_start": 375,
+              "word_offset_end": 417,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "In the beginning of the year 1854, a new policy was inaugurated with the avowed object and confident promise that it would entirely and forever put an end to the slavery agitation.",
+              "word_offset_start": 417,
+              "word_offset_end": 449,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "It was again and again declared that under this policy, when once successfully established, the country would be forever rid of this whole question.",
+              "word_offset_start": 449,
+              "word_offset_end": 473,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "Yet under the operation of that policy this agitation has not only not ceased, but it has been constantly augmented.",
+              "word_offset_start": 473,
+              "word_offset_end": 493,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "And this too, although, from the day of its introduction, its friends, who promised that it would wholly end all agitation, constantly insisted, down to the time that the Lecompton Bill was introduced, that it was working admirably, and that its inevitable tendency was to remove the question forever from the politics of the country.",
+              "word_offset_start": 493,
+              "word_offset_end": 548,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "Can you call to mind any Democratic speech, made after the repeal of the Missouri Compromise, down to the time of the Lecompton Bill, in which it was not predicted that the slavery agitation was just at an end, that \"the abolition excitement was played out,\" \"the Kansas question was dead,\" \"they have made the most they can out of this question and it is now forever settled\"?",
+              "word_offset_start": 548,
+              "word_offset_end": 616,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p04_s06",
+              "sentence_ordinal": 6,
+              "text": "But since the Lecompton Bill no Democrat, within my experience, has ever pretended that he could see the end.",
+              "word_offset_start": 616,
+              "word_offset_end": 635,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p04_s07",
+              "sentence_ordinal": 7,
+              "text": "That cry has been dropped.",
+              "word_offset_start": 635,
+              "word_offset_end": 640,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p04_s08",
+              "sentence_ordinal": 8,
+              "text": "They themselves do not pretend, now, that the agitation of this subject has come to an end yet.",
+              "word_offset_start": 640,
+              "word_offset_end": 658,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "The truth is that this question is one of national importance, and we cannot help dealing with it; we must do something about it, whether we will or not.",
+              "word_offset_start": 658,
+              "word_offset_end": 687,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p05_s02",
+              "sentence_ordinal": 2,
+              "text": "We cannot avoid it; the subject is one we cannot avoid considering; we can no more avoid it than a man can live without eating.",
+              "word_offset_start": 687,
+              "word_offset_end": 712,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p05_s03",
+              "sentence_ordinal": 3,
+              "text": "It is upon us; it attaches to the body politic as much and closely as the natural wants attach to our natural bodies.",
+              "word_offset_start": 712,
+              "word_offset_end": 735,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p05_s04",
+              "sentence_ordinal": 4,
+              "text": "Now I think it important that this matter should be taken up in earnest, and really settled: And one way to bring about a true settlement of the question is to understand its true magnitude.",
+              "word_offset_start": 735,
+              "word_offset_end": 770,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "There have been many efforts made to settle it.",
+              "word_offset_start": 770,
+              "word_offset_end": 779,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "Again and again it has been fondly hoped that it was settled; but every time it breaks out afresh, and more violently than ever.",
+              "word_offset_start": 779,
+              "word_offset_end": 803,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p06_s03",
+              "sentence_ordinal": 3,
+              "text": "It was settled, our fathers hoped, by the Missouri Compromise, but it did not stay settled.",
+              "word_offset_start": 803,
+              "word_offset_end": 819,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p06_s04",
+              "sentence_ordinal": 4,
+              "text": "Then the compromises of 1850 were declared to be a full and final settlement of the question.",
+              "word_offset_start": 819,
+              "word_offset_end": 836,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p06_s05",
+              "sentence_ordinal": 5,
+              "text": "The two great parties, each in national convention, adopted resolutions declaring that the settlement made by the Compromise of 1850 was a finality that it would last forever.",
+              "word_offset_start": 836,
+              "word_offset_end": 864,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p06_s06",
+              "sentence_ordinal": 6,
+              "text": "Yet how long before it was unsettled again?",
+              "word_offset_start": 864,
+              "word_offset_end": 872,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p06_s07",
+              "sentence_ordinal": 7,
+              "text": "It broke out again in 1854, and blazed higher and raged more furiously than ever before, and the agitation has not rested since.",
+              "word_offset_start": 872,
+              "word_offset_end": 895,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "These repeated settlements must have some faults about them.",
+              "word_offset_start": 895,
+              "word_offset_end": 904,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "There must be some inadequacy in their very nature to the purpose to which they were designed.",
+              "word_offset_start": 904,
+              "word_offset_end": 921,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "We can only speculate as to where that fault, that inadequacy, is, but we may perhaps profit by past experiences.",
+              "word_offset_start": 921,
+              "word_offset_end": 941,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "I think that one of the causes of these repeated failures is that our best and greatest men have greatly underestimated the size of this question.",
+              "word_offset_start": 941,
+              "word_offset_end": 967,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "They have constantly brought forward small cures for great sores--plasters too small to cover the wound.",
+              "word_offset_start": 967,
+              "word_offset_end": 983,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "That is one reason that all settlements have proved temporary--so evanescent.",
+              "word_offset_start": 983,
+              "word_offset_end": 994,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Look at the magnitude of this subject: One sixth of our population, in round numbers-- not quite one sixth, and yet more than a seventh,--about one sixth of the whole population of the United States are slaves.",
+              "word_offset_start": 994,
+              "word_offset_end": 1031,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "The owners of these slaves consider them property.",
+              "word_offset_start": 1031,
+              "word_offset_end": 1039,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "The effect upon the minds of the owners is that of property, and nothing else it induces them to insist upon all that will favorably affect its value as property, to demand laws and institutions and a public policy that shall increase and secure its value, and make it durable, lasting, and universal.",
+              "word_offset_start": 1039,
+              "word_offset_end": 1092,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "The effect on the minds of the owners is to persuade them that there is no wrong in it.",
+              "word_offset_start": 1092,
+              "word_offset_end": 1111,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s05",
+              "sentence_ordinal": 5,
+              "text": "The slaveholder does not like to be considered a mean fellow for holding that species of property, and hence, he has to struggle within himself and sets about arguing himself into the belief that slavery is right.",
+              "word_offset_start": 1111,
+              "word_offset_end": 1148,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s06",
+              "sentence_ordinal": 6,
+              "text": "The property influences his mind.",
+              "word_offset_start": 1148,
+              "word_offset_end": 1153,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s07",
+              "sentence_ordinal": 7,
+              "text": "The dissenting minister who argued some theological point with one of the established church was always met with the reply, \"I can't see it so.\"",
+              "word_offset_start": 1153,
+              "word_offset_end": 1178,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s08",
+              "sentence_ordinal": 8,
+              "text": "He opened a Bible and pointed him a passage, but the orthodox minister replied, \"I can't see it so.\"",
+              "word_offset_start": 1178,
+              "word_offset_end": 1197,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s09",
+              "sentence_ordinal": 9,
+              "text": "Then he showed him a single word--\"Can you see that?\"",
+              "word_offset_start": 1197,
+              "word_offset_end": 1207,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s10",
+              "sentence_ordinal": 10,
+              "text": "\"Yes, I see it,\" was the reply.",
+              "word_offset_start": 1207,
+              "word_offset_end": 1214,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s11",
+              "sentence_ordinal": 11,
+              "text": "The dissenter laid a guinea over the word and asked, \"Do you see it now?\"",
+              "word_offset_start": 1214,
+              "word_offset_end": 1229,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s12",
+              "sentence_ordinal": 12,
+              "text": "So here.",
+              "word_offset_start": 1229,
+              "word_offset_end": 1231,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s13",
+              "sentence_ordinal": 13,
+              "text": "Whether the owners of this species of property do really see it as it is, it is not for me to say, but if they do, they see it as it is through two thousand millions of dollars, and that is a pretty thick coating.",
+              "word_offset_start": 1231,
+              "word_offset_end": 1276,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s14",
+              "sentence_ordinal": 14,
+              "text": "Certain it is that they do not see it as we see it.",
+              "word_offset_start": 1276,
+              "word_offset_end": 1289,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p09_s15",
+              "sentence_ordinal": 15,
+              "text": "Certain it is that this two thousand millions of dollars, invested in this species of property, all so concentrated that the mind can grasp it at once--this immense pecuniary interest--has its influence upon their minds.",
+              "word_offset_start": 1289,
+              "word_offset_end": 1324,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "But here in Connecticut and at the North slavery does not exist, and we see it through no such medium.",
+              "word_offset_start": 1324,
+              "word_offset_end": 1344,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "To us it appears natural to think that slaves are human beings; men, not property; that some of the things, at least, stated about men in the Declaration of Independence apply to them as well as to us.",
+              "word_offset_start": 1344,
+              "word_offset_end": 1382,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "I say we think, most of us, that this charter of freedom applies to the slaves as well as to ourselves; that the class of arguments put forward to batter down that idea are also calculated to break down the very idea of a free government, even for white men, and to undermine the very foundations of free society.",
+              "word_offset_start": 1382,
+              "word_offset_end": 1441,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p11_s03",
+              "sentence_ordinal": 3,
+              "text": "We think slavery a great moral wrong, and, while we do not claim the right to touch it where it exists, we wish to treat it as a wrong in the Territories, where our votes will reach it.",
+              "word_offset_start": 1441,
+              "word_offset_end": 1479,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p11_s04",
+              "sentence_ordinal": 4,
+              "text": "We think that a respect for ourselves, a regard for future generations and for the God that made us, require that we put down this wrong where our votes will properly reach it.",
+              "word_offset_start": 1479,
+              "word_offset_end": 1512,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p11_s05",
+              "sentence_ordinal": 5,
+              "text": "We think that species of labor an injury to free white men--in short, we think slavery a great moral, social, and political evil, tolerable only because, and so far as, its actual existence makes it necessary to tolerate it, and that beyond that it ought to be treated as a wrong.",
+              "word_offset_start": 1512,
+              "word_offset_end": 1563,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "Now these two ideas, the property idea that slavery is right, and the idea that it is wrong, come into collision, and do actually produce that irrepressible conflict which Mr. Seward has been so roundly abused for mentioning.",
+              "word_offset_start": 1563,
+              "word_offset_end": 1601,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "The two ideas conflict, and must conflict.",
+              "word_offset_start": 1601,
+              "word_offset_end": 1608,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Again, in its political aspect, does anything in any way endanger the perpetuity of this Union but that single thing, slavery?",
+              "word_offset_start": 1608,
+              "word_offset_end": 1629,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "Many of our adversaries are anxious to claim that they are specially devoted to the Union, and take pains to charge upon us hostility to the Union.",
+              "word_offset_start": 1629,
+              "word_offset_end": 1656,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p13_s03",
+              "sentence_ordinal": 3,
+              "text": "Now we claim that we are the only true Union men, and we put to them this one proposition: Whatever endangers this Union, save and except slavery?",
+              "word_offset_start": 1656,
+              "word_offset_end": 1683,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p13_s04",
+              "sentence_ordinal": 4,
+              "text": "Did any other thing ever cause a moment's fear?",
+              "word_offset_start": 1683,
+              "word_offset_end": 1692,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p13_s05",
+              "sentence_ordinal": 5,
+              "text": "All men must agree that this thing alone has ever endangered the perpetuity of the Union.",
+              "word_offset_start": 1692,
+              "word_offset_end": 1708,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p13_s06",
+              "sentence_ordinal": 6,
+              "text": "But if it was threatened by any other influence, would not all men say that the best thing that could be done, if we could not or ought not to destroy it, would be at least to keep it from growing any larger?",
+              "word_offset_start": 1708,
+              "word_offset_end": 1751,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p13_s07",
+              "sentence_ordinal": 7,
+              "text": "Can any man believe, that the way to save the Union is to extend and increase the only thing that threatens the Union, and to suffer it to grow bigger and bigger?",
+              "word_offset_start": 1751,
+              "word_offset_end": 1783,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "Whenever this question shall be settled, it must be settled on some philosophical basis.",
+              "word_offset_start": 1783,
+              "word_offset_end": 1797,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "No policy that does not rest upon some philosophical opinion can be permanently maintained.",
+              "word_offset_start": 1797,
+              "word_offset_end": 1811,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "And hence there are but two policies in regard to slavery that can be at all maintained.",
+              "word_offset_start": 1811,
+              "word_offset_end": 1828,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p14_s04",
+              "sentence_ordinal": 4,
+              "text": "The first, based on the property view that slavery is right, conforms to that idea throughout, and demands that we shall do everything for it that we ought to do if it were right.",
+              "word_offset_start": 1828,
+              "word_offset_end": 1862,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p14_s05",
+              "sentence_ordinal": 5,
+              "text": "We must sweep away all opposition, for opposition to the right is wrong; we must agree that slavery is right, and we must adopt the idea that property has persuaded the owner to believe that slavery is morally right and socially elevating.",
+              "word_offset_start": 1862,
+              "word_offset_end": 1904,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p14_s06",
+              "sentence_ordinal": 6,
+              "text": "This gives a philosophical basis for a permanent policy of encouragement.",
+              "word_offset_start": 1904,
+              "word_offset_end": 1915,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "The other policy is one that squares with the idea that slavery is wrong, and it consists in doing everything that we ought to do if it is wrong.",
+              "word_offset_start": 1915,
+              "word_offset_end": 1944,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "Now, I don't wish to be misunderstood, nor to leave a gap down to be misrepresented, even.",
+              "word_offset_start": 1944,
+              "word_offset_end": 1961,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p15_s03",
+              "sentence_ordinal": 3,
+              "text": "I don't mean that we ought to attack it where it exists.",
+              "word_offset_start": 1961,
+              "word_offset_end": 1973,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p15_s04",
+              "sentence_ordinal": 4,
+              "text": "To me it seems that if we were to form a government anew, in view of the actual presence of slavery we should find it necessary to frame just such a government as our fathers did--giving to the slaveholder the entire control where the system was established, while we possessed the power to restrain it from going outside those limits.",
+              "word_offset_start": 1973,
+              "word_offset_end": 2033,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p15_s05",
+              "sentence_ordinal": 5,
+              "text": "From the necessities of the case we should be compelled to form just such a government as our blessed fathers gave us; and, surely, if they have so made it, that adds another reason why we should let slavery alone where it exists.",
+              "word_offset_start": 2033,
+              "word_offset_end": 2076,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "If I saw a venomous snake crawling in the road, any man would say I might seize the nearest stick and kill it; but if I found that snake in bed with my children, that would be another question.",
+              "word_offset_start": 2076,
+              "word_offset_end": 2115,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "I might hurt the children more than the snake, and it might bite them.",
+              "word_offset_start": 2115,
+              "word_offset_end": 2129,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "Much more if I found it in bed with my neighbor's children, and I had bound myself by a solemn compact not to meddle with his children under any circumstances, it would become me to let that particular mode of getting rid of the gentleman alone.",
+              "word_offset_start": 2129,
+              "word_offset_end": 2175,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p16_s04",
+              "sentence_ordinal": 4,
+              "text": "But if there was a bed newly made up, to which the children were to be taken, and it was proposed to take a batch of young snakes and put them there with them, I take it no man would say there was any question how I ought to decide!",
+              "word_offset_start": 2175,
+              "word_offset_end": 2225,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "That is just the case.",
+              "word_offset_start": 2225,
+              "word_offset_end": 2230,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p17_s02",
+              "sentence_ordinal": 2,
+              "text": "The new Territories are the newly made bed to which our children are to go, and it lies with the nation to say whether they shall have snakes mixed up with them or not.",
+              "word_offset_start": 2230,
+              "word_offset_end": 2264,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p17_s03",
+              "sentence_ordinal": 3,
+              "text": "It does not seem as if there could be much hesitation what our policy should be!",
+              "word_offset_start": 2264,
+              "word_offset_end": 2280,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "Now I have spoken of a policy based on the idea that slavery is wrong, and a policy based on the idea that it is right.",
+              "word_offset_start": 2280,
+              "word_offset_end": 2306,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "But an effort has been made for a policy that shall treat it as neither right nor wrong.",
+              "word_offset_start": 2306,
+              "word_offset_end": 2324,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p18_s03",
+              "sentence_ordinal": 3,
+              "text": "It is based upon utter indifference.",
+              "word_offset_start": 2324,
+              "word_offset_end": 2330,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p18_s04",
+              "sentence_ordinal": 4,
+              "text": "Its leading advocate [Douglas] has said, \"I don't care whether it be voted up or down.\"",
+              "word_offset_start": 2330,
+              "word_offset_end": 2346,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p18_s05",
+              "sentence_ordinal": 5,
+              "text": "\"It is merely a matter of dollars and cents.\"",
+              "word_offset_start": 2346,
+              "word_offset_end": 2355,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p18_s06",
+              "sentence_ordinal": 6,
+              "text": "\"The Almighty has drawn a line across this continent, on one side of which all soil must forever be cultivated by slave labor, and on the other by free.\"",
+              "word_offset_start": 2355,
+              "word_offset_end": 2384,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p18_s07",
+              "sentence_ordinal": 7,
+              "text": "\"When the struggle is between the white man and the negro, I am for the white man; when it is between the negro and the crocodile, I am for the negro.\"",
+              "word_offset_start": 2384,
+              "word_offset_end": 2415,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p18_s08",
+              "sentence_ordinal": 8,
+              "text": "Its central idea is indifference.",
+              "word_offset_start": 2415,
+              "word_offset_end": 2420,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p18_s09",
+              "sentence_ordinal": 9,
+              "text": "It holds that it makes no more difference to us whether the Territories become free or slave States than whether my neighbor stocks his farm with horned cattle or puts in tobacco.",
+              "word_offset_start": 2420,
+              "word_offset_end": 2452,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p18_s10",
+              "sentence_ordinal": 10,
+              "text": "All recognize this policy, the plausible sugar-coated name of which is \"popular sovereignty.\"",
+              "word_offset_start": 2452,
+              "word_offset_end": 2465,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "This policy chiefly stands in the way of a permanent settlement of the question.",
+              "word_offset_start": 2465,
+              "word_offset_end": 2479,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "I believe there is no danger of its becoming the permanent policy of the country, for it is based on a public indifference.",
+              "word_offset_start": 2479,
+              "word_offset_end": 2502,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "There is nobody that \"don't care.\"",
+              "word_offset_start": 2502,
+              "word_offset_end": 2508,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p19_s04",
+              "sentence_ordinal": 4,
+              "text": "All the people do care one way or the other!",
+              "word_offset_start": 2508,
+              "word_offset_end": 2518,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p19_s05",
+              "sentence_ordinal": 5,
+              "text": "I do not charge that its author, when he says he \"don't care,\" states his individual opinion; he only expresses his policy for the government.",
+              "word_offset_start": 2518,
+              "word_offset_end": 2543,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p19_s06",
+              "sentence_ordinal": 6,
+              "text": "I understand that he has never said as an individual whether he thought slavery right or wrong--and he is the only man in the nation that has not!",
+              "word_offset_start": 2543,
+              "word_offset_end": 2571,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p19_s07",
+              "sentence_ordinal": 7,
+              "text": "Now such a policy may have a temporary run; it may spring up as necessary to the political prospects of some gentleman; but it is utterly baseless: the people are not indifferent, and it can therefore have no durability or permanence.",
+              "word_offset_start": 2571,
+              "word_offset_end": 2612,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "But suppose it could: Then it could be maintained only by a public opinion that shall say, \"We don't care.\"",
+              "word_offset_start": 2612,
+              "word_offset_end": 2632,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "There must be a change in public opinion; the public mind must be so far debauched as to square with this policy of caring not at all.",
+              "word_offset_start": 2632,
+              "word_offset_end": 2659,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p20_s03",
+              "sentence_ordinal": 3,
+              "text": "The people must come to consider this as \"merely a question of dollars and cents,\" and to believe that in some places the Almighty has made slavery necessarily eternal.",
+              "word_offset_start": 2659,
+              "word_offset_end": 2688,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p20_s04",
+              "sentence_ordinal": 4,
+              "text": "This policy can be brought to prevail if the people can be brought round to say honestly, \"We don't care\"; if not, it can never be maintained.",
+              "word_offset_start": 2688,
+              "word_offset_end": 2715,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p20_s05",
+              "sentence_ordinal": 5,
+              "text": "It is for you to say whether that can be done.",
+              "word_offset_start": 2715,
+              "word_offset_end": 2726,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "You are ready to say it cannot, but be not too fast!",
+              "word_offset_start": 2726,
+              "word_offset_end": 2738,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s02",
+              "sentence_ordinal": 2,
+              "text": "Remember what a long stride has been taken since the repeal of the Missouri Compromise!",
+              "word_offset_start": 2738,
+              "word_offset_end": 2753,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s03",
+              "sentence_ordinal": 3,
+              "text": "Do you know of any Democrat, of either branch of the party--do you know one who declares that he believes that the Declaration of Independence has any application to the negro?",
+              "word_offset_start": 2753,
+              "word_offset_end": 2784,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s04",
+              "sentence_ordinal": 4,
+              "text": "Judge Taney declares that it has not, and Judge Douglas even vilifies me personally and scolds me roundly for saying that the Declaration applies to all men, and that negroes are men.",
+              "word_offset_start": 2784,
+              "word_offset_end": 2816,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s05",
+              "sentence_ordinal": 5,
+              "text": "Is there a Democrat here who does not deny that the Declaration applies to the negro?",
+              "word_offset_start": 2816,
+              "word_offset_end": 2832,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s06",
+              "sentence_ordinal": 6,
+              "text": "Do any of you know of one?",
+              "word_offset_start": 2832,
+              "word_offset_end": 2839,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s07",
+              "sentence_ordinal": 7,
+              "text": "Well, I have tried before perhaps fifty audiences, some larger and some smaller than this, to find one such Democrat, and never yet have I found one who said I did not place him right in that.",
+              "word_offset_start": 2839,
+              "word_offset_end": 2876,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s08",
+              "sentence_ordinal": 8,
+              "text": "I must assume that Democrats hold that, and now, not one of these Democrats can show that he said that five years ago!",
+              "word_offset_start": 2876,
+              "word_offset_end": 2899,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s09",
+              "sentence_ordinal": 9,
+              "text": "I venture to defy the whole party to produce one man that ever uttered the belief that the Declaration did not apply to negroes, before the repeal of the Missouri Compromise!",
+              "word_offset_start": 2899,
+              "word_offset_end": 2930,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s10",
+              "sentence_ordinal": 10,
+              "text": "Four or five years ago we all thought negroes were men, and that when \"all men\" were named, negroes were included.",
+              "word_offset_start": 2930,
+              "word_offset_end": 2951,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s11",
+              "sentence_ordinal": 11,
+              "text": "But the whole Democratic party has deliberately taken negroes from the class of men and put them in the class of brutes.",
+              "word_offset_start": 2951,
+              "word_offset_end": 2973,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s12",
+              "sentence_ordinal": 12,
+              "text": "Turn it as you will it is simply the truth!",
+              "word_offset_start": 2973,
+              "word_offset_end": 2983,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s13",
+              "sentence_ordinal": 13,
+              "text": "Don't be too hasty, then, in saying that the people cannot be brought to this new doctrine, but note that long stride.",
+              "word_offset_start": 2983,
+              "word_offset_end": 3005,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p21_s14",
+              "sentence_ordinal": 14,
+              "text": "One more as long completes the journey from where negroes are estimated as men to where they are estimated as mere brutes--as rightful property!",
+              "word_offset_start": 3005,
+              "word_offset_end": 3029,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "That saying \"In the struggle between white men and the negro,\" etc., which I know came from the same source as this policy--that saying marks another step.",
+              "word_offset_start": 3029,
+              "word_offset_end": 3056,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "There is a falsehood wrapped up in that statement.",
+              "word_offset_start": 3056,
+              "word_offset_end": 3065,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "\"In the struggle between the white man and the negro\" assumes that there is a struggle, in which either the white man must enslave the negro or the negro must enslave the white.",
+              "word_offset_start": 3065,
+              "word_offset_end": 3098,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p22_s04",
+              "sentence_ordinal": 4,
+              "text": "There is no such struggle!",
+              "word_offset_start": 3098,
+              "word_offset_end": 3103,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p22_s05",
+              "sentence_ordinal": 5,
+              "text": "It is merely the ingenious falsehood to degrade and brutalize the negro.",
+              "word_offset_start": 3103,
+              "word_offset_end": 3115,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p22_s06",
+              "sentence_ordinal": 6,
+              "text": "Let each let the other alone, and there is no struggle about it.",
+              "word_offset_start": 3115,
+              "word_offset_end": 3128,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p22_s07",
+              "sentence_ordinal": 7,
+              "text": "If it was like two wrecked seamen on a narrow plank, when each must push the other off or drown himself, I would push the negro off or a white man either, but it is not; the plank is large enough for both.",
+              "word_offset_start": 3128,
+              "word_offset_end": 3171,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p22_s08",
+              "sentence_ordinal": 8,
+              "text": "This good earth is plenty broad enough for white man and negro both, and there is no need of either pushing the other off.",
+              "word_offset_start": 3171,
+              "word_offset_end": 3195,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "So that saying, \"In the struggle between the negro and the crocodile,\" etc., is made up from the idea that down where the crocodile inhabits, a white man can't labor; it must be nothing else but crocodile or negro; if the negro does not the crocodile must possess the earth; in that case he declares for the negro.",
+              "word_offset_start": 3195,
+              "word_offset_end": 3253,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "The meaning of the whole is just this: As a white man is to a negro, so is a negro to a crocodile; and as the negro may rightfully treat the crocodile, so may the white man rightfully treat the negro.",
+              "word_offset_start": 3253,
+              "word_offset_end": 3294,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p23_s03",
+              "sentence_ordinal": 3,
+              "text": "This very dear phrase coined by its author, and so dear that he deliberately repeats it in many speeches, has a tendency to still further brutalize the negro, and to bring public opinion to the point of utter indifference whether men so brutalized are enslaved or not.",
+              "word_offset_start": 3294,
+              "word_offset_end": 3341,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p23_s04",
+              "sentence_ordinal": 4,
+              "text": "When that time shall come, if ever, I think that policy to which I refer may prevail.",
+              "word_offset_start": 3341,
+              "word_offset_end": 3358,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p23_s05",
+              "sentence_ordinal": 5,
+              "text": "But I hope the good freemen of this country will never allow it to come, and until then the policy can never be maintained.",
+              "word_offset_start": 3358,
+              "word_offset_end": 3382,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "Now consider the effect of this policy.",
+              "word_offset_start": 3382,
+              "word_offset_end": 3389,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "We in the States are not to care whether freedom or slavery gets the better, but the people in the Territories may care.",
+              "word_offset_start": 3389,
+              "word_offset_end": 3412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p24_s03",
+              "sentence_ordinal": 3,
+              "text": "They are to decide, and they may think what they please; it is a matter of dollars and cents!",
+              "word_offset_start": 3412,
+              "word_offset_end": 3431,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p24_s04",
+              "sentence_ordinal": 4,
+              "text": "But are not the people of the Territories detailed from the States?",
+              "word_offset_start": 3431,
+              "word_offset_end": 3443,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p24_s05",
+              "sentence_ordinal": 5,
+              "text": "If this feeling of indifference this absence of moral sense about the question prevails in the States, will it not be carried into the Territories?",
+              "word_offset_start": 3443,
+              "word_offset_end": 3468,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p24_s06",
+              "sentence_ordinal": 6,
+              "text": "Will not every man say, \"I don't care, it is nothing to me\"?",
+              "word_offset_start": 3468,
+              "word_offset_end": 3481,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p24_s07",
+              "sentence_ordinal": 7,
+              "text": "If any one comes that wants slavery, must they not say, \"I don't care whether freedom or slavery be voted up or voted down\"?",
+              "word_offset_start": 3481,
+              "word_offset_end": 3505,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p24_s08",
+              "sentence_ordinal": 8,
+              "text": "It results at last in nationalizing the institution of slavery.",
+              "word_offset_start": 3505,
+              "word_offset_end": 3515,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p24_s09",
+              "sentence_ordinal": 9,
+              "text": "Even if fairly carried out, that policy is just as certain to nationalize slavery as the doctrine of Jeff Davis himself.",
+              "word_offset_start": 3515,
+              "word_offset_end": 3536,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p24_s10",
+              "sentence_ordinal": 10,
+              "text": "These are only two roads to the same goal, and \"popular sovereignty\" is just as sure and almost as short as the other.",
+              "word_offset_start": 3536,
+              "word_offset_end": 3559,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "What we want, and all we want, is to have with us the men who think slavery wrong.",
+              "word_offset_start": 3559,
+              "word_offset_end": 3577,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "But those who say they hate slavery, and are opposed to it, but yet act with the Democratic party--where are they?",
+              "word_offset_start": 3577,
+              "word_offset_end": 3598,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p25_s03",
+              "sentence_ordinal": 3,
+              "text": "Let us apply a few tests.",
+              "word_offset_start": 3598,
+              "word_offset_end": 3604,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p25_s04",
+              "sentence_ordinal": 4,
+              "text": "You say that you think slavery is wrong, but you denounce all attempts to restrain it.",
+              "word_offset_start": 3604,
+              "word_offset_end": 3620,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p25_s05",
+              "sentence_ordinal": 5,
+              "text": "Is there anything else that you think wrong that you are not willing to deal with as wrong?",
+              "word_offset_start": 3620,
+              "word_offset_end": 3638,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p25_s06",
+              "sentence_ordinal": 6,
+              "text": "Why are you so careful, so tender, of this one wrong and no other?",
+              "word_offset_start": 3638,
+              "word_offset_end": 3652,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p25_s07",
+              "sentence_ordinal": 7,
+              "text": "You will not let us do a single thing as if it was wrong; there is no place where you will even allow it to be called wrong!",
+              "word_offset_start": 3652,
+              "word_offset_end": 3680,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p25_s08",
+              "sentence_ordinal": 8,
+              "text": "We must not call it wrong in the free States, because it is not there, and we must not call it wrong in the slave States, because it is there; we must not call it wrong in politics because that is bringing morality into politics, and we must not call it wrong in the pulpit because that is bringing politics into religion; we must not bring it into the Tract Society or the other societies, because those are such unsuitable places--and there is no single place, according to you, where this wrong thing can properly be called wrong!",
+              "word_offset_start": 3680,
+              "word_offset_end": 3778,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "Perhaps you will plead that if the people of the slave States should themselves set on foot an effort for emancipation, you would wish them success, and bid them God-speed.",
+              "word_offset_start": 3778,
+              "word_offset_end": 3808,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p26_s02",
+              "sentence_ordinal": 2,
+              "text": "Let us test that: In 1858 the emancipation party of Missouri, with Frank Blair at their head, tried to get up a movement for that purpose, and having started a party contested the State.",
+              "word_offset_start": 3808,
+              "word_offset_end": 3842,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p26_s03",
+              "sentence_ordinal": 3,
+              "text": "Blair was beaten, apparently if not truly, and when the news came to Connecticut, you, who knew that Frank Blair was taking hold of this thing by the right end, and doing the only thing that you say can properly be done to remove this wrong-- did you bow your heads in sorrow because of that defeat?",
+              "word_offset_start": 3842,
+              "word_offset_end": 3899,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p26_s04",
+              "sentence_ordinal": 4,
+              "text": "Do you, any of you, know one single Democrat that showed sorrow over that result?",
+              "word_offset_start": 3899,
+              "word_offset_end": 3914,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p26_s05",
+              "sentence_ordinal": 5,
+              "text": "Not one!",
+              "word_offset_start": 3914,
+              "word_offset_end": 3916,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p26_s06",
+              "sentence_ordinal": 6,
+              "text": "On the contrary every man threw up his hat, and hallooed at the top of his lungs, \"Hooray for Democracy!\"",
+              "word_offset_start": 3916,
+              "word_offset_end": 3936,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "Now, gentlemen, the Republicans desire to place this great question of slavery on the very basis on which our fathers placed it, and no other.",
+              "word_offset_start": 3936,
+              "word_offset_end": 3961,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "It is easy to demonstrate that \"our fathers, who framed this Government under which we live,\" looked on slavery as wrong, and so framed it and everything about it as to square with the idea that it was wrong, so far as the necessities arising from its existence permitted.",
+              "word_offset_start": 3961,
+              "word_offset_end": 4010,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p27_s03",
+              "sentence_ordinal": 3,
+              "text": "In forming the Constitution they found the slave trade existing, capital invested in it, fields depending upon it for labor, and the whole system resting upon the importation of slave labor.",
+              "word_offset_start": 4010,
+              "word_offset_end": 4041,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p27_s04",
+              "sentence_ordinal": 4,
+              "text": "They therefore did not prohibit the slave trade at once, but they gave the power to prohibit it after twenty years.",
+              "word_offset_start": 4041,
+              "word_offset_end": 4062,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p27_s05",
+              "sentence_ordinal": 5,
+              "text": "Why was this?",
+              "word_offset_start": 4062,
+              "word_offset_end": 4065,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p27_s06",
+              "sentence_ordinal": 6,
+              "text": "What other foreign trade did they treat in that way?",
+              "word_offset_start": 4065,
+              "word_offset_end": 4075,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p27_s07",
+              "sentence_ordinal": 7,
+              "text": "Would they have done this if they had not thought slavery wrong?",
+              "word_offset_start": 4075,
+              "word_offset_end": 4087,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "Another thing was done by some of the same men who framed the Constitution, and afterwards adopted as their own the act by the first Congress held under that Constitution, of which many of the framers were members, that prohibited the spread of slavery into Territories.",
+              "word_offset_start": 4087,
+              "word_offset_end": 4133,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "Thus the same men, the framers of the Constitution, cut off the supply and prohibited the spread of slavery, and both acts show conclusively that they considered that the thing was wrong.",
+              "word_offset_start": 4133,
+              "word_offset_end": 4165,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "If additional proof is wanted it can be found in the phraseology of the Constitution.",
+              "word_offset_start": 4165,
+              "word_offset_end": 4180,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p29_s02",
+              "sentence_ordinal": 2,
+              "text": "When men are framing a supreme law and chart of government, to secure blessings and prosperity to untold generations yet to come, they use language as short and direct and plain as can be found, to express their meaning In all matters but this of slavery the framers of the Constitution used the very clearest, shortest, and most direct language.",
+              "word_offset_start": 4180,
+              "word_offset_end": 4240,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p29_s03",
+              "sentence_ordinal": 3,
+              "text": "But the Constitution alludes to slavery three times without mentioning it once The language used becomes ambiguous, roundabout, and mystical.",
+              "word_offset_start": 4240,
+              "word_offset_end": 4260,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p29_s04",
+              "sentence_ordinal": 4,
+              "text": "They speak of the \"immigration of persons,\" and mean the importation of slaves, but do not say so.",
+              "word_offset_start": 4260,
+              "word_offset_end": 4278,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p29_s05",
+              "sentence_ordinal": 5,
+              "text": "In establishing a basis of representation they say \"all other persons,\" when they mean to say slaves--why did they not use the shortest phrase?",
+              "word_offset_start": 4278,
+              "word_offset_end": 4302,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p29_s06",
+              "sentence_ordinal": 6,
+              "text": "In providing for the return of fugitives they say \"persons held to service or labor.\"",
+              "word_offset_start": 4302,
+              "word_offset_end": 4317,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p29_s07",
+              "sentence_ordinal": 7,
+              "text": "If they had said slaves it would have been plainer, and less liable to misconstruction.",
+              "word_offset_start": 4317,
+              "word_offset_end": 4332,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p29_s08",
+              "sentence_ordinal": 8,
+              "text": "Why did n't they do it?",
+              "word_offset_start": 4332,
+              "word_offset_end": 4338,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p29_s09",
+              "sentence_ordinal": 9,
+              "text": "We cannot doubt that it was done on purpose.",
+              "word_offset_start": 4338,
+              "word_offset_end": 4347,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p29_s10",
+              "sentence_ordinal": 10,
+              "text": "Only one reason is possible, and that is supplied us by one of the framers of the Constitution--and it is not possible for man to conceive of any other--they expected and desired that the system would come to an end, and meant that when it did, the Constitution should not show that there ever had been a slave in this good free country of ours.",
+              "word_offset_start": 4347,
+              "word_offset_end": 4412,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "I will dwell on that no longer.",
+              "word_offset_start": 4412,
+              "word_offset_end": 4419,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p30_s02",
+              "sentence_ordinal": 2,
+              "text": "I see the signs of approaching triumph of the Republicans in the bearing of their political adversaries.",
+              "word_offset_start": 4419,
+              "word_offset_end": 4436,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p30_s03",
+              "sentence_ordinal": 3,
+              "text": "A great deal of their war with us nowadays is mere bushwhacking.",
+              "word_offset_start": 4436,
+              "word_offset_end": 4448,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p30_s04",
+              "sentence_ordinal": 4,
+              "text": "At the battle of Waterloo, when Napoleon's cavalry had charged again and again upon the unbroken squares of British infantry, at last they were giving up the attempt, and going off in disorder, when some of the officers in mere vexation and complete despair fired their pistols at those solid squares.",
+              "word_offset_start": 4448,
+              "word_offset_end": 4499,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p30_s05",
+              "sentence_ordinal": 5,
+              "text": "The Democrats are in that sort of extreme desperation; it is nothing else.",
+              "word_offset_start": 4499,
+              "word_offset_end": 4512,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p30_s06",
+              "sentence_ordinal": 6,
+              "text": "I will take up a few of these arguments.",
+              "word_offset_start": 4512,
+              "word_offset_end": 4521,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "There is \"the irrepressible conflict.\"",
+              "word_offset_start": 4521,
+              "word_offset_end": 4526,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "How they rail at Seward for that saying!",
+              "word_offset_start": 4526,
+              "word_offset_end": 4534,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p31_s03",
+              "sentence_ordinal": 3,
+              "text": "They repeat it constantly; and, although the proof has been thrust under their noses again and again that almost every good man since the formation of our Government has uttered that same sentiment, from General Washington, who \"trusted that we should yet have a confederacy of free States,\" with Jefferson, Jay, Monroe, down to the latest days, yet they refuse to notice that at all, and persist in railing at Seward for saying it.",
+              "word_offset_start": 4534,
+              "word_offset_end": 4608,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p31_s04",
+              "sentence_ordinal": 4,
+              "text": "Even Roger A. Pryor, editor of the Richmond Enquirer, uttered the same sentiment in almost the same language, and yet so little offence did it give the Democrats that he was sent for to Washington to edit the States--the Douglas organ there--while Douglas goes into hydrophobia and spasms of rage because Seward dared to repeat it.",
+              "word_offset_start": 4608,
+              "word_offset_end": 4664,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p31_s05",
+              "sentence_ordinal": 5,
+              "text": "This is what I call bushwhacking, a sort of argument that they must know any child can see through.",
+              "word_offset_start": 4664,
+              "word_offset_end": 4683,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "Another is John Brown: \"You stir up insurrections, you invade the South; John Brown!",
+              "word_offset_start": 4683,
+              "word_offset_end": 4697,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "Harper's Ferry!\"",
+              "word_offset_start": 4697,
+              "word_offset_end": 4699,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s03",
+              "sentence_ordinal": 3,
+              "text": "Why, John Brown was not a Republican!",
+              "word_offset_start": 4699,
+              "word_offset_end": 4706,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s04",
+              "sentence_ordinal": 4,
+              "text": "You have never implicated a single Republican in that Harper's Ferry enterprise.",
+              "word_offset_start": 4706,
+              "word_offset_end": 4718,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s05",
+              "sentence_ordinal": 5,
+              "text": "We tell you that if any member of the Republican party is guilty in that matter, you know it or you do not know it.",
+              "word_offset_start": 4718,
+              "word_offset_end": 4743,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s06",
+              "sentence_ordinal": 6,
+              "text": "If you do know it, you are inexcusable not to designate the man and prove the fact.",
+              "word_offset_start": 4743,
+              "word_offset_end": 4760,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s07",
+              "sentence_ordinal": 7,
+              "text": "If you do not know it, you are inexcusable to assert it, and especially to persist in the assertion after you have tried and failed to make the proof.",
+              "word_offset_start": 4760,
+              "word_offset_end": 4789,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s08",
+              "sentence_ordinal": 8,
+              "text": "You need not be told that persisting in a charge which one does not know to be true is simply malicious slander.",
+              "word_offset_start": 4789,
+              "word_offset_end": 4811,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s09",
+              "sentence_ordinal": 9,
+              "text": "Some of you admit that no Republican designedly aided or encouraged the Harper's Ferry affair, but still insist that our doctrines and declarations necessarily lead to such results.",
+              "word_offset_start": 4811,
+              "word_offset_end": 4839,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s10",
+              "sentence_ordinal": 10,
+              "text": "We do not believe it.",
+              "word_offset_start": 4839,
+              "word_offset_end": 4844,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s11",
+              "sentence_ordinal": 11,
+              "text": "We know we hold to no doctrines, and make no declarations, which were not held to and made by our fathers who framed the Government 'under which we live, and we cannot see how declarations that were patriotic when they made them are villainous when we make them.",
+              "word_offset_start": 4844,
+              "word_offset_end": 4892,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s12",
+              "sentence_ordinal": 12,
+              "text": "You never dealt fairly by us in relation to that affair--and I will say frankly that I know of nothing in your character that should lead us to suppose that you would.",
+              "word_offset_start": 4892,
+              "word_offset_end": 4924,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s13",
+              "sentence_ordinal": 13,
+              "text": "You had just been soundly thrashed in elections in several States, and others were soon to come.",
+              "word_offset_start": 4924,
+              "word_offset_end": 4941,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s14",
+              "sentence_ordinal": 14,
+              "text": "You rejoiced at the occasion, and only were troubled that there were not three times as many killed in the affair.",
+              "word_offset_start": 4941,
+              "word_offset_end": 4962,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s15",
+              "sentence_ordinal": 15,
+              "text": "You were in evident glee; there was no sorrow for the killed nor for the peace of Virginia disturbed; you were rejoicing that by charging Republicans with this thing you might get an advantage of us in New York, and the other States.",
+              "word_offset_start": 4962,
+              "word_offset_end": 5005,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s16",
+              "sentence_ordinal": 16,
+              "text": "You pulled that string as tightly as you could, but your very generous and worthy expectations were not quite fulfilled.",
+              "word_offset_start": 5005,
+              "word_offset_end": 5025,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s17",
+              "sentence_ordinal": 17,
+              "text": "Each Republican knew that the charge was a slander as to himself at least, and was not inclined by it to cast his vote in your favor.",
+              "word_offset_start": 5025,
+              "word_offset_end": 5052,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s18",
+              "sentence_ordinal": 18,
+              "text": "It was mere bushwhacking, because you had nothing else to do.",
+              "word_offset_start": 5052,
+              "word_offset_end": 5063,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s19",
+              "sentence_ordinal": 19,
+              "text": "You are still on that track, and I say, go on!",
+              "word_offset_start": 5063,
+              "word_offset_end": 5074,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p32_s20",
+              "sentence_ordinal": 20,
+              "text": "If you think you can slander a woman into loving you or a man into voting for you, try it till you are satisfied!",
+              "word_offset_start": 5074,
+              "word_offset_end": 5098,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "Another specimen of this bushwhacking, that \"shoe strike.\"",
+              "word_offset_start": 5098,
+              "word_offset_end": 5106,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "Now be it understood that I do not pretend to know all about the matter.",
+              "word_offset_start": 5106,
+              "word_offset_end": 5121,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s03",
+              "sentence_ordinal": 3,
+              "text": "I am merely going to speculate a little about some of its phases.",
+              "word_offset_start": 5121,
+              "word_offset_end": 5134,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s04",
+              "sentence_ordinal": 4,
+              "text": "And at the outset, I am glad to see that a system of labor prevails in New England under which laborers can strike when they want to, where they are not obliged to work under all circumstances, and are not tied down and obliged to labor whether you pay them or not!",
+              "word_offset_start": 5134,
+              "word_offset_end": 5186,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s05",
+              "sentence_ordinal": 5,
+              "text": "I like the system which lets a man quit when he wants to, and wish it might prevail everywhere.",
+              "word_offset_start": 5186,
+              "word_offset_end": 5205,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s06",
+              "sentence_ordinal": 6,
+              "text": "One of the reasons why I am opposed to slavery is just here.",
+              "word_offset_start": 5205,
+              "word_offset_end": 5218,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s07",
+              "sentence_ordinal": 7,
+              "text": "What is the true condition of the laborer?",
+              "word_offset_start": 5218,
+              "word_offset_end": 5226,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s08",
+              "sentence_ordinal": 8,
+              "text": "I take it that it is best for all to leave each man free to acquire property as fast as he can.",
+              "word_offset_start": 5226,
+              "word_offset_end": 5248,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s09",
+              "sentence_ordinal": 9,
+              "text": "Some will get wealthy.",
+              "word_offset_start": 5248,
+              "word_offset_end": 5252,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s10",
+              "sentence_ordinal": 10,
+              "text": "I don't believe in a law to prevent a man from getting rich; it would do more harm than good.",
+              "word_offset_start": 5252,
+              "word_offset_end": 5272,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s11",
+              "sentence_ordinal": 11,
+              "text": "So, while we do not propose any war upon capital, we do wish to allow the humblest man an equal chance to get rich with everybody else.",
+              "word_offset_start": 5272,
+              "word_offset_end": 5299,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s12",
+              "sentence_ordinal": 12,
+              "text": "When one starts poor, as most do in the race of life, free society is such that he knows he can better his condition; he knows that there is no fixed condition of labor for his whole life.",
+              "word_offset_start": 5299,
+              "word_offset_end": 5337,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s13",
+              "sentence_ordinal": 13,
+              "text": "I am not ashamed to confess that twenty-five years ago I was a hired laborer, mauling rails, at work on a flatboat--just what might happen to any poor man's son!",
+              "word_offset_start": 5337,
+              "word_offset_end": 5367,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s14",
+              "sentence_ordinal": 14,
+              "text": "I want every man to have a chance--and I believe a Black man is entitled to it--in which he can better his condition; when he may look forward and hope to be a hired laborer this year and the next, work for himself afterward, and finally to hire men to work for him!",
+              "word_offset_start": 5367,
+              "word_offset_end": 5420,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s15",
+              "sentence_ordinal": 15,
+              "text": "That is the system.",
+              "word_offset_start": 5420,
+              "word_offset_end": 5424,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s16",
+              "sentence_ordinal": 16,
+              "text": "Up here in New England, you have a soil that scarcely sprouts black-eyed beans, and yet where will you find wealthy men so wealthy, and poverty so rarely in extremity?",
+              "word_offset_start": 5424,
+              "word_offset_end": 5454,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s17",
+              "sentence_ordinal": 17,
+              "text": "There is not another such place on earth!",
+              "word_offset_start": 5454,
+              "word_offset_end": 5462,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s18",
+              "sentence_ordinal": 18,
+              "text": "I desire that if you get too thick here, and find it hard to better your condition on this soil, you may have a chance to strike and go somewhere else, where you may not be degraded, nor have your families corrupted, by forced rivalry with negro slaves.",
+              "word_offset_start": 5462,
+              "word_offset_end": 5510,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s19",
+              "sentence_ordinal": 19,
+              "text": "I want you to have a clean bed and no snakes in it!",
+              "word_offset_start": 5510,
+              "word_offset_end": 5523,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p33_s20",
+              "sentence_ordinal": 20,
+              "text": "Then you can better your condition, and so it may go on and on in one endless round so long as man exists on the face of the earth!",
+              "word_offset_start": 5523,
+              "word_offset_end": 5552,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "Now, to come back to this shoe strike,--if, as the senator from Illinois asserts, this is caused by withdrawal of Southern votes, consider briefly how you will meet the difficulty.",
+              "word_offset_start": 5552,
+              "word_offset_end": 5582,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p34_s02",
+              "sentence_ordinal": 2,
+              "text": "You have done nothing, and have protested that you have done nothing, to injure the South.",
+              "word_offset_start": 5582,
+              "word_offset_end": 5598,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p34_s03",
+              "sentence_ordinal": 3,
+              "text": "And yet, to get back the shoe trade, you must leave off doing something which you are now doing.",
+              "word_offset_start": 5598,
+              "word_offset_end": 5617,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p34_s04",
+              "sentence_ordinal": 4,
+              "text": "What is it?",
+              "word_offset_start": 5617,
+              "word_offset_end": 5620,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p34_s05",
+              "sentence_ordinal": 5,
+              "text": "You must stop thinking slavery wrong!",
+              "word_offset_start": 5620,
+              "word_offset_end": 5626,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p34_s06",
+              "sentence_ordinal": 6,
+              "text": "Let your institutions be wholly changed; let your State constitutions be subverted; glorify slavery, and so you will get back the shoe trade--for what?",
+              "word_offset_start": 5626,
+              "word_offset_end": 5650,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p34_s07",
+              "sentence_ordinal": 7,
+              "text": "You have brought owned labor with it, to compete with your own labor, to underwork you, and to degrade you!",
+              "word_offset_start": 5650,
+              "word_offset_end": 5670,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p34_s08",
+              "sentence_ordinal": 8,
+              "text": "Are you ready to get back the trade on those terms?",
+              "word_offset_start": 5670,
+              "word_offset_end": 5681,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "But the statement is not correct.",
+              "word_offset_start": 5681,
+              "word_offset_end": 5687,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p35_s02",
+              "sentence_ordinal": 2,
+              "text": "You have not lost that trade; orders were never better than now!",
+              "word_offset_start": 5687,
+              "word_offset_end": 5699,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p35_s03",
+              "sentence_ordinal": 3,
+              "text": "Senator Mason, a Democrat, comes into the Senate in homespun, a proof that the dissolution of the Union has actually begun! but orders are the same.",
+              "word_offset_start": 5699,
+              "word_offset_end": 5725,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p35_s04",
+              "sentence_ordinal": 4,
+              "text": "Your factories have not struck work, neither those where they make anything for coats, nor for pants nor for shirts, nor for ladies' dresses.",
+              "word_offset_start": 5725,
+              "word_offset_end": 5749,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p35_s05",
+              "sentence_ordinal": 5,
+              "text": "Mr. Mason has not reached the manufacturers who ought to have made him a coat and pants!",
+              "word_offset_start": 5749,
+              "word_offset_end": 5766,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p35_s06",
+              "sentence_ordinal": 6,
+              "text": "To make his proof good for anything he should have come into the Senate barefoot!",
+              "word_offset_start": 5766,
+              "word_offset_end": 5781,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "Another bushwhacking contrivance; simply that, nothing else!",
+              "word_offset_start": 5781,
+              "word_offset_end": 5788,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p36_s02",
+              "sentence_ordinal": 2,
+              "text": "I find a good many people who are very much concerned about the loss of Southern trade.",
+              "word_offset_start": 5788,
+              "word_offset_end": 5805,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p36_s03",
+              "sentence_ordinal": 3,
+              "text": "Now either these people are sincere or they are not.",
+              "word_offset_start": 5805,
+              "word_offset_end": 5815,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p36_s04",
+              "sentence_ordinal": 4,
+              "text": "I will speculate a little about that.",
+              "word_offset_start": 5815,
+              "word_offset_end": 5822,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p36_s05",
+              "sentence_ordinal": 5,
+              "text": "If they are sincere, and are moved by any real danger of the loss of Southern trade, they will simply get their names on the white list, and then, instead of persuading Republicans to do likewise, they will be glad to keep you away!",
+              "word_offset_start": 5822,
+              "word_offset_end": 5866,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p36_s06",
+              "sentence_ordinal": 6,
+              "text": "Don't you see that they cut off competition?",
+              "word_offset_start": 5866,
+              "word_offset_end": 5874,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p36_s07",
+              "sentence_ordinal": 7,
+              "text": "They would not be whispering around to Republicans to come in and share the profits with them.",
+              "word_offset_start": 5874,
+              "word_offset_end": 5891,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p36_s08",
+              "sentence_ordinal": 8,
+              "text": "But if they are not sincere, and are merely trying to fool Republicans out of their votes, they will grow very anxious about your pecuniary prospects; they are afraid you are going to get broken up and ruined; they do not care about Democratic votes, oh, no, no, no!",
+              "word_offset_start": 5891,
+              "word_offset_end": 5940,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p36_s09",
+              "sentence_ordinal": 9,
+              "text": "You must judge which class those belong to whom you meet: I leave it to you to determine from the facts.",
+              "word_offset_start": 5940,
+              "word_offset_end": 5961,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "Let us notice some more of the stale charges against Republicans.",
+              "word_offset_start": 5961,
+              "word_offset_end": 5972,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s02",
+              "sentence_ordinal": 2,
+              "text": "You say we are sectional.",
+              "word_offset_start": 5972,
+              "word_offset_end": 5977,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s03",
+              "sentence_ordinal": 3,
+              "text": "We deny it.",
+              "word_offset_start": 5977,
+              "word_offset_end": 5980,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s04",
+              "sentence_ordinal": 4,
+              "text": "That makes an issue; and the burden of proof is upon you.",
+              "word_offset_start": 5980,
+              "word_offset_end": 5992,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s05",
+              "sentence_ordinal": 5,
+              "text": "You produce your proof; and what is it?",
+              "word_offset_start": 5992,
+              "word_offset_end": 6000,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s06",
+              "sentence_ordinal": 6,
+              "text": "Why, that our party has no existence in your section --gets no votes in your section.",
+              "word_offset_start": 6000,
+              "word_offset_end": 6016,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s07",
+              "sentence_ordinal": 7,
+              "text": "The fact is substantially true; but does it prove the issue?",
+              "word_offset_start": 6016,
+              "word_offset_end": 6027,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s08",
+              "sentence_ordinal": 8,
+              "text": "If it does, then in case we should, without change of principle, begin to get votes in your section, we should thereby cease to be sectional.",
+              "word_offset_start": 6027,
+              "word_offset_end": 6053,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s09",
+              "sentence_ordinal": 9,
+              "text": "You cannot escape this conclusion; and yet, are you willing to abide by it?",
+              "word_offset_start": 6053,
+              "word_offset_end": 6067,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s10",
+              "sentence_ordinal": 10,
+              "text": "If you are, you will probably soon find that we have ceased to be sectional, for we shall get votes in your section this very year.",
+              "word_offset_start": 6067,
+              "word_offset_end": 6093,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s11",
+              "sentence_ordinal": 11,
+              "text": "The fact that we get no votes in your section is a fact of your making and not of ours.",
+              "word_offset_start": 6093,
+              "word_offset_end": 6113,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s12",
+              "sentence_ordinal": 12,
+              "text": "And if there be fault in that fact, that fault is primarily yours, and remains so until you show that we repel you by some wrong principle or practice.",
+              "word_offset_start": 6113,
+              "word_offset_end": 6142,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s13",
+              "sentence_ordinal": 13,
+              "text": "If we ours; but this brings you to where you ought to have started--to a discussion of the right or wrong of our principle.",
+              "word_offset_start": 6142,
+              "word_offset_end": 6166,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s14",
+              "sentence_ordinal": 14,
+              "text": "If our principle, put in practice, would wrong your section for the benefit of ours, or for any other object, then our principle, and we with it, are sectional, and are justly opposed and denounced as such.",
+              "word_offset_start": 6166,
+              "word_offset_end": 6203,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s15",
+              "sentence_ordinal": 15,
+              "text": "Meet us, then, on the question of whether our principle put in practice would wrong your section; and so meet it as if it were possible that something may be said on our side.",
+              "word_offset_start": 6203,
+              "word_offset_end": 6237,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s16",
+              "sentence_ordinal": 16,
+              "text": "Do you accept the challenge?",
+              "word_offset_start": 6237,
+              "word_offset_end": 6242,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s17",
+              "sentence_ordinal": 17,
+              "text": "No?",
+              "word_offset_start": 6242,
+              "word_offset_end": 6243,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s18",
+              "sentence_ordinal": 18,
+              "text": "Then you really believe that the principle which our fathers who framed the Government under which we live thought so clearly right as to adopt it, and indorse it again and again, upon their official oaths, is in fact so clearly wrong as to demand our condemnation without a moment's consideration.",
+              "word_offset_start": 6243,
+              "word_offset_end": 6294,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s19",
+              "sentence_ordinal": 19,
+              "text": "Some of you delight to flaunt in our faces the warning against sectional parties given by Washington in his Farewell Address.",
+              "word_offset_start": 6294,
+              "word_offset_end": 6315,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p37_s20",
+              "sentence_ordinal": 20,
+              "text": "Less than eight years before Washington gave that warning, he had, as President of the United States, approved and signed an act of Congress enforcing the prohibition of slavery in the Northwestern Territory, which act embodied the policy of government upon that subject, up to and at the very moment he penned that warning; and about one year after he penned it he wrote La Fayette that he considered that prohibition a wise measure, expressing in the same connection his hope that we should sometime have a confederacy of free States.",
+              "word_offset_start": 6315,
+              "word_offset_end": 6406,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "Bearing this in mind, and seeing that sectionalism has since arisen upon this same subject, is that warning a weapon in your hands against us, or in our hands against you?",
+              "word_offset_start": 6406,
+              "word_offset_end": 6437,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p38_s02",
+              "sentence_ordinal": 2,
+              "text": "Could Washington himself speak, would he cast the blame of that sectionalism upon us, who sustain his policy, or upon you, who repudiate it?",
+              "word_offset_start": 6437,
+              "word_offset_end": 6461,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p38_s03",
+              "sentence_ordinal": 3,
+              "text": "We respect that warning of Washington, and we commend it to you, together with his example pointing to the right application of it.",
+              "word_offset_start": 6461,
+              "word_offset_end": 6484,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "But you say you are conservative--eminently conservative--while we are revolutionary, destructive, or something of the sort.",
+              "word_offset_start": 6484,
+              "word_offset_end": 6500,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p39_s02",
+              "sentence_ordinal": 2,
+              "text": "What is conservatism?",
+              "word_offset_start": 6500,
+              "word_offset_end": 6503,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p39_s03",
+              "sentence_ordinal": 3,
+              "text": "Is it not adherence to the old and tried, against the new and untried?",
+              "word_offset_start": 6503,
+              "word_offset_end": 6517,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p39_s04",
+              "sentence_ordinal": 4,
+              "text": "We stick to, contend for, the identical old policy on the point in controversy which was adopted by our fathers who framed the Government under which we live; while you with one accord reject and scout and spit upon that old policy, and insist upon substituting something new.",
+              "word_offset_start": 6517,
+              "word_offset_end": 6565,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "True, you disagree among yourselves as to what that substitute shall be.",
+              "word_offset_start": 6565,
+              "word_offset_end": 6577,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p40_s02",
+              "sentence_ordinal": 2,
+              "text": "You have considerable variety of new propositions and plans, but you are unanimous in rejecting and denouncing the old policy of the fathers.",
+              "word_offset_start": 6577,
+              "word_offset_end": 6600,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p40_s03",
+              "sentence_ordinal": 3,
+              "text": "Some of you are for reviving the foreign slave-trade; some for a congressional slave code for the Territories; some for Congress forbidding the Territories to prohibit slavery within their limits; some for maintaining slavery in the Territories through the judiciary; some for the \"gur-reat pur-rinciple\" that if one man would enslave another, no third man should object--fantastically called \"popular sovereignty.\"",
+              "word_offset_start": 6600,
+              "word_offset_end": 6660,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p40_s04",
+              "sentence_ordinal": 4,
+              "text": "But never a man among you in favor of prohibition of slavery in Federal Territories, according to the practice of our fathers who framed the Government under which we live.",
+              "word_offset_start": 6660,
+              "word_offset_end": 6690,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p40_s05",
+              "sentence_ordinal": 5,
+              "text": "Not one of all your various plans can show a precedent or an advocate in the century within which our Government originated.",
+              "word_offset_start": 6690,
+              "word_offset_end": 6712,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p40_s06",
+              "sentence_ordinal": 6,
+              "text": "And yet you draw yourselves up and say, \"We are eminently conservative.\"",
+              "word_offset_start": 6712,
+              "word_offset_end": 6724,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "It is exceedingly desirable that all parts of this great confederacy shall be at peace, and in harmony one with another.",
+              "word_offset_start": 6724,
+              "word_offset_end": 6745,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p41_s02",
+              "sentence_ordinal": 2,
+              "text": "Let us Republicans do our part to have it so.",
+              "word_offset_start": 6745,
+              "word_offset_end": 6755,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p41_s03",
+              "sentence_ordinal": 3,
+              "text": "Even though much provoked, let us do nothing through passion and ill-temper.",
+              "word_offset_start": 6755,
+              "word_offset_end": 6767,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p41_s04",
+              "sentence_ordinal": 4,
+              "text": "Even though the Southern people will not so much as listen to us, let us calmly consider their demands, and yield to them if, in our deliberate view of our duty, we possibly can.",
+              "word_offset_start": 6767,
+              "word_offset_end": 6801,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p41_s05",
+              "sentence_ordinal": 5,
+              "text": "Judging by all they say and do, and by the subject and nature of their controversy with us, let us determine, if we can, what will satisfy them.",
+              "word_offset_start": 6801,
+              "word_offset_end": 6829,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "Will they be satisfied if the Territories be unconditionally surrendered to them?",
+              "word_offset_start": 6829,
+              "word_offset_end": 6841,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p42_s02",
+              "sentence_ordinal": 2,
+              "text": "We know they will not.",
+              "word_offset_start": 6841,
+              "word_offset_end": 6846,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p42_s03",
+              "sentence_ordinal": 3,
+              "text": "In all their present complaints against us, the Territories are scarcely mentioned.",
+              "word_offset_start": 6846,
+              "word_offset_end": 6858,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p42_s04",
+              "sentence_ordinal": 4,
+              "text": "Invasions and insurrections are the rage now.",
+              "word_offset_start": 6858,
+              "word_offset_end": 6865,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p42_s05",
+              "sentence_ordinal": 5,
+              "text": "Will it satisfy them, in the future, if we have nothing to do with invasions and insurrections?",
+              "word_offset_start": 6865,
+              "word_offset_end": 6882,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p42_s06",
+              "sentence_ordinal": 6,
+              "text": "We know it will not.",
+              "word_offset_start": 6882,
+              "word_offset_end": 6887,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p42_s07",
+              "sentence_ordinal": 7,
+              "text": "We so know because we know we never had anything to do with invasions and insurrections; and yet this total abstaining does not exempt us from the charge and the denunciation.",
+              "word_offset_start": 6887,
+              "word_offset_end": 6918,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "The question recurs, what will satisfy them?",
+              "word_offset_start": 6918,
+              "word_offset_end": 6925,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p43_s02",
+              "sentence_ordinal": 2,
+              "text": "Simply this: we must not only let them alone, but we must, somehow, convince them that we do let them alone.",
+              "word_offset_start": 6925,
+              "word_offset_end": 6946,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p43_s03",
+              "sentence_ordinal": 3,
+              "text": "This, we know by experience, is no easy task.",
+              "word_offset_start": 6946,
+              "word_offset_end": 6955,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p43_s04",
+              "sentence_ordinal": 4,
+              "text": "We have been so trying to convince them, from the very beginning of our organization, but with no success.",
+              "word_offset_start": 6955,
+              "word_offset_end": 6974,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p43_s05",
+              "sentence_ordinal": 5,
+              "text": "In all our platforms and speeches, we have constantly protested our purpose to let them alone; but this had no tendency to convince them.",
+              "word_offset_start": 6974,
+              "word_offset_end": 6998,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p43_s06",
+              "sentence_ordinal": 6,
+              "text": "Alike unavailing to convince them is the fact that they have never detected a man of us in any attempt to disturb them.",
+              "word_offset_start": 6998,
+              "word_offset_end": 7021,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "These natural and apparently adequate means all failing, what will convince them?",
+              "word_offset_start": 7021,
+              "word_offset_end": 7033,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p44_s02",
+              "sentence_ordinal": 2,
+              "text": "This, and this only: cease to call slavery wrong, and join them in calling it right.",
+              "word_offset_start": 7033,
+              "word_offset_end": 7049,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p44_s03",
+              "sentence_ordinal": 3,
+              "text": "And this must be done thoroughly--done in acts as well as in words.",
+              "word_offset_start": 7049,
+              "word_offset_end": 7062,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p44_s04",
+              "sentence_ordinal": 4,
+              "text": "Silence will not be tolerated --we must place ourselves avowedly with them.",
+              "word_offset_start": 7062,
+              "word_offset_end": 7074,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p44_s05",
+              "sentence_ordinal": 5,
+              "text": "Douglas's new sedition law must be enacted and enforced, suppressing all declarations that slavery is wrong, whether made in politics, in presses, in pulpits, or in private.",
+              "word_offset_start": 7074,
+              "word_offset_end": 7101,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p44_s06",
+              "sentence_ordinal": 6,
+              "text": "We must arrest and return their fugitive slaves with greedy pleasure.",
+              "word_offset_start": 7101,
+              "word_offset_end": 7112,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p44_s07",
+              "sentence_ordinal": 7,
+              "text": "We must pull down our free State constitutions.",
+              "word_offset_start": 7112,
+              "word_offset_end": 7120,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p44_s08",
+              "sentence_ordinal": 8,
+              "text": "The whole atmosphere must be disinfected of all taint of opposition to slavery, before they will cease to believe that all their troubles proceed from us.",
+              "word_offset_start": 7120,
+              "word_offset_end": 7146,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p44_s09",
+              "sentence_ordinal": 9,
+              "text": "So long as we call slavery wrong, whenever a slave runs away they will overlook the obvious fact that he ran away because he was oppressed, and declare he was stolen off.",
+              "word_offset_start": 7146,
+              "word_offset_end": 7178,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p44_s10",
+              "sentence_ordinal": 10,
+              "text": "Whenever a master cuts his slaves with a lash, and they cry out under it, he will overlook the obvious fact that the negroes cry out because they are hurt, and insist that they were put up to it by some rascally abolitionist.",
+              "word_offset_start": 7178,
+              "word_offset_end": 7221,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "I am quite aware that they do not state their case precisely in this way.",
+              "word_offset_start": 7221,
+              "word_offset_end": 7236,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p45_s02",
+              "sentence_ordinal": 2,
+              "text": "Most of them would probably say to us, \"Let us alone, do nothing to us, and say what you please about slavery.\"",
+              "word_offset_start": 7236,
+              "word_offset_end": 7258,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p45_s03",
+              "sentence_ordinal": 3,
+              "text": "But we do let them alone--have never disturbed them--so that, after all, it is what we say which dissatisfies them.",
+              "word_offset_start": 7258,
+              "word_offset_end": 7278,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p45_s04",
+              "sentence_ordinal": 4,
+              "text": "They will continue to accuse us of doing, until we cease saying.",
+              "word_offset_start": 7278,
+              "word_offset_end": 7290,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "I am also aware that they have not as yet in terms demanded the overthrow of our free- State constitutions.",
+              "word_offset_start": 7290,
+              "word_offset_end": 7310,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p46_s02",
+              "sentence_ordinal": 2,
+              "text": "Yet those constitutions declare the wrong of slavery with more solemn emphasis than do all other sayings against it; and when all these other sayings shall have been silenced, the overthrow of these constitutions will be demanded.",
+              "word_offset_start": 7310,
+              "word_offset_end": 7347,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p46_s03",
+              "sentence_ordinal": 3,
+              "text": "It is nothing to the contrary that they do not demand the whole of this just now.",
+              "word_offset_start": 7347,
+              "word_offset_end": 7364,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p46_s04",
+              "sentence_ordinal": 4,
+              "text": "Demanding what they do, and for the reason they do, they can voluntarily stop nowhere short of this consummation.",
+              "word_offset_start": 7364,
+              "word_offset_end": 7383,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p46_s05",
+              "sentence_ordinal": 5,
+              "text": "Holding as they do that slavery is morally right, and socially elevating, they cannot cease to demand a full national recognition of it, as a legal right, and a social blessing.",
+              "word_offset_start": 7383,
+              "word_offset_end": 7414,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "Nor can we justifiably withhold this on any ground save our conviction that slavery is wrong.",
+              "word_offset_start": 7414,
+              "word_offset_end": 7430,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p47_s02",
+              "sentence_ordinal": 2,
+              "text": "If slavery is right, all words, acts, laws, and constitutions against it are themselves wrong and should be silenced and swept away.",
+              "word_offset_start": 7430,
+              "word_offset_end": 7452,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p47_s03",
+              "sentence_ordinal": 3,
+              "text": "If it is right, we cannot justly object to its nationality--its universality: if it is wrong, they cannot justly insist upon its extension--its enlargement.",
+              "word_offset_start": 7452,
+              "word_offset_end": 7476,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p47_s04",
+              "sentence_ordinal": 4,
+              "text": "All they ask, we could readily grant, if we thought slavery right; all we ask, they could as readily grant, if they thought it wrong.",
+              "word_offset_start": 7476,
+              "word_offset_end": 7501,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p47_s05",
+              "sentence_ordinal": 5,
+              "text": "Their thinking it right and our thinking it wrong is the precise fact on which depends the whole controversy.",
+              "word_offset_start": 7501,
+              "word_offset_end": 7520,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p47_s06",
+              "sentence_ordinal": 6,
+              "text": "Thinking it right as they do, they are not to blame for desiring its full recognition, as being right; but, thinking it wrong, as we do, can we yield to them?",
+              "word_offset_start": 7520,
+              "word_offset_end": 7551,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p47_s07",
+              "sentence_ordinal": 7,
+              "text": "Can we cast our votes with their view, and against our own?",
+              "word_offset_start": 7551,
+              "word_offset_end": 7563,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p47_s08",
+              "sentence_ordinal": 8,
+              "text": "In view of our moral, social, and political responsibilities, can we do this?",
+              "word_offset_start": 7563,
+              "word_offset_end": 7576,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "Wrong as we think slavery is, we can yet afford to let it alone where it is because that much is due to the necessity arising from its actual presence in the nation; but can we, while our votes will prevent it, allow it to spread into the national Territories, and to overrun us here in these free States?",
+              "word_offset_start": 7576,
+              "word_offset_end": 7635,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "If our sense of duty forbids this, then let us stand by our duty, fearlessly and effectively.",
+              "word_offset_start": 7635,
+              "word_offset_end": 7652,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p49_s02",
+              "sentence_ordinal": 2,
+              "text": "Let us be diverted by none of those sophistical contrivances wherewith we are so industriously plied and belabored--contrivances such as groping for some middle ground between the right and the wrong, vain as the search for a man who would be neither a living man nor a dead man--such as a policy of \"don't care\" on a question about which all free men do care--such as Union appeals beseeching true Union men to yield to Disunionists, reversing the divine rule, and caning, not the sinners, but the righteous to repentance--such as invocations of Washington, imploring men to unsay what Washington did.",
+              "word_offset_start": 7652,
+              "word_offset_end": 7753,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "Neither let us be slandered from our duty by false accusations against us, nor frightened from it by menaces of destruction to the Government, nor of dungeons to ourselves.",
+              "word_offset_start": 7753,
+              "word_offset_end": 7782,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p50_s02",
+              "sentence_ordinal": 2,
+              "text": "Let us have faith that right makes might; and in that faith, let us, to the end, dare to do our duty as we understand it.",
+              "word_offset_start": 7782,
+              "word_offset_end": 7808,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_033_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "doc_033_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "[As Mr. Lincoln concluded his address, there was witnessed the wildest scene of enthusiasm and excitement that has been in New Haven for years.",
+              "word_offset_start": 7808,
+              "word_offset_end": 7832,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p51_s02",
+              "sentence_ordinal": 2,
+              "text": "The Palladium editorially says: \"We give up most of our space to-day to a very full report of the eloquent speech of the HON.",
+              "word_offset_start": 7832,
+              "word_offset_end": 7856,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_033_s01_p51_s03",
+              "sentence_ordinal": 3,
+              "text": "Abraham Lincoln, of Illinois, delivered last night at Union Hall.\"]",
+              "word_offset_start": 7856,
+              "word_offset_end": 7866,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

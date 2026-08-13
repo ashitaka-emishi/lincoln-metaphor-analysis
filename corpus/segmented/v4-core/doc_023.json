@@ -1,0 +1,504 @@
+{
+  "document_id": "doc_023",
+  "meta": {
+    "id": "doc_023",
+    "title": "First Political Announcement",
+    "short_title": "First Political Announcement",
+    "date": "1832-03-09",
+    "date_precision": "exact",
+    "register": "speech",
+    "authorship": "secure",
+    "authorship_confidence": 0.99,
+    "authorship_notes": null,
+    "source_text": "Collected Works of Abraham Lincoln, vol. 1, First Political Announcement, March 9, 1832.",
+    "source_url": null,
+    "risk_flags": [],
+    "analytical_priority": "v4_core",
+    "corpus_version": "v4",
+    "corpus_tier": "v4-core",
+    "source_authority": "collected_works_michigan",
+    "annotation_status": "unprocessed"
+  },
+  "sections": [
+    {
+      "section_id": "doc_023_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_023_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "ADDRESS TO THE PEOPLE OF SANGAMON COUNTY.",
+              "word_offset_start": 0,
+              "word_offset_end": 7,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "March 9, 1832.",
+              "word_offset_start": 7,
+              "word_offset_end": 10,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "FELLOW CITIZENS:--Having become a candidate for the honorable office of one of your Representatives in the next General Assembly of this State, in according with an established custom and the principles of true Republicanism it becomes my duty to make known to you, the people whom I propose to represent, my sentiments with regard to local affairs.",
+              "word_offset_start": 10,
+              "word_offset_end": 67,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "Time and experience have verified to a demonstration the public utility of internal improvements.",
+              "word_offset_start": 67,
+              "word_offset_end": 81,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p04_s02",
+              "sentence_ordinal": 2,
+              "text": "That the poorest and most thinly populated countries would be greatly benefited by the opening of good roads, and in the clearing of navigable streams within their limits, is what no person will deny.",
+              "word_offset_start": 81,
+              "word_offset_end": 115,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p04_s03",
+              "sentence_ordinal": 3,
+              "text": "Yet it is folly to undertake works of this or any other without first knowing that we are able to finish them--as half-finished work generally proves to be labor lost.",
+              "word_offset_start": 115,
+              "word_offset_end": 145,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p04_s04",
+              "sentence_ordinal": 4,
+              "text": "There cannot justly be any objection to having railroads and canals, any more than to other good things, provided they cost nothing.",
+              "word_offset_start": 145,
+              "word_offset_end": 167,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p04_s05",
+              "sentence_ordinal": 5,
+              "text": "The only objection is to paying for them; and the objection arises from the want of ability to pay.",
+              "word_offset_start": 167,
+              "word_offset_end": 186,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "With respect to the County of Sangamon, some....",
+              "word_offset_start": 186,
+              "word_offset_end": 194,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Yet, however desirable an object the construction of a railroad through our country may be, however high our imaginations may be heated at thoughts of it,--there is always a heart-appalling shock accompanying the amount of its cost, which forces us to shrink from our pleasing anticipations.",
+              "word_offset_start": 194,
+              "word_offset_end": 240,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "The probable cost of this contemplated railroad is estimated at $290,000; the bare statement of which, in my opinion, is sufficient to justify the belief that the improvement of the Sangamon River is an object much better suited to our infant resources.......",
+              "word_offset_start": 240,
+              "word_offset_end": 282,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "What the cost of this work would be, I am unable to say.",
+              "word_offset_start": 282,
+              "word_offset_end": 295,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "It is probable, however, that it would not be greater than is common to streams of the same length.",
+              "word_offset_start": 295,
+              "word_offset_end": 314,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "Finally, I believe the improvement of the Sangamon River to be vastly important and highly desirable to the people of the county; and, if elected, any measure in the Legislature having this for its object, which may appear judicious, will meet my approbation and receive my support.",
+              "word_offset_start": 314,
+              "word_offset_end": 361,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "It appears that the practice of loaning money at exorbitant rates of interest has already been opened as a field for discussion; so I suppose I may enter upon it without claiming the honor or risking the danger which may await its first explorer.",
+              "word_offset_start": 361,
+              "word_offset_end": 405,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "It seems as though we are never to have an end to this baneful and corroding system, acting almost as prejudicially to the general interests of the community as a direct tax of several thousand dollars annually laid on each county for the benefit of a few individuals only, unless there be a law made fixing the limits of usury.",
+              "word_offset_start": 405,
+              "word_offset_end": 465,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p08_s03",
+              "sentence_ordinal": 3,
+              "text": "A law for this purpose, I am of opinion, may be made without materially injuring any class of people.",
+              "word_offset_start": 465,
+              "word_offset_end": 484,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p08_s04",
+              "sentence_ordinal": 4,
+              "text": "In cases of extreme necessity, there could always be means found to cheat the law; while in all other cases it would have its intended effect.",
+              "word_offset_start": 484,
+              "word_offset_end": 510,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p08_s05",
+              "sentence_ordinal": 5,
+              "text": "I would favor the passage of a law on this subject which might not be very easily evaded.",
+              "word_offset_start": 510,
+              "word_offset_end": 528,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p08_s06",
+              "sentence_ordinal": 6,
+              "text": "Let it be such that the labor and difficulty of evading it could only be justified in cases of greatest necessity.",
+              "word_offset_start": 528,
+              "word_offset_end": 549,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Upon the subject of education, not presuming to dictate any plan or system respecting it, I can only say that I view it as the most important subject which we as a people can be engaged in.",
+              "word_offset_start": 549,
+              "word_offset_end": 586,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "That every man may receive at least a moderate education, and thereby be enabled to read the histories of his own and other countries, by which he may duly appreciate the value of our free institutions, appears to be an object of vital importance, even on this account alone, to say nothing of the advantages and satisfaction to be derived from all being able to read the Scriptures, and other works both of a religious and moral nature, for themselves.",
+              "word_offset_start": 586,
+              "word_offset_end": 666,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "For my part, I desire to see the time when education--and by its means, morality, sobriety, enterprise, and industry--shall become much more general than at present, and should be gratified to have it in my power to contribute something to the advancement of any measure which might have a tendency to accelerate that happy period.",
+              "word_offset_start": 666,
+              "word_offset_end": 721,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "With regard to existing laws, some alterations are thought to be necessary.",
+              "word_offset_start": 721,
+              "word_offset_end": 733,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "Many respectable men have suggested that our estray laws, the law respecting the issuing of executions, the road law, and some others, are deficient in their present form, and require alterations.",
+              "word_offset_start": 733,
+              "word_offset_end": 764,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p11_s03",
+              "sentence_ordinal": 3,
+              "text": "But, considering the great probability that the framers of those laws were wiser than myself, I should prefer not meddling with them, unless they were first attacked by others; in which case I should feel it both a privilege and a duty to take that stand which, in my view, might tend most to the advancement of justice.",
+              "word_offset_start": 764,
+              "word_offset_end": 822,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "But, fellow-citizens, I shall conclude.",
+              "word_offset_start": 822,
+              "word_offset_end": 827,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "Considering the great degree of modesty which should always attend youth, it is probable I have already been more presuming than becomes me.",
+              "word_offset_start": 827,
+              "word_offset_end": 850,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "However, upon the subjects of which I have treated, I have spoken as I have thought.",
+              "word_offset_start": 850,
+              "word_offset_end": 866,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p12_s04",
+              "sentence_ordinal": 4,
+              "text": "I may be wrong in regard to any or all of them; but, holding it a sound maxim that it is better only sometimes to be right than at all times to be wrong, so soon as I discover my opinions to be erroneous, I shall be ready to renounce them.",
+              "word_offset_start": 866,
+              "word_offset_end": 917,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "Every man is said to have his peculiar ambition.",
+              "word_offset_start": 917,
+              "word_offset_end": 926,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "Whether it be true or not, I can say, for one, that I have no other so great as that of being truly esteemed of my fellow-men, by rendering myself worthy of their esteem.",
+              "word_offset_start": 926,
+              "word_offset_end": 960,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p13_s03",
+              "sentence_ordinal": 3,
+              "text": "How far I shall succeed in gratifying this ambition is yet to be developed.",
+              "word_offset_start": 960,
+              "word_offset_end": 974,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p13_s04",
+              "sentence_ordinal": 4,
+              "text": "I am young, and unknown to many of you.",
+              "word_offset_start": 974,
+              "word_offset_end": 983,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p13_s05",
+              "sentence_ordinal": 5,
+              "text": "I was born, and have ever remained, in the most humble walks of life.",
+              "word_offset_start": 983,
+              "word_offset_end": 997,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p13_s06",
+              "sentence_ordinal": 6,
+              "text": "I have no wealthy or popular relations or friends to recommend me.",
+              "word_offset_start": 997,
+              "word_offset_end": 1009,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p13_s07",
+              "sentence_ordinal": 7,
+              "text": "My case is thrown exclusively upon the independent voters of the county; and, if elected, they will have conferred a favor upon me for which I shall be unremitting in my labors to compensate.",
+              "word_offset_start": 1009,
+              "word_offset_end": 1043,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_023_s01_p13_s08",
+              "sentence_ordinal": 8,
+              "text": "But, if the good people in their wisdom shall see fit to keep me in the background, I have been too familiar with disappointments to be very much chagrined.",
+              "word_offset_start": 1043,
+              "word_offset_end": 1072,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "Your friend and fellow-citizen, A. LINCOLN.",
+              "word_offset_start": 1072,
+              "word_offset_end": 1078,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "New Salem, March 9, 1832.",
+              "word_offset_start": 1078,
+              "word_offset_end": 1083,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_023_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_023_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "1833",
+              "word_offset_start": 1083,
+              "word_offset_end": 1084,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": "v4_segmentation",
+      "script": "scripts/corpus/segment-corpus-v4.js",
+      "date": "2026-08-13",
+      "source": "corpus/normalized/v4-core"
+    }
+  ]
+}

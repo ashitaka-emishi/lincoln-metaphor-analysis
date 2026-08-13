@@ -1,0 +1,2827 @@
+{
+  "document_id": "doc_010",
+  "meta": {
+    "id": "doc_010",
+    "title": "Message to Congress in Special Session",
+    "short_title": "July 4 Message 1861",
+    "date": "1861-07-04",
+    "date_precision": "exact",
+    "register": "congressional_message",
+    "authorship": "lincoln_sole",
+    "authorship_confidence": 0.88,
+    "authorship_notes": null,
+    "source_text": "Collected Works vol.4 pp.421-441",
+    "source_url": "https://quod.lib.umich.edu/l/lincoln/lincoln4",
+    "risk_flags": [],
+    "analytical_priority": "high",
+    "pipeline_log": [
+      "{stage: 2",
+      "agent: \"scaffold",
+      "date: \"2026-04-28\"}"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "doc_010_s01",
+      "section_label": "body",
+      "section_ordinal": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_010_s01_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "Message to Congress in Special SessionJuly 4, 1861",
+              "word_offset_start": 0,
+              "word_offset_end": 8,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "Fellow-citizens of the Senate and House of Representatives:",
+              "word_offset_start": 8,
+              "word_offset_end": 16,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "Having been convened on an extraordinary occasion, as authorized by the Constitution, your attention is not called to any ordinary subject of legislation.",
+              "word_offset_start": 16,
+              "word_offset_end": 39,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p04",
+          "paragraph_ordinal": 4,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p04_s01",
+              "sentence_ordinal": 1,
+              "text": "At the beginning of the present Presidential term, four months",
+              "word_offset_start": 39,
+              "word_offset_end": 49,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p05",
+          "paragraph_ordinal": 5,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p05_s01",
+              "sentence_ordinal": 1,
+              "text": "ago, the functions of the Federal Government were found to be generally suspended within the several States of South Carolina, Georgia, Alabama, Mississippi, Louisiana, and Florida, excepting only those of the Post Office Department.",
+              "word_offset_start": 49,
+              "word_offset_end": 83,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p06",
+          "paragraph_ordinal": 6,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p06_s01",
+              "sentence_ordinal": 1,
+              "text": "Within these States, all the Forts, Arsenals, Dock-yards, Customhouses, and the like, including the movable and stationary property in, and about them, had been seized, and were held in open hostility to this Government, excepting only Forts Pickens, Taylor, and Jefferson, on, and near the Florida coast, and Fort Sumter, in Charleston harbor, South Carolina.",
+              "word_offset_start": 83,
+              "word_offset_end": 138,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p06_s02",
+              "sentence_ordinal": 2,
+              "text": "The Forts thus seized had been put in improved condition; new ones had been built; and armed forces had been organized, and were organizing, all avowedly with the same hostile purpose.",
+              "word_offset_start": 138,
+              "word_offset_end": 169,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p07",
+          "paragraph_ordinal": 7,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p07_s01",
+              "sentence_ordinal": 1,
+              "text": "The Forts remaining in the possession of the Federal government, in, and near, these States, were either besieged or menaced by warlike preparations; and especially Fort Sumter was nearly surrounded by well-protected hostile batteries, with guns equal in quality to the best of its own, and outnumbering the latter as perhaps ten to one.",
+              "word_offset_start": 169,
+              "word_offset_end": 223,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p07_s02",
+              "sentence_ordinal": 2,
+              "text": "A disproportionate share,of the Federal muskets and rifles, had somehow found their way into these States, and had been seized, to be used against the government.",
+              "word_offset_start": 223,
+              "word_offset_end": 249,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p07_s03",
+              "sentence_ordinal": 3,
+              "text": "Accumulations of the public revenue, lying within them, had been seized for the same object.",
+              "word_offset_start": 249,
+              "word_offset_end": 264,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p07_s04",
+              "sentence_ordinal": 4,
+              "text": "The Navy was scattered in distant seas; leaving but a very small part of it within the immediate reach of the government.",
+              "word_offset_start": 264,
+              "word_offset_end": 286,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p07_s05",
+              "sentence_ordinal": 5,
+              "text": "Officers of the Federal Army and Navy, had resigned in great numbers; and, of those resigning, a and large proportion had taken up arms against the government.",
+              "word_offset_start": 286,
+              "word_offset_end": 313,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p07_s06",
+              "sentence_ordinal": 6,
+              "text": "Simultaneously, and in connection, with all this, the purpose to sever the Federal Union, was openly avowed.",
+              "word_offset_start": 313,
+              "word_offset_end": 330,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p07_s07",
+              "sentence_ordinal": 7,
+              "text": "In accordance with this purpose, an ordinance",
+              "word_offset_start": 330,
+              "word_offset_end": 337,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p08",
+          "paragraph_ordinal": 8,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p08_s01",
+              "sentence_ordinal": 1,
+              "text": "had been adopted in each of these States, declaring the States, respectively, to be separated from the National Union.",
+              "word_offset_start": 337,
+              "word_offset_end": 356,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p08_s02",
+              "sentence_ordinal": 2,
+              "text": "A formula for instituting a combined government of these states had been promulgated; and this illegal organization, in the character of confederate States was already invoking recognition, aid, and intervention, from Foreign Powers.",
+              "word_offset_start": 356,
+              "word_offset_end": 389,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p09",
+          "paragraph_ordinal": 9,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p09_s01",
+              "sentence_ordinal": 1,
+              "text": "Finding this condition of things, and believing it to be an imperative duty upon the incoming Executive, to prevent, if possible, the consummation of such attempt to destroy the Federal Union, a choice of means to that end became indispensable.",
+              "word_offset_start": 389,
+              "word_offset_end": 429,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p09_s02",
+              "sentence_ordinal": 2,
+              "text": "This choice was made; and was declared in the Inaugural address.",
+              "word_offset_start": 429,
+              "word_offset_end": 440,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p09_s03",
+              "sentence_ordinal": 3,
+              "text": "The policy chosen looked to the exhaustion of all peaceful measures, before a resort to any stronger ones.",
+              "word_offset_start": 440,
+              "word_offset_end": 458,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p09_s04",
+              "sentence_ordinal": 4,
+              "text": "It sought only to hold the public places and property, not already wrested from the Government, and to collect the revenue; relying for the rest, on time, discussion, and the ballot-box.",
+              "word_offset_start": 458,
+              "word_offset_end": 489,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p09_s05",
+              "sentence_ordinal": 5,
+              "text": "It promised a continuance of the mails, at government expense, to the very people who were resisting the government; and it gave repeated pledges against any disturbance to any of the people, or any of their rights.",
+              "word_offset_start": 489,
+              "word_offset_end": 526,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p09_s06",
+              "sentence_ordinal": 6,
+              "text": "Of all that which a president might constitutionally, and justifiably, do in such a case, everything was foreborne, without which, it was believed possible to keep the government on foot.",
+              "word_offset_start": 526,
+              "word_offset_end": 556,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p10",
+          "paragraph_ordinal": 10,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p10_s01",
+              "sentence_ordinal": 1,
+              "text": "On the 5th of March, (the present incumbent's first full day in office) a letter of Major Anderson, commanding at Fort Sumter, written on the 28th of February, and received at the War Department on the 4th of March, was, by that Department, placed in his hands.",
+              "word_offset_start": 556,
+              "word_offset_end": 603,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p10_s02",
+              "sentence_ordinal": 2,
+              "text": "This letter expressed the professional opinion of the writer, that re-inforcements could not be thrown into that Fort within the time for his relief, rendered necessary by the limited supply of provisions, and with a view of holding possession of the same, with a force of less than twenty thousand good, and well-disciplined men.",
+              "word_offset_start": 603,
+              "word_offset_end": 657,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p10_s03",
+              "sentence_ordinal": 3,
+              "text": "This opinion was concurred in by all the officers of his command; and their memoranda on the subject, were made enclosures of Major Anderson's letter.",
+              "word_offset_start": 657,
+              "word_offset_end": 682,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p10_s04",
+              "sentence_ordinal": 4,
+              "text": "The whole was immediately laid before Lieutenant General Scott, who at once concurred with Major Anderson in opinion.",
+              "word_offset_start": 682,
+              "word_offset_end": 700,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p10_s05",
+              "sentence_ordinal": 5,
+              "text": "On reflection, however, he took full",
+              "word_offset_start": 700,
+              "word_offset_end": 706,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p11",
+          "paragraph_ordinal": 11,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p11_s01",
+              "sentence_ordinal": 1,
+              "text": "time, consulting with other officers, both of the Army and the Navy; and, at the end of four days, came reluctantly, but decidedly, to the same conclusion as before.",
+              "word_offset_start": 706,
+              "word_offset_end": 735,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s02",
+              "sentence_ordinal": 2,
+              "text": "He also stated at the same time that no such sufficient force was then at the control of the Government, or could be raised, and brought to the ground, within the time when the provisions in the Fort would be exhausted.",
+              "word_offset_start": 735,
+              "word_offset_end": 776,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s03",
+              "sentence_ordinal": 3,
+              "text": "In a purely military point of view, this reduced the duty of the administration, in the case, to the mere matter of getting the garrison safely out of the Fort.It was believed, however, that to so abandon that position, under the circumstances, would be utterly ruinous; that the necessity under which it was to be done, would not be fully understood---that, by many, it would be construed as a part of a voluntary policy---that, at home, it would discourage the friends of the Union, embolden its adversaries, and go far to insure to the latter, a recognition abroad---that, in fact, it would be our national destruction consummated.",
+              "word_offset_start": 776,
+              "word_offset_end": 883,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s04",
+              "sentence_ordinal": 4,
+              "text": "This could not be allowed.",
+              "word_offset_start": 883,
+              "word_offset_end": 888,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s05",
+              "sentence_ordinal": 5,
+              "text": "Starvation was not yet upon the garrison; and ere it would be reached, Fort Pickens might be reinforced.",
+              "word_offset_start": 888,
+              "word_offset_end": 906,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s06",
+              "sentence_ordinal": 6,
+              "text": "This last, would be a clear indication of policy, and would better enable the country to accept the evacuation of Fort Sumter, as a military necessity.",
+              "word_offset_start": 906,
+              "word_offset_end": 932,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s07",
+              "sentence_ordinal": 7,
+              "text": "An order was at once directed to be sent for the landing of the troops from the Steamship Brooklyn, into Fort Pickens.",
+              "word_offset_start": 932,
+              "word_offset_end": 954,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s08",
+              "sentence_ordinal": 8,
+              "text": "This order could not go by land, but must take the longer, and slower route by sea.",
+              "word_offset_start": 954,
+              "word_offset_end": 971,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s09",
+              "sentence_ordinal": 9,
+              "text": "The first return news from the order was received just one week before the fall of Fort Sumter.",
+              "word_offset_start": 971,
+              "word_offset_end": 989,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s10",
+              "sentence_ordinal": 10,
+              "text": "The news itself was, that the officer commanding the Sabine, to which vessel the troops had been transferred from the Brooklyn, acting upon some quasi armistice of the late administration, (and of the existence of which, the present administration, up to the time the order was despatched, had only too vague and uncertain rumors, to fix attention) had refused to land the troops.",
+              "word_offset_start": 989,
+              "word_offset_end": 1052,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p11_s11",
+              "sentence_ordinal": 11,
+              "text": "To now re-inforce Fort Pickens, before a crisis would be",
+              "word_offset_start": 1052,
+              "word_offset_end": 1062,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p12",
+          "paragraph_ordinal": 12,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p12_s01",
+              "sentence_ordinal": 1,
+              "text": "reached at Fort Sumter was impossible---rendered so by the near exhaustion of provisions in the latter-named Fort.",
+              "word_offset_start": 1062,
+              "word_offset_end": 1079,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p12_s02",
+              "sentence_ordinal": 2,
+              "text": "In precaution against such a conjuncture, the government had, a few days before, commenced preparing an expedition, as well adapted as might be, to relieve Fort Sumter, which expedition was intended to be ultimately used, or not, according to circumstances.",
+              "word_offset_start": 1079,
+              "word_offset_end": 1119,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p12_s03",
+              "sentence_ordinal": 3,
+              "text": "The strongest anticipated case, for using it, was now presented; and it was resolved to send it forward.",
+              "word_offset_start": 1119,
+              "word_offset_end": 1137,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p12_s04",
+              "sentence_ordinal": 4,
+              "text": "As had been intended, in this contingency, it was also resolved to notify the Governor of South Carolina, that he might except an attempt would be made to provision the Fort; and that, if the attempt should not be resisted, there would be no effort to throw in men, arms, or ammunition, without further notice, or in case of an attack upon the Fort.",
+              "word_offset_start": 1137,
+              "word_offset_end": 1201,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p12_s05",
+              "sentence_ordinal": 5,
+              "text": "This notice was accordingly given; whereupon the Fort was attacked, and bombarded to its fall, without even awaiting the arrival of the provisioning expedition.",
+              "word_offset_start": 1201,
+              "word_offset_end": 1225,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p13",
+          "paragraph_ordinal": 13,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p13_s01",
+              "sentence_ordinal": 1,
+              "text": "It is thus seen that the assault upon, and reduction of, Fort Sumter, was, in no sense, a matter of self defence on the part of the assailants.",
+              "word_offset_start": 1225,
+              "word_offset_end": 1253,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p13_s02",
+              "sentence_ordinal": 2,
+              "text": "They well knew that the garrison in the Fort could, by no possibility, commit aggression upon them.",
+              "word_offset_start": 1253,
+              "word_offset_end": 1270,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p13_s03",
+              "sentence_ordinal": 3,
+              "text": "They knew---they were expressly notified---that the giving of bread to the few brave and hungry men of the garrison, was all which would on that occasion be attempted, unless themselves, by resisting so much, should provoke more.",
+              "word_offset_start": 1270,
+              "word_offset_end": 1307,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p13_s04",
+              "sentence_ordinal": 4,
+              "text": "They knew that this Government desired to keep the garrison in the Fort, not to assail them, but merely to maintain visible possession, and thus to preserve the Union from actual, and immediate dissolution---trusting, as herein-before stated, to time, discussion, and the ballot-box, for final adjustment; and they assailed, and reduced the Fort, for precisely the reverse object---to drive out the visible authority of the Federal Union, and thus force it to immediate dissolution.",
+              "word_offset_start": 1307,
+              "word_offset_end": 1381,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p14",
+          "paragraph_ordinal": 14,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p14_s01",
+              "sentence_ordinal": 1,
+              "text": "That this was their object, the Executive well understood; and having said to them in the inaugural address, ``You can have no conflict without being yourselves the aggressors,'' he took pains, not only to keep this declaration good, but also to keep the case so free from the power of ingenious sophistry, as that the world should not be able to misunderstand it.",
+              "word_offset_start": 1381,
+              "word_offset_end": 1444,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p14_s02",
+              "sentence_ordinal": 2,
+              "text": "By the affair at Fort Sumter, with its surrounding circumstances, that point was reached.",
+              "word_offset_start": 1444,
+              "word_offset_end": 1458,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p14_s03",
+              "sentence_ordinal": 3,
+              "text": "Then, and thereby, the assailants of the Government, began the conflict of",
+              "word_offset_start": 1458,
+              "word_offset_end": 1470,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p15",
+          "paragraph_ordinal": 15,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p15_s01",
+              "sentence_ordinal": 1,
+              "text": "arms, without a gun in sight, or in expectancy, to return their fire, save only the few in the Fort, sent to that harbor, years before, for their own protection, and still ready to give that protection, in whatever was lawful.",
+              "word_offset_start": 1470,
+              "word_offset_end": 1511,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p15_s02",
+              "sentence_ordinal": 2,
+              "text": "In this act, discarding all else, they have forced upon the country, the distinct issue: ``Immediate dissolution, or blood.''",
+              "word_offset_start": 1511,
+              "word_offset_end": 1530,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p16",
+          "paragraph_ordinal": 16,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p16_s01",
+              "sentence_ordinal": 1,
+              "text": "And this issue embraces more than the fate of these United States.",
+              "word_offset_start": 1530,
+              "word_offset_end": 1542,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p16_s02",
+              "sentence_ordinal": 2,
+              "text": "It presents to the whole family of man, the question, whether a constitutional republic, or a democracy---a government of the people, by the same people---can, or cannot, maintain its territorial integrity, against its own domestic foes.",
+              "word_offset_start": 1542,
+              "word_offset_end": 1578,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p16_s03",
+              "sentence_ordinal": 3,
+              "text": "It presents the question, whether discontented individuals, too few in numbers to control administration, according to organic law, in any case, can always, upon the pretences made in this case, or on any other pretences, or arbitrarily, without any pretence, break up their Government, and thus practically put an end to free government upon the earth.",
+              "word_offset_start": 1578,
+              "word_offset_end": 1634,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p16_s04",
+              "sentence_ordinal": 4,
+              "text": "It forces us to ask: ``Is there, in all republics, this inherent, and fatal weakness?'' ``Must a government, of necessity, be too strong for the liberties of its own people, or too weak to maintain its own existence?''",
+              "word_offset_start": 1634,
+              "word_offset_end": 1672,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p17",
+          "paragraph_ordinal": 17,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p17_s01",
+              "sentence_ordinal": 1,
+              "text": "So viewing the issue, no choice was left but to call out the war power of the Government; and so to resist force, employed for its destruction, by force, for its preservation.",
+              "word_offset_start": 1672,
+              "word_offset_end": 1704,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p18",
+          "paragraph_ordinal": 18,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p18_s01",
+              "sentence_ordinal": 1,
+              "text": "The call was made; and the response of the country was most gratifying; surpassing, in unanimity and spirit, the most sanguine expectation.",
+              "word_offset_start": 1704,
+              "word_offset_end": 1726,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p18_s02",
+              "sentence_ordinal": 2,
+              "text": "Yet none of the States commonly called Slavestates, except Delaware, gave a Regiment through regular State organization.",
+              "word_offset_start": 1726,
+              "word_offset_end": 1743,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p18_s03",
+              "sentence_ordinal": 3,
+              "text": "A few regiments have been organized within some others of those states, by individual enterprise, and received into the government service.",
+              "word_offset_start": 1743,
+              "word_offset_end": 1764,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p18_s04",
+              "sentence_ordinal": 4,
+              "text": "Of course the seceded States, so called, (and to which Texas had been joined about the time of the inauguration,) gave no troops to the cause of the Union.",
+              "word_offset_start": 1764,
+              "word_offset_end": 1793,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p18_s05",
+              "sentence_ordinal": 5,
+              "text": "The border States, so called, were not uniform in their actions; some of them being almost for the Union, while in others---as Virginia, North",
+              "word_offset_start": 1793,
+              "word_offset_end": 1817,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p19",
+          "paragraph_ordinal": 19,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p19_s01",
+              "sentence_ordinal": 1,
+              "text": "Carolina, Tennessee, and Arkansas---the Union sentiment was nearly repressed, and silenced.",
+              "word_offset_start": 1817,
+              "word_offset_end": 1828,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s02",
+              "sentence_ordinal": 2,
+              "text": "The course taken in Virginia was the most remarkable---perhaps the most important.",
+              "word_offset_start": 1828,
+              "word_offset_end": 1840,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s03",
+              "sentence_ordinal": 3,
+              "text": "A convention, elected by the people of that State, to consider this very question of disrupting the Federal Union, was in session at the capital of Virginia when Fort Sumter fell.",
+              "word_offset_start": 1840,
+              "word_offset_end": 1871,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s04",
+              "sentence_ordinal": 4,
+              "text": "To this body the people had chosen a large majority of professed Union men.",
+              "word_offset_start": 1871,
+              "word_offset_end": 1885,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s05",
+              "sentence_ordinal": 5,
+              "text": "Almost immediately after the fall of Sumter, many members of that majority went over to the original disunion minority, and, with them, adopted an ordinance for withdrawing the State from the Union.",
+              "word_offset_start": 1885,
+              "word_offset_end": 1917,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s06",
+              "sentence_ordinal": 6,
+              "text": "Whether this change was wrought by their great approval of the assault upon Sumter, or their great resentment at the government's resistance to that assault, is not definitely known.",
+              "word_offset_start": 1917,
+              "word_offset_end": 1946,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s07",
+              "sentence_ordinal": 7,
+              "text": "Although they submitted the ordinance, for ratification, to vote of the people, to be taken on a day then somewhat more than a month distant, the convention, and the Legislature, (Which was also in session at the same time and place) with leading men of the State, not members of either, immediately commenced acting, as if the State were already out of the Union.",
+              "word_offset_start": 1946,
+              "word_offset_end": 2010,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s08",
+              "sentence_ordinal": 8,
+              "text": "They pushed military preparations vigorously forward all over the state.",
+              "word_offset_start": 2010,
+              "word_offset_end": 2020,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s09",
+              "sentence_ordinal": 9,
+              "text": "They seized the United States Armory at Harper's Ferry, and the Navy-yard at Gosport, near Norfolk.",
+              "word_offset_start": 2020,
+              "word_offset_end": 2036,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s10",
+              "sentence_ordinal": 10,
+              "text": "They received---perhaps invited---into their state, large bodies of troops, with their warlike appointments, from the so-called seceded States.",
+              "word_offset_start": 2036,
+              "word_offset_end": 2054,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s11",
+              "sentence_ordinal": 11,
+              "text": "They formally entered into a treaty of temporary alliance, and co-operation with the so-called ``Confederate States,'' and sent members to their Congress at Montgomery.",
+              "word_offset_start": 2054,
+              "word_offset_end": 2078,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p19_s12",
+              "sentence_ordinal": 12,
+              "text": "And, finally, they permitted the insurrectionary government to be transferred to their capital at Richmond.",
+              "word_offset_start": 2078,
+              "word_offset_end": 2093,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p20",
+          "paragraph_ordinal": 20,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p20_s01",
+              "sentence_ordinal": 1,
+              "text": "The people of Virginia have thus allowed this giant insurrection to make its nest within her borders; and this government has no choice left but to deal with it, where it finds it.",
+              "word_offset_start": 2093,
+              "word_offset_end": 2126,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p20_s02",
+              "sentence_ordinal": 2,
+              "text": "And it has the less regret, as the loyal citizens have, in due form, claimed its protection.",
+              "word_offset_start": 2126,
+              "word_offset_end": 2143,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p21",
+          "paragraph_ordinal": 21,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p21_s01",
+              "sentence_ordinal": 1,
+              "text": "Those loyal citizens, this government is bound to recognize, and protect, as being Virginia.",
+              "word_offset_start": 2143,
+              "word_offset_end": 2157,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p22",
+          "paragraph_ordinal": 22,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p22_s01",
+              "sentence_ordinal": 1,
+              "text": "In the border States, so called---in fact, the middle states---there are those who favor a policy which they call ``armed neutrality''---that is, an arming of those states to prevent the Union forces passing one way, or the disunion, the other, over their soil.",
+              "word_offset_start": 2157,
+              "word_offset_end": 2200,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p22_s02",
+              "sentence_ordinal": 2,
+              "text": "This would be disunion completed.",
+              "word_offset_start": 2200,
+              "word_offset_end": 2205,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p22_s03",
+              "sentence_ordinal": 3,
+              "text": "Figuratively speaking, it would be the building of an impassable wall along the line of separation.",
+              "word_offset_start": 2205,
+              "word_offset_end": 2221,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p22_s04",
+              "sentence_ordinal": 4,
+              "text": "And yet, not quite an impassable one; for, under the guise of neutrality, it would tie the hands of the Union men, and freely pass supplies from among them, to the insurrectionists, which it could not do as an open enemy.",
+              "word_offset_start": 2221,
+              "word_offset_end": 2262,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p22_s05",
+              "sentence_ordinal": 5,
+              "text": "At a stroke, it would take all the trouble off the hands of secession, except only what proceeds from the external blockade.",
+              "word_offset_start": 2262,
+              "word_offset_end": 2284,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p22_s06",
+              "sentence_ordinal": 6,
+              "text": "It would do for the disunionists that which, of all things, they most desire---feed them well, and give them disunion without a struggle of their own.",
+              "word_offset_start": 2284,
+              "word_offset_end": 2310,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p22_s07",
+              "sentence_ordinal": 7,
+              "text": "It recognizes no fidelity to the Constitution, no obligation to maintain the Union; and while very many who have favored it are, doubtless, loyal citizens, it is, nevertheless, treason in effect.",
+              "word_offset_start": 2310,
+              "word_offset_end": 2341,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p23",
+          "paragraph_ordinal": 23,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p23_s01",
+              "sentence_ordinal": 1,
+              "text": "Recurring to the action of the government, it may be stated that, at first, a call was made for seventy-five thousand militia; and rapidly following this, a proclamation was issued for closing the ports of the insurrectionary districts by proceedings in the nature of Blockade.",
+              "word_offset_start": 2341,
+              "word_offset_end": 2386,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p23_s02",
+              "sentence_ordinal": 2,
+              "text": "So far all was believed to be strictly legal.",
+              "word_offset_start": 2386,
+              "word_offset_end": 2395,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p23_s03",
+              "sentence_ordinal": 3,
+              "text": "At this point the insurrectionists announced their purpose to enter upon the practice of privateering.",
+              "word_offset_start": 2395,
+              "word_offset_end": 2410,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p24",
+          "paragraph_ordinal": 24,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p24_s01",
+              "sentence_ordinal": 1,
+              "text": "Other calls were made for volunteers, to serve three years, unless sooner discharged; and also for large additions to the regular Army and Navy.",
+              "word_offset_start": 2410,
+              "word_offset_end": 2434,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p24_s02",
+              "sentence_ordinal": 2,
+              "text": "These measures, whether strictly legal or not, were ventured upon, under what appeared to be a popular demand, and a public necessity; trusting, then as now, that Congress would readily ratify them.",
+              "word_offset_start": 2434,
+              "word_offset_end": 2466,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p24_s03",
+              "sentence_ordinal": 3,
+              "text": "It is believed that nothing has been done beyond the constitutional competency of Congress.Soon after the first call for militia, it was considered a duty to authorize the Commanding General, in proper cases, according to his discretion, to suspend the privilege of the writ of habeas corpus; or, in other words, to arrest, and detain, without resort to the ordinary processes and forms of law, such individuals as he might deem dangerous to the public safety.",
+              "word_offset_start": 2466,
+              "word_offset_end": 2542,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p24_s04",
+              "sentence_ordinal": 4,
+              "text": "This authority has purposely been exercised but very sparingly.",
+              "word_offset_start": 2542,
+              "word_offset_end": 2551,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p24_s05",
+              "sentence_ordinal": 5,
+              "text": "Nevertheless, the legality and propriety of what has been done under it, are questioned; and the attention of the country has been called to the proposition",
+              "word_offset_start": 2551,
+              "word_offset_end": 2577,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p25",
+          "paragraph_ordinal": 25,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p25_s01",
+              "sentence_ordinal": 1,
+              "text": "that one who is sworn to ``take care that the laws be faithfully executed,'' should not himself violate them.",
+              "word_offset_start": 2577,
+              "word_offset_end": 2596,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s02",
+              "sentence_ordinal": 2,
+              "text": "Of course some consideration was given to the questions of power, and propriety, before this matter was acted upon.",
+              "word_offset_start": 2596,
+              "word_offset_end": 2615,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s03",
+              "sentence_ordinal": 3,
+              "text": "The whole of the laws which were required to be faithfully executed, were being resisted, and failing of execution, in nearly one-third of the States.",
+              "word_offset_start": 2615,
+              "word_offset_end": 2640,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s04",
+              "sentence_ordinal": 4,
+              "text": "Must they be allowed to finally fail of execution, even had it been perfectly clear, that by the use of the means necessary to their execution, some single law, made in such extreme tenderness of the citizen's liberty, that practically, it relieves more of the guilty, than of the innocent, should, to a very limited extent, be violated?",
+              "word_offset_start": 2640,
+              "word_offset_end": 2698,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s05",
+              "sentence_ordinal": 5,
+              "text": "To state the question more directly, are all the laws, but one, to go unexecuted, and the government itself go to pieces, lest that one be violated?",
+              "word_offset_start": 2698,
+              "word_offset_end": 2725,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s06",
+              "sentence_ordinal": 6,
+              "text": "Even in such a case, would not the official oath be broken, if the government should be overthrown, when it was believed that disregarding the single law, would tend to preserve it?",
+              "word_offset_start": 2725,
+              "word_offset_end": 2757,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s07",
+              "sentence_ordinal": 7,
+              "text": "But it was not believed that this question was presented.",
+              "word_offset_start": 2757,
+              "word_offset_end": 2767,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s08",
+              "sentence_ordinal": 8,
+              "text": "It was not believed that any law was violated.",
+              "word_offset_start": 2767,
+              "word_offset_end": 2776,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s09",
+              "sentence_ordinal": 9,
+              "text": "The provision of the Constitution that ``The privilege of the writ of habeas corpus, shall not be suspended unless when, in cases of rebellion or invasion, the public safety may require it,'' is equivalent to a provision---is a provision---that such privilege may be suspended when, in cases of rebellion, or invasion, the public safety does require it.",
+              "word_offset_start": 2776,
+              "word_offset_end": 2833,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s10",
+              "sentence_ordinal": 10,
+              "text": "It was decided that we have a case of rebellion, and that the public safety does require the qualified suspension of the privilege of the writ which was authorized to be made.",
+              "word_offset_start": 2833,
+              "word_offset_end": 2865,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s11",
+              "sentence_ordinal": 11,
+              "text": "Now it is insisted that Congress, and not the Executive, is vested with this power.",
+              "word_offset_start": 2865,
+              "word_offset_end": 2880,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p25_s12",
+              "sentence_ordinal": 12,
+              "text": "But the Constitution itself, is silent as to which, or who, is to exercise the power; and as",
+              "word_offset_start": 2880,
+              "word_offset_end": 2898,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p26",
+          "paragraph_ordinal": 26,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p26_s01",
+              "sentence_ordinal": 1,
+              "text": "the provision was plainly made for a dangerous emergency, it cannot be believed the framers of the instrument intended, that in every case, the danger should run its course, until Congress could be called together; the very assembling of which might be prevented, as was intended in this case, by the rebellion.",
+              "word_offset_start": 2898,
+              "word_offset_end": 2950,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p27",
+          "paragraph_ordinal": 27,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p27_s01",
+              "sentence_ordinal": 1,
+              "text": "No more extended argument is now offered; as an opinion, at some length, will probably be presented by the Attorney General.",
+              "word_offset_start": 2950,
+              "word_offset_end": 2971,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p27_s02",
+              "sentence_ordinal": 2,
+              "text": "Whether there shall be any legislation upon the subject, and if any, what, is submitted entirely to the better judgment of Congress.",
+              "word_offset_start": 2971,
+              "word_offset_end": 2993,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p28",
+          "paragraph_ordinal": 28,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p28_s01",
+              "sentence_ordinal": 1,
+              "text": "The forbearance of this government had been so extraordinary, and so long continued, as to lead some foreign nations to shape their action as if they supposed the early destruction of our national Union was probable.",
+              "word_offset_start": 2993,
+              "word_offset_end": 3029,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p28_s02",
+              "sentence_ordinal": 2,
+              "text": "While this, on discovery, gave the Executive some concern, he is now happy to say that the sovereignty, and rights of the United States, are now everywhere practically respected by foreign powers; and a general sympathy with the country is manifested throughout the world.",
+              "word_offset_start": 3029,
+              "word_offset_end": 3073,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p29",
+          "paragraph_ordinal": 29,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p29_s01",
+              "sentence_ordinal": 1,
+              "text": "The reports of the Secretaries of the Treasury, War, and the Navy, will give the information in detail deemed necessary, and convenient for your deliberation, and action; while the Executive, and all the Departments, will stand ready to supply omissions, or to communicate new facts, considered important for you to know.",
+              "word_offset_start": 3073,
+              "word_offset_end": 3124,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p30",
+          "paragraph_ordinal": 30,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p30_s01",
+              "sentence_ordinal": 1,
+              "text": "It is now recommended that you give the legal means for making this contest a short, and a decisive one; that you place at the control of the government, for the work, at least four hundred",
+              "word_offset_start": 3124,
+              "word_offset_end": 3160,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p31",
+          "paragraph_ordinal": 31,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p31_s01",
+              "sentence_ordinal": 1,
+              "text": "thousand men, and four hundred millions of dollars.",
+              "word_offset_start": 3160,
+              "word_offset_end": 3168,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p31_s02",
+              "sentence_ordinal": 2,
+              "text": "That number of men is about one tenth of those of proper ages within the regions where, apparently, all are willing to engage; and the sum is less than a twentythird part of the money value owned by the men who seem ready to devote the whole.",
+              "word_offset_start": 3168,
+              "word_offset_end": 3215,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p31_s03",
+              "sentence_ordinal": 3,
+              "text": "A debt of six hundred millions of dollars now, is a less sum per head, than was the debt of our revolution, when we came out of that struggle; and the money value in the country now, bears even a greater proportion to what it was then, than does the population.",
+              "word_offset_start": 3215,
+              "word_offset_end": 3266,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p31_s04",
+              "sentence_ordinal": 4,
+              "text": "Surely each man has as strong a motive now, to preserve our liberties, as each had then, to establish them.",
+              "word_offset_start": 3266,
+              "word_offset_end": 3286,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p32",
+          "paragraph_ordinal": 32,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p32_s01",
+              "sentence_ordinal": 1,
+              "text": "A right result, at this time, will be worth more to the world, than ten times the men, and ten times the money.",
+              "word_offset_start": 3286,
+              "word_offset_end": 3309,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p32_s02",
+              "sentence_ordinal": 2,
+              "text": "The evidence reaching us from the country, leaves no doubt, that the material for the work is abundant; and that it needs only the hand of legislation to give it legal sanction, and the hand of the Executive to give it practical shape and efficiency.",
+              "word_offset_start": 3309,
+              "word_offset_end": 3354,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p32_s03",
+              "sentence_ordinal": 3,
+              "text": "One of the greatest perplexities of the government, is to avoid receiving troops faster than it can provide for them.",
+              "word_offset_start": 3354,
+              "word_offset_end": 3374,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p32_s04",
+              "sentence_ordinal": 4,
+              "text": "In a word, the people will save their government, if the government itself, will do its part, only indifferently well.",
+              "word_offset_start": 3374,
+              "word_offset_end": 3394,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p33",
+          "paragraph_ordinal": 33,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p33_s01",
+              "sentence_ordinal": 1,
+              "text": "It might seem, at first thought, to be of little difference whether the present movement at the South be called ``secession'' or ``rebellion.'' The movers, however, well understand the difference.",
+              "word_offset_start": 3394,
+              "word_offset_end": 3424,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p33_s02",
+              "sentence_ordinal": 2,
+              "text": "At the beginning, they knew they could never raise their treason to any respectable magnitude, by any name which implies violation of law.",
+              "word_offset_start": 3424,
+              "word_offset_end": 3447,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p33_s03",
+              "sentence_ordinal": 3,
+              "text": "They knew their people possessed as much of moral sense, as much of devotion to law and order, and as much pride in, and reverence for, the history, and government, of their common country, as any other civilized, and patriotic people.",
+              "word_offset_start": 3447,
+              "word_offset_end": 3488,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p33_s04",
+              "sentence_ordinal": 4,
+              "text": "They knew they could make no advancement directly in the teeth of these strong and noble sentiments.",
+              "word_offset_start": 3488,
+              "word_offset_end": 3505,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p33_s05",
+              "sentence_ordinal": 5,
+              "text": "Accordingly they commenced by an",
+              "word_offset_start": 3505,
+              "word_offset_end": 3510,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p34",
+          "paragraph_ordinal": 34,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p34_s01",
+              "sentence_ordinal": 1,
+              "text": "insidious debauching of the public mind.",
+              "word_offset_start": 3510,
+              "word_offset_end": 3516,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p34_s02",
+              "sentence_ordinal": 2,
+              "text": "They invented an ingenious sophism, which, if conceded, was followed by perfectly logical steps, through all the incidents, to the complete destruction of the Union.",
+              "word_offset_start": 3516,
+              "word_offset_end": 3541,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p34_s03",
+              "sentence_ordinal": 3,
+              "text": "The sophism itself is, that any state of the Union may, consistently with the national Constitution, and therefore lawfully, and peacefully, withdraw from the Union, without the consent of the Union, or of any other state.",
+              "word_offset_start": 3541,
+              "word_offset_end": 3577,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p34_s04",
+              "sentence_ordinal": 4,
+              "text": "The little disguise that the supposed right is to be exercised only for just cause, themselves to be the sole judge of its justice, is too thin to merit any notice.",
+              "word_offset_start": 3577,
+              "word_offset_end": 3608,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p35",
+          "paragraph_ordinal": 35,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p35_s01",
+              "sentence_ordinal": 1,
+              "text": "With rebellion thus sugar-coated, they have been drugging the public mind of their section for more than thirty years; and, until at length, they have brought many good men to a willingness to take up arms against the government the day after some assemblage of men have enacted the farcical pretence of taking their State out of the Union, who could have been brought to no such thing the day before.",
+              "word_offset_start": 3608,
+              "word_offset_end": 3679,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p36",
+          "paragraph_ordinal": 36,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p36_s01",
+              "sentence_ordinal": 1,
+              "text": "This sophism derives much---perhaps the whole---of its currency, from the assumption, that there is some omnipotent, and sacred supremacy, pertaining to a State---to each State of our Federal Union.",
+              "word_offset_start": 3679,
+              "word_offset_end": 3708,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p36_s02",
+              "sentence_ordinal": 2,
+              "text": "Our States have neither more, nor less power, than that reserved to them, in the Union, by the Constitution---no one of them ever having been a State out of the Union.",
+              "word_offset_start": 3708,
+              "word_offset_end": 3739,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p36_s03",
+              "sentence_ordinal": 3,
+              "text": "The original ones passed into the Union even before they cast off their British colonial dependence; and the new ones each came into the Union directly from a condition of dependence, excepting Texas.",
+              "word_offset_start": 3739,
+              "word_offset_end": 3772,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p36_s04",
+              "sentence_ordinal": 4,
+              "text": "And even Texas, in its temporary independence, was never designated a State.",
+              "word_offset_start": 3772,
+              "word_offset_end": 3784,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p36_s05",
+              "sentence_ordinal": 5,
+              "text": "The new ones only took the designation of States, on coming into the Union, while that name was first adopted for the old ones, in, and by, the Declaration of Independence.",
+              "word_offset_start": 3784,
+              "word_offset_end": 3815,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p36_s06",
+              "sentence_ordinal": 6,
+              "text": "Therein the ``United Colonies'' were declared to be ``Free and Independent States''; but, even then, the object plainly was not to declare their independence of one another, or of the Union; but directly the contrary, as their mutual pledge, and their mutual action, before, at the time, and afterwards, abundantly show.",
+              "word_offset_start": 3815,
+              "word_offset_end": 3866,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p36_s07",
+              "sentence_ordinal": 7,
+              "text": "The express plighting of faith, by each and all of the original thirteen, in the Articles of Confederation, two years later, that the Union shall",
+              "word_offset_start": 3866,
+              "word_offset_end": 3891,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p37",
+          "paragraph_ordinal": 37,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p37_s01",
+              "sentence_ordinal": 1,
+              "text": "be perpetual, is most conclusive.",
+              "word_offset_start": 3891,
+              "word_offset_end": 3896,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s02",
+              "sentence_ordinal": 2,
+              "text": "Having never been States, either in substance, or in name, outside of the Union, whence this magical omnipotence of ``State rights,'' asserting a claim of power to lawfully destroy the Union itself?",
+              "word_offset_start": 3896,
+              "word_offset_end": 3928,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s03",
+              "sentence_ordinal": 3,
+              "text": "Much is said about the ``sovereignty'' of the States; but the word, even, is not in the national Constitution; nor, as is believed, in any of the State constitutions.",
+              "word_offset_start": 3928,
+              "word_offset_end": 3957,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s04",
+              "sentence_ordinal": 4,
+              "text": "What is a ``sovereignty,'' in the political sense of the term?",
+              "word_offset_start": 3957,
+              "word_offset_end": 3968,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s05",
+              "sentence_ordinal": 5,
+              "text": "Would it be far wrong to define it ``A political community, without a political superior''?",
+              "word_offset_start": 3968,
+              "word_offset_end": 3983,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s06",
+              "sentence_ordinal": 6,
+              "text": "Tested by this, no one of our States, except Texas, ever was a sovereignty.",
+              "word_offset_start": 3983,
+              "word_offset_end": 3997,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s07",
+              "sentence_ordinal": 7,
+              "text": "And even Texas gave up the character on coming into the Union; by which act, she acknowledged the Constitution of the United States, and the laws and treaties of the United States made in pursuance of the Constitution, to be, for her, the supreme law of the land.",
+              "word_offset_start": 3997,
+              "word_offset_end": 4045,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s08",
+              "sentence_ordinal": 8,
+              "text": "The States have their status IN the Union, and they have no other legal status.",
+              "word_offset_start": 4045,
+              "word_offset_end": 4060,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s09",
+              "sentence_ordinal": 9,
+              "text": "If they break from this, they can only do so against law, and by revolution.",
+              "word_offset_start": 4060,
+              "word_offset_end": 4075,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s10",
+              "sentence_ordinal": 10,
+              "text": "The Union, and not themselves separately, procured their independence, and their liberty.",
+              "word_offset_start": 4075,
+              "word_offset_end": 4087,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s11",
+              "sentence_ordinal": 11,
+              "text": "By conquest, or purchase, the Union gave each of them, whatever of independence, and liberty, it has.",
+              "word_offset_start": 4087,
+              "word_offset_end": 4104,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s12",
+              "sentence_ordinal": 12,
+              "text": "The Union is older than any of the States; and, in fact, it created them as States.",
+              "word_offset_start": 4104,
+              "word_offset_end": 4121,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p37_s13",
+              "sentence_ordinal": 13,
+              "text": "Originally, some dependent colonies",
+              "word_offset_start": 4121,
+              "word_offset_end": 4125,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p38",
+          "paragraph_ordinal": 38,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p38_s01",
+              "sentence_ordinal": 1,
+              "text": "made the Union; and, in turn, the Union threw off their old dependence, for them, and made them States, such as they are.",
+              "word_offset_start": 4125,
+              "word_offset_end": 4148,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p38_s02",
+              "sentence_ordinal": 2,
+              "text": "Not one of them ever had a State constitution, independent of the Union.",
+              "word_offset_start": 4148,
+              "word_offset_end": 4161,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p38_s03",
+              "sentence_ordinal": 3,
+              "text": "Of course, it is not forgotten that all the new States framed their constitutions, before they entered the Union; nevertheless, dependent upon, and preparatory to, coming into the Union.",
+              "word_offset_start": 4161,
+              "word_offset_end": 4190,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p39",
+          "paragraph_ordinal": 39,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p39_s01",
+              "sentence_ordinal": 1,
+              "text": "Unquestionably the States have the powers, and rights, reserved to them in, and by the National Constitution; but among these, surely, are not included all conceivable powers, however mischievous, or destructive; but, at most, such only, as were known in the world, at the time, as governmental powers; and certainly, a power to destroy the government itself, had never been known as a governmental---as a merely administrative power.",
+              "word_offset_start": 4190,
+              "word_offset_end": 4258,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p39_s02",
+              "sentence_ordinal": 2,
+              "text": "This relative matter of National power, and State rights, as a principle, is no other than the principle of generality, and locality.",
+              "word_offset_start": 4258,
+              "word_offset_end": 4280,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p39_s03",
+              "sentence_ordinal": 3,
+              "text": "Whatever concerns the whole, should be confided to the whole---to the general government; while, whatever concerns only the State, should be left exclusively, to the State.",
+              "word_offset_start": 4280,
+              "word_offset_end": 4306,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p39_s04",
+              "sentence_ordinal": 4,
+              "text": "This is all there is of original principle about it.",
+              "word_offset_start": 4306,
+              "word_offset_end": 4316,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p39_s05",
+              "sentence_ordinal": 5,
+              "text": "Whether the National Constitution, in defining boundaries between the two, has applied the principle with exact accuracy, is not to be questioned.",
+              "word_offset_start": 4316,
+              "word_offset_end": 4338,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p39_s06",
+              "sentence_ordinal": 6,
+              "text": "We are all bound by that defining, without question.",
+              "word_offset_start": 4338,
+              "word_offset_end": 4347,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p40",
+          "paragraph_ordinal": 40,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p40_s01",
+              "sentence_ordinal": 1,
+              "text": "What is now combatted, is the position that secession is consistent with the Constitution---is lawful, and peaceful.",
+              "word_offset_start": 4347,
+              "word_offset_end": 4364,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p40_s02",
+              "sentence_ordinal": 2,
+              "text": "It is not contended that there is any express law for it; and nothing should ever be implied as law, which leads to unjust, or absurd consequences.",
+              "word_offset_start": 4364,
+              "word_offset_end": 4391,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p40_s03",
+              "sentence_ordinal": 3,
+              "text": "The nation purchased, with money, the countries out of which several of these States were formed.",
+              "word_offset_start": 4391,
+              "word_offset_end": 4407,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p40_s04",
+              "sentence_ordinal": 4,
+              "text": "Is it just that they shall go off without leave, and without refunding?",
+              "word_offset_start": 4407,
+              "word_offset_end": 4420,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p40_s05",
+              "sentence_ordinal": 5,
+              "text": "The nation paid very large sums, (in the aggregate, I believe, nearly a hundred millions) to relieve Florida of the aboriginal tribes.",
+              "word_offset_start": 4420,
+              "word_offset_end": 4442,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p40_s06",
+              "sentence_ordinal": 6,
+              "text": "Is it just that she shall now be off without consent, or without making any return?",
+              "word_offset_start": 4442,
+              "word_offset_end": 4458,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p40_s07",
+              "sentence_ordinal": 7,
+              "text": "The nation is now in debt for money applied to the benefit of these so-called seceding States, in common with the rest.",
+              "word_offset_start": 4458,
+              "word_offset_end": 4480,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p40_s08",
+              "sentence_ordinal": 8,
+              "text": "Is it just, either that creditors shall go unpaid, or the remaining States pay the",
+              "word_offset_start": 4480,
+              "word_offset_end": 4495,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p41",
+          "paragraph_ordinal": 41,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p41_s01",
+              "sentence_ordinal": 1,
+              "text": "whole?",
+              "word_offset_start": 4495,
+              "word_offset_end": 4496,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p41_s02",
+              "sentence_ordinal": 2,
+              "text": "A part of the present national debt was contracted to pay the old debts of Texas.",
+              "word_offset_start": 4496,
+              "word_offset_end": 4512,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p41_s03",
+              "sentence_ordinal": 3,
+              "text": "Is it just that she shall leave, and pay no part of this herself?",
+              "word_offset_start": 4512,
+              "word_offset_end": 4526,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p42",
+          "paragraph_ordinal": 42,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p42_s01",
+              "sentence_ordinal": 1,
+              "text": "Again, if one State may secede, so may another; and when all shall have seceded, none is left to pay the debts.",
+              "word_offset_start": 4526,
+              "word_offset_end": 4548,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p42_s02",
+              "sentence_ordinal": 2,
+              "text": "Is this quite just to creditors?",
+              "word_offset_start": 4548,
+              "word_offset_end": 4554,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p42_s03",
+              "sentence_ordinal": 3,
+              "text": "Did we notify them of this sage view of ours, when we borrowed their money?",
+              "word_offset_start": 4554,
+              "word_offset_end": 4569,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p42_s04",
+              "sentence_ordinal": 4,
+              "text": "If we now recognize this doctrine, by allowing the seceders to go in peace, it is difficult to see what we can do, if others choose to go, or to extort terms upon which they will promise to remain.The seceders insist that our Constitution admits of secession.",
+              "word_offset_start": 4569,
+              "word_offset_end": 4616,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p42_s05",
+              "sentence_ordinal": 5,
+              "text": "They have assumed to make a National Constitution of their own, in which, of necessity, they have either discarded, or retained, the right of secession, as they insist, it exists in ours.",
+              "word_offset_start": 4616,
+              "word_offset_end": 4648,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p42_s06",
+              "sentence_ordinal": 6,
+              "text": "If they have discarded it, they thereby admit that, on principle, it ought not to be in ours.",
+              "word_offset_start": 4648,
+              "word_offset_end": 4666,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p42_s07",
+              "sentence_ordinal": 7,
+              "text": "If they have retained it, by their own construction of ours they show that to be consistent they must secede from one another, whenever they shall find it the easiest way of settling their debts, or effecting any other selfish, or unjust object.",
+              "word_offset_start": 4666,
+              "word_offset_end": 4709,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p42_s08",
+              "sentence_ordinal": 8,
+              "text": "The principle itself is one of disintegration, and upon which no government can possibly endure.",
+              "word_offset_start": 4709,
+              "word_offset_end": 4724,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p43",
+          "paragraph_ordinal": 43,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p43_s01",
+              "sentence_ordinal": 1,
+              "text": "If all the States, save one, should assert the power to drive that one out of the Union, it is presumed the whole class of seceder politicians would at once deny the power, and denounce the act as the greatest outrage upon State rights.",
+              "word_offset_start": 4724,
+              "word_offset_end": 4768,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p43_s02",
+              "sentence_ordinal": 2,
+              "text": "But suppose that precisely the same act, instead of being called ``driving the one out,'' should be called ``the seceding of the others from that one,'' it would be exactly what the seceders claim to do; unless, indeed, they make the point, that the one, because it is a minority, may rightfully do, what the others, because they are a majority, may not rightfully do.",
+              "word_offset_start": 4768,
+              "word_offset_end": 4833,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p43_s03",
+              "sentence_ordinal": 3,
+              "text": "These politicians are subtle, and profound, on the rights",
+              "word_offset_start": 4833,
+              "word_offset_end": 4842,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p44",
+          "paragraph_ordinal": 44,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p44_s01",
+              "sentence_ordinal": 1,
+              "text": "of minorities.",
+              "word_offset_start": 4842,
+              "word_offset_end": 4844,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p44_s02",
+              "sentence_ordinal": 2,
+              "text": "They are not partial to that power which made the Constitution, and speaks from the preamble, calling itself ``We, the People.''",
+              "word_offset_start": 4844,
+              "word_offset_end": 4865,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p45",
+          "paragraph_ordinal": 45,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p45_s01",
+              "sentence_ordinal": 1,
+              "text": "It may well be questioned whether there is, to-day, a majority of the legally qualified voters of any State, except perhaps South Carolina, in favor of disunion.",
+              "word_offset_start": 4865,
+              "word_offset_end": 4892,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p45_s02",
+              "sentence_ordinal": 2,
+              "text": "There is much reason to believe that the Union men are the majority in many, if not in every other one, of the so-called seceded States.",
+              "word_offset_start": 4892,
+              "word_offset_end": 4918,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p45_s03",
+              "sentence_ordinal": 3,
+              "text": "The contrary has not been demonstrated in any one of them.",
+              "word_offset_start": 4918,
+              "word_offset_end": 4929,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p45_s04",
+              "sentence_ordinal": 4,
+              "text": "It is ventured to affirm this, even of Virginia and Tennessee; for the result of an election, held in military camps, where the bayonets are all on one side of the question voted upon, can scarcely be considered as demonstrating popular sentiment.",
+              "word_offset_start": 4929,
+              "word_offset_end": 4971,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p45_s05",
+              "sentence_ordinal": 5,
+              "text": "At such an election, all that large class who are, at once, for the Union, and against coercion, would be coerced to vote against the Union.It may be affirmed, without extravagance, that the free institutions we enjoy, have developed the powers, and improved the condition, of our whole people, beyond any example in the world.",
+              "word_offset_start": 4971,
+              "word_offset_end": 5026,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p45_s06",
+              "sentence_ordinal": 6,
+              "text": "Of this we now have a striking, and an impressive illustration.",
+              "word_offset_start": 5026,
+              "word_offset_end": 5037,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p45_s07",
+              "sentence_ordinal": 7,
+              "text": "So large an army as the government has now on foot, was never before known, without a soldier in it, but who had taken his place there, of his own free choice.",
+              "word_offset_start": 5037,
+              "word_offset_end": 5069,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p45_s08",
+              "sentence_ordinal": 8,
+              "text": "But more than this: there are many single Regiments whose members, one and another, possess full practical knowledge of all the arts, sciences, professions, and whatever else, whether useful or elegant, is known in the world; and there is scarcely one, from which there could not be selected, a President, a Cabinet, a Congress, and perhaps a Court, abundantly competent to administer the government itself.",
+              "word_offset_start": 5069,
+              "word_offset_end": 5134,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p45_s09",
+              "sentence_ordinal": 9,
+              "text": "Nor do I say this is not true, also, in the army of our late friends, now adversaries, in this contest; but if it is, so much better the reason why",
+              "word_offset_start": 5134,
+              "word_offset_end": 5165,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p46",
+          "paragraph_ordinal": 46,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p46_s01",
+              "sentence_ordinal": 1,
+              "text": "the government, which has conferred such benefits on both them and us, should not be broken up.",
+              "word_offset_start": 5165,
+              "word_offset_end": 5182,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p46_s02",
+              "sentence_ordinal": 2,
+              "text": "Whoever, in any section, proposes to abandon such a government, would do well to consider, in deference to what principle it is, that he does it---what better he is likely to get in its stead---whether the substitute will give, or be intended to give, so much of good to the people.",
+              "word_offset_start": 5182,
+              "word_offset_end": 5233,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p46_s03",
+              "sentence_ordinal": 3,
+              "text": "There are some foreshadowings on this subject.",
+              "word_offset_start": 5233,
+              "word_offset_end": 5240,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p46_s04",
+              "sentence_ordinal": 4,
+              "text": "Our adversaries have adopted some Declarations of Independence; in which, unlike the good old one, penned by Jefferson, they omit the words ``all men are created equal.'' Why?",
+              "word_offset_start": 5240,
+              "word_offset_end": 5268,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p46_s05",
+              "sentence_ordinal": 5,
+              "text": "They have adopted a temporary national constitution, in the preamble of which, unlike our good old one, signed by Washington, they omit ``We, the People,'' and substitute ``We, the deputies of the sovereign and independent States.'' Why?",
+              "word_offset_start": 5268,
+              "word_offset_end": 5305,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p46_s06",
+              "sentence_ordinal": 6,
+              "text": "Why this deliberate pressing out of view, the rights of men, and the authority of the people?",
+              "word_offset_start": 5305,
+              "word_offset_end": 5322,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p47",
+          "paragraph_ordinal": 47,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p47_s01",
+              "sentence_ordinal": 1,
+              "text": "This is essentially a People's contest.",
+              "word_offset_start": 5322,
+              "word_offset_end": 5328,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p47_s02",
+              "sentence_ordinal": 2,
+              "text": "On the side of the Union, it is a struggle for maintaining in the world, that form, and substance of government, whose leading object is, to elevate the condition of men---to lift artificial weights from all shoulders---to clear the paths of laudable pursuit for all---to afford all, an unfettered start, and a fair chance, in the race of life.",
+              "word_offset_start": 5328,
+              "word_offset_end": 5387,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p47_s03",
+              "sentence_ordinal": 3,
+              "text": "Yielding to partial, and temporary departures, from necessity, this is the leading object of the government for whose existence we contend.",
+              "word_offset_start": 5387,
+              "word_offset_end": 5408,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p48",
+          "paragraph_ordinal": 48,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p48_s01",
+              "sentence_ordinal": 1,
+              "text": "I am most happy to believe that the plain people understand, and appreciate this.",
+              "word_offset_start": 5408,
+              "word_offset_end": 5422,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p48_s02",
+              "sentence_ordinal": 2,
+              "text": "It is worthy of note, that while in this, the government's hour of trial, large numbers of those in the Army and Navy, who have been favored with the offices, have resigned, and proved false to the hand which had pampered them, not one common soldier, or common sailor is is known to have deserted his flag.",
+              "word_offset_start": 5422,
+              "word_offset_end": 5479,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p49",
+          "paragraph_ordinal": 49,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p49_s01",
+              "sentence_ordinal": 1,
+              "text": "Great honor is due to those officers who remain true, despite the example of their treacherous associates; but the greatest honor, and most important fact of all, is the unanimous firmness of the common soldiers, and common sailors.",
+              "word_offset_start": 5479,
+              "word_offset_end": 5517,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p49_s02",
+              "sentence_ordinal": 2,
+              "text": "To the last man, so far as known, they have successfully resisted the traitorous efforts of those, whose commands, but an hour before, they obeyed as absolute",
+              "word_offset_start": 5517,
+              "word_offset_end": 5544,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p50",
+          "paragraph_ordinal": 50,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p50_s01",
+              "sentence_ordinal": 1,
+              "text": "law.",
+              "word_offset_start": 5544,
+              "word_offset_end": 5545,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p50_s02",
+              "sentence_ordinal": 2,
+              "text": "This is the patriotic instinct of the plain people.",
+              "word_offset_start": 5545,
+              "word_offset_end": 5554,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p50_s03",
+              "sentence_ordinal": 3,
+              "text": "They understand, without an argument, that destroying the government, which was made by Washington, means no good to them.",
+              "word_offset_start": 5554,
+              "word_offset_end": 5573,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p51",
+          "paragraph_ordinal": 51,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p51_s01",
+              "sentence_ordinal": 1,
+              "text": "Our popular government has often been called an experiment.",
+              "word_offset_start": 5573,
+              "word_offset_end": 5582,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p51_s02",
+              "sentence_ordinal": 2,
+              "text": "Two points in it, our people have already settled---the successful establishing, and the successful administering of it.",
+              "word_offset_start": 5582,
+              "word_offset_end": 5599,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p51_s03",
+              "sentence_ordinal": 3,
+              "text": "One still remains---its successful maintenance against a formidable [internal] attempt to overthrow it.",
+              "word_offset_start": 5599,
+              "word_offset_end": 5612,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p51_s04",
+              "sentence_ordinal": 4,
+              "text": "It is now for them to demonstrate to the world, that those who can fairly carry an election, can also suppress a rebellion---that ballots are the rightful, and peaceful, successors of bullets; and that when ballots have fairly, and constitutionally, decided, there can be no successful appeal, back to bullets; that there can be no successful appeal, except to ballots themselves, at succeeding elections.",
+              "word_offset_start": 5612,
+              "word_offset_end": 5676,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p51_s05",
+              "sentence_ordinal": 5,
+              "text": "Such will be a great lesson of peace; teaching men that what they cannot take by an election, neither can they take it by a war---teaching all, the folly of being the beginners of a war.",
+              "word_offset_start": 5676,
+              "word_offset_end": 5712,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p52",
+          "paragraph_ordinal": 52,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p52_s01",
+              "sentence_ordinal": 1,
+              "text": "Lest there be some uneasiness in the minds of candid men, as to what is to be the course of the government, towards the Southern States, after the rebellion shall have been suppressed, the Executive deems it proper to say, it will be his purpose then, as ever, to be guided by the Constitution, and the laws; and that he probably will have no different understanding of the powers, and duties of the Federal government, relatively to the rights of the States, and the people, under the Constitution, than that expressed in the inaugural address.He desires to preserve the government, that it may be administered for all, as it was administered by the men who made it.",
+              "word_offset_start": 5712,
+              "word_offset_end": 5829,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p52_s02",
+              "sentence_ordinal": 2,
+              "text": "Loyal citizens everywhere, have the right to claim this of their government; and the government has no right to withhold, or neglect it.",
+              "word_offset_start": 5829,
+              "word_offset_end": 5852,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p52_s03",
+              "sentence_ordinal": 3,
+              "text": "It is not perceived that, in giving it, there is any coercion,",
+              "word_offset_start": 5852,
+              "word_offset_end": 5864,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p53",
+          "paragraph_ordinal": 53,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p53_s01",
+              "sentence_ordinal": 1,
+              "text": "any conquest, or any subjugation, in any just sense of those terms.",
+              "word_offset_start": 5864,
+              "word_offset_end": 5876,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p54",
+          "paragraph_ordinal": 54,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p54_s01",
+              "sentence_ordinal": 1,
+              "text": "The Constitution provides, and all the States have accepted the provision, that ``The United States shall guarantee to every State in this Union a republican form of government.'' But, if a State may lawfully go out of the Union, having done so, it may also discard the republican form of government; so that to prevent its going out, is an indispensable means, to the end, of maintaining the guaranty mentioned; and when an end is lawful and obligatory, the indispensable means to it, are also lawful, and obligatory.",
+              "word_offset_start": 5876,
+              "word_offset_end": 5964,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p55",
+          "paragraph_ordinal": 55,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p55_s01",
+              "sentence_ordinal": 1,
+              "text": "It was with the deepest regret that the Executive found the duty of employing the war-power, in defence of the government, forced upon him.",
+              "word_offset_start": 5964,
+              "word_offset_end": 5988,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p55_s02",
+              "sentence_ordinal": 2,
+              "text": "He could but perform this duty, or surrender the existence of the government.",
+              "word_offset_start": 5988,
+              "word_offset_end": 6001,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p55_s03",
+              "sentence_ordinal": 3,
+              "text": "No compromise, by public servants, could, in this case, be a cure; not that compromises are not often proper, but that no popular government can long survive a marked precedent, that those who carry an election, can only save the government from immediate destruction, by giving up the main point, upon which the people gave the election.",
+              "word_offset_start": 6001,
+              "word_offset_end": 6058,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p55_s04",
+              "sentence_ordinal": 4,
+              "text": "The people themselves, and not their servants, can safely reverse their own deliberate decisions.",
+              "word_offset_start": 6058,
+              "word_offset_end": 6072,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p55_s05",
+              "sentence_ordinal": 5,
+              "text": "As a private citizen, the Executive could not have consented that these institutions shall perish; much less could he, in betrayal of so vast, and so sacred a trust, as these free people had confided to him.",
+              "word_offset_start": 6072,
+              "word_offset_end": 6109,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p55_s06",
+              "sentence_ordinal": 6,
+              "text": "He felt that he had no moral right to shrink; nor even to count the chances of his own life, in what might follow.",
+              "word_offset_start": 6109,
+              "word_offset_end": 6133,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p55_s07",
+              "sentence_ordinal": 7,
+              "text": "In full view of his great responsibility, he has, so far, done what he has deemed his duty.",
+              "word_offset_start": 6133,
+              "word_offset_end": 6151,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p55_s08",
+              "sentence_ordinal": 8,
+              "text": "You will now, according to your own judgment, perform yours.",
+              "word_offset_start": 6151,
+              "word_offset_end": 6161,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p55_s09",
+              "sentence_ordinal": 9,
+              "text": "He sincerely hopes that your views, and your action, may so accord with his, as to assure all faithful citizens, who have been disturbed in their rights, of a certain, and speedy restoration to them, under the Constitution, and the laws.",
+              "word_offset_start": 6161,
+              "word_offset_end": 6202,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p56",
+          "paragraph_ordinal": 56,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p56_s01",
+              "sentence_ordinal": 1,
+              "text": "And having thus chosen our course, without guile, and with pure purpose, let us renew our trust in God, and go forward without fear, and with manly hearts.",
+              "word_offset_start": 6202,
+              "word_offset_end": 6230,
+              "authorship_note": null,
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s01_p56_s02",
+              "sentence_ordinal": 2,
+              "text": "ABRAHAM LINCOLN",
+              "word_offset_start": 6230,
+              "word_offset_end": 6232,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s01_p57",
+          "paragraph_ordinal": 57,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s01_p57_s01",
+              "sentence_ordinal": 1,
+              "text": "July 4, 1861.",
+              "word_offset_start": 6232,
+              "word_offset_end": 6235,
+              "authorship_note": null,
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_010_s02",
+      "section_label": "annotation",
+      "section_ordinal": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_010_s02_p01",
+          "paragraph_ordinal": 1,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s02_p01_s01",
+              "sentence_ordinal": 1,
+              "text": "[1]   AD, first proof sheets with autograph revisions, second proof sheets, two copies, (1) with revisions by William H. Seward for the most part in the handwriting of Frederick W. Seward, (2) with Lincoln's final revisions, DLC-RTL.",
+              "word_offset_start": 6235,
+              "word_offset_end": 6272,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s02",
+              "sentence_ordinal": 2,
+              "text": "Although engrossed official copies of Lincoln's later Messages are in the National Archives, no official copy of the Message of July 4, 1861, has been found.",
+              "word_offset_start": 6272,
+              "word_offset_end": 6298,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s03",
+              "sentence_ordinal": 3,
+              "text": "The text reproduced here is that of the second proof containing Lincoln's final revisions, which, with the exception of minor changes in punctuation, are noted in the succeeding footnotes.",
+              "word_offset_start": 6298,
+              "word_offset_end": 6327,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s04",
+              "sentence_ordinal": 4,
+              "text": "Variants, emendations, and deletions made by Lincoln in the manuscript and on the first proof are also indicated in the footnotes.",
+              "word_offset_start": 6327,
+              "word_offset_end": 6348,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s05",
+              "sentence_ordinal": 5,
+              "text": "Minor inconsistencies in usage occurring in Lincoln's manuscript and autograph changes in the proof sheets have been made to conform with the printed proof, but Lincoln's paragraphing, punctuation and capitalization in the manuscript and autograph corrections have been retained in some cases even though not followed by the printers who set the proofs.[2]   The first paragraph revised to the present text in the manuscript, stood originally as follows: ``Having convened you on an extraordinary occasion as contemplated by the Constitution, I do not ask your attention to any ordinary subject of legislation.",
+              "word_offset_start": 6348,
+              "word_offset_end": 6440,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s06",
+              "sentence_ordinal": 6,
+              "text": "You will act on your own judgment and pleasure whether you will consider any such.''[3]   ``All'' standing in the manuscript and first proof, deleted at this point in the second proof by Seward.",
+              "word_offset_start": 6440,
+              "word_offset_end": 6473,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s07",
+              "sentence_ordinal": 7,
+              "text": "Deletion adopted by Lincoln.[4]   ``Entirely'' in the manuscript, changed by Seward in the second proof to ``generally.'' Adopted by Lincoln.[5]   ``Either beseiged or'' inserted by Seward in the second proof.",
+              "word_offset_start": 6473,
+              "word_offset_end": 6503,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s08",
+              "sentence_ordinal": 8,
+              "text": "Adopted by Lincoln.[6]   ``Perhaps ten'' inserted by Lincoln in the blank space which had stood from manuscript to second proof.[7]   ``Both in number and quality,'' in manuscript and first proof, deleted in second proof.[8]   ``Arms and ammunition,'' in the manuscript and first proof, deleted in second proof, and ``muskets and rifles'' inserted.[9]   ``These States'' in the manuscript and first proof, changed by Seward to ``them'' in second proof.",
+              "word_offset_start": 6503,
+              "word_offset_end": 6571,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s09",
+              "sentence_ordinal": 9,
+              "text": "Adopted by Lincoln.[10]   ``And'' in the manuscript and first proof, deleted at this point in the second proof by Seward.",
+              "word_offset_start": 6571,
+              "word_offset_end": 6591,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s10",
+              "sentence_ordinal": 10,
+              "text": "Deletion adopted by Lincoln.[11]   ``The officers'' in the manuscript and first proof; ``The'' deleted in the second proof by Seward.",
+              "word_offset_start": 6591,
+              "word_offset_end": 6611,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s11",
+              "sentence_ordinal": 11,
+              "text": "Deletion adopted by Lincoln.[12]   This sentence was slightly revised by Lincoln from Seward's suggestion in the second proof.",
+              "word_offset_start": 6611,
+              "word_offset_end": 6629,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s12",
+              "sentence_ordinal": 12,
+              "text": "The manuscript and first proof read as follows: ``Also the forms of establishing a federal government of these States, with departments, and provisions, similar to our own, had been gone through; and this supposed Federal government, under the name and style of `The Confederate States of America,' had assumed national independence, and was suing for it's recognition by the powers of the earth.''[13]   ``At the request of the executive,'' in the manuscript, replaced by ``On reflection,'' in first proof.[14]   ``Informed the executive,'' in the manuscript, replaced by ``stated,'' in first proof.[15]   The following sentence deleted from the manuscript at this point: ``In fact, General Scott advised that this should be done at once.''[16]   ``The executive,'' in the manuscript, changed to ``It was'' in first proof.[17]   ``Under the circumstances'' inserted by Seward and adopted by Lincoln in the second proof.[18]   ``Of independence,'' in the manuscript and first proof, deleted at this point by Seward.",
+              "word_offset_start": 6629,
+              "word_offset_end": 6782,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s13",
+              "sentence_ordinal": 13,
+              "text": "Deletion adopted by Lincoln.[19]   ``The administration hesitated.'' in the manuscript, changed in first proof to the sentence in the text.[20]   The portion in parentheses appears in the manuscript as a revision of the following: ``and of the existence of which the present administration had not been notified.''[21]   ``But starving'' changed in the manuscript to ``and hungry.''[22]   ``On that occasion'' inserted by Seward and adopted by Lincoln in the second proof.[23]   ``Aggress upon'' changed in the manuscript to ``assail.''[24]   ``Mystification'' changed in the manuscript to ``ingenious sophistry.''[25]   ``Constitutional republic, or a'' inserted in second proof.[26]   ``The administration had no choice left,'' in the manuscript, changed to the present text in first proof.[27]   ``Military power'' changed in the manuscript to ``war-power.''[28]   ``To the administration,'' in the manuscript, deleted at this point in first proof.[29]   ``Except patriotic Delaware'' inserted by Seward and ``except Delaware,'' adopted by Lincoln in second proof.[30]   ``Others'' inserted in second proof.[31]   ``United States service'' changed in the manuscript to ``government service.''[32]   ``In'' inserted in second proof.[33]   ``Were apparantly, quite against it,'' in the manuscript and first proof replaced in second proof with the conclusion of the sentence as reproduced here.[34]   ``Nearly all the'' changed in the manuscript to ``many.''[35]   ``They, however, submitted,'' in the manuscript, changed in first proof to ``Although they submitted.''[36]   ``Then'' in the manuscript, omitted in first proof, and inserted in the second proof.[37]   Period and new sentence beginning here in manuscript, changed in first proof to the present text.[38]   ``Was,'' in the manuscript and first proof, changed in the second proof to ``were.''[39]   ``Confederate'' changed in the manuscript to ``seceded.''[40]   ``Confederate States of America,'' in the manuscript and first proof, changed to ``Confederate States'' by Seward and adopted by Lincoln in second proof.[41]   The sentence ``Those citizens are Virginia,'' in the manuscript, changed in first proof to the sentence of the present text.",
+              "word_offset_start": 6782,
+              "word_offset_end": 7090,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s14",
+              "sentence_ordinal": 14,
+              "text": "Three additional sentences in Lincoln's autograph appear immediately following this sentence inserted at bottom of page ten of first proof, but were deleted in favor of the full paragraph autograph insertion (see note 42) at the same point.",
+              "word_offset_start": 7090,
+              "word_offset_end": 7128,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s15",
+              "sentence_ordinal": 15,
+              "text": "The deleted sentences are as follows: ``Suppose two respectable gentlemen, both of whom have sworn to support the constitution of the United States, shall each, at the same time, claim to be Governor of Virginia.",
+              "word_offset_start": 7128,
+              "word_offset_end": 7163,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s16",
+              "sentence_ordinal": 16,
+              "text": "Which of the two should this government recognize?",
+              "word_offset_start": 7163,
+              "word_offset_end": 7171,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s17",
+              "sentence_ordinal": 17,
+              "text": "Him who disregards, or him who keeps, his oath, in this respect?''[42]   This paragraph, not in the manuscript, occurs in first proof as an autograph page inserted.[43]   ``Consummated,'' in the autograph insertion in first proof, changed in the second proof to ``completed.''[44]   ``While they may not all be traitors who have favored it, the thing is, in fact, treason in disguise,'' in the autograph insertion in first proof, changed by Seward to the reading adopted by Lincoln in the second proof, Lincoln adding the word ``doubtless'' to Seward's revision.",
+              "word_offset_start": 7171,
+              "word_offset_end": 7260,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s18",
+              "sentence_ordinal": 18,
+              "text": "``Treason'' is amended to ``very injurious'' in the Congressional Globe Appendix, which is followed by Nicolay and Hay, suggesting further revision before release for publication.[45]   Seward deleted, and Lincoln adopted in second proof, the sentence standing next in the manuscript and first proof, as follows: ``On more mature reflection, with observation on current events, it was [the administration] concluded that the measures adopted were inadequate to the occasion, both by reason of the very limited time the militia would be held to serve, and the general insufficiency of numbers in the regular land and naval forces.'' Lincoln had changed ``the administration concluded,'' appearing in the manuscript, to ``it was concluded'' in first proof.[46]   ``Accordingly another call was made for---volunteers,'' in the manuscript and first proof, changed by Seward to the present reading adopted in the second proof.[47]   Two short paragraphs as revised in the manuscript and first proof are deleted at this point in the second proof by Seward.",
+              "word_offset_start": 7260,
+              "word_offset_end": 7419,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p01_s19",
+              "sentence_ordinal": 19,
+              "text": "Deletion adopted by Lincoln.They are as follows:",
+              "word_offset_start": 7419,
+              "word_offset_end": 7426,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s02_p02",
+          "paragraph_ordinal": 2,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s02_p02_s01",
+              "sentence_ordinal": 1,
+              "text": "``Whether the proceedings in the nature of blockade, be technically a blockade, scarcely needs to be considered; since foreign nations only claim what we concede, that, as between them and us, the strict law of blockade shall apply.",
+              "word_offset_start": 7426,
+              "word_offset_end": 7464,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        },
+        {
+          "paragraph_id": "doc_010_s02_p03",
+          "paragraph_ordinal": 3,
+          "sentences": [
+            {
+              "sentence_id": "doc_010_s02_p03_s01",
+              "sentence_ordinal": 1,
+              "text": "``The attention of Congress is sought in aid of this means for suppressing the insurrection, as the one affording at once, the greatest efficiency, and least danger to life, of any at the control of the government.''[48]   ``I felt it my duty,'' in the manuscript, revised in first proof to ``it was considered a duty.''[49]   ``At my verbal request, as well as by the Generals own inclination, this authority has been exercised,'' in the manuscript, revised in first proof to ``This authority has purposely been exercised.''[50]   The remainder of this sentence, the next two sentences, and the beginning of the next, were revised in first proof to the present text.",
+              "word_offset_start": 7464,
+              "word_offset_end": 7574,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s02",
+              "sentence_ordinal": 2,
+              "text": "In the manuscript they are as follows: ``and I have been reminded from a high quarter that one who is sworn to `take care that the laws be faithfully executed' should not himself be one to violate them.",
+              "word_offset_start": 7574,
+              "word_offset_end": 7612,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s03",
+              "sentence_ordinal": 3,
+              "text": "[``So I think'' deleted in the manuscript.] Of course I gave some consideration to the questions of power, and propriety, before I acted in this matter.",
+              "word_offset_start": 7612,
+              "word_offset_end": 7638,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s04",
+              "sentence_ordinal": 4,
+              "text": "The whole of the laws which I was sworn to take care that they be faithfully executed, were being resisted, and failing to be executed, in nearly one third of the states.",
+              "word_offset_start": 7638,
+              "word_offset_end": 7670,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s05",
+              "sentence_ordinal": 5,
+              "text": "Must I have allowed them,'' etc.[51]   In the manuscript the remainder of this sentence originally read that ``more rogues than honest men find shelter under it, should, to a very limited extent, be violated?'' This was first revised to read as follows: ``that practically more of the guilty than [of] the innocent, find shelter under it,'' etc. The second revision on the manuscript stands in the first proof and thereafter, except for the insertion ``of'' in first proof as indicated in brackets.[52]   ``Violated,'' in the first proof, changed by Seward in the second proof to ``broken.'' Not adopted by Lincoln.[53]   This and the next two sentences inserted in first proof in Lincoln's autograph revised three sentences in the manuscript which read as follows: ``Even in such a case I should consider my official oath broken if I should allow the government to be overthrown, when I might think the disregarding the single law would tend to preserve it.",
+              "word_offset_start": 7670,
+              "word_offset_end": 7828,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s06",
+              "sentence_ordinal": 6,
+              "text": "But, in this case I was not, in my own judgment, driven to this ground.",
+              "word_offset_start": 7828,
+              "word_offset_end": 7843,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s07",
+              "sentence_ordinal": 7,
+              "text": "In my opinion I violated no law.''[54]   ``I decided,'' in the manuscript, revised to ``It was decided'' in first proof.[55]   ``Of habeas corpus,'' in the manuscript and first proof, deleted in second proof.[56]   ``Which I authorized,'' in the manuscript, revised to ``which was authorized,'' in first proof.[57]   ``Plainly was made'' in the manuscript, revised to ``was plainly made'' in first proof.[58]   ``I can not bring myself to believe that the framers of that instrument,'' in the manuscript, revised to the present text in first proof.[59]   ``That'' in first proof, deleted in second proof.[60]   This sentence is inserted in Lincoln's autograph in first proof, replacing the following, in the manuscript: ``I enter upon no more extended argument; as an opinion, at some length, will be presented by the Attorney General.''[61]   ``I submit,'' in the manuscript, revised to ``is submitted'' in first proof.[62]   The remainder of this sentence is inserted in second proof by Seward and adopted by Lincoln, with minor changes in punctuation, in place of the following in the manuscript and first proof: ``he finds no cause of complaint against the present course of any foreign power, upon this subject.''[63]   ``I now ask,'' in the manuscript, revised to ``It is now recommended'' in first proof.[64]   The remainder of this sentence is revised to its present text in the second proof from the following wording in the manuscript and first proof: ``that you authorize to be applied to the work at least --- hundred thousand men, and three hundred millions of dollars.'' Seward had inserted ``if necessary'' following ``work'' and ``4'' in the blank space.",
+              "word_offset_start": 7843,
+              "word_offset_end": 8107,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s08",
+              "sentence_ordinal": 8,
+              "text": "Lincoln adopted only the latter suggestion.[65]   ``Less than one twelfth,'' in the manuscript and first proof, changed in second proof to ``about one tenth.''[66]   ``Apparently'' inserted in first proof.[67]   ``Thirtieth,'' in the manuscript and first proof, changed in second proof to ``twentythird.''[68]   ``Are,'' in the manuscript, changed to ``seem'' in first proof.[69]   ``It will cost,'' in the manuscript and first proof at the end of this sentence, deleted in second proof.[70]   This sentence was inserted in the manuscript in place of the following: ``The War Department has great trouble to avoid receiving troops faster than it can provide them.'' Although Lincoln kept ``provide them'' in his revision, the printer made it ``provide for them,'' in second proof.[71]   ``Of'' not in the manuscript, but printed in first proof and kept in second proof.[72]   ``Morals'' in the manuscript changed to ``mind.''[73]   ``A single,'' in the manuscript, changed to ``an'' in first proof.[74]   ``Was, and,'' standing at this point in the manuscript and first proof, deleted in second proof.",
+              "word_offset_start": 8107,
+              "word_offset_end": 8273,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s09",
+              "sentence_ordinal": 9,
+              "text": "Italics in this sentence were added in first proof.[75]   ``The'' not in the manuscript, but is in first proof.[76]   ``Then'' in the manuscript, changed to ``at the time'' in three pages of manuscript revision which replaced page eighteen of the first proof.[77]   ``Of power'' appears in manuscript revision of first proof, but not in the original manuscript.[78]   ``I believe'' in the original manuscript, changed to ``is believed'' in the autograph revision of page eighteen in first proof.[79]   Four sentences beginning here are not in the manuscript but appear in the autograph revision of page eighteen of the first proof.[80]   ``It can only be against law, and by revolution,'' in the manuscript, changed to ``they can only do so, against law, and by revolution'' in autograph revision of page eighteen in first proof.[81]   This sentence and the next do not appear in the manuscript, but are in the autograph revision of page eighteen of first proof.[82]   The sentence appearing next in the manuscript pages inserted to replace page eighteen of first proof, is deleted in second proof: ``As states, the Union gave birth to them.'' This sentence was itself a revision of a longer sentence in the original manuscript: ``As states, they were born into the Union, not one of them, except Texas, ever having had a State Constitution, independent of the Union.''[83]   The remainder of this paragraph and the next paragraph are as revised in first proof.",
+              "word_offset_start": 8273,
+              "word_offset_end": 8510,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s10",
+              "sentence_ordinal": 10,
+              "text": "The manuscript version is as follows: ``Unquestionably they have the powers reserved to them by the constitution; but in those, are not included all conceiveable powers, however mischievous or destructive; but such only, as were known in the world, at the time, as governmental powers; and surely a power to destroy the government itself, was not intended to be among these.",
+              "word_offset_start": 8510,
+              "word_offset_end": 8571,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s11",
+              "sentence_ordinal": 11,
+              "text": "And if not intended, it has no existence.``The right of revolution, is never a legal right.",
+              "word_offset_start": 8571,
+              "word_offset_end": 8587,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s12",
+              "sentence_ordinal": 12,
+              "text": "The very term implies the breaking, and not the abiding by, organic law.",
+              "word_offset_start": 8587,
+              "word_offset_end": 8600,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s13",
+              "sentence_ordinal": 13,
+              "text": "At most, it is but a moral right, when exercised for a morally justifiable cause.",
+              "word_offset_start": 8600,
+              "word_offset_end": 8615,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s14",
+              "sentence_ordinal": 14,
+              "text": "When exercised without such a cause revolution is no right, but simply a wicked exercise of physical power.''[84]   ``For them'' inserted in second proof.[85]   ``Those,'' in the manuscript pages replacing page eighteen in first proof, changed to ``these'' in second proof.[86]   ``I am combatting the position that secession is consistent with the constitution---is peaceful, and lawful,'' in the manuscript, revised to the present text in first proof.[87]   ``The creditors,'' in the manuscript and first proof, changed to ``creditors'' in second proof.[88]   ``Are to'' in the manuscript, changed to ``can'' in first proof.[89]   ``In such case, shall we find any more lenders of money, however much we may need them?'' appearing at this point in the manuscript, deleted in first proof.[90]   The remainder of this sentence and the next two are revised in first proof and second proof to the present text.",
+              "word_offset_start": 8615,
+              "word_offset_end": 8756,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s15",
+              "sentence_ordinal": 15,
+              "text": "In the manuscript they appear as follows: ``they have departed from ours, in this respect, or they have not.",
+              "word_offset_start": 8756,
+              "word_offset_end": 8775,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s16",
+              "sentence_ordinal": 16,
+              "text": "If they have departed from ours, they thereby admit that ours ought to be as they have made theirs, cutting off the right of secession.",
+              "word_offset_start": 8775,
+              "word_offset_end": 8800,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s17",
+              "sentence_ordinal": 17,
+              "text": "If they have not departed from ours, by their own theoretic and practical construction of ours, which they copy in this respect, they show that they will secede from one another, whenever they shall find it the easiest way of settling their debts, or effecting any other selfish, or unjust object.''[91]   ``They will,'' in first proof, replaced in the second proof with ``to be consistent they must.''[92]   ``Indeed'' inserted in first proof.[93]   ``Ever elevating them above the rights of majorities,'' appearing in the manuscript at this point, deleted in first proof.[94]   In the manuscript and first proof the beginning of this sentence reads, ``The dread of their existence is that power. . . . '' etc., changed in second proof to the present text.[95]   ``Perhaps'' inserted by Seward and adopted by Lincoln in second proof.[96]   ``That'' inserted in first proof.[97]   ``Say,'' in the manuscript, changed to ``affirm'' in first proof.[98]   ``Demonstrative of'' as misprinted in first proof, corrected by Lincoln to ``demonstrating.''[99]   ``And even others, more decidedly for the Union, in sentiment, would be carried the same way,'' appearing at this point in the manuscript, deleted in first proof.[100]   ``Nor do I know that,'' in the manuscript and first proof, changed by Seward to ``I do not say that,'' and revised by Lincoln in second proof to the present text.[101]   ``Why this?'' in the manuscript, changed to ``Why?'' in first proof.[102]   ``Played,'' in the manuscript and first proof, changed to ``proved'' in second proof.[103]   ``Very,'' in the manuscript and first proof, deleted in second proof.[104]   ``Has,'' in the manuscript and first proof, changed to ``is known to have'' in second proof.[105]   ``Greater'' in the manuscript and first proof, changed in second proof to ``Great.''[106]   ``So far as known'' inserted in second proof.[107]   ``The,'' in the manuscript and first proof, deleted in second proof.[108]   ``The,'' in the manuscript and first proof, changed to ``it's'' in second proof.[109]   ``Of it,'' at this point in the manuscript and first proof, deleted in second proof.[110]   ``Internal'' inserted at this point as printed in the Congressional Globe Appendix which is followed by Nicolay and Hay.[111]   ``That those who can not carry an election, can not destroy the government,'' appearing at this point in the manuscript, deleted in first proof.[112]   The remainder of this sentence inserted in first proof.[113]   ``Relative,'' in the manuscript and first proof, changed to ``relatively'' in second proof.[114]   The manuscript ends at this point.",
+              "word_offset_start": 8800,
+              "word_offset_end": 9202,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s18",
+              "sentence_ordinal": 18,
+              "text": "The remainder of the Message was composed after first proof had been set.[115]   ``Which any honest man should regret,'' which concludes this sentence in Lincoln's autograph insertion at this point in the first proof, is changed by Seward in the second proof to ``or any deprivation of any citizen of any right of life, liberty, or pursuit of happiness, guaranteed to him by the Constitution or the laws of the land.'' Lincoln did not follow Seward's revision, but changed the conclusion of the sentence to the present text, and added the next paragraph following.[116]   This sentence and the next are revised in the autograph pages of first proof to the present text.",
+              "word_offset_start": 9202,
+              "word_offset_end": 9314,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s19",
+              "sentence_ordinal": 19,
+              "text": "As first written they were as follows: ``No compromise could, in his judgment, be a cure; but, at best, could only be a little more lingering death to our popular institutions.",
+              "word_offset_start": 9314,
+              "word_offset_end": 9345,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            },
+            {
+              "sentence_id": "doc_010_s02_p03_s20",
+              "sentence_ordinal": 20,
+              "text": "No popular government can long survive a precedent, that those who have carried an election, must, on pain of death to the government itself, surrender the point upon which the people gave the election.''[117]   ``He,'' in the autograph pages of revision at the end of the first proof, changed to ``the Executive'' in second proof.[118]   ``In the justness of God'' as first written, revised to ``in God'' in the autograph pages of first proof.",
+              "word_offset_start": 9345,
+              "word_offset_end": 9419,
+              "authorship_note": "editorial_apparatus",
+              "metaphor_instances": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pipeline_log": [
+    {
+      "stage": 3,
+      "agent": "scaffold",
+      "date": "2026-04-28"
+    }
+  ]
+}
