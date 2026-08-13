@@ -74,6 +74,24 @@ website:
         text: Stage 4H/4J Codebook Notes
       - href: corpus_index.qmd
         text: Corpus
+      - section: "Corpus Design (v4)"
+        contents:
+          - href: docs/corpus/corpus-expansion-rationale.md
+            text: Expansion Rationale
+          - href: docs/corpus/corpus-tier-definitions.md
+            text: Tier Definitions
+          - href: docs/corpus/corpus-selection-criteria.md
+            text: Selection Criteria
+          - href: docs/corpus/corpus-v4-core-inventory.md
+            text: V4 Core Inventory
+          - href: docs/corpus/corpus-v4-validation-inventory.md
+            text: V4 Validation Inventory
+          - href: docs/corpus/corpus-v4-coverage-report.md
+            text: V4 Coverage Report
+          - href: docs/corpus/corpus-v4-expansion-impact-report.md
+            text: V4 Expansion Limits
+          - href: docs/corpus/corpus-v4-reliability-sampling-update.md
+            text: V4 Reliability Sampling
       - href: data_reproducibility.md
         text: Data / Reproducibility
       - href: research_appendix.md

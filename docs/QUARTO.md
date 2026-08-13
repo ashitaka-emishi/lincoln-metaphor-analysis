@@ -12,14 +12,15 @@ The top navigation contains five destinations:
 | Findings | Evidence-backed findings and final conclusions |
 | Analysis | Corpus-level analysis and cluster-profile hub |
 | Method | Public method, research design, and reproducibility |
-| Corpus | Primary texts, metadata controls, and document notes |
+| Corpus | Primary texts, metadata controls, document notes, and v4 corpus design |
 
 The global sidebar intentionally contains only the principal reader-facing pages. Detailed protocols, audit pages, schemas, publication records, and project history remain rendered and searchable through `research_appendix.md`.
 
-Detail pages use hubs rather than global navigation:
+Detail pages use hubs and focused sidebar groups rather than flattening every rendered page into global navigation:
 
 - `analysis_overview.md` links the six cluster profiles and major analysis layers.
-- `corpus_index.qmd` links each source text and its document-level close-reading notes.
+- `corpus_index.qmd` links each source text, its document-level close-reading notes, and the v4 core inventory, coverage report, and limitation pages.
+- The `Corpus Design (v4)` sidebar group distinguishes corpus architecture, inventories, coverage, and expansion-limit pages from the methodology pages.
 - `research_appendix.md` links protocols, audits, benchmark details, publication records, and project history.
 
 Adding a rendered page does not automatically justify adding it to the sidebar. Prefer linking new detail pages from the relevant hub; reserve primary navigation for destinations that orient a general scholarly reader.
